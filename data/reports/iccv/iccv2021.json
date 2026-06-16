@@ -1,0 +1,21 @@
+{
+  "schema_version": "0.1",
+  "venue_key": "iccv",
+  "year": 2021,
+  "source": "cvf",
+  "baseline": "papercopilot",
+  "generated_at": "2026-06-16T18:57:02Z",
+  "status": "ok",
+  "min_count_ratio": 0.95,
+  "counts": {
+    "ours": 1612,
+    "baseline": 1612,
+    "title_overlap": 1612,
+    "count_ratio": 1.0,
+    "overlap_ratio": 1.0
+  },
+  "samples": {
+    "missing_from_ours": [],
+    "extra_in_ours": []
+  }
+}

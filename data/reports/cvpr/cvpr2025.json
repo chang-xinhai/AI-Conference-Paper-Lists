@@ -1,0 +1,23 @@
+{
+  "schema_version": "0.1",
+  "venue_key": "cvpr",
+  "year": 2025,
+  "source": "cvf",
+  "baseline": "papercopilot",
+  "generated_at": "2026-06-16T18:56:41Z",
+  "status": "ok",
+  "min_count_ratio": 0.95,
+  "counts": {
+    "ours": 2871,
+    "baseline": 2872,
+    "title_overlap": 2871,
+    "count_ratio": 0.9997,
+    "overlap_ratio": 0.9997
+  },
+  "samples": {
+    "missing_from_ours": [
+      "random conditioning with distillation for data-efficient diffusion model compression"
+    ],
+    "extra_in_ours": []
+  }
+}

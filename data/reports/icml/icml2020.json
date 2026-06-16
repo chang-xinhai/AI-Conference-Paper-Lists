@@ -1,0 +1,25 @@
+{
+  "schema_version": "0.1",
+  "venue_key": "icml",
+  "year": 2020,
+  "source": "pmlr",
+  "baseline": "papercopilot",
+  "generated_at": "2026-06-16T18:58:27Z",
+  "status": "ok",
+  "min_count_ratio": 0.95,
+  "counts": {
+    "ours": 1084,
+    "baseline": 1087,
+    "title_overlap": 1084,
+    "count_ratio": 0.9972,
+    "overlap_ratio": 0.9972
+  },
+  "samples": {
+    "missing_from_ours": [
+      "generalization via derandomization",
+      "identifying the reward function by anchor actions",
+      "influence diagram bandits: variational thompson sampling for structured bandit problems"
+    ],
+    "extra_in_ours": []
+  }
+}

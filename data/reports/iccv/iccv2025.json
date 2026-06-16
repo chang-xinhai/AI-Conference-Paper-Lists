@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.1",
+  "venue_key": "iccv",
+  "year": 2025,
+  "source": "cvf",
+  "baseline": "papercopilot",
+  "generated_at": "2026-06-16T18:57:09Z",
+  "status": "ok",
+  "min_count_ratio": 0.95,
+  "counts": {
+    "ours": 2701,
+    "baseline": 2728,
+    "title_overlap": 2701,
+    "count_ratio": 0.9901,
+    "overlap_ratio": 0.9901
+  },
+  "samples": {
+    "missing_from_ours": [
+      "addressing attribute leakage in text embeddings for image editing with diffusion models",
+      "affect: aligning fisheye feature embeddings using calibration tokens for monocular depth estimation",
+      "agent-free breast cancer diagnosis and prognosis via latent diffusion enhancement",
+      "artflow: bridging artworks through time with flow",
+      "carp: coarse-to-fine autoregressive prediction for visuomotor policy learning",
+      "dissecting clip: decomposition with a schur complement-based approach",
+      "dream-to-real: leveraging image generation for single-view volumetric reconstruction",
+      "efficient 3d gaussian splatting with compressed model training",
+      "egomlvm: an egocentric multitask large video model",
+      "generalizable 4d human object interaction synthesis by composing interaction primitives",
+      "inter inertial poser: multi-human motion tracking from sparse inertial sensors and pairwise inter-sensor distances",
+      "iterative prompt relocation for distribution-adaptive visual prompt tuning",
+      "model explainability with localized soft completeness",
+      "multimodal representation for multisensory video simulation",
+      "personacraft: personalized full-body image synthesis for multiple identities from single references using 3d-model-conditioned diffusion",
+      "probabilistic point clouds from single-photon lidars for robust 3d inference",
+      "prototype guided backdoor defense",
+      "pseudo-interaction: a hybrid-tower paradigm for text-to-video retrieval",
+      "sa-mae: a sensor-agnostic masked autoencoder for remote sensing image representation learning",
+      "self-equilibrated online data balancing for enhanced concept composition in generation models",
+      "shortv: freezing visual tokens in ineffective layers of multimodal large language models",
+      "simview: long-term autoregressive scene generation with surfel-indexed memory of views",
+      "sparsevila: query-aware visual sparsity should happen at decoding",
+      "towards physically plausible video generation via vlm planning",
+      "towards video turing test: video comprehension and reasoning benchmark with complex visual narratives",
+      "trackverse: a large-scale dataset of object tracks for visual representation learning",
+      "videoads: where opensource foundation models beat gpt-4o & gemini-1.5 pro"
+    ],
+    "extra_in_ours": []
+  }
+}

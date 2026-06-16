@@ -1,0 +1,25 @@
+{
+  "schema_version": "0.1",
+  "venue_key": "cvpr",
+  "year": 2022,
+  "source": "cvf",
+  "baseline": "papercopilot",
+  "generated_at": "2026-06-16T18:56:30Z",
+  "status": "ok",
+  "min_count_ratio": 0.95,
+  "counts": {
+    "ours": 2074,
+    "baseline": 2077,
+    "title_overlap": 2074,
+    "count_ratio": 0.9986,
+    "overlap_ratio": 0.9986
+  },
+  "samples": {
+    "missing_from_ours": [
+      "learning the degradation distribution for blind image super-resolution",
+      "self-supervised predictive learning: a negative-free method for sound source localization in visual scenes",
+      "transferable sparse adversarial attack"
+    ],
+    "extra_in_ours": []
+  }
+}

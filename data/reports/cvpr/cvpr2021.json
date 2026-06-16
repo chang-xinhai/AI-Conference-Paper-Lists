@@ -1,0 +1,23 @@
+{
+  "schema_version": "0.1",
+  "venue_key": "cvpr",
+  "year": 2021,
+  "source": "cvf",
+  "baseline": "papercopilot",
+  "generated_at": "2026-06-16T18:56:27Z",
+  "status": "ok",
+  "min_count_ratio": 0.95,
+  "counts": {
+    "ours": 1660,
+    "baseline": 1661,
+    "title_overlap": 1660,
+    "count_ratio": 0.9994,
+    "overlap_ratio": 0.9994
+  },
+  "samples": {
+    "missing_from_ours": [
+      "believe it or not: counterfactual bias manipulation in visual question answering"
+    ],
+    "extra_in_ours": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "0.1",
+  "venue_key": "rss",
+  "year": 2020,
+  "source": "rss",
+  "baseline": "papercopilot",
+  "generated_at": "2026-06-16T18:59:05Z",
+  "status": "ok",
+  "min_count_ratio": 0.95,
+  "counts": {
+    "ours": 103,
+    "baseline": 103,
+    "title_overlap": 103,
+    "count_ratio": 1.0,
+    "overlap_ratio": 1.0
+  },
+  "samples": {
+    "missing_from_ours": [],
+    "extra_in_ours": []
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": "0.1",
+  "venue_key": "icml",
+  "year": 2021,
+  "source": "pmlr",
+  "baseline": "papercopilot",
+  "generated_at": "2026-06-16T18:58:29Z",
+  "status": "ok",
+  "min_count_ratio": 0.95,
+  "counts": {
+    "ours": 1183,
+    "baseline": 1184,
+    "title_overlap": 1183,
+    "count_ratio": 0.9992,
+    "overlap_ratio": 0.9992
+  },
+  "samples": {
+    "missing_from_ours": [
+      "defense against backdoor attacks via robust covariance estimation"
+    ],
+    "extra_in_ours": []
+  }
+}

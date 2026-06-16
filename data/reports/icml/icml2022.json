@@ -1,0 +1,25 @@
+{
+  "schema_version": "0.1",
+  "venue_key": "icml",
+  "year": 2022,
+  "source": "pmlr",
+  "baseline": "papercopilot",
+  "generated_at": "2026-06-16T18:58:32Z",
+  "status": "ok",
+  "min_count_ratio": 0.95,
+  "counts": {
+    "ours": 1233,
+    "baseline": 1233,
+    "title_overlap": 1232,
+    "count_ratio": 1.0,
+    "overlap_ratio": 0.9992
+  },
+  "samples": {
+    "missing_from_ours": [
+      "adversarially trained neural representations are already as robust as biological neural representations"
+    ],
+    "extra_in_ours": [
+      "adversarially trained neural representations may already be as robust as corresponding biological neural representations"
+    ]
+  }
+}

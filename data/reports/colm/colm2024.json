@@ -1,0 +1,21 @@
+{
+  "schema_version": "0.1",
+  "venue_key": "colm",
+  "year": 2024,
+  "source": "openreview",
+  "baseline": "papercopilot",
+  "generated_at": "2026-06-16T18:55:52Z",
+  "status": "ok",
+  "min_count_ratio": 0.95,
+  "counts": {
+    "ours": 299,
+    "baseline": 299,
+    "title_overlap": 299,
+    "count_ratio": 1.0,
+    "overlap_ratio": 1.0
+  },
+  "samples": {
+    "missing_from_ours": [],
+    "extra_in_ours": []
+  }
+}

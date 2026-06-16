@@ -1,0 +1,21 @@
+{
+  "schema_version": "0.1",
+  "venue_key": "iclr",
+  "year": 2024,
+  "source": "openreview",
+  "baseline": "papercopilot",
+  "generated_at": "2026-06-16T18:57:50Z",
+  "status": "ok",
+  "min_count_ratio": 0.95,
+  "counts": {
+    "ours": 2260,
+    "baseline": 2260,
+    "title_overlap": 2260,
+    "count_ratio": 1.0,
+    "overlap_ratio": 1.0
+  },
+  "samples": {
+    "missing_from_ours": [],
+    "extra_in_ours": []
+  }
+}

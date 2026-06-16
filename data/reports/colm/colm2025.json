@@ -1,0 +1,25 @@
+{
+  "schema_version": "0.1",
+  "venue_key": "colm",
+  "year": 2025,
+  "source": "openreview",
+  "baseline": "papercopilot",
+  "generated_at": "2026-06-16T18:55:54Z",
+  "status": "ok",
+  "min_count_ratio": 0.95,
+  "counts": {
+    "ours": 418,
+    "baseline": 418,
+    "title_overlap": 417,
+    "count_ratio": 1.0,
+    "overlap_ratio": 0.9976
+  },
+  "samples": {
+    "missing_from_ours": [
+      "noveltybench: evaluating creativity and diversity in language models"
+    ],
+    "extra_in_ours": [
+      "noveltybench: evaluating language models for humanlike diversity"
+    ]
+  }
+}

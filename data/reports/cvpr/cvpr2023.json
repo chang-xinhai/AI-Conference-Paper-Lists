@@ -1,0 +1,28 @@
+{
+  "schema_version": "0.1",
+  "venue_key": "cvpr",
+  "year": 2023,
+  "source": "cvf",
+  "baseline": "papercopilot",
+  "generated_at": "2026-06-16T18:56:34Z",
+  "status": "ok",
+  "min_count_ratio": 0.95,
+  "counts": {
+    "ours": 2353,
+    "baseline": 2359,
+    "title_overlap": 2353,
+    "count_ratio": 0.9975,
+    "overlap_ratio": 0.9975
+  },
+  "samples": {
+    "missing_from_ours": [
+      "clothing-change feature augmentation for person re-identification",
+      "deltaedit: exploring text-free training for text-driven image manipulation",
+      "riddle: reversible and diversified de-identification with latent encryptor",
+      "semantic prompt for few-shot image recognition",
+      "videofusion: decomposed diffusion models for high-quality video generation",
+      "vision transformer with super token sampling"
+    ],
+    "extra_in_ours": []
+  }
+}
