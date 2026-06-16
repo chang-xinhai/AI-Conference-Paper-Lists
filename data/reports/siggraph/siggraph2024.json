@@ -4,16 +4,17 @@
   "year": 2024,
   "source": "siggraph",
   "baseline": "papercopilot",
-  "generated_at": "2026-06-16T21:21:26Z",
+  "generated_at": "2026-06-16T22:00:53Z",
   "status": "ok",
   "min_count_ratio": 0.95,
   "counts": {
-    "ours": 817,
+    "ours": 818,
     "baseline": 279,
     "title_overlap": 279,
-    "count_ratio": 2.9283,
+    "count_ratio": 2.9319,
     "overlap_ratio": 1.0
   },
+  "known_baseline_issues": [],
   "samples": {
     "missing_from_ours": [],
     "extra_in_ours": [

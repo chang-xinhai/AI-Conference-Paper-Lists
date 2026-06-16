@@ -1,0 +1,30 @@
+{
+  "schema_version": "0.1",
+  "issues": {
+    "iclr2026": [
+      {
+        "id": "papercopilot-openreview-title-snapshot-drift",
+        "baseline": "papercopilot",
+        "reason": "The official OpenReview records have current titles while the Paper Copilot snapshot contains earlier or alternate title revisions; counts are nearly identical.",
+        "examples": [
+          "A Tale of Two Smoothness Notions: Adaptive Optimizers and Non-Euclidean Descent",
+          "AEGIS: Automated Error Generation and Identification for Multi-Agent Systems",
+          "A Universal Compression Theory: Lottery Ticket Hypothesis and Superpolynomial Scaling Laws"
+        ]
+      }
+    ],
+    "siggraphasia2020": [
+      {
+        "id": "papercopilot-truncated-and-renamed-titles",
+        "baseline": "papercopilot",
+        "reason": "Paper Copilot contains truncated or alternate SIGGRAPH Asia 2020 titles while the official ACM SIGGRAPH History Archives and Crossref records contain complete titles.",
+        "examples": [
+          "Data-driven",
+          "Poster",
+          "Simulation, Modeling and",
+          "Frequency-Domain Fluid Guiding"
+        ]
+      }
+    ]
+  }
+}

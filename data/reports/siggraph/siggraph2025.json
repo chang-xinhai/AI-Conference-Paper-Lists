@@ -4,33 +4,21 @@
   "year": 2025,
   "source": "siggraph",
   "baseline": "papercopilot",
-  "generated_at": "2026-06-16T21:21:26Z",
+  "generated_at": "2026-06-16T22:01:03Z",
   "status": "ok",
   "min_count_ratio": 0.95,
   "counts": {
-    "ours": 834,
+    "ours": 845,
     "baseline": 406,
-    "title_overlap": 391,
-    "count_ratio": 2.0542,
-    "overlap_ratio": 0.9631
+    "title_overlap": 404,
+    "count_ratio": 2.0813,
+    "overlap_ratio": 0.9951
   },
+  "known_baseline_issues": [],
   "samples": {
     "missing_from_ours": [
-      "a closest point method for pdes on manifolds with interior boundary conditions for geometry processing",
-      "advancing gpu ipc for stiff affine deformable simulation",
-      "c5d sequential continuous convex collision detection using cone casting",
-      "damo a deep solver for arbitrary marker configuration in optical motion capture",
-      "gbake baking 3d gaussian splats into reflection probes",
       "hybrid tours a clip based system for",
-      "miso a dsl for robust and efficient minimize and solve problems",
-      "monte carlo pde simulation in participating media",
-      "nam neural adjoint maps for refinement of shape correspondences",
-      "restyle3d scene level appearance transfer with semantic correspondences",
-      "rna relightable neural assets",
-      "stable makeup when real world makeup transfer meets diffusion model",
-      "synchronized tracing of primitive based implicit volumes",
-      "unified pressure surface tension and friction for sph fluids",
-      "you can grow here a therapeutic vr journey for anxiety management"
+      "rna relightable neural assets"
     ],
     "extra_in_ours": [
       "a bottom up approach to intelligence",
@@ -102,7 +90,7 @@
       "c 5 d sequential continuous convex collision detection using cone casting",
       "can any model be fabricated inverse operation based planning for hybrid additive subtractive manufacturing",
       "candice",
-      "candy crush simulating crystal growth in avatar the last airbender",
+      "candy crush simulating crystal growth in avatar the last airbender how image engine grew magical rock candy crystals fast beautiful and believable using their houdini pipeline",
       "case study ai scad year 2 ai literacy design innovation and launchpads for student ip",
       "cathex",
       "cfc simulating character fluid coupling using a two level world model",

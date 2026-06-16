@@ -4,7 +4,7 @@
   "year": 2026,
   "source": "openreview",
   "baseline": "papercopilot",
-  "generated_at": "2026-06-16T21:21:22Z",
+  "generated_at": "2026-06-16T22:03:25Z",
   "status": "title_drift",
   "min_count_ratio": 0.95,
   "counts": {
@@ -14,6 +14,18 @@
     "count_ratio": 0.9987,
     "overlap_ratio": 0.938
   },
+  "known_baseline_issues": [
+    {
+      "id": "papercopilot-openreview-title-snapshot-drift",
+      "baseline": "papercopilot",
+      "reason": "The official OpenReview records have current titles while the Paper Copilot snapshot contains earlier or alternate title revisions; counts are nearly identical.",
+      "examples": [
+        "A Tale of Two Smoothness Notions: Adaptive Optimizers and Non-Euclidean Descent",
+        "AEGIS: Automated Error Generation and Identification for Multi-Agent Systems",
+        "A Universal Compression Theory: Lottery Ticket Hypothesis and Superpolynomial Scaling Laws"
+      ]
+    }
+  ],
   "samples": {
     "missing_from_ours": [
       "a fictional q a dataset for studying memorization and knowledge acquisition",

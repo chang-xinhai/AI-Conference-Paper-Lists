@@ -4,7 +4,7 @@
   "year": 2020,
   "source": "ecva",
   "baseline": "papercopilot",
-  "generated_at": "2026-06-16T21:21:17Z",
+  "generated_at": "2026-06-16T21:54:14Z",
   "status": "ok",
   "min_count_ratio": 0.95,
   "counts": {
@@ -14,6 +14,7 @@
     "count_ratio": 1.0,
     "overlap_ratio": 0.9809
   },
+  "known_baseline_issues": [],
   "samples": {
     "missing_from_ours": [
       "360 o camera alignment via segmentation",

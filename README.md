@@ -80,6 +80,8 @@ Official source priority:
 
 If our official harvest returns substantially fewer records than Paper Copilot for the same conference/year, the report must mark the channel as `needs_attention` rather than silently accepting the result.
 
+When Paper Copilot appears to contain stale, truncated, or alternate titles, the strict validation status is preserved and the report may include `known_baseline_issues` from `config/baseline_issues.json`.
+
 ## Downstream Use
 
 This repository is designed to support curated views such as [Awesome-Training-Free-Papers](https://github.com/chang-xinhai/Awesome-Training-Free-Papers).

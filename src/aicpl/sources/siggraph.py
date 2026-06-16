@@ -71,6 +71,30 @@ LINKLINGS_URLS = {
     ("siggraph", 2024): "https://s2024.conference-program.org/",
 }
 
+LINKLINGS_WP_URLS = {
+    ("siggraph", 2022): "https://s2022.siggraph.org/full-program/",
+}
+
+HISTORY_OVERVIEW_URLS = {
+    ("siggraph", 2020): "https://history.siggraph.org/learning-overview/siggraph-2020-technical-papers/",
+    ("siggraph", 2021): "https://history.siggraph.org/learning-overview/siggraph-2021-technical-papers/",
+    ("siggraph", 2022): "https://history.siggraph.org/learning-overview/siggraph-2022-technical-papers/",
+    ("siggraph", 2023): "https://history.siggraph.org/learning-overview/siggraph-2023-technical-papers/",
+    ("siggraph", 2024): "https://history.siggraph.org/learning-overview/siggraph-2024-technical-papers/",
+    ("siggraph", 2025): "https://history.siggraph.org/learning-overview/siggraph-2025-technical-papers/",
+    ("siggraphasia", 2020): "https://history.siggraph.org/learning-overview/auto-draft-12/",
+    ("siggraphasia", 2021): "https://history.siggraph.org/learning-overview/siggraph-asia-2021-technical-papers/",
+    ("siggraphasia", 2022): "https://history.siggraph.org/learning-overview/siggraph-asia-2022-technical-papers/",
+    ("siggraphasia", 2023): "https://history.siggraph.org/learning-overview/siggraph-asia-2023-technical-papers/",
+    ("siggraphasia", 2024): "https://history.siggraph.org/learning-overview/siggraph-asia-2024-technical-papers/",
+}
+
+LINKLINGS_TECH_TYPES = {
+    ("siggraph", 2022): ["sstype128"],
+    ("siggraph", 2023): ["sstype101"],
+    ("siggraph", 2024): ["sstype101"],
+}
+
 
 def supports(venue_key: str, year: int) -> bool:
     return venue_key in VENUE_CONFIG and year >= 2020
@@ -163,6 +187,10 @@ def _record_from_crossref_item(
 ) -> dict[str, Any] | None:
     titles = item.get("title") or []
     title = _clean_title(str(titles[0] if titles else ""))
+    subtitles = item.get("subtitle") or []
+    subtitle = _clean_title(str(subtitles[0] if subtitles else ""))
+    if subtitle and subtitle.lower() not in title.lower():
+        title = f"{title}: {subtitle}"
     if not title:
         return None
     record = empty_record(venue_key, venue_name(venue_key), year, title)
@@ -193,7 +221,7 @@ def _crossref_tog_records(venue_key: str, year: int, fetched_at: str) -> tuple[s
     params = {
         "filter": filters,
         "rows": 1000,
-        "select": "DOI,title,container-title,volume,issue,published-print,published-online,type",
+        "select": "DOI,title,subtitle,container-title,volume,issue,published-print,published-online,type",
     }
     url = f"{CROSSREF_BASE}?{urlencode(params)}"
     payload = fetch_json(url, timeout=90, retries=6)
@@ -217,7 +245,7 @@ def _crossref_proceedings_records(venue_key: str, year: int, fetched_at: str) ->
         "filter": filters,
         "query.event-acronym": config["event_acronym"],
         "rows": 1000,
-        "select": "DOI,title,container-title,event,type",
+        "select": "DOI,title,subtitle,container-title,event,type",
     }
     url = f"{CROSSREF_BASE}?{urlencode(params)}"
     payload = fetch_json(url, timeout=90, retries=6)
@@ -271,6 +299,105 @@ def _linklings_records(venue_key: str, year: int, fetched_at: str) -> tuple[str,
     return url, records
 
 
+def _linklings_tech_type_pattern(venue_key: str, year: int) -> str:
+    types = LINKLINGS_TECH_TYPES.get((venue_key, year), ["sstype101"])
+    return "|".join(re.escape(item) for item in types)
+
+
+def _linklings_wp_text_records(
+    venue_key: str,
+    year: int,
+    text: str,
+    source_url: str,
+    fetched_at: str,
+) -> list[dict[str, Any]]:
+    type_pattern = _linklings_tech_type_pattern(venue_key, year)
+    session_ids = set(
+        re.findall(
+            r'<tr class="agenda-item presentation-row[^"]*"[^>]*etypes="[^"]*(?:'
+            + type_pattern
+            + r')[^"]*"[^>]*psid="([^"]+)"',
+            text,
+        )
+    )
+    records = []
+    for session_id in session_ids:
+        segment_match = re.search(
+            r'<tr class="' + re.escape(session_id) + r' slots-slidedown".*?(?=<tr class="agenda-item presentation-row|\Z)',
+            text,
+            re.S,
+        )
+        if not segment_match:
+            continue
+        segment = segment_match.group(0)
+        for title_match in re.finditer(
+            r'<td class="title-speakers-td">(?P<body>.*?)(?=<td class="hide-med hide-small">|<td class="calendar-td">)',
+            segment,
+            re.S,
+        ):
+            body = title_match.group("body")
+            title_html = re.split(r'<div class="(?:author|contributor|presenter|moderator) speakers-line">', body, 1)[0]
+            title = _clean_title(re.sub(r"<.*?>", "", title_html))
+            if not title or title.lower() in {"interactive discussions"}:
+                continue
+            record = empty_record(venue_key, venue_name(venue_key), year, title)
+            record["track"] = "Technical Papers"
+            record["source"] = {
+                "name": "SIGGRAPH Linklings WordPress program",
+                "url": source_url,
+                "fetched_at": fetched_at,
+                "license": "",
+            }
+            records.append(record)
+    return records
+
+
+def _linklings_wp_records(venue_key: str, year: int, fetched_at: str) -> tuple[str, list[dict[str, Any]]]:
+    url = LINKLINGS_WP_URLS.get((venue_key, year))
+    if not url:
+        return "", []
+    text = fetch_text(url, timeout=90, retries=3)
+    source_urls = [url]
+    records = _linklings_wp_text_records(venue_key, year, text, url, fetched_at)
+    snippet_urls = sorted(
+        {
+            html.unescape(match).replace("&amp;", "&")
+            for match in re.findall(r'source="([^"]+linklings_snippets/[^"]+\.txt[^"]*)"', text)
+        }
+    )
+    for snippet_url in snippet_urls:
+        snippet_text = fetch_text(snippet_url, timeout=90, retries=3)
+        source_urls.append(snippet_url)
+        records.extend(_linklings_wp_text_records(venue_key, year, snippet_text, snippet_url, fetched_at))
+    return "; ".join(source_urls), records
+
+
+def _history_overview_records(venue_key: str, year: int, fetched_at: str) -> tuple[str, list[dict[str, Any]]]:
+    url = HISTORY_OVERVIEW_URLS.get((venue_key, year))
+    if not url:
+        return "", []
+    text = fetch_text(url, timeout=90, retries=3)
+    records = []
+    seen_titles = set()
+    for match in re.finditer(r'<a href="(?P<link>https://history\.siggraph\.org/learning/[^"#?]+/)">(?P<body>.*?)</a>', text, re.S):
+        title = _clean_title(re.sub(r"<.*?>", " ", match.group("body")))
+        title_key = normalize_title(title)
+        if not title or title_key in seen_titles:
+            continue
+        seen_titles.add(title_key)
+        record = empty_record(venue_key, venue_name(venue_key), year, title)
+        record["track"] = "Technical Papers"
+        record["project_url"] = match.group("link")
+        record["source"] = {
+            "name": "ACM SIGGRAPH History Archives",
+            "url": url,
+            "fetched_at": fetched_at,
+            "license": "",
+        }
+        records.append(record)
+    return url, records
+
+
 def harvest(venue_key: str, year: int) -> dict[str, Any]:
     if not supports(venue_key, year):
         raise ValueError(f"SIGGRAPH route unsupported for {venue_key}{year}")
@@ -282,6 +409,8 @@ def harvest(venue_key: str, year: int) -> dict[str, Any]:
         _crossref_proceedings_records(venue_key, year, fetched_at),
         _crossref_tog_records(venue_key, year, fetched_at),
         _linklings_records(venue_key, year, fetched_at),
+        _linklings_wp_records(venue_key, year, fetched_at),
+        _history_overview_records(venue_key, year, fetched_at),
     ]:
         records.extend(source_records)
         if source_url:

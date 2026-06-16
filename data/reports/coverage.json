@@ -1,7 +1,6 @@
 {
   "schema_version": "0.1",
-  "generated_at": "2026-06-16T21:21:27Z",
-  "scope": "all_normalized_files",
+  "generated_at": "2026-06-16T21:51:36Z",
   "validate_against_papercopilot": true,
   "allow_papercopilot_fallback": false,
   "results": [
@@ -9,7 +8,8 @@
       "venue_key": "3dv",
       "year": 2025,
       "candidate_sources": [
-        "openreview"
+        "openreview",
+        "dblp"
       ],
       "status": "harvested",
       "source": "openreview",
@@ -28,7 +28,8 @@
       "venue_key": "3dv",
       "year": 2026,
       "candidate_sources": [
-        "openreview"
+        "openreview",
+        "dblp"
       ],
       "status": "harvested",
       "source": "openreview",
@@ -390,7 +391,8 @@
       "venue_key": "aistats",
       "year": 2020,
       "candidate_sources": [
-        "pmlr"
+        "pmlr",
+        "openreview"
       ],
       "status": "harvested",
       "source": "pmlr",
@@ -409,7 +411,8 @@
       "venue_key": "aistats",
       "year": 2021,
       "candidate_sources": [
-        "pmlr"
+        "pmlr",
+        "openreview"
       ],
       "status": "harvested",
       "source": "pmlr",
@@ -428,7 +431,8 @@
       "venue_key": "aistats",
       "year": 2022,
       "candidate_sources": [
-        "pmlr"
+        "pmlr",
+        "openreview"
       ],
       "status": "harvested",
       "source": "pmlr",
@@ -447,7 +451,8 @@
       "venue_key": "aistats",
       "year": 2023,
       "candidate_sources": [
-        "pmlr"
+        "pmlr",
+        "openreview"
       ],
       "status": "harvested",
       "source": "pmlr",
@@ -466,7 +471,8 @@
       "venue_key": "aistats",
       "year": 2024,
       "candidate_sources": [
-        "pmlr"
+        "pmlr",
+        "openreview"
       ],
       "status": "harvested",
       "source": "pmlr",
@@ -549,7 +555,8 @@
       "venue_key": "automl",
       "year": 2022,
       "candidate_sources": [
-        "pmlr"
+        "pmlr",
+        "openreview"
       ],
       "status": "harvested",
       "source": "pmlr",
@@ -568,7 +575,8 @@
       "venue_key": "automl",
       "year": 2023,
       "candidate_sources": [
-        "pmlr"
+        "pmlr",
+        "openreview"
       ],
       "status": "harvested",
       "source": "pmlr",
@@ -587,7 +595,8 @@
       "venue_key": "automl",
       "year": 2024,
       "candidate_sources": [
-        "pmlr"
+        "pmlr",
+        "openreview"
       ],
       "status": "harvested",
       "source": "pmlr",
@@ -606,7 +615,8 @@
       "venue_key": "automl",
       "year": 2025,
       "candidate_sources": [
-        "pmlr"
+        "pmlr",
+        "openreview"
       ],
       "status": "harvested",
       "source": "pmlr",
@@ -1270,7 +1280,7 @@
       ],
       "status": "harvested",
       "source": "openreview",
-      "count": 825,
+      "count": 824,
       "message": "",
       "validation_status": "ok",
       "validation_counts": {
@@ -1393,13 +1403,17 @@
         "title_overlap": 5026,
         "count_ratio": 0.9987,
         "overlap_ratio": 0.938
-      }
+      },
+      "validation_known_baseline_issues": [
+        "papercopilot-openreview-title-snapshot-drift"
+      ]
     },
     {
       "venue_key": "icml",
       "year": 2020,
       "candidate_sources": [
-        "pmlr"
+        "pmlr",
+        "openreview"
       ],
       "status": "harvested",
       "source": "pmlr",
@@ -1418,7 +1432,8 @@
       "venue_key": "icml",
       "year": 2021,
       "candidate_sources": [
-        "pmlr"
+        "pmlr",
+        "openreview"
       ],
       "status": "harvested",
       "source": "pmlr",
@@ -1437,7 +1452,8 @@
       "venue_key": "icml",
       "year": 2022,
       "candidate_sources": [
-        "pmlr"
+        "pmlr",
+        "openreview"
       ],
       "status": "harvested",
       "source": "pmlr",
@@ -1456,7 +1472,8 @@
       "venue_key": "icml",
       "year": 2023,
       "candidate_sources": [
-        "pmlr"
+        "pmlr",
+        "openreview"
       ],
       "status": "harvested",
       "source": "pmlr",
@@ -1475,7 +1492,8 @@
       "venue_key": "icml",
       "year": 2024,
       "candidate_sources": [
-        "pmlr"
+        "pmlr",
+        "openreview"
       ],
       "status": "harvested",
       "source": "pmlr",
@@ -1513,7 +1531,8 @@
       "venue_key": "icml",
       "year": 2026,
       "candidate_sources": [
-        "icml"
+        "icml",
+        "openreview"
       ],
       "status": "harvested",
       "source": "icml",
@@ -1990,7 +2009,8 @@
       "venue_key": "nips",
       "year": 2020,
       "candidate_sources": [
-        "neurips"
+        "neurips",
+        "openreview"
       ],
       "status": "harvested",
       "source": "neurips",
@@ -2009,7 +2029,8 @@
       "venue_key": "nips",
       "year": 2021,
       "candidate_sources": [
-        "neurips"
+        "neurips",
+        "openreview"
       ],
       "status": "harvested",
       "source": "neurips",
@@ -2028,7 +2049,8 @@
       "venue_key": "nips",
       "year": 2022,
       "candidate_sources": [
-        "neurips"
+        "neurips",
+        "openreview"
       ],
       "status": "harvested",
       "source": "neurips",
@@ -2047,7 +2069,8 @@
       "venue_key": "nips",
       "year": 2023,
       "candidate_sources": [
-        "neurips"
+        "neurips",
+        "openreview"
       ],
       "status": "harvested",
       "source": "neurips",
@@ -2066,7 +2089,8 @@
       "venue_key": "nips",
       "year": 2024,
       "candidate_sources": [
-        "neurips"
+        "neurips",
+        "openreview"
       ],
       "status": "harvested",
       "source": "neurips",
@@ -2085,7 +2109,8 @@
       "venue_key": "nips",
       "year": 2025,
       "candidate_sources": [
-        "neurips"
+        "neurips",
+        "openreview"
       ],
       "status": "harvested",
       "source": "neurips",
@@ -2218,94 +2243,99 @@
       "venue_key": "siggraph",
       "year": 2020,
       "candidate_sources": [
-        "siggraph"
+        "siggraph",
+        "dblp"
       ],
       "status": "harvested",
       "source": "siggraph",
-      "count": 578,
+      "count": 614,
       "message": "",
-      "validation_status": "title_drift",
+      "validation_status": "ok",
       "validation_counts": {
-        "ours": 578,
+        "ours": 608,
         "baseline": 221,
-        "title_overlap": 164,
-        "count_ratio": 2.6154,
-        "overlap_ratio": 0.7421
+        "title_overlap": 213,
+        "count_ratio": 2.7511,
+        "overlap_ratio": 0.9638
       }
     },
     {
       "venue_key": "siggraph",
       "year": 2021,
       "candidate_sources": [
-        "siggraph"
+        "siggraph",
+        "dblp"
       ],
       "status": "harvested",
       "source": "siggraph",
       "count": 556,
       "message": "",
-      "validation_status": "title_drift",
+      "validation_status": "ok",
       "validation_counts": {
         "ours": 556,
         "baseline": 221,
-        "title_overlap": 165,
+        "title_overlap": 211,
         "count_ratio": 2.5158,
-        "overlap_ratio": 0.7466
+        "overlap_ratio": 0.9548
       }
     },
     {
       "venue_key": "siggraph",
       "year": 2022,
       "candidate_sources": [
-        "siggraph"
+        "siggraph",
+        "dblp"
       ],
       "status": "harvested",
       "source": "siggraph",
-      "count": 602,
+      "count": 647,
       "message": "",
-      "validation_status": "title_drift",
+      "validation_status": "ok",
       "validation_counts": {
-        "ours": 602,
+        "ours": 633,
         "baseline": 313,
-        "title_overlap": 231,
-        "count_ratio": 1.9233,
-        "overlap_ratio": 0.738
+        "title_overlap": 308,
+        "count_ratio": 2.0224,
+        "overlap_ratio": 0.984
       }
     },
     {
       "venue_key": "siggraph",
       "year": 2023,
       "candidate_sources": [
-        "siggraph"
+        "siggraph",
+        "dblp"
       ],
       "status": "harvested",
       "source": "siggraph",
-      "count": 639,
+      "count": 653,
       "message": "",
-      "validation_status": "title_drift",
+      "validation_status": "ok",
       "validation_counts": {
-        "ours": 639,
+        "ours": 652,
         "baseline": 239,
-        "title_overlap": 223,
-        "count_ratio": 2.6736,
-        "overlap_ratio": 0.9331
+        "title_overlap": 235,
+        "count_ratio": 2.728,
+        "overlap_ratio": 0.9833
       }
     },
     {
       "venue_key": "siggraph",
       "year": 2024,
       "candidate_sources": [
-        "siggraph"
+        "siggraph",
+        "dblp"
       ],
       "status": "harvested",
       "source": "siggraph",
-      "count": 821,
+      "count": 823,
       "message": "",
       "validation_status": "ok",
       "validation_counts": {
-        "ours": 817,
+        "ours": 818,
         "baseline": 279,
         "title_overlap": 279,
-        "count_ratio": 2.9283,
+        "count_ratio": 2.9319,
         "overlap_ratio": 1.0
       }
     },
@@ -2313,26 +2343,28 @@
       "venue_key": "siggraph",
       "year": 2025,
       "candidate_sources": [
-        "siggraph"
+        "siggraph",
+        "dblp"
       ],
       "status": "harvested",
       "source": "siggraph",
-      "count": 834,
+      "count": 847,
       "message": "",
       "validation_status": "ok",
       "validation_counts": {
-        "ours": 834,
+        "ours": 845,
         "baseline": 406,
-        "title_overlap": 391,
-        "count_ratio": 2.0542,
-        "overlap_ratio": 0.9631
+        "title_overlap": 404,
+        "count_ratio": 2.0813,
+        "overlap_ratio": 0.9951
       }
     },
     {
       "venue_key": "siggraphasia",
       "year": 2020,
       "candidate_sources": [
-        "siggraph_asia"
+        "siggraph_asia",
+        "dblp"
       ],
       "status": "harvested",
       "source": "siggraph_asia",
@@ -2342,73 +2374,80 @@
       "validation_counts": {
         "ours": 279,
         "baseline": 110,
-        "title_overlap": 65,
+        "title_overlap": 99,
         "count_ratio": 2.5364,
-        "overlap_ratio": 0.5909
-      }
+        "overlap_ratio": 0.9
+      },
+      "validation_known_baseline_issues": [
+        "papercopilot-truncated-and-renamed-titles"
+      ]
     },
     {
       "venue_key": "siggraphasia",
       "year": 2021,
       "candidate_sources": [
-        "siggraph_asia"
+        "siggraph_asia",
+        "dblp"
       ],
       "status": "harvested",
       "source": "siggraph_asia",
       "count": 254,
       "message": "",
-      "validation_status": "title_drift",
+      "validation_status": "ok",
       "validation_counts": {
         "ours": 254,
         "baseline": 5,
-        "title_overlap": 2,
+        "title_overlap": 5,
         "count_ratio": 50.8,
-        "overlap_ratio": 0.4
+        "overlap_ratio": 1.0
       }
     },
     {
       "venue_key": "siggraphasia",
       "year": 2022,
       "candidate_sources": [
-        "siggraph_asia"
+        "siggraph_asia",
+        "dblp"
       ],
       "status": "harvested",
       "source": "siggraph_asia",
-      "count": 329,
+      "count": 333,
       "message": "",
-      "validation_status": "title_drift",
+      "validation_status": "ok",
       "validation_counts": {
-        "ours": 329,
+        "ours": 332,
         "baseline": 206,
-        "title_overlap": 164,
-        "count_ratio": 1.5971,
-        "overlap_ratio": 0.7961
+        "title_overlap": 201,
+        "count_ratio": 1.6117,
+        "overlap_ratio": 0.9757
       }
     },
     {
       "venue_key": "siggraphasia",
       "year": 2023,
       "candidate_sources": [
-        "siggraph_asia"
+        "siggraph_asia",
+        "dblp"
       ],
       "status": "harvested",
       "source": "siggraph_asia",
-      "count": 468,
+      "count": 479,
       "message": "",
       "validation_status": "ok",
       "validation_counts": {
-        "ours": 468,
+        "ours": 475,
         "baseline": 223,
-        "title_overlap": 215,
-        "count_ratio": 2.0987,
-        "overlap_ratio": 0.9641
+        "title_overlap": 222,
+        "count_ratio": 2.13,
+        "overlap_ratio": 0.9955
       }
     },
     {
       "venue_key": "siggraphasia",
       "year": 2024,
       "candidate_sources": [
-        "siggraph_asia"
+        "siggraph_asia",
+        "dblp"
       ],
       "status": "harvested",
       "source": "siggraph_asia",
@@ -2427,7 +2466,8 @@
       "venue_key": "siggraphasia",
       "year": 2025,
       "candidate_sources": [
-        "siggraph_asia"
+        "siggraph_asia",
+        "dblp"
       ],
       "status": "harvested",
       "source": "siggraph_asia",
@@ -2440,7 +2480,8 @@
       "venue_key": "uai",
       "year": 2020,
       "candidate_sources": [
-        "pmlr"
+        "pmlr",
+        "openreview"
       ],
       "status": "harvested",
       "source": "pmlr",
@@ -2459,7 +2500,8 @@
       "venue_key": "uai",
       "year": 2021,
       "candidate_sources": [
-        "pmlr"
+        "pmlr",
+        "openreview"
       ],
       "status": "harvested",
       "source": "pmlr",
@@ -2478,7 +2520,8 @@
       "venue_key": "uai",
       "year": 2022,
       "candidate_sources": [
-        "pmlr"
+        "pmlr",
+        "openreview"
       ],
       "status": "harvested",
       "source": "pmlr",
@@ -2497,7 +2540,8 @@
       "venue_key": "uai",
       "year": 2023,
       "candidate_sources": [
-        "pmlr"
+        "pmlr",
+        "openreview"
       ],
       "status": "harvested",
       "source": "pmlr",
@@ -2535,7 +2579,8 @@
       "venue_key": "uai",
       "year": 2025,
       "candidate_sources": [
-        "pmlr"
+        "pmlr",
+        "openreview"
       ],
       "status": "harvested",
       "source": "pmlr",
@@ -2675,7 +2720,8 @@
       "venue_key": "www",
       "year": 2024,
       "candidate_sources": [
-        "openreview"
+        "openreview",
+        "dblp"
       ],
       "status": "harvested",
       "source": "openreview",
@@ -2694,7 +2740,8 @@
       "venue_key": "www",
       "year": 2025,
       "candidate_sources": [
-        "openreview"
+        "openreview",
+        "dblp"
       ],
       "status": "harvested",
       "source": "openreview",

@@ -28,6 +28,7 @@ def compare_records(
     records: list[dict[str, Any]],
     baseline_records: list[dict[str, Any]],
     min_count_ratio: float = 0.95,
+    known_baseline_issues: list[dict[str, Any]] | None = None,
 ) -> dict[str, Any]:
     titles = {canonical_title(record.get("title", "")) for record in records if record.get("title")}
     baseline_titles = {
@@ -64,6 +65,7 @@ def compare_records(
             "count_ratio": round(count_ratio, 4),
             "overlap_ratio": round(overlap_ratio, 4),
         },
+        "known_baseline_issues": known_baseline_issues or [],
         "samples": {
             "missing_from_ours": missing_from_ours,
             "extra_in_ours": extra_in_ours,

@@ -35,6 +35,14 @@ def load_papercopilot_records(venue_key: str, year: int, local_repo: str | None)
     return [record for record in papercopilot.normalize(venue_key, year, rows) if is_accepted_like(record)]
 
 
+def known_baseline_issues_for(venue_key: str, year: int) -> list[dict]:
+    path = ROOT / "config" / "baseline_issues.json"
+    if not path.exists():
+        return []
+    issues = read_json(path).get("issues", {})
+    return issues.get(f"{venue_key}{year}", [])
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--conference", required=True)
@@ -56,6 +64,7 @@ def main() -> None:
         records=normalized["records"],
         baseline_records=baseline,
         min_count_ratio=args.min_count_ratio,
+        known_baseline_issues=known_baseline_issues_for(venue_key, args.year),
     )
     report_path = ROOT / args.reports_dir / venue_key / f"{venue_key}{args.year}.json"
     write_json(report_path, report)

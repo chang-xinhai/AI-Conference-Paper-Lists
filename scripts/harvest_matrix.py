@@ -24,6 +24,14 @@ def is_accepted_like(record: dict) -> bool:
     return not any(token in status for token in ["reject", "withdraw", "desk"])
 
 
+def known_baseline_issues_for(venue_key: str, year: int) -> list[dict]:
+    path = ROOT / "config" / "baseline_issues.json"
+    if not path.exists():
+        return []
+    issues = read_json(path).get("issues", {})
+    return issues.get(f"{venue_key}{year}", [])
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--conferences", default="", help="Comma-separated venue keys. Default: all.")
@@ -122,11 +130,16 @@ def main() -> None:
                             records=payload["records"],
                             baseline_records=baseline_records,
                             min_count_ratio=args.min_count_ratio,
+                            known_baseline_issues=known_baseline_issues_for(venue_key, year),
                         )
                         report_path = ROOT / "data" / "reports" / venue_key / f"{venue_key}{year}.json"
                         write_json(report_path, report)
                         result["validation_status"] = report["status"]
                         result["validation_counts"] = report["counts"]
+                        if report["known_baseline_issues"]:
+                            result["validation_known_baseline_issues"] = [
+                                issue.get("id", "") for issue in report["known_baseline_issues"]
+                            ]
                 print(f"{venue_key}{year}: harvested {result['count']} from {source}", flush=True)
             except Exception as exc:  # noqa: BLE001 - report and continue in batch mode.
                 result["status"] = "failed"

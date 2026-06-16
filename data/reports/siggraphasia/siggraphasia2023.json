@@ -4,25 +4,19 @@
   "year": 2023,
   "source": "siggraph_asia",
   "baseline": "papercopilot",
-  "generated_at": "2026-06-16T21:21:26Z",
+  "generated_at": "2026-06-16T22:01:34Z",
   "status": "ok",
   "min_count_ratio": 0.95,
   "counts": {
-    "ours": 468,
+    "ours": 475,
     "baseline": 223,
-    "title_overlap": 215,
-    "count_ratio": 2.0987,
-    "overlap_ratio": 0.9641
+    "title_overlap": 222,
+    "count_ratio": 2.13,
+    "overlap_ratio": 0.9955
   },
+  "known_baseline_issues": [],
   "samples": {
     "missing_from_ours": [
-      "a neural implicit representation for the image stack depth all in focus and high dynamic range",
-      "an unified lambda subdivision scheme for quadrilateral meshes with optimal curvature performance in extraordinary regions",
-      "compact neural graphic primitives with learned hash probing",
-      "neural cache for monte carlo partial differential equation solver",
-      "progressive shell quasistatics for unstructured meshes",
-      "quantum ray marching for reformulating light transport simulation",
-      "reconstructing close human interaction from multiple views",
       "repurposing diffusion inpainters for novel view synthesis"
     ],
     "extra_in_ours": [
