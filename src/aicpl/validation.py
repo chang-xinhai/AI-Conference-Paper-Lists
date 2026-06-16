@@ -1,0 +1,58 @@
+"""Validation helpers."""
+
+from __future__ import annotations
+
+from typing import Any
+
+from .util import normalize_title, now_utc
+
+
+def compare_records(
+    *,
+    venue_key: str,
+    year: int,
+    source_name: str,
+    records: list[dict[str, Any]],
+    baseline_records: list[dict[str, Any]],
+    min_count_ratio: float = 0.95,
+) -> dict[str, Any]:
+    titles = {normalize_title(record.get("title", "")) for record in records if record.get("title")}
+    baseline_titles = {
+        normalize_title(record.get("title", ""))
+        for record in baseline_records
+        if record.get("title")
+    }
+    overlap = len(titles & baseline_titles)
+    missing_from_ours = sorted(baseline_titles - titles)[:100]
+    extra_in_ours = sorted(titles - baseline_titles)[:100]
+    ours_count = len(records)
+    baseline_count = len(baseline_records)
+    count_ratio = ours_count / baseline_count if baseline_count else 1.0
+    overlap_ratio = overlap / baseline_count if baseline_count else 1.0
+    status = "ok"
+    if baseline_count and count_ratio < min_count_ratio:
+        status = "needs_attention"
+    elif baseline_count and overlap_ratio < min_count_ratio:
+        status = "title_drift"
+
+    return {
+        "schema_version": "0.1",
+        "venue_key": venue_key,
+        "year": year,
+        "source": source_name,
+        "baseline": "papercopilot",
+        "generated_at": now_utc(),
+        "status": status,
+        "min_count_ratio": min_count_ratio,
+        "counts": {
+            "ours": ours_count,
+            "baseline": baseline_count,
+            "title_overlap": overlap,
+            "count_ratio": round(count_ratio, 4),
+            "overlap_ratio": round(overlap_ratio, 4),
+        },
+        "samples": {
+            "missing_from_ours": missing_from_ours,
+            "extra_in_ours": extra_in_ours,
+        },
+    }
