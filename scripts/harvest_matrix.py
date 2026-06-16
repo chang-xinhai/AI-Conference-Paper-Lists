@@ -95,32 +95,38 @@ def main() -> None:
                 result["source"] = source
                 result["count"] = len(payload["records"])
                 if args.validate:
-                    if args.paperlists:
-                        pc_path = papercopilot.path_for(venue_key, year)
-                        blob = subprocess.check_output(
-                            ["git", "show", f"HEAD:{pc_path}"],
-                            cwd=args.paperlists,
-                        )
-                        baseline_rows = json.loads(blob)
+                    try:
+                        if args.paperlists:
+                            pc_path = papercopilot.path_for(venue_key, year)
+                            blob = subprocess.check_output(
+                                ["git", "show", f"HEAD:{pc_path}"],
+                                cwd=args.paperlists,
+                                stderr=subprocess.DEVNULL,
+                            )
+                            baseline_rows = json.loads(blob)
+                        else:
+                            baseline_rows = papercopilot.load(venue_key, year)
+                    except Exception:
+                        result["validation_status"] = "no_baseline"
+                        result["validation_counts"] = {}
                     else:
-                        baseline_rows = papercopilot.load(venue_key, year)
-                    baseline_records = [
-                        record
-                        for record in papercopilot.normalize(venue_key, year, baseline_rows)
-                        if is_accepted_like(record)
-                    ]
-                    report = compare_records(
-                        venue_key=venue_key,
-                        year=year,
-                        source_name=source,
-                        records=payload["records"],
-                        baseline_records=baseline_records,
-                        min_count_ratio=args.min_count_ratio,
-                    )
-                    report_path = ROOT / "data" / "reports" / venue_key / f"{venue_key}{year}.json"
-                    write_json(report_path, report)
-                    result["validation_status"] = report["status"]
-                    result["validation_counts"] = report["counts"]
+                        baseline_records = [
+                            record
+                            for record in papercopilot.normalize(venue_key, year, baseline_rows)
+                            if is_accepted_like(record)
+                        ]
+                        report = compare_records(
+                            venue_key=venue_key,
+                            year=year,
+                            source_name=source,
+                            records=payload["records"],
+                            baseline_records=baseline_records,
+                            min_count_ratio=args.min_count_ratio,
+                        )
+                        report_path = ROOT / "data" / "reports" / venue_key / f"{venue_key}{year}.json"
+                        write_json(report_path, report)
+                        result["validation_status"] = report["status"]
+                        result["validation_counts"] = report["counts"]
                 print(f"{venue_key}{year}: harvested {result['count']} from {source}", flush=True)
             except Exception as exc:  # noqa: BLE001 - report and continue in batch mode.
                 result["status"] = "failed"

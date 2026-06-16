@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1",
-  "generated_at": "2026-06-16T21:04:36Z",
+  "generated_at": "2026-06-16T21:07:54Z",
   "scope": "all_normalized_files",
   "validate_against_papercopilot": true,
   "allow_papercopilot_fallback": false,
@@ -118,6 +118,19 @@
         "count_ratio": 1.0,
         "overlap_ratio": 0.9994
       }
+    },
+    {
+      "venue_key": "aaai",
+      "year": 2026,
+      "candidate_sources": [
+        "dblp"
+      ],
+      "status": "harvested",
+      "source": "dblp",
+      "count": 4920,
+      "message": "",
+      "validation_status": "no_baseline",
+      "validation_counts": {}
     },
     {
       "venue_key": "acl",
@@ -460,6 +473,19 @@
         "count_ratio": 1.0,
         "overlap_ratio": 1.0
       }
+    },
+    {
+      "venue_key": "aistats",
+      "year": 2026,
+      "candidate_sources": [
+        "openreview"
+      ],
+      "status": "harvested",
+      "source": "openreview",
+      "count": 587,
+      "message": "",
+      "validation_status": "no_baseline",
+      "validation_counts": {}
     },
     {
       "venue_key": "alt",
@@ -954,6 +980,19 @@
         "count_ratio": 0.9997,
         "overlap_ratio": 0.9997
       }
+    },
+    {
+      "venue_key": "cvpr",
+      "year": 2026,
+      "candidate_sources": [
+        "cvf"
+      ],
+      "status": "harvested",
+      "source": "cvf",
+      "count": 4068,
+      "message": "",
+      "validation_status": "no_baseline",
+      "validation_counts": {}
     },
     {
       "venue_key": "eccv",
@@ -2438,6 +2477,19 @@
       }
     },
     {
+      "venue_key": "wacv",
+      "year": 2026,
+      "candidate_sources": [
+        "cvf"
+      ],
+      "status": "harvested",
+      "source": "cvf",
+      "count": 831,
+      "message": "",
+      "validation_status": "no_baseline",
+      "validation_counts": {}
+    },
+    {
       "venue_key": "www",
       "year": 2024,
       "candidate_sources": [
@@ -2474,6 +2526,19 @@
         "count_ratio": 1.0929,
         "overlap_ratio": 0.9462
       }
+    },
+    {
+      "venue_key": "www",
+      "year": 2026,
+      "candidate_sources": [
+        "dblp"
+      ],
+      "status": "harvested",
+      "source": "dblp",
+      "count": 954,
+      "message": "",
+      "validation_status": "no_baseline",
+      "validation_counts": {}
     }
   ]
 }
