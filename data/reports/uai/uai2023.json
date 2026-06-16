@@ -1,0 +1,25 @@
+{
+  "schema_version": "0.1",
+  "venue_key": "uai",
+  "year": 2023,
+  "source": "pmlr",
+  "baseline": "papercopilot",
+  "generated_at": "2026-06-16T19:14:29Z",
+  "status": "ok",
+  "min_count_ratio": 0.95,
+  "counts": {
+    "ours": 243,
+    "baseline": 243,
+    "title_overlap": 242,
+    "count_ratio": 1.0,
+    "overlap_ratio": 0.9959
+  },
+  "samples": {
+    "missing_from_ours": [
+      "baysian numerical integration with neural networks"
+    ],
+    "extra_in_ours": [
+      "bayesian numerical integration with neural networks"
+    ]
+  }
+}

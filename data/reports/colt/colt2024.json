@@ -1,0 +1,25 @@
+{
+  "schema_version": "0.1",
+  "venue_key": "colt",
+  "year": 2024,
+  "source": "pmlr",
+  "baseline": "papercopilot",
+  "generated_at": "2026-06-16T19:12:30Z",
+  "status": "ok",
+  "min_count_ratio": 0.95,
+  "counts": {
+    "ours": 170,
+    "baseline": 170,
+    "title_overlap": 169,
+    "count_ratio": 1.0,
+    "overlap_ratio": 0.9941
+  },
+  "samples": {
+    "missing_from_ours": [
+      "$(ε, u)$-adaptive regret minimization in heavy-tailed bandits"
+    ],
+    "extra_in_ours": [
+      "(ε, u)-adaptive regret minimization in heavy-tailed bandits"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "0.1",
+  "venue_key": "aistats",
+  "year": 2025,
+  "source": "openreview",
+  "baseline": "papercopilot",
+  "generated_at": "2026-06-16T19:11:58Z",
+  "status": "ok",
+  "min_count_ratio": 0.95,
+  "counts": {
+    "ours": 583,
+    "baseline": 583,
+    "title_overlap": 583,
+    "count_ratio": 1.0,
+    "overlap_ratio": 1.0
+  },
+  "samples": {
+    "missing_from_ours": [],
+    "extra_in_ours": []
+  }
+}

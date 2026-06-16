@@ -1,0 +1,21 @@
+{
+  "schema_version": "0.1",
+  "venue_key": "colt",
+  "year": 2020,
+  "source": "pmlr",
+  "baseline": "papercopilot",
+  "generated_at": "2026-06-16T19:12:23Z",
+  "status": "ok",
+  "min_count_ratio": 0.95,
+  "counts": {
+    "ours": 126,
+    "baseline": 126,
+    "title_overlap": 126,
+    "count_ratio": 1.0,
+    "overlap_ratio": 1.0
+  },
+  "samples": {
+    "missing_from_ours": [],
+    "extra_in_ours": []
+  }
+}

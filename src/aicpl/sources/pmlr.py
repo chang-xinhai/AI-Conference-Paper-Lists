@@ -28,6 +28,9 @@ PMLR_VOLUMES: dict[tuple[str, int], str] = {
     ("aistats", 2024): "v238",
     ("acml", 2020): "v129",
     ("acml", 2021): "v157",
+    ("acml", 2022): "v189",
+    ("acml", 2023): "v222",
+    ("acml", 2024): "v260",
     ("colt", 2020): "v125",
     ("colt", 2021): "v134",
     ("colt", 2022): "v178",
@@ -36,6 +39,10 @@ PMLR_VOLUMES: dict[tuple[str, int], str] = {
     ("uai", 2020): "v124",
     ("uai", 2021): "v161",
     ("uai", 2022): "v180",
+    ("uai", 2023): "v216",
+    ("automl", 2022): "v188",
+    ("automl", 2023): "v224",
+    ("automl", 2024): "v256",
 }
 
 

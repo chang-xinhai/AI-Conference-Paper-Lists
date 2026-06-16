@@ -1,0 +1,32 @@
+{
+  "schema_version": "0.1",
+  "venue_key": "uai",
+  "year": 2024,
+  "source": "openreview",
+  "baseline": "papercopilot",
+  "generated_at": "2026-06-16T19:14:38Z",
+  "status": "ok",
+  "min_count_ratio": 0.95,
+  "counts": {
+    "ours": 200,
+    "baseline": 201,
+    "title_overlap": 196,
+    "count_ratio": 0.995,
+    "overlap_ratio": 0.9751
+  },
+  "samples": {
+    "missing_from_ours": [
+      "$χ$spn: characteristic interventional sum-product networks for causal inference in hybrid domains",
+      "\\ensuremathα-former: local-feature-aware (l-fa) transformer",
+      "generalized expected utility as a universal decision rule – a step forward",
+      "proceedings of the fortieth conference on uncertainty in artificial intelligence – preface",
+      "reflected schrödinger bridge for constrained generative modeling"
+    ],
+    "extra_in_ours": [
+      "$\\chi$spn: characteristic interventional sum-product networks for causal inference in hybrid domains",
+      "generalized expected utility as a universal decision rule -- a step forward",
+      "reflected schr\\\"odinger bridge for constrained generative modeling",
+      "α-former: local-feature-aware (l-fa) transformer"
+    ]
+  }
+}

@@ -5,10 +5,13 @@ from __future__ import annotations
 import hashlib
 import json
 import re
+import time
 import unicodedata
+from http.client import RemoteDisconnected
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
+from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
 
@@ -48,11 +51,25 @@ def write_json(path: Path, data: Any) -> None:
         file.write("\n")
 
 
-def fetch_text(url: str, *, timeout: int = 30) -> str:
+def fetch_text(url: str, *, timeout: int = 30, retries: int = 3) -> str:
     request = Request(url, headers={"User-Agent": USER_AGENT})
-    with urlopen(request, timeout=timeout) as response:
-        return response.read().decode("utf-8", errors="replace")
+    for attempt in range(retries + 1):
+        try:
+            with urlopen(request, timeout=timeout) as response:
+                return response.read().decode("utf-8", errors="replace")
+        except HTTPError as error:
+            retryable = error.code == 429 or 500 <= error.code < 600
+            if not retryable or attempt == retries:
+                raise
+            retry_after = error.headers.get("Retry-After")
+            delay = float(retry_after) if retry_after and retry_after.isdigit() else 2.0 * (attempt + 1)
+            time.sleep(delay)
+        except (ConnectionResetError, RemoteDisconnected, TimeoutError, URLError):
+            if attempt == retries:
+                raise
+            time.sleep(2.0 * (attempt + 1))
+    raise RuntimeError(f"failed to fetch {url}")
 
 
-def fetch_json(url: str, *, timeout: int = 30) -> Any:
-    return json.loads(fetch_text(url, timeout=timeout))
+def fetch_json(url: str, *, timeout: int = 30, retries: int = 3) -> Any:
+    return json.loads(fetch_text(url, timeout=timeout, retries=retries))

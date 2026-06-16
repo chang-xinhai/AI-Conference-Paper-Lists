@@ -1,0 +1,21 @@
+{
+  "schema_version": "0.1",
+  "venue_key": "automl",
+  "year": 2024,
+  "source": "pmlr",
+  "baseline": "papercopilot",
+  "generated_at": "2026-06-16T19:18:50Z",
+  "status": "ok",
+  "min_count_ratio": 0.95,
+  "counts": {
+    "ours": 19,
+    "baseline": 19,
+    "title_overlap": 19,
+    "count_ratio": 1.0,
+    "overlap_ratio": 1.0
+  },
+  "samples": {
+    "missing_from_ours": [],
+    "extra_in_ours": []
+  }
+}

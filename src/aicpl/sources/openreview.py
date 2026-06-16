@@ -13,11 +13,35 @@ OPENREVIEW_API2 = "https://api2.openreview.net/notes"
 OPENREVIEW_API1 = "https://api.openreview.net/notes"
 
 VENUE_IDS = {
+    "ai4x": "AI4X.cc/{year}/Conference",
+    "aistats": "aistats.org/AISTATS/{year}/Conference",
+    "alt": "algorithmiclearningtheory.org/ALT/{year}/Conference",
+    "automl": "automl.cc/AutoML/{year}/Conference",
     "iclr": "ICLR.cc/{year}/Conference",
     "icml": "ICML.cc/{year}/Conference",
     "nips": "NeurIPS.cc/{year}/Conference",
     "colm": "colmweb.org/COLM/{year}/Conference",
     "corl": "robot-learning.org/CoRL/{year}/Conference",
+    "uai": "auai.org/UAI/{year}/Conference",
+}
+
+EXTRA_VENUE_IDS = {
+    ("nips", 2021): [
+        "NeurIPS.cc/2021/Track/Datasets_and_Benchmarks/Round1",
+        "NeurIPS.cc/2021/Track/Datasets_and_Benchmarks/Round2",
+    ],
+    ("nips", 2022): [
+        "NeurIPS.cc/2022/Track/Datasets_and_Benchmarks",
+    ],
+    ("nips", 2023): [
+        "NeurIPS.cc/2023/Track/Datasets_and_Benchmarks",
+    ],
+    ("nips", 2024): [
+        "NeurIPS.cc/2024/Datasets_and_Benchmarks_Track",
+    ],
+    ("nips", 2025): [
+        "NeurIPS.cc/2025/Datasets_and_Benchmarks_Track",
+    ],
 }
 
 
@@ -57,6 +81,19 @@ def _fetch_notes(api_url: str, venue_id: str, *, limit: int = 1000) -> list[dict
     return notes
 
 
+def _venue_ids_for(venue_key: str, year: int) -> list[str]:
+    venue_ids = [VENUE_IDS[venue_key].format(year=year)]
+    venue_ids.extend(EXTRA_VENUE_IDS.get((venue_key, year), []))
+    return venue_ids
+
+
+def _fetch_notes_for_venue_id(venue_id: str, *, limit: int) -> tuple[str, list[dict[str, Any]]]:
+    notes = _fetch_notes(OPENREVIEW_API2, venue_id, limit=limit)
+    if notes:
+        return OPENREVIEW_API2, notes
+    return OPENREVIEW_API1, _fetch_notes(OPENREVIEW_API1, venue_id, limit=limit)
+
+
 def _record_from_note(note: dict[str, Any], venue_key: str, year: int, fetched_at: str, api_url: str, venue_id: str) -> dict[str, Any] | None:
     content = note.get("content", {})
     venue_text = str(_value(content.get("venue"), "")).strip()
@@ -88,30 +125,34 @@ def harvest(venue_key: str, year: int, *, limit: int = 1000) -> dict[str, Any]:
     if not supports(venue_key, year):
         raise ValueError(f"OpenReview route unsupported for {venue_key}{year}")
 
-    venue_id = VENUE_IDS[venue_key].format(year=year)
+    venue_ids = _venue_ids_for(venue_key, year)
     fetched_at = now_utc()
-    api_url = OPENREVIEW_API2
-    notes = _fetch_notes(api_url, venue_id, limit=limit)
+    note_sources = []
+    source_urls = []
+    for venue_id in venue_ids:
+        api_url, venue_notes = _fetch_notes_for_venue_id(venue_id, limit=limit)
+        note_sources.extend((api_url, note) for note in venue_notes)
+        source_urls.append(f"{api_url}?content.venueid={venue_id}")
     records = [
         record
-        for note in notes
-        if (record := _record_from_note(note, venue_key, year, fetched_at, api_url, venue_id))
+        for api_url, note in note_sources
+        if (record := _record_from_note(
+            note,
+            venue_key,
+            year,
+            fetched_at,
+            api_url,
+            str(_value(note.get("content", {}).get("venueid"), "")) or venue_ids[0],
+        ))
     ]
-    if not records:
-        api_url = OPENREVIEW_API1
-        notes = _fetch_notes(api_url, venue_id, limit=limit)
-        records = [
-            record
-            for note in notes
-            if (record := _record_from_note(note, venue_key, year, fetched_at, api_url, venue_id))
-        ]
+    unique_records = {record["id"]: record for record in records}
 
     return {
         "source": "openreview",
         "venue_key": venue_key,
         "year": year,
-        "source_url": f"{api_url}?content.venueid={venue_id}",
+        "source_url": "; ".join(source_urls),
         "fetched_at": fetched_at,
-        "raw_count": len(notes),
-        "records": records,
+        "raw_count": len(note_sources),
+        "records": list(unique_records.values()),
     }

@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from typing import Any, Protocol
 
-from .sources import acl_anthology, cvf, openreview, papercopilot, pmlr, rss
+from .sources import acl_anthology, cvf, neurips, openreview, papercopilot, pmlr, rss
 
 
 class Harvester(Protocol):
@@ -16,6 +16,7 @@ class Harvester(Protocol):
 HARVESTERS: dict[str, Harvester] = {
     "openreview": openreview,
     "cvf": cvf,
+    "neurips": neurips,
     "acl_anthology": acl_anthology,
     "pmlr": pmlr,
     "rss": rss,

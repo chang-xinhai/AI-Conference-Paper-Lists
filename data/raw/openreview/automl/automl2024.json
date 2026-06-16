@@ -1,0 +1,501 @@
+{
+  "source": "openreview",
+  "venue_key": "automl",
+  "year": 2024,
+  "source_url": "https://api2.openreview.net/notes?content.venueid=automl.cc/AutoML/2024/Conference",
+  "fetched_at": "2026-06-16T19:12:14Z",
+  "raw_count": 13,
+  "records": [
+    {
+      "id": "automl2024:sequence-alignment-based-similarity-metric-in-evolutionary-neural-archit:626b65fda8",
+      "title": "Sequence Alignment-based Similarity Metric in Evolutionary Neural Architecture Search",
+      "abstract": "Neural Architecture Search (NAS) has emerged as a powerful method for automating the design of deep neural networks across diverse applications, with evolutionary optimization showing particular promise in addressing its intricate demands. However, the effectiveness of this approach highly depends on balancing exploration and exploitation, ensuring that the search does not prematurely converge to suboptimal solutions while still achieving near-optimal outcomes. This paper addresses this challenge by proposing a novel similarity metric inspired by global sequence alignment from biology. Unlike most of the existing methods that require pre-trained models for comparison, our metric operates directly on neural network architectures within the defined search space, eliminating the need for model training. We outline the computation of the normalized similarity metric and demonstrate its application in quantifying diversity within populations in evolutionary NAS. Experimental results conducted on popular datasets for image classification, such as CIFAR-10, CIFAR-100, and ImageNet16-120, show the effectiveness of our approach in guiding diversity based on our suggested control function. Additionally, we highlight the usefulness of our similarity metric in comparing individuals to identify advantageous or disadvantageous architectural design choices. The code is available at \\url{https://anon-github.automl.cc/r/evonas_similarity_metric-1BD3/}.",
+      "authors": [
+        "Mateo Avila Pava",
+        "René Groh",
+        "Andreas M Kist"
+      ],
+      "affiliations": [],
+      "first_institute": "",
+      "venue": "AutoML",
+      "venue_key": "automl",
+      "year": 2024,
+      "status": "accepted",
+      "track": "",
+      "presentation": "",
+      "paper_url": "https://openreview.net/forum?id=Nr1BYwtxMj",
+      "pdf_url": "https://openreview.net/pdf/7f440a941826336df35dabe943748ad61b132f38.pdf",
+      "arxiv_url": "",
+      "project_url": "",
+      "github_url": "",
+      "doi": "",
+      "keywords": [
+        "Evolutionary NAS",
+        "Similarity Metric",
+        "Diversity Control"
+      ],
+      "source": {
+        "name": "OpenReview API",
+        "url": "https://api2.openreview.net/notes?content.venueid=automl.cc/AutoML/2024/Conference",
+        "fetched_at": "2026-06-16T19:12:14Z",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "automl2024:fliqs-one-shot-mixed-precision-floating-point-and-integer-quantization-s:c6d1f54dea",
+      "title": "FLIQS: One-Shot Mixed-Precision Floating-Point and Integer Quantization Search",
+      "abstract": "Quantization has become a mainstream compression technique for reducing model size, computational requirements, and energy consumption for modern deep neural networks (DNNs). \nWith improved numerical support in recent hardware, including multiple variants of integer and floating point, mixed-precision quantization has become necessary to achieve high-quality results with low model cost. \nPrior mixed-precision methods have performed either a post-training quantization search, which compromises on accuracy, or a differentiable quantization search, which leads to high memory usage from branching.\nTherefore, we propose the first one-shot mixed-precision quantization search that eliminates the need for retraining in both integer and low-precision floating point models.\nWe evaluate our search (FLIQS) on multiple convolutional and vision transformer networks to discover Pareto-optimal models.\nOur approach improves upon uniform precision, manual mixed-precision, and recent integer quantization search methods. \nWith integer models, we increase the accuracy of ResNet-18 on ImageNet by 1.31\\% points and ResNet-50 by 0.90\\% points with equivalent model cost over previous methods.\nAdditionally, for the first time, we explore a novel mixed-precision floating-point search and improve MobileNetV2 by up to 0.98\\% points compared to prior state-of-the-art FP8 models.\nFinally, we extend FLIQS to simultaneously search a joint quantization and neural architecture space and improve the ImageNet accuracy by 2.69\\% points with similar model cost on a MobileNetV2 search space.",
+      "authors": [
+        "Jordan Dotzel",
+        "Gang Wu",
+        "Andrew Li",
+        "Muhammad Umar",
+        "Yun Ni",
+        "Mohamed S Abdelfattah",
+        "Zhiru Zhang",
+        "Liqun Cheng",
+        "Martin G Dixon",
+        "Norman P Jouppi",
+        "Quoc V Le",
+        "Sheng Li"
+      ],
+      "affiliations": [],
+      "first_institute": "",
+      "venue": "AutoML",
+      "venue_key": "automl",
+      "year": 2024,
+      "status": "accepted",
+      "track": "",
+      "presentation": "",
+      "paper_url": "https://openreview.net/forum?id=d69NqU8YmM",
+      "pdf_url": "https://openreview.net/pdf/e3d538506ce5750feea2934322512fbc1ba61f22.pdf",
+      "arxiv_url": "",
+      "project_url": "",
+      "github_url": "",
+      "doi": "",
+      "keywords": [
+        "Reinforcement Learning Quantization Formats Floating-Point NAS Neural Architecture Search"
+      ],
+      "source": {
+        "name": "OpenReview API",
+        "url": "https://api2.openreview.net/notes?content.venueid=automl.cc/AutoML/2024/Conference",
+        "fetched_at": "2026-06-16T19:12:14Z",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "automl2024:don-t-waste-your-time-early-stopping-cross-validation:32b3b6f1f7",
+      "title": "Don't Waste Your Time: Early Stopping Cross-Validation",
+      "abstract": "State-of-the-art automated machine learning systems for tabular data often employ cross-validation; ensuring that measured performances generalize to unseen data, or that subsequent ensembling does not overfit. However, using k-fold cross-validation instead of holdout validation drastically increases the computational cost of validating a single configuration. While ensuring better generalization and, by extension, better performance, the additional cost is often prohibitive for effective model selection within a time budget. We aim to make model selection with cross-validation more effective. Therefore, we study early stopping the process of cross-validation during model selection. We investigate the impact of early stopping on random search for two algorithms, MLP and random forest,  across 36 classification datasets. We further analyze the impact of the number of folds by considering 3-, 5-, and 10-folds. In addition, we ablate the impact of early stopping on Bayesian optimization and also repeated cross-validation. Our exploratory study shows that even a simple-to-understand and easy-to-implement method consistently allows model selection to converge faster; in ~94% of all datasets, on average by 214%. Moreover, stopping cross-validation enables model selection to explore the search space more exhaustively by considering +167% configurations on average, while also obtaining better overall performance.",
+      "authors": [
+        "Edward Bergman",
+        "Lennart Purucker",
+        "Frank Hutter"
+      ],
+      "affiliations": [],
+      "first_institute": "",
+      "venue": "AutoML",
+      "venue_key": "automl",
+      "year": 2024,
+      "status": "accepted",
+      "track": "",
+      "presentation": "",
+      "paper_url": "https://openreview.net/forum?id=D8IFbV2rTP",
+      "pdf_url": "https://openreview.net/pdf/6a1dc774c7a40c1e8b7b3b179266cdda4185d226.pdf",
+      "arxiv_url": "",
+      "project_url": "",
+      "github_url": "",
+      "doi": "",
+      "keywords": [
+        "AutoML",
+        "Model Selection",
+        "HPO",
+        "Cross-Validation",
+        "Early Stopping",
+        "Bayesian Optimization",
+        "Overfitting"
+      ],
+      "source": {
+        "name": "OpenReview API",
+        "url": "https://api2.openreview.net/notes?content.venueid=automl.cc/AutoML/2024/Conference",
+        "fetched_at": "2026-06-16T19:12:14Z",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "automl2024:training-and-cross-validating-machine-learning-pipelines-with-limited-me:e759130f3f",
+      "title": "Training and Cross-Validating Machine Learning Pipelines with Limited Memory",
+      "abstract": "While automated machine learning (AutoML) can save human labor in finding well-performing pipelines, it often suffers from two problems: overfitting and using excessive resources.  Unfortunately, the solutions are often at odds: cross-validation helps reduce overfitting at the expense of more resources; conversely, preprocessing on a separate compute cluster and then cross-validating only the final predictor saves resources at the expense of more overfitting.  This paper shows how to train and cross-validate entire pipelines on a single moderate machine with limited memory by using monoids, which are associative, thus providing a flexible way for handling large data one batch at a time.  To facilitate AutoML, our approach is designed to support the common sklearn APIs used by many AutoML systems for pipelines, training, cross-validation, and several operators.  Abstracted behind those APIs, our approach uses task graphs to extend the benefits of monoids from operators to pipelines, and provides a multi-backend implementation.  Overall, our approach lets users train and cross-validate pipelines on simple and inexpensive compute infrastructure.",
+      "authors": [
+        "Martin Hirzel",
+        "Kiran Kate",
+        "Louis Mandel",
+        "Avraham Shinnar"
+      ],
+      "affiliations": [],
+      "first_institute": "",
+      "venue": "AutoML",
+      "venue_key": "automl",
+      "year": 2024,
+      "status": "accepted",
+      "track": "",
+      "presentation": "",
+      "paper_url": "https://openreview.net/forum?id=4LkaPSHUQQ",
+      "pdf_url": "https://openreview.net/pdf/eb13bf94470c741981529b7cb7abb7439becaff4.pdf",
+      "arxiv_url": "",
+      "project_url": "",
+      "github_url": "",
+      "doi": "",
+      "keywords": [
+        "cross-validation",
+        "machine learning",
+        "monoids",
+        "pipelines",
+        "batching",
+        "limited memory"
+      ],
+      "source": {
+        "name": "OpenReview API",
+        "url": "https://api2.openreview.net/notes?content.venueid=automl.cc/AutoML/2024/Conference",
+        "fetched_at": "2026-06-16T19:12:14Z",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "automl2024:analyzing-few-shot-neural-architecture-search-in-a-metric-driven-framewo:ac24ba0c47",
+      "title": "Analyzing Few-Shot Neural Architecture Search in a Metric-Driven Framework",
+      "abstract": "While Neural Architecture Search (NAS) methods help find optimal neural network architectures for diverse tasks, they often come with unreasonable costs. To tackle such a drawback, the one-shot NAS setting was introduced, where a supernet is used as a superposition of all architectures in the space and performs the search in a single training phase. While this method significantly reduces the cost of running NAS, the joint optimization of every architecture degrades the performance of the search. The few-shot NAS line of work tackles this issue by splitting the supernet into sub-supernets trained separately, each with a reduced level of weight-sharing, which gives rise to the new challenge of finding the best way to split the supernet. In particular, GM-NAS utilizes a gradient matching score to group operations in a splitting schema. We extend and generalize this method by building a framework with compatibility for any arbitrary architecture evaluation metric, enabling the generation of numerous and diverse splits. We leverage this new framework in conjunction with various metrics from the zero-shot NAS literature and investigate the benefits of splitting across algorithms and metrics. We find that architectures are distributed in disadvantageous ways inside splits, and that proposed supernet selection methods are flawed.",
+      "authors": [
+        "Timotée Ly-Manson",
+        "Mathieu Léonardon",
+        "Abdeldjalil AISSA EL BEY",
+        "Ghouthi BOUKLI HACENE",
+        "Lukas Mauch"
+      ],
+      "affiliations": [],
+      "first_institute": "",
+      "venue": "AutoML",
+      "venue_key": "automl",
+      "year": 2024,
+      "status": "accepted",
+      "track": "",
+      "presentation": "",
+      "paper_url": "https://openreview.net/forum?id=ePH3xBFOiP",
+      "pdf_url": "https://openreview.net/pdf/2ff660fda320552ac739ab1fefbf0dfaa2cebec0.pdf",
+      "arxiv_url": "",
+      "project_url": "",
+      "github_url": "",
+      "doi": "",
+      "keywords": [
+        "nas",
+        "neural architecture search",
+        "few-shot",
+        "metric",
+        "metrics"
+      ],
+      "source": {
+        "name": "OpenReview API",
+        "url": "https://api2.openreview.net/notes?content.venueid=automl.cc/AutoML/2024/Conference",
+        "fetched_at": "2026-06-16T19:12:14Z",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "automl2024:confidence-interval-estimation-of-predictive-performance-in-the-context:062b311e6b",
+      "title": "Confidence Interval Estimation of Predictive Performance in the Context of AutoML",
+      "abstract": "Any supervised machine learning analysis is required to provide an estimate of the out-of-sample predictive performance. However, it is imperative to also provide a quantification of the uncertainty of this performance in the form of a confidence or credible interval (CI) and not just a point estimate. In an AutoML setting, estimating the CI is challenging due to the ``winner's curse\", i.e., the bias of estimation due to cross-validating several machine learning pipelines and selecting the winning one. In this work, we perform a comparative evaluation of 9 state-of-the-art methods and variants in CI estimation in an AutoML setting on a corpus of real and simulated datasets. The methods are compared in terms of inclusion percentage (does a 95\\% CI interval include the true performance at least \\%95 of the time), CI tightness (tighter CIs are preferable as being more informative), and execution time. The evaluation is the first one that covers most, if not all, such methods and extends previous work to multi-class, imbalanced, and small-sample tasks. In addition, we present a variant, called BBC-F, of an existing method (the Bootstrap Bias Correction, or BBC) that maintains the statistical properties of the BBC but is more computationally efficient. The results support that BBC-F and BBC dominate the other methods in all metrics measured. However, the results also point to open problems and challenges in producing accurate CIs of performance, particularly in the case of multi-class tasks.",
+      "authors": [
+        "Konstantinos Paraschakis",
+        "Andrea Castellani",
+        "Giorgos Borboudakis",
+        "Ioannis Tsamardinos"
+      ],
+      "affiliations": [],
+      "first_institute": "",
+      "venue": "AutoML",
+      "venue_key": "automl",
+      "year": 2024,
+      "status": "accepted",
+      "track": "",
+      "presentation": "",
+      "paper_url": "https://openreview.net/forum?id=f4BAvKsVmT",
+      "pdf_url": "https://openreview.net/pdf/c78f8b2c9066ac36aea78e5da65b822668395429.pdf",
+      "arxiv_url": "",
+      "project_url": "",
+      "github_url": "",
+      "doi": "",
+      "keywords": [
+        "confidence interval",
+        "performance estimation",
+        "bootstrapping"
+      ],
+      "source": {
+        "name": "OpenReview API",
+        "url": "https://api2.openreview.net/notes?content.venueid=automl.cc/AutoML/2024/Conference",
+        "fetched_at": "2026-06-16T19:12:14Z",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "automl2024:is-mamba-capable-of-in-context-learning:76c77db30f",
+      "title": "Is Mamba Capable of In-Context Learning?",
+      "abstract": "The surprising generalization capabilities of foundation models have been enabled by in-context learning (ICL), a new variant of meta-learning that denotes the learned ability to solve tasks during a neural network  forward pass, exploiting contextual information provided as input to the model. This useful ability emerges as a side product of the foundation model's massive pretraining. While transformer models are currently the state of the art in ICL, this work provides empirical evidence that Mamba, a newly proposed state space model which scales better  than transformers w.r.t.\\@ the input sequence length, has similar ICL capabilities. We evaluated Mamba on tasks involving simple function approximation as well as more complex natural language processing problems. Our results demonstrate that, across both categories of tasks, Mamba closely matches the performance of transformer models for ICL. Further analysis reveals that, like transformers, Mamba appears to solve ICL problems by incrementally optimizing its internal representations. Overall, our work suggests that Mamba can be an efficient alternative to transformers for ICL tasks involving long input sequences. This is an exciting finding in meta-learning and may also enable generalizations of in-context learned AutoML algorithms (like TabPFN or Optformer) to long input sequences. The anonymous code to reproduce our experiments is available [here](https://anon-github.automl.cc/r/is_mamba_capable_of_in_context_learning-7C49/README.md).",
+      "authors": [
+        "Riccardo Grazzi",
+        "Julien Niklas Siems",
+        "Simon Schrodi",
+        "Thomas Brox",
+        "Frank Hutter"
+      ],
+      "affiliations": [],
+      "first_institute": "",
+      "venue": "AutoML",
+      "venue_key": "automl",
+      "year": 2024,
+      "status": "accepted",
+      "track": "",
+      "presentation": "",
+      "paper_url": "https://openreview.net/forum?id=rJhOG0P8nr",
+      "pdf_url": "https://openreview.net/pdf/13b4424fc075e5328bbf87d1aa796be63ca560d9.pdf",
+      "arxiv_url": "",
+      "project_url": "",
+      "github_url": "",
+      "doi": "",
+      "keywords": [
+        "In-Context Learning",
+        "ICL",
+        "Mamba",
+        "S4",
+        "Transformer",
+        "State space models",
+        "meta-learning"
+      ],
+      "source": {
+        "name": "OpenReview API",
+        "url": "https://api2.openreview.net/notes?content.venueid=automl.cc/AutoML/2024/Conference",
+        "fetched_at": "2026-06-16T19:12:14Z",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "automl2024:asml-a-scalable-and-efficient-automl-solution-for-data-streams:d8a6f6670c",
+      "title": "ASML: A Scalable and Efficient AutoML Solution for Data Streams",
+      "abstract": "Online learning poses a significant challenge to AutoML, as the best model and configuration may change depending on the data distribution. To address this challenge, we propose Automated Streaming Machine Learning (ASML), an online learning framework that automatically finds the best machine learning models and their configurations for changing data streams. It adapts to the online learning scenario by continuously exploring a large and diverse pipeline configuration space. It uses an adaptive optimisation technique that utilizes the current best design, adaptive random directed nearby search, and an ensemble of best performing pipelines. We experimented with real and synthetic drifting data streams and showed that ASML can build accurate and adaptive pipelines by constantly exploring and responding to changes. In several datasets, it outperforms existing online AutoML and state-of-the-art online learning algorithms.",
+      "authors": [
+        "Nilesh Verma",
+        "Albert Bifet",
+        "Bernhard Pfahringer",
+        "Maroua Bahri"
+      ],
+      "affiliations": [],
+      "first_institute": "",
+      "venue": "AutoML",
+      "venue_key": "automl",
+      "year": 2024,
+      "status": "accepted",
+      "track": "",
+      "presentation": "",
+      "paper_url": "https://openreview.net/forum?id=9fL1HaSW6X",
+      "pdf_url": "https://openreview.net/pdf/5d839bd670a33fac0cff01f3134db1a1aa962bab.pdf",
+      "arxiv_url": "",
+      "project_url": "",
+      "github_url": "",
+      "doi": "",
+      "keywords": [
+        "Online AutoML",
+        "AutoML for Data Stream",
+        "Data Stream",
+        "AutoML"
+      ],
+      "source": {
+        "name": "OpenReview API",
+        "url": "https://api2.openreview.net/notes?content.venueid=automl.cc/AutoML/2024/Conference",
+        "fetched_at": "2026-06-16T19:12:14Z",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "automl2024:bi-level-one-shot-architecture-search-for-probabilistic-time-series-fore:3ebafd179b",
+      "title": "Bi-Level One-Shot Architecture Search for Probabilistic Time Series Forecasting",
+      "abstract": "Time series forecasting is ubiquitous in many disciplines. A recent hybrid architecture named predictive Whittle networks (PWNs) tackles this task by employing two distinct modules, a tractable probabilistic model and a neural forecaster, with the former guiding the latter by providing likelihoods about predictions during training. Although PWNs achieve state-of-the-art accuracy, finding the optimal type of probabilistic model and neural forecaster (macro-architecture search) and the architecture of each module (micro-architecture search) of such hybrid models remains difficult and time-consuming. Current one-shot neural architecture search (NAS) methods approach this challenge by focusing on either the micro or the macro aspect, overlooking mutual impact, and could attain the overall optimization only sequentially. To overcome these limitations, we introduce a bi-level one-shot NAS method that optimizes such hybrid architectures simultaneously, leveraging the relationships between the micro and the macro architectural levels. We empirically demonstrate that the hybrid architectures found by our method outperform human-designed and overparameterized ones on various challenging datasets. Furthermore, we unveil insights about underlying connections between architectural choices and temporal features.",
+      "authors": [
+        "Jonas Seng",
+        "Fabian Kalter",
+        "Zhongjie Yu",
+        "Fabrizio Ventola",
+        "Kristian Kersting"
+      ],
+      "affiliations": [],
+      "first_institute": "",
+      "venue": "AutoML",
+      "venue_key": "automl",
+      "year": 2024,
+      "status": "accepted",
+      "track": "",
+      "presentation": "",
+      "paper_url": "https://openreview.net/forum?id=AaPhnfFQYn",
+      "pdf_url": "https://openreview.net/pdf/d6a8cbcfae1c02d6f1f5bf55dc0daa45a9fdaf26.pdf",
+      "arxiv_url": "",
+      "project_url": "",
+      "github_url": "",
+      "doi": "",
+      "keywords": [
+        "neural architecture search",
+        "hybrid architectures",
+        "time series forecasting",
+        "probabilistic modeling"
+      ],
+      "source": {
+        "name": "OpenReview API",
+        "url": "https://api2.openreview.net/notes?content.venueid=automl.cc/AutoML/2024/Conference",
+        "fetched_at": "2026-06-16T19:12:14Z",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "automl2024:improving-transfer-learning-by-means-of-ensemble-learning-and-swarm-inte:d37db5763f",
+      "title": "Improving Transfer Learning by means of Ensemble Learning and Swarm Intelligence-based Neuroevolution",
+      "abstract": "Neural Architecture Search (NAS) methods, when applied to very small but complex datasets, tend to overfit on the validation partitions and underperform compared to Transfer Learning models. In order to reduce the bias and variance of their predictions, Deep Ensemble Learning (DEL) can be used. The combination of NAS and DEL has only been employed on large datasets in the literature, but these scenarios do not present the overfitting in validation we typically experience, for instance, on medical imaging applications. In this work, we empirically assess the feasibility of NAS, DEL and the combination of the two on both small and large dataset scenarios. We find that the performance of the ensembles highly depend on the degree of overfitting of the standalone models, but always will outperform the worst generalizing models in the population.",
+      "authors": [
+        "Adri Gómez",
+        "Monica Abella",
+        "Manuel Desco"
+      ],
+      "affiliations": [],
+      "first_institute": "",
+      "venue": "AutoML",
+      "venue_key": "automl",
+      "year": 2024,
+      "status": "accepted",
+      "track": "",
+      "presentation": "",
+      "paper_url": "https://openreview.net/forum?id=VgnII4nq9k",
+      "pdf_url": "https://openreview.net/pdf/4b24a0bdb7586b4723d824febd286cb032dc6b74.pdf",
+      "arxiv_url": "",
+      "project_url": "",
+      "github_url": "",
+      "doi": "",
+      "keywords": [
+        "Ensemble Learning",
+        "Deep Learning",
+        "Neural Architecture Search",
+        "Swarm Intelligence"
+      ],
+      "source": {
+        "name": "OpenReview API",
+        "url": "https://api2.openreview.net/notes?content.venueid=automl.cc/AutoML/2024/Conference",
+        "fetched_at": "2026-06-16T19:12:14Z",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "automl2024:hpod-hyperparameter-optimization-for-unsupervised-outlier-detection:8f686a0864",
+      "title": "HPOD: Hyperparameter Optimization for Unsupervised Outlier Detection",
+      "abstract": "Given an unsupervised outlier detection (OD) algorithm, how can we optimize its hyperparameter(s) (HP) on a new dataset, without using any labels? In this work, we address this challenging hyperparameter optimization for unsupervised OD problem, and propose the first continuous HP search method called HPOD. It capitalizes on the prior performance of a large collection of HPs on existing OD benchmark datasets, and transfers this information to enable HP evaluation on a new dataset without labels. Also, HPOD adapts a prominent, (originally) supervised, sampling paradigm to efficiently identify promising HPs in iterations. Extensive experiments show that HPOD works for both deep (e.g., Robust AutoEncoder (RAE)) and shallow (e.g., Local Outlier Factor (LOF) and Isolation Forest (Forest)) algorithms on discrete and continuous HP spaces. HPOD outperforms a wide range of diverse baselines with 37% improvement on average over the minimal loss HPs of RAE, and 58% and 66% improvement on average over the default HPs of LOF and iForest.",
+      "authors": [
+        "Yue Zhao",
+        "Leman Akoglu"
+      ],
+      "affiliations": [],
+      "first_institute": "",
+      "venue": "AutoML",
+      "venue_key": "automl",
+      "year": 2024,
+      "status": "accepted",
+      "track": "",
+      "presentation": "",
+      "paper_url": "https://openreview.net/forum?id=pypP5uaHxg",
+      "pdf_url": "https://openreview.net/pdf/ca0fa173ae8923114a063ed3e32de246f029cccf.pdf",
+      "arxiv_url": "",
+      "project_url": "",
+      "github_url": "",
+      "doi": "",
+      "keywords": [
+        "outlier detection",
+        "hyperparameter optimization",
+        "automated machine learning"
+      ],
+      "source": {
+        "name": "OpenReview API",
+        "url": "https://api2.openreview.net/notes?content.venueid=automl.cc/AutoML/2024/Conference",
+        "fetched_at": "2026-06-16T19:12:14Z",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "automl2024:speeding-up-nas-with-adaptive-subset-selection:c1f3562a38",
+      "title": "Speeding up NAS with Adaptive Subset Selection",
+      "abstract": "A majority of recent developments in neural architecture search (NAS) have been aimed at decreasing the computational cost of various techniques without affecting their final performance. Towards this goal, several low-fidelity and performance prediction methods have been considered, including those that train only on subsets of the training data. In this work, we present an adaptive subset selection approach to NAS and present it as complementary to state-of-the-art NAS approaches. We uncover a natural connection between one-shot NAS algorithms and adaptive subset selection and devise an algorithm that makes use of state-of-the-art techniques from both areas. We use these techniques to substantially reduce the runtime of DARTS-PT (a leading one-shot NAS algorithm), as well as BOHB and DEHB (leading multi-fidelity optimization algorithms), with minimal sacrifice to accuracy. In experiments, we find architectures on CIFAR-10 that give 5\\% increase in performance over DARTS-PT while reducing the time required by more than 8 times. Our results are consistent across multiple datasets, and towards full reproducibility, we release all our code at \\url{https://anonymous.4open.science/r/SubsetSelection_NAS-87B3}",
+      "authors": [
+        "Vishak Prasad C",
+        "Colin White",
+        "Sibasis Nayak",
+        "Paarth Jain",
+        "Aziz Shameem",
+        "Prateek Garg",
+        "Ganesh Ramakrishnan"
+      ],
+      "affiliations": [],
+      "first_institute": "",
+      "venue": "AutoML",
+      "venue_key": "automl",
+      "year": 2024,
+      "status": "accepted",
+      "track": "",
+      "presentation": "",
+      "paper_url": "https://openreview.net/forum?id=hRqiQ2i5ps",
+      "pdf_url": "https://openreview.net/pdf/3a1f0c6c1ebdf471bd7b3dc3ffc794a9353b7e54.pdf",
+      "arxiv_url": "",
+      "project_url": "",
+      "github_url": "",
+      "doi": "",
+      "keywords": [
+        "Neural Architecture Search",
+        "Subset Selection",
+        "Optimisation"
+      ],
+      "source": {
+        "name": "OpenReview API",
+        "url": "https://api2.openreview.net/notes?content.venueid=automl.cc/AutoML/2024/Conference",
+        "fetched_at": "2026-06-16T19:12:14Z",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "id": "automl2024:weight-entanglement-meets-gradient-based-neural-architecture-search:262e4e0e25",
+      "title": "Weight-Entanglement Meets Gradient-Based Neural Architecture Search",
+      "abstract": "Weight sharing is a fundamental concept in neural architecture search (NAS), enabling gradient-based methods to explore cell-based architectural spaces significantly faster than traditional blackbox approaches. In parallel, weight entanglement has emerged as a technique for more intricate parameter sharing amongst macro-architectural spaces. Since weight-entanglement is not directly compatible with gradient-based NAS methods, these  two paradigms have largely developed independently in parallel sub-communities. This paper aims to bridge the gap between these sub-communities by proposing a novel scheme to adapt gradient-based methods for weight-entangled spaces. This enables us to conduct an in-depth comparative assessment and analysis of the performance of gradient-based NAS in weight-entangled search spaces. Our findings reveal that this integration of weight-entanglement and gradient-based NAS brings forth the various benefits of gradient-based methods, while preserving the memory efficiency of weight-entangled spaces. The code for our work is openly accessible at https://anon-github.automl.cc/r/TangleNAS-5BA5.",
+      "authors": [
+        "Rhea Sanjay Sukthanker",
+        "Arjun Krishnakumar",
+        "Mahmoud Safari",
+        "Frank Hutter"
+      ],
+      "affiliations": [],
+      "first_institute": "",
+      "venue": "AutoML",
+      "venue_key": "automl",
+      "year": 2024,
+      "status": "accepted",
+      "track": "",
+      "presentation": "",
+      "paper_url": "https://openreview.net/forum?id=4klsxqPerv",
+      "pdf_url": "https://openreview.net/pdf/a00a743791b80076b990a1f208f1548437156b34.pdf",
+      "arxiv_url": "",
+      "project_url": "",
+      "github_url": "",
+      "doi": "",
+      "keywords": [
+        "Neural Architecture Search",
+        "Gradient-based",
+        "Efficiency"
+      ],
+      "source": {
+        "name": "OpenReview API",
+        "url": "https://api2.openreview.net/notes?content.venueid=automl.cc/AutoML/2024/Conference",
+        "fetched_at": "2026-06-16T19:12:14Z",
+        "license": "CC BY 4.0"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "0.1",
+  "venue_key": "nips",
+  "year": 2021,
+  "source": "neurips",
+  "baseline": "papercopilot",
+  "generated_at": "2026-06-16T19:59:11Z",
+  "status": "ok",
+  "min_count_ratio": 0.95,
+  "counts": {
+    "ours": 2508,
+    "baseline": 2508,
+    "title_overlap": 2508,
+    "count_ratio": 1.0,
+    "overlap_ratio": 1.0
+  },
+  "samples": {
+    "missing_from_ours": [],
+    "extra_in_ours": []
+  }
+}

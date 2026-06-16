@@ -1,0 +1,48 @@
+{
+  "schema_version": "0.1",
+  "venue_key": "nips",
+  "year": 2024,
+  "source": "neurips",
+  "baseline": "papercopilot",
+  "generated_at": "2026-06-16T19:58:04Z",
+  "status": "ok",
+  "min_count_ratio": 0.95,
+  "counts": {
+    "ours": 4538,
+    "baseline": 4562,
+    "title_overlap": 4537,
+    "count_ratio": 0.9947,
+    "overlap_ratio": 0.9945
+  },
+  "samples": {
+    "missing_from_ours": [
+      "a benchmark suite for systematically evaluating reasoning shortcuts",
+      "a novel benchmark for decision-making in uncertain and competitive games",
+      "bayesian identification of the hamiltonian inductive bias in dynamical systems",
+      "benchmarking trustworthiness of multimodal large language models: a comprehensive study",
+      "comprehensive framework for curating speech datasets and evaluating asr systems: a case study for the polish language",
+      "cryobench: datasets and benchmarks for heterogeneous cryo-em reconstruction",
+      "do multimodal foundation models understand enterprise workflows? a benchmark for business process management tasks",
+      "eevr: a virtual reality-based emotion dataset featuring paired physiological signals and textual descriptions",
+      "elsa: exploiting layer-wise n:m sparsity for vision transformer acceleration",
+      "evaluate calibration of language models with folktexts",
+      "human-level shape inferences: a benchmark for evaluating the 3d understanding of vision models",
+      "image2struct: a benchmark for evaluating vision-language models in extracting structured information from images",
+      "norms for managing datasets: a systematic review of neurips datasets",
+      "opencda-loop: a closed-loop benchmarking platform for end-to-end evaluation of cooperative perception",
+      "prejudice and volatility: a statistical framework for measuring social discrimination in large language models",
+      "quantifying the bitter lesson: how safety benchmarks measure capabilities instead of safety",
+      "redcode: multi-dimensional safety benchmark for code agents",
+      "semi-discrete optimal transport: nearly minimax estimation with stochastic gradient descent and adaptive entropic regularization",
+      "setbench: assessing the analytical and semantic robustness of language models",
+      "subjective-qa: a dataset for the subjective evaluation of answers in earnings call transcripts (ects)",
+      "surgicai: a fine-grained platform for data collection and benchmarking in surgical policy learning",
+      "there is no silver bullet: benchmarking methods in predictive combinatorial optimization",
+      "through the looking-glass: tracing shifts in ai data consent across the web",
+      "wikido: evaluating out-of-distribution generalization of vision-language models in cross-modal retrieval"
+    ],
+    "extra_in_ours": [
+      "miso: optimizing brain stimulation to create neural population activity states"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "0.1",
+  "venue_key": "nips",
+  "year": 2023,
+  "source": "neurips",
+  "baseline": "papercopilot",
+  "generated_at": "2026-06-16T19:59:46Z",
+  "status": "ok",
+  "min_count_ratio": 0.95,
+  "counts": {
+    "ours": 3588,
+    "baseline": 3584,
+    "title_overlap": 3584,
+    "count_ratio": 1.0011,
+    "overlap_ratio": 1.0
+  },
+  "samples": {
+    "missing_from_ours": [],
+    "extra_in_ours": [
+      "dynadojo: an extensible platform for benchmarking scaling in dynamical system identification",
+      "inspect: a multimodal dataset for patient outcome prediction of pulmonary embolisms",
+      "reproducibility study of \"label-free explainability for unsupervised models\"",
+      "the cambridge law corpus: a corpus for legal ai research"
+    ]
+  }
+}
