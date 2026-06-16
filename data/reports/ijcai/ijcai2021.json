@@ -1,0 +1,23 @@
+{
+  "schema_version": "0.1",
+  "venue_key": "ijcai",
+  "year": 2021,
+  "source": "dblp",
+  "baseline": "papercopilot",
+  "generated_at": "2026-06-16T20:49:17Z",
+  "status": "ok",
+  "min_count_ratio": 0.95,
+  "counts": {
+    "ours": 721,
+    "baseline": 722,
+    "title_overlap": 721,
+    "count_ratio": 0.9986,
+    "overlap_ratio": 0.9986
+  },
+  "samples": {
+    "missing_from_ours": [
+      "self adaptive swarm system sass"
+    ],
+    "extra_in_ours": []
+  }
+}

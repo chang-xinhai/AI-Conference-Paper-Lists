@@ -1,0 +1,26 @@
+{
+  "schema_version": "0.1",
+  "venue_key": "aaai",
+  "year": 2024,
+  "source": "dblp",
+  "baseline": "papercopilot",
+  "generated_at": "2026-06-16T20:49:09Z",
+  "status": "ok",
+  "min_count_ratio": 0.95,
+  "counts": {
+    "ours": 2865,
+    "baseline": 2864,
+    "title_overlap": 2863,
+    "count_ratio": 1.0003,
+    "overlap_ratio": 0.9997
+  },
+  "samples": {
+    "missing_from_ours": [
+      "hago net hierarchical geometric message passing for molecular representation learning"
+    ],
+    "extra_in_ours": [
+      "hago net hierarchical geometric massage passing for molecular representation learning",
+      "high significant fault detection in azure core workload insights"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "0.1",
+  "venue_key": "iros",
+  "year": 2020,
+  "source": "dblp",
+  "baseline": "papercopilot",
+  "generated_at": "2026-06-16T20:49:17Z",
+  "status": "ok",
+  "min_count_ratio": 0.95,
+  "counts": {
+    "ours": 1128,
+    "baseline": 1129,
+    "title_overlap": 1127,
+    "count_ratio": 0.9991,
+    "overlap_ratio": 0.9982
+  },
+  "samples": {
+    "missing_from_ours": [
+      "long term localization with time series map prediction for mobile robots in dynamic environments",
+      "reconstruction of 3d flight trajectories from ad hoc camera networks"
+    ],
+    "extra_in_ours": [
+      "reconstruction of 3d ight trajectories from ad hoc camera networks"
+    ]
+  }
+}

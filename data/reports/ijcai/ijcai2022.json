@@ -1,0 +1,23 @@
+{
+  "schema_version": "0.1",
+  "venue_key": "ijcai",
+  "year": 2022,
+  "source": "dblp",
+  "baseline": "papercopilot",
+  "generated_at": "2026-06-16T20:49:17Z",
+  "status": "ok",
+  "min_count_ratio": 0.95,
+  "counts": {
+    "ours": 863,
+    "baseline": 862,
+    "title_overlap": 862,
+    "count_ratio": 1.0012,
+    "overlap_ratio": 1.0
+  },
+  "samples": {
+    "missing_from_ours": [],
+    "extra_in_ours": [
+      "fixed budget pure exploration in multinomial logit bandits"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "0.1",
+  "venue_key": "iros",
+  "year": 2022,
+  "source": "dblp",
+  "baseline": "papercopilot",
+  "generated_at": "2026-06-16T20:49:17Z",
+  "status": "ok",
+  "min_count_ratio": 0.95,
+  "counts": {
+    "ours": 1213,
+    "baseline": 1214,
+    "title_overlap": 1210,
+    "count_ratio": 0.9992,
+    "overlap_ratio": 0.9967
+  },
+  "samples": {
+    "missing_from_ours": [
+      "i m confident this will end poorly robot proficiency self assessment in human robot teaming",
+      "passive compliant foot design for improved micororobotic mobility on rough terrains",
+      "t3vip transformation based 3 mathrm d video prediction",
+      "toward dexterous flapping flight effective large yaw torque generation by 2 times 2 degrees of freedom flapping wings"
+    ],
+    "extra_in_ours": [
+      "i mconfident this will end poorly robot proficiency self assessment in human robot teaming",
+      "t3vip transformation based 3d video prediction",
+      "toward dexterous flapping flight effective large yaw torque generation by 22 degrees of freedom flapping wings"
+    ]
+  }
+}

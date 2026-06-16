@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.1",
+  "venue_key": "icra",
+  "year": 2022,
+  "source": "dblp",
+  "baseline": "papercopilot",
+  "generated_at": "2026-06-16T20:49:16Z",
+  "status": "ok",
+  "min_count_ratio": 0.95,
+  "counts": {
+    "ours": 929,
+    "baseline": 931,
+    "title_overlap": 929,
+    "count_ratio": 0.9979,
+    "overlap_ratio": 0.9979
+  },
+  "samples": {
+    "missing_from_ours": [
+      "combined fast control of drifting state and trajectory tracking for autonomous vehicles based on mpc controller",
+      "dual regression for efficient hand pose estimation"
+    ],
+    "extra_in_ours": []
+  }
+}

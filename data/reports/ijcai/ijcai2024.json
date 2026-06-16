@@ -1,0 +1,21 @@
+{
+  "schema_version": "0.1",
+  "venue_key": "ijcai",
+  "year": 2024,
+  "source": "dblp",
+  "baseline": "papercopilot",
+  "generated_at": "2026-06-16T20:49:17Z",
+  "status": "ok",
+  "min_count_ratio": 0.95,
+  "counts": {
+    "ours": 1048,
+    "baseline": 1048,
+    "title_overlap": 1048,
+    "count_ratio": 1.0,
+    "overlap_ratio": 1.0
+  },
+  "samples": {
+    "missing_from_ours": [],
+    "extra_in_ours": []
+  }
+}

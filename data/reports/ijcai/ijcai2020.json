@@ -1,0 +1,23 @@
+{
+  "schema_version": "0.1",
+  "venue_key": "ijcai",
+  "year": 2020,
+  "source": "dblp",
+  "baseline": "papercopilot",
+  "generated_at": "2026-06-16T20:49:16Z",
+  "status": "ok",
+  "min_count_ratio": 0.95,
+  "counts": {
+    "ours": 777,
+    "baseline": 778,
+    "title_overlap": 777,
+    "count_ratio": 0.9987,
+    "overlap_ratio": 0.9987
+  },
+  "samples": {
+    "missing_from_ours": [
+      "wattnet learning to trade fx via hierarchical spatio temporal representation of highly multivariate time series"
+    ],
+    "extra_in_ours": []
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "0.1",
+  "venue_key": "icra",
+  "year": 2021,
+  "source": "dblp",
+  "baseline": "papercopilot",
+  "generated_at": "2026-06-16T20:49:16Z",
+  "status": "ok",
+  "min_count_ratio": 0.95,
+  "counts": {
+    "ours": 1386,
+    "baseline": 1387,
+    "title_overlap": 1385,
+    "count_ratio": 0.9993,
+    "overlap_ratio": 0.9986
+  },
+  "samples": {
+    "missing_from_ours": [
+      "cnn based ego motion estimation for fast mav maneuvers",
+      "plenary"
+    ],
+    "extra_in_ours": [
+      "cnn based ego motion estimation for fast mav maneuve"
+    ]
+  }
+}

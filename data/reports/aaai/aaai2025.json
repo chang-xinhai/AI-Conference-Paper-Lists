@@ -1,0 +1,27 @@
+{
+  "schema_version": "0.1",
+  "venue_key": "aaai",
+  "year": 2025,
+  "source": "dblp",
+  "baseline": "papercopilot",
+  "generated_at": "2026-06-16T20:49:09Z",
+  "status": "ok",
+  "min_count_ratio": 0.95,
+  "counts": {
+    "ours": 3486,
+    "baseline": 3486,
+    "title_overlap": 3484,
+    "count_ratio": 1.0,
+    "overlap_ratio": 0.9994
+  },
+  "samples": {
+    "missing_from_ours": [
+      "d 2 dpm dual denoising for quantized diffusion probabilistic models",
+      "multi scale activation refinement and aggregation exploring diverse cues for fine grained bird recognition"
+    ],
+    "extra_in_ours": [
+      "d2 dpm dual denoising for quantized diffusion probabilistic models",
+      "multi scale activation selection and aggregation exploring diverse cues for fine grained bird recognition"
+    ]
+  }
+}

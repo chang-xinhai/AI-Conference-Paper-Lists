@@ -5,8 +5,8 @@
     "raw_base_url": "https://raw.githubusercontent.com/papercopilot/paperlists/main"
   },
   "routes": {
-    "3dv": ["cvf", "papercopilot"],
-    "aaai": ["aaai_ojs", "papercopilot"],
+    "3dv": ["openreview", "cvf", "dblp", "papercopilot"],
+    "aaai": ["dblp", "aaai_ojs", "papercopilot"],
     "acl": ["acl_anthology", "papercopilot"],
     "acml": ["pmlr", "papercopilot"],
     "acmmm": ["acm", "dblp", "papercopilot"],
@@ -31,8 +31,8 @@
     "naacl": ["acl_anthology", "papercopilot"],
     "nips": ["neurips", "openreview", "papercopilot"],
     "rss": ["rss", "papercopilot"],
-    "siggraph": ["acm", "siggraph", "papercopilot"],
-    "siggraphasia": ["acm", "siggraph_asia", "papercopilot"],
+    "siggraph": ["acm", "siggraph", "dblp", "papercopilot"],
+    "siggraphasia": ["acm", "siggraph_asia", "dblp", "papercopilot"],
     "uai": ["pmlr", "openreview", "papercopilot"],
     "wacv": ["cvf", "papercopilot"],
     "www": ["acm", "dblp", "papercopilot"]

@@ -1,0 +1,28 @@
+{
+  "schema_version": "0.1",
+  "venue_key": "iros",
+  "year": 2021,
+  "source": "dblp",
+  "baseline": "papercopilot",
+  "generated_at": "2026-06-16T20:49:17Z",
+  "status": "ok",
+  "min_count_ratio": 0.95,
+  "counts": {
+    "ours": 1032,
+    "baseline": 1035,
+    "title_overlap": 1031,
+    "count_ratio": 0.9971,
+    "overlap_ratio": 0.9961
+  },
+  "samples": {
+    "missing_from_ours": [
+      "hybrid volitional control as a framework for lower limb prosthetic control a simulation study",
+      "plenaries and keynotes",
+      "rf lio removal first tightly coupled lidar inertial odometry in high dynamic environments",
+      "towards robust visual diver detection onboard autonomous underwater robots assessing the effects of models and data1"
+    ],
+    "extra_in_ours": [
+      "towards robust visual diver detection onboard autonomous underwater robots assessing the effects of models and data"
+    ]
+  }
+}

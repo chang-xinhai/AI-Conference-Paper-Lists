@@ -1,0 +1,25 @@
+{
+  "schema_version": "0.1",
+  "venue_key": "icra",
+  "year": 2023,
+  "source": "dblp",
+  "baseline": "papercopilot",
+  "generated_at": "2026-06-16T20:49:16Z",
+  "status": "ok",
+  "min_count_ratio": 0.95,
+  "counts": {
+    "ours": 1341,
+    "baseline": 1341,
+    "title_overlap": 1340,
+    "count_ratio": 1.0,
+    "overlap_ratio": 0.9993
+  },
+  "samples": {
+    "missing_from_ours": [
+      "a system for generalized 3d multi object search"
+    ],
+    "extra_in_ours": [
+      "asystem for generalized 3d multi object search"
+    ]
+  }
+}

@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from typing import Any, Protocol
 
-from .sources import acl_anthology, cvf, neurips, openreview, papercopilot, pmlr, rss
+from .sources import acl_anthology, cvf, dblp, neurips, openreview, papercopilot, pmlr, rss, siggraph
 
 
 class Harvester(Protocol):
@@ -18,8 +18,11 @@ HARVESTERS: dict[str, Harvester] = {
     "cvf": cvf,
     "neurips": neurips,
     "acl_anthology": acl_anthology,
+    "dblp": dblp,
     "pmlr": pmlr,
     "rss": rss,
+    "siggraph": siggraph,
+    "siggraph_asia": siggraph,
     "papercopilot": papercopilot,
 }
 

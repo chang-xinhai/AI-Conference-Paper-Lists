@@ -2,9 +2,22 @@
 
 from __future__ import annotations
 
+import html
+import re
+import unicodedata
 from typing import Any
 
-from .util import normalize_title, now_utc
+from .util import now_utc
+
+
+def canonical_title(text: str) -> str:
+    text = html.unescape(text or "")
+    text = re.sub(r"<.*?>", " ", text)
+    text = text.replace("’", "'").replace("‘", "'").replace("“", '"').replace("”", '"')
+    text = text.replace("—", "-").replace("–", "-").replace("−", "-")
+    text = unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode("ascii")
+    text = re.sub(r"[^a-zA-Z0-9]+", " ", text.lower())
+    return re.sub(r"\s+", " ", text).strip()
 
 
 def compare_records(
@@ -16,17 +29,17 @@ def compare_records(
     baseline_records: list[dict[str, Any]],
     min_count_ratio: float = 0.95,
 ) -> dict[str, Any]:
-    titles = {normalize_title(record.get("title", "")) for record in records if record.get("title")}
+    titles = {canonical_title(record.get("title", "")) for record in records if record.get("title")}
     baseline_titles = {
-        normalize_title(record.get("title", ""))
+        canonical_title(record.get("title", ""))
         for record in baseline_records
         if record.get("title")
     }
     overlap = len(titles & baseline_titles)
     missing_from_ours = sorted(baseline_titles - titles)[:100]
     extra_in_ours = sorted(titles - baseline_titles)[:100]
-    ours_count = len(records)
-    baseline_count = len(baseline_records)
+    ours_count = len(titles)
+    baseline_count = len(baseline_titles)
     count_ratio = ours_count / baseline_count if baseline_count else 1.0
     overlap_ratio = overlap / baseline_count if baseline_count else 1.0
     status = "ok"

@@ -1,0 +1,27 @@
+{
+  "schema_version": "0.1",
+  "venue_key": "iros",
+  "year": 2023,
+  "source": "dblp",
+  "baseline": "papercopilot",
+  "generated_at": "2026-06-16T20:49:17Z",
+  "status": "ok",
+  "min_count_ratio": 0.95,
+  "counts": {
+    "ours": 1195,
+    "baseline": 1195,
+    "title_overlap": 1193,
+    "count_ratio": 1.0,
+    "overlap_ratio": 0.9983
+  },
+  "samples": {
+    "missing_from_ours": [
+      "data driven modeling and experimental validation of autonomous vehicles using koopman operator",
+      "magnet array actuated steerable flexible robot with beacon tfm ultrasonic position sensing for robotic neurosurgery"
+    ],
+    "extra_in_ours": [
+      "data driven modeling and experimental validation of autonomous vehicles using koopman operator distribution a approved for public release distribution unlimited opsec 7248",
+      "magnet array actuated steerable flexible robot with beacon tfmultrasonic position sensing for robotic neurosurgery"
+    ]
+  }
+}

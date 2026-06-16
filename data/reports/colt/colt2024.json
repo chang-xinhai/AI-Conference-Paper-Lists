@@ -4,22 +4,18 @@
   "year": 2024,
   "source": "pmlr",
   "baseline": "papercopilot",
-  "generated_at": "2026-06-16T19:12:30Z",
+  "generated_at": "2026-06-16T20:49:10Z",
   "status": "ok",
   "min_count_ratio": 0.95,
   "counts": {
     "ours": 170,
     "baseline": 170,
-    "title_overlap": 169,
+    "title_overlap": 170,
     "count_ratio": 1.0,
-    "overlap_ratio": 0.9941
+    "overlap_ratio": 1.0
   },
   "samples": {
-    "missing_from_ours": [
-      "$(ε, u)$-adaptive regret minimization in heavy-tailed bandits"
-    ],
-    "extra_in_ours": [
-      "(ε, u)-adaptive regret minimization in heavy-tailed bandits"
-    ]
+    "missing_from_ours": [],
+    "extra_in_ours": []
   }
 }

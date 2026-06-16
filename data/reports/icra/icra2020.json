@@ -1,0 +1,27 @@
+{
+  "schema_version": "0.1",
+  "venue_key": "icra",
+  "year": 2020,
+  "source": "dblp",
+  "baseline": "papercopilot",
+  "generated_at": "2026-06-16T20:49:16Z",
+  "status": "ok",
+  "min_count_ratio": 0.95,
+  "counts": {
+    "ours": 1073,
+    "baseline": 1073,
+    "title_overlap": 1071,
+    "count_ratio": 1.0,
+    "overlap_ratio": 0.9981
+  },
+  "samples": {
+    "missing_from_ours": [
+      "clock based time synchronization for an event based camera dataset acquisition platform",
+      "slip limiting controller for redundant line suspended robots application to lineranger"
+    ],
+    "extra_in_ours": [
+      "clock based time sync hronization for an event based camera dataset acquisition platform",
+      "slip limiting controller for redundant line suspended robots application to line ranger"
+    ]
+  }
+}
