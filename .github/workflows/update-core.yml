@@ -1,0 +1,45 @@
+name: Update core conference paper lists
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 3 * * 1"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-core:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Clone Paper Copilot baseline
+        run: git clone --depth 1 https://github.com/papercopilot/paperlists.git ../paperlists
+
+      - name: Refresh conference index
+        run: python scripts/build_conference_index.py --paperlists ../paperlists --output config/conferences.json
+
+      - name: Harvest core official sources
+        run: >
+          python scripts/harvest_matrix.py
+          --conferences cvpr,iccv,wacv,rss,iclr,icml,acl,emnlp,naacl,coling,colm,corl
+          --validate
+          --paperlists ../paperlists
+
+      - name: Create update pull request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "data: refresh core conference paper lists"
+          title: "data: refresh core conference paper lists"
+          body: |
+            Automated refresh of official-source harvests and Paper Copilot validation reports.
+          branch: automation/update-core-paper-lists
+          delete-branch: true
