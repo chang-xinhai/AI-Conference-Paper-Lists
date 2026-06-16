@@ -25,6 +25,11 @@ DBLP_PATHS = {
     "www": "www/www{year}",
 }
 
+DBLP_PATH_OVERRIDES = {
+    ("kdd", 2025): ["kdd/kdd2025-1", "kdd/kdd2025-2"],
+    ("kdd", 2026): ["kdd/kdd2026-1"],
+}
+
 
 def supports(venue_key: str, year: int) -> bool:
     return venue_key in DBLP_PATHS and year >= 2020
@@ -58,45 +63,48 @@ def harvest(venue_key: str, year: int) -> dict[str, Any]:
     if not supports(venue_key, year):
         raise ValueError(f"DBLP route unsupported for {venue_key}{year}")
 
-    path = DBLP_PATHS[venue_key].format(year=year)
-    url = f"{DBLP_BASE}/db/conf/{path}.xml"
-    text = fetch_text(url, timeout=90, retries=6)
+    paths = DBLP_PATH_OVERRIDES.get((venue_key, year), [DBLP_PATHS[venue_key].format(year=year)])
     fetched_at = now_utc()
-    root = ET.fromstring(f"<root>{text}</root>")
 
     records = []
-    for entry in root.iter():
-        if entry.tag not in {"inproceedings", "article"}:
-            continue
-        if _entry_text(entry, "year") != str(year):
-            continue
-        title = _clean_title(_entry_text(entry, "title"))
-        if not title:
-            continue
-        record = empty_record(venue_key, venue_name(venue_key), year, title)
-        record["authors"] = [
-            " ".join("".join(author.itertext()).split())
-            for author in entry.findall("author")
-            if "".join(author.itertext()).strip()
-        ]
-        record["track"] = _entry_text(entry, "booktitle") or _entry_text(entry, "journal")
-        paper_url, doi = _paper_url(entry)
-        record["paper_url"] = paper_url
-        record["doi"] = doi
-        record["source"] = {
-            "name": "DBLP",
-            "url": url,
-            "fetched_at": fetched_at,
-            "license": "",
-            "key": entry.attrib.get("key", ""),
-        }
-        records.append(record)
+    source_urls = []
+    for path in paths:
+        url = f"{DBLP_BASE}/db/conf/{path}.xml"
+        text = fetch_text(url, timeout=90, retries=6)
+        source_urls.append(url)
+        root = ET.fromstring(f"<root>{text}</root>")
+        for entry in root.iter():
+            if entry.tag not in {"inproceedings", "article"}:
+                continue
+            if _entry_text(entry, "year") != str(year):
+                continue
+            title = _clean_title(_entry_text(entry, "title"))
+            if not title:
+                continue
+            record = empty_record(venue_key, venue_name(venue_key), year, title)
+            record["authors"] = [
+                " ".join("".join(author.itertext()).split())
+                for author in entry.findall("author")
+                if "".join(author.itertext()).strip()
+            ]
+            record["track"] = _entry_text(entry, "booktitle") or _entry_text(entry, "journal")
+            paper_url, doi = _paper_url(entry)
+            record["paper_url"] = paper_url
+            record["doi"] = doi
+            record["source"] = {
+                "name": "DBLP",
+                "url": url,
+                "fetched_at": fetched_at,
+                "license": "",
+                "key": entry.attrib.get("key", ""),
+            }
+            records.append(record)
 
     return {
         "source": "dblp",
         "venue_key": venue_key,
         "year": year,
-        "source_url": url,
+        "source_url": "; ".join(source_urls),
         "fetched_at": fetched_at,
         "raw_count": len(records),
         "records": records,

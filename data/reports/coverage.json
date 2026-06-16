@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1",
-  "generated_at": "2026-06-16T21:11:00Z",
+  "generated_at": "2026-06-16T21:21:27Z",
   "scope": "all_normalized_files",
   "validate_against_papercopilot": true,
   "allow_papercopilot_fallback": false,
@@ -23,6 +23,19 @@
         "count_ratio": 1.0,
         "overlap_ratio": 1.0
       }
+    },
+    {
+      "venue_key": "3dv",
+      "year": 2026,
+      "candidate_sources": [
+        "openreview"
+      ],
+      "status": "harvested",
+      "source": "openreview",
+      "count": 177,
+      "message": "",
+      "validation_status": "no_baseline",
+      "validation_counts": {}
     },
     {
       "venue_key": "aaai",
@@ -342,6 +355,19 @@
       }
     },
     {
+      "venue_key": "acmmm",
+      "year": 2025,
+      "candidate_sources": [
+        "dblp"
+      ],
+      "status": "harvested",
+      "source": "dblp",
+      "count": 1620,
+      "message": "",
+      "validation_status": "no_baseline",
+      "validation_counts": {}
+    },
+    {
       "venue_key": "ai4x",
       "year": 2025,
       "candidate_sources": [
@@ -507,6 +533,19 @@
       }
     },
     {
+      "venue_key": "alt",
+      "year": 2026,
+      "candidate_sources": [
+        "openreview"
+      ],
+      "status": "harvested",
+      "source": "openreview",
+      "count": 69,
+      "message": "",
+      "validation_status": "no_baseline",
+      "validation_counts": {}
+    },
+    {
       "venue_key": "automl",
       "year": 2022,
       "candidate_sources": [
@@ -562,6 +601,19 @@
         "count_ratio": 1.0,
         "overlap_ratio": 1.0
       }
+    },
+    {
+      "venue_key": "automl",
+      "year": 2025,
+      "candidate_sources": [
+        "pmlr"
+      ],
+      "status": "harvested",
+      "source": "pmlr",
+      "count": 25,
+      "message": "",
+      "validation_status": "no_baseline",
+      "validation_counts": {}
     },
     {
       "venue_key": "coling",
@@ -771,6 +823,19 @@
         "count_ratio": 1.0,
         "overlap_ratio": 1.0
       }
+    },
+    {
+      "venue_key": "colt",
+      "year": 2025,
+      "candidate_sources": [
+        "pmlr"
+      ],
+      "status": "harvested",
+      "source": "pmlr",
+      "count": 182,
+      "message": "",
+      "validation_status": "no_baseline",
+      "validation_counts": {}
     },
     {
       "venue_key": "corl",
@@ -1128,6 +1193,19 @@
       }
     },
     {
+      "venue_key": "emnlp",
+      "year": 2025,
+      "candidate_sources": [
+        "acl_anthology"
+      ],
+      "status": "harvested",
+      "source": "acl_anthology",
+      "count": 4182,
+      "message": "",
+      "validation_status": "no_baseline",
+      "validation_counts": {}
+    },
+    {
       "venue_key": "iccv",
       "year": 2021,
       "candidate_sources": [
@@ -1432,6 +1510,19 @@
       }
     },
     {
+      "venue_key": "icml",
+      "year": 2026,
+      "candidate_sources": [
+        "icml"
+      ],
+      "status": "harvested",
+      "source": "icml",
+      "count": 6631,
+      "message": "",
+      "validation_status": "no_baseline",
+      "validation_counts": {}
+    },
+    {
       "venue_key": "icra",
       "year": 2020,
       "candidate_sources": [
@@ -1525,6 +1616,19 @@
         "count_ratio": 1.0,
         "overlap_ratio": 0.9989
       }
+    },
+    {
+      "venue_key": "icra",
+      "year": 2025,
+      "candidate_sources": [
+        "dblp"
+      ],
+      "status": "harvested",
+      "source": "dblp",
+      "count": 1604,
+      "message": "",
+      "validation_status": "no_baseline",
+      "validation_counts": {}
     },
     {
       "venue_key": "ijcai",
@@ -1622,6 +1726,19 @@
       }
     },
     {
+      "venue_key": "ijcai",
+      "year": 2025,
+      "candidate_sources": [
+        "dblp"
+      ],
+      "status": "harvested",
+      "source": "dblp",
+      "count": 1280,
+      "message": "",
+      "validation_status": "no_baseline",
+      "validation_counts": {}
+    },
+    {
       "venue_key": "iros",
       "year": 2020,
       "candidate_sources": [
@@ -1717,6 +1834,19 @@
       }
     },
     {
+      "venue_key": "iros",
+      "year": 2025,
+      "candidate_sources": [
+        "dblp"
+      ],
+      "status": "harvested",
+      "source": "dblp",
+      "count": 1985,
+      "message": "",
+      "validation_status": "no_baseline",
+      "validation_counts": {}
+    },
+    {
       "venue_key": "kdd",
       "year": 2023,
       "candidate_sources": [
@@ -1753,6 +1883,32 @@
         "count_ratio": 1.1423,
         "overlap_ratio": 0.9875
       }
+    },
+    {
+      "venue_key": "kdd",
+      "year": 2025,
+      "candidate_sources": [
+        "dblp"
+      ],
+      "status": "harvested",
+      "source": "dblp",
+      "count": 844,
+      "message": "",
+      "validation_status": "no_baseline",
+      "validation_counts": {}
+    },
+    {
+      "venue_key": "kdd",
+      "year": 2026,
+      "candidate_sources": [
+        "dblp"
+      ],
+      "status": "harvested",
+      "source": "dblp",
+      "count": 256,
+      "message": "",
+      "validation_status": "no_baseline",
+      "validation_counts": {}
     },
     {
       "venue_key": "naacl",
@@ -2268,6 +2424,19 @@
       }
     },
     {
+      "venue_key": "siggraphasia",
+      "year": 2025,
+      "candidate_sources": [
+        "siggraph_asia"
+      ],
+      "status": "harvested",
+      "source": "siggraph_asia",
+      "count": 636,
+      "message": "",
+      "validation_status": "no_baseline",
+      "validation_counts": {}
+    },
+    {
       "venue_key": "uai",
       "year": 2020,
       "candidate_sources": [
@@ -2361,6 +2530,19 @@
         "count_ratio": 0.995,
         "overlap_ratio": 0.9801
       }
+    },
+    {
+      "venue_key": "uai",
+      "year": 2025,
+      "candidate_sources": [
+        "pmlr"
+      ],
+      "status": "harvested",
+      "source": "pmlr",
+      "count": 229,
+      "message": "",
+      "validation_status": "no_baseline",
+      "validation_counts": {}
     },
     {
       "venue_key": "wacv",
