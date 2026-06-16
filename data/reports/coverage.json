@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1",
-  "generated_at": "2026-06-16T20:49:50Z",
+  "generated_at": "2026-06-16T21:04:36Z",
   "scope": "all_normalized_files",
   "validate_against_papercopilot": true,
   "allow_papercopilot_fallback": false,
@@ -953,6 +953,63 @@
         "title_overlap": 2871,
         "count_ratio": 0.9997,
         "overlap_ratio": 0.9997
+      }
+    },
+    {
+      "venue_key": "eccv",
+      "year": 2020,
+      "candidate_sources": [
+        "ecva"
+      ],
+      "status": "harvested",
+      "source": "ecva",
+      "count": 1358,
+      "message": "",
+      "validation_status": "ok",
+      "validation_counts": {
+        "ours": 1358,
+        "baseline": 1358,
+        "title_overlap": 1332,
+        "count_ratio": 1.0,
+        "overlap_ratio": 0.9809
+      }
+    },
+    {
+      "venue_key": "eccv",
+      "year": 2022,
+      "candidate_sources": [
+        "ecva"
+      ],
+      "status": "harvested",
+      "source": "ecva",
+      "count": 1645,
+      "message": "",
+      "validation_status": "ok",
+      "validation_counts": {
+        "ours": 1645,
+        "baseline": 1645,
+        "title_overlap": 1597,
+        "count_ratio": 1.0,
+        "overlap_ratio": 0.9708
+      }
+    },
+    {
+      "venue_key": "eccv",
+      "year": 2024,
+      "candidate_sources": [
+        "ecva"
+      ],
+      "status": "harvested",
+      "source": "ecva",
+      "count": 2387,
+      "message": "",
+      "validation_status": "ok",
+      "validation_counts": {
+        "ours": 2387,
+        "baseline": 2387,
+        "title_overlap": 2386,
+        "count_ratio": 1.0,
+        "overlap_ratio": 0.9996
       }
     },
     {

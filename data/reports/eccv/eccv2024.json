@@ -1,0 +1,25 @@
+{
+  "schema_version": "0.1",
+  "venue_key": "eccv",
+  "year": 2024,
+  "source": "ecva",
+  "baseline": "papercopilot",
+  "generated_at": "2026-06-16T21:04:35Z",
+  "status": "ok",
+  "min_count_ratio": 0.95,
+  "counts": {
+    "ours": 2387,
+    "baseline": 2387,
+    "title_overlap": 2386,
+    "count_ratio": 1.0,
+    "overlap_ratio": 0.9996
+  },
+  "samples": {
+    "missing_from_ours": [
+      "montage monitoring training for attribution of generative diffusion models"
+    ],
+    "extra_in_ours": [
+      "montrage monitoring training for attribution of generative diffusion models"
+    ]
+  }
+}
