@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1",
-  "generated_at": "2026-06-16T21:07:54Z",
+  "generated_at": "2026-06-16T21:11:00Z",
   "scope": "all_normalized_files",
   "validate_against_papercopilot": true,
   "allow_papercopilot_fallback": false,
@@ -2493,38 +2493,38 @@
       "venue_key": "www",
       "year": 2024,
       "candidate_sources": [
-        "dblp"
+        "openreview"
       ],
       "status": "harvested",
-      "source": "dblp",
-      "count": 432,
+      "source": "openreview",
+      "count": 405,
       "message": "",
-      "validation_status": "title_drift",
+      "validation_status": "ok",
       "validation_counts": {
-        "ours": 432,
+        "ours": 405,
         "baseline": 405,
-        "title_overlap": 367,
-        "count_ratio": 1.0667,
-        "overlap_ratio": 0.9062
+        "title_overlap": 405,
+        "count_ratio": 1.0,
+        "overlap_ratio": 1.0
       }
     },
     {
       "venue_key": "www",
       "year": 2025,
       "candidate_sources": [
-        "dblp"
+        "openreview"
       ],
       "status": "harvested",
-      "source": "dblp",
-      "count": 447,
+      "source": "openreview",
+      "count": 409,
       "message": "",
-      "validation_status": "title_drift",
+      "validation_status": "ok",
       "validation_counts": {
-        "ours": 447,
+        "ours": 409,
         "baseline": 409,
-        "title_overlap": 387,
-        "count_ratio": 1.0929,
-        "overlap_ratio": 0.9462
+        "title_overlap": 409,
+        "count_ratio": 1.0,
+        "overlap_ratio": 1.0
       }
     },
     {

@@ -24,6 +24,11 @@ VENUE_IDS = {
     "colm": "colmweb.org/COLM/{year}/Conference",
     "corl": "robot-learning.org/CoRL/{year}/Conference",
     "uai": "auai.org/UAI/{year}/Conference",
+    "www": "ACM.org/TheWebConf/{year}/Conference",
+}
+
+SUPPORTED_YEARS = {
+    "www": {2024, 2025},
 }
 
 EXTRA_VENUE_IDS = {
@@ -60,7 +65,9 @@ def _is_accepted_venue(venue_text: str) -> bool:
 
 
 def supports(venue_key: str, year: int) -> bool:
-    return venue_key in VENUE_IDS and year >= 2020
+    if venue_key not in VENUE_IDS or year < 2020:
+        return False
+    return year in SUPPORTED_YEARS.get(venue_key, set(range(2020, 2100)))
 
 
 def _fetch_notes(api_url: str, venue_id: str, *, limit: int = 1000) -> list[dict[str, Any]]:
