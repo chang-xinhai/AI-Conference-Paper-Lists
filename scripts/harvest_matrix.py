@@ -4,6 +4,8 @@
 from __future__ import annotations
 
 import argparse
+import json
+import subprocess
 import sys
 from pathlib import Path
 
@@ -27,6 +29,7 @@ def main() -> None:
     parser.add_argument("--conferences", default="", help="Comma-separated venue keys. Default: all.")
     parser.add_argument("--years", default="", help="Comma-separated years. Default: target years from config.")
     parser.add_argument("--validate", action="store_true")
+    parser.add_argument("--paperlists", default="", help="Optional local papercopilot/paperlists checkout")
     parser.add_argument("--min-count-ratio", type=float, default=0.95)
     parser.add_argument("--allow-papercopilot-fallback", action="store_true")
     args = parser.parse_args()
@@ -92,7 +95,15 @@ def main() -> None:
                 result["source"] = source
                 result["count"] = len(payload["records"])
                 if args.validate:
-                    baseline_rows = papercopilot.load(venue_key, year)
+                    if args.paperlists:
+                        pc_path = papercopilot.path_for(venue_key, year)
+                        blob = subprocess.check_output(
+                            ["git", "show", f"HEAD:{pc_path}"],
+                            cwd=args.paperlists,
+                        )
+                        baseline_rows = json.loads(blob)
+                    else:
+                        baseline_rows = papercopilot.load(venue_key, year)
                     baseline_records = [
                         record
                         for record in papercopilot.normalize(venue_key, year, baseline_rows)
