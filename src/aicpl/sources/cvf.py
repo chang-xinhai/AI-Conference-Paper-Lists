@@ -30,6 +30,20 @@ def harvest(venue_key: str, year: int) -> dict[str, Any]:
     conf = CVF_KEYS[venue_key]
     url = f"{CVF_BASE}/{conf}{year}?day=all"
     text = fetch_text(url, timeout=90)
+    source_urls = [url]
+
+    if 'class="ptitle"' not in text:
+        index_url = f"{CVF_BASE}/{conf}{year}"
+        index_text = fetch_text(index_url, timeout=60)
+        day_links = sorted(set(re.findall(r'href="([^"]+?\.py\?day=[^"]+)"', index_text)))
+        if day_links:
+            pages = []
+            source_urls = []
+            for day_link in day_links:
+                day_url = urljoin(CVF_BASE + "/", day_link)
+                pages.append(fetch_text(day_url, timeout=60))
+                source_urls.append(day_url)
+            text = "\n".join(pages)
     fetched_at = now_utc()
 
     # The list page alternates title dt blocks and author/pdf dd blocks.
@@ -53,7 +67,7 @@ def harvest(venue_key: str, year: int) -> dict[str, Any]:
         record["pdf_url"] = urljoin(CVF_BASE, match.group("pdf"))
         record["source"] = {
             "name": "CVF Open Access",
-            "url": url,
+            "url": source_urls[0] if len(source_urls) == 1 else ";".join(source_urls),
             "fetched_at": fetched_at,
             "license": "",
         }
@@ -63,7 +77,7 @@ def harvest(venue_key: str, year: int) -> dict[str, Any]:
         "source": "cvf",
         "venue_key": venue_key,
         "year": year,
-        "source_url": url,
+        "source_url": source_urls[0] if len(source_urls) == 1 else ";".join(source_urls),
         "fetched_at": fetched_at,
         "raw_count": len(records),
         "records": records,

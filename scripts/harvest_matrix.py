@@ -71,7 +71,7 @@ def main() -> None:
                 result["status"] = "unsupported"
                 result["message"] = "No implemented official harvester for this conference/year."
                 summary["results"].append(result)
-                print(f"{venue_key}{year}: unsupported")
+                print(f"{venue_key}{year}: unsupported", flush=True)
                 continue
 
             source = candidates[0]
@@ -121,12 +121,12 @@ def main() -> None:
                     write_json(report_path, report)
                     result["validation_status"] = report["status"]
                     result["validation_counts"] = report["counts"]
-                print(f"{venue_key}{year}: harvested {result['count']} from {source}")
+                print(f"{venue_key}{year}: harvested {result['count']} from {source}", flush=True)
             except Exception as exc:  # noqa: BLE001 - report and continue in batch mode.
                 result["status"] = "failed"
                 result["source"] = source
                 result["message"] = str(exc)
-                print(f"{venue_key}{year}: failed via {source}: {exc}")
+                print(f"{venue_key}{year}: failed via {source}: {exc}", flush=True)
             summary["results"].append(result)
 
     coverage_path = ROOT / "data" / "reports" / "coverage.json"
@@ -134,8 +134,8 @@ def main() -> None:
     harvested = sum(1 for result in summary["results"] if result["status"] == "harvested")
     unsupported = sum(1 for result in summary["results"] if result["status"] == "unsupported")
     failed = sum(1 for result in summary["results"] if result["status"] == "failed")
-    print(f"coverage: harvested={harvested} unsupported={unsupported} failed={failed}")
-    print(f"coverage report: {coverage_path}")
+    print(f"coverage: harvested={harvested} unsupported={unsupported} failed={failed}", flush=True)
+    print(f"coverage report: {coverage_path}", flush=True)
 
 
 if __name__ == "__main__":
