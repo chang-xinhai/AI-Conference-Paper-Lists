@@ -1,0 +1,15 @@
+[project]
+name = "ai-conference-paper-lists"
+version = "0.1.0"
+description = "Independent official-source harvesters and normalized paper lists for AI conferences."
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+aicpl-build-index = "aicpl.cli:build_index_main"
+aicpl-harvest = "aicpl.cli:harvest_main"
+aicpl-validate = "aicpl.cli:validate_main"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"

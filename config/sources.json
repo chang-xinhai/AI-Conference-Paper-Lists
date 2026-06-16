@@ -1,0 +1,40 @@
+{
+  "default_year_start": 2020,
+  "paper_copilot": {
+    "repo": "papercopilot/paperlists",
+    "raw_base_url": "https://raw.githubusercontent.com/papercopilot/paperlists/main"
+  },
+  "routes": {
+    "3dv": ["cvf", "papercopilot"],
+    "aaai": ["aaai_ojs", "papercopilot"],
+    "acl": ["acl_anthology", "papercopilot"],
+    "acml": ["pmlr", "papercopilot"],
+    "acmmm": ["acm", "dblp", "papercopilot"],
+    "ai4x": ["openreview", "papercopilot"],
+    "aistats": ["pmlr", "openreview", "papercopilot"],
+    "alt": ["pmlr", "papercopilot"],
+    "automl": ["openreview", "papercopilot"],
+    "coling": ["acl_anthology", "papercopilot"],
+    "colm": ["openreview", "papercopilot"],
+    "colt": ["pmlr", "papercopilot"],
+    "corl": ["openreview", "pmlr", "papercopilot"],
+    "cvpr": ["cvf", "papercopilot"],
+    "eccv": ["cvf", "ecva", "papercopilot"],
+    "emnlp": ["acl_anthology", "papercopilot"],
+    "iccv": ["cvf", "papercopilot"],
+    "iclr": ["openreview", "papercopilot"],
+    "icml": ["openreview", "pmlr", "papercopilot"],
+    "icra": ["ieee", "dblp", "papercopilot"],
+    "ijcai": ["ijcai", "dblp", "papercopilot"],
+    "iros": ["ieee", "dblp", "papercopilot"],
+    "kdd": ["acm", "dblp", "papercopilot"],
+    "naacl": ["acl_anthology", "papercopilot"],
+    "nips": ["openreview", "neurips", "papercopilot"],
+    "rss": ["rss", "papercopilot"],
+    "siggraph": ["acm", "siggraph", "papercopilot"],
+    "siggraphasia": ["acm", "siggraph_asia", "papercopilot"],
+    "uai": ["pmlr", "openreview", "papercopilot"],
+    "wacv": ["cvf", "papercopilot"],
+    "www": ["acm", "dblp", "papercopilot"]
+  }
+}
