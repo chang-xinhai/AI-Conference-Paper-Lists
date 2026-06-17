@@ -2,27 +2,25 @@
   "schema_version": "0.1",
   "venue_key": "icra",
   "year": 2020,
-  "source": "dblp",
+  "source": "ieee",
   "baseline": "papercopilot",
-  "generated_at": "2026-06-17T06:52:30Z",
+  "generated_at": "2026-06-17T07:31:37Z",
   "status": "ok",
   "min_count_ratio": 0.95,
   "counts": {
     "ours": 1073,
     "baseline": 1073,
-    "title_overlap": 1071,
+    "title_overlap": 1072,
     "count_ratio": 1.0,
-    "overlap_ratio": 0.9981
+    "overlap_ratio": 0.9991
   },
   "known_baseline_issues": [],
   "samples": {
     "missing_from_ours": [
-      "clock based time synchronization for an event based camera dataset acquisition platform",
-      "slip limiting controller for redundant line suspended robots application to lineranger"
+      "analytic combined imu integration aci2 for visual inertial navigation"
     ],
     "extra_in_ours": [
-      "clock based time sync hronization for an event based camera dataset acquisition platform",
-      "slip limiting controller for redundant line suspended robots application to line ranger"
+      "analytic combined imu integration aci 2 for visual inertial navigation"
     ]
   }
 }

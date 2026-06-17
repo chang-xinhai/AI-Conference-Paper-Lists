@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1",
-  "generated_at": "2026-06-17T07:18:21Z",
+  "generated_at": "2026-06-17T07:38:59Z",
   "validate_against_papercopilot": true,
   "allow_papercopilot_fallback": false,
   "results": [
@@ -1553,37 +1553,39 @@
       "venue_key": "icra",
       "year": 2020,
       "candidate_sources": [
+        "ieee",
         "dblp"
       ],
       "status": "harvested",
-      "source": "dblp",
+      "source": "ieee",
       "count": 1073,
       "message": "",
       "validation_status": "ok",
       "validation_counts": {
         "ours": 1073,
         "baseline": 1073,
-        "title_overlap": 1071,
+        "title_overlap": 1072,
         "count_ratio": 1.0,
-        "overlap_ratio": 0.9981
+        "overlap_ratio": 0.9991
       }
     },
     {
       "venue_key": "icra",
       "year": 2021,
       "candidate_sources": [
+        "ieee",
         "dblp"
       ],
       "status": "harvested",
-      "source": "dblp",
-      "count": 1386,
+      "source": "ieee",
+      "count": 1387,
       "message": "",
       "validation_status": "ok",
       "validation_counts": {
-        "ours": 1386,
+        "ours": 1387,
         "baseline": 1387,
         "title_overlap": 1385,
-        "count_ratio": 0.9993,
+        "count_ratio": 1.0,
         "overlap_ratio": 0.9986
       }
     },
@@ -1591,29 +1593,31 @@
       "venue_key": "icra",
       "year": 2022,
       "candidate_sources": [
+        "ieee",
         "dblp"
       ],
       "status": "harvested",
-      "source": "dblp",
-      "count": 929,
+      "source": "ieee",
+      "count": 931,
       "message": "",
       "validation_status": "ok",
       "validation_counts": {
-        "ours": 929,
+        "ours": 931,
         "baseline": 931,
-        "title_overlap": 929,
-        "count_ratio": 0.9979,
-        "overlap_ratio": 0.9979
+        "title_overlap": 928,
+        "count_ratio": 1.0,
+        "overlap_ratio": 0.9968
       }
     },
     {
       "venue_key": "icra",
       "year": 2023,
       "candidate_sources": [
+        "ieee",
         "dblp"
       ],
       "status": "harvested",
-      "source": "dblp",
+      "source": "ieee",
       "count": 1341,
       "message": "",
       "validation_status": "ok",
@@ -1629,29 +1633,31 @@
       "venue_key": "icra",
       "year": 2024,
       "candidate_sources": [
+        "ieee",
         "dblp"
       ],
       "status": "harvested",
-      "source": "dblp",
-      "count": 1760,
+      "source": "ieee",
+      "count": 1759,
       "message": "",
       "validation_status": "ok",
       "validation_counts": {
-        "ours": 1760,
+        "ours": 1759,
         "baseline": 1760,
-        "title_overlap": 1758,
-        "count_ratio": 1.0,
-        "overlap_ratio": 0.9989
+        "title_overlap": 1755,
+        "count_ratio": 0.9994,
+        "overlap_ratio": 0.9972
       }
     },
     {
       "venue_key": "icra",
       "year": 2025,
       "candidate_sources": [
+        "ieee",
         "dblp"
       ],
       "status": "harvested",
-      "source": "dblp",
+      "source": "ieee",
       "count": 1604,
       "message": "",
       "validation_status": "no_baseline",
@@ -1775,68 +1781,72 @@
       "venue_key": "iros",
       "year": 2020,
       "candidate_sources": [
+        "ieee",
         "dblp"
       ],
       "status": "harvested",
-      "source": "dblp",
-      "count": 1128,
+      "source": "ieee",
+      "count": 1129,
       "message": "",
       "validation_status": "ok",
       "validation_counts": {
-        "ours": 1128,
+        "ours": 1129,
         "baseline": 1129,
-        "title_overlap": 1127,
-        "count_ratio": 0.9991,
-        "overlap_ratio": 0.9982
+        "title_overlap": 1126,
+        "count_ratio": 1.0,
+        "overlap_ratio": 0.9973
       }
     },
     {
       "venue_key": "iros",
       "year": 2021,
       "candidate_sources": [
+        "ieee",
         "dblp"
       ],
       "status": "harvested",
-      "source": "dblp",
-      "count": 1032,
+      "source": "ieee",
+      "count": 1035,
       "message": "",
       "validation_status": "ok",
       "validation_counts": {
-        "ours": 1032,
+        "ours": 1035,
         "baseline": 1035,
-        "title_overlap": 1031,
-        "count_ratio": 0.9971,
-        "overlap_ratio": 0.9961
+        "title_overlap": 1033,
+        "count_ratio": 1.0,
+        "overlap_ratio": 0.9981
       }
     },
     {
       "venue_key": "iros",
       "year": 2022,
       "candidate_sources": [
+        "ieee",
         "dblp"
       ],
       "status": "harvested",
-      "source": "dblp",
+      "source": "ieee",
       "count": 1214,
       "message": "",
       "validation_status": "ok",
       "validation_counts": {
-        "ours": 1213,
+        "ours": 1214,
         "baseline": 1214,
-        "title_overlap": 1210,
-        "count_ratio": 0.9992,
-        "overlap_ratio": 0.9967
+        "title_overlap": 1211,
+        "count_ratio": 1.0,
+        "overlap_ratio": 0.9975
       }
     },
     {
       "venue_key": "iros",
       "year": 2023,
       "candidate_sources": [
+        "ieee",
         "dblp"
       ],
       "status": "harvested",
-      "source": "dblp",
-      "count": 1196,
+      "source": "ieee",
+      "count": 1195,
       "message": "",
       "validation_status": "ok",
       "validation_counts": {
@@ -1851,19 +1861,20 @@
       "venue_key": "iros",
       "year": 2024,
       "candidate_sources": [
+        "ieee",
         "dblp"
       ],
       "status": "harvested",
-      "source": "dblp",
-      "count": 1581,
+      "source": "ieee",
+      "count": 1583,
       "message": "",
       "validation_status": "ok",
       "validation_counts": {
-        "ours": 1581,
+        "ours": 1583,
         "baseline": 1419,
-        "title_overlap": 1419,
-        "count_ratio": 1.1142,
-        "overlap_ratio": 1.0
+        "title_overlap": 1412,
+        "count_ratio": 1.1156,
+        "overlap_ratio": 0.9951
       }
     },
     {
@@ -1871,6 +1882,7 @@
       "year": 2025,
       "candidate_sources": [
         "papercept",
+        "ieee",
         "dblp"
       ],
       "status": "harvested",

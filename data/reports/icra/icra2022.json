@@ -2,24 +2,29 @@
   "schema_version": "0.1",
   "venue_key": "icra",
   "year": 2022,
-  "source": "dblp",
+  "source": "ieee",
   "baseline": "papercopilot",
-  "generated_at": "2026-06-17T06:52:46Z",
+  "generated_at": "2026-06-17T07:38:20Z",
   "status": "ok",
   "min_count_ratio": 0.95,
   "counts": {
-    "ours": 929,
+    "ours": 931,
     "baseline": 931,
-    "title_overlap": 929,
-    "count_ratio": 0.9979,
-    "overlap_ratio": 0.9979
+    "title_overlap": 928,
+    "count_ratio": 1.0,
+    "overlap_ratio": 0.9968
   },
   "known_baseline_issues": [],
   "samples": {
     "missing_from_ours": [
-      "combined fast control of drifting state and trajectory tracking for autonomous vehicles based on mpc controller",
-      "dual regression for efficient hand pose estimation"
+      "ad2attack adaptive adversarial attack on real time uav tracking",
+      "l1adaptive augmentation for geometric tracking control of quadrotors",
+      "r3live a robust real time rgb colored lidar inertial visual tightly coupled state estimation and mapping package"
     ],
-    "extra_in_ours": []
+    "extra_in_ours": [
+      "ad 2 attack adaptive adversarial attack on real time uav tracking",
+      "l 1 adaptive augmentation for geometric tracking control of quadrotors",
+      "r 3 live a robust real time rgb colored lidar inertial visual tightly coupled state estimation and mapping package"
+    ]
   }
 }

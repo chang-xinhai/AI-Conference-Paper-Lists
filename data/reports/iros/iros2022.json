@@ -2,30 +2,29 @@
   "schema_version": "0.1",
   "venue_key": "iros",
   "year": 2022,
-  "source": "dblp",
+  "source": "ieee",
   "baseline": "papercopilot",
-  "generated_at": "2026-06-17T06:53:59Z",
+  "generated_at": "2026-06-17T07:35:07Z",
   "status": "ok",
   "min_count_ratio": 0.95,
   "counts": {
-    "ours": 1213,
+    "ours": 1214,
     "baseline": 1214,
-    "title_overlap": 1210,
-    "count_ratio": 0.9992,
-    "overlap_ratio": 0.9967
+    "title_overlap": 1211,
+    "count_ratio": 1.0,
+    "overlap_ratio": 0.9975
   },
   "known_baseline_issues": [],
   "samples": {
     "missing_from_ours": [
-      "i m confident this will end poorly robot proficiency self assessment in human robot teaming",
-      "passive compliant foot design for improved micororobotic mobility on rough terrains",
-      "t3vip transformation based 3 mathrm d video prediction",
-      "toward dexterous flapping flight effective large yaw torque generation by 2 times 2 degrees of freedom flapping wings"
+      "collision and rollover free g2 path planning for mobile manipulation",
+      "fc3 feasibility based control chain coordination",
+      "s3lam structured scene slam"
     ],
     "extra_in_ours": [
-      "i mconfident this will end poorly robot proficiency self assessment in human robot teaming",
-      "t3vip transformation based 3d video prediction",
-      "toward dexterous flapping flight effective large yaw torque generation by 22 degrees of freedom flapping wings"
+      "collision and rollover free g 2 path planning for mobile manipulation",
+      "fc 3 feasibility based control chain coordination",
+      "s 3 lam structured scene slam"
     ]
   }
 }

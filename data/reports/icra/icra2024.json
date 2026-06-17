@@ -2,27 +2,32 @@
   "schema_version": "0.1",
   "venue_key": "icra",
   "year": 2024,
-  "source": "dblp",
+  "source": "ieee",
   "baseline": "papercopilot",
-  "generated_at": "2026-06-17T06:53:21Z",
+  "generated_at": "2026-06-17T07:33:29Z",
   "status": "ok",
   "min_count_ratio": 0.95,
   "counts": {
-    "ours": 1760,
+    "ours": 1759,
     "baseline": 1760,
-    "title_overlap": 1758,
-    "count_ratio": 1.0,
-    "overlap_ratio": 0.9989
+    "title_overlap": 1755,
+    "count_ratio": 0.9994,
+    "overlap_ratio": 0.9972
   },
   "known_baseline_issues": [],
   "samples": {
     "missing_from_ours": [
-      "markerless ultrasound probe pose estimation in mini invasive surgery",
-      "open x embodiment robotic learning datasets and rt x models open x embodiment collaboration0"
+      "a novel funnel based l1 adaptive fuzzy approach for the control of an actuated ankle foot orthosis",
+      "bi2lane bi directional temporal refinement with bi level feature aggregation for 3d lane detection",
+      "mavis multi camera augmented visual inertial slam using se2 3 based exact imu pre integration",
+      "open x embodiment robotic learning datasets and rt x models open x embodiment collaboration0",
+      "sm3 self supervised multi task modeling with multi view 2d images for articulated objects"
     ],
     "extra_in_ours": [
-      "markerless ultrasnd probe pose estimation in mini invasive surgery",
-      "open x embodiment robotic learning datasets and rt x models open x embodiment collaboration"
+      "a novel funnel based l 1 adaptive fuzzy approach for the control of an actuated ankle foot orthosis",
+      "bi 2 lane bi directional temporal refinement with bi level feature aggregation for 3d lane detection",
+      "mavis multi camera augmented visual inertial slam using se 2 3 based exact imu pre integration",
+      "sm 3 self supervised multi task modeling with multi view 2d images for articulated objects"
     ]
   }
 }

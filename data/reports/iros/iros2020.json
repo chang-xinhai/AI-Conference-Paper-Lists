@@ -2,26 +2,29 @@
   "schema_version": "0.1",
   "venue_key": "iros",
   "year": 2020,
-  "source": "dblp",
+  "source": "ieee",
   "baseline": "papercopilot",
-  "generated_at": "2026-06-17T06:53:54Z",
+  "generated_at": "2026-06-17T07:34:22Z",
   "status": "ok",
   "min_count_ratio": 0.95,
   "counts": {
-    "ours": 1128,
+    "ours": 1129,
     "baseline": 1129,
-    "title_overlap": 1127,
-    "count_ratio": 0.9991,
-    "overlap_ratio": 0.9982
+    "title_overlap": 1126,
+    "count_ratio": 1.0,
+    "overlap_ratio": 0.9973
   },
   "known_baseline_issues": [],
   "samples": {
     "missing_from_ours": [
-      "long term localization with time series map prediction for mobile robots in dynamic environments",
-      "reconstruction of 3d flight trajectories from ad hoc camera networks"
+      "d2vo monocular deep direct visual odometry",
+      "dr2track towards real time visual tracking for uav via distractor repressed dynamic regression",
+      "l1 adaptive mppi architecture for robust and agile control of multirotors"
     ],
     "extra_in_ours": [
-      "reconstruction of 3d ight trajectories from ad hoc camera networks"
+      "d 2 vo monocular deep direct visual odometry",
+      "dr 2 track towards real time visual tracking for uav via distractor repressed dynamic regression",
+      "l 1 adaptive mppi architecture for robust and agile control of multirotors"
     ]
   }
 }

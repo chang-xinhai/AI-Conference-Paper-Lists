@@ -2,21 +2,29 @@
   "schema_version": "0.1",
   "venue_key": "iros",
   "year": 2024,
-  "source": "dblp",
+  "source": "ieee",
   "baseline": "papercopilot",
-  "generated_at": "2026-06-17T06:54:04Z",
+  "generated_at": "2026-06-17T07:35:44Z",
   "status": "ok",
   "min_count_ratio": 0.95,
   "counts": {
-    "ours": 1581,
+    "ours": 1583,
     "baseline": 1419,
-    "title_overlap": 1419,
-    "count_ratio": 1.1142,
-    "overlap_ratio": 1.0
+    "title_overlap": 1412,
+    "count_ratio": 1.1156,
+    "overlap_ratio": 0.9951
   },
   "known_baseline_issues": [],
   "samples": {
-    "missing_from_ours": [],
+    "missing_from_ours": [
+      "c3p voxelmap compact cumulative and coalescible probabilistic voxel mapping",
+      "hp3 hierarchical prediction pretrained planning for unprotected left turn",
+      "i2ekf lo a dual iteration extended kalman filter based lidar odometry",
+      "lf2slam learning based features for visual slam",
+      "llm3 large language model based task and motion planning with motion failure reasoning",
+      "pos2vpr fast position consistency validation with positive sample mining for hierarchical place recognition",
+      "ref2 nerf reflection and refraction aware neural radiance field"
+    ],
     "extra_in_ours": [
       "a closed loop control for lower limb exoskeleton considering overall deformations a simple and direct application method",
       "a ct guided control framework of a robotic flexible endoscope for the diagnosis of the maxillary sinusitis",
@@ -41,8 +49,9 @@
       "autonerf training implicit scene representations with autonomous agents",
       "autonomous robotic assembly from part singulation to precise assembly",
       "bayesian deep predictive coding for snake like robotic control in unknown terrains",
-      "bev2pr bev enhanced visual place recognition with structural cues",
+      "bev 2 pr bev enhanced visual place recognition with structural cues",
       "bevpose unveiling scene semantics through pose guided multi modal bev alignment",
+      "c 3 p voxelmap compact cumulative and coalescible probabilistic voxel mapping",
       "cat constraints as terminations for legged locomotion reinforcement learning",
       "cmr agent learning a cross modal agent for iterative image to point cloud registration",
       "co ral complementary radar leg odometry with 4 dof optimization and rolling contact",
@@ -92,8 +101,10 @@
       "grid scene graph based instruction driven robotic task planning",
       "heading control for obstacle avoidance using dynamic posture manipulation during tumbling locomotion",
       "helimos a dataset for moving object segmentation in 3d point clouds from heterogeneous lidar sensors",
+      "hp 3 hierarchical prediction pretrained planning for unprotected left turn",
       "hybrid stereo dense depth estimation for robotic tasks in industrial automation",
-      "hyp2nav hyperbolic planning and curiosity for crowd navigation",
+      "hyp 2 nav hyperbolic planning and curiosity for crowd navigation",
+      "i 2 ekf lo a dual iteration extended kalman filter based lidar odometry",
       "ic fps instance centroid faster point sampling framework for 3d point based object detection",
       "identifying optimal launch sites of high altitude latex balloons using bayesian optimisation for the task of station keeping",
       "imagine2servo intelligent visual servoing with diffusion driven goal generation for robotic tasks",
@@ -103,7 +114,9 @@
       "infrastructure less uwb based active relative localization",
       "interactive multi stiffness mixed reality interface controlling and visualizing robot and environment stiffness",
       "intraocular reflection modeling and avoidance planning in image guided ophthalmic surgeries",
-      "ir2 implicit rendezvous for robotic exploration teams under sparse intermittent connectivity",
+      "ir 2 implicit rendezvous for robotic exploration teams under sparse intermittent connectivity",
+      "iros 2024 commentary",
+      "iros 2024 subject index page",
       "language embedded gaussian splats legs incrementally building room scale representations with a mobile robot",
       "large scale deployment of vision based tactile sensors on multi fingered grippers",
       "learned slip detection severity framework using tactile deformation field feedback for robotic manipulation",
@@ -112,12 +125,7 @@
       "learning from spatio temporal correlation for semi supervised lidar semantic segmentation",
       "learning generalizable manipulation policy with adapter based parameter fine tuning",
       "learning incipient slip with gelsight sensors attention classification with video vision transformers",
-      "learning the inverse kinematics of magnetic continuum robot for teleoperated navigation",
-      "lgmcts language guided monte carlo tree search for executable semantic object rearrangement",
-      "lightweight language driven grasp detection using conditional consistency model",
-      "m3 gmn a multi environment multi lidar multi task dataset for grid map based navigation",
-      "made malicious agent detection for robust multi agent collaborative perception",
-      "malicious path manipulations via exploitation of representation vulnerabilities of vision language navigation systems"
+      "learning the inverse kinematics of magnetic continuum robot for teleoperated navigation"
     ]
   }
 }

@@ -2,26 +2,27 @@
   "schema_version": "0.1",
   "venue_key": "icra",
   "year": 2021,
-  "source": "dblp",
+  "source": "ieee",
   "baseline": "papercopilot",
-  "generated_at": "2026-06-17T06:52:37Z",
+  "generated_at": "2026-06-17T07:32:04Z",
   "status": "ok",
   "min_count_ratio": 0.95,
   "counts": {
-    "ours": 1386,
+    "ours": 1387,
     "baseline": 1387,
     "title_overlap": 1385,
-    "count_ratio": 0.9993,
+    "count_ratio": 1.0,
     "overlap_ratio": 0.9986
   },
   "known_baseline_issues": [],
   "samples": {
     "missing_from_ours": [
-      "cnn based ego motion estimation for fast mav maneuvers",
-      "plenary"
+      "3d multi object tracking using random finite set based multiple measurement models filtering rfs m3 for autonomous vehicles",
+      "operational space control for planar pan 1 underactuated manipulators using orthogonal projection and quadratic programming"
     ],
     "extra_in_ours": [
-      "cnn based ego motion estimation for fast mav maneuve"
+      "3d multi object tracking using random finite set based multiple measurement models filtering rfs m 3 for autonomous vehicles",
+      "operational space control for planar pa n 1 underactuated manipulators using orthogonal projection and quadratic programming"
     ]
   }
 }
