@@ -38,6 +38,9 @@ jobs:
       - name: Rebuild full coverage report
         run: python scripts/rebuild_coverage.py
 
+      - name: Audit normalized data quality
+        run: python scripts/audit_normalized.py
+
       - name: Validate Python sources
         run: python -m compileall -q src scripts
 

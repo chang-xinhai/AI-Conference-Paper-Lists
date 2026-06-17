@@ -1,0 +1,1764 @@
+{
+  "schema_version": "0.1",
+  "generated_at": "2026-06-17T08:12:16Z",
+  "target_count": 152,
+  "status": "warning",
+  "summary": {
+    "ok": 129,
+    "warning": 23,
+    "critical": 0
+  },
+  "results": [
+    {
+      "venue_key": "3dv",
+      "year": 2025,
+      "path": "data/normalized/3dv/3dv2025.json",
+      "status": "ok",
+      "source": "openreview",
+      "count": 142,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "3dv",
+      "year": 2026,
+      "path": "data/normalized/3dv/3dv2026.json",
+      "status": "ok",
+      "source": "openreview",
+      "count": 177,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "aaai",
+      "year": 2021,
+      "path": "data/normalized/aaai/aaai2021.json",
+      "status": "ok",
+      "source": "aaai_ojs",
+      "count": 1961,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "aaai",
+      "year": 2022,
+      "path": "data/normalized/aaai/aaai2022.json",
+      "status": "ok",
+      "source": "aaai_ojs",
+      "count": 1624,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "aaai",
+      "year": 2023,
+      "path": "data/normalized/aaai/aaai2023.json",
+      "status": "ok",
+      "source": "aaai_ojs",
+      "count": 2023,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "aaai",
+      "year": 2024,
+      "path": "data/normalized/aaai/aaai2024.json",
+      "status": "ok",
+      "source": "aaai_ojs",
+      "count": 2864,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "aaai",
+      "year": 2025,
+      "path": "data/normalized/aaai/aaai2025.json",
+      "status": "ok",
+      "source": "aaai_ojs",
+      "count": 3486,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "aaai",
+      "year": 2026,
+      "path": "data/normalized/aaai/aaai2026.json",
+      "status": "ok",
+      "source": "aaai_ojs",
+      "count": 4920,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "acl",
+      "year": 2021,
+      "path": "data/normalized/acl/acl2021.json",
+      "status": "ok",
+      "source": "acl_anthology",
+      "count": 1819,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "acl",
+      "year": 2022,
+      "path": "data/normalized/acl/acl2022.json",
+      "status": "ok",
+      "source": "acl_anthology",
+      "count": 1616,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "acl",
+      "year": 2023,
+      "path": "data/normalized/acl/acl2023.json",
+      "status": "warning",
+      "source": "acl_anthology",
+      "count": 3086,
+      "critical": [],
+      "warnings": [
+        {
+          "id": "duplicate_canonical_titles",
+          "count": 4,
+          "samples": [
+            "knowledge augmented language model prompting for zero shot knowledge graph question answering",
+            "t cl at sigmorphon 2023 straight through gradient estimation for hard attention",
+            "tucker decomposition with frequency attention for temporal knowledge graph completion",
+            "visual coherence loss for coherent and visually grounded story generation"
+          ]
+        }
+      ]
+    },
+    {
+      "venue_key": "acl",
+      "year": 2024,
+      "path": "data/normalized/acl/acl2024.json",
+      "status": "warning",
+      "source": "acl_anthology",
+      "count": 2719,
+      "critical": [],
+      "warnings": [
+        {
+          "id": "duplicate_canonical_titles",
+          "count": 2,
+          "samples": [
+            "faithful persona based conversational dataset generation with large language models",
+            "hesum a novel dataset for abstractive text summarization in hebrew"
+          ]
+        }
+      ]
+    },
+    {
+      "venue_key": "acl",
+      "year": 2025,
+      "path": "data/normalized/acl/acl2025.json",
+      "status": "warning",
+      "source": "acl_anthology",
+      "count": 4510,
+      "critical": [],
+      "warnings": [
+        {
+          "id": "duplicate_canonical_titles",
+          "count": 2,
+          "samples": [
+            "robust data watermarking in language models by injecting fictitious knowledge",
+            "the law of knowledge overshadowing towards understanding predicting and preventing llm hallucination"
+          ]
+        }
+      ]
+    },
+    {
+      "venue_key": "acml",
+      "year": 2020,
+      "path": "data/normalized/acml/acml2020.json",
+      "status": "ok",
+      "source": "pmlr",
+      "count": 54,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "acml",
+      "year": 2021,
+      "path": "data/normalized/acml/acml2021.json",
+      "status": "ok",
+      "source": "pmlr",
+      "count": 115,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "acml",
+      "year": 2022,
+      "path": "data/normalized/acml/acml2022.json",
+      "status": "ok",
+      "source": "pmlr",
+      "count": 83,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "acml",
+      "year": 2023,
+      "path": "data/normalized/acml/acml2023.json",
+      "status": "ok",
+      "source": "pmlr",
+      "count": 114,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "acml",
+      "year": 2024,
+      "path": "data/normalized/acml/acml2024.json",
+      "status": "ok",
+      "source": "pmlr",
+      "count": 87,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "acml",
+      "year": 2025,
+      "path": "data/normalized/acml/acml2025.json",
+      "status": "ok",
+      "source": "pmlr",
+      "count": 79,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "acmmm",
+      "year": 2024,
+      "path": "data/normalized/acmmm/acmmm2024.json",
+      "status": "ok",
+      "source": "acm",
+      "count": 1400,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "acmmm",
+      "year": 2025,
+      "path": "data/normalized/acmmm/acmmm2025.json",
+      "status": "ok",
+      "source": "acm",
+      "count": 1660,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "ai4x",
+      "year": 2025,
+      "path": "data/normalized/ai4x/ai4x2025.json",
+      "status": "ok",
+      "source": "openreview",
+      "count": 236,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "aistats",
+      "year": 2020,
+      "path": "data/normalized/aistats/aistats2020.json",
+      "status": "ok",
+      "source": "pmlr",
+      "count": 423,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "aistats",
+      "year": 2021,
+      "path": "data/normalized/aistats/aistats2021.json",
+      "status": "ok",
+      "source": "pmlr",
+      "count": 455,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "aistats",
+      "year": 2022,
+      "path": "data/normalized/aistats/aistats2022.json",
+      "status": "ok",
+      "source": "pmlr",
+      "count": 492,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "aistats",
+      "year": 2023,
+      "path": "data/normalized/aistats/aistats2023.json",
+      "status": "ok",
+      "source": "pmlr",
+      "count": 496,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "aistats",
+      "year": 2024,
+      "path": "data/normalized/aistats/aistats2024.json",
+      "status": "ok",
+      "source": "pmlr",
+      "count": 547,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "aistats",
+      "year": 2025,
+      "path": "data/normalized/aistats/aistats2025.json",
+      "status": "ok",
+      "source": "openreview",
+      "count": 583,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "aistats",
+      "year": 2026,
+      "path": "data/normalized/aistats/aistats2026.json",
+      "status": "ok",
+      "source": "openreview",
+      "count": 587,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "alt",
+      "year": 2025,
+      "path": "data/normalized/alt/alt2025.json",
+      "status": "ok",
+      "source": "openreview",
+      "count": 51,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "alt",
+      "year": 2026,
+      "path": "data/normalized/alt/alt2026.json",
+      "status": "ok",
+      "source": "openreview",
+      "count": 69,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "automl",
+      "year": 2022,
+      "path": "data/normalized/automl/automl2022.json",
+      "status": "ok",
+      "source": "pmlr",
+      "count": 20,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "automl",
+      "year": 2023,
+      "path": "data/normalized/automl/automl2023.json",
+      "status": "ok",
+      "source": "pmlr",
+      "count": 24,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "automl",
+      "year": 2024,
+      "path": "data/normalized/automl/automl2024.json",
+      "status": "ok",
+      "source": "pmlr",
+      "count": 19,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "automl",
+      "year": 2025,
+      "path": "data/normalized/automl/automl2025.json",
+      "status": "ok",
+      "source": "pmlr",
+      "count": 25,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "coling",
+      "year": 2020,
+      "path": "data/normalized/coling/coling2020.json",
+      "status": "ok",
+      "source": "acl_anthology",
+      "count": 1334,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "coling",
+      "year": 2022,
+      "path": "data/normalized/coling/coling2022.json",
+      "status": "ok",
+      "source": "acl_anthology",
+      "count": 930,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "coling",
+      "year": 2024,
+      "path": "data/normalized/coling/coling2024.json",
+      "status": "ok",
+      "source": "acl_anthology",
+      "count": 2169,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "coling",
+      "year": 2025,
+      "path": "data/normalized/coling/coling2025.json",
+      "status": "ok",
+      "source": "acl_anthology",
+      "count": 1225,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "colm",
+      "year": 2024,
+      "path": "data/normalized/colm/colm2024.json",
+      "status": "ok",
+      "source": "openreview",
+      "count": 299,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "colm",
+      "year": 2025,
+      "path": "data/normalized/colm/colm2025.json",
+      "status": "ok",
+      "source": "openreview",
+      "count": 418,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "colt",
+      "year": 2020,
+      "path": "data/normalized/colt/colt2020.json",
+      "status": "ok",
+      "source": "pmlr",
+      "count": 126,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "colt",
+      "year": 2021,
+      "path": "data/normalized/colt/colt2021.json",
+      "status": "ok",
+      "source": "pmlr",
+      "count": 141,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "colt",
+      "year": 2022,
+      "path": "data/normalized/colt/colt2022.json",
+      "status": "ok",
+      "source": "pmlr",
+      "count": 163,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "colt",
+      "year": 2023,
+      "path": "data/normalized/colt/colt2023.json",
+      "status": "ok",
+      "source": "pmlr",
+      "count": 170,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "colt",
+      "year": 2024,
+      "path": "data/normalized/colt/colt2024.json",
+      "status": "ok",
+      "source": "pmlr",
+      "count": 170,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "colt",
+      "year": 2025,
+      "path": "data/normalized/colt/colt2025.json",
+      "status": "ok",
+      "source": "pmlr",
+      "count": 182,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "corl",
+      "year": 2021,
+      "path": "data/normalized/corl/corl2021.json",
+      "status": "ok",
+      "source": "openreview",
+      "count": 153,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "corl",
+      "year": 2022,
+      "path": "data/normalized/corl/corl2022.json",
+      "status": "ok",
+      "source": "openreview",
+      "count": 197,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "corl",
+      "year": 2023,
+      "path": "data/normalized/corl/corl2023.json",
+      "status": "ok",
+      "source": "openreview",
+      "count": 199,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "corl",
+      "year": 2024,
+      "path": "data/normalized/corl/corl2024.json",
+      "status": "ok",
+      "source": "openreview",
+      "count": 264,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "corl",
+      "year": 2025,
+      "path": "data/normalized/corl/corl2025.json",
+      "status": "ok",
+      "source": "openreview",
+      "count": 263,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "cvpr",
+      "year": 2020,
+      "path": "data/normalized/cvpr/cvpr2020.json",
+      "status": "ok",
+      "source": "cvf",
+      "count": 1466,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "cvpr",
+      "year": 2021,
+      "path": "data/normalized/cvpr/cvpr2021.json",
+      "status": "ok",
+      "source": "cvf",
+      "count": 1660,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "cvpr",
+      "year": 2022,
+      "path": "data/normalized/cvpr/cvpr2022.json",
+      "status": "ok",
+      "source": "cvf",
+      "count": 2074,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "cvpr",
+      "year": 2023,
+      "path": "data/normalized/cvpr/cvpr2023.json",
+      "status": "ok",
+      "source": "cvf",
+      "count": 2353,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "cvpr",
+      "year": 2024,
+      "path": "data/normalized/cvpr/cvpr2024.json",
+      "status": "ok",
+      "source": "cvf",
+      "count": 2716,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "cvpr",
+      "year": 2025,
+      "path": "data/normalized/cvpr/cvpr2025.json",
+      "status": "ok",
+      "source": "cvf",
+      "count": 2871,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "cvpr",
+      "year": 2026,
+      "path": "data/normalized/cvpr/cvpr2026.json",
+      "status": "ok",
+      "source": "cvf",
+      "count": 4068,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "eccv",
+      "year": 2020,
+      "path": "data/normalized/eccv/eccv2020.json",
+      "status": "ok",
+      "source": "ecva",
+      "count": 1358,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "eccv",
+      "year": 2022,
+      "path": "data/normalized/eccv/eccv2022.json",
+      "status": "ok",
+      "source": "ecva",
+      "count": 1645,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "eccv",
+      "year": 2024,
+      "path": "data/normalized/eccv/eccv2024.json",
+      "status": "ok",
+      "source": "ecva",
+      "count": 2387,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "emnlp",
+      "year": 2021,
+      "path": "data/normalized/emnlp/emnlp2021.json",
+      "status": "warning",
+      "source": "acl_anthology",
+      "count": 1900,
+      "critical": [],
+      "warnings": [
+        {
+          "id": "duplicate_canonical_titles",
+          "count": 2,
+          "samples": [
+            "improving distantly supervised named entity recognition with self collaborative denoising learning",
+            "perceived and intended sarcasm detection with graph attention networks"
+          ]
+        }
+      ]
+    },
+    {
+      "venue_key": "emnlp",
+      "year": 2022,
+      "path": "data/normalized/emnlp/emnlp2022.json",
+      "status": "ok",
+      "source": "acl_anthology",
+      "count": 2083,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "emnlp",
+      "year": 2023,
+      "path": "data/normalized/emnlp/emnlp2023.json",
+      "status": "warning",
+      "source": "acl_anthology",
+      "count": 2806,
+      "critical": [],
+      "warnings": [
+        {
+          "id": "duplicate_canonical_titles",
+          "count": 3,
+          "samples": [
+            "symbolic planning and code generation for grounded dialogue",
+            "the vault a comprehensive multilingual dataset for advancing code understanding and generation",
+            "unsupervised opinion summarization using approximate geodesics"
+          ]
+        }
+      ]
+    },
+    {
+      "venue_key": "emnlp",
+      "year": 2024,
+      "path": "data/normalized/emnlp/emnlp2024.json",
+      "status": "warning",
+      "source": "acl_anthology",
+      "count": 2953,
+      "critical": [],
+      "warnings": [
+        {
+          "id": "duplicate_canonical_titles",
+          "count": 4,
+          "samples": [
+            "creative and context aware translation of east asian idioms with gpt 4",
+            "major entity identification a generalizable alternative to coreference resolution",
+            "representational isomorphism and alignment of multilingual large language models",
+            "what an elegant bridge multilingual llms are biased similarly in different languages"
+          ]
+        }
+      ]
+    },
+    {
+      "venue_key": "emnlp",
+      "year": 2025,
+      "path": "data/normalized/emnlp/emnlp2025.json",
+      "status": "warning",
+      "source": "acl_anthology",
+      "count": 4182,
+      "critical": [],
+      "warnings": [
+        {
+          "id": "duplicate_canonical_titles",
+          "count": 1,
+          "samples": [
+            "cross document cross lingual nli via rst enhanced graph fusion and interpretability prediction"
+          ]
+        }
+      ]
+    },
+    {
+      "venue_key": "iccv",
+      "year": 2021,
+      "path": "data/normalized/iccv/iccv2021.json",
+      "status": "ok",
+      "source": "cvf",
+      "count": 1612,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "iccv",
+      "year": 2023,
+      "path": "data/normalized/iccv/iccv2023.json",
+      "status": "ok",
+      "source": "cvf",
+      "count": 2156,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "iccv",
+      "year": 2025,
+      "path": "data/normalized/iccv/iccv2025.json",
+      "status": "ok",
+      "source": "cvf",
+      "count": 2701,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "iclr",
+      "year": 2020,
+      "path": "data/normalized/iclr/iclr2020.json",
+      "status": "ok",
+      "source": "openreview",
+      "count": 824,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "iclr",
+      "year": 2021,
+      "path": "data/normalized/iclr/iclr2021.json",
+      "status": "ok",
+      "source": "openreview",
+      "count": 860,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "iclr",
+      "year": 2022,
+      "path": "data/normalized/iclr/iclr2022.json",
+      "status": "ok",
+      "source": "openreview",
+      "count": 1094,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "iclr",
+      "year": 2023,
+      "path": "data/normalized/iclr/iclr2023.json",
+      "status": "ok",
+      "source": "openreview",
+      "count": 1573,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "iclr",
+      "year": 2024,
+      "path": "data/normalized/iclr/iclr2024.json",
+      "status": "ok",
+      "source": "openreview",
+      "count": 2260,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "iclr",
+      "year": 2025,
+      "path": "data/normalized/iclr/iclr2025.json",
+      "status": "ok",
+      "source": "openreview",
+      "count": 3703,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "iclr",
+      "year": 2026,
+      "path": "data/normalized/iclr/iclr2026.json",
+      "status": "ok",
+      "source": "openreview",
+      "count": 5351,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "icml",
+      "year": 2020,
+      "path": "data/normalized/icml/icml2020.json",
+      "status": "ok",
+      "source": "pmlr",
+      "count": 1084,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "icml",
+      "year": 2021,
+      "path": "data/normalized/icml/icml2021.json",
+      "status": "ok",
+      "source": "pmlr",
+      "count": 1183,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "icml",
+      "year": 2022,
+      "path": "data/normalized/icml/icml2022.json",
+      "status": "ok",
+      "source": "pmlr",
+      "count": 1233,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "icml",
+      "year": 2023,
+      "path": "data/normalized/icml/icml2023.json",
+      "status": "ok",
+      "source": "pmlr",
+      "count": 1828,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "icml",
+      "year": 2024,
+      "path": "data/normalized/icml/icml2024.json",
+      "status": "ok",
+      "source": "pmlr",
+      "count": 2610,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "icml",
+      "year": 2025,
+      "path": "data/normalized/icml/icml2025.json",
+      "status": "ok",
+      "source": "pmlr",
+      "count": 3330,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "icml",
+      "year": 2026,
+      "path": "data/normalized/icml/icml2026.json",
+      "status": "ok",
+      "source": "icml",
+      "count": 6631,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "icra",
+      "year": 2020,
+      "path": "data/normalized/icra/icra2020.json",
+      "status": "ok",
+      "source": "ieee",
+      "count": 1073,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "icra",
+      "year": 2021,
+      "path": "data/normalized/icra/icra2021.json",
+      "status": "ok",
+      "source": "ieee",
+      "count": 1387,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "icra",
+      "year": 2022,
+      "path": "data/normalized/icra/icra2022.json",
+      "status": "ok",
+      "source": "ieee",
+      "count": 931,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "icra",
+      "year": 2023,
+      "path": "data/normalized/icra/icra2023.json",
+      "status": "ok",
+      "source": "ieee",
+      "count": 1341,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "icra",
+      "year": 2024,
+      "path": "data/normalized/icra/icra2024.json",
+      "status": "ok",
+      "source": "ieee",
+      "count": 1759,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "icra",
+      "year": 2025,
+      "path": "data/normalized/icra/icra2025.json",
+      "status": "ok",
+      "source": "ieee",
+      "count": 1604,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "icra",
+      "year": 2026,
+      "path": "data/normalized/icra/icra2026.json",
+      "status": "ok",
+      "source": "papercept",
+      "count": 2951,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "ijcai",
+      "year": 2020,
+      "path": "data/normalized/ijcai/ijcai2020.json",
+      "status": "warning",
+      "source": "ijcai",
+      "count": 779,
+      "critical": [],
+      "warnings": [
+        {
+          "id": "duplicate_canonical_titles",
+          "count": 1,
+          "samples": [
+            "incorporating failure events in agents decision making to improve user satisfaction"
+          ]
+        }
+      ]
+    },
+    {
+      "venue_key": "ijcai",
+      "year": 2021,
+      "path": "data/normalized/ijcai/ijcai2021.json",
+      "status": "warning",
+      "source": "ijcai",
+      "count": 723,
+      "critical": [],
+      "warnings": [
+        {
+          "id": "duplicate_canonical_titles",
+          "count": 1,
+          "samples": [
+            "self adaptive swarm system sass"
+          ]
+        }
+      ]
+    },
+    {
+      "venue_key": "ijcai",
+      "year": 2022,
+      "path": "data/normalized/ijcai/ijcai2022.json",
+      "status": "ok",
+      "source": "ijcai",
+      "count": 862,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "ijcai",
+      "year": 2023,
+      "path": "data/normalized/ijcai/ijcai2023.json",
+      "status": "ok",
+      "source": "ijcai",
+      "count": 851,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "ijcai",
+      "year": 2024,
+      "path": "data/normalized/ijcai/ijcai2024.json",
+      "status": "ok",
+      "source": "ijcai",
+      "count": 1048,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "ijcai",
+      "year": 2025,
+      "path": "data/normalized/ijcai/ijcai2025.json",
+      "status": "warning",
+      "source": "ijcai",
+      "count": 1280,
+      "critical": [],
+      "warnings": [
+        {
+          "id": "duplicate_canonical_titles",
+          "count": 1,
+          "samples": [
+            "a semantic framework for neurosymbolic computation abstract reprint"
+          ]
+        }
+      ]
+    },
+    {
+      "venue_key": "ijcai",
+      "year": 2026,
+      "path": "data/normalized/ijcai/ijcai2026.json",
+      "status": "ok",
+      "source": "ijcai",
+      "count": 953,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "iros",
+      "year": 2020,
+      "path": "data/normalized/iros/iros2020.json",
+      "status": "ok",
+      "source": "ieee",
+      "count": 1129,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "iros",
+      "year": 2021,
+      "path": "data/normalized/iros/iros2021.json",
+      "status": "ok",
+      "source": "ieee",
+      "count": 1035,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "iros",
+      "year": 2022,
+      "path": "data/normalized/iros/iros2022.json",
+      "status": "ok",
+      "source": "ieee",
+      "count": 1214,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "iros",
+      "year": 2023,
+      "path": "data/normalized/iros/iros2023.json",
+      "status": "ok",
+      "source": "ieee",
+      "count": 1195,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "iros",
+      "year": 2024,
+      "path": "data/normalized/iros/iros2024.json",
+      "status": "ok",
+      "source": "ieee",
+      "count": 1583,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "iros",
+      "year": 2025,
+      "path": "data/normalized/iros/iros2025.json",
+      "status": "ok",
+      "source": "papercept",
+      "count": 2672,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "kdd",
+      "year": 2023,
+      "path": "data/normalized/kdd/kdd2023.json",
+      "status": "ok",
+      "source": "acm",
+      "count": 558,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "kdd",
+      "year": 2024,
+      "path": "data/normalized/kdd/kdd2024.json",
+      "status": "ok",
+      "source": "acm",
+      "count": 642,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "kdd",
+      "year": 2025,
+      "path": "data/normalized/kdd/kdd2025.json",
+      "status": "ok",
+      "source": "acm",
+      "count": 844,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "kdd",
+      "year": 2026,
+      "path": "data/normalized/kdd/kdd2026.json",
+      "status": "ok",
+      "source": "dblp",
+      "count": 256,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "naacl",
+      "year": 2021,
+      "path": "data/normalized/naacl/naacl2021.json",
+      "status": "warning",
+      "source": "acl_anthology",
+      "count": 941,
+      "critical": [],
+      "warnings": [
+        {
+          "id": "duplicate_canonical_titles",
+          "count": 1,
+          "samples": [
+            "code mixing on sesame street dawn of the adversarial polyglots"
+          ]
+        }
+      ]
+    },
+    {
+      "venue_key": "naacl",
+      "year": 2022,
+      "path": "data/normalized/naacl/naacl2022.json",
+      "status": "warning",
+      "source": "acl_anthology",
+      "count": 1292,
+      "critical": [],
+      "warnings": [
+        {
+          "id": "duplicate_canonical_titles",
+          "count": 3,
+          "samples": [
+            "generalized quantifiers as a source of error in multilingual nlu benchmarks",
+            "greasevision rewriting the rules of the interface",
+            "how to translate your samples and choose your shots analyzing translate train few shot cross lingual transfer"
+          ]
+        }
+      ]
+    },
+    {
+      "venue_key": "naacl",
+      "year": 2024,
+      "path": "data/normalized/naacl/naacl2024.json",
+      "status": "ok",
+      "source": "acl_anthology",
+      "count": 1560,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "naacl",
+      "year": 2025,
+      "path": "data/normalized/naacl/naacl2025.json",
+      "status": "warning",
+      "source": "acl_anthology",
+      "count": 1929,
+      "critical": [],
+      "warnings": [
+        {
+          "id": "duplicate_canonical_titles",
+          "count": 3,
+          "samples": [
+            "beyond english the impact of prompt translation strategies across languages and tasks in multilingual llms",
+            "can dependency parses facilitate generalization in language models a case study of cross lingual relation extraction",
+            "linguaists dravidianlangtech 2025 abusive tamil and malayalam text targeting women on social media"
+          ]
+        }
+      ]
+    },
+    {
+      "venue_key": "nips",
+      "year": 2020,
+      "path": "data/normalized/nips/nips2020.json",
+      "status": "warning",
+      "source": "neurips",
+      "count": 1953,
+      "critical": [],
+      "warnings": [
+        {
+          "id": "duplicate_canonical_titles",
+          "count": 8,
+          "samples": [
+            "boosting first order methods by shifting objective new schemes with faster worst case rates",
+            "efficient clustering based on a unified view of k means and ratio cut",
+            "entropic optimal transport between unbalanced gaussian measures has a closed form",
+            "hierarchically organized latent modules for exploratory search in morphogenetic systems",
+            "identifying causal effect inference failure with uncertainty aware models",
+            "o n connections are expressive enough universal approximability of sparse transformers",
+            "train by reconnect decoupling locations of weights from their values",
+            "what went wrong and when instance wise feature importance for time series black box models"
+          ]
+        }
+      ]
+    },
+    {
+      "venue_key": "nips",
+      "year": 2021,
+      "path": "data/normalized/nips/nips2021.json",
+      "status": "ok",
+      "source": "neurips",
+      "count": 2508,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "nips",
+      "year": 2022,
+      "path": "data/normalized/nips/nips2022.json",
+      "status": "warning",
+      "source": "neurips",
+      "count": 2902,
+      "critical": [],
+      "warnings": [
+        {
+          "id": "duplicate_canonical_titles",
+          "count": 1,
+          "samples": [
+            "comgan unsupervised disentanglement and segmentation via image composition"
+          ]
+        }
+      ]
+    },
+    {
+      "venue_key": "nips",
+      "year": 2023,
+      "path": "data/normalized/nips/nips2023.json",
+      "status": "warning",
+      "source": "neurips",
+      "count": 3588,
+      "critical": [],
+      "warnings": [
+        {
+          "id": "duplicate_canonical_titles",
+          "count": 1,
+          "samples": [
+            "reproducibility study of label free explainability for unsupervised models"
+          ]
+        }
+      ]
+    },
+    {
+      "venue_key": "nips",
+      "year": 2024,
+      "path": "data/normalized/nips/nips2024.json",
+      "status": "ok",
+      "source": "neurips",
+      "count": 4538,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "nips",
+      "year": 2025,
+      "path": "data/normalized/nips/nips2025.json",
+      "status": "warning",
+      "source": "neurips",
+      "count": 5913,
+      "critical": [],
+      "warnings": [
+        {
+          "id": "duplicate_canonical_titles",
+          "count": 5,
+          "samples": [
+            "cf vlm counterfactual vision language fine tuning",
+            "navigating the mil trade off flexible pooling for whole slide image classification",
+            "neural combinatorial optimization for time dependent traveling salesman problem",
+            "the world is bigger a computationally embedded perspective on the big world hypothesis",
+            "when data can t meet estimating correlation across privacy barriers"
+          ]
+        }
+      ]
+    },
+    {
+      "venue_key": "rss",
+      "year": 2020,
+      "path": "data/normalized/rss/rss2020.json",
+      "status": "ok",
+      "source": "rss",
+      "count": 103,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "rss",
+      "year": 2021,
+      "path": "data/normalized/rss/rss2021.json",
+      "status": "ok",
+      "source": "rss",
+      "count": 92,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "rss",
+      "year": 2022,
+      "path": "data/normalized/rss/rss2022.json",
+      "status": "ok",
+      "source": "rss",
+      "count": 74,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "rss",
+      "year": 2023,
+      "path": "data/normalized/rss/rss2023.json",
+      "status": "ok",
+      "source": "rss",
+      "count": 112,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "rss",
+      "year": 2024,
+      "path": "data/normalized/rss/rss2024.json",
+      "status": "ok",
+      "source": "rss",
+      "count": 134,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "rss",
+      "year": 2025,
+      "path": "data/normalized/rss/rss2025.json",
+      "status": "ok",
+      "source": "rss",
+      "count": 163,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "siggraph",
+      "year": 2020,
+      "path": "data/normalized/siggraph/siggraph2020.json",
+      "status": "warning",
+      "source": "siggraph",
+      "count": 614,
+      "critical": [],
+      "warnings": [
+        {
+          "id": "duplicate_canonical_titles",
+          "count": 3,
+          "samples": [
+            "incremental potential contact intersection and inversion free large deformation dynamics",
+            "nonlinear color triads for approximation learning and direct manipulation of color distributions",
+            "octahedral frames for feature aligned cross fields"
+          ]
+        }
+      ]
+    },
+    {
+      "venue_key": "siggraph",
+      "year": 2021,
+      "path": "data/normalized/siggraph/siggraph2021.json",
+      "status": "ok",
+      "source": "siggraph",
+      "count": 556,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "siggraph",
+      "year": 2022,
+      "path": "data/normalized/siggraph/siggraph2022.json",
+      "status": "warning",
+      "source": "siggraph",
+      "count": 647,
+      "critical": [],
+      "warnings": [
+        {
+          "id": "duplicate_canonical_titles",
+          "count": 13,
+          "samples": [
+            "a autodiff for discontinuous programs applied to shaders",
+            "affine body dynamics fast stable and intersection free simulation of stiff materials",
+            "as locally uniform as possible reshaping of vector clip art",
+            "clipasso semantically aware object sketching",
+            "comparison of single image hdr reconstruction methods the caveats of quality assessment",
+            "eyenerf a hybrid representation for photorealistic synthesis animation and relighting of human eyes",
+            "go green general regularized green s functions for elasticity",
+            "learning soccer juggling skills with layer wise mixture of experts",
+            "local anatomically constrained facial performance retargeting",
+            "stelacsf a unified model of contrast sensitivity as the function of spatio temporal frequency eccentricity luminance and area",
+            "the hierarchical subspace iteration method for laplace beltrami eigenproblems",
+            "time multiplexed neural holography a flexible framework for holographic near eye displays with fast heavily quantized spatial light modulators",
+            "which cross fields can be quadrangulated global parameterization from prescribed holonomy signatures"
+          ]
+        }
+      ]
+    },
+    {
+      "venue_key": "siggraph",
+      "year": 2023,
+      "path": "data/normalized/siggraph/siggraph2023.json",
+      "status": "warning",
+      "source": "siggraph",
+      "count": 653,
+      "critical": [],
+      "warnings": [
+        {
+          "id": "duplicate_canonical_titles",
+          "count": 1,
+          "samples": [
+            "a method for animating children s drawings of the human figure"
+          ]
+        }
+      ]
+    },
+    {
+      "venue_key": "siggraph",
+      "year": 2024,
+      "path": "data/normalized/siggraph/siggraph2024.json",
+      "status": "warning",
+      "source": "siggraph",
+      "count": 823,
+      "critical": [],
+      "warnings": [
+        {
+          "id": "duplicate_canonical_titles",
+          "count": 6,
+          "samples": [
+            "colorvideovdp a visual difference predictor for image video and display distortions",
+            "hq3davatar high quality implicit 3d head avatar",
+            "rgb x image decomposition and synthesis using material and lighting aware diffusion models",
+            "s3 speech script and scene driven head and eye animation",
+            "spice e structural priors in 3d diffusion using cross entity attention",
+            "walkin robin walk on stars with robin boundary conditions"
+          ]
+        }
+      ]
+    },
+    {
+      "venue_key": "siggraph",
+      "year": 2025,
+      "path": "data/normalized/siggraph/siggraph2025.json",
+      "status": "warning",
+      "source": "siggraph",
+      "count": 847,
+      "critical": [],
+      "warnings": [
+        {
+          "id": "duplicate_canonical_titles",
+          "count": 2,
+          "samples": [
+            "don t splat your gaussians volumetric ray traced primitives for modeling and rendering scattering and emissive media",
+            "monetgpt solving puzzles enhances mllms image retouching skills"
+          ]
+        }
+      ]
+    },
+    {
+      "venue_key": "siggraphasia",
+      "year": 2020,
+      "path": "data/normalized/siggraphasia/siggraphasia2020.json",
+      "status": "ok",
+      "source": "siggraph_asia",
+      "count": 279,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "siggraphasia",
+      "year": 2021,
+      "path": "data/normalized/siggraphasia/siggraphasia2021.json",
+      "status": "ok",
+      "source": "siggraph_asia",
+      "count": 254,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "siggraphasia",
+      "year": 2022,
+      "path": "data/normalized/siggraphasia/siggraphasia2022.json",
+      "status": "ok",
+      "source": "siggraph_asia",
+      "count": 333,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "siggraphasia",
+      "year": 2023,
+      "path": "data/normalized/siggraphasia/siggraphasia2023.json",
+      "status": "warning",
+      "source": "siggraph_asia",
+      "count": 479,
+      "critical": [],
+      "warnings": [
+        {
+          "id": "duplicate_canonical_titles",
+          "count": 2,
+          "samples": [
+            "close the design to manufacturing gap in computational optics with a real2sim learned two photon neural lithography simulator",
+            "from skin to skeleton towards biomechanically accurate 3d digital humans"
+          ]
+        }
+      ]
+    },
+    {
+      "venue_key": "siggraphasia",
+      "year": 2024,
+      "path": "data/normalized/siggraphasia/siggraphasia2024.json",
+      "status": "ok",
+      "source": "siggraph_asia",
+      "count": 593,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "siggraphasia",
+      "year": 2025,
+      "path": "data/normalized/siggraphasia/siggraphasia2025.json",
+      "status": "ok",
+      "source": "siggraph_asia",
+      "count": 636,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "uai",
+      "year": 2020,
+      "path": "data/normalized/uai/uai2020.json",
+      "status": "ok",
+      "source": "pmlr",
+      "count": 140,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "uai",
+      "year": 2021,
+      "path": "data/normalized/uai/uai2021.json",
+      "status": "ok",
+      "source": "pmlr",
+      "count": 206,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "uai",
+      "year": 2022,
+      "path": "data/normalized/uai/uai2022.json",
+      "status": "ok",
+      "source": "pmlr",
+      "count": 230,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "uai",
+      "year": 2023,
+      "path": "data/normalized/uai/uai2023.json",
+      "status": "ok",
+      "source": "pmlr",
+      "count": 243,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "uai",
+      "year": 2024,
+      "path": "data/normalized/uai/uai2024.json",
+      "status": "ok",
+      "source": "openreview",
+      "count": 200,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "uai",
+      "year": 2025,
+      "path": "data/normalized/uai/uai2025.json",
+      "status": "ok",
+      "source": "pmlr",
+      "count": 229,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "wacv",
+      "year": 2020,
+      "path": "data/normalized/wacv/wacv2020.json",
+      "status": "ok",
+      "source": "cvf",
+      "count": 378,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "wacv",
+      "year": 2021,
+      "path": "data/normalized/wacv/wacv2021.json",
+      "status": "ok",
+      "source": "cvf",
+      "count": 406,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "wacv",
+      "year": 2022,
+      "path": "data/normalized/wacv/wacv2022.json",
+      "status": "ok",
+      "source": "cvf",
+      "count": 406,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "wacv",
+      "year": 2023,
+      "path": "data/normalized/wacv/wacv2023.json",
+      "status": "ok",
+      "source": "cvf",
+      "count": 639,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "wacv",
+      "year": 2024,
+      "path": "data/normalized/wacv/wacv2024.json",
+      "status": "ok",
+      "source": "cvf",
+      "count": 846,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "wacv",
+      "year": 2025,
+      "path": "data/normalized/wacv/wacv2025.json",
+      "status": "ok",
+      "source": "cvf",
+      "count": 929,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "wacv",
+      "year": 2026,
+      "path": "data/normalized/wacv/wacv2026.json",
+      "status": "ok",
+      "source": "cvf",
+      "count": 831,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "www",
+      "year": 2024,
+      "path": "data/normalized/www/www2024.json",
+      "status": "ok",
+      "source": "openreview",
+      "count": 405,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "www",
+      "year": 2025,
+      "path": "data/normalized/www/www2025.json",
+      "status": "ok",
+      "source": "openreview",
+      "count": 409,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "www",
+      "year": 2026,
+      "path": "data/normalized/www/www2026.json",
+      "status": "ok",
+      "source": "acm",
+      "count": 954,
+      "critical": [],
+      "warnings": []
+    }
+  ]
+}

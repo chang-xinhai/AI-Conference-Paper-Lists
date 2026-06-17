@@ -110,6 +110,12 @@ Refresh the Paper Copilot-compatible conference index while keeping manually add
 python scripts/build_conference_index.py --paperlists ../paperlists --merge-existing-targets
 ```
 
+Audit normalized data quality:
+
+```bash
+python scripts/audit_normalized.py
+```
+
 ## Downstream Use
 
 This repository is designed to support curated views such as [Awesome-Training-Free-Papers](https://github.com/chang-xinhai/Awesome-Training-Free-Papers).
