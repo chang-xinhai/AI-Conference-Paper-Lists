@@ -1,10 +1,10 @@
 {
   "schema_version": "0.1",
-  "generated_at": "2026-06-17T10:59:07Z",
+  "generated_at": "2026-06-17T11:05:23Z",
   "summary": {
     "available": 0,
     "incomplete": 1,
-    "not_available": 25,
+    "not_available": 26,
     "partial": 1,
     "reachable": 0
   },
@@ -273,8 +273,8 @@
       "venue_key": "acmmm",
       "year": 2026,
       "kind": "http",
-      "url": "https://2026.acmmm.org/accepted-papers/",
-      "available_regex": "accepted|paper",
+      "url": "https://2026.acmmm.org/site/accepted-papers.html",
+      "available_regex": "accepted papers|paper-title|main track",
       "status": "not_available",
       "evidence": "HTTPError: HTTP Error 404: Not Found"
     },
@@ -349,6 +349,16 @@
       "evidence": "Matched unavailable_regex: publication date of accepted papers.*9 November 2026",
       "http_ok": true,
       "response_chars": 453241
+    },
+    {
+      "id": "kdd2026-official-accepted-page",
+      "venue_key": "kdd",
+      "year": 2026,
+      "kind": "http",
+      "url": "https://kdd2026.kdd.org/accepted-papers/",
+      "available_regex": "accepted papers|paper-title|research track papers",
+      "status": "not_available",
+      "evidence": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "id": "kdd2026-openreview",

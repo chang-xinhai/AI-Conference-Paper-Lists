@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1",
-  "generated_at": "2026-06-17T10:59:15Z",
+  "generated_at": "2026-06-17T11:05:34Z",
   "validate_against_papercopilot": true,
   "source": "existing_normalized_data",
   "allow_papercopilot_fallback": false,
@@ -2564,10 +2564,11 @@
           "preferred_source": "acm",
           "fallback_source": "dblp",
           "checked_at": "2026-06-17",
-          "reason": "ACM DL direct proceedings pages reject automated fetches with HTTP 403, and ACM Crossref event metadata for KDD 2026 currently returns only two exact event proceedings-article records. DBLP exposes 256 DOI-bearing KDD 2026 records, so DBLP is retained as the best complete machine-readable fallback until ACM metadata is complete.",
+          "reason": "ACM DL direct proceedings pages reject automated fetches with HTTP 403, ACM Crossref event metadata for KDD 2026 currently returns only two exact event proceedings-article records, and KDD 2026 OpenReview track groups currently expose no accepted notes. DBLP exposes 256 DOI-bearing KDD 2026 records, so DBLP is retained as the best complete machine-readable fallback until ACM or OpenReview metadata is complete.",
           "evidence": [
             "ACM DL DOI proceedings pages returned HTTP 403 during automated checks.",
             "Crossref exact event query for \"KDD '26: The 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining\" returned only two relevant proceedings-article records.",
+            "OpenReview content.venueid queries for KDD.org/2026 Research, ADS, Datasets and Benchmark, and AI4Sciences tracks returned zero notes.",
             "DBLP TOC https://dblp.org/db/conf/kdd/kdd2026-1.xml contains 256 KDD 2026 paper records with ACM DOI links."
           ]
         }

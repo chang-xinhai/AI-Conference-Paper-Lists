@@ -1,14 +1,14 @@
 {
   "schema_version": "0.1",
-  "generated_at": "2026-06-17T10:59:57Z",
+  "generated_at": "2026-06-17T11:05:45Z",
   "latest_source_probe": "data/reports/latest_source_probes.json",
   "source_issues": "config/source_issues.json",
   "summary": {
-    "gap_count": 27,
+    "gap_count": 28,
     "fallback_issue_count": 1,
     "by_status": {
       "incomplete": 1,
-      "not_available": 25,
+      "not_available": 26,
       "partial": 1
     }
   },
@@ -171,6 +171,14 @@
       "year": 2026,
       "status": "not_available",
       "evidence": "Matched unavailable_regex: publication date of accepted papers.*9 November 2026",
+      "next_action": "Monitor the official source; do not add an empty or partial year to the matrix."
+    },
+    {
+      "id": "kdd2026-official-accepted-page",
+      "venue_key": "kdd",
+      "year": 2026,
+      "status": "not_available",
+      "evidence": "HTTPError: HTTP Error 404: Not Found",
       "next_action": "Monitor the official source; do not add an empty or partial year to the matrix."
     },
     {
