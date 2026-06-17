@@ -1,11 +1,11 @@
 {
   "schema_version": "0.1",
-  "generated_at": "2026-06-17T08:40:45Z",
-  "target_count": 153,
+  "generated_at": "2026-06-17T09:14:11Z",
+  "target_count": 168,
   "status": "warning",
   "summary": {
-    "ok": 129,
-    "warning": 24,
+    "ok": 143,
+    "warning": 25,
     "critical": 0
   },
   "results": [
@@ -26,6 +26,16 @@
       "status": "ok",
       "source": "openreview",
       "count": 177,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "aaai",
+      "year": 2020,
+      "path": "data/normalized/aaai/aaai2020.json",
+      "status": "ok",
+      "source": "aaai_ojs",
+      "count": 1795,
       "critical": [],
       "warnings": []
     },
@@ -86,6 +96,16 @@
       "status": "ok",
       "source": "aaai_ojs",
       "count": 4920,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "acl",
+      "year": 2020,
+      "path": "data/normalized/acl/acl2020.json",
+      "status": "ok",
+      "source": "acl_anthology",
+      "count": 1238,
       "critical": [],
       "warnings": []
     },
@@ -225,6 +245,46 @@
       "status": "ok",
       "source": "pmlr",
       "count": 79,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "acmmm",
+      "year": 2020,
+      "path": "data/normalized/acmmm/acmmm2020.json",
+      "status": "ok",
+      "source": "acm",
+      "count": 667,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "acmmm",
+      "year": 2021,
+      "path": "data/normalized/acmmm/acmmm2021.json",
+      "status": "ok",
+      "source": "acm",
+      "count": 772,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "acmmm",
+      "year": 2022,
+      "path": "data/normalized/acmmm/acmmm2022.json",
+      "status": "ok",
+      "source": "acm",
+      "count": 988,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "acmmm",
+      "year": 2023,
+      "path": "data/normalized/acmmm/acmmm2023.json",
+      "status": "ok",
+      "source": "acm",
+      "count": 1159,
       "critical": [],
       "warnings": []
     },
@@ -510,6 +570,16 @@
     },
     {
       "venue_key": "corl",
+      "year": 2020,
+      "path": "data/normalized/corl/corl2020.json",
+      "status": "ok",
+      "source": "pmlr",
+      "count": 165,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "corl",
       "year": 2021,
       "path": "data/normalized/corl/corl2021.json",
       "status": "ok",
@@ -666,6 +736,26 @@
       "count": 2387,
       "critical": [],
       "warnings": []
+    },
+    {
+      "venue_key": "emnlp",
+      "year": 2020,
+      "path": "data/normalized/emnlp/emnlp2020.json",
+      "status": "warning",
+      "source": "acl_anthology",
+      "count": 1885,
+      "critical": [],
+      "warnings": [
+        {
+          "id": "duplicate_canonical_titles",
+          "count": 3,
+          "samples": [
+            "do language embeddings capture scales",
+            "don t read too much into it adaptive computation for open domain question answering",
+            "on the interplay between fine tuning and sentence level probing for linguistic knowledge in pre trained transformers"
+          ]
+        }
+      ]
     },
     {
       "venue_key": "emnlp",
@@ -1146,6 +1236,36 @@
       "status": "ok",
       "source": "papercept",
       "count": 2672,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "kdd",
+      "year": 2020,
+      "path": "data/normalized/kdd/kdd2020.json",
+      "status": "ok",
+      "source": "acm",
+      "count": 421,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "kdd",
+      "year": 2021,
+      "path": "data/normalized/kdd/kdd2021.json",
+      "status": "ok",
+      "source": "acm",
+      "count": 482,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "kdd",
+      "year": 2022,
+      "path": "data/normalized/kdd/kdd2022.json",
+      "status": "ok",
+      "source": "acm",
+      "count": 534,
       "critical": [],
       "warnings": []
     },
@@ -1746,6 +1866,46 @@
       "status": "ok",
       "source": "cvf",
       "count": 831,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "www",
+      "year": 2020,
+      "path": "data/normalized/www/www2020.json",
+      "status": "ok",
+      "source": "acm",
+      "count": 505,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "www",
+      "year": 2021,
+      "path": "data/normalized/www/www2021.json",
+      "status": "ok",
+      "source": "acm",
+      "count": 487,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "www",
+      "year": 2022,
+      "path": "data/normalized/www/www2022.json",
+      "status": "ok",
+      "source": "acm",
+      "count": 592,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "www",
+      "year": 2023,
+      "path": "data/normalized/www/www2023.json",
+      "status": "ok",
+      "source": "acm",
+      "count": 699,
       "critical": [],
       "warnings": []
     },

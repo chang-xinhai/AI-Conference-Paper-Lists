@@ -16,11 +16,11 @@ CROSSREF_BASE = "https://api.crossref.org/works"
 
 def supports(venue_key: str, year: int) -> bool:
     if venue_key == "acmmm":
-        return year >= 2024
+        return year >= 2020
     if venue_key == "kdd":
-        return 2023 <= year <= 2025
+        return 2020 <= year <= 2025
     if venue_key == "www":
-        return year >= 2024
+        return year >= 2020
     return False
 
 
@@ -45,10 +45,15 @@ def _query_config(venue_key: str, year: int) -> dict[str, str]:
             "event_acronym": f"KDD '{yy}",
         }
     if venue_key == "www":
+        event_name = f"WWW '{yy}: The ACM Web Conference {year}"
+        query_value = f"The ACM Web Conference {year}"
+        if year <= 2021:
+            event_name = f"WWW '{yy}: The Web Conference {year}"
+            query_value = f"The Web Conference {year}"
         return {
             "query_field": "query.event-name",
-            "query_value": f"The ACM Web Conference {year}",
-            "event_name": f"WWW '{yy}: The ACM Web Conference {year}",
+            "query_value": query_value,
+            "event_name": event_name,
         }
     raise ValueError(f"ACM route unsupported for {venue_key}{year}")
 
