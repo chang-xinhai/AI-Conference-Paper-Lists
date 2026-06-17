@@ -50,6 +50,9 @@ jobs:
       - name: Audit calendar coverage
         run: python scripts/audit_calendar_coverage.py
 
+      - name: Build status summary
+        run: python scripts/build_status_summary.py
+
       - name: Validate Python sources
         run: python -m compileall -q src scripts
 
@@ -59,6 +62,6 @@ jobs:
           commit-message: "data: refresh conference paper lists"
           title: "data: refresh conference paper lists"
           body: |
-            Automated refresh of official-source harvests, Paper Copilot validation reports, latest-source probes, source gap metadata, and coverage audits.
+            Automated refresh of official-source harvests, Paper Copilot validation reports, latest-source probes, source gap metadata, coverage audits, and status summaries.
           branch: automation/update-paper-lists
           delete-branch: true

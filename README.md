@@ -134,6 +134,12 @@ Summarize unavailable, partial, incomplete, and fallback source gaps:
 python scripts/build_source_gap_report.py
 ```
 
+Build a concise per-conference status summary:
+
+```bash
+python scripts/build_status_summary.py
+```
+
 ## Downstream Use
 
 This repository is designed to support curated views such as [Awesome-Training-Free-Papers](https://github.com/chang-xinhai/Awesome-Training-Free-Papers).

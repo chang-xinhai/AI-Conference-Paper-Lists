@@ -1,0 +1,703 @@
+{
+  "schema_version": "0.1",
+  "generated_at": "2026-06-17T10:09:52Z",
+  "coverage_report": "data/reports/coverage.json",
+  "source_gap_report": "data/reports/source_gaps.json",
+  "calendar_coverage_report": "data/reports/calendar_coverage.json",
+  "summary": {
+    "conference_count": 31,
+    "target_count": 178,
+    "harvested_latest_count": 31,
+    "latest_source_issue_count": 1,
+    "venues_with_current_year_gaps": 18
+  },
+  "conferences": [
+    {
+      "venue_key": "3dv",
+      "target_years": [
+        2020,
+        2021,
+        2022,
+        2024,
+        2025,
+        2026
+      ],
+      "latest_target_year": 2026,
+      "latest_source": "openreview",
+      "latest_count": 177,
+      "latest_validation_status": "no_baseline",
+      "latest_has_source_issue": false,
+      "current_year_gaps": []
+    },
+    {
+      "venue_key": "aaai",
+      "target_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "latest_target_year": 2026,
+      "latest_source": "aaai_ojs",
+      "latest_count": 4920,
+      "latest_validation_status": "no_baseline",
+      "latest_has_source_issue": false,
+      "current_year_gaps": []
+    },
+    {
+      "venue_key": "acl",
+      "target_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "latest_target_year": 2025,
+      "latest_source": "acl_anthology",
+      "latest_count": 4510,
+      "latest_validation_status": "ok",
+      "latest_has_source_issue": false,
+      "current_year_gaps": [
+        {
+          "id": "acl2026-acl-anthology",
+          "year": 2026,
+          "status": "not_available",
+          "evidence": "HTTPError: HTTP Error 404: Not Found"
+        },
+        {
+          "id": "acl2026-official-accepted-page",
+          "year": 2026,
+          "status": "not_available",
+          "evidence": "Matched unavailable_regex: coming soon"
+        },
+        {
+          "id": "acl2026-openreview-industry-partial",
+          "year": 2026,
+          "status": "partial",
+          "evidence": "OpenReview returned notes for a partial track only."
+        }
+      ]
+    },
+    {
+      "venue_key": "acml",
+      "target_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "latest_target_year": 2025,
+      "latest_source": "pmlr",
+      "latest_count": 79,
+      "latest_validation_status": "no_baseline",
+      "latest_has_source_issue": false,
+      "current_year_gaps": [
+        {
+          "id": "acml2026-openreview",
+          "year": 2026,
+          "status": "not_available",
+          "evidence": "OpenReview returned zero notes."
+        },
+        {
+          "id": "acml2026-pmlr",
+          "year": 2026,
+          "status": "not_available",
+          "evidence": "No configured PMLR terms found on homepage."
+        }
+      ]
+    },
+    {
+      "venue_key": "acmmm",
+      "target_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "latest_target_year": 2025,
+      "latest_source": "acm",
+      "latest_count": 1660,
+      "latest_validation_status": "no_baseline",
+      "latest_has_source_issue": false,
+      "current_year_gaps": [
+        {
+          "id": "acmmm2026-accepted",
+          "year": 2026,
+          "status": "not_available",
+          "evidence": "HTTPError: HTTP Error 404: Not Found"
+        },
+        {
+          "id": "acmmm2026-crossref-acm",
+          "year": 2026,
+          "status": "not_available",
+          "evidence": "Crossref exact event records: 0; expected at least 500."
+        }
+      ]
+    },
+    {
+      "venue_key": "ai4x",
+      "target_years": [
+        2025,
+        2026
+      ],
+      "latest_target_year": 2026,
+      "latest_source": "openreview",
+      "latest_count": 348,
+      "latest_validation_status": "no_baseline",
+      "latest_has_source_issue": false,
+      "current_year_gaps": []
+    },
+    {
+      "venue_key": "aistats",
+      "target_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "latest_target_year": 2026,
+      "latest_source": "openreview",
+      "latest_count": 587,
+      "latest_validation_status": "no_baseline",
+      "latest_has_source_issue": false,
+      "current_year_gaps": [
+        {
+          "id": "aistats2026-pmlr",
+          "year": 2026,
+          "status": "not_available",
+          "evidence": "No configured PMLR terms found on homepage."
+        }
+      ]
+    },
+    {
+      "venue_key": "alt",
+      "target_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "latest_target_year": 2026,
+      "latest_source": "pmlr",
+      "latest_count": 69,
+      "latest_validation_status": "no_baseline",
+      "latest_has_source_issue": false,
+      "current_year_gaps": []
+    },
+    {
+      "venue_key": "automl",
+      "target_years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "latest_target_year": 2025,
+      "latest_source": "pmlr",
+      "latest_count": 25,
+      "latest_validation_status": "no_baseline",
+      "latest_has_source_issue": false,
+      "current_year_gaps": [
+        {
+          "id": "automl2026-openreview",
+          "year": 2026,
+          "status": "not_available",
+          "evidence": "OpenReview returned zero notes."
+        },
+        {
+          "id": "automl2026-pmlr",
+          "year": 2026,
+          "status": "not_available",
+          "evidence": "No configured PMLR terms found on homepage."
+        }
+      ]
+    },
+    {
+      "venue_key": "coling",
+      "target_years": [
+        2020,
+        2022,
+        2024,
+        2025
+      ],
+      "latest_target_year": 2025,
+      "latest_source": "acl_anthology",
+      "latest_count": 1225,
+      "latest_validation_status": "ok",
+      "latest_has_source_issue": false,
+      "current_year_gaps": [
+        {
+          "id": "coling2026-acl-anthology",
+          "year": 2026,
+          "status": "not_available",
+          "evidence": "HTTPError: HTTP Error 404: Not Found"
+        }
+      ]
+    },
+    {
+      "venue_key": "colm",
+      "target_years": [
+        2024,
+        2025
+      ],
+      "latest_target_year": 2025,
+      "latest_source": "openreview",
+      "latest_count": 418,
+      "latest_validation_status": "ok",
+      "latest_has_source_issue": false,
+      "current_year_gaps": [
+        {
+          "id": "colm2026-openreview",
+          "year": 2026,
+          "status": "not_available",
+          "evidence": "OpenReview returned zero notes."
+        }
+      ]
+    },
+    {
+      "venue_key": "colt",
+      "target_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "latest_target_year": 2025,
+      "latest_source": "pmlr",
+      "latest_count": 182,
+      "latest_validation_status": "no_baseline",
+      "latest_has_source_issue": false,
+      "current_year_gaps": [
+        {
+          "id": "colt2026-pmlr",
+          "year": 2026,
+          "status": "not_available",
+          "evidence": "No configured PMLR terms found on homepage."
+        }
+      ]
+    },
+    {
+      "venue_key": "corl",
+      "target_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "latest_target_year": 2025,
+      "latest_source": "pmlr",
+      "latest_count": 263,
+      "latest_validation_status": "ok",
+      "latest_has_source_issue": false,
+      "current_year_gaps": [
+        {
+          "id": "corl2026-openreview",
+          "year": 2026,
+          "status": "not_available",
+          "evidence": "OpenReview returned zero notes."
+        },
+        {
+          "id": "corl2026-pmlr",
+          "year": 2026,
+          "status": "not_available",
+          "evidence": "No configured PMLR terms found on homepage."
+        }
+      ]
+    },
+    {
+      "venue_key": "cvpr",
+      "target_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "latest_target_year": 2026,
+      "latest_source": "cvf",
+      "latest_count": 4068,
+      "latest_validation_status": "no_baseline",
+      "latest_has_source_issue": false,
+      "current_year_gaps": []
+    },
+    {
+      "venue_key": "eccv",
+      "target_years": [
+        2020,
+        2022,
+        2024
+      ],
+      "latest_target_year": 2024,
+      "latest_source": "ecva",
+      "latest_count": 2387,
+      "latest_validation_status": "ok",
+      "latest_has_source_issue": false,
+      "current_year_gaps": [
+        {
+          "id": "eccv2026-openreview",
+          "year": 2026,
+          "status": "not_available",
+          "evidence": "OpenReview returned zero notes."
+        }
+      ]
+    },
+    {
+      "venue_key": "emnlp",
+      "target_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "latest_target_year": 2025,
+      "latest_source": "acl_anthology",
+      "latest_count": 4182,
+      "latest_validation_status": "no_baseline",
+      "latest_has_source_issue": false,
+      "current_year_gaps": [
+        {
+          "id": "emnlp2026-acl-anthology",
+          "year": 2026,
+          "status": "not_available",
+          "evidence": "HTTPError: HTTP Error 404: Not Found"
+        }
+      ]
+    },
+    {
+      "venue_key": "iccv",
+      "target_years": [
+        2021,
+        2023,
+        2025
+      ],
+      "latest_target_year": 2025,
+      "latest_source": "cvf",
+      "latest_count": 2701,
+      "latest_validation_status": "ok",
+      "latest_has_source_issue": false,
+      "current_year_gaps": []
+    },
+    {
+      "venue_key": "iclr",
+      "target_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "latest_target_year": 2026,
+      "latest_source": "openreview",
+      "latest_count": 5351,
+      "latest_validation_status": "title_drift",
+      "latest_has_source_issue": false,
+      "current_year_gaps": []
+    },
+    {
+      "venue_key": "icml",
+      "target_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "latest_target_year": 2026,
+      "latest_source": "icml",
+      "latest_count": 6631,
+      "latest_validation_status": "no_baseline",
+      "latest_has_source_issue": false,
+      "current_year_gaps": []
+    },
+    {
+      "venue_key": "icra",
+      "target_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "latest_target_year": 2026,
+      "latest_source": "papercept",
+      "latest_count": 2951,
+      "latest_validation_status": "no_baseline",
+      "latest_has_source_issue": false,
+      "current_year_gaps": []
+    },
+    {
+      "venue_key": "ijcai",
+      "target_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "latest_target_year": 2026,
+      "latest_source": "ijcai",
+      "latest_count": 953,
+      "latest_validation_status": "no_baseline",
+      "latest_has_source_issue": false,
+      "current_year_gaps": []
+    },
+    {
+      "venue_key": "iros",
+      "target_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "latest_target_year": 2025,
+      "latest_source": "papercept",
+      "latest_count": 2672,
+      "latest_validation_status": "no_baseline",
+      "latest_has_source_issue": false,
+      "current_year_gaps": [
+        {
+          "id": "iros2026-papercept",
+          "year": 2026,
+          "status": "not_available",
+          "evidence": "HTTPError: HTTP Error 404: Not Found"
+        }
+      ]
+    },
+    {
+      "venue_key": "kdd",
+      "target_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "latest_target_year": 2026,
+      "latest_source": "dblp",
+      "latest_count": 256,
+      "latest_validation_status": "no_baseline",
+      "latest_has_source_issue": true,
+      "current_year_gaps": [
+        {
+          "id": "kdd2026-crossref-acm",
+          "year": 2026,
+          "status": "incomplete",
+          "evidence": "Crossref exact event records: 2; expected at least 200."
+        }
+      ]
+    },
+    {
+      "venue_key": "naacl",
+      "target_years": [
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "latest_target_year": 2025,
+      "latest_source": "acl_anthology",
+      "latest_count": 1929,
+      "latest_validation_status": "ok",
+      "latest_has_source_issue": false,
+      "current_year_gaps": [
+        {
+          "id": "naacl2026-acl-anthology",
+          "year": 2026,
+          "status": "not_available",
+          "evidence": "HTTPError: HTTP Error 404: Not Found"
+        }
+      ]
+    },
+    {
+      "venue_key": "nips",
+      "target_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "latest_target_year": 2025,
+      "latest_source": "neurips",
+      "latest_count": 5913,
+      "latest_validation_status": "ok",
+      "latest_has_source_issue": false,
+      "current_year_gaps": [
+        {
+          "id": "neurips2026-openreview",
+          "year": 2026,
+          "status": "not_available",
+          "evidence": "OpenReview returned zero notes."
+        }
+      ]
+    },
+    {
+      "venue_key": "rss",
+      "target_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "latest_target_year": 2026,
+      "latest_source": "rss",
+      "latest_count": 210,
+      "latest_validation_status": "no_baseline",
+      "latest_has_source_issue": false,
+      "current_year_gaps": []
+    },
+    {
+      "venue_key": "siggraph",
+      "target_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "latest_target_year": 2025,
+      "latest_source": "siggraph",
+      "latest_count": 847,
+      "latest_validation_status": "ok",
+      "latest_has_source_issue": false,
+      "current_year_gaps": [
+        {
+          "id": "siggraph2026-technical-papers",
+          "year": 2026,
+          "status": "not_available",
+          "evidence": "Matched unavailable_regex: publication date of accepted papers is 3 July 2026|publication date for both"
+        }
+      ]
+    },
+    {
+      "venue_key": "siggraphasia",
+      "target_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "latest_target_year": 2025,
+      "latest_source": "siggraph_asia",
+      "latest_count": 636,
+      "latest_validation_status": "no_baseline",
+      "latest_has_source_issue": false,
+      "current_year_gaps": [
+        {
+          "id": "siggraphasia2026-technical-papers",
+          "year": 2026,
+          "status": "not_available",
+          "evidence": "Matched unavailable_regex: publication date of accepted papers.*9 November 2026"
+        }
+      ]
+    },
+    {
+      "venue_key": "uai",
+      "target_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "latest_target_year": 2025,
+      "latest_source": "pmlr",
+      "latest_count": 229,
+      "latest_validation_status": "no_baseline",
+      "latest_has_source_issue": false,
+      "current_year_gaps": [
+        {
+          "id": "uai2026-openreview",
+          "year": 2026,
+          "status": "not_available",
+          "evidence": "OpenReview returned zero notes."
+        },
+        {
+          "id": "uai2026-pmlr",
+          "year": 2026,
+          "status": "not_available",
+          "evidence": "No configured PMLR terms found on homepage."
+        }
+      ]
+    },
+    {
+      "venue_key": "wacv",
+      "target_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "latest_target_year": 2026,
+      "latest_source": "cvf",
+      "latest_count": 831,
+      "latest_validation_status": "no_baseline",
+      "latest_has_source_issue": false,
+      "current_year_gaps": []
+    },
+    {
+      "venue_key": "www",
+      "target_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "latest_target_year": 2026,
+      "latest_source": "acm",
+      "latest_count": 954,
+      "latest_validation_status": "no_baseline",
+      "latest_has_source_issue": false,
+      "current_year_gaps": []
+    }
+  ]
+}
