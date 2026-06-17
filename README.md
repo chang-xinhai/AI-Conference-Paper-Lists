@@ -104,6 +104,12 @@ Harvest the configured matrix:
 python scripts/harvest_matrix.py --validate
 ```
 
+Refresh the Paper Copilot-compatible conference index while keeping manually added latest-year targets:
+
+```bash
+python scripts/build_conference_index.py --paperlists ../paperlists --merge-existing-targets
+```
+
 ## Downstream Use
 
 This repository is designed to support curated views such as [Awesome-Training-Free-Papers](https://github.com/chang-xinhai/Awesome-Training-Free-Papers).

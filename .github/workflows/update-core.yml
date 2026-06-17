@@ -1,4 +1,4 @@
-name: Update core conference paper lists
+name: Update conference paper lists
 
 on:
   workflow_dispatch:
@@ -10,8 +10,9 @@ permissions:
   pull-requests: write
 
 jobs:
-  update-core:
+  update:
     runs-on: ubuntu-latest
+    timeout-minutes: 360
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -25,21 +26,27 @@ jobs:
         run: git clone --depth 1 https://github.com/papercopilot/paperlists.git ../paperlists
 
       - name: Refresh conference index
-        run: python scripts/build_conference_index.py --paperlists ../paperlists --output config/conferences.json
-
-      - name: Harvest core official sources
         run: >
-          python scripts/harvest_matrix.py
-          --conferences cvpr,iccv,wacv,rss,iclr,icml,acl,emnlp,naacl,coling,colm,corl
-          --validate
+          python scripts/build_conference_index.py
           --paperlists ../paperlists
+          --output config/conferences.json
+          --merge-existing-targets
+
+      - name: Harvest official sources
+        run: python scripts/harvest_matrix.py --validate --paperlists ../paperlists
+
+      - name: Rebuild full coverage report
+        run: python scripts/rebuild_coverage.py
+
+      - name: Validate Python sources
+        run: python -m compileall -q src scripts
 
       - name: Create update pull request
         uses: peter-evans/create-pull-request@v6
         with:
-          commit-message: "data: refresh core conference paper lists"
-          title: "data: refresh core conference paper lists"
+          commit-message: "data: refresh conference paper lists"
+          title: "data: refresh conference paper lists"
           body: |
-            Automated refresh of official-source harvests and Paper Copilot validation reports.
-          branch: automation/update-core-paper-lists
+            Automated refresh of official-source harvests, Paper Copilot validation reports, and full coverage metadata.
+          branch: automation/update-paper-lists
           delete-branch: true

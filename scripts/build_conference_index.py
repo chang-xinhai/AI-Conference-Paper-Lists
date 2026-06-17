@@ -56,6 +56,23 @@ def build_index(paperlists: Path, year_start: int) -> dict:
     }
 
 
+def merge_existing_target_years(index: dict, existing_path: Path) -> dict:
+    """Preserve manually added target years such as latest official proceedings."""
+    if not existing_path.exists():
+        return index
+
+    existing = json.loads(existing_path.read_text(encoding="utf-8"))
+    existing_targets = {
+        conference["key"]: set(conference.get("target_years", []))
+        for conference in existing.get("conferences", [])
+    }
+    for conference in index["conferences"]:
+        target_years = set(conference.get("target_years", []))
+        target_years.update(existing_targets.get(conference["key"], set()))
+        conference["target_years"] = sorted(target_years)
+    return index
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -65,11 +82,18 @@ def main() -> None:
     )
     parser.add_argument("--year-start", type=int, default=2020)
     parser.add_argument("--output", default="config/conferences.json")
+    parser.add_argument(
+        "--merge-existing-targets",
+        action="store_true",
+        help="Preserve target_years already present in the output file.",
+    )
     args = parser.parse_args()
 
     paperlists = Path(args.paperlists).resolve()
     output = Path(args.output)
     index = build_index(paperlists, args.year_start)
+    if args.merge_existing_targets:
+        index = merge_existing_target_years(index, output)
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(index, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"Wrote {output} with {index['conference_count']} conferences")
