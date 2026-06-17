@@ -1,14 +1,54 @@
 {
   "schema_version": "0.1",
-  "generated_at": "2026-06-17T09:14:11Z",
-  "target_count": 168,
+  "generated_at": "2026-06-17T09:23:54Z",
+  "target_count": 177,
   "status": "warning",
   "summary": {
-    "ok": 143,
+    "ok": 152,
     "warning": 25,
     "critical": 0
   },
   "results": [
+    {
+      "venue_key": "3dv",
+      "year": 2020,
+      "path": "data/normalized/3dv/3dv2020.json",
+      "status": "ok",
+      "source": "ieee",
+      "count": 127,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "3dv",
+      "year": 2021,
+      "path": "data/normalized/3dv/3dv2021.json",
+      "status": "ok",
+      "source": "ieee",
+      "count": 148,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "3dv",
+      "year": 2022,
+      "path": "data/normalized/3dv/3dv2022.json",
+      "status": "ok",
+      "source": "ieee",
+      "count": 78,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "3dv",
+      "year": 2024,
+      "path": "data/normalized/3dv/3dv2024.json",
+      "status": "ok",
+      "source": "ieee",
+      "count": 159,
+      "critical": [],
+      "warnings": []
+    },
     {
       "venue_key": "3dv",
       "year": 2025,
@@ -385,6 +425,56 @@
       "status": "ok",
       "source": "openreview",
       "count": 587,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "alt",
+      "year": 2020,
+      "path": "data/normalized/alt/alt2020.json",
+      "status": "ok",
+      "source": "pmlr",
+      "count": 39,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "alt",
+      "year": 2021,
+      "path": "data/normalized/alt/alt2021.json",
+      "status": "ok",
+      "source": "pmlr",
+      "count": 47,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "alt",
+      "year": 2022,
+      "path": "data/normalized/alt/alt2022.json",
+      "status": "ok",
+      "source": "pmlr",
+      "count": 43,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "alt",
+      "year": 2023,
+      "path": "data/normalized/alt/alt2023.json",
+      "status": "ok",
+      "source": "pmlr",
+      "count": 49,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "alt",
+      "year": 2024,
+      "path": "data/normalized/alt/alt2024.json",
+      "status": "ok",
+      "source": "pmlr",
+      "count": 45,
       "critical": [],
       "warnings": []
     },

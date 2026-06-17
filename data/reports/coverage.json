@@ -1,10 +1,90 @@
 {
   "schema_version": "0.1",
-  "generated_at": "2026-06-17T09:14:09Z",
+  "generated_at": "2026-06-17T09:23:52Z",
   "validate_against_papercopilot": true,
   "source": "existing_normalized_data",
   "allow_papercopilot_fallback": false,
   "results": [
+    {
+      "venue_key": "3dv",
+      "year": 2020,
+      "candidate_sources": [
+        "ieee",
+        "dblp"
+      ],
+      "status": "harvested",
+      "source": "ieee",
+      "count": 127,
+      "message": "",
+      "validation_status": "no_baseline",
+      "validation_counts": {
+        "ours": 127,
+        "baseline": 0,
+        "title_overlap": 0,
+        "count_ratio": 1.0,
+        "overlap_ratio": 1.0
+      }
+    },
+    {
+      "venue_key": "3dv",
+      "year": 2021,
+      "candidate_sources": [
+        "ieee",
+        "dblp"
+      ],
+      "status": "harvested",
+      "source": "ieee",
+      "count": 148,
+      "message": "",
+      "validation_status": "no_baseline",
+      "validation_counts": {
+        "ours": 148,
+        "baseline": 0,
+        "title_overlap": 0,
+        "count_ratio": 1.0,
+        "overlap_ratio": 1.0
+      }
+    },
+    {
+      "venue_key": "3dv",
+      "year": 2022,
+      "candidate_sources": [
+        "ieee",
+        "dblp"
+      ],
+      "status": "harvested",
+      "source": "ieee",
+      "count": 78,
+      "message": "",
+      "validation_status": "no_baseline",
+      "validation_counts": {
+        "ours": 78,
+        "baseline": 0,
+        "title_overlap": 0,
+        "count_ratio": 1.0,
+        "overlap_ratio": 1.0
+      }
+    },
+    {
+      "venue_key": "3dv",
+      "year": 2024,
+      "candidate_sources": [
+        "ieee",
+        "dblp"
+      ],
+      "status": "harvested",
+      "source": "ieee",
+      "count": 159,
+      "message": "",
+      "validation_status": "no_baseline",
+      "validation_counts": {
+        "ours": 159,
+        "baseline": 0,
+        "title_overlap": 0,
+        "count_ratio": 1.0,
+        "overlap_ratio": 1.0
+      }
+    },
     {
       "venue_key": "3dv",
       "year": 2025,
@@ -685,6 +765,106 @@
       "validation_status": "no_baseline",
       "validation_counts": {
         "ours": 587,
+        "baseline": 0,
+        "title_overlap": 0,
+        "count_ratio": 1.0,
+        "overlap_ratio": 1.0
+      }
+    },
+    {
+      "venue_key": "alt",
+      "year": 2020,
+      "candidate_sources": [
+        "pmlr",
+        "openreview"
+      ],
+      "status": "harvested",
+      "source": "pmlr",
+      "count": 39,
+      "message": "",
+      "validation_status": "no_baseline",
+      "validation_counts": {
+        "ours": 39,
+        "baseline": 0,
+        "title_overlap": 0,
+        "count_ratio": 1.0,
+        "overlap_ratio": 1.0
+      }
+    },
+    {
+      "venue_key": "alt",
+      "year": 2021,
+      "candidate_sources": [
+        "pmlr",
+        "openreview"
+      ],
+      "status": "harvested",
+      "source": "pmlr",
+      "count": 47,
+      "message": "",
+      "validation_status": "no_baseline",
+      "validation_counts": {
+        "ours": 47,
+        "baseline": 0,
+        "title_overlap": 0,
+        "count_ratio": 1.0,
+        "overlap_ratio": 1.0
+      }
+    },
+    {
+      "venue_key": "alt",
+      "year": 2022,
+      "candidate_sources": [
+        "pmlr",
+        "openreview"
+      ],
+      "status": "harvested",
+      "source": "pmlr",
+      "count": 43,
+      "message": "",
+      "validation_status": "no_baseline",
+      "validation_counts": {
+        "ours": 43,
+        "baseline": 0,
+        "title_overlap": 0,
+        "count_ratio": 1.0,
+        "overlap_ratio": 1.0
+      }
+    },
+    {
+      "venue_key": "alt",
+      "year": 2023,
+      "candidate_sources": [
+        "pmlr",
+        "openreview"
+      ],
+      "status": "harvested",
+      "source": "pmlr",
+      "count": 49,
+      "message": "",
+      "validation_status": "no_baseline",
+      "validation_counts": {
+        "ours": 49,
+        "baseline": 0,
+        "title_overlap": 0,
+        "count_ratio": 1.0,
+        "overlap_ratio": 1.0
+      }
+    },
+    {
+      "venue_key": "alt",
+      "year": 2024,
+      "candidate_sources": [
+        "pmlr",
+        "openreview"
+      ],
+      "status": "harvested",
+      "source": "pmlr",
+      "count": 45,
+      "message": "",
+      "validation_status": "no_baseline",
+      "validation_counts": {
+        "ours": 45,
         "baseline": 0,
         "title_overlap": 0,
         "count_ratio": 1.0,

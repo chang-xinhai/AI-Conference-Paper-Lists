@@ -57,6 +57,8 @@ FRONT_MATTER = {
 
 
 def supports(venue_key: str, year: int) -> bool:
+    if venue_key == "3dv":
+        return year in {2020, 2021, 2022, 2024}
     return venue_key in {"icra", "iros"} and 2020 <= year <= 2025
 
 
@@ -71,12 +73,16 @@ def _event_name(venue_key: str, year: int) -> str:
         return f"{year} IEEE International Conference on Robotics and Automation (ICRA)"
     if venue_key == "iros":
         return f"{year} IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
+    if venue_key == "3dv":
+        return f"{year} International Conference on 3D Vision (3DV)"
     raise ValueError(f"IEEE route unsupported for {venue_key}{year}")
 
 
 def _query_text(venue_key: str, year: int) -> str:
     if venue_key == "icra":
         return f"ICRA {year} IEEE International Conference on Robotics and Automation"
+    if venue_key == "3dv":
+        return f"3DV {year} International Conference on 3D Vision"
     return f"IROS {year} Intelligent Robots and Systems"
 
 

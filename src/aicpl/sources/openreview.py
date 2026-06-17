@@ -28,6 +28,7 @@ VENUE_IDS = {
 }
 
 SUPPORTED_YEARS = {
+    "3dv": {2025, 2026},
     "www": {2024, 2025},
 }
 
