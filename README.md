@@ -122,6 +122,12 @@ Probe latest-year official sources that are not yet in the matrix:
 python scripts/probe_latest_sources.py
 ```
 
+Summarize unavailable, partial, incomplete, and fallback source gaps:
+
+```bash
+python scripts/build_source_gap_report.py
+```
+
 ## Downstream Use
 
 This repository is designed to support curated views such as [Awesome-Training-Free-Papers](https://github.com/chang-xinhai/Awesome-Training-Free-Papers).

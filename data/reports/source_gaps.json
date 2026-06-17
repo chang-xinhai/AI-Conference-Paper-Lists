@@ -1,0 +1,233 @@
+{
+  "schema_version": "0.1",
+  "generated_at": "2026-06-17T09:50:44Z",
+  "latest_source_probe": "data/reports/latest_source_probes.json",
+  "source_issues": "config/source_issues.json",
+  "summary": {
+    "gap_count": 25,
+    "fallback_issue_count": 1,
+    "by_status": {
+      "incomplete": 1,
+      "not_available": 23,
+      "partial": 1
+    }
+  },
+  "gaps": [
+    {
+      "id": "acl2026-official-accepted-page",
+      "venue_key": "acl",
+      "year": 2026,
+      "status": "not_available",
+      "evidence": "Matched unavailable_regex: coming soon",
+      "next_action": "Monitor the official source; do not add an empty or partial year to the matrix."
+    },
+    {
+      "id": "acl2026-acl-anthology",
+      "venue_key": "acl",
+      "year": 2026,
+      "status": "not_available",
+      "evidence": "HTTPError: HTTP Error 404: Not Found",
+      "next_action": "Monitor the official source; do not add an empty or partial year to the matrix."
+    },
+    {
+      "id": "acl2026-openreview-industry-partial",
+      "venue_key": "acl",
+      "year": 2026,
+      "status": "partial",
+      "evidence": "OpenReview returned notes for a partial track only.",
+      "next_action": "Wait for the complete official paper list before adding the year to the target matrix."
+    },
+    {
+      "id": "naacl2026-acl-anthology",
+      "venue_key": "naacl",
+      "year": 2026,
+      "status": "not_available",
+      "evidence": "HTTPError: HTTP Error 404: Not Found",
+      "next_action": "Monitor the official source; do not add an empty or partial year to the matrix."
+    },
+    {
+      "id": "emnlp2026-acl-anthology",
+      "venue_key": "emnlp",
+      "year": 2026,
+      "status": "not_available",
+      "evidence": "HTTPError: HTTP Error 404: Not Found",
+      "next_action": "Monitor the official source; do not add an empty or partial year to the matrix."
+    },
+    {
+      "id": "coling2026-acl-anthology",
+      "venue_key": "coling",
+      "year": 2026,
+      "status": "not_available",
+      "evidence": "HTTPError: HTTP Error 404: Not Found",
+      "next_action": "Monitor the official source; do not add an empty or partial year to the matrix."
+    },
+    {
+      "id": "eccv2026-openreview",
+      "venue_key": "eccv",
+      "year": 2026,
+      "status": "not_available",
+      "evidence": "OpenReview returned zero notes.",
+      "next_action": "Monitor the official source; do not add an empty or partial year to the matrix."
+    },
+    {
+      "id": "neurips2026-openreview",
+      "venue_key": "nips",
+      "year": 2026,
+      "status": "not_available",
+      "evidence": "OpenReview returned zero notes.",
+      "next_action": "Monitor the official source; do not add an empty or partial year to the matrix."
+    },
+    {
+      "id": "uai2026-openreview",
+      "venue_key": "uai",
+      "year": 2026,
+      "status": "not_available",
+      "evidence": "OpenReview returned zero notes.",
+      "next_action": "Monitor the official source; do not add an empty or partial year to the matrix."
+    },
+    {
+      "id": "corl2026-openreview",
+      "venue_key": "corl",
+      "year": 2026,
+      "status": "not_available",
+      "evidence": "OpenReview returned zero notes.",
+      "next_action": "Monitor the official source; do not add an empty or partial year to the matrix."
+    },
+    {
+      "id": "colm2026-openreview",
+      "venue_key": "colm",
+      "year": 2026,
+      "status": "not_available",
+      "evidence": "OpenReview returned zero notes.",
+      "next_action": "Monitor the official source; do not add an empty or partial year to the matrix."
+    },
+    {
+      "id": "automl2026-openreview",
+      "venue_key": "automl",
+      "year": 2026,
+      "status": "not_available",
+      "evidence": "OpenReview returned zero notes.",
+      "next_action": "Monitor the official source; do not add an empty or partial year to the matrix."
+    },
+    {
+      "id": "acml2026-openreview",
+      "venue_key": "acml",
+      "year": 2026,
+      "status": "not_available",
+      "evidence": "OpenReview returned zero notes.",
+      "next_action": "Monitor the official source; do not add an empty or partial year to the matrix."
+    },
+    {
+      "id": "iros2026-papercept",
+      "venue_key": "iros",
+      "year": 2026,
+      "status": "not_available",
+      "evidence": "HTTPError: HTTP Error 404: Not Found",
+      "next_action": "Monitor the official source; do not add an empty or partial year to the matrix."
+    },
+    {
+      "id": "acmmm2026-accepted",
+      "venue_key": "acmmm",
+      "year": 2026,
+      "status": "not_available",
+      "evidence": "HTTPError: HTTP Error 404: Not Found",
+      "next_action": "Monitor the official source; do not add an empty or partial year to the matrix."
+    },
+    {
+      "id": "acmmm2026-crossref-acm",
+      "venue_key": "acmmm",
+      "year": 2026,
+      "status": "not_available",
+      "evidence": "Crossref exact event records: 0; expected at least 500.",
+      "next_action": "Monitor the official source; do not add an empty or partial year to the matrix."
+    },
+    {
+      "id": "siggraph2026-technical-papers",
+      "venue_key": "siggraph",
+      "year": 2026,
+      "status": "not_available",
+      "evidence": "Matched unavailable_regex: publication date of accepted papers is 3 July 2026|publication date for both",
+      "next_action": "Monitor the official source; do not add an empty or partial year to the matrix."
+    },
+    {
+      "id": "siggraphasia2026-technical-papers",
+      "venue_key": "siggraphasia",
+      "year": 2026,
+      "status": "not_available",
+      "evidence": "Matched unavailable_regex: publication date of accepted papers.*9 November 2026",
+      "next_action": "Monitor the official source; do not add an empty or partial year to the matrix."
+    },
+    {
+      "id": "kdd2026-crossref-acm",
+      "venue_key": "kdd",
+      "year": 2026,
+      "status": "incomplete",
+      "evidence": "Crossref exact event records: 2; expected at least 200.",
+      "next_action": "Keep the documented fallback and monitor the preferred official source for complete metadata."
+    },
+    {
+      "id": "aistats2026-pmlr",
+      "venue_key": "aistats",
+      "year": 2026,
+      "status": "not_available",
+      "evidence": "No configured PMLR terms found on homepage.",
+      "next_action": "Monitor the official source; do not add an empty or partial year to the matrix."
+    },
+    {
+      "id": "acml2026-pmlr",
+      "venue_key": "acml",
+      "year": 2026,
+      "status": "not_available",
+      "evidence": "No configured PMLR terms found on homepage.",
+      "next_action": "Monitor the official source; do not add an empty or partial year to the matrix."
+    },
+    {
+      "id": "colt2026-pmlr",
+      "venue_key": "colt",
+      "year": 2026,
+      "status": "not_available",
+      "evidence": "No configured PMLR terms found on homepage.",
+      "next_action": "Monitor the official source; do not add an empty or partial year to the matrix."
+    },
+    {
+      "id": "corl2026-pmlr",
+      "venue_key": "corl",
+      "year": 2026,
+      "status": "not_available",
+      "evidence": "No configured PMLR terms found on homepage.",
+      "next_action": "Monitor the official source; do not add an empty or partial year to the matrix."
+    },
+    {
+      "id": "uai2026-pmlr",
+      "venue_key": "uai",
+      "year": 2026,
+      "status": "not_available",
+      "evidence": "No configured PMLR terms found on homepage.",
+      "next_action": "Monitor the official source; do not add an empty or partial year to the matrix."
+    },
+    {
+      "id": "automl2026-pmlr",
+      "venue_key": "automl",
+      "year": 2026,
+      "status": "not_available",
+      "evidence": "No configured PMLR terms found on homepage.",
+      "next_action": "Monitor the official source; do not add an empty or partial year to the matrix."
+    }
+  ],
+  "fallback_issues": [
+    {
+      "target_id": "kdd2026",
+      "id": "acm-kdd-2026-crossref-incomplete",
+      "severity": "fallback",
+      "preferred_source": "acm",
+      "fallback_source": "dblp",
+      "checked_at": "2026-06-17",
+      "reason": "ACM DL direct proceedings pages reject automated fetches with HTTP 403, and ACM Crossref event metadata for KDD 2026 currently returns only two exact event proceedings-article records. DBLP exposes 256 DOI-bearing KDD 2026 records, so DBLP is retained as the best complete machine-readable fallback until ACM metadata is complete.",
+      "evidence": [
+        "ACM DL DOI proceedings pages returned HTTP 403 during automated checks.",
+        "Crossref exact event query for \"KDD '26: The 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining\" returned only two relevant proceedings-article records.",
+        "DBLP TOC https://dblp.org/db/conf/kdd/kdd2026-1.xml contains 256 KDD 2026 paper records with ACM DOI links."
+      ]
+    }
+  ]
+}
