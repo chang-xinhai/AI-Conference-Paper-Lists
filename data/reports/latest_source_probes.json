@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1",
-  "generated_at": "2026-06-17T10:26:57Z",
+  "generated_at": "2026-06-17T10:32:23Z",
   "summary": {
     "available": 0,
     "incomplete": 1,
@@ -216,19 +216,19 @@
       "year": 2026,
       "kind": "openreview",
       "venue_ids": [
-        "ACML.cc/2026/Conference",
-        "AsianML.org/ACML/2026/Conference"
+        "ACML.org/2026/Conference",
+        "ACML.org/2026/Journal_Track"
       ],
       "status": "not_available",
       "note_count_sample": 0,
       "venue_counts": {
-        "ACML.cc/2026/Conference": {
+        "ACML.org/2026/Conference": {
           "count": 0,
-          "url": "https://api2.openreview.net/notes?content.venueid=ACML.cc%2F2026%2FConference&limit=1"
+          "url": "https://api2.openreview.net/notes?content.venueid=ACML.org%2F2026%2FConference&limit=1"
         },
-        "AsianML.org/ACML/2026/Conference": {
+        "ACML.org/2026/Journal_Track": {
           "count": 0,
-          "url": "https://api2.openreview.net/notes?content.venueid=AsianML.org%2FACML%2F2026%2FConference&limit=1"
+          "url": "https://api2.openreview.net/notes?content.venueid=ACML.org%2F2026%2FJournal_Track&limit=1"
         }
       },
       "evidence": "OpenReview returned zero notes."

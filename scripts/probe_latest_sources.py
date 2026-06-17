@@ -159,7 +159,7 @@ PROBES: list[dict[str, Any]] = [
     {"id": "corl2026-openreview", "venue_key": "corl", "year": 2026, "kind": "openreview", "venue_ids": ["robot-learning.org/CoRL/2026/Conference"]},
     {"id": "colm2026-openreview", "venue_key": "colm", "year": 2026, "kind": "openreview", "venue_ids": ["colmweb.org/COLM/2026/Conference"]},
     {"id": "automl2026-openreview", "venue_key": "automl", "year": 2026, "kind": "openreview", "venue_ids": ["automl.cc/AutoML/2026/Conference"]},
-    {"id": "acml2026-openreview", "venue_key": "acml", "year": 2026, "kind": "openreview", "venue_ids": ["ACML.cc/2026/Conference", "AsianML.org/ACML/2026/Conference"]},
+    {"id": "acml2026-openreview", "venue_key": "acml", "year": 2026, "kind": "openreview", "venue_ids": ["ACML.org/2026/Conference", "ACML.org/2026/Journal_Track"]},
     {"id": "iros2026-papercept", "venue_key": "iros", "year": 2026, "kind": "http", "url": "https://ras.papercept.net/conferences/conferences/IROS26/program/IROS26_ContentListWeb_1.html", "available_regex": "class=\"pTtl\""},
     {"id": "acmmm2026-accepted", "venue_key": "acmmm", "year": 2026, "kind": "http", "url": "https://2026.acmmm.org/accepted-papers/", "available_regex": "accepted|paper"},
     {"id": "acmmm2026-crossref-acm", "venue_key": "acmmm", "year": 2026, "kind": "crossref_event", "query_value": "The 34th ACM International Conference on Multimedia", "event_name": "MM '26: The 34th ACM International Conference on Multimedia", "min_expected_count": 500},
