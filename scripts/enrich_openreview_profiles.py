@@ -325,18 +325,18 @@ def enrich_one(
             note_authorids_by_title[title] = authorids
 
     records = normalized.get("records", [])
-    paper_authorids: dict[str, list[str]] = {}
+    all_paper_authorids: dict[str, list[str]] = {}
     unique_authorids: set[str] = set()
     for record in records:
-        if record.get("affiliations"):
-            continue
         authorids = note_authorids_by_key.get(_paper_key(record))
         if not authorids:
             title_key = normalize_title(str(record.get("title") or ""))
             authorids = note_authorids_by_title.get(title_key, [])
         if authorids:
-            paper_authorids[str(record.get("id") or "")] = authorids
-            unique_authorids.update(authorids)
+            record_id = str(record.get("id") or "")
+            all_paper_authorids[record_id] = authorids
+            if not record.get("affiliations"):
+                unique_authorids.update(authorids)
 
     cache = _load_cache(cache_path)
     fetched_profiles = 0
@@ -356,7 +356,7 @@ def enrich_one(
     updated_records = 0
     enriched_snapshot_records = []
     for record in records:
-        authorids = paper_authorids.get(str(record.get("id") or ""), [])
+        authorids = all_paper_authorids.get(str(record.get("id") or ""), [])
         affiliations = _affiliations_for(authorids, cache, year=year)
         if affiliations:
             enriched_snapshot_records.append(
@@ -378,37 +378,40 @@ def enrich_one(
     if dry_run:
         return updated_records, fetched_profiles, len(enriched_snapshot_records)
 
-    if updated_records == 0:
-        if fetched_profiles > 0:
-            _write_cache(cache_path, cache)
-        return updated_records, fetched_profiles, len(enriched_snapshot_records)
-
     fetched_at = now_utc()
-    normalized["source_url"] = normalized.get("source_url") or "; ".join(note_source_urls)
-    if PROFILE_SOURCE_URL not in normalized["source_url"]:
-        normalized["source_url"] = f"{normalized['source_url']}; {PROFILE_SOURCE_URL}"
-    normalized["fetched_at"] = fetched_at
-    normalized["count"] = len(records)
-    write_json(normalized_path, normalized)
+    if updated_records > 0:
+        normalized["source_url"] = normalized.get("source_url") or "; ".join(note_source_urls)
+        if PROFILE_SOURCE_URL not in normalized["source_url"]:
+            normalized["source_url"] = f"{normalized['source_url']}; {PROFILE_SOURCE_URL}"
+        normalized["fetched_at"] = fetched_at
+        normalized["count"] = len(records)
+        write_json(normalized_path, normalized)
 
-    if raw_path.exists():
-        raw_payload = read_json(raw_path)
-        raw_by_id = {
-            str(record.get("id") or ""): record
-            for record in raw_payload.get("records", [])
-        }
-        for record in records:
-            raw_record = raw_by_id.get(str(record.get("id") or ""))
-            if raw_record is not None and record.get("affiliations"):
-                raw_record["affiliations"] = record["affiliations"]
-                raw_record["first_institute"] = record.get("first_institute", "")
-                _append_profile_source(raw_record)
-        raw_payload["source_url"] = normalized["source_url"]
-        raw_payload["fetched_at"] = fetched_at
-        write_json(raw_path, raw_payload)
+        if raw_path.exists():
+            raw_payload = read_json(raw_path)
+            raw_by_id = {
+                str(record.get("id") or ""): record
+                for record in raw_payload.get("records", [])
+            }
+            for record in records:
+                raw_record = raw_by_id.get(str(record.get("id") or ""))
+                if raw_record is not None and record.get("affiliations"):
+                    raw_record["affiliations"] = record["affiliations"]
+                    raw_record["first_institute"] = record.get("first_institute", "")
+                    _append_profile_source(raw_record)
+            raw_payload["source_url"] = normalized["source_url"]
+            raw_payload["fetched_at"] = fetched_at
+            write_json(raw_path, raw_payload)
 
-    _write_cache(cache_path, cache)
+    if fetched_profiles > 0 or updated_records > 0:
+        _write_cache(cache_path, cache)
+
     snapshot_path = raw_dir / "openreview_profiles" / venue_key / f"{venue_key}{year}.json"
+    snapshot_authorids = {
+        author_id
+        for record in enriched_snapshot_records
+        for author_id in record.get("authorids", [])
+    }
     write_json(
         snapshot_path,
         {
@@ -419,7 +422,7 @@ def enrich_one(
             "source_url": f"{'; '.join(note_source_urls)}; {PROFILE_SOURCE_URL}",
             "fetched_at": fetched_at,
             "count": len(enriched_snapshot_records),
-            "profile_count": len(unique_authorids),
+            "profile_count": len(snapshot_authorids),
             "records": enriched_snapshot_records,
         },
     )
