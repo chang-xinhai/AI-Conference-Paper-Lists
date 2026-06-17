@@ -6,6 +6,7 @@ from typing import Any, Protocol
 
 from .sources import (
     aaai_ojs,
+    acm,
     acl_anthology,
     cvf,
     dblp,
@@ -30,6 +31,7 @@ class Harvester(Protocol):
 HARVESTERS: dict[str, Harvester] = {
     "openreview": openreview,
     "aaai_ojs": aaai_ojs,
+    "acm": acm,
     "cvf": cvf,
     "neurips": neurips,
     "acl_anthology": acl_anthology,
