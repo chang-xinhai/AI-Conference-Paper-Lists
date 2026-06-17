@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import html
+import json
 import re
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from typing import Any
@@ -10,7 +11,7 @@ from urllib.parse import urljoin
 from xml.etree import ElementTree as ET
 
 from ..schema import empty_record, venue_name
-from ..util import fetch_text, now_utc
+from ..util import fetch_text, normalize_title, now_utc
 
 
 DBLP_BASE = "https://dblp.org"
@@ -63,6 +64,8 @@ def _records_from_virtual(year: int, fetched_at: str) -> tuple[str, list[dict[st
             "license": "",
         }
         records.append(record)
+    _enrich_virtual_metadata(records)
+    _merge_papers_index_metadata(records, year, fetched_at)
     return url, records
 
 
@@ -83,6 +86,99 @@ def _extract_abstract(text: str) -> str:
     return abstract
 
 
+def _json_ld_authors(text: str) -> list[str]:
+    pattern = r'<script[^>]+type=["\']application/ld\+json["\'][^>]*>(?P<json>.*?)</script>'
+    for match in re.finditer(pattern, text, re.S | re.I):
+        try:
+            payload = json.loads(html.unescape(match.group("json")).strip())
+        except json.JSONDecodeError:
+            continue
+        authors = payload.get("author", [])
+        if not isinstance(authors, list):
+            continue
+        names = []
+        for author in authors:
+            name = author.get("name", "") if isinstance(author, dict) else author
+            clean_name = _clean_title(str(name))
+            if clean_name:
+                names.append(clean_name)
+        if names:
+            return names
+    return []
+
+
+def _organizer_authors(text: str) -> list[str]:
+    match = re.search(r'<div class="event-organizers">(?P<authors>.*?)</div>', text, re.S | re.I)
+    if not match:
+        return []
+    return [
+        author
+        for part in re.split(r"\s*[⋅·]\s*", match.group("authors"))
+        if (author := _clean_title(part))
+    ]
+
+
+def _first_link_matching(text: str, patterns: list[str]) -> str:
+    for href in re.findall(r'<a\b[^>]+href=["\'](?P<href>[^"\']+)["\']', text, re.I):
+        href = html.unescape(href)
+        lower = href.lower()
+        if all(pattern in lower for pattern in patterns):
+            return href
+    return ""
+
+
+def _project_link(text: str) -> str:
+    match = re.search(
+        r'<a\b(?=[^>]*class=["\'][^"\']*\bproject\b)(?=[^>]*href=["\'](?P<href>[^"\']+)["\'])',
+        text,
+        re.I,
+    )
+    return html.unescape(match.group("href")) if match else ""
+
+
+def _virtual_detail_metadata(record: dict[str, Any]) -> tuple[str, dict[str, Any]]:
+    source_url = str(record.get("paper_url", ""))
+    text = fetch_text(source_url, timeout=20, retries=1)
+    abstract_match = re.search(
+        r'<div class="abstract-text-inner">\s*(?P<abstract>.*?)\s*</div>',
+        text,
+        re.S | re.I,
+    )
+    pdf_url = _first_link_matching(text, ["papers_eccv/papers/", ".pdf"])
+    if "-supp.pdf" in pdf_url.lower():
+        pdf_url = ""
+    project_url = _project_link(text)
+    return (
+        str(record.get("id", "")),
+        {
+            "abstract": _clean_title(abstract_match.group("abstract")) if abstract_match else "",
+            "authors": _json_ld_authors(text) or _organizer_authors(text),
+            "pdf_url": urljoin(source_url, pdf_url) if pdf_url else "",
+            "project_url": urljoin(source_url, project_url) if project_url else "",
+            "github_url": project_url if "github.com" in project_url.lower() else "",
+        },
+    )
+
+
+def _enrich_virtual_metadata(records: list[dict[str, Any]], *, workers: int = 16) -> None:
+    records_by_id = {str(record.get("id", "")): record for record in records}
+    with ThreadPoolExecutor(max_workers=workers) as executor:
+        futures = [executor.submit(_virtual_detail_metadata, record) for record in records]
+        for future in as_completed(futures):
+            try:
+                record_id, metadata = future.result()
+            except Exception:
+                continue
+            record = records_by_id.get(record_id)
+            if not record:
+                continue
+            for field in ("abstract", "pdf_url", "project_url", "github_url"):
+                if metadata.get(field):
+                    record[field] = metadata[field]
+            if metadata.get("authors"):
+                record["authors"] = metadata["authors"]
+
+
 def _enrich_ecva_abstracts(records: list[dict[str, Any]], *, workers: int = 16) -> None:
     def fetch_abstract(record: dict[str, Any]) -> tuple[str, str]:
         try:
@@ -100,7 +196,12 @@ def _enrich_ecva_abstracts(records: list[dict[str, Any]], *, workers: int = 16) 
                 records_by_id[record_id]["abstract"] = abstract
 
 
-def _records_from_papers_index(year: int, fetched_at: str) -> tuple[str, list[dict[str, Any]]]:
+def _records_from_papers_index(
+    year: int,
+    fetched_at: str,
+    *,
+    enrich_abstracts: bool = True,
+) -> tuple[str, list[dict[str, Any]]]:
     text = fetch_text(ECVA_PAPERS_URL, timeout=90, retries=3)
     pattern = re.compile(
         rf'<dt class="ptitle"><br>\s*'
@@ -138,8 +239,42 @@ def _records_from_papers_index(year: int, fetched_at: str) -> tuple[str, list[di
             "license": "",
         }
         records.append(record)
-    _enrich_ecva_abstracts(records)
+    if enrich_abstracts:
+        _enrich_ecva_abstracts(records)
     return ECVA_PAPERS_URL, records
+
+
+def _merge_papers_index_metadata(records: list[dict[str, Any]], year: int, fetched_at: str) -> None:
+    _, index_records = _records_from_papers_index(year, fetched_at, enrich_abstracts=False)
+    records_by_title = {
+        normalize_title(str(record.get("title", ""))): record
+        for record in records
+        if record.get("title")
+    }
+    records_by_pdf = {
+        str(record.get("pdf_url", "")): record
+        for record in records
+        if record.get("pdf_url")
+    }
+    for index_record in index_records:
+        record = records_by_title.get(normalize_title(str(index_record.get("title", ""))))
+        if not record:
+            record = records_by_pdf.get(str(index_record.get("pdf_url", "")))
+        if not record:
+            continue
+        if index_record.get("doi") and not record.get("doi"):
+            record["doi"] = index_record["doi"]
+        if index_record.get("pdf_url") and not record.get("pdf_url"):
+            record["pdf_url"] = index_record["pdf_url"]
+        source = record.get("source") if isinstance(record.get("source"), dict) else {}
+        name = str(source.get("name") or "").strip()
+        if "ECVA papers index" not in name:
+            source["name"] = f"{name} + ECVA papers index".strip(" +")
+        urls = [part.strip() for part in str(source.get("url") or "").split(";") if part.strip()]
+        if ECVA_PAPERS_URL not in urls:
+            urls.append(ECVA_PAPERS_URL)
+        source["url"] = "; ".join(urls)
+        record["source"] = source
 
 
 def _records_from_accepted_page(year: int, fetched_at: str) -> tuple[str, list[dict[str, Any]]]:
@@ -227,6 +362,8 @@ def harvest(venue_key: str, year: int) -> dict[str, Any]:
     fetched_at = now_utc()
     if year in ECCV_VIRTUAL_URLS:
         source_url, records = _records_from_virtual(year, fetched_at)
+        if ECVA_PAPERS_URL not in source_url:
+            source_url = f"{source_url}; {ECVA_PAPERS_URL}"
         return {
             "source": "ecva",
             "venue_key": venue_key,
