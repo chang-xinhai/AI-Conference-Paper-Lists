@@ -92,6 +92,20 @@ def _is_accepted_venue(venue_text: str) -> bool:
     return True
 
 
+def _doi(content: dict[str, Any]) -> str:
+    value = _value(content.get("DOI"), "") or _value(content.get("doi"), "")
+    text = str(value or "").strip()
+    for prefix in (
+        "https://doi.org/",
+        "http://doi.org/",
+        "https://dx.doi.org/",
+        "http://dx.doi.org/",
+    ):
+        if text.lower().startswith(prefix):
+            return text[len(prefix) :].strip()
+    return text
+
+
 def supports(venue_key: str, year: int) -> bool:
     if venue_key not in VENUE_IDS or year < 2020:
         return False
@@ -146,6 +160,7 @@ def _record_from_note(note: dict[str, Any], venue_key: str, year: int, fetched_a
         return None
     record = empty_record(venue_key, venue_name(venue_key), year, title)
     record["abstract"] = str(_value(content.get("abstract"), "")).strip()
+    record["tldr"] = str(_value(content.get("TLDR"), "") or _value(content.get("tldr"), "")).strip()
     record["authors"] = [str(author).strip() for author in _value(content.get("authors"), [])]
     record["keywords"] = normalize_keywords(_value(content.get("keywords"), []))
     record["track"] = str(_value(content.get("primary_area"), "")).strip()
@@ -154,6 +169,7 @@ def _record_from_note(note: dict[str, Any], venue_key: str, year: int, fetched_a
     pdf = str(_value(content.get("pdf"), "")).strip()
     if pdf:
         record["pdf_url"] = f"https://openreview.net{pdf}" if pdf.startswith("/") else pdf
+    record["doi"] = _doi(content)
     record["source"] = {
         "name": "OpenReview API",
         "url": f"{api_url}?content.venueid={venue_id}",

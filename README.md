@@ -44,6 +44,7 @@ Each normalized paper record uses the fields below when available:
   "id": "cvpr2025:example-title",
   "title": "",
   "abstract": "",
+  "tldr": "",
   "authors": [],
   "affiliations": [],
   "first_institute": "",
