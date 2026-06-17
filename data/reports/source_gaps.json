@@ -1,14 +1,14 @@
 {
   "schema_version": "0.1",
-  "generated_at": "2026-06-17T10:42:07Z",
+  "generated_at": "2026-06-17T10:59:57Z",
   "latest_source_probe": "data/reports/latest_source_probes.json",
   "source_issues": "config/source_issues.json",
   "summary": {
-    "gap_count": 26,
+    "gap_count": 27,
     "fallback_issue_count": 1,
     "by_status": {
       "incomplete": 1,
-      "not_available": 24,
+      "not_available": 25,
       "partial": 1
     }
   },
@@ -174,6 +174,14 @@
       "next_action": "Monitor the official source; do not add an empty or partial year to the matrix."
     },
     {
+      "id": "kdd2026-openreview",
+      "venue_key": "kdd",
+      "year": 2026,
+      "status": "not_available",
+      "evidence": "OpenReview returned zero notes.",
+      "next_action": "Monitor the official source; do not add an empty or partial year to the matrix."
+    },
+    {
       "id": "kdd2026-crossref-acm",
       "venue_key": "kdd",
       "year": 2026,
@@ -230,10 +238,11 @@
       "preferred_source": "acm",
       "fallback_source": "dblp",
       "checked_at": "2026-06-17",
-      "reason": "ACM DL direct proceedings pages reject automated fetches with HTTP 403, and ACM Crossref event metadata for KDD 2026 currently returns only two exact event proceedings-article records. DBLP exposes 256 DOI-bearing KDD 2026 records, so DBLP is retained as the best complete machine-readable fallback until ACM metadata is complete.",
+      "reason": "ACM DL direct proceedings pages reject automated fetches with HTTP 403, ACM Crossref event metadata for KDD 2026 currently returns only two exact event proceedings-article records, and KDD 2026 OpenReview track groups currently expose no accepted notes. DBLP exposes 256 DOI-bearing KDD 2026 records, so DBLP is retained as the best complete machine-readable fallback until ACM or OpenReview metadata is complete.",
       "evidence": [
         "ACM DL DOI proceedings pages returned HTTP 403 during automated checks.",
         "Crossref exact event query for \"KDD '26: The 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining\" returned only two relevant proceedings-article records.",
+        "OpenReview content.venueid queries for KDD.org/2026 Research, ADS, Datasets and Benchmark, and AI4Sciences tracks returned zero notes.",
         "DBLP TOC https://dblp.org/db/conf/kdd/kdd2026-1.xml contains 256 KDD 2026 paper records with ACM DOI links."
       ]
     }

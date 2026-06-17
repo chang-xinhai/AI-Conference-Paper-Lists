@@ -1,10 +1,10 @@
 {
   "schema_version": "0.1",
-  "generated_at": "2026-06-17T10:41:53Z",
+  "generated_at": "2026-06-17T10:59:07Z",
   "summary": {
     "available": 0,
     "incomplete": 1,
-    "not_available": 24,
+    "not_available": 25,
     "partial": 1,
     "reachable": 0
   },
@@ -208,14 +208,29 @@
       "year": 2026,
       "kind": "openreview",
       "venue_ids": [
-        "automl.cc/AutoML/2026/Conference"
+        "automl.cc/AutoML/2026/Methods_Track",
+        "automl.cc/AutoML/2026/ABCD_Track",
+        "automl.cc/AutoML/2026/Hot_Off_the_Press_Track",
+        "automl.cc/AutoML/2026/Late_Breaking_Track"
       ],
       "status": "not_available",
       "note_count_sample": 0,
       "venue_counts": {
-        "automl.cc/AutoML/2026/Conference": {
+        "automl.cc/AutoML/2026/Methods_Track": {
           "count": 0,
-          "url": "https://api2.openreview.net/notes?content.venueid=automl.cc%2FAutoML%2F2026%2FConference&limit=1"
+          "url": "https://api2.openreview.net/notes?content.venueid=automl.cc%2FAutoML%2F2026%2FMethods_Track&limit=1"
+        },
+        "automl.cc/AutoML/2026/ABCD_Track": {
+          "count": 0,
+          "url": "https://api2.openreview.net/notes?content.venueid=automl.cc%2FAutoML%2F2026%2FABCD_Track&limit=1"
+        },
+        "automl.cc/AutoML/2026/Hot_Off_the_Press_Track": {
+          "count": 0,
+          "url": "https://api2.openreview.net/notes?content.venueid=automl.cc%2FAutoML%2F2026%2FHot_Off_the_Press_Track&limit=1"
+        },
+        "automl.cc/AutoML/2026/Late_Breaking_Track": {
+          "count": 0,
+          "url": "https://api2.openreview.net/notes?content.venueid=automl.cc%2FAutoML%2F2026%2FLate_Breaking_Track&limit=1"
         }
       },
       "evidence": "OpenReview returned zero notes."
@@ -334,6 +349,54 @@
       "evidence": "Matched unavailable_regex: publication date of accepted papers.*9 November 2026",
       "http_ok": true,
       "response_chars": 453241
+    },
+    {
+      "id": "kdd2026-openreview",
+      "venue_key": "kdd",
+      "year": 2026,
+      "kind": "openreview",
+      "venue_ids": [
+        "KDD.org/2026/Research_Track_August",
+        "KDD.org/2026/ADS_Track_August",
+        "KDD.org/2026/Datasets_and_Benchmark_Track_August",
+        "KDD.org/2026/AI4Sciences_Track_February",
+        "KDD.org/2026/Research_Track_Cycle_2",
+        "KDD.org/2026/ADS_Track_Cycle_2",
+        "KDD.org/2026/Datasets_and_Benchmark_Track_Cycle_2"
+      ],
+      "status": "not_available",
+      "note_count_sample": 0,
+      "venue_counts": {
+        "KDD.org/2026/Research_Track_August": {
+          "count": 0,
+          "url": "https://api2.openreview.net/notes?content.venueid=KDD.org%2F2026%2FResearch_Track_August&limit=1"
+        },
+        "KDD.org/2026/ADS_Track_August": {
+          "count": 0,
+          "url": "https://api2.openreview.net/notes?content.venueid=KDD.org%2F2026%2FADS_Track_August&limit=1"
+        },
+        "KDD.org/2026/Datasets_and_Benchmark_Track_August": {
+          "count": 0,
+          "url": "https://api2.openreview.net/notes?content.venueid=KDD.org%2F2026%2FDatasets_and_Benchmark_Track_August&limit=1"
+        },
+        "KDD.org/2026/AI4Sciences_Track_February": {
+          "count": 0,
+          "url": "https://api2.openreview.net/notes?content.venueid=KDD.org%2F2026%2FAI4Sciences_Track_February&limit=1"
+        },
+        "KDD.org/2026/Research_Track_Cycle_2": {
+          "count": 0,
+          "url": "https://api2.openreview.net/notes?content.venueid=KDD.org%2F2026%2FResearch_Track_Cycle_2&limit=1"
+        },
+        "KDD.org/2026/ADS_Track_Cycle_2": {
+          "count": 0,
+          "url": "https://api2.openreview.net/notes?content.venueid=KDD.org%2F2026%2FADS_Track_Cycle_2&limit=1"
+        },
+        "KDD.org/2026/Datasets_and_Benchmark_Track_Cycle_2": {
+          "count": 0,
+          "url": "https://api2.openreview.net/notes?content.venueid=KDD.org%2F2026%2FDatasets_and_Benchmark_Track_Cycle_2&limit=1"
+        }
+      },
+      "evidence": "OpenReview returned zero notes."
     },
     {
       "id": "kdd2026-crossref-acm",

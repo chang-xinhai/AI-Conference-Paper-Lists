@@ -43,6 +43,14 @@ EXTRA_VENUE_IDS = {
         "acmmm.org/ACMMM/2026/Brave_New_Ideas_Track",
         "acmmm.org/ACMMM/2026/Open_Source_Software_Track",
     ],
+    ("automl", 2025): [
+        "automl.cc/AutoML/2025/ABCD_Track",
+    ],
+    ("automl", 2026): [
+        "automl.cc/AutoML/2026/ABCD_Track",
+        "automl.cc/AutoML/2026/Hot_Off_the_Press_Track",
+        "automl.cc/AutoML/2026/Late_Breaking_Track",
+    ],
     ("nips", 2021): [
         "NeurIPS.cc/2021/Track/Datasets_and_Benchmarks/Round1",
         "NeurIPS.cc/2021/Track/Datasets_and_Benchmarks/Round2",
@@ -58,6 +66,15 @@ EXTRA_VENUE_IDS = {
     ],
     ("nips", 2025): [
         "NeurIPS.cc/2025/Datasets_and_Benchmarks_Track",
+    ],
+}
+
+VENUE_ID_OVERRIDES = {
+    ("automl", 2025): [
+        "automl.cc/AutoML/2025/Methods_Track",
+    ],
+    ("automl", 2026): [
+        "automl.cc/AutoML/2026/Methods_Track",
     ],
 }
 
@@ -101,7 +118,13 @@ def _fetch_notes(api_url: str, venue_id: str, *, limit: int = 1000) -> list[dict
 
 
 def _venue_ids_for(venue_key: str, year: int) -> list[str]:
-    venue_ids = [VENUE_IDS[venue_key].format(year=year)]
+    venue_ids = [
+        venue_id.format(year=year)
+        for venue_id in VENUE_ID_OVERRIDES.get(
+            (venue_key, year),
+            [VENUE_IDS[venue_key]],
+        )
+    ]
     venue_ids.extend(EXTRA_VENUE_IDS.get((venue_key, year), []))
     return venue_ids
 
