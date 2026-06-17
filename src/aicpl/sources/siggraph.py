@@ -199,6 +199,20 @@ def _record_from_crossref_item(
     doi = str(item.get("DOI") or "")
     record["doi"] = doi
     record["paper_url"] = f"https://doi.org/{doi}" if doi else ""
+    record["authors"] = [
+        " ".join(part for part in [str(author.get("given", "")).strip(), str(author.get("family", "")).strip()] if part)
+        for author in item.get("author", [])
+        if isinstance(author, dict)
+        and (str(author.get("given", "")).strip() or str(author.get("family", "")).strip())
+    ]
+    for link in item.get("link", []):
+        if not isinstance(link, dict):
+            continue
+        content_type = str(link.get("content-type") or "").lower()
+        url_value = str(link.get("URL") or "")
+        if "pdf" in content_type and url_value:
+            record["pdf_url"] = url_value
+            break
     record["source"] = {
         "name": "Crossref",
         "url": url,
@@ -221,7 +235,7 @@ def _crossref_tog_records(venue_key: str, year: int, fetched_at: str) -> tuple[s
     params = {
         "filter": filters,
         "rows": 1000,
-        "select": "DOI,title,subtitle,container-title,volume,issue,published-print,published-online,type",
+        "select": "DOI,title,subtitle,container-title,volume,issue,published-print,published-online,type,author,link",
     }
     url = f"{CROSSREF_BASE}?{urlencode(params)}"
     payload = fetch_json(url, timeout=90, retries=6)
@@ -245,7 +259,7 @@ def _crossref_proceedings_records(venue_key: str, year: int, fetched_at: str) ->
         "filter": filters,
         "query.event-acronym": config["event_acronym"],
         "rows": 1000,
-        "select": "DOI,title,subtitle,container-title,event,type",
+        "select": "DOI,title,subtitle,container-title,event,type,author,link",
     }
     url = f"{CROSSREF_BASE}?{urlencode(params)}"
     payload = fetch_json(url, timeout=90, retries=6)
@@ -398,6 +412,28 @@ def _history_overview_records(venue_key: str, year: int, fetched_at: str) -> tup
     return url, records
 
 
+def _merge_record(existing: dict[str, Any], incoming: dict[str, Any]) -> dict[str, Any]:
+    for field in ("authors", "affiliations", "keywords"):
+        if not existing.get(field) and incoming.get(field):
+            existing[field] = incoming[field]
+    for field in (
+        "abstract",
+        "tldr",
+        "first_institute",
+        "track",
+        "presentation",
+        "paper_url",
+        "pdf_url",
+        "arxiv_url",
+        "project_url",
+        "github_url",
+        "doi",
+    ):
+        if not existing.get(field) and incoming.get(field):
+            existing[field] = incoming[field]
+    return existing
+
+
 def harvest(venue_key: str, year: int) -> dict[str, Any]:
     if not supports(venue_key, year):
         raise ValueError(f"SIGGRAPH route unsupported for {venue_key}{year}")
@@ -416,7 +452,15 @@ def harvest(venue_key: str, year: int) -> dict[str, Any]:
         if source_url:
             source_urls.append(source_url)
 
-    merged = {normalize_title(record["title"]): record for record in records if record.get("title")}
+    merged: dict[str, dict[str, Any]] = {}
+    for record in records:
+        if not record.get("title"):
+            continue
+        title_key = normalize_title(record["title"])
+        if title_key in merged:
+            _merge_record(merged[title_key], record)
+        else:
+            merged[title_key] = record
     return {
         "source": "siggraph",
         "venue_key": venue_key,
