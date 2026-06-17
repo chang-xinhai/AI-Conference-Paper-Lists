@@ -2,23 +2,21 @@
   "schema_version": "0.1",
   "venue_key": "ijcai",
   "year": 2020,
-  "source": "dblp",
+  "source": "ijcai",
   "baseline": "papercopilot",
-  "generated_at": "2026-06-16T21:57:03Z",
+  "generated_at": "2026-06-17T05:30:44Z",
   "status": "ok",
   "min_count_ratio": 0.95,
   "counts": {
-    "ours": 777,
+    "ours": 778,
     "baseline": 778,
-    "title_overlap": 777,
-    "count_ratio": 0.9987,
-    "overlap_ratio": 0.9987
+    "title_overlap": 778,
+    "count_ratio": 1.0,
+    "overlap_ratio": 1.0
   },
   "known_baseline_issues": [],
   "samples": {
-    "missing_from_ours": [
-      "wattnet learning to trade fx via hierarchical spatio temporal representation of highly multivariate time series"
-    ],
+    "missing_from_ours": [],
     "extra_in_ours": []
   }
 }

@@ -2,26 +2,21 @@
   "schema_version": "0.1",
   "venue_key": "aaai",
   "year": 2024,
-  "source": "dblp",
+  "source": "aaai_ojs",
   "baseline": "papercopilot",
-  "generated_at": "2026-06-16T21:51:53Z",
+  "generated_at": "2026-06-17T05:23:09Z",
   "status": "ok",
   "min_count_ratio": 0.95,
   "counts": {
-    "ours": 2865,
+    "ours": 2864,
     "baseline": 2864,
-    "title_overlap": 2863,
-    "count_ratio": 1.0003,
-    "overlap_ratio": 0.9997
+    "title_overlap": 2864,
+    "count_ratio": 1.0,
+    "overlap_ratio": 1.0
   },
   "known_baseline_issues": [],
   "samples": {
-    "missing_from_ours": [
-      "hago net hierarchical geometric message passing for molecular representation learning"
-    ],
-    "extra_in_ours": [
-      "hago net hierarchical geometric massage passing for molecular representation learning",
-      "high significant fault detection in azure core workload insights"
-    ]
+    "missing_from_ours": [],
+    "extra_in_ours": []
   }
 }

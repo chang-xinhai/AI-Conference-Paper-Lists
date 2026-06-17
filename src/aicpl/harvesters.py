@@ -4,7 +4,21 @@ from __future__ import annotations
 
 from typing import Any, Protocol
 
-from .sources import acl_anthology, cvf, dblp, ecva, icml, neurips, openreview, papercopilot, pmlr, rss, siggraph
+from .sources import (
+    aaai_ojs,
+    acl_anthology,
+    cvf,
+    dblp,
+    ecva,
+    icml,
+    ijcai,
+    neurips,
+    openreview,
+    papercopilot,
+    pmlr,
+    rss,
+    siggraph,
+)
 
 
 class Harvester(Protocol):
@@ -15,12 +29,14 @@ class Harvester(Protocol):
 
 HARVESTERS: dict[str, Harvester] = {
     "openreview": openreview,
+    "aaai_ojs": aaai_ojs,
     "cvf": cvf,
     "neurips": neurips,
     "acl_anthology": acl_anthology,
     "dblp": dblp,
     "ecva": ecva,
     "icml": icml,
+    "ijcai": ijcai,
     "pmlr": pmlr,
     "rss": rss,
     "siggraph": siggraph,

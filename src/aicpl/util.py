@@ -3,10 +3,12 @@
 from __future__ import annotations
 
 import hashlib
+import gzip
 import json
 import re
 import time
 import unicodedata
+import zlib
 from http.client import RemoteDisconnected
 from datetime import datetime, timezone
 from pathlib import Path
@@ -56,7 +58,13 @@ def fetch_text(url: str, *, timeout: int = 30, retries: int = 3) -> str:
     for attempt in range(retries + 1):
         try:
             with urlopen(request, timeout=timeout) as response:
-                return response.read().decode("utf-8", errors="replace")
+                data = response.read()
+                encoding = response.headers.get("Content-Encoding", "").lower()
+                if encoding == "gzip" or data.startswith(b"\x1f\x8b"):
+                    data = gzip.decompress(data)
+                elif encoding == "deflate":
+                    data = zlib.decompress(data)
+                return data.decode("utf-8", errors="replace")
         except HTTPError as error:
             retryable = error.code == 429 or 500 <= error.code < 600
             if not retryable or attempt == retries:

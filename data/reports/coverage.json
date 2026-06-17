@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1",
-  "generated_at": "2026-06-16T21:51:36Z",
+  "generated_at": "2026-06-17T05:21:27Z",
   "validate_against_papercopilot": true,
   "allow_papercopilot_fallback": false,
   "results": [
@@ -42,29 +42,31 @@
       "venue_key": "aaai",
       "year": 2021,
       "candidate_sources": [
+        "aaai_ojs",
         "dblp"
       ],
       "status": "harvested",
-      "source": "dblp",
+      "source": "aaai_ojs",
       "count": 1961,
       "message": "",
       "validation_status": "ok",
       "validation_counts": {
         "ours": 1961,
         "baseline": 1654,
-        "title_overlap": 1654,
+        "title_overlap": 1653,
         "count_ratio": 1.1856,
-        "overlap_ratio": 1.0
+        "overlap_ratio": 0.9994
       }
     },
     {
       "venue_key": "aaai",
       "year": 2022,
       "candidate_sources": [
+        "aaai_ojs",
         "dblp"
       ],
       "status": "harvested",
-      "source": "dblp",
+      "source": "aaai_ojs",
       "count": 1624,
       "message": "",
       "validation_status": "ok",
@@ -80,67 +82,71 @@
       "venue_key": "aaai",
       "year": 2023,
       "candidate_sources": [
+        "aaai_ojs",
         "dblp"
       ],
       "status": "harvested",
-      "source": "dblp",
-      "count": 2021,
+      "source": "aaai_ojs",
+      "count": 2023,
       "message": "",
       "validation_status": "ok",
       "validation_counts": {
-        "ours": 2021,
+        "ours": 2023,
         "baseline": 2023,
-        "title_overlap": 2020,
-        "count_ratio": 0.999,
-        "overlap_ratio": 0.9985
+        "title_overlap": 2023,
+        "count_ratio": 1.0,
+        "overlap_ratio": 1.0
       }
     },
     {
       "venue_key": "aaai",
       "year": 2024,
       "candidate_sources": [
+        "aaai_ojs",
         "dblp"
       ],
       "status": "harvested",
-      "source": "dblp",
-      "count": 2866,
+      "source": "aaai_ojs",
+      "count": 2864,
       "message": "",
       "validation_status": "ok",
       "validation_counts": {
-        "ours": 2865,
+        "ours": 2864,
         "baseline": 2864,
-        "title_overlap": 2863,
-        "count_ratio": 1.0003,
-        "overlap_ratio": 0.9997
+        "title_overlap": 2864,
+        "count_ratio": 1.0,
+        "overlap_ratio": 1.0
       }
     },
     {
       "venue_key": "aaai",
       "year": 2025,
       "candidate_sources": [
+        "aaai_ojs",
         "dblp"
       ],
       "status": "harvested",
-      "source": "dblp",
+      "source": "aaai_ojs",
       "count": 3486,
       "message": "",
       "validation_status": "ok",
       "validation_counts": {
         "ours": 3486,
         "baseline": 3486,
-        "title_overlap": 3484,
+        "title_overlap": 3485,
         "count_ratio": 1.0,
-        "overlap_ratio": 0.9994
+        "overlap_ratio": 0.9997
       }
     },
     {
       "venue_key": "aaai",
       "year": 2026,
       "candidate_sources": [
+        "aaai_ojs",
         "dblp"
       ],
       "status": "harvested",
-      "source": "dblp",
+      "source": "aaai_ojs",
       "count": 4920,
       "message": "",
       "validation_status": "no_baseline",
@@ -1653,86 +1659,91 @@
       "venue_key": "ijcai",
       "year": 2020,
       "candidate_sources": [
+        "ijcai",
         "dblp"
       ],
       "status": "harvested",
-      "source": "dblp",
-      "count": 778,
+      "source": "ijcai",
+      "count": 779,
       "message": "",
       "validation_status": "ok",
       "validation_counts": {
-        "ours": 777,
+        "ours": 778,
         "baseline": 778,
-        "title_overlap": 777,
-        "count_ratio": 0.9987,
-        "overlap_ratio": 0.9987
+        "title_overlap": 778,
+        "count_ratio": 1.0,
+        "overlap_ratio": 1.0
       }
     },
     {
       "venue_key": "ijcai",
       "year": 2021,
       "candidate_sources": [
+        "ijcai",
         "dblp"
       ],
       "status": "harvested",
-      "source": "dblp",
-      "count": 721,
+      "source": "ijcai",
+      "count": 723,
       "message": "",
       "validation_status": "ok",
       "validation_counts": {
-        "ours": 721,
+        "ours": 722,
         "baseline": 722,
-        "title_overlap": 721,
-        "count_ratio": 0.9986,
-        "overlap_ratio": 0.9986
+        "title_overlap": 722,
+        "count_ratio": 1.0,
+        "overlap_ratio": 1.0
       }
     },
     {
       "venue_key": "ijcai",
       "year": 2022,
       "candidate_sources": [
+        "ijcai",
         "dblp"
       ],
       "status": "harvested",
-      "source": "dblp",
-      "count": 863,
+      "source": "ijcai",
+      "count": 862,
       "message": "",
       "validation_status": "ok",
       "validation_counts": {
-        "ours": 863,
+        "ours": 862,
         "baseline": 862,
-        "title_overlap": 862,
-        "count_ratio": 1.0012,
-        "overlap_ratio": 1.0
+        "title_overlap": 861,
+        "count_ratio": 1.0,
+        "overlap_ratio": 0.9988
       }
     },
     {
       "venue_key": "ijcai",
       "year": 2023,
       "candidate_sources": [
+        "ijcai",
         "dblp"
       ],
       "status": "harvested",
-      "source": "dblp",
-      "count": 846,
+      "source": "ijcai",
+      "count": 851,
       "message": "",
       "validation_status": "ok",
       "validation_counts": {
-        "ours": 846,
+        "ours": 851,
         "baseline": 851,
-        "title_overlap": 846,
-        "count_ratio": 0.9941,
-        "overlap_ratio": 0.9941
+        "title_overlap": 851,
+        "count_ratio": 1.0,
+        "overlap_ratio": 1.0
       }
     },
     {
       "venue_key": "ijcai",
       "year": 2024,
       "candidate_sources": [
+        "ijcai",
         "dblp"
       ],
       "status": "harvested",
-      "source": "dblp",
+      "source": "ijcai",
       "count": 1048,
       "message": "",
       "validation_status": "ok",
@@ -1748,10 +1759,11 @@
       "venue_key": "ijcai",
       "year": 2025,
       "candidate_sources": [
+        "ijcai",
         "dblp"
       ],
       "status": "harvested",
-      "source": "dblp",
+      "source": "ijcai",
       "count": 1280,
       "message": "",
       "validation_status": "no_baseline",

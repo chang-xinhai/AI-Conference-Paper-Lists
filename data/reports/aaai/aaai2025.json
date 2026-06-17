@@ -2,27 +2,25 @@
   "schema_version": "0.1",
   "venue_key": "aaai",
   "year": 2025,
-  "source": "dblp",
+  "source": "aaai_ojs",
   "baseline": "papercopilot",
-  "generated_at": "2026-06-16T21:51:57Z",
+  "generated_at": "2026-06-17T05:24:11Z",
   "status": "ok",
   "min_count_ratio": 0.95,
   "counts": {
     "ours": 3486,
     "baseline": 3486,
-    "title_overlap": 3484,
+    "title_overlap": 3485,
     "count_ratio": 1.0,
-    "overlap_ratio": 0.9994
+    "overlap_ratio": 0.9997
   },
   "known_baseline_issues": [],
   "samples": {
     "missing_from_ours": [
-      "d 2 dpm dual denoising for quantized diffusion probabilistic models",
-      "multi scale activation refinement and aggregation exploring diverse cues for fine grained bird recognition"
+      "geonet global enhancement and optimization network for lane detection"
     ],
     "extra_in_ours": [
-      "d2 dpm dual denoising for quantized diffusion probabilistic models",
-      "multi scale activation selection and aggregation exploring diverse cues for fine grained bird recognition"
+      "retracted geonet global enhancement and optimization network for lane detection"
     ]
   }
 }
