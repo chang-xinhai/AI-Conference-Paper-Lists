@@ -1,10 +1,10 @@
 {
   "schema_version": "0.1",
-  "generated_at": "2026-06-17T09:43:43Z",
+  "generated_at": "2026-06-17T09:48:01Z",
   "summary": {
     "available": 0,
     "incomplete": 1,
-    "not_available": 22,
+    "not_available": 23,
     "partial": 1,
     "reachable": 0
   },
@@ -254,6 +254,19 @@
       "evidence": "HTTPError: HTTP Error 404: Not Found"
     },
     {
+      "id": "acmmm2026-crossref-acm",
+      "venue_key": "acmmm",
+      "year": 2026,
+      "kind": "crossref_event",
+      "query_value": "The 34th ACM International Conference on Multimedia",
+      "event_name": "MM '26: The 34th ACM International Conference on Multimedia",
+      "min_expected_count": 500,
+      "status": "not_available",
+      "relevant_count": 0,
+      "sample_records": [],
+      "evidence": "Crossref exact event records: 0; expected at least 500."
+    },
+    {
       "id": "siggraph2026-technical-papers",
       "venue_key": "siggraph",
       "year": 2026,
@@ -283,7 +296,9 @@
       "id": "kdd2026-crossref-acm",
       "venue_key": "kdd",
       "year": 2026,
-      "kind": "crossref_kdd",
+      "kind": "crossref_event",
+      "query_value": "The 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+      "event_name": "KDD '26: The 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
       "min_expected_count": 200,
       "status": "incomplete",
       "relevant_count": 2,
