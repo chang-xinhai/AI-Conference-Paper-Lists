@@ -3,8 +3,8 @@
   "venue_key": "3dv",
   "year": 2026,
   "source": "openreview",
-  "source_url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
-  "fetched_at": "2026-06-17T20:51:00Z",
+  "source_url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
+  "fetched_at": "2026-06-17T21:27:07Z",
   "count": 177,
   "records": [
     {
@@ -22,8 +22,12 @@
         "Hao Tang",
         "Hao Zhao"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Tsinghua University, Tsinghua University",
+        "The Chinese University of Hong Kong, Shenzhen",
+        "Shanghai Jiaotong University"
+      ],
+      "first_institute": "Tsinghua University, Tsinghua University",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -42,8 +46,8 @@
         "Robot Reconstruction"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -168,8 +172,10 @@
         "Igor Gilitschenski",
         "David B. Lindell"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "University of Toronto"
+      ],
+      "first_institute": "University of Toronto",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -190,8 +196,8 @@
         "edge detection"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -212,8 +218,10 @@
         "Mario Bijelic",
         "Felix Heide"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Technische Universität München"
+      ],
+      "first_institute": "Technische Universität München",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -233,8 +241,8 @@
         "Depth estimation"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -254,8 +262,10 @@
         "Matthew O'Toole",
         "Deva Ramanan"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "University of Wisconsin - Madison"
+      ],
+      "first_institute": "University of Wisconsin - Madison",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -275,8 +285,8 @@
         "3D computer vision"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -362,8 +372,10 @@
         "Zhangyu Jin",
         "Andrew Feng"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Institute for Creative Technologies, University of Southern California"
+      ],
+      "first_institute": "Institute for Creative Technologies, University of Southern California",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -380,8 +392,8 @@
         "3D Building Generation"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -478,8 +490,11 @@
         "Andrea Tagliasacchi",
         "Marc Van Droogenbroeck"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "University of Liège",
+        "University of Oxford"
+      ],
+      "first_institute": "University of Liège",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -498,8 +513,8 @@
         "Triangles"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -516,8 +531,10 @@
         "Christian Desrosiers",
         "Diego Thomas"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "École de technologie supérieure, Université du Québec"
+      ],
+      "first_institute": "École de technologie supérieure, Université du Québec",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -538,8 +555,8 @@
         "Delaunay Triangulation"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -555,8 +572,10 @@
         "Noam Rotstein",
         "Ron Kimmel"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Computer Science Department, Technion - Israel Institute of Technology"
+      ],
+      "first_institute": "Computer Science Department, Technion - Israel Institute of Technology",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -577,8 +596,8 @@
         "Gaussian Curvature"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -594,8 +613,10 @@
         "Bowen Wen",
         "Orazio Gallo"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "NVIDIA"
+      ],
+      "first_institute": "NVIDIA",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -615,8 +636,8 @@
         "low-level perception"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -671,8 +692,10 @@
         "Cheng Zhang",
         "Fernando De la Torre"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Carnegie Mellon University"
+      ],
+      "first_institute": "Carnegie Mellon University",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -693,8 +716,8 @@
         "3D avatar reconstruction"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -711,8 +734,10 @@
         "Arkajyoti Mitra",
         "Habeeb Olufowobi"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "University of Texas at Arlington"
+      ],
+      "first_institute": "University of Texas at Arlington",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -731,8 +756,8 @@
         "Medical imaging"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -783,8 +808,10 @@
         "Andrea Tagliasacchi",
         "Hao Zhang"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Simon Fraser University"
+      ],
+      "first_institute": "Simon Fraser University",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -803,8 +830,8 @@
         "Neural Fields"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -818,8 +845,10 @@
         "Mae Younes",
         "Adnane Boukhayma"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "INRIA"
+      ],
+      "first_institute": "INRIA",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -839,8 +868,8 @@
         "Neural Rendering"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -856,8 +885,10 @@
         "Paul-Edouard Sarlin",
         "Marc Pollefeys"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "ETHZ - ETH Zurich"
+      ],
+      "first_institute": "ETHZ - ETH Zurich",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -878,8 +909,8 @@
         "Self-supervised learning"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -896,8 +927,12 @@
         "Anpei Chen",
         "Andreas Geiger"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Technical University of Munich",
+        "Westlake University",
+        "University of Tuebingen"
+      ],
+      "first_institute": "Technical University of Munich",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -915,8 +950,8 @@
         "3D Gaussian Splatting"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -974,8 +1009,11 @@
         "Thabo Beeler",
         "Fernando De la Torre"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Texas A&M University - College Station",
+        "Google"
+      ],
+      "first_institute": "Texas A&M University - College Station",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -995,8 +1033,8 @@
         "3D Editing"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -1014,8 +1052,11 @@
         "Alexei A Efros",
         "Angjoo Kanazawa"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "University of California Berkeley",
+        "Amazon"
+      ],
+      "first_institute": "University of California Berkeley",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -1036,8 +1077,8 @@
         "multi-view"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -1167,8 +1208,10 @@
         "Bailin Deng",
         "Yipeng Qin"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Cardiff University"
+      ],
+      "first_institute": "Cardiff University",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -1187,8 +1230,8 @@
         "camera language loss"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -1242,8 +1285,10 @@
         "Anna Khoreva",
         "Gerard Pons-Moll"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Zalando SE"
+      ],
+      "first_institute": "Zalando SE",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -1262,8 +1307,8 @@
         "3d human pose estimation"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -1282,8 +1327,10 @@
         "Christian Theobalt",
         "Adam Kortylewski"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "CISPA Helmholtz Center for Information Security"
+      ],
+      "first_institute": "CISPA Helmholtz Center for Information Security",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -1301,8 +1348,8 @@
         "Correspondence feature matching"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -1395,8 +1442,10 @@
         "Andreas Kuhn",
         "Friedrich Fraundorfer"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Sony Europe Ltd."
+      ],
+      "first_institute": "Sony Europe Ltd.",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -1415,8 +1464,8 @@
         "Keypoint Descriptor"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -1473,8 +1522,11 @@
         "Boxin Shi",
         "Imari Sato"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Peking University",
+        "NII, Tokyo Institute of Technology"
+      ],
+      "first_institute": "Peking University",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -1494,8 +1546,8 @@
         "3D Reconstruction"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -1509,8 +1561,10 @@
         "Tom Wehrbein",
         "Bodo Rosenhahn"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Institut für Informationsverarbeitung"
+      ],
+      "first_institute": "Institut für Informationsverarbeitung",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -1532,8 +1586,8 @@
         "foot pose estimation"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -1663,8 +1717,10 @@
         "Shichong Peng",
         "Ke Li"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Simon Fraser University"
+      ],
+      "first_institute": "Simon Fraser University",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -1683,8 +1739,8 @@
         "Proximity Attention Point Rendering"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -1738,8 +1794,11 @@
         "Hanumant Singh",
         "Huaizu Jiang"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Northeastern University",
+        "MathWorks"
+      ],
+      "first_institute": "Northeastern University",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -1760,8 +1819,8 @@
         "Zero-shot point cloud generalization"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -1777,8 +1836,10 @@
         "Pradeep Sen",
         "Tobias Höllerer"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Yembo"
+      ],
+      "first_institute": "Yembo",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -1797,8 +1858,8 @@
         "semi-supervised learning"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -1818,8 +1879,10 @@
         "Olaf Wysocki",
         "Thomas H. Kolbe"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Technische Universität München"
+      ],
+      "first_institute": "Technische Universität München",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -1843,8 +1906,8 @@
         "LiDAR simulation"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -1897,8 +1960,11 @@
         "Iro Laina",
         "Victor Adrian Prisacariu"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "University of Oxford",
+        "Nanyang Technological University"
+      ],
+      "first_institute": "University of Oxford",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -1917,8 +1983,8 @@
         "Feed-Forward Reconstruction"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -1936,8 +2002,10 @@
         "Anand Bhattad",
         "Jean-Francois Lalonde"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Johns Hopkins University"
+      ],
+      "first_institute": "Johns Hopkins University",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -1957,8 +2025,8 @@
         "Augmented/Mixed Reality"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -1976,8 +2044,11 @@
         "Marc Habermann",
         "Christian Theobalt"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Saarland Informatics Campus, Max-Planck Institute",
+        "Saarbruecken Research Center for Visual Computing, Interaction, and Artificial Intellligence"
+      ],
+      "first_institute": "Saarland Informatics Campus, Max-Planck Institute",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -1997,8 +2068,8 @@
         "freeview rendering"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -2019,8 +2090,11 @@
         "Eni Halilaj",
         "Timur Bagautdinov"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Facebook",
+        "Meta"
+      ],
+      "first_institute": "Facebook",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -2043,8 +2117,8 @@
         "Egocentric"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -2062,8 +2136,10 @@
         "Eni Halilaj",
         "Kris Kitani"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "CMU, Carnegie Mellon University"
+      ],
+      "first_institute": "CMU, Carnegie Mellon University",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -2086,8 +2162,8 @@
         "Dataset"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -2101,8 +2177,10 @@
         "Abu Taib Mohammed Shahjahan",
         "Abdessamad Ben Hamza"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Concordia University"
+      ],
+      "first_institute": "Concordia University",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -2122,8 +2200,8 @@
         "Multi-Hop Feature Propagation"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -2142,8 +2220,10 @@
         "Jiashi Feng",
         "Guosheng Lin"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Nanyang Technological University"
+      ],
+      "first_institute": "Nanyang Technological University",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -2162,8 +2242,8 @@
         "3D generation"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -2474,8 +2554,11 @@
         "Angjoo Kanazawa",
         "Christian Richardt"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Amazon",
+        "Meta"
+      ],
+      "first_institute": "Amazon",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -2499,8 +2582,8 @@
         "generative 3D models"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -2515,8 +2598,10 @@
         "Adithya Pediredla",
         "Suren Jayasuriya"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Dartmouth College"
+      ],
+      "first_institute": "Dartmouth College",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -2538,8 +2623,8 @@
         "Acoustic Scattering"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -2558,8 +2643,10 @@
         "Yin Yang",
         "Chenfanfu Jiang"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "University of California, Los Angeles"
+      ],
+      "first_institute": "University of California, Los Angeles",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -2577,8 +2664,8 @@
         "Physics Based Simulation"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -2632,8 +2719,10 @@
         "Cewu Lu",
         "Manolis Savva"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Shanghai Jiao Tong University"
+      ],
+      "first_institute": "Shanghai Jiao Tong University",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -2651,8 +2740,8 @@
         "Motion Analysis"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -2668,8 +2757,11 @@
         "Rishabh Dabral",
         "Christian Theobalt"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Saarland Informatics Campus, Max-Planck Institute",
+        "Saarbruecken Research Center for Visual Computing, Interaction, and Artificial Intellligence"
+      ],
+      "first_institute": "Saarland Informatics Campus, Max-Planck Institute",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -2688,8 +2780,8 @@
         "diffusion models"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -2705,8 +2797,10 @@
         "Sebastian Scherer",
         "Ioannis Gkioulekas"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Carnegie Mellon University"
+      ],
+      "first_institute": "Carnegie Mellon University",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -2725,8 +2819,8 @@
         "thermal imaging"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -2742,8 +2836,10 @@
         "Nassir Navab",
         "Benjamin Busam"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Technical University of Munich"
+      ],
+      "first_institute": "Technical University of Munich",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -2765,8 +2861,8 @@
         "4D Animation"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -2784,8 +2880,10 @@
         "Florian Bernard",
         "Daniel Cremers"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Technical University Munich"
+      ],
+      "first_institute": "Technical University Munich",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -2805,8 +2903,8 @@
         "shape analysis"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -2824,8 +2922,11 @@
         "Vahid Babaei",
         "Bernhard Thomaszewski"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Saarbruecken Research Center for Visual Computing, Interaction, and Artificial Intellligence",
+        "Swiss Federal Institute of Technology"
+      ],
+      "first_institute": "Saarbruecken Research Center for Visual Computing, Interaction, and Artificial Intellligence",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -2845,8 +2946,8 @@
         "Deformable objects"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -2875,8 +2976,10 @@
         "Sebastian Scherer",
         "Peter Kontschieder"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Meta"
+      ],
+      "first_institute": "Meta",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -2895,8 +2998,8 @@
         "metric scale estimation"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -2987,8 +3090,10 @@
         "Timm Linder",
         "Bastian Leibe"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "University Hospital RWTH Aachen - Radiology"
+      ],
+      "first_institute": "University Hospital RWTH Aachen - Radiology",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -3009,8 +3114,8 @@
         "2D-3D fusion"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -3027,8 +3132,11 @@
         "Rao Fu",
         "Srinath Sridhar"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Brown University",
+        ", Indian Institute of Technology, Delhi"
+      ],
+      "first_institute": "Brown University",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -3046,8 +3154,8 @@
         "Hand-Object Manipulation"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -3139,8 +3247,10 @@
         "Divyam Goel",
         "Angel X Chang"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Simon Fraser University"
+      ],
+      "first_institute": "Simon Fraser University",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -3158,8 +3268,8 @@
         "3D scene modeling"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -3216,8 +3326,12 @@
         "David Forsyth",
         "Anand Bhattad"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Institut für Informationsverarbeitung",
+        "University of Illinois, Urbana-Champaign",
+        "Johns Hopkins University"
+      ],
+      "first_institute": "Institut für Informationsverarbeitung",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -3236,8 +3350,8 @@
         "Convex Decomposition"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -3330,8 +3444,11 @@
         "Marc Habermann",
         "Christian Theobalt"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Saarland Informatics Campus, Max-Planck Institute",
+        "Saarbruecken Research Center for Visual Computing, Interaction, and Artificial Intellligence"
+      ],
+      "first_institute": "Saarland Informatics Campus, Max-Planck Institute",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -3350,8 +3467,8 @@
         "Matrix-free Optimization"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -3441,8 +3558,10 @@
         "Xiaoming Liu",
         "Wen-Sheng Chu"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Google LLC"
+      ],
+      "first_institute": "Google LLC",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -3459,8 +3578,8 @@
         "Multi-view Camera Pose Estimation; Bundle-Adjustment; Monocular Depth Estimation; Structure-from-Motion; RANSAC; Camera Re-localization"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -3478,8 +3597,10 @@
         "Wenzheng Chen",
         "Haisen Zhao"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Nanjing University"
+      ],
+      "first_institute": "Nanjing University",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -3498,8 +3619,8 @@
         "fast moving objects"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -3518,8 +3639,10 @@
         "Hongdong Li",
         "Yuanhao Cai"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Johns Hopkins University"
+      ],
+      "first_institute": "Johns Hopkins University",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -3537,8 +3660,8 @@
         "Large Reconstruction Model"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -3591,8 +3714,10 @@
         "Jan Fabian Schmid",
         "Annika Hagemann"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Robert Bosch GmbH, Bosch"
+      ],
+      "first_institute": "Robert Bosch GmbH, Bosch",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -3613,8 +3738,8 @@
         "Structure From Motion"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -3633,8 +3758,10 @@
         "Bingbing Liu",
         "Yiyi Liao"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Huawei Technologies Ltd."
+      ],
+      "first_institute": "Huawei Technologies Ltd.",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -3653,8 +3780,8 @@
         "Generative Model"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -3757,8 +3884,10 @@
         "Stan Birchfield",
         "Nick Haber"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "NVIDIA"
+      ],
+      "first_institute": "NVIDIA",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -3776,8 +3905,8 @@
         "vision-language models"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -3794,8 +3923,12 @@
         "AmirHossein Zamani",
         "Derek Cheung"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Autodesk",
+        "Autodesk Research",
+        "Mila - Quebec Artificial Intelligence Institute"
+      ],
+      "first_institute": "Autodesk",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -3813,8 +3946,8 @@
         "Image-to-3D"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -3904,8 +4037,10 @@
         "Zhilin Guo",
         "Cengiz Oztireli"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Princeton University"
+      ],
+      "first_institute": "Princeton University",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -3925,8 +4060,8 @@
         "Self-prior"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -4021,8 +4156,10 @@
         "Minhas Kamal",
         "Balakrishnan Prabhakaran"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "University at Albany"
+      ],
+      "first_institute": "University at Albany",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -4042,8 +4179,8 @@
         "9-DoF pose estimation"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -4059,8 +4196,10 @@
         "Florian Bernard",
         "Daniel Cremers"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Technical University Munich"
+      ],
+      "first_institute": "Technical University Munich",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -4080,8 +4219,8 @@
         "shape-matching"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -4136,8 +4275,10 @@
         "Zhuo Su",
         "Yebin Liu"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Tsinghua University"
+      ],
+      "first_institute": "Tsinghua University",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -4157,8 +4298,8 @@
         "Parametric Model"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -4214,8 +4355,11 @@
         "Renaud Marlet",
         "Vincent Lepetit"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "ENPC, Ecole Nationale des Ponts et Chausees",
+        "Valeo"
+      ],
+      "first_institute": "ENPC, Ecole Nationale des Ponts et Chausees",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -4235,8 +4379,8 @@
         "unsupervised"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -4373,8 +4517,10 @@
         "Jia-Wang Bian",
         "Bohan Zhuang"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Zhejiang University"
+      ],
+      "first_institute": "Zhejiang University",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -4394,8 +4540,8 @@
         "multi-view stereo"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -4412,8 +4558,10 @@
         "Yongwei Chen",
         "Xingang Pan"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Nanyang Technological University"
+      ],
+      "first_institute": "Nanyang Technological University",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -4430,8 +4578,8 @@
         "Mesh Generation"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -4447,8 +4595,10 @@
         "Gül Varol",
         "Ivan Laptev"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Mohamed bin Zayed University of Artificial Intelligence"
+      ],
+      "first_institute": "Mohamed bin Zayed University of Artificial Intelligence",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -4466,8 +4616,8 @@
         "Human object interaction"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -4526,8 +4676,10 @@
         "Kaiyu Guan",
         "Shenlong Wang"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "University of Illinois at Urbana-Champaign"
+      ],
+      "first_institute": "University of Illinois at Urbana-Champaign",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -4547,8 +4699,8 @@
         "plants"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -4604,8 +4756,10 @@
         "Ravi Ramamoorthi",
         "Manmohan Chandraker"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Qualcomm Inc, QualComm"
+      ],
+      "first_institute": "Qualcomm Inc, QualComm",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -4624,8 +4778,8 @@
         "Interior Design"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -4682,8 +4836,11 @@
         "Zhen Chen",
         "Congxuan Zhang"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Beihang University",
+        "Nanchang Hangkong University"
+      ],
+      "first_institute": "Beihang University",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -4701,8 +4858,8 @@
         "detection transformer"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -4912,8 +5069,10 @@
         "Manuel Kaufmann",
         "Chen Guo"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Meta Reality Labs"
+      ],
+      "first_institute": "Meta Reality Labs",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -4935,8 +5094,8 @@
         "Animation"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -5034,8 +5193,10 @@
         "Thabo Beeler",
         "Abhimitra Meka"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Google"
+      ],
+      "first_institute": "Google",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -5053,8 +5214,8 @@
         "neural rendering"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -5111,8 +5272,10 @@
         "Somaieh Amraee",
         "Sarah Ostadabbas"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Northeastern University"
+      ],
+      "first_institute": "Northeastern University",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -5135,8 +5298,8 @@
         "Structure from motion"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -5154,8 +5317,11 @@
         "Michael J. Black",
         "Justus Thies"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Max Planck Institute for Intelligent Systems, Max-Planck Institute",
+        "Max Planck Institute for Intelligent Systems"
+      ],
+      "first_institute": "Max Planck Institute for Intelligent Systems, Max-Planck Institute",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -5173,8 +5339,8 @@
         "animal reconstruction"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -5273,8 +5439,10 @@
         "Zihan Zhou",
         "Ping Tan"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Hong Kong University of Science and Technology"
+      ],
+      "first_institute": "Hong Kong University of Science and Technology",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -5293,8 +5461,8 @@
         "multi-view multi-modal diffusion."
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -5349,8 +5517,10 @@
         "Xi Wang",
         "Daniel Cremers"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Technical University Munich"
+      ],
+      "first_institute": "Technical University Munich",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -5367,8 +5537,8 @@
         "Visual SLAM"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -5385,8 +5555,10 @@
         "Federica Bogo",
         "Siyu Tang"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Meta"
+      ],
+      "first_institute": "Meta",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -5403,8 +5575,8 @@
         "Human motion recovery; Human motion generation"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -5536,8 +5708,11 @@
         "Bogdan Savchynskyy",
         "Carsten Rother"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Heidelberg University, Heidelberg University",
+        "Ruprecht-Karls-Universität Heidelberg"
+      ],
+      "first_institute": "Heidelberg University, Heidelberg University",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -5555,8 +5730,8 @@
         "Edge Device"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -5572,8 +5747,10 @@
         "Gül Varol",
         "Paolo Rota"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Valeo"
+      ],
+      "first_institute": "Valeo",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -5592,8 +5769,8 @@
         "motion captioning"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -5650,8 +5827,10 @@
         "Tongtong Cao",
         "Bingbing Liu"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Huawei Technologies Ltd."
+      ],
+      "first_institute": "Huawei Technologies Ltd.",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -5671,8 +5850,8 @@
         "scene reconstruction"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -5689,8 +5868,10 @@
         "Yuwang Wang",
         "Yebin Liu"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Ant Group"
+      ],
+      "first_institute": "Ant Group",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -5710,8 +5891,8 @@
         "3D Gaussian Splatting"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -5809,8 +5990,10 @@
         "Chunchao Guo",
         "Lu Sheng"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Tencent"
+      ],
+      "first_institute": "Tencent",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -5829,8 +6012,8 @@
         "3D Diffusion Model"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -5890,8 +6073,10 @@
         "Wim Abbeloos",
         "Luc Van Gool"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "ETHZ - ETH Zurich"
+      ],
+      "first_institute": "ETHZ - ETH Zurich",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -5910,8 +6095,8 @@
         "Monocular"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -5926,8 +6111,10 @@
         "Nantheera Anantrasirichai",
         "David Bull"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "University of Bristol"
+      ],
+      "first_institute": "University of Bristol",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -5947,8 +6134,8 @@
         "3D Reconstruction"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -5964,8 +6151,10 @@
         "Changsheng Lu",
         "Hongdong Li"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "The Hong Kong University of Science and Technology"
+      ],
+      "first_institute": "The Hong Kong University of Science and Technology",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -5983,8 +6172,8 @@
         "Image Transfer"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -6042,8 +6231,10 @@
         "Adam Kortylewski",
         "Christian Theobalt"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "CISPA Helmholtz Center for Information Security"
+      ],
+      "first_institute": "CISPA Helmholtz Center for Information Security",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -6061,8 +6252,8 @@
         "Morphable face model"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -6079,8 +6270,10 @@
         "Haibin Ling",
         "Jing Zhang"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Beijing Jiaotong University"
+      ],
+      "first_institute": "Beijing Jiaotong University",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -6099,8 +6292,8 @@
         "3D Edge Reconstruction"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -6116,8 +6309,10 @@
         "Senya Polikovsky",
         "Michael J. Black"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Max Planck Institute for Intelligent Systems, Max-Planck Institute"
+      ],
+      "first_institute": "Max Planck Institute for Intelligent Systems, Max-Planck Institute",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -6138,8 +6333,8 @@
         "self-supervision"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -6155,8 +6350,10 @@
         "Daniel Cremers",
         "Xi Wang"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Department of Informatics, Technische Universität München"
+      ],
+      "first_institute": "Department of Informatics, Technische Universität München",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -6174,8 +6371,8 @@
         "multi-modal scene understanding"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -6198,8 +6395,10 @@
         "Zongfang Lin",
         "David Gu"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "State University of New York at Stony Brook"
+      ],
+      "first_institute": "State University of New York at Stony Brook",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -6219,8 +6418,8 @@
         "Multi-views 3D Reconstruction"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -6235,8 +6434,10 @@
         "Philippe Weinzaepfel",
         "Christian Wolf"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Naver Labs Europe"
+      ],
+      "first_institute": "Naver Labs Europe",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -6255,8 +6456,8 @@
         "navigation"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -6281,8 +6482,10 @@
         "Weiyao Wang",
         "Zhiwen Fan"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Stanford University"
+      ],
+      "first_institute": "Stanford University",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -6302,8 +6505,8 @@
         "hierarchy"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -6317,8 +6520,10 @@
         "Khoi Hoang Do",
         "Binh-Son Hua"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "University of Dublin, Trinity College"
+      ],
+      "first_institute": "University of Dublin, Trinity College",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -6338,8 +6543,8 @@
         "Low-density Sampling"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -6468,8 +6673,11 @@
         "Cem Keskin",
         "Shreyas Hampali"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Facebook",
+        "Meta"
+      ],
+      "first_institute": "Facebook",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -6489,8 +6697,8 @@
         "hand personalization"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -6543,8 +6751,10 @@
         "Yan Xia",
         "Daniel Cremers"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Technical University Munich"
+      ],
+      "first_institute": "Technical University Munich",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -6563,8 +6773,8 @@
         "3D Gaussian Splatting"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -6581,8 +6791,10 @@
         "Christian Theobalt",
         "Vladislav Golyanik"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Saarbruecken Research Center for Visual Computing, Interaction, and Artificial Intellligence"
+      ],
+      "first_institute": "Saarbruecken Research Center for Visual Computing, Interaction, and Artificial Intellligence",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -6600,8 +6812,8 @@
         "signed distance fields"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
@@ -6692,8 +6904,10 @@
         "Angel X Chang",
         "Manolis Savva"
       ],
-      "affiliations": [],
-      "first_institute": "",
+      "affiliations": [
+        "Simon Fraser University"
+      ],
+      "first_institute": "Simon Fraser University",
       "venue": "3DV",
       "venue_key": "3dv",
       "year": 2026,
@@ -6713,8 +6927,8 @@
         "visual programs"
       ],
       "source": {
-        "name": "OpenReview API",
-        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference",
+        "name": "OpenReview API + OpenReview profiles",
+        "url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
         "fetched_at": "2026-06-17T20:51:00Z",
         "license": "CC BY 4.0"
       }
