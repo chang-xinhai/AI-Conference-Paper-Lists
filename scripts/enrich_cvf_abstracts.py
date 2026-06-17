@@ -25,7 +25,7 @@ def clean(value: str) -> str:
 
 def fetch_abstract(record: dict[str, Any], timeout: int) -> tuple[str, str]:
     text = fetch_text(record["paper_url"], timeout=timeout, retries=1)
-    abstract_match = re.search(r'<div id="abstract">\s*(?P<abstract>.*?)\s*</div>', text, re.S)
+    abstract_match = re.search(r'<div id="abstract"[^>]*>\s*(?P<abstract>.*?)\s*</div>', text, re.S)
     return record["id"], clean(abstract_match.group("abstract")) if abstract_match else ""
 
 
