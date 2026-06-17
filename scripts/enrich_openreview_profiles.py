@@ -219,6 +219,7 @@ def _fetch_missing_profiles(
         if cached and str(cached.get("status") or "") not in RETRYABLE_STATUSES:
             continue
         missing.append(author_id)
+    missing.sort(key=lambda author_id: (not author_id.startswith("~"), author_id.lower()))
     if max_profiles > 0:
         missing = missing[:max_profiles]
     if not missing:
