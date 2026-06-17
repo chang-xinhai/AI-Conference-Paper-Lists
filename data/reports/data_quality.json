@@ -1,10 +1,10 @@
 {
   "schema_version": "0.1",
-  "generated_at": "2026-06-17T10:18:46Z",
-  "target_count": 178,
+  "generated_at": "2026-06-17T10:26:04Z",
+  "target_count": 179,
   "status": "warning",
   "summary": {
-    "ok": 153,
+    "ok": 154,
     "warning": 25,
     "critical": 0
   },
@@ -665,6 +665,16 @@
       "status": "ok",
       "source": "pmlr",
       "count": 182,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "colt",
+      "year": 2026,
+      "path": "data/normalized/colt/colt2026.json",
+      "status": "ok",
+      "source": "colt",
+      "count": 191,
       "critical": [],
       "warnings": []
     },

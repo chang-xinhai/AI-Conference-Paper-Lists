@@ -1,25 +1,25 @@
 {
   "schema_version": "0.1",
-  "generated_at": "2026-06-17T10:18:42Z",
+  "generated_at": "2026-06-17T10:27:16Z",
   "current_year": 2026,
   "source_gap_report": "data/reports/source_gaps.json",
   "status": "warning",
   "summary": {
     "conference_count": 31,
-    "target_count": 178,
+    "target_count": 179,
     "missing_papercopilot_year_count": 0,
     "tracked_unavailable_papercopilot_year_count": 1,
     "missing_target_data_count": 0,
     "empty_target_data_count": 0,
     "papercopilot_sourced_target_count": 0,
     "fallback_target_count": 1,
-    "non_target_calendar_year_count": 39,
+    "non_target_calendar_year_count": 38,
     "non_target_by_reason": {
       "before_first_configured_target": 13,
       "biennial_even_year_cadence": 3,
       "biennial_odd_year_cadence": 3,
       "irregular_non_event_year": 4,
-      "tracked_official_source_gap": 16
+      "tracked_official_source_gap": 15
     }
   },
   "missing_papercopilot_years": [],
@@ -160,14 +160,6 @@
       "gap_id": "colm2026-openreview",
       "gap_status": "not_available",
       "evidence": "OpenReview returned zero notes."
-    },
-    {
-      "venue_key": "colt",
-      "year": 2026,
-      "reason": "tracked_official_source_gap",
-      "gap_id": "colt2026-pmlr",
-      "gap_status": "not_available",
-      "evidence": "No configured PMLR terms found on homepage."
     },
     {
       "venue_key": "corl",

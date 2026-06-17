@@ -1,14 +1,14 @@
 {
   "schema_version": "0.1",
-  "generated_at": "2026-06-17T10:18:41Z",
+  "generated_at": "2026-06-17T10:27:10Z",
   "latest_source_probe": "data/reports/latest_source_probes.json",
   "source_issues": "config/source_issues.json",
   "summary": {
-    "gap_count": 25,
+    "gap_count": 24,
     "fallback_issue_count": 1,
     "by_status": {
       "incomplete": 1,
-      "not_available": 23,
+      "not_available": 22,
       "partial": 1
     }
   },
@@ -176,14 +176,6 @@
     {
       "id": "acml2026-pmlr",
       "venue_key": "acml",
-      "year": 2026,
-      "status": "not_available",
-      "evidence": "No configured PMLR terms found on homepage.",
-      "next_action": "Monitor the official source; do not add an empty or partial year to the matrix."
-    },
-    {
-      "id": "colt2026-pmlr",
-      "venue_key": "colt",
       "year": 2026,
       "status": "not_available",
       "evidence": "No configured PMLR terms found on homepage.",

@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1",
-  "generated_at": "2026-06-17T10:18:42Z",
+  "generated_at": "2026-06-17T10:27:22Z",
   "coverage_report": "data/reports/coverage.json",
   "latest_source_audit_report": "data/reports/latest_source_audit.json",
   "validation_audit_report": "data/reports/validation_audit.json",
@@ -8,10 +8,10 @@
   "calendar_coverage_report": "data/reports/calendar_coverage.json",
   "summary": {
     "conference_count": 31,
-    "target_count": 178,
+    "target_count": 179,
     "harvested_latest_count": 31,
     "latest_source_issue_count": 1,
-    "venues_with_current_year_gaps": 18,
+    "venues_with_current_year_gaps": 17,
     "unharvested_available_source_count": 0,
     "reachable_without_parser_count": 0,
     "validation_needs_attention_count": 0,
@@ -283,21 +283,15 @@
         2022,
         2023,
         2024,
-        2025
+        2025,
+        2026
       ],
-      "latest_target_year": 2025,
-      "latest_source": "pmlr",
-      "latest_count": 182,
+      "latest_target_year": 2026,
+      "latest_source": "colt",
+      "latest_count": 191,
       "latest_validation_status": "no_baseline",
       "latest_has_source_issue": false,
-      "current_year_gaps": [
-        {
-          "id": "colt2026-pmlr",
-          "year": 2026,
-          "status": "not_available",
-          "evidence": "No configured PMLR terms found on homepage."
-        }
-      ]
+      "current_year_gaps": []
     },
     {
       "venue_key": "corl",

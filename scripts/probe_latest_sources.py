@@ -168,7 +168,6 @@ PROBES: list[dict[str, Any]] = [
     {"id": "kdd2026-crossref-acm", "venue_key": "kdd", "year": 2026, "kind": "crossref_event", "query_value": "The 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining", "event_name": "KDD '26: The 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining", "min_expected_count": 200},
     {"id": "aistats2026-pmlr", "venue_key": "aistats", "year": 2026, "kind": "pmlr_home", "terms": ["AISTATS 2026", "Artificial Intelligence and Statistics 2026", "29th International Conference on Artificial Intelligence and Statistics"]},
     {"id": "acml2026-pmlr", "venue_key": "acml", "year": 2026, "kind": "pmlr_home", "terms": ["ACML 2026", "Asian Conference on Machine Learning 2026"]},
-    {"id": "colt2026-pmlr", "venue_key": "colt", "year": 2026, "kind": "pmlr_home", "terms": ["COLT 2026", "Conference on Learning Theory 2026", "Thirty Ninth Conference on Learning Theory"]},
     {"id": "corl2026-pmlr", "venue_key": "corl", "year": 2026, "kind": "pmlr_home", "terms": ["CoRL 2026", "Conference on Robot Learning 2026"]},
     {"id": "uai2026-pmlr", "venue_key": "uai", "year": 2026, "kind": "pmlr_home", "terms": ["UAI 2026", "Uncertainty in Artificial Intelligence 2026", "Forty-second Conference on Uncertainty in Artificial Intelligence"]},
     {"id": "automl2026-pmlr", "venue_key": "automl", "year": 2026, "kind": "pmlr_home", "terms": ["AutoML 2026", "Automated Machine Learning 2026"]},
