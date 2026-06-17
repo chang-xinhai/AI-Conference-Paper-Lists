@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+from concurrent.futures import ThreadPoolExecutor, as_completed
 import html
 import re
 from typing import Any
@@ -29,6 +30,36 @@ def rss_number(year: int) -> int:
 def _clean(text: str) -> str:
     text = html.unescape(re.sub(r"<.*?>", " ", text or ""))
     return re.sub(r"\s+", " ", text).strip()
+
+
+def _accepted_page_abstract(record: dict[str, Any]) -> tuple[str, str]:
+    text = fetch_text(record["paper_url"], timeout=20, retries=2)
+    abstract_match = re.search(
+        r"<b[^>]*>\s*Abstract:\s*</b>(?P<abstract>.*?)</p>",
+        text,
+        re.S | re.I,
+    )
+    return record["id"], _clean(abstract_match.group("abstract")) if abstract_match else ""
+
+
+def _enrich_accepted_page_abstracts(records: list[dict[str, Any]]) -> None:
+    abstract_by_id: dict[str, str] = {}
+    with ThreadPoolExecutor(max_workers=8) as executor:
+        futures = [
+            executor.submit(_accepted_page_abstract, record)
+            for record in records
+            if record.get("paper_url")
+        ]
+        for future in as_completed(futures):
+            try:
+                record_id, abstract = future.result()
+            except Exception:  # noqa: BLE001 - keep the accepted list even if detail pages are flaky.
+                continue
+            if abstract:
+                abstract_by_id[record_id] = abstract
+    for record in records:
+        if abstract := abstract_by_id.get(record["id"]):
+            record["abstract"] = abstract
 
 
 def _harvest_accepted_page(venue_key: str, year: int) -> dict[str, Any]:
@@ -65,6 +96,8 @@ def _harvest_accepted_page(venue_key: str, year: int) -> dict[str, Any]:
             "license": "",
         }
         records.append(record)
+
+    _enrich_accepted_page_abstracts(records)
 
     return {
         "source": "rss",
