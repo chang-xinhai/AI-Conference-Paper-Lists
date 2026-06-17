@@ -116,6 +116,12 @@ Audit normalized data quality:
 python scripts/audit_normalized.py
 ```
 
+Probe latest-year official sources that are not yet in the matrix:
+
+```bash
+python scripts/probe_latest_sources.py
+```
+
 ## Downstream Use
 
 This repository is designed to support curated views such as [Awesome-Training-Free-Papers](https://github.com/chang-xinhai/Awesome-Training-Free-Papers).
