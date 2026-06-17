@@ -142,10 +142,11 @@ def main() -> None:
     fetched_at = now_utc()
     normalized_updated = update_records(normalized.get("records", []), metadata_by_id, fetched_at)
     raw_updated = update_records(raw.get("records", []), metadata_by_id, fetched_at)
-    normalized["fetched_at"] = fetched_at
-    raw["fetched_at"] = fetched_at
-    write_json(normalized_path, normalized)
-    write_json(raw_path, raw)
+    if normalized_updated or raw_updated:
+        normalized["fetched_at"] = fetched_at
+        raw["fetched_at"] = fetched_at
+        write_json(normalized_path, normalized)
+        write_json(raw_path, raw)
 
     print(
         f"updated normalized={normalized_updated} raw={raw_updated} failures={failures} "
