@@ -36,6 +36,7 @@ def main() -> None:
     source_gaps = read_json(ROOT / "data" / "reports" / "source_gaps.json")
     calendar = read_json(ROOT / "data" / "reports" / "calendar_coverage.json")
     latest_source_audit = read_json(ROOT / "data" / "reports" / "latest_source_audit.json")
+    validation_audit = read_json(ROOT / "data" / "reports" / "validation_audit.json")
     latest = latest_by_year(coverage)
     gaps = gaps_by_venue(source_gaps.get("gaps", []))
 
@@ -80,12 +81,19 @@ def main() -> None:
         "reachable_without_parser_count": latest_source_audit["summary"][
             "reachable_without_parser_count"
         ],
+        "validation_needs_attention_count": validation_audit["summary"][
+            "needs_attention_count"
+        ],
+        "validation_unexplained_title_drift_count": validation_audit["summary"][
+            "unexplained_title_drift_count"
+        ],
     }
     report = {
         "schema_version": "0.1",
         "generated_at": now_utc(),
         "coverage_report": "data/reports/coverage.json",
         "latest_source_audit_report": "data/reports/latest_source_audit.json",
+        "validation_audit_report": "data/reports/validation_audit.json",
         "source_gap_report": "data/reports/source_gaps.json",
         "calendar_coverage_report": "data/reports/calendar_coverage.json",
         "summary": summary,

@@ -116,6 +116,12 @@ Audit normalized data quality:
 python scripts/audit_normalized.py
 ```
 
+Audit Paper Copilot validation statuses:
+
+```bash
+python scripts/audit_validation_reports.py
+```
+
 Audit configured calendar coverage against the Paper Copilot-compatible matrix:
 
 ```bash
