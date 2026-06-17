@@ -5,7 +5,7 @@ from __future__ import annotations
 import html
 import re
 from typing import Any
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse
 
 from ..schema import empty_record, venue_name
 from ..util import fetch_json, fetch_text, now_utc
@@ -21,6 +21,24 @@ ICML_METADATA_URLS = {
         "abstracts": "https://icml.cc/static/virtual/data/icml-2026-abstracts.json",
     },
 }
+
+
+def _project_url(value: Any) -> str:
+    text = str(value or "").strip()
+    if not text:
+        return ""
+    text = re.sub(r"^(https?):\s*//", r"\1://", text, flags=re.I)
+    github_match = re.match(r"git@github\.com:(?P<path>\S+)$", text, re.I)
+    if github_match:
+        text = "https://github.com/" + github_match.group("path")
+    elif text.lower().startswith("github.com/"):
+        text = "https://" + text
+    elif not re.match(r"^https?://", text, re.I) and re.match(r"^[A-Za-z0-9.-]+\.[A-Za-z]{2,}(/.*)?$", text):
+        text = "https://" + text
+    parsed = urlparse(text)
+    if parsed.scheme not in {"http", "https"} or not parsed.netloc:
+        return ""
+    return text
 
 
 def supports(venue_key: str, year: int) -> bool:
@@ -78,9 +96,14 @@ def harvest(venue_key: str, year: int) -> dict[str, Any]:
         ]
         record["track"] = str(metadata.get("topic") or metadata.get("session") or "").strip()
         record["presentation"] = str(metadata.get("event_type") or match.group("presentation")).strip()
-        record["paper_url"] = urljoin("https://icml.cc", match.group("href"))
+        record["paper_url"] = str(metadata.get("paper_url") or "").strip() or urljoin("https://icml.cc", match.group("href"))
         if metadata.get("paper_pdf_url"):
             record["pdf_url"] = str(metadata["paper_pdf_url"])
+        project_url = _project_url(metadata.get("url"))
+        if project_url:
+            record["project_url"] = project_url
+            if urlparse(project_url).netloc.lower() == "github.com":
+                record["github_url"] = project_url
         record["source"] = {
             "name": "ICML virtual",
             "url": "; ".join([url, *metadata_urls.values()]) if metadata_urls else url,
@@ -89,11 +112,12 @@ def harvest(venue_key: str, year: int) -> dict[str, Any]:
         }
         records.append(record)
 
+    source_url = "; ".join([url, *metadata_urls.values()]) if metadata_urls else url
     return {
         "source": "icml",
         "venue_key": venue_key,
         "year": year,
-        "source_url": url,
+        "source_url": source_url,
         "fetched_at": fetched_at,
         "raw_count": len(records),
         "records": records,
