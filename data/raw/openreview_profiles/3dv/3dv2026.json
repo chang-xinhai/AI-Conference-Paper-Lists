@@ -4,9 +4,9 @@
   "venue_key": "3dv",
   "year": 2026,
   "source_url": "https://api2.openreview.net/notes?content.venueid=3DV/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
-  "fetched_at": "2026-06-17T21:27:07Z",
-  "count": 70,
-  "profile_count": 683,
+  "fetched_at": "2026-06-17T23:19:04Z",
+  "count": 177,
+  "profile_count": 808,
   "records": [
     {
       "paper_id": "3dv2026:gradrobot-geometry-aware-rendering-with-articulation-and-diffusion-for-r:d70b1493c5",
@@ -25,9 +25,53 @@
       "affiliations": [
         "Tsinghua University, Tsinghua University",
         "The Chinese University of Hong Kong, Shenzhen",
-        "Shanghai Jiaotong University"
+        "Shanghai Jiaotong University",
+        "Peking University"
       ],
       "first_institute": "Tsinghua University, Tsinghua University"
+    },
+    {
+      "paper_id": "3dv2026:proxy-free-gaussian-splats-deformation-with-splat-based-surface-estimati:6891207ad7",
+      "title": "Proxy-Free Gaussian Splats Deformation with Splat-Based Surface Estimation",
+      "paper_url": "https://openreview.net/forum?id=MVYhkjxUz3",
+      "authorids": [
+        "~Jaeyeong_Kim1",
+        "~Seungwoo_Yoo1",
+        "~Minhyuk_Sung1"
+      ],
+      "affiliations": [
+        "Korea Advanced Institute of Science & Technology"
+      ],
+      "first_institute": "Korea Advanced Institute of Science & Technology"
+    },
+    {
+      "paper_id": "3dv2026:conta-hoi-towards-physically-plausible-human-object-interaction-generati:22b59dac6a",
+      "title": "ContA-HOI: Towards Physically Plausible Human-Object Interaction Generation via Contact-Aware Modeling",
+      "paper_url": "https://openreview.net/forum?id=o2dwFExgsC",
+      "authorids": [
+        "~Zhe_Li12",
+        "~Jiakun_Li1",
+        "~Mingqi_Gao3",
+        "~Jinyu_Yang1",
+        "~Wei_Wang161",
+        "~Feng_Zheng1"
+      ],
+      "affiliations": [
+        "Southern University of Science and Technology"
+      ],
+      "first_institute": "Southern University of Science and Technology"
+    },
+    {
+      "paper_id": "3dv2026:towards-physically-based-sky-modeling-for-image-based-lighting:ad4f5d9c2f",
+      "title": "Towards Physically-Based Sky-Modeling For Image Based Lighting",
+      "paper_url": "https://openreview.net/forum?id=m6PGDcc5W0",
+      "authorids": [
+        "~Ian_J._Maquignaz1"
+      ],
+      "affiliations": [
+        "Université Laval"
+      ],
+      "first_institute": "Université Laval"
     },
     {
       "paper_id": "3dv2026:vibes-induced-vibration-for-persistent-event-based-sensing:c567bd9152",
@@ -62,9 +106,62 @@
         "~Felix_Heide2"
       ],
       "affiliations": [
-        "Technische Universität München"
+        "TORC Europe GMBH",
+        "Technische Universität München",
+        "Princeton University"
       ],
-      "first_institute": "Technische Universität München"
+      "first_institute": "TORC Europe GMBH"
+    },
+    {
+      "paper_id": "3dv2026:radarsim-simulating-single-chip-radar-via-multimodal-neural-fields:1b7d8a2bdf",
+      "title": "RadarSim: Simulating Single-Chip Radar via Multimodal Neural Fields",
+      "paper_url": "https://openreview.net/forum?id=JSqr6lye60",
+      "authorids": [
+        "~Chuhan_Chen1",
+        "~Tianshu_Huang1",
+        "~Akarsh_Prabhakara1",
+        "~Chaithanya_Kumar_Mummadi1",
+        "~Zhongxiao_Cong1",
+        "~Anthony_Rowe1",
+        "~Matthew_O'Toole2",
+        "~Deva_Ramanan1"
+      ],
+      "affiliations": [
+        "University of Wisconsin - Madison"
+      ],
+      "first_institute": "University of Wisconsin - Madison"
+    },
+    {
+      "paper_id": "3dv2026:conticom-3d-a-continuous-time-consistency-model-for-3d-point-cloud-gener:87f614464c",
+      "title": "ConTiCoM-3D: A Continuous-Time Consistency Model for 3D Point Cloud Generation",
+      "paper_url": "https://openreview.net/forum?id=eyFFM7a3w8",
+      "authorids": [
+        "~Sebastian_Eilermann1",
+        "~René_Heesch1",
+        "~Oliver_Niggemann2"
+      ],
+      "affiliations": [
+        "Helmut-Schmidt-University",
+        "Helmut Schmidt University",
+        "Helmut Schmidt University / University of the Federal Armed Forces Hamburg"
+      ],
+      "first_institute": "Helmut-Schmidt-University"
+    },
+    {
+      "paper_id": "3dv2026:a-lightweight-multi-variable-spatio-temporal-convolutional-framework-for:73adc8dbd0",
+      "title": "A Lightweight Multi-Variable Spatio-Temporal Convolutional Framework for Dynamic Gesture Recognition",
+      "paper_url": "https://openreview.net/forum?id=WI5QuXpOtS",
+      "authorids": [
+        "~Guoqiong_Liao1",
+        "~陈柯帆1",
+        "~Longjie_Huang1",
+        "~Yong_Gu1",
+        "~bo_li85"
+      ],
+      "affiliations": [
+        "Jiangxi University of Finance and Economics"
+      ],
+      "first_institute": "Jiangxi University of Finance and Economics"
     },
     {
       "paper_id": "3dv2026:sat-skylines-3d-building-generation-from-satellite-imagery-and-coarse-ge:aa407eea3f",
@@ -80,6 +177,76 @@
       "first_institute": "Institute for Creative Technologies, University of Southern California"
     },
     {
+      "paper_id": "3dv2026:seeing-through-clutter-structured-3d-scene-reconstruction-via-iterative:aec5ff785e",
+      "title": "Seeing Through Clutter: Structured 3D Scene Reconstruction via Iterative Object Removal",
+      "paper_url": "https://openreview.net/forum?id=CkElLeKlfT",
+      "authorids": [
+        "~Rio_Aguina-Kang1",
+        "~Kevin_James_Blackburn-Matzen1",
+        "~Thibault_Groueix1",
+        "~Vladimir_Kim1",
+        "~Matheus_Gadelha1"
+      ],
+      "affiliations": [
+        "Adobe Systems",
+        "Facebook"
+      ],
+      "first_institute": "Adobe Systems"
+    },
+    {
+      "paper_id": "3dv2026:minimal-solvers-for-full-dof-motion-estimation-from-asynchronous-tracks:cdbc03e78a",
+      "title": "Minimal Solvers for Full DoF Motion Estimation from Asynchronous Tracks",
+      "paper_url": "https://openreview.net/forum?id=rjSgM65aTh",
+      "authorids": [
+        "~Petr_Hruby1",
+        "~Marc_Pollefeys2"
+      ],
+      "affiliations": [
+        "KTH Royal Institute of Technology",
+        "Microsoft"
+      ],
+      "first_institute": "KTH Royal Institute of Technology"
+    },
+    {
+      "paper_id": "3dv2026:triangle-splatting-for-real-time-radiance-field-rendering:cc2f9becb2",
+      "title": "Triangle Splatting for Real-Time Radiance Field Rendering",
+      "paper_url": "https://openreview.net/forum?id=beU5y3UFrP",
+      "authorids": [
+        "~Jan_Held1",
+        "~Renaud_Vandeghen1",
+        "~Adrien_Deliege1",
+        "~Abdullah_Hamdi1",
+        "~Daniel_Rebain1",
+        "~Silvio_Giancola1",
+        "~Anthony_Cioppa1",
+        "~Andrea_Vedaldi1",
+        "~Bernard_Ghanem1",
+        "~Andrea_Tagliasacchi2",
+        "~Marc_Van_Droogenbroeck1"
+      ],
+      "affiliations": [
+        "University of Liège",
+        "University of Oxford"
+      ],
+      "first_institute": "University of Liège"
+    },
+    {
+      "paper_id": "3dv2026:dccvt-differentiable-clipped-centroidal-voronoi-tessellation:868cfc6b77",
+      "title": "DCCVT: Differentiable Clipped Centroidal Voronoi Tessellation",
+      "paper_url": "https://openreview.net/forum?id=FZJuem8RSi",
+      "authorids": [
+        "~Wylliam_Cantin_Charawi1",
+        "~Adrien_Gruson1",
+        "~Jane_Wu2",
+        "~Christian_Desrosiers1",
+        "~Diego_Thomas2"
+      ],
+      "affiliations": [
+        "École de technologie supérieure, Université du Québec"
+      ],
+      "first_institute": "École de technologie supérieure, Université du Québec"
+    },
+    {
       "paper_id": "3dv2026:caricaturegs-exaggerating-3d-gaussian-splatting-faces-with-gaussian-curv:368bbecb15",
       "title": "CaricatureGS: Exaggerating 3D Gaussian Splatting Faces with Gaussian Curvature",
       "paper_url": "https://openreview.net/forum?id=zXgx4zuOlF",
@@ -93,6 +260,128 @@
         "Computer Science Department, Technion - Israel Institute of Technology"
       ],
       "first_institute": "Computer Science Department, Technion - Israel Institute of Technology"
+    },
+    {
+      "paper_id": "3dv2026:l4p-towards-unified-low-level-4d-vision-perception:ba09e7c799",
+      "title": "L4P: Towards Unified Low-Level 4D Vision Perception",
+      "paper_url": "https://openreview.net/forum?id=QjXSTzq6AZ",
+      "authorids": [
+        "~Abhishek_Badki1",
+        "~Hang_Su1",
+        "~Bowen_Wen1",
+        "~Orazio_Gallo1"
+      ],
+      "affiliations": [
+        "NVIDIA"
+      ],
+      "first_institute": "NVIDIA"
+    },
+    {
+      "paper_id": "3dv2026:patch-based-representation-and-learning-for-efficient-deformation-modeli:51e8c36198",
+      "title": "Patch-based Representation and Learning for Efficient Deformation Modeling",
+      "paper_url": "https://openreview.net/forum?id=0b69QkGfqN",
+      "authorids": [
+        "~Ruochen_Chen1",
+        "~Dinh-Vinh-Thuy_Tran1",
+        "~Shaifali_Parashar1"
+      ],
+      "affiliations": [
+        "Ecole Centrale de Lyon"
+      ],
+      "first_institute": "Ecole Centrale de Lyon"
+    },
+    {
+      "paper_id": "3dv2026:from-blurry-to-believable-enhancing-low-quality-talking-heads-with-3d-ge:0bd0e9a551",
+      "title": "From Blurry to Believable: Enhancing Low-quality Talking Heads with 3D Generative Priors",
+      "paper_url": "https://openreview.net/forum?id=pqyPAxpmRw",
+      "authorids": [
+        "~Ding-Jiun_Huang2",
+        "~Yuanhao_Wang3",
+        "~Shao-Ji_Yuan1",
+        "~Albert_Mosella-Montoro1",
+        "~Francisco_Vicente_Carrasco1",
+        "~Cheng_Zhang8",
+        "~Fernando_De_la_Torre2"
+      ],
+      "affiliations": [
+        "Carnegie Mellon University",
+        "Texas A&M University - College Station"
+      ],
+      "first_institute": "Carnegie Mellon University"
+    },
+    {
+      "paper_id": "3dv2026:towards-enhanced-sparse-view-tomographic-reconstruction-using-3d-gaussia:dbc47942f8",
+      "title": "Towards Enhanced Sparse-View Tomographic Reconstruction Using 3D Gaussian Splatting",
+      "paper_url": "https://openreview.net/forum?id=FKY5llx10D",
+      "authorids": [
+        "~Aqsa_Yousaf1",
+        "~Paul_Agbaje1",
+        "~Afia_Anjum1",
+        "~Arkajyoti_Mitra1",
+        "~Habeeb_Olufowobi1"
+      ],
+      "affiliations": [
+        "University of Texas at Arlington"
+      ],
+      "first_institute": "University of Texas at Arlington"
+    },
+    {
+      "paper_id": "3dv2026:act-r-adaptive-camera-trajectories-for-single-view-3d-reconstruction:0c27f3cb32",
+      "title": "ACT-R: Adaptive Camera Trajectories for Single View 3D Reconstruction",
+      "paper_url": "https://openreview.net/forum?id=woWm0GDfcO",
+      "authorids": [
+        "~Yizhi_Wang2",
+        "~Mingrui_Zhao1",
+        "~Hao_Zhang25"
+      ],
+      "affiliations": [
+        "Simon Fraser University"
+      ],
+      "first_institute": "Simon Fraser University"
+    },
+    {
+      "paper_id": "3dv2026:hit-hierarchical-transformers-for-unsupervised-3d-shape-abstraction:4e8ede8196",
+      "title": "HiT: Hierarchical Transformers for Unsupervised 3D Shape Abstraction",
+      "paper_url": "https://openreview.net/forum?id=LV4BhYOFUQ",
+      "authorids": [
+        "~Aditya_Vora1",
+        "~Lily_Goli1",
+        "~Andrea_Tagliasacchi2",
+        "~Hao_Zhang25"
+      ],
+      "affiliations": [
+        "Simon Fraser University"
+      ],
+      "first_institute": "Simon Fraser University"
+    },
+    {
+      "paper_id": "3dv2026:texturesplat-per-primitive-texture-mapping-for-reflective-gaussian-splat:52c37f6204",
+      "title": "TextureSplat: Per-Primitive Texture Mapping for Reflective Gaussian Splatting",
+      "paper_url": "https://openreview.net/forum?id=aRMIlILPm9",
+      "authorids": [
+        "~Mae_Younes1",
+        "~Adnane_Boukhayma2"
+      ],
+      "affiliations": [
+        "INRIA"
+      ],
+      "first_institute": "INRIA"
+    },
+    {
+      "paper_id": "3dv2026:raco-ranking-and-covariance-for-practical-learned-keypoints:aae8f9e851",
+      "title": "RaCo: Ranking and Covariance for Practical Learned Keypoints",
+      "paper_url": "https://openreview.net/forum?id=BWtdgrdcBH",
+      "authorids": [
+        "~Abhiram_Shenoi1",
+        "~Philipp_Lindenberger1",
+        "~Paul-Edouard_Sarlin1",
+        "~Marc_Pollefeys2"
+      ],
+      "affiliations": [
+        "ETHZ - ETH Zurich",
+        "Microsoft"
+      ],
+      "first_institute": "ETHZ - ETH Zurich"
     },
     {
       "paper_id": "3dv2026:conegs-error-guided-densification-using-pixel-cones-for-improved-reconst:de8c834c20",
@@ -111,6 +400,22 @@
         "University of Tuebingen"
       ],
       "first_institute": "Technical University of Munich"
+    },
+    {
+      "paper_id": "3dv2026:diffusion-denoised-hyperspectral-gaussian-splatting:08e4f2414b",
+      "title": "Diffusion-Denoised Hyperspectral Gaussian Splatting",
+      "paper_url": "https://openreview.net/forum?id=pcEpQe5Oto",
+      "authorids": [
+        "~Sunil_Kumar_Narayanan1",
+        "~Lingjun_Zhao3",
+        "~Lu_Gan3",
+        "~Yongsheng_Chen1"
+      ],
+      "affiliations": [
+        "Geomagical Labs",
+        "Georgia Institute of Technology"
+      ],
+      "first_institute": "Geomagical Labs"
     },
     {
       "paper_id": "3dv2026:garmentcrafter-progressive-novel-view-synthesis-for-single-view-3d-garme:ab9c2322e1",
@@ -150,6 +455,58 @@
       "first_institute": "University of California Berkeley"
     },
     {
+      "paper_id": "3dv2026:contact4d-a-video-dataset-for-whole-body-human-motion-and-finger-contact:0ed2a48a1a",
+      "title": "Contact4D: A Video Dataset for Whole-Body Human Motion and Finger Contact in Dexterous Operations",
+      "paper_url": "https://openreview.net/forum?id=5DPvfQtAjm",
+      "authorids": [
+        "~Jyun-Ting_Song1",
+        "~JungEun_Kim3",
+        "~Jinkun_Cao1",
+        "~Yu_Lei10",
+        "~Takuma_Yagi1",
+        "~Kris_Kitani2"
+      ],
+      "affiliations": [
+        "Carnegie Mellon University",
+        "General Robotics",
+        "Amazon FAR"
+      ],
+      "first_institute": "Carnegie Mellon University"
+    },
+    {
+      "paper_id": "3dv2026:data-efficient-inference-of-neural-fluid-fields-via-sciml-foundation-mod:b3822cbe34",
+      "title": "Data-Efficient Inference of Neural Fluid Fields via SciML Foundation Model",
+      "paper_url": "https://openreview.net/forum?id=ORC9MfU60c",
+      "authorids": [
+        "~Yuqiu_Liu2",
+        "~Jingxuan_Xu1",
+        "~Mauricio_Soroco1",
+        "~Yunchao_Wei1",
+        "~Wuyang_Chen1"
+      ],
+      "affiliations": [
+        "Simon Fraser University",
+        "Beijing Jiaotong University"
+      ],
+      "first_institute": "Simon Fraser University"
+    },
+    {
+      "paper_id": "3dv2026:lamp-learning-robust-latent-motion-prior-for-optimization-based-human-mo:6fd2583742",
+      "title": "LaMP: Learning Robust Latent Motion Prior for Optimization-Based Human Motion Generation",
+      "paper_url": "https://openreview.net/forum?id=UiKFEdnKNQ",
+      "authorids": [
+        "~Xiaozhong_Lyu1",
+        "~Korrawe_Karunratanakul1",
+        "~Kaifeng_Zhao1",
+        "~Siyu_Tang1"
+      ],
+      "affiliations": [
+        "Department of Computer Science, ETHZ - ETH Zurich",
+        "NVIDIA"
+      ],
+      "first_institute": "Department of Computer Science, ETHZ - ETH Zurich"
+    },
+    {
       "paper_id": "3dv2026:improved-cinematic-guided-camera-language-transfer-in-3d-scene:3b85fc9103",
       "title": "Improved Cinematic-Guided Camera Language Transfer in 3D Scene",
       "paper_url": "https://openreview.net/forum?id=umWlsMFEE4",
@@ -165,6 +522,23 @@
       "first_institute": "Cardiff University"
     },
     {
+      "paper_id": "3dv2026:a-framework-for-reducing-the-complexity-of-geometric-vision-problems-and:333c463372",
+      "title": "A Framework for Reducing the Complexity of Geometric Vision Problems and its Application to Two-View Triangulation with Approximation Bounds",
+      "paper_url": "https://openreview.net/forum?id=XGGuFD5HuT",
+      "authorids": [
+        "~Felix_Rydell1",
+        "~Georg_Bökman1",
+        "~Fredrik_Kahl3",
+        "~Kathlén_Kohn1"
+      ],
+      "affiliations": [
+        "FOI",
+        "University of Amsterdam",
+        "Chalmers University"
+      ],
+      "first_institute": "FOI"
+    },
+    {
       "paper_id": "3dv2026:are-pose-estimators-ready-for-the-open-world-stage-a-genai-toolkit-for-a:fd30ffb427",
       "title": "Are Pose Estimators Ready for the Open World? STAGE: A GenAI Toolkit for Auditing 3D Human Pose Estimators",
       "paper_url": "https://openreview.net/forum?id=gesSYEKjb1",
@@ -176,9 +550,62 @@
         "~Gerard_Pons-Moll2"
       ],
       "affiliations": [
-        "Zalando SE"
+        "Zalando SE",
+        "University of Tuebingen"
       ],
       "first_institute": "Zalando SE"
+    },
+    {
+      "paper_id": "3dv2026:c3po-canonicalization-of-3d-pose-from-partial-views-with-generalizable-c:41382f19a6",
+      "title": "C3PO: Canonicalization of 3D Pose from Partial Views with Generalizable Correspondence Features",
+      "paper_url": "https://openreview.net/forum?id=lqzngsDnPj",
+      "authorids": [
+        "~Yu_Chi3",
+        "~Leonhard_Sommer1",
+        "~Olaf_Dünkel1",
+        "~Dominik_Muhle1",
+        "~Daniel_Cremers1",
+        "~Christian_Theobalt2",
+        "~Adam_Kortylewski1"
+      ],
+      "affiliations": [
+        "Technical University Munich",
+        "Saarbruecken Research Center for Visual Computing, Interaction, and Artificial Intellligence",
+        "CISPA Helmholtz Center for Information Security"
+      ],
+      "first_institute": "Technical University Munich"
+    },
+    {
+      "paper_id": "3dv2026:3d-scene-change-modeling-with-consistent-multi-view-aggregation:242ec3f649",
+      "title": "3D Scene Change Modeling with Consistent Multi-View Aggregation",
+      "paper_url": "https://openreview.net/forum?id=sV7lwfLo6H",
+      "authorids": [
+        "~Zirui_Zhou6",
+        "~Junfeng_Ni1",
+        "~Shujie_Zhang4",
+        "~Yixin_Chen3",
+        "~Siyuan_Huang2"
+      ],
+      "affiliations": [
+        "Tsinghua University"
+      ],
+      "first_institute": "Tsinghua University"
+    },
+    {
+      "paper_id": "3dv2026:a-remeshing-method-via-adaptive-multiple-original-facet-clipping-and-cen:a592b87d9e",
+      "title": "A Remeshing Method via Adaptive Multiple Original-Facet-Clipping and Centroidal Voronoi Tessellation",
+      "paper_url": "https://openreview.net/forum?id=0VCGjTgixg",
+      "authorids": [
+        "~Yue_Fei3",
+        "~Jingjing_Liu15",
+        "~Yuyou_Yao1",
+        "~Yusheng_Peng1",
+        "~Liping_Zheng2"
+      ],
+      "affiliations": [
+        "Hefei University of Technology"
+      ],
+      "first_institute": "Hefei University of Technology"
     },
     {
       "paper_id": "3dv2026:a-streamlined-attention-based-network-for-descriptor-extraction:5298077e27",
@@ -196,6 +623,22 @@
         "Sony Europe Ltd."
       ],
       "first_institute": "Sony Europe Ltd."
+    },
+    {
+      "paper_id": "3dv2026:hdedit-editing-videos-and-3d-scenes-with-video-diffusion-through-hierarc:f427db3a66",
+      "title": "HDEdit: Editing Videos and 3D Scenes with Video Diffusion Through Hierarchical Task Decomposition",
+      "paper_url": "https://openreview.net/forum?id=PReXLIPhSB",
+      "authorids": [
+        "~Yanming_Zhang3",
+        "~Jun-Kun_Chen1",
+        "~Jipeng_Lyu2",
+        "~Yu-Xiong_Wang1"
+      ],
+      "affiliations": [
+        "University of Illinois Urbana-Champaign",
+        "University of Illinois at Urbana-Champaign"
+      ],
+      "first_institute": "University of Illinois Urbana-Champaign"
     },
     {
       "paper_id": "3dv2026:event-based-multi-range-radiance-separation-and-3d-reconstruction-via-li:9729ffa65a",
@@ -230,6 +673,53 @@
       "first_institute": "Institut für Informationsverarbeitung"
     },
     {
+      "paper_id": "3dv2026:making-minimal-solvers-inverse-free-using-null-space-computation:a38fae2500",
+      "title": "Making minimal solvers inverse-free using null space computation",
+      "paper_url": "https://openreview.net/forum?id=mpXtTvZOSe",
+      "authorids": [
+        "~Hassan_Bozorgmanesh1",
+        "~Janne_Heikkilä1"
+      ],
+      "affiliations": [
+        "University of Oulu"
+      ],
+      "first_institute": "University of Oulu"
+    },
+    {
+      "paper_id": "3dv2026:texavatars-hybrid-texel-3d-representations-for-stable-rigging-of-photore:6b6e84a04b",
+      "title": "TexAvatars: Hybrid Texel-3D Representations for Stable Rigging of Photorealistic Gaussian Head Avatars",
+      "paper_url": "https://openreview.net/forum?id=degIQ94kfG",
+      "authorids": [
+        "~Jaeseong_Lee2",
+        "~Junyeong_Ahn1",
+        "~Taewoong_Kang1",
+        "~Jaegul_Choo1"
+      ],
+      "affiliations": [
+        "Korea Advanced Institute of Science & Technology",
+        "Korea Advanced Institute of Science and Technology"
+      ],
+      "first_institute": "Korea Advanced Institute of Science & Technology"
+    },
+    {
+      "paper_id": "3dv2026:fastmap-revisiting-structure-from-motion-through-first-order-optimizatio:e0dc5fe7df",
+      "title": "FastMap: Revisiting Structure from Motion through First-Order Optimization",
+      "paper_url": "https://openreview.net/forum?id=J9Oiuk4FIA",
+      "authorids": [
+        "~Jiahao_Li2",
+        "~Haochen_Wang2",
+        "~Muhammad_Zubair_Irshad1",
+        "~Igor_Vasiljevic1",
+        "~Matthew_Walter1",
+        "~Vitor_Campagnolo_Guizilini2",
+        "~Greg_Shakhnarovich1"
+      ],
+      "affiliations": [
+        "Toyota Technological Institute at Chicago"
+      ],
+      "first_institute": "Toyota Technological Institute at Chicago"
+    },
+    {
       "paper_id": "3dv2026:papr-up-close-close-up-neural-point-rendering-without-holes:f48a6412f0",
       "title": "PAPR Up-close: Close-up Neural Point Rendering without Holes",
       "paper_url": "https://openreview.net/forum?id=dkyAX6jVJs",
@@ -243,6 +733,20 @@
         "Simon Fraser University"
       ],
       "first_institute": "Simon Fraser University"
+    },
+    {
+      "paper_id": "3dv2026:next-best-view-selections-for-semantic-and-dynamic-3d-gaussian-splatting:e91c1834d5",
+      "title": "Next Best View Selections for Semantic and Dynamic 3D Gaussian Splatting",
+      "paper_url": "https://openreview.net/forum?id=jXeHPmN405",
+      "authorids": [
+        "~Yiqian_Li1",
+        "~Wen_Jiang2",
+        "~Kostas_Daniilidis1"
+      ],
+      "affiliations": [
+        "Athena Research and Innovation Centre"
+      ],
+      "first_institute": "Athena Research and Innovation Centre"
     },
     {
       "paper_id": "3dv2026:snap-towards-segmenting-anything-in-any-point-cloud:9e3c490ae8",
@@ -263,6 +767,21 @@
       "first_institute": "Northeastern University"
     },
     {
+      "paper_id": "3dv2026:prism-semi-supervised-multi-view-stereo-with-monocular-structure-priors:e214beb00b",
+      "title": "Prism: Semi-Supervised Multi-View Stereo with Monocular Structure Priors",
+      "paper_url": "https://openreview.net/forum?id=crSnqg88aO",
+      "authorids": [
+        "~Alex_Rich1",
+        "~Noah_Stier1",
+        "~Pradeep_Sen1",
+        "~Tobias_Höllerer2"
+      ],
+      "affiliations": [
+        "Yembo"
+      ],
+      "first_institute": "Yembo"
+    },
+    {
       "paper_id": "3dv2026:truecity-real-and-simulated-urban-data-for-cross-domain-3d-scene-underst:278965e10f",
       "title": "TrueCity: Real and Simulated Urban Data for Cross-Domain 3D Scene Understanding",
       "paper_url": "https://openreview.net/forum?id=wfc55x2gK2",
@@ -280,6 +799,23 @@
         "Technische Universität München"
       ],
       "first_institute": "Technische Universität München"
+    },
+    {
+      "paper_id": "3dv2026:predicting-4d-hand-trajectory-from-monocular-videos:466330cd9c",
+      "title": "Predicting 4D Hand Trajectory from Monocular Videos",
+      "paper_url": "https://openreview.net/forum?id=qGVr6yvNX8",
+      "authorids": [
+        "~Yufei_Ye1",
+        "~Yao_Feng3",
+        "~Omid_Taheri1",
+        "~Haiwen_Feng1",
+        "~Michael_J._Black1",
+        "~Shubham_Tulsiani1"
+      ],
+      "affiliations": [
+        "University of California, Berkeley"
+      ],
+      "first_institute": "University of California, Berkeley"
     },
     {
       "paper_id": "3dv2026:learning-compact-3d-gaussians-via-feed-forward-point-fusion:87a1f39324",
@@ -349,7 +885,8 @@
       ],
       "affiliations": [
         "Facebook",
-        "Meta"
+        "Meta",
+        "Carnegie Mellon University"
       ],
       "first_institute": "Facebook"
     },
@@ -366,9 +903,23 @@
         "~Kris_Kitani2"
       ],
       "affiliations": [
-        "CMU, Carnegie Mellon University"
+        "CMU, Carnegie Mellon University",
+        "Carnegie Mellon University"
       ],
       "first_institute": "CMU, Carnegie Mellon University"
+    },
+    {
+      "paper_id": "3dv2026:adaptive-graph-kolmogorov-arnold-network-for-3d-human-pose-estimation:450acb0626",
+      "title": "Adaptive Graph Kolmogorov-Arnold Network for 3D Human Pose Estimation",
+      "paper_url": "https://openreview.net/forum?id=x8KfYWgeN1",
+      "authorids": [
+        "~Abu_Taib_Mohammed_Shahjahan1",
+        "~Abdessamad_Ben_Hamza1"
+      ],
+      "affiliations": [
+        "Concordia University"
+      ],
+      "first_institute": "Concordia University"
     },
     {
       "paper_id": "3dv2026:unlocking-the-video-prior-for-high-fidelity-sparse-multi-view-image-synt:000ef68fd4",
@@ -387,6 +938,127 @@
         "Nanyang Technological University"
       ],
       "first_institute": "Nanyang Technological University"
+    },
+    {
+      "paper_id": "3dv2026:scenegen-single-image-3d-scene-generation-in-one-feedforward-pass:ff003b3e7a",
+      "title": "SceneGen: Single-Image 3D Scene Generation in One Feedforward Pass",
+      "paper_url": "https://openreview.net/forum?id=KpelxFFxQT",
+      "authorids": [
+        "~Yanxu_Meng1",
+        "~Haoning_Wu2",
+        "~Ya_Zhang1",
+        "~Weidi_Xie3"
+      ],
+      "affiliations": [
+        "Shanghai Jiaotong University"
+      ],
+      "first_institute": "Shanghai Jiaotong University"
+    },
+    {
+      "paper_id": "3dv2026:pixel-accurate-epipolar-guided-matching:ab4504a7e4",
+      "title": "Pixel-Accurate Epipolar Guided Matching",
+      "paper_url": "https://openreview.net/forum?id=9zRX5HrpnA",
+      "authorids": [
+        "~Oleksii_Nasypanyi1",
+        "~Francois_Rameau1"
+      ],
+      "affiliations": [
+        "State University of New York at Stony Brook"
+      ],
+      "first_institute": "State University of New York at Stony Brook"
+    },
+    {
+      "paper_id": "3dv2026:splatfusion-training-free-3d-scene-completion-from-sparse-views-using-te:dd1426c7a4",
+      "title": "SplatFusion: Training-Free 3D Scene Completion from Sparse Views Using Temporal Diffusion Priors and Gaussian Splatting",
+      "paper_url": "https://openreview.net/forum?id=rgRPv4QWEt",
+      "authorids": [
+        "~Tanveer_Younis1",
+        "~Dawar_Khan1",
+        "~Zhanglin_Cheng1"
+      ],
+      "affiliations": [
+        "King Abdullah University of Science and Technology"
+      ],
+      "first_institute": "King Abdullah University of Science and Technology"
+    },
+    {
+      "paper_id": "3dv2026:unified-geometry-and-color-compression-framework-for-point-clouds-via-ge:ae92751608",
+      "title": "Unified Geometry and Color Compression Framework for Point Clouds via Generative Diffusion Priors",
+      "paper_url": "https://openreview.net/forum?id=Q7IFeC0iUP",
+      "authorids": [
+        "~Tianxin_Huang1",
+        "~Gim_Hee_Lee1"
+      ],
+      "affiliations": [
+        "National University of Singapore"
+      ],
+      "first_institute": "National University of Singapore"
+    },
+    {
+      "paper_id": "3dv2026:splat-based-gradient-domain-fusion-for-seamless-view-transition:49101c0186",
+      "title": "Splat-based Gradient-domain Fusion for Seamless View Transition",
+      "paper_url": "https://openreview.net/forum?id=RFa0aBeE9N",
+      "authorids": [
+        "~Dongyoung_Choi1",
+        "~Jaemin_Cho2",
+        "~Woohyun_Kang2",
+        "~Hyunho_Ha1",
+        "~James_Tompkin3",
+        "~Min_H._Kim1"
+      ],
+      "affiliations": [
+        "Korea Advanced Institute of Science & Technology"
+      ],
+      "first_institute": "Korea Advanced Institute of Science & Technology"
+    },
+    {
+      "paper_id": "3dv2026:hierarchical-space-partition-for-surface-reconstruction:70e1824e5a",
+      "title": "Hierarchical space partition for surface reconstruction",
+      "paper_url": "https://openreview.net/forum?id=dt1lc6CUDg",
+      "authorids": [
+        "~Tangminjie1",
+        "~Xiangfei_Li1"
+      ],
+      "affiliations": [
+        "Independent",
+        "Huazhong University of Science and Technology"
+      ],
+      "first_institute": "Independent"
+    },
+    {
+      "paper_id": "3dv2026:1000fps-novel-view-synthesis-from-end-to-end-opaque-triangle-optimizatio:2075fb2401",
+      "title": "1000FPS+ Novel View Synthesis from End-to-End Opaque Triangle Optimization",
+      "paper_url": "https://openreview.net/forum?id=EFGCajKzQt",
+      "authorids": [
+        "~Zhiwen_Yan1",
+        "~Weng_Fei_Low1",
+        "~Tianxin_Huang1",
+        "~Gim_Hee_Lee1"
+      ],
+      "affiliations": [
+        "National University of Singapore"
+      ],
+      "first_institute": "National University of Singapore"
+    },
+    {
+      "paper_id": "3dv2026:scigaussian-d-dynamic-scene-reconstruction-from-a-single-snapshot-compre:e0e5455c2d",
+      "title": "SCIGaussian-D: Dynamic Scene Reconstruction from a Single Snapshot Compressive Image",
+      "paper_url": "https://openreview.net/forum?id=PH9ViPbyB5",
+      "authorids": [
+        "~Yunhao_Li7",
+        "~Yuze_Yang1",
+        "~Yanan_Hu2",
+        "~Xiaoyue_Li2",
+        "~Yong_Tang13",
+        "~Xin_Yuan4",
+        "~Peidong_Liu3"
+      ],
+      "affiliations": [
+        "Zhejiang University",
+        "Westlake University",
+        "Harbin Institute of Technology"
+      ],
+      "first_institute": "Zhejiang University"
     },
     {
       "paper_id": "3dv2026:fillerbuster-unified-scene-completion-model-for-casual-captures:6160ad5730",
@@ -408,6 +1080,20 @@
       "first_institute": "Amazon"
     },
     {
+      "paper_id": "3dv2026:sh-sas-an-implicit-neural-representation-for-complex-spherical-harmonic:e71cf23c40",
+      "title": "SH-SAS: An Implicit Neural Representation for Complex Spherical-Harmonic Scattering Fields for 3D Synthetic Aperture Sonar",
+      "paper_url": "https://openreview.net/forum?id=lj47ODNjOU",
+      "authorids": [
+        "~Omkar_Shailendra_Vengurlekar1",
+        "~Adithya_Pediredla2",
+        "~Suren_Jayasuriya3"
+      ],
+      "affiliations": [
+        "Dartmouth College"
+      ],
+      "first_institute": "Dartmouth College"
+    },
+    {
       "paper_id": "3dv2026:physmotion-physics-grounded-dynamics-from-a-single-image:271fb2defd",
       "title": "PhysMotion: Physics-Grounded Dynamics From a Single Image",
       "paper_url": "https://openreview.net/forum?id=vMS9BZAUsX",
@@ -424,6 +1110,23 @@
         "University of California, Los Angeles"
       ],
       "first_institute": "University of California, Los Angeles"
+    },
+    {
+      "paper_id": "3dv2026:nvc-gs-monocular-dynamic-scene-reconstruction-via-normal-regularized-and:207cac7478",
+      "title": "NVC-GS: Monocular Dynamic Scene Reconstruction via Normal-Regularized and Multi-View-Consistent 3D Gaussian Splatting",
+      "paper_url": "https://openreview.net/forum?id=JRBPLtGgT6",
+      "authorids": [
+        "~Huiwen_Xue2",
+        "~Kaixing_Zhao1",
+        "~Tingcheng_Li2",
+        "~Tao_Xu6",
+        "~Zuheng_Ming2"
+      ],
+      "affiliations": [
+        "Northwest Polytechnical University",
+        "Northwest Polytechnical University Xi'an"
+      ],
+      "first_institute": "Northwest Polytechnical University"
     },
     {
       "paper_id": "3dv2026:itaco-interactable-digital-twins-of-articulated-objects-from-casually-ca:926336f6fc",
@@ -499,9 +1202,10 @@
         "~Daniel_Cremers1"
       ],
       "affiliations": [
+        "Rheinische Friedrich-Wilhelms Universität Bonn",
         "Technical University Munich"
       ],
-      "first_institute": "Technical University Munich"
+      "first_institute": "Rheinische Friedrich-Wilhelms Universität Bonn"
     },
     {
       "paper_id": "3dv2026:momentum-conserving-graph-neural-networks-for-deformable-objects:d543fb2f3d",
@@ -550,6 +1254,56 @@
       "first_institute": "Meta"
     },
     {
+      "paper_id": "3dv2026:frequency-aware-gaussian-splatting-decomposition:a429f73c5a",
+      "title": "Frequency-Aware Gaussian Splatting Decomposition",
+      "paper_url": "https://openreview.net/forum?id=M61nLO9DdU",
+      "authorids": [
+        "~Yishai_Lavi1",
+        "~Leo_Segre1",
+        "~Shai_Avidan1"
+      ],
+      "affiliations": [
+        "Tel Aviv University"
+      ],
+      "first_institute": "Tel Aviv University"
+    },
+    {
+      "paper_id": "3dv2026:ctr3d-cross-view-token-reduction-for-dense-multi-view-generation:d781f0f32d",
+      "title": "CTR3D: Cross-view Token Reduction for Dense Multi-view Generation",
+      "paper_url": "https://openreview.net/forum?id=3rJQj0xZJv",
+      "authorids": [
+        "~Kunming_Luo1",
+        "~Hongyu_Yan3",
+        "~Yuan_Liu3",
+        "~Zihao_Zhang4",
+        "~Manyuan_Zhang1",
+        "~Wenping_Wang1",
+        "~Ping_Tan2"
+      ],
+      "affiliations": [
+        "Hong Kong University of Science and Technology"
+      ],
+      "first_institute": "Hong Kong University of Science and Technology"
+    },
+    {
+      "paper_id": "3dv2026:dino-in-the-room-leveraging-2d-foundation-models-for-3d-segmentation:bfff96609b",
+      "title": "DINO in the Room: Leveraging 2D Foundation Models for 3D Segmentation",
+      "paper_url": "https://openreview.net/forum?id=jrKH9CL2Tb",
+      "authorids": [
+        "~Karim_Abou_Zeid1",
+        "~Kadir_Yilmaz1",
+        "~Daan_de_Geus2",
+        "~Alexander_Hermans1",
+        "~David_B._Adrian1",
+        "~Timm_Linder1",
+        "~Bastian_Leibe3"
+      ],
+      "affiliations": [
+        "University Hospital RWTH Aachen - Radiology"
+      ],
+      "first_institute": "University Hospital RWTH Aachen - Radiology"
+    },
+    {
       "paper_id": "3dv2026:dytact-capturing-dynamic-contacts-in-hand-object-manipulation:cf1ff1867f",
       "title": "DyTact: Capturing Dynamic Contacts in Hand-Object Manipulation",
       "paper_url": "https://openreview.net/forum?id=OKABpK12jG",
@@ -567,6 +1321,38 @@
       "first_institute": "Brown University"
     },
     {
+      "paper_id": "3dv2026:gamma-from-mono-road-relative-metric-self-supervised-monocular-geometry:a75fa20078",
+      "title": "Gamma-from-Mono: Road-Relative, Metric, Self-Supervised Monocular Geometry for Vehicular Applications",
+      "paper_url": "https://openreview.net/forum?id=7cji6YFBBt",
+      "authorids": [
+        "~Gasser_Elazab1",
+        "~Maximilian_Jansen1",
+        "~Michael_Unterreiner1",
+        "~Olaf_Hellwich1"
+      ],
+      "affiliations": [
+        "CARIAD SE"
+      ],
+      "first_institute": "CARIAD SE"
+    },
+    {
+      "paper_id": "3dv2026:layered-quantum-architecture-search-for-3d-point-cloud-classification:4498096547",
+      "title": "Layered Quantum Architecture Search for 3D Point Cloud Classification",
+      "paper_url": "https://openreview.net/forum?id=GfTl5ToYrn",
+      "authorids": [
+        "~Natacha_Kuete_Meli1",
+        "~Jovita_Lukasik1",
+        "~Vladislav_Golyanik1",
+        "~Michael_Moeller1"
+      ],
+      "affiliations": [
+        "Universität Siegen",
+        "Saarland Informatics Campus, Max-Planck Institute for Informatics",
+        "University of Siegen"
+      ],
+      "first_institute": "Universität Siegen"
+    },
+    {
       "paper_id": "3dv2026:semlayoutdiff-semantic-layout-generation-with-diffusion-model-for-indoor:dfb12b8037",
       "title": "SemLayoutDiff: Semantic Layout Generation with Diffusion Model for Indoor Scene Synthesis",
       "paper_url": "https://openreview.net/forum?id=aswMBzlFqb",
@@ -579,6 +1365,22 @@
         "Simon Fraser University"
       ],
       "first_institute": "Simon Fraser University"
+    },
+    {
+      "paper_id": "3dv2026:broadening-view-synthesis-of-dynamic-scenes-from-constrained-monocular-v:e1fb6d7be2",
+      "title": "Broadening View Synthesis of Dynamic Scenes from Constrained Monocular Videos",
+      "paper_url": "https://openreview.net/forum?id=puqMzCwFl2",
+      "authorids": [
+        "~Le_Jiang2",
+        "~Shaotong_Zhu1",
+        "~Shayda_Moezzi1",
+        "~Yedi_Luo1",
+        "~Sarah_Ostadabbas1"
+      ],
+      "affiliations": [
+        "Northeastern University"
+      ],
+      "first_institute": "Northeastern University"
     },
     {
       "paper_id": "3dv2026:improved-convex-decomposition-with-ensembling-and-negative-primitives:3313632eb5",
@@ -600,6 +1402,33 @@
       "first_institute": "Institut für Informationsverarbeitung"
     },
     {
+      "paper_id": "3dv2026:laplace-beltrami-operator-for-gaussian-splatting:4c625573a3",
+      "title": "Laplace-Beltrami Operator for Gaussian Splatting",
+      "paper_url": "https://openreview.net/forum?id=EkYavEungN",
+      "authorids": [
+        "~Hongyu_Zhou5",
+        "~Zorah_Lähner1"
+      ],
+      "affiliations": [
+        "Rheinische Friedrich-Wilhelms Universität Bonn"
+      ],
+      "first_institute": "Rheinische Friedrich-Wilhelms Universität Bonn"
+    },
+    {
+      "paper_id": "3dv2026:pi3detr-parametric-instance-detection-of-3d-point-cloud-edges-with-a-geo:5e20e7cab7",
+      "title": "PI3DETR: Parametric Instance Detection of 3D Point Cloud Edges with a Geometry-Aware 3DETR",
+      "paper_url": "https://openreview.net/forum?id=N8DB2jDHJi",
+      "authorids": [
+        "~Fabio_F._Oberweger1",
+        "~Michael_Schwingshackl1",
+        "~Vanessa_Staderini1"
+      ],
+      "affiliations": [
+        "AIT Austrian Institute Of Technology"
+      ],
+      "first_institute": "AIT Austrian Institute Of Technology"
+    },
+    {
       "paper_id": "3dv2026:matrix-free-second-order-optimization-of-gaussian-splats-with-residual-s:66f9cb0a16",
       "title": "Matrix-free Second-order Optimization of Gaussian Splats with Residual Sampling",
       "paper_url": "https://openreview.net/forum?id=tLI3FZfZoq",
@@ -617,6 +1446,52 @@
       "first_institute": "Saarland Informatics Campus, Max-Planck Institute"
     },
     {
+      "paper_id": "3dv2026:symmetry-informative-and-agnostic-feature-disentanglement-for-3d-shapes:e47454bbef",
+      "title": "Symmetry Informative and Agnostic Feature Disentanglement for 3D Shapes",
+      "paper_url": "https://openreview.net/forum?id=AFkKZf7HBo",
+      "authorids": [
+        "~Tobias_Weißberg1",
+        "~Weikang_Wang3",
+        "~Paul_Roetzer1",
+        "~Nafie_El_Amrani1",
+        "~Florian_Bernard3"
+      ],
+      "affiliations": [
+        "Rheinische Friedrich-Wilhelms Universität Bonn"
+      ],
+      "first_institute": "Rheinische Friedrich-Wilhelms Universität Bonn"
+    },
+    {
+      "paper_id": "3dv2026:pasta-controllable-part-aware-shape-generation-with-autoregressive-trans:749520484b",
+      "title": "PASTA: Controllable Part-Aware Shape Generation with Autoregressive Transformers",
+      "paper_url": "https://openreview.net/forum?id=k5W7px3yZA",
+      "authorids": [
+        "~Songlin_Li1",
+        "~Despoina_Paschalidou1",
+        "~Leonidas_Guibas1"
+      ],
+      "affiliations": [
+        "NVIDIA"
+      ],
+      "first_institute": "NVIDIA"
+    },
+    {
+      "paper_id": "3dv2026:marginalized-bundle-adjustment-multi-view-camera-pose-from-monocular-dep:8fb8a7edae",
+      "title": "Marginalized Bundle Adjustment: Multi-View Camera Pose from Monocular Depth Estimates",
+      "paper_url": "https://openreview.net/forum?id=OMTumHheAo",
+      "authorids": [
+        "~Shengjie_Zhu1",
+        "~Ahmed_Abdelkader1",
+        "~Mark_J._Matthews1",
+        "~Xiaoming_Liu2",
+        "~Wen-Sheng_Chu1"
+      ],
+      "affiliations": [
+        "Google LLC"
+      ],
+      "first_institute": "Google LLC"
+    },
+    {
       "paper_id": "3dv2026:recovering-3d-shapes-from-ultra-fast-motion-blurred-images:2ae43a6491",
       "title": "Recovering 3D Shapes from Ultra-Fast Motion-Blurred Images",
       "paper_url": "https://openreview.net/forum?id=cerMFinCkh",
@@ -632,6 +1507,40 @@
         "Nanjing University"
       ],
       "first_institute": "Nanjing University"
+    },
+    {
+      "paper_id": "3dv2026:x-lrm-x-ray-large-reconstruction-model-for-extremely-sparse-view-compute:4e89bca8a0",
+      "title": "X-LRM: X-ray Large Reconstruction Model for Extremely Sparse-View Computed Tomography Recovery in One Second",
+      "paper_url": "https://openreview.net/forum?id=15uaLyhKG6",
+      "authorids": [
+        "~Guofeng_Zhang4",
+        "~Ruyi_Zha1",
+        "~Hao_He6",
+        "~Yixun_Liang1",
+        "~Alan_Yuille1",
+        "~Hongdong_Li1",
+        "~Yuanhao_Cai1"
+      ],
+      "affiliations": [
+        "Johns Hopkins University"
+      ],
+      "first_institute": "Johns Hopkins University"
+    },
+    {
+      "paper_id": "3dv2026:evaluating-latent-generative-paradigms-for-high-fidelity-3d-shape-comple:25058cd851",
+      "title": "Evaluating Latent Generative Paradigms for High-Fidelity 3D Shape Completion from a Single Depth Image",
+      "paper_url": "https://openreview.net/forum?id=ACPwFPNL5l",
+      "authorids": [
+        "~Matthias_Humt1",
+        "~Ulrich_Hillenbrand1",
+        "~Rudolph_Triebel1"
+      ],
+      "affiliations": [
+        "Technische Universität München",
+        "German Aerospace Center (DLR)",
+        "Karlsruher Institut für Technologie"
+      ],
+      "first_institute": "Technische Universität München"
     },
     {
       "paper_id": "3dv2026:xrefine-attention-guided-keypoint-match-refinement:68bde4aca9",
@@ -665,6 +1574,66 @@
       "first_institute": "Huawei Technologies Ltd."
     },
     {
+      "paper_id": "3dv2026:neural-4d-scene-reconstruction-with-multiple-one-shot-scanning-systems:fc6c08b4aa",
+      "title": "Neural 4D Scene Reconstruction with Multiple One-Shot Scanning Systems",
+      "paper_url": "https://openreview.net/forum?id=DEN96i8I9A",
+      "authorids": [
+        "~Ryusuke_Sagawa1",
+        "~Kota_Nishihara1",
+        "~Takafumi_Iwaguchi1",
+        "~Hiroshi_Kawasaki1"
+      ],
+      "affiliations": [
+        "Kyushu University, Tokyo Institute of Technology",
+        "Kyushu University"
+      ],
+      "first_institute": "Kyushu University, Tokyo Institute of Technology"
+    },
+    {
+      "paper_id": "3dv2026:zerohsi-zero-shot-4d-human-scene-interaction-by-video-generation:cac8ad1a14",
+      "title": "ZeroHSI: Zero-Shot 4D Human-Scene Interaction by Video Generation",
+      "paper_url": "https://openreview.net/forum?id=f067h21Wv5",
+      "authorids": [
+        "~Hongjie_Li2",
+        "~Hong-Xing_Yu1",
+        "~Jiaman_Li1",
+        "~Jiajun_Wu1"
+      ],
+      "affiliations": [
+        "Stanford University",
+        "Amazon"
+      ],
+      "first_institute": "Stanford University"
+    },
+    {
+      "paper_id": "3dv2026:3d-generalist-vision-language-action-models-for-crafting-3d-worlds:1685a1c83f",
+      "title": "3D-GENERALIST: Vision-Language-Action Models for Crafting 3D Worlds",
+      "paper_url": "https://openreview.net/forum?id=7qO1T1p1Zt",
+      "authorids": [
+        "~Fan-Yun_Sun1",
+        "~Shengguang_Wu1",
+        "~Christian_Jacobsen1",
+        "~Thomas_Yim1",
+        "~Haoming_Zou1",
+        "~Alex_Zook1",
+        "~Shangru_Li1",
+        "~Yu-Hsin_Chou1",
+        "~Ethem_F._Can1",
+        "~Xunlei_Wu1",
+        "~Clemens_Eppner1",
+        "~Valts_Blukis1",
+        "~Jonathan_Tremblay1",
+        "~Jiajun_Wu1",
+        "~Stan_Birchfield1",
+        "~Nick_Haber1"
+      ],
+      "affiliations": [
+        "NVIDIA",
+        "Stanford University"
+      ],
+      "first_institute": "NVIDIA"
+    },
+    {
       "paper_id": "3dv2026:a-scalable-attention-based-approach-for-image-to-3d-texture-mapping:e7cc1cfafb",
       "title": "A Scalable Attention-Based Approach for Image-to-3D Texture Mapping",
       "paper_url": "https://openreview.net/forum?id=sATvXppFr9",
@@ -683,6 +1652,36 @@
       "first_institute": "Autodesk"
     },
     {
+      "paper_id": "3dv2026:hyper-diffusion-avatars-dynamic-human-avatar-generation-using-network-we:dd84f082c7",
+      "title": "Hyper Diffusion Avatars: Dynamic Human Avatar Generation using Network Weight Space Diffusion",
+      "paper_url": "https://openreview.net/forum?id=te4ddE9Lwm",
+      "authorids": [
+        "~Dongliang_Cao1",
+        "~Guoxing_Sun1",
+        "~Marc_Habermann1",
+        "~Florian_Bernard3"
+      ],
+      "affiliations": [
+        "Rheinische Friedrich-Wilhelms Universität Bonn",
+        "Saarland Informatics Campus, Max-Planck Institute"
+      ],
+      "first_institute": "Rheinische Friedrich-Wilhelms Universität Bonn"
+    },
+    {
+      "paper_id": "3dv2026:appreciate-the-view-a-task-aware-evaluation-framework-for-novel-view-syn:2022f01888",
+      "title": "Appreciate the View: A Task-Aware Evaluation Framework for Novel View Synthesis",
+      "paper_url": "https://openreview.net/forum?id=8yBHXq0Pgh",
+      "authorids": [
+        "~Saar_Stern1",
+        "~Ido_Sobol1",
+        "~Or_Litany1"
+      ],
+      "affiliations": [
+        "Technion - Israel Institute of Technology, Technion - Israel Institute of Technology"
+      ],
+      "first_institute": "Technion - Israel Institute of Technology, Technion - Israel Institute of Technology"
+    },
+    {
       "paper_id": "3dv2026:self-supervised-implicit-attention-priors-for-point-cloud-reconstruction:eef77820eb",
       "title": "Self-Supervised Implicit Attention Priors for Point Cloud Reconstruction",
       "paper_url": "https://openreview.net/forum?id=biIkJkdV8H",
@@ -697,6 +1696,42 @@
         "Princeton University"
       ],
       "first_institute": "Princeton University"
+    },
+    {
+      "paper_id": "3dv2026:devilsight-augmenting-monocular-human-avatar-reconstruction-through-a-vi:beb0c8c872",
+      "title": "DevilSight: Augmenting Monocular Human Avatar Reconstruction through a Virtual Perspective",
+      "paper_url": "https://openreview.net/forum?id=QVbUsLhabg",
+      "authorids": [
+        "~Yushuo_Chen1",
+        "~Ruizhi_Shao1",
+        "~Youxin_Pang2",
+        "~Hongwen_Zhang1",
+        "~Xinyi_Wu1",
+        "~Rihui_Wu2",
+        "~Yebin_Liu1"
+      ],
+      "affiliations": [
+        "Beijing Normal University"
+      ],
+      "first_institute": "Beijing Normal University"
+    },
+    {
+      "paper_id": "3dv2026:socialgen-modeling-multi-human-social-interaction-with-language-models:d9ef0bb876",
+      "title": "SocialGen: Modeling Multi-Human Social Interaction with Language Models",
+      "paper_url": "https://openreview.net/forum?id=BXOvpzVEQC",
+      "authorids": [
+        "~Heng_Yu3",
+        "~Juze_Zhang1",
+        "~Changan_Chen2",
+        "~Tiange_Xiang1",
+        "~Yusu_Fang1",
+        "~Juan_Carlos_Niebles1",
+        "~Ehsan_Adeli1"
+      ],
+      "affiliations": [
+        "Stanford University"
+      ],
+      "first_institute": "Stanford University"
     },
     {
       "paper_id": "3dv2026:caoa-completion-assisted-object-cad-alignment:f7773f8c17",
@@ -723,9 +1758,24 @@
         "~Daniel_Cremers1"
       ],
       "affiliations": [
+        "Rheinische Friedrich-Wilhelms Universität Bonn",
         "Technical University Munich"
       ],
-      "first_institute": "Technical University Munich"
+      "first_institute": "Rheinische Friedrich-Wilhelms Universität Bonn"
+    },
+    {
+      "paper_id": "3dv2026:nurbsfit-robust-fitting-of-nurbs-surfaces-to-point-clouds:ccc508ce02",
+      "title": "NURBSFit: Robust Fitting of NURBS Surfaces to Point Clouds",
+      "paper_url": "https://openreview.net/forum?id=1rqjAMzq1I",
+      "authorids": [
+        "~Lizeth_Joseline_Fuentes_Perez1",
+        "~Florent_Lafarge1",
+        "~Renato_Pajarola1"
+      ],
+      "affiliations": [
+        "INRIA"
+      ],
+      "first_institute": "INRIA"
     },
     {
       "paper_id": "3dv2026:parametric-gaussian-human-model-generalizable-prior-for-efficient-and-re:fda304e9d3",
@@ -745,6 +1795,28 @@
       "first_institute": "Tsinghua University"
     },
     {
+      "paper_id": "3dv2026:gazed-context-aware-diffusion-for-accurate-3d-gaze-estimation:11ec535666",
+      "title": "GazeD: Context-Aware Diffusion for Accurate 3D Gaze Estimation",
+      "paper_url": "https://openreview.net/forum?id=sHFFQTBwfa",
+      "authorids": [
+        "~Riccardo_Catalini1",
+        "~Davide_Di_Nucci1",
+        "~Guido_Borghi1",
+        "~Davide_Davoli1",
+        "~Lorenzo_Garattoni1",
+        "~Gianpiero_Francesca1",
+        "~Yuki_Kawana1",
+        "~Roberto_Vezzani1"
+      ],
+      "affiliations": [
+        "University of Modena and Reggio Emilia",
+        "Università degli Studi di Modena e Reggio Emilia",
+        "Toyota Motor Europe NV/SA associated partner by contracted services",
+        "Toyota Motor Europe"
+      ],
+      "first_institute": "University of Modena and Reggio Emilia"
+    },
+    {
       "paper_id": "3dv2026:is-clustering-enough-for-lidar-instance-segmentation-a-state-of-the-art:6ad5440ed8",
       "title": "Is clustering enough for LiDAR instance segmentation? A state-of-the-art training-free baseline",
       "paper_url": "https://openreview.net/forum?id=ymClQqU3is",
@@ -757,9 +1829,59 @@
       ],
       "affiliations": [
         "ENPC, Ecole Nationale des Ponts et Chausees",
-        "Valeo"
+        "Valeo",
+        "Inria"
       ],
       "first_institute": "ENPC, Ecole Nationale des Ponts et Chausees"
+    },
+    {
+      "paper_id": "3dv2026:real-time-facial-animation-of-gaussian-head-avatars-via-mocap-to-paramet:8c772fb706",
+      "title": "Real-Time Facial Animation of Gaussian Head Avatars via Mocap-to-Parametric Expression Mapping",
+      "paper_url": "https://openreview.net/forum?id=8zg3J03uJF",
+      "authorids": [
+        "~I-Hsin_Chen1",
+        "~Sheng-Yen_Huang2",
+        "~Yi-ping_Hung1"
+      ],
+      "affiliations": [
+        "Department of computer science and informational engineering, National Taiwan University"
+      ],
+      "first_institute": "Department of computer science and informational engineering, National Taiwan University"
+    },
+    {
+      "paper_id": "3dv2026:supergseg-open-vocabulary-3d-segmentation-with-structured-super-gaussian:bb16f51cb7",
+      "title": "SuperGSeg: Open-Vocabulary 3D Segmentation with Structured Super-Gaussians",
+      "paper_url": "https://openreview.net/forum?id=GyAb4NJwiq",
+      "authorids": [
+        "~Siyun_Liang1",
+        "~Sen_Wang10",
+        "~Kunyi_Li2",
+        "~Michael_Niemeyer1",
+        "~Stefano_Gasperini1",
+        "~Hendrik_Lensch2",
+        "~Nassir_Navab1",
+        "~Federico_Tombari1"
+      ],
+      "affiliations": [
+        "Google"
+      ],
+      "first_institute": "Google"
+    },
+    {
+      "paper_id": "3dv2026:m2svid-end-to-end-inpainting-and-refinement-for-monocular-to-stereo-vide:6a4b3028c6",
+      "title": "M2SVid: End-to-End Inpainting and Refinement for Monocular-to-Stereo Video Conversion",
+      "paper_url": "https://openreview.net/forum?id=BwOpEUU4T1",
+      "authorids": [
+        "~Nina_Shvetsova1",
+        "~Goutam_Bhat2",
+        "~Prune_Truong1",
+        "~Hilde_Kuehne5",
+        "~Federico_Tombari1"
+      ],
+      "affiliations": [
+        "Google"
+      ],
+      "first_institute": "Google"
     },
     {
       "paper_id": "3dv2026:revisiting-depth-representations-for-feed-forward-3d-gaussian-splatting:dab23d0ad2",
@@ -795,6 +1917,109 @@
       "first_institute": "Nanyang Technological University"
     },
     {
+      "paper_id": "3dv2026:interpose-learning-to-generate-human-object-interactions-from-large-scal:9556eb0fec",
+      "title": "InterPose: Learning to Generate Human-Object Interactions from Large-Scale Web Videos",
+      "paper_url": "https://openreview.net/forum?id=HgLbN4tt4n",
+      "authorids": [
+        "~Yangsong_Zhang1",
+        "~Abdul_Ahad_Butt1",
+        "~Gül_Varol1",
+        "~Ivan_Laptev1"
+      ],
+      "affiliations": [
+        "Mohamed bin Zayed University of Artificial Intelligence"
+      ],
+      "first_institute": "Mohamed bin Zayed University of Artificial Intelligence"
+    },
+    {
+      "paper_id": "3dv2026:avatartex-high-fidelity-facial-texture-reconstruction-from-single-image:9e296953c2",
+      "title": "AvatarTex: High-Fidelity Facial Texture Reconstruction from Single-Image Stylized Avatars",
+      "paper_url": "https://openreview.net/forum?id=E8aqz5lrRN",
+      "authorids": [
+        "~Yuda_Qiu1",
+        "~Xiao_Zitong1",
+        "~Yiwei_Zuo3",
+        "~Zisheng_Ye1",
+        "~Weikai_Chen1",
+        "~Xiaoguang_Han2"
+      ],
+      "affiliations": [
+        "The Chinese University of Hong Kong, Shenzhen",
+        "The Chinese University of Hong Kong,shenzhen",
+        "Tencent America"
+      ],
+      "first_institute": "The Chinese University of Hong Kong, Shenzhen"
+    },
+    {
+      "paper_id": "3dv2026:cropcraft-complete-structural-characterization-of-crop-plants-from-image:8ad93c0825",
+      "title": "CropCraft: Complete Structural Characterization of Crop Plants from Images",
+      "paper_url": "https://openreview.net/forum?id=RsdOUMBVz9",
+      "authorids": [
+        "~Albert_J._Zhai1",
+        "~Xinlei_Wang1",
+        "~Kaiyuan_Li3",
+        "~Zhao_Jiang1",
+        "~Junxiong_Zhou1",
+        "~Sheng_Wang11",
+        "~Zhenong_Jin1",
+        "~Kaiyu_Guan1",
+        "~Shenlong_Wang1"
+      ],
+      "affiliations": [
+        "University of Illinois at Urbana-Champaign"
+      ],
+      "first_institute": "University of Illinois at Urbana-Champaign"
+    },
+    {
+      "paper_id": "3dv2026:camc2v-context-aware-controllable-video-generation:3c7e151389",
+      "title": "CamC2V: Context-aware Controllable Video Generation",
+      "paper_url": "https://openreview.net/forum?id=09WlFpCoc3",
+      "authorids": [
+        "~Luis_Denninger1",
+        "~Sina_Mokhtarzadeh_Azar1",
+        "~Juergen_Gall1"
+      ],
+      "affiliations": [
+        "University of Bonn"
+      ],
+      "first_institute": "University of Bonn"
+    },
+    {
+      "paper_id": "3dv2026:interioragent-llm-agent-for-interior-design-aware-3d-layout-generation:2be389d270",
+      "title": "INTERIORAGENT: LLM Agent for Interior Design aware 3D Layout Generation",
+      "paper_url": "https://openreview.net/forum?id=ypBfokcXvA",
+      "authorids": [
+        "~Kunal_Gupta2",
+        "~Ishit_Mehta1",
+        "~Kun_Wang1",
+        "~Nicholas_Chua1",
+        "~Abhimanyu_Krishna1",
+        "~Yan_Deng3",
+        "~Ravi_Ramamoorthi3",
+        "~Manmohan_Chandraker3"
+      ],
+      "affiliations": [
+        "Qualcomm Inc, QualComm"
+      ],
+      "first_institute": "Qualcomm Inc, QualComm"
+    },
+    {
+      "paper_id": "3dv2026:improving-multi-view-reconstruction-via-texture-guided-gaussian-mesh-joi:c930611585",
+      "title": "Improving Multi-View Reconstruction via Texture-Guided Gaussian-Mesh Joint Optimization",
+      "paper_url": "https://openreview.net/forum?id=IW5suzg9zn",
+      "authorids": [
+        "~Zhejia_Cai1",
+        "~Puhua_Jiang1",
+        "~Shiwei_Mao1",
+        "~Hongkun_Cao1",
+        "~Ruqi_Huang1"
+      ],
+      "affiliations": [
+        "PengCheng Labratory"
+      ],
+      "first_institute": "PengCheng Labratory"
+    },
+    {
       "paper_id": "3dv2026:monosistr-monocular-3d-object-detection-via-staged-iterative-structure-a:006420e8a7",
       "title": "MonoSISTR: Monocular 3D Object Detection via Staged Iterative Structure and Target Refinement",
       "paper_url": "https://openreview.net/forum?id=4NxONFB4nI",
@@ -813,6 +2038,86 @@
       "first_institute": "Beihang University"
     },
     {
+      "paper_id": "3dv2026:enhancing-3d-object-tracking-via-dual-context-propagation-and-temporal-c:bb58058ffb",
+      "title": "Enhancing 3D Object Tracking via Dual-Context Propagation and Temporal Context Fusion",
+      "paper_url": "https://openreview.net/forum?id=QXlKp7PPd7",
+      "authorids": [
+        "~Peijing_Jiang1",
+        "~Yuanping_Zhang1",
+        "~Jinlong_Pang3",
+        "~Zhongjun_Lin1"
+      ],
+      "affiliations": [
+        "Southwest University of Nationalities"
+      ],
+      "first_institute": "Southwest University of Nationalities"
+    },
+    {
+      "paper_id": "3dv2026:dream-lift-animate-from-single-images-to-animatable-gaussian-avatars:54b0292849",
+      "title": "Dream, Lift, Animate: From Single Images to Animatable Gaussian Avatars",
+      "paper_url": "https://openreview.net/forum?id=mM1G4RNcOV",
+      "authorids": [
+        "~Marcel_C._Buehler1",
+        "~Ye_Yuan5",
+        "~Xueting_Li2",
+        "~Yangyi_Huang1",
+        "~Koki_Nagano1",
+        "~Umar_Iqbal3"
+      ],
+      "affiliations": [
+        "NVIDIA"
+      ],
+      "first_institute": "NVIDIA"
+    },
+    {
+      "paper_id": "3dv2026:gsfix3d-diffusion-guided-repair-of-novel-views-in-gaussian-splatting:106becc4f1",
+      "title": "GSFix3D: Diffusion-Guided Repair of Novel Views in Gaussian Splatting",
+      "paper_url": "https://openreview.net/forum?id=rtBgTFrYcd",
+      "authorids": [
+        "~Jiaxin_Wei1",
+        "~Stefan_Leutenegger1",
+        "~Simon_Schaefer1"
+      ],
+      "affiliations": [
+        "Technische Universität München"
+      ],
+      "first_institute": "Technische Universität München"
+    },
+    {
+      "paper_id": "3dv2026:j-neus-joint-field-optimization-for-neural-surface-reconstruction-in-urb:d5df06ff46",
+      "title": "J-NeuS: Joint field optimization for Neural Surface reconstruction in urban scenes with limited image overlap",
+      "paper_url": "https://openreview.net/forum?id=UQHiAuI2mO",
+      "authorids": [
+        "~Fusang_WANG1",
+        "~Hala_Djeghim1",
+        "~Fabien_Moutarde1",
+        "~Désiré_Sidibé1"
+      ],
+      "affiliations": [
+        "Paris Sciences & Lettres (PSL)",
+        "Université Paris-Saclay",
+        "MinesParis PSL",
+        "Université d'Evry - Paris Saclay"
+      ],
+      "first_institute": "Paris Sciences & Lettres (PSL)"
+    },
+    {
+      "paper_id": "3dv2026:finding-nemo-a-geometry-aware-representation-of-template-views-for-few-s:7babaf3b5f",
+      "title": "Finding NeMO: A Geometry-Aware Representation of Template Views for Few-Shot Perception",
+      "paper_url": "https://openreview.net/forum?id=lRjg2HWAcj",
+      "authorids": [
+        "~Sebastian_Jung1",
+        "~Leonard_Klüpfel1",
+        "~Rudolph_Triebel1",
+        "~Maximilian_Durner2"
+      ],
+      "affiliations": [
+        "German Aerospace Center (DLR)",
+        "Karlsruher Institut für Technologie"
+      ],
+      "first_institute": "German Aerospace Center (DLR)"
+    },
+    {
       "paper_id": "3dv2026:gaussian-wardrobe-compositional-3d-gaussian-avatars-for-free-form-virtua:012c30e017",
       "title": "Gaussian Wardrobe: Compositional 3D Gaussian Avatars for Free-Form Virtual Try-on",
       "paper_url": "https://openreview.net/forum?id=sncanvgvUn",
@@ -828,6 +2133,77 @@
         "Meta Reality Labs"
       ],
       "first_institute": "Meta Reality Labs"
+    },
+    {
+      "paper_id": "3dv2026:sama-material-aware-3d-selection-and-segmentation:14f139d5ae",
+      "title": "SAMa: Material-aware 3D Selection and Segmentation",
+      "paper_url": "https://openreview.net/forum?id=ARdBBXtsy7",
+      "authorids": [
+        "~Michael_Fischer3",
+        "~Iliyan_Georgiev1",
+        "~Thibault_Groueix1",
+        "~Vladimir_Kim1",
+        "~Tobias_Ritschel1",
+        "~Valentin_Deschaintre1"
+      ],
+      "affiliations": [
+        "Adobe Systems",
+        "Facebook",
+        "Meta Reality Labs"
+      ],
+      "first_institute": "Adobe Systems"
+    },
+    {
+      "paper_id": "3dv2026:neuseditor-from-multi-view-images-to-text-guided-neural-surface-edits:bc66371d8c",
+      "title": "NeuSEditor: From Multi-View Images to Text-Guided Neural Surface Edits",
+      "paper_url": "https://openreview.net/forum?id=IVweUmBvFC",
+      "authorids": [
+        "~Nail_Ibrahimli1",
+        "~Julian_F._P._Kooij1",
+        "~Liangliang_Nan1"
+      ],
+      "affiliations": [
+        "Delft University of Technology"
+      ],
+      "first_institute": "Delft University of Technology"
+    },
+    {
+      "paper_id": "3dv2026:legacyavatars-volumetric-face-avatars-for-traditional-graphics-pipelines:011fb67b7b",
+      "title": "LegacyAvatars: Volumetric Face Avatars For Traditional Graphics Pipelines",
+      "paper_url": "https://openreview.net/forum?id=XNxLDhy0nN",
+      "authorids": [
+        "~Safa_C._Medin1",
+        "~Gengyan_Li1",
+        "~Ziqian_Bai1",
+        "~Ruofei_Du1",
+        "~Leonhard_Helminger1",
+        "~Yinda_Zhang4",
+        "~Stephan_J._Garbin1",
+        "~Philip_L._Davidson1",
+        "~Gregory_W._Wornell1",
+        "~Thabo_Beeler2",
+        "~Abhimitra_Meka2"
+      ],
+      "affiliations": [
+        "Google"
+      ],
+      "first_institute": "Google"
+    },
+    {
+      "paper_id": "3dv2026:open-vocabulary-monocular-3d-object-detection:71eef2e7b4",
+      "title": "Open Vocabulary Monocular 3D Object Detection",
+      "paper_url": "https://openreview.net/forum?id=aq7uMwZiX1",
+      "authorids": [
+        "~Jin_Yao2",
+        "~Hao_Gu5",
+        "~Xuweiyi_Chen1",
+        "~Jiayun_Wang1",
+        "~Zezhou_Cheng1"
+      ],
+      "affiliations": [
+        "University of Virginia, Charlottesville"
+      ],
+      "first_institute": "University of Virginia, Charlottesville"
     },
     {
       "paper_id": "3dv2026:look-around-and-pay-attention-multi-camera-point-tracking-reimagined-wit:0ce2c24127",
@@ -866,6 +2242,37 @@
       "first_institute": "Max Planck Institute for Intelligent Systems, Max-Planck Institute"
     },
     {
+      "paper_id": "3dv2026:visibility-aware-language-aggregation-for-open-vocabulary-segmentation-i:730b635faf",
+      "title": "Visibility-Aware Language Aggregation for Open-Vocabulary Segmentation in 3D Gaussian Splatting",
+      "paper_url": "https://openreview.net/forum?id=Cd9UFpiDmW",
+      "authorids": [
+        "~Sen_Wang10",
+        "~Kunyi_Li2",
+        "~Siyun_Liang1",
+        "~Elena_Alegret1",
+        "~Jing_Ma16",
+        "~Nassir_Navab1",
+        "~Stefano_Gasperini1"
+      ],
+      "affiliations": [
+        "ETHZ - ETH Zurich"
+      ],
+      "first_institute": "ETHZ - ETH Zurich"
+    },
+    {
+      "paper_id": "3dv2026:moangelo-motion-aware-neural-surface-reconstruction-for-dynamic-scenes:6f8837e286",
+      "title": "MoAngelo: Motion-Aware Neural Surface Reconstruction for Dynamic Scenes",
+      "paper_url": "https://openreview.net/forum?id=9I15MNZccs",
+      "authorids": [
+        "~Mohamed_Ebbed1",
+        "~Zorah_Lähner1"
+      ],
+      "affiliations": [
+        "Rheinische Friedrich-Wilhelms Universität Bonn"
+      ],
+      "first_institute": "Rheinische Friedrich-Wilhelms Universität Bonn"
+    },
+    {
       "paper_id": "3dv2026:spatialgen-layout-guided-3d-indoor-scene-generation:a7ad82b649",
       "title": "SpatialGen: Layout-guided 3D Indoor Scene Generation",
       "paper_url": "https://openreview.net/forum?id=lfZpGTUJCv",
@@ -884,6 +2291,22 @@
         "Hong Kong University of Science and Technology"
       ],
       "first_institute": "Hong Kong University of Science and Technology"
+    },
+    {
+      "paper_id": "3dv2026:structure-grounded-training-strategies-aid-generalization-in-stereo-matc:b60c3a7622",
+      "title": "Structure-grounded Training Strategies Aid Generalization in Stereo Matching",
+      "paper_url": "https://openreview.net/forum?id=rIeputhlON",
+      "authorids": [
+        "~Liangxun_Ou1",
+        "~Yuhui_Liu4",
+        "~Zhenyang_Li2",
+        "~Xiaoyang_Bai1",
+        "~YIFAN_PENG3"
+      ],
+      "affiliations": [
+        "University of Hong Kong"
+      ],
+      "first_institute": "University of Hong Kong"
     },
     {
       "paper_id": "3dv2026:vista-slam-visual-slam-with-symmetric-two-view-association:d332df47d7",
@@ -917,6 +2340,51 @@
       "first_institute": "Meta"
     },
     {
+      "paper_id": "3dv2026:structurally-disentangled-feature-fields-distillation-for-3d-understandi:184cf91bb6",
+      "title": "Structurally Disentangled Feature Fields Distillation for 3D Understanding and Editing",
+      "paper_url": "https://openreview.net/forum?id=caxyd2MdnJ",
+      "authorids": [
+        "~Yoel_Levy1",
+        "~David_Shavin1",
+        "~Itai_Lang1",
+        "~Sagie_Benaim1"
+      ],
+      "affiliations": [
+        "Hebrew University of Jerusalem"
+      ],
+      "first_institute": "Hebrew University of Jerusalem"
+    },
+    {
+      "paper_id": "3dv2026:3d-coca-contrastive-learners-are-3d-captioners:b4ca16a3b5",
+      "title": "3D CoCa: Contrastive Learners are 3D Captioners",
+      "paper_url": "https://openreview.net/forum?id=W8c3q3DGYN",
+      "authorids": [
+        "~Ting_Huang3",
+        "~Zeyu_Zhang11",
+        "~Yemin_Wang1",
+        "~Hao_Tang6"
+      ],
+      "affiliations": [
+        "Peking University"
+      ],
+      "first_institute": "Peking University"
+    },
+    {
+      "paper_id": "3dv2026:losc-lidar-open-voc-segmentation-consolidator:4e6f806f1b",
+      "title": "LOSC: LiDAR Open-voc Segmentation Consolidator",
+      "paper_url": "https://openreview.net/forum?id=COPq80tRPd",
+      "authorids": [
+        "~Nermin_Samet1",
+        "~Gilles_Puy2",
+        "~Renaud_Marlet1"
+      ],
+      "affiliations": [
+        "Valeo",
+        "Inria"
+      ],
+      "first_institute": "Valeo"
+    },
+    {
       "paper_id": "3dv2026:online-video-depth-anything-temporally-consistent-depth-prediction-with:ed507dfcfb",
       "title": "Online Video Depth Anything: Temporally-Consistent Depth Prediction with Low Memory Consumption",
       "paper_url": "https://openreview.net/forum?id=26S2CwuAf4",
@@ -947,6 +2415,24 @@
         "Valeo"
       ],
       "first_institute": "Valeo"
+    },
+    {
+      "paper_id": "3dv2026:scenic-scene-aware-semantic-navigation-with-instruction-guided-control:83844c3c5c",
+      "title": "SCENIC: Scene-aware Semantic Navigation with Instruction-guided Control",
+      "paper_url": "https://openreview.net/forum?id=7F0VQ1i5Zr",
+      "authorids": [
+        "~Xiaohan_Zhang2",
+        "~Sebastian_Starke2",
+        "~Vladimir_Guzov1",
+        "~Zhensong_Zhang2",
+        "~Eduardo_Pérez-Pellitero1",
+        "~Gerard_Pons-Moll2"
+      ],
+      "affiliations": [
+        "Huawei Technologies R&D (UK) Ltd.",
+        "University of Tuebingen"
+      ],
+      "first_institute": "Huawei Technologies R&D (UK) Ltd."
     },
     {
       "paper_id": "3dv2026:unigaussian-driving-scene-reconstruction-from-multiple-camera-models-via:2e970d1cfc",
@@ -984,6 +2470,41 @@
       "first_institute": "Ant Group"
     },
     {
+      "paper_id": "3dv2026:rethinking-metrics-and-diffusion-architecture-for-3d-point-cloud-generat:4233094c82",
+      "title": "Rethinking Metrics and Diffusion Architecture for 3D Point Cloud Generation",
+      "paper_url": "https://openreview.net/forum?id=ymzyZ29H0r",
+      "authorids": [
+        "~Matteo_Bastico1",
+        "~David_Ryckelynck1",
+        "~Laurent_Corté1",
+        "~Yannick_TILLIER1",
+        "~Etienne_Decencière1"
+      ],
+      "affiliations": [
+        "Mines Paris PSL University",
+        "Mines Paris - PSL"
+      ],
+      "first_institute": "Mines Paris PSL University"
+    },
+    {
+      "paper_id": "3dv2026:gaussianart-unified-modeling-of-geometry-and-motion-for-articulated-obje:342918b897",
+      "title": "GaussianArt: Unified Modeling of Geometry and Motion for Articulated Objects",
+      "paper_url": "https://openreview.net/forum?id=8DXDgSKlwk",
+      "authorids": [
+        "~Licheng_Shen1",
+        "~Saining_Zhang3",
+        "~Honghan_Li1",
+        "~Peilin_Yang3",
+        "~Zihao_Huang2",
+        "~Zongzheng_Zhang1",
+        "~Hao_Zhao1"
+      ],
+      "affiliations": [
+        "Tsinghua University, Tsinghua University"
+      ],
+      "first_institute": "Tsinghua University, Tsinghua University"
+    },
+    {
       "paper_id": "3dv2026:voxhammer-training-free-precise-and-coherent-3d-editing-in-native-3d-spa:4cc0de2821",
       "title": "VoxHammer: Training-Free Precise and Coherent 3D Editing in Native 3D Space",
       "paper_url": "https://openreview.net/forum?id=UhHNN5lW67",
@@ -1002,6 +2523,26 @@
       "first_institute": "Tencent"
     },
     {
+      "paper_id": "3dv2026:gala-guided-attention-with-language-alignment-for-open-vocabulary-gaussi:57a82f3577",
+      "title": "GALA: Guided Attention with Language Alignment for Open Vocabulary Gaussian Splatting",
+      "paper_url": "https://openreview.net/forum?id=qDUUGCGL4i",
+      "authorids": [
+        "~Elena_Alegret1",
+        "~Kunyi_Li2",
+        "~Sen_Wang10",
+        "~Siyun_Liang1",
+        "~Michael_Niemeyer1",
+        "~Stefano_Gasperini1",
+        "~Nassir_Navab1",
+        "~Federico_Tombari1"
+      ],
+      "affiliations": [
+        "ETHZ - ETH Zurich",
+        "Google"
+      ],
+      "first_institute": "ETHZ - ETH Zurich"
+    },
+    {
       "paper_id": "3dv2026:video-depth-propagation:a97d617838",
       "title": "Video Depth Propagation",
       "paper_url": "https://openreview.net/forum?id=M0thnYsVuq",
@@ -1018,6 +2559,20 @@
       "first_institute": "ETHZ - ETH Zurich"
     },
     {
+      "paper_id": "3dv2026:splatography-sparse-multi-view-dynamic-gaussian-splatting-for-film-makin:ef25302661",
+      "title": "Splatography: Sparse multi-view dynamic Gaussian Splatting for film-making challenges",
+      "paper_url": "https://openreview.net/forum?id=XXenoBDKBF",
+      "authorids": [
+        "~Adrian_Azzarelli1",
+        "~Nantheera_Anantrasirichai1",
+        "~David_Bull1"
+      ],
+      "affiliations": [
+        "University of Bristol"
+      ],
+      "first_institute": "University of Bristol"
+    },
+    {
       "paper_id": "3dv2026:learning-high-fidelity-garment-deformation-via-skinning-free-image-trans:1cc720b5c6",
       "title": "Learning High-Fidelity Garment Deformation via Skinning-Free Image Transfer",
       "paper_url": "https://openreview.net/forum?id=Kz05OU0c8f",
@@ -1031,6 +2586,44 @@
         "The Hong Kong University of Science and Technology"
       ],
       "first_institute": "The Hong Kong University of Science and Technology"
+    },
+    {
+      "paper_id": "3dv2026:sail-recon-large-sfm-by-augmenting-scene-regression-with-localization:fd9eb7a45f",
+      "title": "SAIL-Recon: Large SfM by Augmenting Scene Regression with Localization",
+      "paper_url": "https://openreview.net/forum?id=uliScQpLZW",
+      "authorids": [
+        "~Junyuan_Deng1",
+        "~Heng_Li6",
+        "~Tao_Xie11",
+        "~Weiqiang_Ren2",
+        "~Qian_Zhang7",
+        "~Ping_Tan2",
+        "~Xiaoyang_Guo1"
+      ],
+      "affiliations": [
+        "The Hong Kong University of Science and Technology",
+        "Hong Kong University of Science and Technology"
+      ],
+      "first_institute": "The Hong Kong University of Science and Technology"
+    },
+    {
+      "paper_id": "3dv2026:grmm-real-time-high-fidelity-gaussian-morphable-head-model-with-learned:67e815cec4",
+      "title": "GRMM: Real-Time High-Fidelity Gaussian Morphable Head Model with Learned Residuals",
+      "paper_url": "https://openreview.net/forum?id=2Ujsvxj558",
+      "authorids": [
+        "~Mohit_Mendiratta1",
+        "~Mayur_Deshmukh1",
+        "~Kartik_Teotia1",
+        "~Vladislav_Golyanik1",
+        "~Adam_Kortylewski1",
+        "~Christian_Theobalt2"
+      ],
+      "affiliations": [
+        "Saarland Informatics Campus, Max-Planck Institute for Informatics",
+        "CISPA Helmholtz Center for Information Security",
+        "Saarbruecken Research Center for Visual Computing, Interaction, and Artificial Intellligence"
+      ],
+      "first_institute": "Saarland Informatics Campus, Max-Planck Institute for Informatics"
     },
     {
       "paper_id": "3dv2026:uncertainty-aware-3d-edge-reconstruction-with-difference-of-gaussians:4b715b94b1",
@@ -1062,6 +2655,22 @@
         "Max Planck Institute for Intelligent Systems, Max-Planck Institute"
       ],
       "first_institute": "Max Planck Institute for Intelligent Systems, Max-Planck Institute"
+    },
+    {
+      "paper_id": "3dv2026:gmt-goal-conditioned-multimodal-transformer-for-6-dof-object-trajectory:6513eed69b",
+      "title": "GMT: Goal-Conditioned Multimodal Transformer for 6-DOF Object Trajectory Synthesis in 3D Scenes",
+      "paper_url": "https://openreview.net/forum?id=WYdIJD1Vrx",
+      "authorids": [
+        "~Huajian_Zeng1",
+        "~Abhishek_Saroha1",
+        "~Daniel_Cremers1",
+        "~Xi_Wang10"
+      ],
+      "affiliations": [
+        "Department of Informatics, Technische Universität München",
+        "Technical University Munich"
+      ],
+      "first_institute": "Department of Informatics, Technische Universität München"
     },
     {
       "paper_id": "3dv2026:inverse-rendering-for-high-genus-surface-meshes-from-multi-view-images:da3a0e0031",
@@ -1137,6 +2746,52 @@
       "first_institute": "University of Dublin, Trinity College"
     },
     {
+      "paper_id": "3dv2026:unilips-unified-lidar-pseudo-labeling-with-geometry-grounded-dynamic-sce:e9c502c5c8",
+      "title": "UniLiPs: Unified LiDAR Pseudo-Labeling with Geometry-Grounded Dynamic Scene Decomposition",
+      "paper_url": "https://openreview.net/forum?id=6wE2VAAjJY",
+      "authorids": [
+        "~Filippo_Ghilotti1",
+        "~Samuel_Brucker1",
+        "~Nahku_Saidy1",
+        "~Matteo_Matteucci1",
+        "~Mario_Bijelic1",
+        "~Felix_Heide2"
+      ],
+      "affiliations": [
+        "TORC Europe GMBH",
+        "Princeton University"
+      ],
+      "first_institute": "TORC Europe GMBH"
+    },
+    {
+      "paper_id": "3dv2026:reflect3r-single-view-3d-stereo-reconstruction-aided-by-mirror-reflectio:32c0d18c4f",
+      "title": "Reflect3r: Single-View 3D Stereo Reconstruction Aided by Mirror Reflections",
+      "paper_url": "https://openreview.net/forum?id=3oL84lYOVi",
+      "authorids": [
+        "~Jing_Wu7",
+        "~Zirui_Wang3",
+        "~Iro_Laina1",
+        "~Victor_Adrian_Prisacariu1"
+      ],
+      "affiliations": [
+        "University of Oxford"
+      ],
+      "first_institute": "University of Oxford"
+    },
+    {
+      "paper_id": "3dv2026:semantic-free-procedural-3d-shapes-are-surprisingly-good-teachers:d655ee5232",
+      "title": "Semantic-Free Procedural 3D Shapes Are Surprisingly Good Teachers",
+      "paper_url": "https://openreview.net/forum?id=NX2IKrGF1e",
+      "authorids": [
+        "~Xuweiyi_Chen1",
+        "~Zezhou_Cheng1"
+      ],
+      "affiliations": [
+        "University of Virginia, Charlottesville"
+      ],
+      "first_institute": "University of Virginia, Charlottesville"
+    },
+    {
       "paper_id": "3dv2026:palm-a-dataset-and-baseline-for-learning-multi-subject-hand-prior:28b1c78516",
       "title": "PALM: A Dataset and Baseline for Learning Multi-subject Hand Prior",
       "paper_url": "https://openreview.net/forum?id=qzYD9fKEgU",
@@ -1155,6 +2810,20 @@
         "Meta"
       ],
       "first_institute": "Facebook"
+    },
+    {
+      "paper_id": "3dv2026:rgs-dr-deferred-reflections-and-residual-shading-in-2d-gaussian-splattin:e22277c508",
+      "title": "RGS-DR: Deferred Reflections and Residual Shading in 2D Gaussian Splatting",
+      "paper_url": "https://openreview.net/forum?id=exKr285KEA",
+      "authorids": [
+        "~Georgios_Kouros1",
+        "~Minye_Wu1",
+        "~Tinne_Tuytelaars1"
+      ],
+      "affiliations": [
+        "KU Leuven"
+      ],
+      "first_institute": "KU Leuven"
     },
     {
       "paper_id": "3dv2026:trase-tracking-free-4d-segmentation-and-editing:044fc47c32",
@@ -1183,9 +2852,44 @@
         "~Vladislav_Golyanik1"
       ],
       "affiliations": [
-        "Saarbruecken Research Center for Visual Computing, Interaction, and Artificial Intellligence"
+        "Saarbruecken Research Center for Visual Computing, Interaction, and Artificial Intellligence",
+        "Saarland Informatics Campus, Max-Planck Institute for Informatics"
       ],
       "first_institute": "Saarbruecken Research Center for Visual Computing, Interaction, and Artificial Intellligence"
+    },
+    {
+      "paper_id": "3dv2026:reconstructing-hand-held-objects-in-3d-from-images-and-videos:3f94b63392",
+      "title": "Reconstructing Hand-Held Objects in 3D from Images and Videos",
+      "paper_url": "https://openreview.net/forum?id=NvrHpOgwe0",
+      "authorids": [
+        "~Jane_Wu2",
+        "~Georgios_Pavlakos1",
+        "~Georgia_Gkioxari1",
+        "~Jitendra_Malik2"
+      ],
+      "affiliations": [
+        "University of Texas at Austin",
+        "California Institute of Technology"
+      ],
+      "first_institute": "University of Texas at Austin"
+    },
+    {
+      "paper_id": "3dv2026:kaolrm-repurposing-pre-trained-large-reconstruction-models-for-parametri:56294c7d9d",
+      "title": "KaoLRM: Repurposing Pre-trained Large Reconstruction Models for Parametric 3D Face Reconstruction",
+      "paper_url": "https://openreview.net/forum?id=24GUlu6sO0",
+      "authorids": [
+        "~Qingtian_Zhu1",
+        "~Xu_Cao2",
+        "~Zhixiang_Wang1",
+        "~Yinqiang_Zheng1",
+        "~Takafumi_Taketomi1"
+      ],
+      "affiliations": [
+        "The University of Tokyo",
+        "CyberAgent, Inc.",
+        "CyberAgent"
+      ],
+      "first_institute": "The University of Tokyo"
     },
     {
       "paper_id": "3dv2026:hsm-hierarchical-scene-motifs-for-multi-scale-indoor-scene-generation:146c475d2f",
@@ -1203,6 +2907,59 @@
         "Simon Fraser University"
       ],
       "first_institute": "Simon Fraser University"
+    },
+    {
+      "paper_id": "3dv2026:quantum-multiple-rotation-averaging:87bcc3122a",
+      "title": "Quantum Multiple Rotation Averaging",
+      "paper_url": "https://openreview.net/forum?id=JVxlXIcjD0",
+      "authorids": [
+        "~Shuteng_Wang1",
+        "~Natacha_Kuete_Meli1",
+        "~Michael_Moeller1",
+        "~Vladislav_Golyanik1"
+      ],
+      "affiliations": [
+        "Saarland Informatics Campus, Max-Planck Institute",
+        "Universität Siegen",
+        "University of Siegen",
+        "Saarland Informatics Campus, Max-Planck Institute for Informatics"
+      ],
+      "first_institute": "Saarland Informatics Campus, Max-Planck Institute"
+    },
+    {
+      "paper_id": "3dv2026:detailgen3d-generative-3d-geometry-enhancement-via-data-dependent-flow:9b54b2c526",
+      "title": "DetailGen3D: Generative 3D Geometry Enhancement via Data-Dependent Flow",
+      "paper_url": "https://openreview.net/forum?id=AATCaNAsoH",
+      "authorids": [
+        "~Ken_Deng2",
+        "~Yuan-Chen_Guo1",
+        "~Jingxiang_Sun1",
+        "~Zi-Xin_Zou1",
+        "~Yangguang_Li1",
+        "~Xin_Cai2",
+        "~Yan-Pei_Cao1",
+        "~Yebin_Liu1",
+        "~Ding_Liang1"
+      ],
+      "affiliations": [
+        "The Hong Kong University of Science and Technology",
+        "Tsinghua University"
+      ],
+      "first_institute": "The Hong Kong University of Science and Technology"
+    },
+    {
+      "paper_id": "3dv2026:radially-distorted-homographies-revisited:67a81ca71a",
+      "title": "Radially Distorted Homographies, Revisited",
+      "paper_url": "https://openreview.net/forum?id=0ZyGFrfn9R",
+      "authorids": [
+        "~Mårten_Wadenbäck1",
+        "~Marcus_Valtonen_Örnhag2",
+        "~Johan_Edstedt1"
+      ],
+      "affiliations": [
+        "Linköping University"
+      ],
+      "first_institute": "Linköping University"
     }
   ]
 }
