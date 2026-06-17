@@ -13,7 +13,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
-from aicpl.util import now_utc, read_json, write_json  # noqa: E402
+from aicpl.util import now_utc, read_json, stable_id, write_json  # noqa: E402
 
 
 FRONT_MATTER_TITLES = {
@@ -77,6 +77,36 @@ def is_front_matter_title(title: str, venue_key: str, year: int) -> bool:
     )
 
 
+def malformed_url(value: object) -> bool:
+    if not value:
+        return False
+    text = str(value).strip()
+    return not (text.startswith("http://") or text.startswith("https://"))
+
+
+def issue_samples(records: list[dict], predicate, *, limit: int = 20) -> list[dict]:
+    samples = []
+    for index, record in enumerate(records):
+        if predicate(record):
+            samples.append(
+                {
+                    "index": index,
+                    "id": record.get("id", ""),
+                    "title": str(record.get("title") or "")[:160],
+                }
+            )
+        if len(samples) >= limit:
+            break
+    return samples
+
+
+def source_name(record: dict) -> str:
+    source = record.get("source")
+    if not isinstance(source, dict):
+        return ""
+    return str(source.get("name") or "")
+
+
 def audit_year(venue_key: str, year: int) -> dict:
     path = ROOT / "data" / "normalized" / venue_key / f"{venue_key}{year}.json"
     result = {
@@ -109,6 +139,48 @@ def audit_year(venue_key: str, year: int) -> dict:
         )
     if not result["source"]:
         result["critical"].append("blank_source")
+
+    record_id_mismatches = issue_samples(
+        records,
+        lambda record: record.get("id")
+        != stable_id(venue_key, year, str(record.get("title") or "")),
+    )
+    if record_id_mismatches:
+        result["critical"].append(
+            {
+                "id": "record_id_mismatches",
+                "count": sum(
+                    1
+                    for record in records
+                    if record.get("id")
+                    != stable_id(venue_key, year, str(record.get("title") or ""))
+                ),
+                "samples": record_id_mismatches,
+            }
+        )
+
+    venue_key_mismatches = issue_samples(
+        records,
+        lambda record: record.get("venue_key") != venue_key,
+    )
+    if venue_key_mismatches:
+        result["critical"].append(
+            {
+                "id": "record_venue_key_mismatches",
+                "count": sum(1 for record in records if record.get("venue_key") != venue_key),
+                "samples": venue_key_mismatches,
+            }
+        )
+
+    year_mismatches = issue_samples(records, lambda record: record.get("year") != year)
+    if year_mismatches:
+        result["critical"].append(
+            {
+                "id": "record_year_mismatches",
+                "count": sum(1 for record in records if record.get("year") != year),
+                "samples": year_mismatches,
+            }
+        )
 
     blank_title_count = sum(1 for record in records if not str(record.get("title") or "").strip())
     if blank_title_count:
@@ -143,7 +215,7 @@ def audit_year(venue_key: str, year: int) -> dict:
             }
         )
 
-    records_without_source = sum(1 for record in records if not (record.get("source") or {}).get("name"))
+    records_without_source = sum(1 for record in records if not source_name(record))
     if records_without_source:
         result["critical"].append(
             {
@@ -151,6 +223,41 @@ def audit_year(venue_key: str, year: int) -> dict:
                 "count": records_without_source,
             }
         )
+
+    non_dict_sources = issue_samples(records, lambda record: not isinstance(record.get("source"), dict))
+    if non_dict_sources:
+        result["critical"].append(
+            {
+                "id": "non_dict_sources",
+                "count": sum(1 for record in records if not isinstance(record.get("source"), dict)),
+                "samples": non_dict_sources,
+            }
+        )
+
+    for field in ["authors", "affiliations", "keywords"]:
+        bad_values = issue_samples(
+            records,
+            lambda record, field=field: not isinstance(record.get(field), list),
+        )
+        if bad_values:
+            result["critical"].append(
+                {
+                    "id": f"non_list_{field}",
+                    "count": sum(1 for record in records if not isinstance(record.get(field), list)),
+                    "samples": bad_values,
+                }
+            )
+
+    for field in ["paper_url", "pdf_url", "arxiv_url", "project_url", "github_url"]:
+        bad_urls = issue_samples(records, lambda record, field=field: malformed_url(record.get(field)))
+        if bad_urls:
+            result["critical"].append(
+                {
+                    "id": f"malformed_{field}",
+                    "count": sum(1 for record in records if malformed_url(record.get(field))),
+                    "samples": bad_urls,
+                }
+            )
 
     if result["critical"]:
         result["status"] = "critical"
