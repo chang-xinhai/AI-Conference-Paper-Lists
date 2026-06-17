@@ -1,10 +1,10 @@
 {
   "schema_version": "0.1",
-  "generated_at": "2026-06-17T09:39:44Z",
+  "generated_at": "2026-06-17T09:43:43Z",
   "summary": {
     "available": 0,
     "incomplete": 1,
-    "not_available": 15,
+    "not_available": 22,
     "partial": 1,
     "reachable": 0
   },
@@ -139,6 +139,101 @@
       "evidence": "OpenReview returned zero notes."
     },
     {
+      "id": "uai2026-openreview",
+      "venue_key": "uai",
+      "year": 2026,
+      "kind": "openreview",
+      "venue_ids": [
+        "auai.org/UAI/2026/Conference"
+      ],
+      "status": "not_available",
+      "note_count_sample": 0,
+      "venue_counts": {
+        "auai.org/UAI/2026/Conference": {
+          "count": 0,
+          "url": "https://api2.openreview.net/notes?content.venueid=auai.org%2FUAI%2F2026%2FConference&limit=1"
+        }
+      },
+      "evidence": "OpenReview returned zero notes."
+    },
+    {
+      "id": "corl2026-openreview",
+      "venue_key": "corl",
+      "year": 2026,
+      "kind": "openreview",
+      "venue_ids": [
+        "robot-learning.org/CoRL/2026/Conference"
+      ],
+      "status": "not_available",
+      "note_count_sample": 0,
+      "venue_counts": {
+        "robot-learning.org/CoRL/2026/Conference": {
+          "count": 0,
+          "url": "https://api2.openreview.net/notes?content.venueid=robot-learning.org%2FCoRL%2F2026%2FConference&limit=1"
+        }
+      },
+      "evidence": "OpenReview returned zero notes."
+    },
+    {
+      "id": "colm2026-openreview",
+      "venue_key": "colm",
+      "year": 2026,
+      "kind": "openreview",
+      "venue_ids": [
+        "colmweb.org/COLM/2026/Conference"
+      ],
+      "status": "not_available",
+      "note_count_sample": 0,
+      "venue_counts": {
+        "colmweb.org/COLM/2026/Conference": {
+          "count": 0,
+          "url": "https://api2.openreview.net/notes?content.venueid=colmweb.org%2FCOLM%2F2026%2FConference&limit=1"
+        }
+      },
+      "evidence": "OpenReview returned zero notes."
+    },
+    {
+      "id": "automl2026-openreview",
+      "venue_key": "automl",
+      "year": 2026,
+      "kind": "openreview",
+      "venue_ids": [
+        "automl.cc/AutoML/2026/Conference"
+      ],
+      "status": "not_available",
+      "note_count_sample": 0,
+      "venue_counts": {
+        "automl.cc/AutoML/2026/Conference": {
+          "count": 0,
+          "url": "https://api2.openreview.net/notes?content.venueid=automl.cc%2FAutoML%2F2026%2FConference&limit=1"
+        }
+      },
+      "evidence": "OpenReview returned zero notes."
+    },
+    {
+      "id": "acml2026-openreview",
+      "venue_key": "acml",
+      "year": 2026,
+      "kind": "openreview",
+      "venue_ids": [
+        "ACML.cc/2026/Conference",
+        "AsianML.org/ACML/2026/Conference"
+      ],
+      "status": "not_available",
+      "note_count_sample": 0,
+      "venue_counts": {
+        "ACML.cc/2026/Conference": {
+          "count": 0,
+          "url": "https://api2.openreview.net/notes?content.venueid=ACML.cc%2F2026%2FConference&limit=1"
+        },
+        "AsianML.org/ACML/2026/Conference": {
+          "count": 0,
+          "url": "https://api2.openreview.net/notes?content.venueid=AsianML.org%2FACML%2F2026%2FConference&limit=1"
+        }
+      },
+      "evidence": "OpenReview returned zero notes."
+    },
+    {
       "id": "iros2026-papercept",
       "venue_key": "iros",
       "year": 2026,
@@ -219,6 +314,19 @@
       "evidence": "No configured PMLR terms found on homepage."
     },
     {
+      "id": "acml2026-pmlr",
+      "venue_key": "acml",
+      "year": 2026,
+      "kind": "pmlr_home",
+      "terms": [
+        "ACML 2026",
+        "Asian Conference on Machine Learning 2026"
+      ],
+      "status": "not_available",
+      "matches": [],
+      "evidence": "No configured PMLR terms found on homepage."
+    },
+    {
       "id": "colt2026-pmlr",
       "venue_key": "colt",
       "year": 2026,
@@ -227,6 +335,19 @@
         "COLT 2026",
         "Conference on Learning Theory 2026",
         "Thirty Ninth Conference on Learning Theory"
+      ],
+      "status": "not_available",
+      "matches": [],
+      "evidence": "No configured PMLR terms found on homepage."
+    },
+    {
+      "id": "corl2026-pmlr",
+      "venue_key": "corl",
+      "year": 2026,
+      "kind": "pmlr_home",
+      "terms": [
+        "CoRL 2026",
+        "Conference on Robot Learning 2026"
       ],
       "status": "not_available",
       "matches": [],
