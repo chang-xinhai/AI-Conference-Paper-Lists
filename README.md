@@ -128,6 +128,12 @@ Probe latest-year official sources that are not yet in the matrix:
 python scripts/probe_latest_sources.py
 ```
 
+Fail if a complete official source is available but not harvested:
+
+```bash
+python scripts/audit_latest_source_availability.py
+```
+
 Summarize unavailable, partial, incomplete, and fallback source gaps:
 
 ```bash

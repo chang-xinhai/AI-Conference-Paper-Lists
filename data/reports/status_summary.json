@@ -1,7 +1,8 @@
 {
   "schema_version": "0.1",
-  "generated_at": "2026-06-17T10:09:52Z",
+  "generated_at": "2026-06-17T10:15:14Z",
   "coverage_report": "data/reports/coverage.json",
+  "latest_source_audit_report": "data/reports/latest_source_audit.json",
   "source_gap_report": "data/reports/source_gaps.json",
   "calendar_coverage_report": "data/reports/calendar_coverage.json",
   "summary": {
@@ -9,7 +10,9 @@
     "target_count": 178,
     "harvested_latest_count": 31,
     "latest_source_issue_count": 1,
-    "venues_with_current_year_gaps": 18
+    "venues_with_current_year_gaps": 18,
+    "unharvested_available_source_count": 0,
+    "reachable_without_parser_count": 0
   },
   "conferences": [
     {

@@ -35,6 +35,7 @@ def main() -> None:
     coverage = read_json(ROOT / "data" / "reports" / "coverage.json")["results"]
     source_gaps = read_json(ROOT / "data" / "reports" / "source_gaps.json")
     calendar = read_json(ROOT / "data" / "reports" / "calendar_coverage.json")
+    latest_source_audit = read_json(ROOT / "data" / "reports" / "latest_source_audit.json")
     latest = latest_by_year(coverage)
     gaps = gaps_by_venue(source_gaps.get("gaps", []))
 
@@ -73,11 +74,18 @@ def main() -> None:
         "harvested_latest_count": sum(1 for row in rows if row["latest_target_year"]),
         "latest_source_issue_count": sum(1 for row in rows if row["latest_has_source_issue"]),
         "venues_with_current_year_gaps": sum(1 for row in rows if row["current_year_gaps"]),
+        "unharvested_available_source_count": latest_source_audit["summary"][
+            "unharvested_available_count"
+        ],
+        "reachable_without_parser_count": latest_source_audit["summary"][
+            "reachable_without_parser_count"
+        ],
     }
     report = {
         "schema_version": "0.1",
         "generated_at": now_utc(),
         "coverage_report": "data/reports/coverage.json",
+        "latest_source_audit_report": "data/reports/latest_source_audit.json",
         "source_gap_report": "data/reports/source_gaps.json",
         "calendar_coverage_report": "data/reports/calendar_coverage.json",
         "summary": summary,

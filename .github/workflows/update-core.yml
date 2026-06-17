@@ -44,6 +44,9 @@ jobs:
       - name: Probe latest official source availability
         run: python scripts/probe_latest_sources.py
 
+      - name: Audit latest source availability
+        run: python scripts/audit_latest_source_availability.py
+
       - name: Build source gap report
         run: python scripts/build_source_gap_report.py
 
