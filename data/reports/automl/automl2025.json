@@ -1,0 +1,48 @@
+{
+  "schema_version": "0.1",
+  "venue_key": "automl",
+  "year": 2025,
+  "source": "pmlr",
+  "baseline": "papercopilot",
+  "generated_at": "2026-06-17T08:03:18Z",
+  "status": "no_baseline",
+  "min_count_ratio": 0.95,
+  "counts": {
+    "ours": 25,
+    "baseline": 0,
+    "title_overlap": 0,
+    "count_ratio": 1.0,
+    "overlap_ratio": 1.0
+  },
+  "known_baseline_issues": [],
+  "samples": {
+    "missing_from_ours": [],
+    "extra_in_ours": [
+      "auto nnu net towards automated medical image segmentation",
+      "automl algorithms for online generalized additive model selection application to electricity demand forecasting",
+      "autopdl automatic prompt optimization for llm agents",
+      "ax a platform for adaptive experimentation",
+      "capo cost aware prompt optimization",
+      "catbench a compiler autotuning benchmarking suite for black box optimization",
+      "eg enas efficient and generalizable evolutionary neural architecture search for image classification",
+      "exploring one million machine learning pipelines a benchmarking study",
+      "fast bayesian optimization of function networks with partial evaluations",
+      "feasibility driven trust region bayesian optimization",
+      "frozen layers memory efficient many fidelity hyperparameter optimization",
+      "hyperparameter optimization via interacting with probabilistic circuits",
+      "iterative monte carlo tree search for neural architecture search",
+      "multi layer stack ensembles for time series forecasting",
+      "obeying the order introducing ordered transfer hyperparameter optimization",
+      "overtuning in hyperparameter optimization",
+      "piml automated machine learning workflow optimization using llm agents",
+      "regularized neural ensemblers",
+      "revisiting learning rate control",
+      "smartcal a novel automated approach to classifier probability calibration",
+      "syftr pareto optimal generative ai",
+      "textttconfopt a library for implementation and evaluation of gradient based one shot nas methods",
+      "the ranking trick a simple and robust alternative to score based regression for automl",
+      "transferrable surrogates in expressive neural architecture search spaces",
+      "what makes freezing layers in deep neural networks effective a linear separability perspective"
+    ]
+  }
+}

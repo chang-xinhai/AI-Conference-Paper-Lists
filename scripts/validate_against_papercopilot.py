@@ -16,7 +16,7 @@ sys.path.insert(0, str(ROOT / "src"))
 from aicpl.issues import issues_for  # noqa: E402
 from aicpl.sources import papercopilot  # noqa: E402
 from aicpl.util import read_json, write_json  # noqa: E402
-from aicpl.validation import compare_records  # noqa: E402
+from aicpl.validation import compare_records, no_baseline_report  # noqa: E402
 
 
 def is_accepted_like(record: dict) -> bool:
@@ -53,16 +53,27 @@ def main() -> None:
     venue_key = args.conference.lower()
     normalized_path = ROOT / args.normalized_dir / venue_key / f"{venue_key}{args.year}.json"
     normalized = read_json(normalized_path)
-    baseline = load_papercopilot_records(venue_key, args.year, args.paperlists or None)
-    report = compare_records(
-        venue_key=venue_key,
-        year=args.year,
-        source_name=normalized.get("source", ""),
-        records=normalized["records"],
-        baseline_records=baseline,
-        min_count_ratio=args.min_count_ratio,
-        known_baseline_issues=known_baseline_issues_for(venue_key, args.year),
-    )
+    try:
+        baseline = load_papercopilot_records(venue_key, args.year, args.paperlists or None)
+    except Exception:
+        report = no_baseline_report(
+            venue_key=venue_key,
+            year=args.year,
+            source_name=normalized.get("source", ""),
+            records=normalized["records"],
+            min_count_ratio=args.min_count_ratio,
+            known_baseline_issues=known_baseline_issues_for(venue_key, args.year),
+        )
+    else:
+        report = compare_records(
+            venue_key=venue_key,
+            year=args.year,
+            source_name=normalized.get("source", ""),
+            records=normalized["records"],
+            baseline_records=baseline,
+            min_count_ratio=args.min_count_ratio,
+            known_baseline_issues=known_baseline_issues_for(venue_key, args.year),
+        )
     report_path = ROOT / args.reports_dir / venue_key / f"{venue_key}{args.year}.json"
     write_json(report_path, report)
     print(

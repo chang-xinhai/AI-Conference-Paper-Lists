@@ -17,7 +17,7 @@ from aicpl.harvesters import available_sources, harvest_with_source  # noqa: E40
 from aicpl.issues import issues_for  # noqa: E402
 from aicpl.sources import papercopilot  # noqa: E402
 from aicpl.util import now_utc, read_json, write_json  # noqa: E402
-from aicpl.validation import compare_records  # noqa: E402
+from aicpl.validation import compare_records, no_baseline_report  # noqa: E402
 
 
 def is_accepted_like(record: dict) -> bool:
@@ -119,8 +119,18 @@ def main() -> None:
                         else:
                             baseline_rows = papercopilot.load(venue_key, year)
                     except Exception:
+                        report = no_baseline_report(
+                            venue_key=venue_key,
+                            year=year,
+                            source_name=source,
+                            records=payload["records"],
+                            min_count_ratio=args.min_count_ratio,
+                            known_baseline_issues=known_baseline_issues_for(venue_key, year),
+                        )
+                        report_path = ROOT / "data" / "reports" / venue_key / f"{venue_key}{year}.json"
+                        write_json(report_path, report)
                         result["validation_status"] = "no_baseline"
-                        result["validation_counts"] = {}
+                        result["validation_counts"] = report["counts"]
                     else:
                         baseline_records = [
                             record

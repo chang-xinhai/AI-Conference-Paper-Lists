@@ -13,6 +13,9 @@ from ..util import fetch_text, now_utc
 
 
 BASE_URL = "https://www.ijcai.org/proceedings/{year}/"
+ACCEPTED_URLS = {
+    2026: "https://2026.ijcai.org/accepted-papers/",
+}
 
 
 def supports(venue_key: str, year: int) -> bool:
@@ -31,9 +34,70 @@ def _last_context(contexts: list[tuple[int, str]], position: int) -> str:
     return contexts[index][1] if index >= 0 else ""
 
 
+def _harvest_accepted_page(venue_key: str, year: int) -> dict[str, Any]:
+    url = ACCEPTED_URLS[year]
+    text = fetch_text(url, timeout=90, retries=6)
+    fetched_at = now_utc()
+    starts = list(re.finditer(r'<li class="ij-paper"[^>]*>', text))
+    records = []
+
+    for index, match in enumerate(starts):
+        end = starts[index + 1].start() if index + 1 < len(starts) else text.find("</ol>", match.start())
+        block = text[match.start() : end if end != -1 else len(text)]
+        title_match = re.search(r'<h3 class="ij-ptitle">(?P<title>.*?)</h3>', block, re.S)
+        if not title_match:
+            continue
+        title = _clean(title_match.group("title"))
+        if not title:
+            continue
+
+        record = empty_record(venue_key, venue_name(venue_key), year, title)
+        pid_match = re.search(r'<div class="ij-pid">#(?P<pid>\d+)</div>', block)
+        if pid_match:
+            record["presentation"] = f"Paper #{pid_match.group('pid')}"
+        record["authors"] = [
+            _clean(author)
+            for author in re.findall(r'<span class="ij-author">(?P<author>.*?)</span>', block, re.S)
+            if _clean(author)
+        ]
+        abstract_match = re.search(
+            r'<div class="ij-abstract">(?P<abstract>.*?)</div>',
+            block,
+            re.S,
+        )
+        if abstract_match:
+            record["abstract"] = _clean(abstract_match.group("abstract"))
+        record["keywords"] = [
+            _clean(keyword)
+            for keyword in re.findall(r'<span class="ij-kw" title="(?P<keyword>[^"]+)">', block)
+            if _clean(keyword)
+        ]
+        record["paper_url"] = url
+        record["source"] = {
+            "name": "IJCAI Accepted Papers",
+            "url": url,
+            "fetched_at": fetched_at,
+            "license": "",
+        }
+        records.append(record)
+
+    return {
+        "source": "ijcai",
+        "venue_key": venue_key,
+        "year": year,
+        "source_url": url,
+        "fetched_at": fetched_at,
+        "raw_count": len(records),
+        "records": records,
+    }
+
+
 def harvest(venue_key: str, year: int) -> dict[str, Any]:
     if not supports(venue_key, year):
         raise ValueError(f"IJCAI route unsupported for {venue_key}{year}")
+
+    if year in ACCEPTED_URLS:
+        return _harvest_accepted_page(venue_key, year)
 
     url = BASE_URL.format(year=year)
     text = fetch_text(url, timeout=90, retries=6)

@@ -71,3 +71,38 @@ def compare_records(
             "extra_in_ours": extra_in_ours,
         },
     }
+
+
+def no_baseline_report(
+    *,
+    venue_key: str,
+    year: int,
+    source_name: str,
+    records: list[dict[str, Any]],
+    baseline: str = "papercopilot",
+    min_count_ratio: float = 0.95,
+    known_baseline_issues: list[dict[str, Any]] | None = None,
+) -> dict[str, Any]:
+    titles = {canonical_title(record.get("title", "")) for record in records if record.get("title")}
+    return {
+        "schema_version": "0.1",
+        "venue_key": venue_key,
+        "year": year,
+        "source": source_name,
+        "baseline": baseline,
+        "generated_at": now_utc(),
+        "status": "no_baseline",
+        "min_count_ratio": min_count_ratio,
+        "counts": {
+            "ours": len(titles),
+            "baseline": 0,
+            "title_overlap": 0,
+            "count_ratio": 1.0,
+            "overlap_ratio": 1.0,
+        },
+        "known_baseline_issues": known_baseline_issues or [],
+        "samples": {
+            "missing_from_ours": [],
+            "extra_in_ours": sorted(titles)[:100],
+        },
+    }

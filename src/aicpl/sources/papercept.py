@@ -12,6 +12,11 @@ from ..util import fetch_text, normalize_title, now_utc
 
 
 PROGRAM_URLS = {
+    ("icra", 2026): [
+        "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_3.html",
+        "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_4.html",
+        "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_5.html",
+    ],
     ("iros", 2025): [
         "https://ras.papercept.net/conferences/conferences/IROS25/program/IROS25_ContentListWeb_1.html",
         "https://ras.papercept.net/conferences/conferences/IROS25/program/IROS25_ContentListWeb_2.html",
