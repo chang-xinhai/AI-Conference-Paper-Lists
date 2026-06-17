@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1",
-  "generated_at": "2026-06-17T08:22:10Z",
+  "generated_at": "2026-06-17T08:31:31Z",
   "validate_against_papercopilot": true,
   "source": "existing_normalized_data",
   "allow_papercopilot_fallback": false,
@@ -2781,19 +2781,20 @@
       "venue_key": "uai",
       "year": 2024,
       "candidate_sources": [
+        "pmlr",
         "openreview"
       ],
       "status": "harvested",
-      "source": "openreview",
-      "count": 200,
+      "source": "pmlr",
+      "count": 201,
       "message": "",
       "validation_status": "ok",
       "validation_counts": {
-        "ours": 200,
+        "ours": 201,
         "baseline": 201,
-        "title_overlap": 197,
-        "count_ratio": 0.995,
-        "overlap_ratio": 0.9801
+        "title_overlap": 201,
+        "count_ratio": 1.0,
+        "overlap_ratio": 1.0
       }
     },
     {
