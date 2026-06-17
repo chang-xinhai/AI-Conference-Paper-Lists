@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1",
-  "generated_at": "2026-06-17T08:03:42Z",
+  "generated_at": "2026-06-17T08:09:09Z",
   "validate_against_papercopilot": true,
   "source": "existing_normalized_data",
   "allow_papercopilot_fallback": false,
@@ -351,6 +351,25 @@
         "ours": 87,
         "baseline": 87,
         "title_overlap": 87,
+        "count_ratio": 1.0,
+        "overlap_ratio": 1.0
+      }
+    },
+    {
+      "venue_key": "acml",
+      "year": 2025,
+      "candidate_sources": [
+        "pmlr"
+      ],
+      "status": "harvested",
+      "source": "pmlr",
+      "count": 79,
+      "message": "",
+      "validation_status": "no_baseline",
+      "validation_counts": {
+        "ours": 79,
+        "baseline": 0,
+        "title_overlap": 0,
         "count_ratio": 1.0,
         "overlap_ratio": 1.0
       }
@@ -1575,19 +1594,20 @@
       "venue_key": "icml",
       "year": 2025,
       "candidate_sources": [
+        "pmlr",
         "openreview"
       ],
       "status": "harvested",
-      "source": "openreview",
-      "count": 3257,
+      "source": "pmlr",
+      "count": 3330,
       "message": "",
       "validation_status": "ok",
       "validation_counts": {
-        "ours": 3257,
+        "ours": 3330,
         "baseline": 3342,
-        "title_overlap": 3251,
-        "count_ratio": 0.9746,
-        "overlap_ratio": 0.9728
+        "title_overlap": 3305,
+        "count_ratio": 0.9964,
+        "overlap_ratio": 0.9889
       }
     },
     {
