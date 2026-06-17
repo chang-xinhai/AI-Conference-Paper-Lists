@@ -41,6 +41,15 @@ jobs:
       - name: Audit normalized data quality
         run: python scripts/audit_normalized.py
 
+      - name: Probe latest official source availability
+        run: python scripts/probe_latest_sources.py
+
+      - name: Build source gap report
+        run: python scripts/build_source_gap_report.py
+
+      - name: Audit calendar coverage
+        run: python scripts/audit_calendar_coverage.py --no-fail
+
       - name: Validate Python sources
         run: python -m compileall -q src scripts
 
@@ -50,6 +59,6 @@ jobs:
           commit-message: "data: refresh conference paper lists"
           title: "data: refresh conference paper lists"
           body: |
-            Automated refresh of official-source harvests, Paper Copilot validation reports, and full coverage metadata.
+            Automated refresh of official-source harvests, Paper Copilot validation reports, latest-source probes, source gap metadata, and coverage audits.
           branch: automation/update-paper-lists
           delete-branch: true
