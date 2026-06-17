@@ -1,10 +1,10 @@
 {
   "schema_version": "0.1",
-  "generated_at": "2026-06-17T08:12:16Z",
-  "target_count": 152,
+  "generated_at": "2026-06-17T08:22:12Z",
+  "target_count": 153,
   "status": "warning",
   "summary": {
-    "ok": 129,
+    "ok": 130,
     "warning": 23,
     "critical": 0
   },
@@ -1408,6 +1408,16 @@
       "status": "ok",
       "source": "rss",
       "count": 163,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "rss",
+      "year": 2026,
+      "path": "data/normalized/rss/rss2026.json",
+      "status": "ok",
+      "source": "rss",
+      "count": 210,
       "critical": [],
       "warnings": []
     },
