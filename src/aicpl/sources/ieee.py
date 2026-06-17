@@ -17,6 +17,7 @@ FRONT_MATTER = {
     "author index",
     "back cover",
     "committee",
+    "conference committee",
     "conference information",
     "conference title page",
     "contents",
@@ -25,6 +26,7 @@ FRONT_MATTER = {
     "copyright",
     "cover page",
     "editorial board",
+    "emergency reviewers",
     "exhibitors",
     "front cover",
     "foreword",
@@ -37,6 +39,7 @@ FRONT_MATTER = {
     "preface",
     "plenary and keynote speakers",
     "program",
+    "program committee",
     "program at a glance",
     "programme",
     "programme at a glance",
@@ -45,12 +48,14 @@ FRONT_MATTER = {
     "sponsors",
     "sponsors and partners",
     "statistics",
+    "steering committee",
     "table of contents",
     "technical program at glance",
     "toc",
     "title page",
     "top menu",
     "welcome",
+    "welcome message",
     "welcome page",
     "workshops and tutorials",
 }
@@ -98,6 +103,7 @@ def _is_front_matter(title: str, venue_key: str, year: int) -> bool:
     return bool(
         re.match(r"^(awards and finalists|competitions|conference editorial board)$", stripped)
         or re.match(r"^(content list|index of papers|.+ papers presented at)\b", stripped)
+        or re.match(r"^message from (the )?.*chairs?$", stripped)
         or re.match(r"^ieee rsj international conference on intelligent robots and systems$", stripped)
     )
 

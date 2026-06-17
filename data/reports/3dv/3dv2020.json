@@ -4,11 +4,11 @@
   "year": 2020,
   "source": "ieee",
   "baseline": "papercopilot",
-  "generated_at": "2026-06-17T09:22:16Z",
+  "generated_at": "2026-06-17T09:31:02Z",
   "status": "no_baseline",
   "min_count_ratio": 0.95,
   "counts": {
-    "ours": 127,
+    "ours": 124,
     "baseline": 0,
     "title_overlap": 0,
     "count_ratio": 1.0,
@@ -20,7 +20,6 @@
     "extra_in_ours": [
       "3d aware ellipse prediction for object based camera pose estimation",
       "3d deep learning for biological function prediction from physical fields",
-      "3dv 2020 program committee",
       "a divide et impera approach for 3d shape reconstruction from multiple views",
       "a linear approach to absolute pose estimation for light fields",
       "a new distributional ranking loss with uncertainty illustrated in relative depth estimation",
@@ -91,8 +90,6 @@
       "localising in complex scenes using balanced adversarial adaptation",
       "masknet a fully convolutional network to estimate inlier points",
       "matching space stereo networks for cross domain generalization",
-      "message from the 3dv 2020 general chair",
-      "message from the 3dv 2020 program chairs",
       "monoclothcap towards temporally coherent clothing capture from monocular rgb video",
       "motion annotation programs a scalable approach to annotating kinematic articulations in large 3d shape collections",
       "neural ray surfaces for self supervised learning of depth and ego motion",
@@ -117,7 +114,10 @@
       "saliency guided subdivision for single view mesh reconstruction",
       "scalable point cloud based reconstruction with local implicit functions",
       "scene flow from point clouds with or without learning",
-      "scfusion real time incremental scene reconstruction with semantic completion"
+      "scfusion real time incremental scene reconstruction with semantic completion",
+      "screen space regularization on differentiable rasterization",
+      "self supervised 2d image to 3d shape translation with disentangled representations",
+      "self supervised depth denoising using lower and higher quality rgb d sensors"
     ]
   }
 }
