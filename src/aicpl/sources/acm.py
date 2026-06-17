@@ -77,6 +77,31 @@ def _authors(item: dict[str, Any]) -> list[str]:
     return authors
 
 
+def _affiliations(item: dict[str, Any]) -> list[str]:
+    affiliations = []
+    seen = set()
+    for author in item.get("author") or []:
+        for affiliation in author.get("affiliation") or []:
+            name = str(affiliation.get("name") or "").strip()
+            if name and name not in seen:
+                affiliations.append(name)
+                seen.add(name)
+    return affiliations
+
+
+def _pdf_url(item: dict[str, Any]) -> str:
+    for link in item.get("link") or []:
+        if not isinstance(link, dict):
+            continue
+        url = str(link.get("URL") or "")
+        application = str(link.get("intended-application") or "").lower()
+        if "/doi/pdf/" in url or (
+            application in {"similarity-checking", "text-mining"} and url.endswith(".pdf")
+        ):
+            return url
+    return ""
+
+
 def _record_from_item(
     venue_key: str,
     year: int,
@@ -98,6 +123,9 @@ def _record_from_item(
     record["doi"] = doi
     record["paper_url"] = f"https://doi.org/{doi}" if doi else ""
     record["authors"] = _authors(item)
+    record["affiliations"] = _affiliations(item)
+    record["first_institute"] = record["affiliations"][0] if record["affiliations"] else ""
+    record["pdf_url"] = _pdf_url(item)
     container_titles = item.get("container-title") or []
     record["track"] = str(container_titles[0] if container_titles else "")
     record["source"] = {
@@ -134,7 +162,7 @@ def harvest(venue_key: str, year: int) -> dict[str, Any]:
             config["query_field"]: config["query_value"],
             "rows": 1000,
             "cursor": cursor,
-            "select": "DOI,title,subtitle,author,container-title,event,published-print,published-online,type",
+            "select": "DOI,title,subtitle,author,container-title,event,published-print,published-online,type,link",
         }
         url = f"{CROSSREF_BASE}?{urlencode(params)}"
         payload = fetch_json(url, timeout=90, retries=6)
