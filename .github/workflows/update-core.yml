@@ -48,7 +48,7 @@ jobs:
         run: python scripts/build_source_gap_report.py
 
       - name: Audit calendar coverage
-        run: python scripts/audit_calendar_coverage.py --no-fail
+        run: python scripts/audit_calendar_coverage.py
 
       - name: Validate Python sources
         run: python -m compileall -q src scripts
