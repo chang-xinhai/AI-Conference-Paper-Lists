@@ -6,7 +6,7 @@ from typing import Any
 from urllib.parse import urlencode
 
 from ..schema import empty_record, normalize_keywords, venue_name
-from ..util import fetch_json, now_utc
+from ..util import fetch_json, normalize_title, now_utc
 
 
 OPENREVIEW_API2 = "https://api2.openreview.net/notes"
@@ -75,6 +75,12 @@ VENUE_ID_OVERRIDES = {
     ],
     ("automl", 2026): [
         "automl.cc/AutoML/2026/Methods_Track",
+    ],
+}
+
+METADATA_INVITATIONS = {
+    ("iclr", 2020): [
+        "ICLR.cc/2020/Conference/-/Blind_Submission",
     ],
 }
 
@@ -150,6 +156,34 @@ def _fetch_notes_for_venue_id(venue_id: str, *, limit: int) -> tuple[str, list[d
     return OPENREVIEW_API1, _fetch_notes(OPENREVIEW_API1, venue_id, limit=limit)
 
 
+def _fetch_notes_by_invitation(api_url: str, invitation: str, *, limit: int = 1000) -> list[dict[str, Any]]:
+    notes: list[dict[str, Any]] = []
+    offset = 0
+    while True:
+        params = {
+            "invitation": invitation,
+            "limit": limit,
+            "offset": offset,
+        }
+        url = f"{api_url}?{urlencode(params)}"
+        payload = fetch_json(url, timeout=60)
+        batch = payload.get("notes", [])
+        notes.extend(batch)
+        if len(batch) < limit:
+            break
+        offset += limit
+    return notes
+
+
+def _tldr(content: dict[str, Any]) -> str:
+    return str(
+        _value(content.get("TLDR"), "")
+        or _value(content.get("tldr"), "")
+        or _value(content.get("TL;DR"), "")
+        or _value(content.get("tl;dr"), "")
+    ).strip()
+
+
 def _record_from_note(note: dict[str, Any], venue_key: str, year: int, fetched_at: str, api_url: str, venue_id: str) -> dict[str, Any] | None:
     content = note.get("content", {})
     venue_text = str(_value(content.get("venue"), "")).strip()
@@ -160,7 +194,7 @@ def _record_from_note(note: dict[str, Any], venue_key: str, year: int, fetched_a
         return None
     record = empty_record(venue_key, venue_name(venue_key), year, title)
     record["abstract"] = str(_value(content.get("abstract"), "")).strip()
-    record["tldr"] = str(_value(content.get("TLDR"), "") or _value(content.get("tldr"), "")).strip()
+    record["tldr"] = _tldr(content)
     record["authors"] = [str(author).strip() for author in _value(content.get("authors"), [])]
     record["keywords"] = normalize_keywords(_value(content.get("keywords"), []))
     record["track"] = str(_value(content.get("primary_area"), "")).strip()
@@ -177,6 +211,31 @@ def _record_from_note(note: dict[str, Any], venue_key: str, year: int, fetched_a
         "license": str(note.get("license", "")),
     }
     return record
+
+
+def _enrich_from_metadata_note(record: dict[str, Any], note: dict[str, Any], source_url: str) -> None:
+    content = note.get("content", {})
+    abstract = str(_value(content.get("abstract"), "")).strip()
+    if abstract and not record.get("abstract"):
+        record["abstract"] = abstract
+    tldr = _tldr(content)
+    if tldr and not record.get("tldr"):
+        record["tldr"] = tldr
+    keywords = normalize_keywords(_value(content.get("keywords"), []))
+    if keywords and not record.get("keywords"):
+        record["keywords"] = keywords
+    pdf = str(_value(content.get("pdf"), "")).strip()
+    if pdf and not record.get("pdf_url"):
+        record["pdf_url"] = f"https://openreview.net{pdf}" if pdf.startswith("/") else pdf
+    source = record.get("source") if isinstance(record.get("source"), dict) else {}
+    name = str(source.get("name") or "").strip()
+    if "OpenReview submission metadata" not in name:
+        source["name"] = f"{name} + OpenReview submission metadata".strip(" +")
+    urls = [part.strip() for part in str(source.get("url") or "").split(";") if part.strip()]
+    if source_url not in urls:
+        urls.append(source_url)
+    source["url"] = "; ".join(urls)
+    record["source"] = source
 
 
 def harvest(venue_key: str, year: int, *, limit: int = 1000) -> dict[str, Any]:
@@ -204,12 +263,27 @@ def harvest(venue_key: str, year: int, *, limit: int = 1000) -> dict[str, Any]:
         ))
     ]
     unique_records = {record["id"]: record for record in records}
+    metadata_source_urls = []
+    if invitations := METADATA_INVITATIONS.get((venue_key, year)):
+        records_by_title = {
+            normalize_title(record["title"]): record
+            for record in unique_records.values()
+            if record.get("title")
+        }
+        for invitation in invitations:
+            metadata_url = f"{OPENREVIEW_API1}?invitation={invitation}"
+            metadata_source_urls.append(metadata_url)
+            for note in _fetch_notes_by_invitation(OPENREVIEW_API1, invitation, limit=limit):
+                content = note.get("content", {})
+                title = normalize_title(str(_value(content.get("title"), "")))
+                if title in records_by_title:
+                    _enrich_from_metadata_note(records_by_title[title], note, metadata_url)
 
     return {
         "source": "openreview",
         "venue_key": venue_key,
         "year": year,
-        "source_url": "; ".join(source_urls),
+        "source_url": "; ".join(source_urls + metadata_source_urls),
         "fetched_at": fetched_at,
         "raw_count": len(note_sources),
         "records": list(unique_records.values()),
