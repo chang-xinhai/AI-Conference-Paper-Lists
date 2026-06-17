@@ -1,10 +1,10 @@
 {
   "schema_version": "0.1",
-  "generated_at": "2026-06-17T09:39:15Z",
-  "target_count": 177,
+  "generated_at": "2026-06-17T09:41:51Z",
+  "target_count": 178,
   "status": "warning",
   "summary": {
-    "ok": 152,
+    "ok": 153,
     "warning": 25,
     "critical": 0
   },
@@ -355,6 +355,16 @@
       "status": "ok",
       "source": "openreview",
       "count": 236,
+      "critical": [],
+      "warnings": []
+    },
+    {
+      "venue_key": "ai4x",
+      "year": 2026,
+      "path": "data/normalized/ai4x/ai4x2026.json",
+      "status": "ok",
+      "source": "openreview",
+      "count": 348,
       "critical": [],
       "warnings": []
     },
