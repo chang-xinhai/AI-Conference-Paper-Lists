@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import html
 import re
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from typing import Any
 from urllib.parse import urlencode, urljoin
 from xml.etree import ElementTree as ET
@@ -393,7 +394,11 @@ def _history_overview_records(venue_key: str, year: int, fetched_at: str) -> tup
     text = fetch_text(url, timeout=90, retries=3)
     records = []
     seen_titles = set()
-    for match in re.finditer(r'<a href="(?P<link>https://history\.siggraph\.org/learning/[^"#?]+/)">(?P<body>.*?)</a>', text, re.S):
+    history_link_pattern = (
+        r'<a href="(?P<link>https://history\.siggraph\.org/learning/[^"#?]+/)">'
+        r"(?P<body>.*?)</a>"
+    )
+    for match in re.finditer(history_link_pattern, text, re.S):
         title = _clean_title(re.sub(r"<.*?>", " ", match.group("body")))
         title_key = normalize_title(title)
         if not title or title_key in seen_titles:
@@ -409,13 +414,100 @@ def _history_overview_records(venue_key: str, year: int, fetched_at: str) -> tup
             "license": "",
         }
         records.append(record)
+    _enrich_history_details(records)
     return url, records
 
 
+def _history_abstract(text: str) -> str:
+    match = re.search(
+        r"<u>Abstract:</u>.*?<ul[^>]*id=\"indentlist\"[^>]*>(?P<abstract>.*?)</ul>",
+        text,
+        re.S | re.I,
+    )
+    if not match:
+        return ""
+    return _clean_title(re.sub(r"<.*?>", " ", match.group("abstract")))
+
+
+def _history_detail_metadata(record: dict[str, Any]) -> tuple[str, dict[str, Any]]:
+    url = str(record.get("project_url", ""))
+    text = fetch_text(url, timeout=30, retries=1)
+    authors = [
+        _clean_title(author)
+        for author in re.findall(r'<meta\s+name="citation_author"\s+content="([^"]+)"', text)
+        if _clean_title(author)
+    ]
+    paper_url = ""
+    doi = ""
+    doi_match = re.search(r'https://dl\.acm\.org/doi/(?P<doi>10\.\d{4,9}/[^"\s<]+)', text)
+    if doi_match:
+        doi = html.unescape(doi_match.group("doi")).strip()
+        paper_url = f"https://dl.acm.org/doi/{doi}"
+    return (
+        str(record.get("id", "")),
+        {
+            "abstract": _history_abstract(text),
+            "authors": authors,
+            "paper_url": paper_url,
+            "doi": doi,
+        },
+    )
+
+
+def _enrich_history_details(records: list[dict[str, Any]], *, workers: int = 12) -> None:
+    records_by_id = {str(record.get("id", "")): record for record in records}
+    candidates = [record for record in records if record.get("project_url")]
+    with ThreadPoolExecutor(max_workers=workers) as executor:
+        futures = [executor.submit(_history_detail_metadata, record) for record in candidates]
+        for future in as_completed(futures):
+            try:
+                record_id, metadata = future.result()
+            except Exception:
+                continue
+            record = records_by_id.get(record_id)
+            if not record:
+                continue
+            if metadata.get("authors"):
+                record["authors"] = metadata["authors"]
+            for field in ("abstract", "paper_url", "doi"):
+                if metadata.get(field):
+                    record[field] = metadata[field]
+            source = record.get("source") if isinstance(record.get("source"), dict) else {}
+            name = str(source.get("name") or "").strip()
+            if "detail pages" not in name:
+                source["name"] = f"{name} detail pages".strip()
+            record["source"] = source
+
+
+def _append_source(existing: dict[str, Any], incoming: dict[str, Any]) -> None:
+    incoming_source = incoming.get("source") if isinstance(incoming.get("source"), dict) else {}
+    if not incoming_source:
+        return
+    source = existing.get("source") if isinstance(existing.get("source"), dict) else {}
+    incoming_name = str(incoming_source.get("name") or "").strip()
+    current_name = str(source.get("name") or "").strip()
+    if incoming_name and incoming_name not in current_name:
+        source["name"] = f"{current_name} + {incoming_name}".strip(" +")
+    urls = [part.strip() for part in str(source.get("url") or "").split(";") if part.strip()]
+    incoming_urls = [
+        part.strip()
+        for part in str(incoming_source.get("url") or "").split(";")
+        if part.strip()
+    ]
+    for url in incoming_urls:
+        if url not in urls:
+            urls.append(url)
+    if urls:
+        source["url"] = "; ".join(urls)
+    existing["source"] = source
+
+
 def _merge_record(existing: dict[str, Any], incoming: dict[str, Any]) -> dict[str, Any]:
+    updated = False
     for field in ("authors", "affiliations", "keywords"):
         if not existing.get(field) and incoming.get(field):
             existing[field] = incoming[field]
+            updated = True
     for field in (
         "abstract",
         "tldr",
@@ -431,6 +523,9 @@ def _merge_record(existing: dict[str, Any], incoming: dict[str, Any]) -> dict[st
     ):
         if not existing.get(field) and incoming.get(field):
             existing[field] = incoming[field]
+            updated = True
+    if updated:
+        _append_source(existing, incoming)
     return existing
 
 
