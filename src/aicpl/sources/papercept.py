@@ -60,7 +60,7 @@ def _page_records(venue_key: str, year: int, url: str, fetched_at: str) -> list[
     for index, match in enumerate(starts):
         end = starts[index + 1].start() if index + 1 < len(starts) else len(text)
         block = text[match.start() : end]
-        title_match = re.search(r'<span class="pTtl">.*?<a [^>]*>(?P<title>.*?)</a>', block, re.S)
+        title_match = re.search(r'<span class="pTtl">(?P<title>.*?)</span>', block, re.S)
         if not title_match:
             continue
         title = _clean(title_match.group("title"))
