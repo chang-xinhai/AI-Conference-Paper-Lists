@@ -3,13 +3,13 @@
   "venue_key": "automl",
   "year": 2025,
   "source_url": "https://proceedings.mlr.press/v293/",
-  "fetched_at": "2026-06-17T06:28:11Z",
+  "fetched_at": "2026-06-17T12:05:53Z",
   "raw_count": 25,
   "records": [
     {
       "id": "automl2025:piml-automated-machine-learning-workflow-optimization-using-llm-agents:e2efab99eb",
       "title": "PiML: Automated Machine Learning Workflow Optimization using LLM Agents",
-      "abstract": "",
+      "abstract": "In this paper, we introduce PiML-Persistent Iterative Machine Learning agentic framework, a novel automated pipeline specifically designed for solving real-world machine learning (ML) tasks such as Kaggle competitions. PiML integrates iterative reasoning, automated code generation, adaptive memory construction, and systematic debugging to tackle complex problems effectively. To rigorously assess our framework, we selected 26 diverse competitions from the MLE-Bench benchmark, ensuring comprehensive representation across various complexity levels, modalities, competition types, and dataset sizes. We quantitatively compared PiML’s performance to AIDE—the best-performing existing baseline from MLE-Bench—across multiple evaluation metrics: Valid Submission rate, Submissions Above Median, Average Percentile Rank, and Medal Achievement Rate. Using the “o3-mini” model, PiML surpassed the baseline in submissions above median (41.0% vs 30.8%), medal attainment rate (29.5% vs 23.1%), and average percentile rank (44.7% vs 38.8%). These results highlight PiML’s flexibility, robustness, and superior performance on practical and complex ML challenges.",
       "authors": [
         "Abhishek Chopde",
         "Fardeen Pettiwala",
@@ -35,14 +35,14 @@
       "source": {
         "name": "PMLR",
         "url": "https://proceedings.mlr.press/v293/",
-        "fetched_at": "2026-06-17T06:28:11Z",
+        "fetched_at": "2026-06-17T12:05:53Z",
         "license": ""
       }
     },
     {
       "id": "automl2025:feasibility-driven-trust-region-bayesian-optimization:08a5f7ec08",
       "title": "Feasibility-Driven Trust Region Bayesian Optimization",
-      "abstract": "",
+      "abstract": "Bayesian optimization is a powerful tool for solving real-world optimization tasks under tight evaluation budgets, making it well-suited for applications involving costly simulations or experiments. However, many of these tasks are also characterized by the presence of expensive constraints whose analytical formulation is unknown and often defined in high-dimensional spaces where feasible regions are small, irregular, and difficult to identify. In such cases, a substantial portion of the optimization budget may be spent just trying to locate the first feasible solution, limiting the effectiveness of existing methods. In this work, we present a Feasibility-Driven Trust Region Bayesian Optimization (FuRBO) algorithm. FuRBO iteratively defines a trust region from which the next candidate solution is selected, using information from both the objective and constraint surrogate models. Our adaptive strategy allows the trust region to shift and resize significantly between iterations, enabling the optimizer to rapidly refocus its search and consistently accelerate the discovery of feasible and good-quality solutions. We empirically demonstrate the effectiveness of FuRBO through extensive testing on the full BBOB-constrained COCO benchmark suite and other physics-inspired benchmarks, comparing it against state-of-the-art baselines for constrained black-box optimization across varying levels of constraint severity and problem dimensionalities ranging from 2 to 60.",
       "authors": [
         "Paolo Ascia",
         "Elena Raponi",
@@ -67,14 +67,14 @@
       "source": {
         "name": "PMLR",
         "url": "https://proceedings.mlr.press/v293/",
-        "fetched_at": "2026-06-17T06:28:11Z",
+        "fetched_at": "2026-06-17T12:05:53Z",
         "license": ""
       }
     },
     {
       "id": "automl2025:iterative-monte-carlo-tree-search-for-neural-architecture-search:8c96207491",
       "title": "Iterative Monte Carlo Tree Search for Neural Architecture Search",
-      "abstract": "",
+      "abstract": "Recent work has shown Monte-Carlo Tree Search (MCTS) as an effective approach for Neural Architecture Search (NAS) in producing competitive architectures. However, the performance of the tree search is highly sensitive to the node visiting order. If the initial nodes are highly discriminative, good configurations can be efficiently found with minimal sampling. In contrast, non-discriminative initial nodes require exploring an exponential number of nodes before finding good solutions. In this paper, we present an iterative NAS approach to jointly train the recognition model with MCTS and learn the optimal node ordering of the tree. With our approach, the order of node visits in the tree is iteratively refined based on the estimated performance of the nodes on the validation set. With this approach, good architectures are more likely to naturally emerge at the beginning of the tree, improving the search process. Experiments on two classification benchmarks and a segmentation task show that the proposed method can improve the performance of MCTS, compared to state-of-the-art MCTS approaches for NAS.",
       "authors": [
         "Mehraveh Javan Roshtkhari",
         "Matthew Toews",
@@ -98,14 +98,14 @@
       "source": {
         "name": "PMLR",
         "url": "https://proceedings.mlr.press/v293/",
-        "fetched_at": "2026-06-17T06:28:11Z",
+        "fetched_at": "2026-06-17T12:05:53Z",
         "license": ""
       }
     },
     {
       "id": "automl2025:frozen-layers-memory-efficient-many-fidelity-hyperparameter-optimization:81ffe1af02",
       "title": "Frozen Layers: Memory-efficient Many-fidelity Hyperparameter Optimization",
-      "abstract": "",
+      "abstract": "As model sizes grow, finding efficient and cost-effective hyperparameter optimization (HPO) methods becomes increasingly crucial for deep learning pipelines. While multi-fidelity HPO (MF-HPO) trades off computational resources required for DL training with lower fidelity estimations, existing fidelity sources often fail under lower compute and memory constraints. We propose a novel fidelity source: the number of layers that are trained or frozen during training. For deep networks, this approach offers significant compute and memory savings while preserving rank correlations between hyperparameters at low fidelities compared to full model training. We demonstrate this in our empirical evaluation across MLPs, ResNets, and Transformers and additionally analyze the utility of frozen layers as fidelity in using GPU resources as fidelity in HPO, and for a combined MF-HPO with other fidelity sources. This contribution opens new applications for MF-HPO with hardware resources as fidelity and creates opportunities for improved algorithms navigating joint fidelity spaces.",
       "authors": [
         "Timur Carstensen",
         "Neeratyoy Mallik",
@@ -130,14 +130,14 @@
       "source": {
         "name": "PMLR",
         "url": "https://proceedings.mlr.press/v293/",
-        "fetched_at": "2026-06-17T06:28:11Z",
+        "fetched_at": "2026-06-17T12:05:53Z",
         "license": ""
       }
     },
     {
       "id": "automl2025:fast-bayesian-optimization-of-function-networks-with-partial-evaluations:ef472d3b0e",
       "title": "Fast Bayesian Optimization of Function Networks with Partial Evaluations",
-      "abstract": "",
+      "abstract": "Bayesian optimization of function networks (BOFN) is a framework for optimizing expensive-to-evaluate objective functions structured as networks, where some nodes’ outputs serve as inputs for others. Many real-world applications, such as manufacturing and drug discovery, involve function networks with additional properties - nodes that can be evaluated independently and incur varying costs. A recent BOFN variant, p-KGFN, leverages this structure and enables cost-aware partial evaluations, selectively querying only a subset of nodes at each iteration. p-KGFN reduces the number of expensive objective function evaluations needed but has a large computational overhead: choosing where to evaluate requires optimizing a nested Monte Carlo-based acquisition function for each node in the network. To address this, we propose an accelerated p-KGFN algorithm that reduces computational overhead with only a modest loss in query efficiency. Key to our approach is generation of node-specific candidate inputs for each node in the network via one inexpensive global Monte Carlo simulation. Numerical experiments show that our method maintains competitive query efficiency while achieving up to a $16\\times$ speedup over the original p-KGFN algorithm.",
       "authors": [
         "Poompol Buathong",
         "Peter I. Frazier"
@@ -160,14 +160,14 @@
       "source": {
         "name": "PMLR",
         "url": "https://proceedings.mlr.press/v293/",
-        "fetched_at": "2026-06-17T06:28:11Z",
+        "fetched_at": "2026-06-17T12:05:53Z",
         "license": ""
       }
     },
     {
       "id": "automl2025:syftr-pareto-optimal-generative-ai:edcde0d40a",
       "title": "syftr: Pareto-Optimal Generative AI",
-      "abstract": "",
+      "abstract": "Retrieval-Augmented Generation (RAG) pipelines are central to applying large language models (LLMs) to proprietary or dynamic data. However, building effective RAG flows is complex, requiring careful selection among vector databases, embedding models, text splitters, retrievers, and synthesizing LLMs. The challenge deepens with the rise of agentic paradigms. Modules like verifiers, rewriters, and rerankers—each with intricate hyperparam- eter dependencies have to be carefully tuned. Balancing tradeoffs between latency, accuracy, and cost becomes increasingly difficult in performance-sensitive applications. We introduce syftr, a framework that performs efficient multi-objective search over a broad space of agentic and non-agentic RAG configurations. Using Bayesian Optimization, syftr discovers Pareto-optimal flows that jointly optimize task accuracy and cost. A novel early- stopping mechanism further improves efficiency by pruning clearly suboptimal candidates. Across multiple RAG benchmarks, syftr finds flows which are on average $9\\times$ cheaper while preserving most of the accuracy of the most accurate flows on the Pareto-frontier. Furthermore, syftr’s ability to design and optimize also allows integrating new modules, making it even easier and faster to realize high-performing generative AI pipelines. syftr is fully open source: \\url{https://github.com/datarobot/syftr}",
       "authors": [
         "Alexander Conway",
         "Debadeepta Dey",
@@ -195,14 +195,14 @@
       "source": {
         "name": "PMLR",
         "url": "https://proceedings.mlr.press/v293/",
-        "fetched_at": "2026-06-17T06:28:11Z",
+        "fetched_at": "2026-06-17T12:05:53Z",
         "license": ""
       }
     },
     {
       "id": "automl2025:the-ranking-trick-a-simple-and-robust-alternative-to-score-based-regress:f773ea5df7",
       "title": "The Ranking Trick: A Simple and Robust Alternative to Score-Based Regression for AutoML",
-      "abstract": "",
+      "abstract": "Traditional approaches to pipeline selection in automated machine learning (AutoML) typically rely on predicting the absolute or relative performance scores of candidate pipelines for a given task, based on data acquired from previous tasks—i.e., meta-learning. This process can be complex due to the need for task-specific regression models and performance metrics. In contrast, rank-based methods estimate the relative ordering of pipelines, which aligns more directly with the decision-making nature of the selection task. Although ranking-based approaches have been explored previously, prior work often relies on computationally expensive pairwise comparisons or complex listwise formulations. In this study, we adopt a simpler alternative: reformulating the prediction target from absolute scores to rank positions—without modifying model architectures. This \"ranking trick\" enables the use of regression models while leveraging positional information. It is general and compatible with a wide range of existing AutoML techniques. Additionally, through controlled experiments, we show that these rank-based regression models are significantly less sensitive to noisy or overfitted meta-learning data, a common issue in practical AutoML settings. As a result, this approach enables more robust, metric-agnostic solutions and facilitates evaluation through ranking metrics such as NDCG and MRR. We evaluate this formulation across three large-scale OpenML benchmarks, demonstrating consistent advantages for ranking-based regression models. Furthermore, we explore its integration with Bayesian optimization and Monte Carlo Tree Search, yielding improved results in ranking quality. Finally, we identify a strong relationship between ranking-based metrics and key AutoML objectives such as final performance score and time-to-solution, providing guidance for AutoML practitioners.",
       "authors": [
         "Hernan Ceferino Vazquez",
         "Jorge Sánchez",
@@ -227,14 +227,14 @@
       "source": {
         "name": "PMLR",
         "url": "https://proceedings.mlr.press/v293/",
-        "fetched_at": "2026-06-17T06:28:11Z",
+        "fetched_at": "2026-06-17T12:05:53Z",
         "license": ""
       }
     },
     {
       "id": "automl2025:regularized-neural-ensemblers:18754653bf",
       "title": "Regularized Neural Ensemblers",
-      "abstract": "",
+      "abstract": "Ensemble methods are known for enhancing the accuracy and robustness of machine learning models by combining multiple base learners. However, standard approaches like greedy or random ensembling often fall short, as they assume a constant weight across samples for the ensemble members. This can limit expressiveness and hinder performance when aggregating the ensemble predictions. In this study, we explore employing regularized neural networks as ensemble methods, emphasizing the significance of dynamic ensembling to leverage diverse model predictions adaptively. Motivated by the risk of learning low-diversity ensembles, we propose regularizing the ensembling model by randomly dropping base model predictions during the training. We demonstrate this approach provides lower bounds for the diversity within the ensemble, reducing overfitting and improving generalization capabilities. Our experiments showcase that the regularized neural ensemblers yield competitive results compared to strong baselines across several modalities such as computer vision, natural language processing, and tabular data.",
       "authors": [
         "Sebastian Pineda Arango",
         "Maciej Janowski",
@@ -261,14 +261,14 @@
       "source": {
         "name": "PMLR",
         "url": "https://proceedings.mlr.press/v293/",
-        "fetched_at": "2026-06-17T06:28:11Z",
+        "fetched_at": "2026-06-17T12:05:53Z",
         "license": ""
       }
     },
     {
       "id": "automl2025:what-makes-freezing-layers-in-deep-neural-networks-effective-a-linear-se:2aa9169454",
       "title": "What Makes Freezing Layers in Deep Neural Networks Effective? A Linear Separability Perspective",
-      "abstract": "",
+      "abstract": "Freezing layers in deep neural networks has been shown to enhance generalization and accelerate training, yet the underlying mechanisms remain unclear. This paper investigates the impact of frozen layers from the perspective of linear separability, examining how untrained, randomly initialized layers influence feature representations and model performance. Using multilayer perceptrons trained on MNIST, CIFAR-10, and CIFAR-100, we systematically analyze the effects freezing layers and network architecture. While prior work attributes the benefits of frozen layers to Cover’s theorem, which suggests that nonlinear transformations improve linear separability, we find that this explanation is insufficient. Instead, our results indicate that the observed improvements in generalization and convergence stem from other mechanisms. We hypothesize that freezing may have similar effects to other regularization techniques and that it may smooth the loss landscape to facilitate training. Furthermore, we identify key architectural factors—such as network overparameterization and use of skip connections—that modulate the effectiveness of frozen layers. These findings offer new insights into the conditions under which freezing layers can optimize deep learning performance, informing future work on neural architecture search.",
       "authors": [
         "Collin Coil",
         "Nick Cheney"
@@ -291,14 +291,14 @@
       "source": {
         "name": "PMLR",
         "url": "https://proceedings.mlr.press/v293/",
-        "fetched_at": "2026-06-17T06:28:11Z",
+        "fetched_at": "2026-06-17T12:05:53Z",
         "license": ""
       }
     },
     {
       "id": "automl2025:eg-enas-efficient-and-generalizable-evolutionary-neural-architecture-sea:cbabdde554",
       "title": "EG-ENAS: Efficient and Generalizable Evolutionary Neural Architecture Search for Image Classification",
-      "abstract": "",
+      "abstract": "Neural Architecture Search (NAS) has become a powerful method for automating the design of deep neural networks in various applications. Among the different optimization techniques, evolutionary approaches stand out for their flexibility, robustness, and capacity to explore diverse solutions. However, evaluating neural architectures typically requires training, making NAS resource-intensive and time-consuming. Additionally, many NAS methods lack generalizability, as they are often tested only on a small set of benchmark datasets. To address these two challenges, we propose a new efficient NAS framework based on evolutionary computation, which reuses available pretrained weights and uses proxies to reduce redundant computations. We initially selected a reduced RegNetY search space and incorporated architectural improvements and regularization techniques for training. We developed a dataset-aware augmentation selection method to efficiently identify the best transform for each dataset using zero-cost proxies. Additionally, we propose a ranking regressor to filter low-potential models during initial population sampling. To reduce training time, we introduce a weight-sharing strategy for RegNets that reuses pretrained stages and transfers the stem from parent to child models across generations. Experimental results show that our low-cost (T0) and full EG-ENAS (T6) configurations consistently achieve robust performance across eleven datasets, outperforming Random Search (T1) and simple Evolutionary NAS (T2) with competitive results in under a 24-hour time budget on seven validation datasets. We achieve state-of-the-art accuracy on one and surpass the 2023 Unseen NAS Challenge top scores on four datasets. The code is available at this link: \\url{https://github.com/ankilab/EG-ENAS}",
       "authors": [
         "Mateo Avila Pava",
         "René Groh",
@@ -322,14 +322,14 @@
       "source": {
         "name": "PMLR",
         "url": "https://proceedings.mlr.press/v293/",
-        "fetched_at": "2026-06-17T06:28:11Z",
+        "fetched_at": "2026-06-17T12:05:53Z",
         "license": ""
       }
     },
     {
       "id": "automl2025:hyperparameter-optimization-via-interacting-with-probabilistic-circuits:328ad1fb7b",
       "title": "Hyperparameter Optimization via Interacting with Probabilistic Circuits",
-      "abstract": "",
+      "abstract": "Despite the growing interest in designing truly interactive hyperparameter optimization (HPO) methods, to date, only a few allow to include human feedback. Existing interactive Bayesian optimization (BO) methods incorporate human beliefs by weighting the acquisition function with a user-defined prior distribution. However, in light of the non-trivial inner optimization of the acquisition function prevalent in BO, such weighting schemes do not always accurately reflect given user beliefs. We introduce a novel BO approach leveraging tractable probabilistic models named probabilistic circuits (PCs) as a surrogate model. PCs encode a tractable joint distribution over the hybrid hyperparameter space and evaluation scores. They enable exact conditional inference and sampling. Based on conditional sampling, we construct a novel selection policy that enables an acquisition function-free generation of candidate points (thereby eliminating the need for an additional inner-loop optimization) and ensures that user beliefs are reflected accurately in the selection policy. We provide a theoretical analysis and an extensive empirical evaluation, demonstrating that our method achieves state-of-the-art performance in standard HPO and outperforms interactive BO baselines in interactive HPO.",
       "authors": [
         "Jonas Seng",
         "Fabrizio Ventola",
@@ -354,14 +354,14 @@
       "source": {
         "name": "PMLR",
         "url": "https://proceedings.mlr.press/v293/",
-        "fetched_at": "2026-06-17T06:28:11Z",
+        "fetched_at": "2026-06-17T12:05:53Z",
         "license": ""
       }
     },
     {
       "id": "automl2025:smartcal-a-novel-automated-approach-to-classifier-probability-calibratio:54c4a86547",
       "title": "SmartCal: A Novel Automated Approach to Classifier Probability Calibration",
-      "abstract": "",
+      "abstract": "Accurate probability estimates are crucial in classification, yet widely used calibration methods like Platt and temperature scaling fail to generalize across diverse datasets. We introduce SmartCal, an AutoML framework that automatically selects the optimal post-hoc calibration strategy from a pool of 12 methods. Using a large-scale knowledge base of 165 datasets in multiple modalities and 13 classifiers, we show that no single calibrator is universally superior. SmartCal employs a meta-model trained on the meta-features of the calibration splits and classifier output to recommend the best calibration method for new tasks. Additionally, Bayesian optimization refines this selection process, outperforming standard baselines and random search. Experiments demonstrate that SmartCal systematically improves the calibration over existing approaches such as Beta Calibration and Temperature Scaling. This tool is freely available with a unified interface, simplifying the calibration process for researchers and practitioners.",
       "authors": [
         "Mohamed Maher Abdelrahman",
         "Osama Fayez Oun",
@@ -389,14 +389,14 @@
       "source": {
         "name": "PMLR",
         "url": "https://proceedings.mlr.press/v293/",
-        "fetched_at": "2026-06-17T06:28:11Z",
+        "fetched_at": "2026-06-17T12:05:53Z",
         "license": ""
       }
     },
     {
       "id": "automl2025:autopdl-automatic-prompt-optimization-for-llm-agents:0a6049da15",
       "title": "AutoPDL: Automatic Prompt Optimization for LLM Agents",
-      "abstract": "",
+      "abstract": "The performance of large language models (LLMs) depends on how they are prompted, with choices spanning both the high-level prompting pattern (e.g., Zero-Shot, CoT, ReAct, ReWOO) and the specific prompt content (instructions and few-shot demonstrations). Manually tuning this combination is tedious, error-prone, and non-transferable across LLMs or tasks. Therefore, this paper proposes AutoPDL, an automated approach to discover good LLM agent configurations. Our method frames this as a structured AutoML problem over a combinatorial space of agentic and non-agentic prompting patterns and demonstrations, using successive halving to efficiently navigate this space. We introduce a library implementing common prompting patterns using the PDL prompt programming language. AutoPDL solutions are human-readable, editable, and executable PDL programs that use this library. This approach also enables source-to-source optimization, allowing human-in-the-loop refinement and reuse. Evaluations across three tasks and six LLMs (ranging from 3B to 70B parameters) show consistent accuracy gains ($9.06 \\pm 15.3$ percentage points), up to 68.9pp, and reveal that selected prompting strategies vary across models and tasks.",
       "authors": [
         "Claudio Spiess",
         "Mandana Vaziri",
@@ -421,14 +421,14 @@
       "source": {
         "name": "PMLR",
         "url": "https://proceedings.mlr.press/v293/",
-        "fetched_at": "2026-06-17T06:28:11Z",
+        "fetched_at": "2026-06-17T12:05:53Z",
         "license": ""
       }
     },
     {
       "id": "automl2025:obeying-the-order-introducing-ordered-transfer-hyperparameter-optimizati:4750a0ae5a",
       "title": "Obeying the Order: Introducing Ordered Transfer Hyperparameter Optimization",
-      "abstract": "",
+      "abstract": "In many deployed settings, hyperparameters are retuned as more data are collected; for instance tuning a sequence of movie recommendation systems as more movies and rating are added. Despite this, transfer hyperparameter optimisation (HPO) has not been thoroughly analysed in this setting. We introduce ordered transfer hyperparameter optimisation (OTHPO), a version of transfer learning for HPO where the tasks follow a sequential order. Unlike for state-of-the-art transfer HPO, the assumption is that each task is most correlated to those immediately before it. We propose a formal definition and illustrate the key difference with standard transfer HPO approaches. We show how simple methods taking the order into account can outperform more sophisticated transfer methods by better tracking smooth shifts of the hyperparameter landscape. The ten benchmarks are in the setting of gradually accumulating data, as well as a separate real-world motivated optimisation problem, and are open sourced to foster future research on ordered transfer HPO.",
       "authors": [
         "Sigrid Passano Hellan",
         "Huibin Shen",
@@ -454,14 +454,14 @@
       "source": {
         "name": "PMLR",
         "url": "https://proceedings.mlr.press/v293/",
-        "fetched_at": "2026-06-17T06:28:11Z",
+        "fetched_at": "2026-06-17T12:05:53Z",
         "license": ""
       }
     },
     {
       "id": "automl2025:multi-layer-stack-ensembles-for-time-series-forecasting:2cc2813468",
       "title": "Multi-layer Stack Ensembles for Time Series Forecasting",
-      "abstract": "",
+      "abstract": "Ensembling is a powerful technique for improving the accuracy of machine learning models, with methods like stacking achieving strong results in tabular tasks. In time series forecasting, however, ensemble methods remain underutilized, with simple linear combinations still considered state-of-the-art. In this paper, we systematically explore ensembling strategies for time series forecasting. We evaluate 33 ensemble models—both existing and novel—across 50 real-world datasets. Our results show that stacking consistently improves accuracy, though no single stacker performs best across all tasks. To address this, we propose a multi-layer stacking framework for time series forecasting, an approach that combines the strengths of different stacker models. We demonstrate that this method consistently provides superior accuracy across diverse forecasting scenarios. Our findings highlight the potential of stacking-based methods to improve AutoML systems for time series forecasting.",
       "authors": [
         "Nathanael Bosch",
         "Oleksandr Shchur",
@@ -487,14 +487,14 @@
       "source": {
         "name": "PMLR",
         "url": "https://proceedings.mlr.press/v293/",
-        "fetched_at": "2026-06-17T06:28:11Z",
+        "fetched_at": "2026-06-17T12:05:53Z",
         "license": ""
       }
     },
     {
       "id": "automl2025:transferrable-surrogates-in-expressive-neural-architecture-search-spaces:23a4a07486",
       "title": "Transferrable Surrogates in Expressive Neural Architecture Search Spaces",
-      "abstract": "",
+      "abstract": "Neural architecture search (NAS) faces a challenge in balancing the exploration of expressive, broad search spaces that enable architectural innovation with the need for efficient evaluation of architectures to effectively search such spaces. We investigate surrogate model training for improving search in highly expressive NAS search spaces based on context-free grammars. We show that i) surrogate models trained either using zero-cost-proxy metrics and neural graph features (GRAF) or by fine-tuning an off-the-shelf LM have high predictive power for the performance of architectures both within and across datasets, ii) these surrogates can be used to filter out bad architectures when searching on novel datasets, thereby significantly speeding up search and achieving better final performances, and iii) the surrogates can be further used directly as the search objective for huge speed-ups.",
       "authors": [
         "Shiwen Qin",
         "Gabriela Kadlecová",
@@ -523,14 +523,14 @@
       "source": {
         "name": "PMLR",
         "url": "https://proceedings.mlr.press/v293/",
-        "fetched_at": "2026-06-17T06:28:11Z",
+        "fetched_at": "2026-06-17T12:05:53Z",
         "license": ""
       }
     },
     {
       "id": "automl2025:overtuning-in-hyperparameter-optimization:0d2f1f27ab",
       "title": "Overtuning in Hyperparameter Optimization",
-      "abstract": "",
+      "abstract": "Hyperparameter optimization (HPO) aims to identify an optimal hyperparameter configuration (HPC) such that the resulting model generalizes well to unseen data. As the expected generalization error cannot be optimized directly, it is estimated with a resampling strategy, such as holdout or cross-validation. This approach implicitly assumes that minimizing the validation error leads to improved generalization. However, since validation error estimates are inherently stochastic and depend on the resampling strategy, a natural question arises: Can excessive optimization of the validation error lead to overfitting at the HPO level, akin to overfitting in model training based on empirical risk minimization? In this paper, we investigate this phenomenon, which we term overtuning, a form of overfitting specific to HPO. Despite its practical relevance, overtuning has received limited attention in the HPO and AutoML literature. We provide a formal definition of overtuning and distinguish it from related concepts such as meta-overfitting. We then conduct a large-scale reanalysis of HPO benchmark data to assess the prevalence and severity of overtuning. Our results show that overtuning is more common than previously assumed, typically mild but occasionally severe. In approximately 10% of cases, overtuning leads to the selection of a seemingly optimal HPC with worse generalization error than the default or first configuration tried. We further analyze how factors such as performance metric, resampling strategy, dataset size, learning algorithm, and HPO method affect overtuning and discuss mitigation strategies. Our results highlight the need to raise awareness of overtuning, particularly in the small-data regime, indicating that further mitigation strategies should be studied.",
       "authors": [
         "Lennart Schneider",
         "Bernd Bischl",
@@ -554,14 +554,14 @@
       "source": {
         "name": "PMLR",
         "url": "https://proceedings.mlr.press/v293/",
-        "fetched_at": "2026-06-17T06:28:11Z",
+        "fetched_at": "2026-06-17T12:05:53Z",
         "license": ""
       }
     },
     {
       "id": "automl2025:capo-cost-aware-prompt-optimization:3827c3754f",
       "title": "CAPO: Cost-Aware Prompt Optimization",
-      "abstract": "",
+      "abstract": "Large language models (LLMs) have revolutionized natural language processing by solving a wide range of tasks simply guided by a prompt. Yet their performance is highly sensitive to prompt formulation. While automatic prompt optimization addresses this challenge by finding optimal prompts, current methods require a substantial number of LLM calls and input tokens, making prompt optimization expensive. We introduce CAPO (Cost-Aware Prompt Optimization), an algorithm that enhances prompt optimization efficiency by integrating AutoML techniques. CAPO is an evolutionary approach with LLMs as operators, incorporating racing to save evaluations and multi-objective optimization to balance performance with prompt length. It jointly optimizes instructions and few-shot examples while leveraging task descriptions for improved robustness. Our extensive experiments across diverse datasets and LLMs demonstrate that CAPO outperforms state-of-the-art discrete prompt optimization methods in 11/15 cases with improvements up to 21% in accuracy. Our algorithm achieves better performances already with smaller budgets, saves evaluations through racing, and decreases average prompt length via a length penalty, making it both cost-efficient and cost-aware. Even without few-shot examples, CAPO outperforms its competitors and generally remains robust to initial prompts. CAPO represents an important step toward making prompt optimization more powerful and accessible by improving cost-efficiency.",
       "authors": [
         "Tom Zehle",
         "Moritz Schlager",
@@ -586,14 +586,14 @@
       "source": {
         "name": "PMLR",
         "url": "https://proceedings.mlr.press/v293/",
-        "fetched_at": "2026-06-17T06:28:11Z",
+        "fetched_at": "2026-06-17T12:05:53Z",
         "license": ""
       }
     },
     {
       "id": "automl2025:revisiting-learning-rate-control:bfb5e8b04b",
       "title": "Revisiting Learning Rate Control",
-      "abstract": "",
+      "abstract": "The learning rate is one of the most important hyperparameters in deep learning, and how to control it is an active area within both AutoML and deep learning research. Approaches for learning rate control span from classic optimization to online scheduling based on gradient statistics. This paper compares paradigms to assess the current state of learning rate control. We find that methods from multi-fidelity hyperparameter optimization, fixed-hyperparameter schedules, and hyperparameter-free learning often perform very well on selected deep learning tasks but are not reliable across settings. This highlights the need for algorithm selection methods in learning rate control, which have been neglected so far by both the AutoML and deep learning communities. We also observe a trend of hyperparameter optimization approaches becoming less effective as models and tasks grow in complexity, even when combined with multi-fidelity approaches for more expensive model trainings. A focus on more relevant test tasks and new promising directions like finetunable methods and meta-learning will enable the AutoML community to significantly strengthen its impact on this crucial factor in deep learning.",
       "authors": [
         "Micha Henheik",
         "Theresa Eimer",
@@ -617,14 +617,14 @@
       "source": {
         "name": "PMLR",
         "url": "https://proceedings.mlr.press/v293/",
-        "fetched_at": "2026-06-17T06:28:11Z",
+        "fetched_at": "2026-06-17T12:05:53Z",
         "license": ""
       }
     },
     {
       "id": "automl2025:textttconfopt-a-library-for-implementation-and-evaluation-of-gradient-ba:c42c33a64f",
       "title": "\\textttconfopt: A Library for Implementation and Evaluation of Gradient-based One-Shot NAS Methods",
-      "abstract": "",
+      "abstract": "Gradient-based one-shot neural architecture search (NAS) has significantly reduced the cost of exploring architectural spaces with discrete design choices, such as selecting operations within a model. However, the field faces two major challenges. First, evaluations of gradient-based NAS methods heavily rely on the DARTS benchmark, despite the existence of other available benchmarks. This overreliance has led to saturation, with reported improvements often falling within the margin of noise. Second, implementations of gradient-based one-shot NAS methods are fragmented across disparate repositories, complicating fair and reproducible comparisons and further development. In this paper, we introduce Configurable Optimizer (confopt), an extensible library designed to streamline the development and evaluation of gradient-based one-shot NAS methods. Confopt provides a minimal API that makes it easy for users to integrate new search spaces, while also supporting the decomposition of NAS optimizers into their core components. We use this framework to create a suite of new DARTS-based benchmarks, and combine them with a novel evaluation protocol to reveal a critical flaw in how gradient-based one-shot NAS methods are currently assessed. The code can be found under this link: \\url{https://github.com/automl/ConfigurableOptimizer}",
       "authors": [
         "Abhash Kumar Jha",
         "Shakiba Moradian",
@@ -650,14 +650,14 @@
       "source": {
         "name": "PMLR",
         "url": "https://proceedings.mlr.press/v293/",
-        "fetched_at": "2026-06-17T06:28:11Z",
+        "fetched_at": "2026-06-17T12:05:53Z",
         "license": ""
       }
     },
     {
       "id": "automl2025:ax-a-platform-for-adaptive-experimentation:e396d1e350",
       "title": "Ax: A Platform for Adaptive Experimentation",
-      "abstract": "",
+      "abstract": "Optimizing industry-scale machine learning systems involves resource-intensive black-box optimization. Adaptive experimentation substantially improves the sample efficiency of such tasks compared with naive baselines (such as grid or random search) by utilizing surrogate models and sequential optimization algorithms. Ax \\url(https://ax.dev) is an open-source platform for adaptive experimentation. Ax is highly extensible and full-featured, and is used at scale at Meta. We discuss Ax’s design, usage, and performance. Off the shelf, Ax achieves state-of-the-art performance in a wide range of synthetic and real-world black-box optimization tasks in machine learning, engineering, and science.",
       "authors": [
         "Miles Olson",
         "Elizabeth Santorella",
@@ -699,14 +699,14 @@
       "source": {
         "name": "PMLR",
         "url": "https://proceedings.mlr.press/v293/",
-        "fetched_at": "2026-06-17T06:28:11Z",
+        "fetched_at": "2026-06-17T12:05:53Z",
         "license": ""
       }
     },
     {
       "id": "automl2025:exploring-one-million-machine-learning-pipelines-a-benchmarking-study:9441752f3c",
       "title": "Exploring One Million Machine Learning Pipelines: A Benchmarking Study",
-      "abstract": "",
+      "abstract": "Machine learning solutions are largely affected by the values of the hyperparameters of their algorithms. This has motivated a large number of recent research projects on hyperparameter tuning, with the proposal of several, and highly diverse, tuning approaches. Rather than proposing a new approach or identifying the most effective hyperparameter tuning approach, this paper looks for good machine learning solutions by exploring machine learning pipelines. For such, it benchmarks pipelines focusing on the interaction between feature preprocessing techniques and classification models. The study evaluates the effectiveness of pipeline combinations, identifying high-performing and underperforming combinations. Additionally, it provides meta-knowledge datasets without any optimization selection bias to foster research contributions in meta-learning, accelerating the development of meta-models. The findings provide insights into the most effective preprocessing and modeling combination, guiding practitioners and researchers in their selection processes.",
       "authors": [
         "Edesio Alcobaça",
         "Andre Carlos Ponce de Leon Ferreira De Carvalho"
@@ -729,14 +729,14 @@
       "source": {
         "name": "PMLR",
         "url": "https://proceedings.mlr.press/v293/",
-        "fetched_at": "2026-06-17T06:28:11Z",
+        "fetched_at": "2026-06-17T12:05:53Z",
         "license": ""
       }
     },
     {
       "id": "automl2025:automl-algorithms-for-online-generalized-additive-model-selection-applic:799bdeb6d8",
       "title": "AutoML Algorithms for Online Generalized Additive Model Selection: Application to Electricity Demand Forecasting",
-      "abstract": "",
+      "abstract": "Electricity demand forecasting is key to ensuring that supply meets demand lest the grid would blackout. Reliable short-term forecasts may be obtained by combining a Generalized Additive Models (GAM) with a State-Space model, leading to an adaptive (or online) model. A GAM is an over-parameterized linear model defined by a formula and a state-space model involves hyperparameters.Both the formula and adaptation parameters have to be fixed before model training and have a huge impact on the model’s predictive performance. We propose to optimize them using automated Machine Learning. For this purpose, we define an efficient modeling of the search space (namely, the space of the GAM formulae and adaptation parameters) as well as mutation and crossover operators on this space and apply an evolutionary algorithm to select the best parameters. We evaluate our method on short-term French electricity demand forecasting which demonstrates the relevance of the approach.",
       "authors": [
         "Keshav Das",
         "Julie Keisler",
@@ -761,14 +761,14 @@
       "source": {
         "name": "PMLR",
         "url": "https://proceedings.mlr.press/v293/",
-        "fetched_at": "2026-06-17T06:28:11Z",
+        "fetched_at": "2026-06-17T12:05:53Z",
         "license": ""
       }
     },
     {
       "id": "automl2025:catbench-a-compiler-autotuning-benchmarking-suite-for-black-box-optimiza:4c044fe83f",
       "title": "CATBench: A Compiler Autotuning Benchmarking Suite for Black-box Optimization",
-      "abstract": "",
+      "abstract": "Bayesian optimization is a powerful method for automating tuning of compilers. The complex landscape of autotuning provides a myriad of rarely considered structural challenges for black-box optimizers, and the lack of standardized benchmarks has limited the study of Bayesian optimization within the domain. To address this, we present CATBench, a comprehensive benchmarking suite that captures the complexities of compiler autotuning, ranging from discrete, conditional, and permutation parameter types to known and unknown binary constraints, as well as both multi-fidelity and multi-objective evaluations. The benchmarks in CATBench span a range of machine learning-oriented computations, from tensor algebra to image processing and clustering, and use state-of-the-art compilers, such as TACO and RISE/ELEVATE. CATBench offers a unified interface for evaluating Bayesian optimization algorithms, promoting reproducibility and innovation through an easy-to-use, fully containerized setup of both surrogate and real-world compiler optimization tasks. We validate CATBench on several state-of-the-art algorithms, revealing their strengths and weaknesses and demonstrating the suite’s potential for advancing both Bayesian optimization and compiler autotuning research.",
       "authors": [
         "Jacob O Tørring",
         "Carl Hvarfner",
@@ -793,14 +793,14 @@
       "source": {
         "name": "PMLR",
         "url": "https://proceedings.mlr.press/v293/",
-        "fetched_at": "2026-06-17T06:28:11Z",
+        "fetched_at": "2026-06-17T12:05:53Z",
         "license": ""
       }
     },
     {
       "id": "automl2025:auto-nnu-net-towards-automated-medical-image-segmentation:947c87eb3b",
       "title": "Auto-nnU-Net: Towards Automated Medical Image Segmentation",
-      "abstract": "",
+      "abstract": "Medical Image Segmentation (MIS) includes diverse tasks, from bone to organ segmentation, each with its own challenges in finding the best segmentation model. The state-of-the-art AutoML-related MIS-framework nnU-Net automates many aspects of model configuration but remains constrained by fixed hyperparameters and heuristic design choices. As a full-AutoML framework for MIS, we propose Auto-nnU-Net, a novel nnU-Net variant enabling hyperparameter optimization (HPO), neural architecture search (NAS), and hierarchical NAS (HNAS). Additionally, we propose Regularized PriorBand to balance model accuracy with the computational resources required for training, addressing the resource constraints often faced in real-world medical settings that limit the feasibility of extensive training procedures. We evaluate our approach across diverse MIS datasets from the well-established Medical Segmentation Decathlon, analyzing the impact of AutoML techniques on segmentation performance, computational efficiency, and model design choices. The results demonstrate that our AutoML approach substantially improves the segmentation performance of nnU-Net on 6 out of 10 datasets and is on par on the other datasets while maintaining practical resource requirements. Our code is available at \\url{https://github.com/automl/AutoNNUnet}.",
       "authors": [
         "Jannis Becktepe",
         "Leona Hennig",
@@ -825,7 +825,7 @@
       "source": {
         "name": "PMLR",
         "url": "https://proceedings.mlr.press/v293/",
-        "fetched_at": "2026-06-17T06:28:11Z",
+        "fetched_at": "2026-06-17T12:05:53Z",
         "license": ""
       }
     }
