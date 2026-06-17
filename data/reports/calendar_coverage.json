@@ -1,0 +1,196 @@
+{
+  "schema_version": "0.1",
+  "generated_at": "2026-06-17T09:54:49Z",
+  "current_year": 2026,
+  "source_gap_report": "data/reports/source_gaps.json",
+  "status": "warning",
+  "summary": {
+    "conference_count": 31,
+    "target_count": 178,
+    "missing_papercopilot_year_count": 0,
+    "tracked_unavailable_papercopilot_year_count": 1,
+    "missing_target_data_count": 0,
+    "empty_target_data_count": 0,
+    "papercopilot_sourced_target_count": 0,
+    "fallback_target_count": 1,
+    "non_target_calendar_year_count": 39
+  },
+  "missing_papercopilot_years": [],
+  "tracked_unavailable_papercopilot_years": [
+    {
+      "venue_key": "acl",
+      "year": 2026,
+      "gap_id": "acl2026-openreview-industry-partial",
+      "gap_status": "partial",
+      "evidence": "OpenReview returned notes for a partial track only."
+    }
+  ],
+  "missing_target_data": [],
+  "empty_target_data": [],
+  "papercopilot_sourced_targets": [],
+  "fallback_targets": [
+    {
+      "venue_key": "kdd",
+      "year": 2026,
+      "source": "dblp"
+    }
+  ],
+  "non_target_calendar_years": [
+    {
+      "venue_key": "3dv",
+      "year": 2023
+    },
+    {
+      "venue_key": "acl",
+      "year": 2026
+    },
+    {
+      "venue_key": "acml",
+      "year": 2026
+    },
+    {
+      "venue_key": "acmmm",
+      "year": 2026
+    },
+    {
+      "venue_key": "ai4x",
+      "year": 2020
+    },
+    {
+      "venue_key": "ai4x",
+      "year": 2021
+    },
+    {
+      "venue_key": "ai4x",
+      "year": 2022
+    },
+    {
+      "venue_key": "ai4x",
+      "year": 2023
+    },
+    {
+      "venue_key": "ai4x",
+      "year": 2024
+    },
+    {
+      "venue_key": "automl",
+      "year": 2020
+    },
+    {
+      "venue_key": "automl",
+      "year": 2021
+    },
+    {
+      "venue_key": "automl",
+      "year": 2026
+    },
+    {
+      "venue_key": "coling",
+      "year": 2021
+    },
+    {
+      "venue_key": "coling",
+      "year": 2023
+    },
+    {
+      "venue_key": "coling",
+      "year": 2026
+    },
+    {
+      "venue_key": "colm",
+      "year": 2020
+    },
+    {
+      "venue_key": "colm",
+      "year": 2021
+    },
+    {
+      "venue_key": "colm",
+      "year": 2022
+    },
+    {
+      "venue_key": "colm",
+      "year": 2023
+    },
+    {
+      "venue_key": "colm",
+      "year": 2026
+    },
+    {
+      "venue_key": "colt",
+      "year": 2026
+    },
+    {
+      "venue_key": "corl",
+      "year": 2026
+    },
+    {
+      "venue_key": "eccv",
+      "year": 2021
+    },
+    {
+      "venue_key": "eccv",
+      "year": 2023
+    },
+    {
+      "venue_key": "eccv",
+      "year": 2025
+    },
+    {
+      "venue_key": "eccv",
+      "year": 2026
+    },
+    {
+      "venue_key": "emnlp",
+      "year": 2026
+    },
+    {
+      "venue_key": "iccv",
+      "year": 2020
+    },
+    {
+      "venue_key": "iccv",
+      "year": 2022
+    },
+    {
+      "venue_key": "iccv",
+      "year": 2024
+    },
+    {
+      "venue_key": "iccv",
+      "year": 2026
+    },
+    {
+      "venue_key": "iros",
+      "year": 2026
+    },
+    {
+      "venue_key": "naacl",
+      "year": 2020
+    },
+    {
+      "venue_key": "naacl",
+      "year": 2023
+    },
+    {
+      "venue_key": "naacl",
+      "year": 2026
+    },
+    {
+      "venue_key": "nips",
+      "year": 2026
+    },
+    {
+      "venue_key": "siggraph",
+      "year": 2026
+    },
+    {
+      "venue_key": "siggraphasia",
+      "year": 2026
+    },
+    {
+      "venue_key": "uai",
+      "year": 2026
+    }
+  ]
+}

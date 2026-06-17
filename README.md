@@ -116,6 +116,12 @@ Audit normalized data quality:
 python scripts/audit_normalized.py
 ```
 
+Audit configured calendar coverage against the Paper Copilot-compatible matrix:
+
+```bash
+python scripts/audit_calendar_coverage.py
+```
+
 Probe latest-year official sources that are not yet in the matrix:
 
 ```bash
