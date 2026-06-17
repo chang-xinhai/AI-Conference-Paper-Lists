@@ -8,6 +8,7 @@ import html
 import re
 import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any
 
@@ -18,10 +19,34 @@ sys.path.insert(0, str(ROOT / "src"))
 from aicpl.util import fetch_text, now_utc, read_json, write_json  # noqa: E402
 
 
+class MetaParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__()
+        self.meta: dict[str, list[str]] = {}
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        if tag.lower() != "meta":
+            return
+        values = {name.lower(): value or "" for name, value in attrs}
+        name = values.get("name")
+        content = values.get("content")
+        if name and content is not None:
+            self.meta.setdefault(name.lower(), []).append(html.unescape(content).strip())
+
+
 def clean(value: str) -> str:
     value = html.unescape(re.sub(r"<.*?>", " ", value or ""))
     value = " ".join(value.split()).strip()
     return re.sub(r"^Abstract\s+", "", value).strip()
+
+
+def suspicious_authors(record: dict[str, Any]) -> bool:
+    abstract = record.get("abstract", "")
+    abstract_prefix = abstract[:80] if abstract else ""
+    return any(
+        len(author) > 160 or (abstract_prefix and abstract_prefix in author)
+        for author in record.get("authors", [])
+    )
 
 
 def fetch_metadata(record: dict[str, Any], timeout: int) -> tuple[str, dict[str, str]]:
@@ -31,17 +56,21 @@ def fetch_metadata(record: dict[str, Any], timeout: int) -> tuple[str, dict[str,
         text,
         re.S,
     )
+    parser = MetaParser()
+    parser.feed(text)
+    meta = parser.meta
     pdf_match = re.search(r'href="(?P<pdf>https://aclanthology\.org/[^"]+?\.pdf)"', text)
     return (
         record["id"],
         {
             "abstract": clean(abstract_match.group("abstract")) if abstract_match else "",
-            "pdf_url": pdf_match.group("pdf") if pdf_match else "",
+            "authors": meta.get("citation_author", []),
+            "pdf_url": (meta.get("citation_pdf_url") or [pdf_match.group("pdf") if pdf_match else ""])[0],
         },
     )
 
 
-def update_records(records: list[dict[str, Any]], metadata_by_id: dict[str, dict[str, str]], fetched_at: str) -> int:
+def update_records(records: list[dict[str, Any]], metadata_by_id: dict[str, dict[str, Any]], fetched_at: str) -> int:
     updated = 0
     for record in records:
         metadata = metadata_by_id.get(record["id"])
@@ -49,14 +78,18 @@ def update_records(records: list[dict[str, Any]], metadata_by_id: dict[str, dict
             continue
         before = {
             "abstract": record.get("abstract", ""),
+            "authors": record.get("authors", []),
             "pdf_url": record.get("pdf_url", ""),
         }
         if metadata.get("abstract"):
             record["abstract"] = metadata["abstract"]
+        if metadata.get("authors"):
+            record["authors"] = metadata["authors"]
         if metadata.get("pdf_url"):
             record["pdf_url"] = metadata["pdf_url"]
         after = {
             "abstract": record.get("abstract", ""),
+            "authors": record.get("authors", []),
             "pdf_url": record.get("pdf_url", ""),
         }
         if before != after:
@@ -82,7 +115,8 @@ def main() -> None:
     candidates = [
         record
         for record in normalized.get("records", [])
-        if record.get("paper_url") and not record.get("abstract")
+        if record.get("paper_url")
+        and (not record.get("abstract") or not record.get("pdf_url") or suspicious_authors(record))
     ]
     if args.limit:
         candidates = candidates[: args.limit]

@@ -33,7 +33,14 @@ def harvest(venue_key: str, year: int) -> dict[str, Any]:
     )
     title_pattern = re.compile(r"<strong><a class=align-middle href=(?P<href>[^ >]+)>(?P<title>.*?)</a></strong>", re.S)
     pdf_pattern = re.compile(r'href=(?P<href>https://aclanthology.org/[^ >"]+?\.pdf)')
-    abstract_pattern = re.compile(r'<div class="card card-body acl-abstract">(?P<abstract>.*?)</div>', re.S)
+    abstract_patterns = [
+        re.compile(
+            r'<div class="card[^"]*\babstract-collapse\b[^"]*"[^>]*>\s*'
+            r'<div class="card-body[^"]*"[^>]*>(?P<abstract>.*?)</div>',
+            re.S,
+        ),
+        re.compile(r'<div class="card card-body acl-abstract">(?P<abstract>.*?)</div>', re.S),
+    ]
 
     records = []
     for block_match in block_pattern.finditer(text):
@@ -52,12 +59,13 @@ def harvest(venue_key: str, year: int) -> dict[str, Any]:
         if pdf_match:
             record["pdf_url"] = pdf_match.group("href")
         author_part = block.split("</strong><br>", 1)[1] if "</strong><br>" in block else ""
+        author_part = author_part.split("</span>", 1)[0]
         record["authors"] = [
             html.unescape(re.sub(r"<.*?>", "", part)).strip()
             for part in author_part.split("|")
             if html.unescape(re.sub(r"<.*?>", "", part)).strip()
         ]
-        abs_match = abstract_pattern.search(block)
+        abs_match = next((match for pattern in abstract_patterns if (match := pattern.search(block))), None)
         if abs_match:
             record["abstract"] = html.unescape(re.sub(r"<.*?>", " ", abs_match.group("abstract")))
             record["abstract"] = re.sub(r"\s+", " ", record["abstract"]).strip()

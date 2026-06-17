@@ -248,6 +248,28 @@ def audit_year(venue_key: str, year: int) -> dict:
                 }
             )
 
+    abstract_in_authors = issue_samples(
+        records,
+        lambda record: bool(record.get("abstract"))
+        and any(str(record.get("abstract") or "")[:80] in str(author) for author in record.get("authors", [])),
+    )
+    if abstract_in_authors:
+        result["critical"].append(
+            {
+                "id": "abstract_text_in_authors",
+                "count": sum(
+                    1
+                    for record in records
+                    if record.get("abstract")
+                    and any(
+                        str(record.get("abstract") or "")[:80] in str(author)
+                        for author in record.get("authors", [])
+                    )
+                ),
+                "samples": abstract_in_authors,
+            }
+        )
+
     for field in ["paper_url", "pdf_url", "arxiv_url", "project_url", "github_url"]:
         bad_urls = issue_samples(records, lambda record, field=field: malformed_url(record.get(field)))
         if bad_urls:
