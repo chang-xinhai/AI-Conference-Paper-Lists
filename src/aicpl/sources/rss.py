@@ -32,21 +32,23 @@ def _clean(text: str) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
-def _accepted_page_abstract(record: dict[str, Any]) -> tuple[str, str]:
+def _detail_page_abstract(record: dict[str, Any]) -> tuple[str, str]:
     text = fetch_text(record["paper_url"], timeout=20, retries=2)
-    abstract_match = re.search(
+    for pattern in [
+        r"<b[^>]*>\s*Abstract:\s*</b>\s*</p>\s*<p[^>]*>(?P<abstract>.*?)</p>",
         r"<b[^>]*>\s*Abstract:\s*</b>(?P<abstract>.*?)</p>",
-        text,
-        re.S | re.I,
-    )
-    return record["id"], _clean(abstract_match.group("abstract")) if abstract_match else ""
+    ]:
+        abstract_match = re.search(pattern, text, re.S | re.I)
+        if abstract_match:
+            return record["id"], _clean(abstract_match.group("abstract"))
+    return record["id"], ""
 
 
-def _enrich_accepted_page_abstracts(records: list[dict[str, Any]]) -> None:
+def _enrich_detail_page_abstracts(records: list[dict[str, Any]]) -> None:
     abstract_by_id: dict[str, str] = {}
     with ThreadPoolExecutor(max_workers=8) as executor:
         futures = [
-            executor.submit(_accepted_page_abstract, record)
+            executor.submit(_detail_page_abstract, record)
             for record in records
             if record.get("paper_url")
         ]
@@ -97,7 +99,7 @@ def _harvest_accepted_page(venue_key: str, year: int) -> dict[str, Any]:
         }
         records.append(record)
 
-    _enrich_accepted_page_abstracts(records)
+    _enrich_detail_page_abstracts(records)
 
     return {
         "source": "rss",
@@ -144,6 +146,8 @@ def harvest(venue_key: str, year: int) -> dict[str, Any]:
             "license": "",
         }
         records.append(record)
+
+    _enrich_detail_page_abstracts(records)
 
     return {
         "source": "rss",
