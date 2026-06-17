@@ -6,6 +6,7 @@ import bisect
 import html
 import re
 from typing import Any
+from urllib.parse import urljoin
 
 from ..schema import empty_record, venue_name
 from ..util import fetch_text, normalize_title, now_utc
@@ -31,6 +32,7 @@ def supports(venue_key: str, year: int) -> bool:
 
 def _clean(value: str) -> str:
     value = html.unescape(re.sub(r"<.*?>", " ", value or ""))
+    value = re.sub(r"[\x00-\x08\x0b\x0c\x0e-\x1f]", "", value)
     return " ".join(value.split())
 
 
@@ -68,6 +70,7 @@ def _page_records(venue_key: str, year: int, url: str, fetched_at: str) -> list[
         record = empty_record(venue_key, venue_name(venue_key), year, title)
         record["presentation"] = _clean(match.group("header"))
         record["track"] = _last_context(sessions, match.start())
+        record["paper_url"] = urljoin(url, f"#{match.group('anchor')}")
         authors = []
         affiliations = []
         for author_match in re.finditer(
@@ -84,6 +87,16 @@ def _page_records(venue_key: str, year: int, url: str, fetched_at: str) -> list[
         record["authors"] = authors
         record["affiliations"] = affiliations
         record["first_institute"] = affiliations[0] if affiliations else ""
+        abstract_match = re.search(r"<strong>Abstract:</strong>(?P<abstract>.*?)</div>", block, re.S)
+        if abstract_match:
+            record["abstract"] = _clean(abstract_match.group("abstract"))
+        keywords_match = re.search(r"<strong>Keywords:</strong>(?P<keywords>.*?)<br>", block, re.S)
+        if keywords_match:
+            record["keywords"] = [
+                _clean(keyword)
+                for keyword in re.findall(r"<a [^>]*>(.*?)</a>", keywords_match.group("keywords"), re.S)
+                if _clean(keyword)
+            ]
         record["source"] = {
             "name": "PaperCept program",
             "url": url,

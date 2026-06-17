@@ -64,7 +64,11 @@ def fetch_text(url: str, *, timeout: int = 30, retries: int = 3) -> str:
                     data = gzip.decompress(data)
                 elif encoding == "deflate":
                     data = zlib.decompress(data)
-                return data.decode("utf-8", errors="replace")
+                charset = response.headers.get_content_charset()
+                if not charset:
+                    meta_match = re.search(br"charset=[\"']?([a-zA-Z0-9._-]+)", data[:4096], re.I)
+                    charset = meta_match.group(1).decode("ascii", errors="ignore") if meta_match else "utf-8"
+                return data.decode(charset or "utf-8", errors="replace")
         except HTTPError as error:
             retryable = error.code == 429 or 500 <= error.code < 600
             if not retryable or attempt == retries:
