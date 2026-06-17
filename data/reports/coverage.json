@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1",
-  "generated_at": "2026-06-17T07:02:37Z",
+  "generated_at": "2026-06-17T07:18:21Z",
   "validate_against_papercopilot": true,
   "allow_papercopilot_fallback": false,
   "results": [
@@ -1870,11 +1870,12 @@
       "venue_key": "iros",
       "year": 2025,
       "candidate_sources": [
+        "papercept",
         "dblp"
       ],
       "status": "harvested",
-      "source": "dblp",
-      "count": 1985,
+      "source": "papercept",
+      "count": 2672,
       "message": "",
       "validation_status": "no_baseline",
       "validation_counts": {}

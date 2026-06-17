@@ -16,6 +16,7 @@ from .sources import (
     neurips,
     openreview,
     papercopilot,
+    papercept,
     pmlr,
     rss,
     siggraph,
@@ -44,6 +45,7 @@ HARVESTERS: dict[str, Harvester] = {
     "siggraph": siggraph,
     "siggraph_asia": siggraph,
     "papercopilot": papercopilot,
+    "papercept": papercept,
 }
 
 
