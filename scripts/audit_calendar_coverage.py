@@ -14,8 +14,41 @@ sys.path.insert(0, str(ROOT / "src"))
 from aicpl.util import now_utc, read_json, write_json  # noqa: E402
 
 
+IRREGULAR_NON_EVENT_YEARS = {
+    ("3dv", 2023),
+    ("coling", 2021),
+    ("coling", 2023),
+    ("naacl", 2023),
+}
+
+
 def normalized_path(venue_key: str, year: int) -> Path:
     return ROOT / "data" / "normalized" / venue_key / f"{venue_key}{year}.json"
+
+
+def non_target_reason(
+    venue_key: str,
+    year: int,
+    target_years: set[int],
+    source_gap_index: dict[tuple[str, int], dict],
+) -> dict:
+    gap = source_gap_index.get((venue_key, year))
+    if gap:
+        return {
+            "reason": "tracked_official_source_gap",
+            "gap_id": gap.get("id", ""),
+            "gap_status": gap.get("status", ""),
+            "evidence": gap.get("evidence", ""),
+        }
+    if target_years and year < min(target_years):
+        return {"reason": "before_first_configured_target"}
+    if venue_key == "eccv" and year % 2 == 1:
+        return {"reason": "biennial_even_year_cadence"}
+    if venue_key == "iccv" and year % 2 == 0:
+        return {"reason": "biennial_odd_year_cadence"}
+    if (venue_key, year) in IRREGULAR_NON_EVENT_YEARS:
+        return {"reason": "irregular_non_event_year"}
+    return {"reason": "outside_configured_target_matrix"}
 
 
 def main() -> None:
@@ -68,7 +101,13 @@ def main() -> None:
 
         for year in range(2020, args.current_year + 1):
             if year not in target_years:
-                non_target_calendar_years.append({"venue_key": venue_key, "year": year})
+                non_target_calendar_years.append(
+                    {
+                        "venue_key": venue_key,
+                        "year": year,
+                        **non_target_reason(venue_key, year, target_years, source_gap_index),
+                    }
+                )
 
         for year in sorted(target_years):
             path = normalized_path(venue_key, year)
@@ -102,6 +141,10 @@ def main() -> None:
             "papercopilot_sourced_target_count": len(papercopilot_sourced_targets),
             "fallback_target_count": len(fallback_targets),
             "non_target_calendar_year_count": len(non_target_calendar_years),
+            "non_target_by_reason": {
+                reason: sum(1 for item in non_target_calendar_years if item["reason"] == reason)
+                for reason in sorted({item["reason"] for item in non_target_calendar_years})
+            },
         },
         "missing_papercopilot_years": missing_papercopilot_years,
         "tracked_unavailable_papercopilot_years": tracked_unavailable_papercopilot_years,

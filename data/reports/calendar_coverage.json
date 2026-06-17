@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1",
-  "generated_at": "2026-06-17T09:54:49Z",
+  "generated_at": "2026-06-17T09:57:26Z",
   "current_year": 2026,
   "source_gap_report": "data/reports/source_gaps.json",
   "status": "warning",
@@ -13,7 +13,14 @@
     "empty_target_data_count": 0,
     "papercopilot_sourced_target_count": 0,
     "fallback_target_count": 1,
-    "non_target_calendar_year_count": 39
+    "non_target_calendar_year_count": 39,
+    "non_target_by_reason": {
+      "before_first_configured_target": 13,
+      "biennial_even_year_cadence": 3,
+      "biennial_odd_year_cadence": 3,
+      "irregular_non_event_year": 4,
+      "tracked_official_source_gap": 16
+    }
   },
   "missing_papercopilot_years": [],
   "tracked_unavailable_papercopilot_years": [
@@ -38,159 +45,246 @@
   "non_target_calendar_years": [
     {
       "venue_key": "3dv",
-      "year": 2023
+      "year": 2023,
+      "reason": "irregular_non_event_year"
     },
     {
       "venue_key": "acl",
-      "year": 2026
+      "year": 2026,
+      "reason": "tracked_official_source_gap",
+      "gap_id": "acl2026-openreview-industry-partial",
+      "gap_status": "partial",
+      "evidence": "OpenReview returned notes for a partial track only."
     },
     {
       "venue_key": "acml",
-      "year": 2026
+      "year": 2026,
+      "reason": "tracked_official_source_gap",
+      "gap_id": "acml2026-pmlr",
+      "gap_status": "not_available",
+      "evidence": "No configured PMLR terms found on homepage."
     },
     {
       "venue_key": "acmmm",
-      "year": 2026
+      "year": 2026,
+      "reason": "tracked_official_source_gap",
+      "gap_id": "acmmm2026-crossref-acm",
+      "gap_status": "not_available",
+      "evidence": "Crossref exact event records: 0; expected at least 500."
     },
     {
       "venue_key": "ai4x",
-      "year": 2020
+      "year": 2020,
+      "reason": "before_first_configured_target"
     },
     {
       "venue_key": "ai4x",
-      "year": 2021
+      "year": 2021,
+      "reason": "before_first_configured_target"
     },
     {
       "venue_key": "ai4x",
-      "year": 2022
+      "year": 2022,
+      "reason": "before_first_configured_target"
     },
     {
       "venue_key": "ai4x",
-      "year": 2023
+      "year": 2023,
+      "reason": "before_first_configured_target"
     },
     {
       "venue_key": "ai4x",
-      "year": 2024
+      "year": 2024,
+      "reason": "before_first_configured_target"
     },
     {
       "venue_key": "automl",
-      "year": 2020
+      "year": 2020,
+      "reason": "before_first_configured_target"
     },
     {
       "venue_key": "automl",
-      "year": 2021
+      "year": 2021,
+      "reason": "before_first_configured_target"
     },
     {
       "venue_key": "automl",
-      "year": 2026
+      "year": 2026,
+      "reason": "tracked_official_source_gap",
+      "gap_id": "automl2026-pmlr",
+      "gap_status": "not_available",
+      "evidence": "No configured PMLR terms found on homepage."
     },
     {
       "venue_key": "coling",
-      "year": 2021
+      "year": 2021,
+      "reason": "irregular_non_event_year"
     },
     {
       "venue_key": "coling",
-      "year": 2023
+      "year": 2023,
+      "reason": "irregular_non_event_year"
     },
     {
       "venue_key": "coling",
-      "year": 2026
+      "year": 2026,
+      "reason": "tracked_official_source_gap",
+      "gap_id": "coling2026-acl-anthology",
+      "gap_status": "not_available",
+      "evidence": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "venue_key": "colm",
-      "year": 2020
+      "year": 2020,
+      "reason": "before_first_configured_target"
     },
     {
       "venue_key": "colm",
-      "year": 2021
+      "year": 2021,
+      "reason": "before_first_configured_target"
     },
     {
       "venue_key": "colm",
-      "year": 2022
+      "year": 2022,
+      "reason": "before_first_configured_target"
     },
     {
       "venue_key": "colm",
-      "year": 2023
+      "year": 2023,
+      "reason": "before_first_configured_target"
     },
     {
       "venue_key": "colm",
-      "year": 2026
+      "year": 2026,
+      "reason": "tracked_official_source_gap",
+      "gap_id": "colm2026-openreview",
+      "gap_status": "not_available",
+      "evidence": "OpenReview returned zero notes."
     },
     {
       "venue_key": "colt",
-      "year": 2026
+      "year": 2026,
+      "reason": "tracked_official_source_gap",
+      "gap_id": "colt2026-pmlr",
+      "gap_status": "not_available",
+      "evidence": "No configured PMLR terms found on homepage."
     },
     {
       "venue_key": "corl",
-      "year": 2026
+      "year": 2026,
+      "reason": "tracked_official_source_gap",
+      "gap_id": "corl2026-pmlr",
+      "gap_status": "not_available",
+      "evidence": "No configured PMLR terms found on homepage."
     },
     {
       "venue_key": "eccv",
-      "year": 2021
+      "year": 2021,
+      "reason": "biennial_even_year_cadence"
     },
     {
       "venue_key": "eccv",
-      "year": 2023
+      "year": 2023,
+      "reason": "biennial_even_year_cadence"
     },
     {
       "venue_key": "eccv",
-      "year": 2025
+      "year": 2025,
+      "reason": "biennial_even_year_cadence"
     },
     {
       "venue_key": "eccv",
-      "year": 2026
+      "year": 2026,
+      "reason": "tracked_official_source_gap",
+      "gap_id": "eccv2026-openreview",
+      "gap_status": "not_available",
+      "evidence": "OpenReview returned zero notes."
     },
     {
       "venue_key": "emnlp",
-      "year": 2026
+      "year": 2026,
+      "reason": "tracked_official_source_gap",
+      "gap_id": "emnlp2026-acl-anthology",
+      "gap_status": "not_available",
+      "evidence": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "venue_key": "iccv",
-      "year": 2020
+      "year": 2020,
+      "reason": "before_first_configured_target"
     },
     {
       "venue_key": "iccv",
-      "year": 2022
+      "year": 2022,
+      "reason": "biennial_odd_year_cadence"
     },
     {
       "venue_key": "iccv",
-      "year": 2024
+      "year": 2024,
+      "reason": "biennial_odd_year_cadence"
     },
     {
       "venue_key": "iccv",
-      "year": 2026
+      "year": 2026,
+      "reason": "biennial_odd_year_cadence"
     },
     {
       "venue_key": "iros",
-      "year": 2026
+      "year": 2026,
+      "reason": "tracked_official_source_gap",
+      "gap_id": "iros2026-papercept",
+      "gap_status": "not_available",
+      "evidence": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "venue_key": "naacl",
-      "year": 2020
+      "year": 2020,
+      "reason": "before_first_configured_target"
     },
     {
       "venue_key": "naacl",
-      "year": 2023
+      "year": 2023,
+      "reason": "irregular_non_event_year"
     },
     {
       "venue_key": "naacl",
-      "year": 2026
+      "year": 2026,
+      "reason": "tracked_official_source_gap",
+      "gap_id": "naacl2026-acl-anthology",
+      "gap_status": "not_available",
+      "evidence": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "venue_key": "nips",
-      "year": 2026
+      "year": 2026,
+      "reason": "tracked_official_source_gap",
+      "gap_id": "neurips2026-openreview",
+      "gap_status": "not_available",
+      "evidence": "OpenReview returned zero notes."
     },
     {
       "venue_key": "siggraph",
-      "year": 2026
+      "year": 2026,
+      "reason": "tracked_official_source_gap",
+      "gap_id": "siggraph2026-technical-papers",
+      "gap_status": "not_available",
+      "evidence": "Matched unavailable_regex: publication date of accepted papers is 3 July 2026|publication date for both"
     },
     {
       "venue_key": "siggraphasia",
-      "year": 2026
+      "year": 2026,
+      "reason": "tracked_official_source_gap",
+      "gap_id": "siggraphasia2026-technical-papers",
+      "gap_status": "not_available",
+      "evidence": "Matched unavailable_regex: publication date of accepted papers.*9 November 2026"
     },
     {
       "venue_key": "uai",
-      "year": 2026
+      "year": 2026,
+      "reason": "tracked_official_source_gap",
+      "gap_id": "uai2026-pmlr",
+      "gap_status": "not_available",
+      "evidence": "No configured PMLR terms found on homepage."
     }
   ]
 }
