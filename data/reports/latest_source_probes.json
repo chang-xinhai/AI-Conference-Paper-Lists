@@ -1,13 +1,27 @@
 {
   "schema_version": "0.1",
-  "generated_at": "2026-06-17T09:24:23Z",
+  "generated_at": "2026-06-17T09:39:44Z",
   "summary": {
     "available": 0,
     "incomplete": 1,
-    "not_available": 14,
+    "not_available": 15,
+    "partial": 1,
     "reachable": 0
   },
   "results": [
+    {
+      "id": "acl2026-official-accepted-page",
+      "venue_key": "acl",
+      "year": 2026,
+      "kind": "http",
+      "url": "https://2026.aclweb.org/program/accepted_papers/",
+      "available_regex": "class=\"paper|accepted paper|paper-title",
+      "unavailable_regex": "coming soon",
+      "status": "not_available",
+      "evidence": "Matched unavailable_regex: coming soon",
+      "http_ok": true,
+      "response_chars": 11070
+    },
     {
       "id": "acl2026-acl-anthology",
       "venue_key": "acl",
@@ -17,6 +31,26 @@
       "available_regex": "class=\"acl-paper-title\"",
       "status": "not_available",
       "evidence": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "id": "acl2026-openreview-industry-partial",
+      "venue_key": "acl",
+      "year": 2026,
+      "kind": "openreview",
+      "venue_ids": [
+        "aclweb.org/ACL/2026/Industry_Track"
+      ],
+      "partial": true,
+      "reason": "ACL 2026 Industry Track is visible on OpenReview, but the official accepted-papers page and ACL Anthology event page do not yet expose the complete ACL 2026 paper list.",
+      "status": "partial",
+      "note_count_sample": 1,
+      "venue_counts": {
+        "aclweb.org/ACL/2026/Industry_Track": {
+          "count": 1,
+          "url": "https://api2.openreview.net/notes?content.venueid=aclweb.org%2FACL%2F2026%2FIndustry_Track&limit=1"
+        }
+      },
+      "evidence": "OpenReview returned notes for a partial track only."
     },
     {
       "id": "naacl2026-acl-anthology",

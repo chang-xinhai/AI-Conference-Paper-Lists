@@ -61,12 +61,22 @@ def openreview_probe(probe: dict[str, Any]) -> dict[str, Any]:
             continue
         counts[venue_id] = {"count": len(payload.get("notes", [])), "url": url}
     total = sum(item.get("count", 0) for item in counts.values())
+    status = "not_available"
+    if total:
+        status = "partial" if probe.get("partial") else "available"
+    evidence = "OpenReview returned zero notes."
+    if total:
+        evidence = (
+            "OpenReview returned notes for a partial track only."
+            if probe.get("partial")
+            else "OpenReview returned at least one note."
+        )
     return {
         **probe,
-        "status": "available" if total else "not_available",
+        "status": status,
         "note_count_sample": total,
         "venue_counts": counts,
-        "evidence": "OpenReview returned at least one note." if total else "OpenReview returned zero notes.",
+        "evidence": evidence,
     }
 
 
@@ -131,7 +141,9 @@ def crossref_kdd_probe(probe: dict[str, Any]) -> dict[str, Any]:
 
 
 PROBES: list[dict[str, Any]] = [
+    {"id": "acl2026-official-accepted-page", "venue_key": "acl", "year": 2026, "kind": "http", "url": "https://2026.aclweb.org/program/accepted_papers/", "available_regex": "class=\"paper|accepted paper|paper-title", "unavailable_regex": "coming soon"},
     {"id": "acl2026-acl-anthology", "venue_key": "acl", "year": 2026, "kind": "http", "url": "https://aclanthology.org/events/acl-2026/", "available_regex": "class=\"acl-paper-title\""},
+    {"id": "acl2026-openreview-industry-partial", "venue_key": "acl", "year": 2026, "kind": "openreview", "venue_ids": ["aclweb.org/ACL/2026/Industry_Track"], "partial": True, "reason": "ACL 2026 Industry Track is visible on OpenReview, but the official accepted-papers page and ACL Anthology event page do not yet expose the complete ACL 2026 paper list."},
     {"id": "naacl2026-acl-anthology", "venue_key": "naacl", "year": 2026, "kind": "http", "url": "https://aclanthology.org/events/naacl-2026/", "available_regex": "class=\"acl-paper-title\""},
     {"id": "emnlp2026-acl-anthology", "venue_key": "emnlp", "year": 2026, "kind": "http", "url": "https://aclanthology.org/events/emnlp-2026/", "available_regex": "class=\"acl-paper-title\""},
     {"id": "coling2026-acl-anthology", "venue_key": "coling", "year": 2026, "kind": "http", "url": "https://aclanthology.org/events/coling-2026/", "available_regex": "class=\"acl-paper-title\""},
@@ -171,6 +183,7 @@ def main() -> None:
         "available": sum(1 for result in results if result["status"] == "available"),
         "incomplete": sum(1 for result in results if result["status"] == "incomplete"),
         "not_available": sum(1 for result in results if result["status"] == "not_available"),
+        "partial": sum(1 for result in results if result["status"] == "partial"),
         "reachable": sum(1 for result in results if result["status"] == "reachable"),
     }
     report = {

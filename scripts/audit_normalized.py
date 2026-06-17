@@ -16,8 +16,65 @@ sys.path.insert(0, str(ROOT / "src"))
 from aicpl.util import now_utc, read_json, write_json  # noqa: E402
 
 
+FRONT_MATTER_TITLES = {
+    "author index",
+    "back cover",
+    "committee",
+    "conference committee",
+    "conference information",
+    "conference title page",
+    "contents",
+    "copyright",
+    "cover page",
+    "editorial board",
+    "emergency reviewers",
+    "front cover",
+    "foreword",
+    "index of papers",
+    "organising committee",
+    "organizing committee",
+    "preface",
+    "program",
+    "program committee",
+    "reviewers",
+    "session index",
+    "sponsors",
+    "sponsors and partners",
+    "statistics",
+    "steering committee",
+    "table of contents",
+    "title page",
+    "welcome",
+    "welcome message",
+    "welcome page",
+}
+
+FRONT_MATTER_PATTERNS = [
+    re.compile(r"^message from (the )?.*chairs?$"),
+    re.compile(r"^.*conference committee$"),
+    re.compile(r"^.*program committee$"),
+]
+
+
 def canonical_title(title: str) -> str:
     return re.sub(r"[^a-z0-9]+", " ", title.lower()).strip()
+
+
+def strip_venue_tokens(title: str, venue_key: str, year: int) -> str:
+    stripped = title
+    tokens = {venue_key, str(year)}
+    if venue_key == "nips":
+        tokens.add("neurips")
+    for token in tokens:
+        stripped = re.sub(rf"\b{re.escape(token)}\b", " ", stripped)
+    return re.sub(r"\s+", " ", stripped).strip()
+
+
+def is_front_matter_title(title: str, venue_key: str, year: int) -> bool:
+    canonical = strip_venue_tokens(canonical_title(title), venue_key, year)
+    return canonical in FRONT_MATTER_TITLES or any(
+        pattern.match(canonical) for pattern in FRONT_MATTER_PATTERNS
+    )
 
 
 def audit_year(venue_key: str, year: int) -> dict:
@@ -56,6 +113,20 @@ def audit_year(venue_key: str, year: int) -> dict:
     blank_title_count = sum(1 for record in records if not str(record.get("title") or "").strip())
     if blank_title_count:
         result["critical"].append({"id": "blank_titles", "count": blank_title_count})
+
+    front_matter_titles = [
+        str(record.get("title") or "")
+        for record in records
+        if is_front_matter_title(str(record.get("title") or ""), venue_key, year)
+    ]
+    if front_matter_titles:
+        result["critical"].append(
+            {
+                "id": "front_matter_titles",
+                "count": len(front_matter_titles),
+                "samples": front_matter_titles[:20],
+            }
+        )
 
     titles = [
         canonical_title(str(record.get("title") or ""))
