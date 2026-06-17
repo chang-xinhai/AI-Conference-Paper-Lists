@@ -1,11 +1,11 @@
 {
   "schema_version": "0.1",
-  "generated_at": "2026-06-17T08:31:33Z",
+  "generated_at": "2026-06-17T08:36:05Z",
   "target_count": 153,
   "status": "warning",
   "summary": {
-    "ok": 130,
-    "warning": 23,
+    "ok": 129,
+    "warning": 24,
     "critical": 0
   },
   "results": [
@@ -513,8 +513,8 @@
       "year": 2021,
       "path": "data/normalized/corl/corl2021.json",
       "status": "ok",
-      "source": "openreview",
-      "count": 153,
+      "source": "pmlr",
+      "count": 166,
       "critical": [],
       "warnings": []
     },
@@ -523,7 +523,7 @@
       "year": 2022,
       "path": "data/normalized/corl/corl2022.json",
       "status": "ok",
-      "source": "openreview",
+      "source": "pmlr",
       "count": 197,
       "critical": [],
       "warnings": []
@@ -532,18 +532,27 @@
       "venue_key": "corl",
       "year": 2023,
       "path": "data/normalized/corl/corl2023.json",
-      "status": "ok",
-      "source": "openreview",
-      "count": 199,
+      "status": "warning",
+      "source": "pmlr",
+      "count": 201,
       "critical": [],
-      "warnings": []
+      "warnings": [
+        {
+          "id": "duplicate_canonical_titles",
+          "count": 2,
+          "samples": [
+            "expansive latent planning for sparse reward offline reinforcement learning",
+            "sayplan grounding large language models using 3d scene graphs for scalable robot task planning"
+          ]
+        }
+      ]
     },
     {
       "venue_key": "corl",
       "year": 2024,
       "path": "data/normalized/corl/corl2024.json",
       "status": "ok",
-      "source": "openreview",
+      "source": "pmlr",
       "count": 264,
       "critical": [],
       "warnings": []
@@ -553,7 +562,7 @@
       "year": 2025,
       "path": "data/normalized/corl/corl2025.json",
       "status": "ok",
-      "source": "openreview",
+      "source": "pmlr",
       "count": 263,
       "critical": [],
       "warnings": []

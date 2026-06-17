@@ -2,21 +2,35 @@
   "schema_version": "0.1",
   "venue_key": "corl",
   "year": 2021,
-  "source": "openreview",
+  "source": "pmlr",
   "baseline": "papercopilot",
-  "generated_at": "2026-06-17T06:42:19Z",
+  "generated_at": "2026-06-17T08:35:40Z",
   "status": "ok",
   "min_count_ratio": 0.95,
   "counts": {
-    "ours": 153,
+    "ours": 166,
     "baseline": 153,
     "title_overlap": 153,
-    "count_ratio": 1.0,
+    "count_ratio": 1.085,
     "overlap_ratio": 1.0
   },
   "known_baseline_issues": [],
   "samples": {
     "missing_from_ours": [],
-    "extra_in_ours": []
+    "extra_in_ours": [
+      "auditing robot learning for safety and compliance during deployment",
+      "back to reality for imitation learning",
+      "collect infer a fresh look at data efficient reinforcement learning",
+      "continuous then discrete a recommendation for building robotic brains",
+      "decentralized sharing and valuation of fleet robotic data",
+      "dual arm adversarial robot learning",
+      "from robot learning to robot understanding leveraging causal graphical models for robotics",
+      "learning to be multimodal co evolving sensory modalities and sensor properties",
+      "roboflow a data centric workflow management system for developing ai enhanced robots",
+      "robots on demand a democratized robotics research cloud",
+      "the task specification problem",
+      "toward robots that learn to summarize their actions in natural language a set of tasks",
+      "understanding the world through action"
+    ]
   }
 }

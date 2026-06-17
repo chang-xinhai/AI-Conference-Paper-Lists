@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1",
-  "generated_at": "2026-06-17T08:31:31Z",
+  "generated_at": "2026-06-17T08:36:02Z",
   "validate_against_papercopilot": true,
   "source": "existing_normalized_data",
   "allow_papercopilot_fallback": false,
@@ -921,18 +921,19 @@
       "venue_key": "corl",
       "year": 2021,
       "candidate_sources": [
+        "pmlr",
         "openreview"
       ],
       "status": "harvested",
-      "source": "openreview",
-      "count": 153,
+      "source": "pmlr",
+      "count": 166,
       "message": "",
       "validation_status": "ok",
       "validation_counts": {
-        "ours": 153,
+        "ours": 166,
         "baseline": 153,
         "title_overlap": 153,
-        "count_ratio": 1.0,
+        "count_ratio": 1.085,
         "overlap_ratio": 1.0
       }
     },
@@ -940,48 +941,51 @@
       "venue_key": "corl",
       "year": 2022,
       "candidate_sources": [
+        "pmlr",
         "openreview"
       ],
       "status": "harvested",
-      "source": "openreview",
+      "source": "pmlr",
       "count": 197,
       "message": "",
       "validation_status": "ok",
       "validation_counts": {
         "ours": 197,
         "baseline": 197,
-        "title_overlap": 197,
+        "title_overlap": 196,
         "count_ratio": 1.0,
-        "overlap_ratio": 1.0
+        "overlap_ratio": 0.9949
       }
     },
     {
       "venue_key": "corl",
       "year": 2023,
       "candidate_sources": [
+        "pmlr",
         "openreview"
       ],
       "status": "harvested",
-      "source": "openreview",
-      "count": 199,
+      "source": "pmlr",
+      "count": 201,
       "message": "",
       "validation_status": "ok",
       "validation_counts": {
         "ours": 199,
         "baseline": 199,
-        "title_overlap": 199,
+        "title_overlap": 198,
         "count_ratio": 1.0,
-        "overlap_ratio": 1.0
+        "overlap_ratio": 0.995
       }
     },
     {
       "venue_key": "corl",
       "year": 2024,
       "candidate_sources": [
+        "pmlr",
         "openreview"
       ],
       "status": "harvested",
-      "source": "openreview",
+      "source": "pmlr",
       "count": 264,
       "message": "",
       "validation_status": "ok",
@@ -997,19 +1001,20 @@
       "venue_key": "corl",
       "year": 2025,
       "candidate_sources": [
+        "pmlr",
         "openreview"
       ],
       "status": "harvested",
-      "source": "openreview",
+      "source": "pmlr",
       "count": 263,
       "message": "",
       "validation_status": "ok",
       "validation_counts": {
         "ours": 263,
         "baseline": 263,
-        "title_overlap": 263,
+        "title_overlap": 262,
         "count_ratio": 1.0,
-        "overlap_ratio": 1.0
+        "overlap_ratio": 0.9962
       }
     },
     {

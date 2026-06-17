@@ -2,21 +2,25 @@
   "schema_version": "0.1",
   "venue_key": "corl",
   "year": 2025,
-  "source": "openreview",
+  "source": "pmlr",
   "baseline": "papercopilot",
-  "generated_at": "2026-06-17T06:42:29Z",
+  "generated_at": "2026-06-17T08:35:49Z",
   "status": "ok",
   "min_count_ratio": 0.95,
   "counts": {
     "ours": 263,
     "baseline": 263,
-    "title_overlap": 263,
+    "title_overlap": 262,
     "count_ratio": 1.0,
-    "overlap_ratio": 1.0
+    "overlap_ratio": 0.9962
   },
   "known_baseline_issues": [],
   "samples": {
-    "missing_from_ours": [],
-    "extra_in_ours": []
+    "missing_from_ours": [
+      "texttt spin distilling texttt skill rrt for long horizon prehensile and non prehensile manipulation"
+    ],
+    "extra_in_ours": [
+      "textttspin distilling textttskill rrt for long horizon prehensile and non prehensile manipulation"
+    ]
   }
 }

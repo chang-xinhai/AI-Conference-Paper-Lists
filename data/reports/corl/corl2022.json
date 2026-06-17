@@ -2,21 +2,25 @@
   "schema_version": "0.1",
   "venue_key": "corl",
   "year": 2022,
-  "source": "openreview",
+  "source": "pmlr",
   "baseline": "papercopilot",
-  "generated_at": "2026-06-17T06:42:22Z",
+  "generated_at": "2026-06-17T08:35:42Z",
   "status": "ok",
   "min_count_ratio": 0.95,
   "counts": {
     "ours": 197,
     "baseline": 197,
-    "title_overlap": 197,
+    "title_overlap": 196,
     "count_ratio": 1.0,
-    "overlap_ratio": 1.0
+    "overlap_ratio": 0.9949
   },
   "known_baseline_issues": [],
   "samples": {
-    "missing_from_ours": [],
-    "extra_in_ours": []
+    "missing_from_ours": [
+      "viola object centric imitation learning for vision based robot manipulation"
+    ],
+    "extra_in_ours": [
+      "viola imitation learning for vision based manipulation with object proposal priors"
+    ]
   }
 }
