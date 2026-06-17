@@ -48,6 +48,12 @@ def main() -> None:
     parser.add_argument("--workers", type=int, default=8)
     parser.add_argument("--timeout", type=int, default=15)
     parser.add_argument("--limit", type=int, default=0, help="Maximum missing abstracts to fetch. Default: all.")
+    parser.add_argument(
+        "--flush-every",
+        type=int,
+        default=250,
+        help="Write fetched abstracts every N completed requests. Use 0 to write only at the end.",
+    )
     args = parser.parse_args()
 
     normalized_path = ROOT / "data" / "normalized" / args.conference / f"{args.conference}{args.year}.json"
@@ -63,8 +69,28 @@ def main() -> None:
     if args.limit:
         candidates = candidates[: args.limit]
 
-    abstract_by_id: dict[str, str] = {}
+    pending_abstracts: dict[str, str] = {}
+    fetched_at = now_utc()
+    fetched_abstracts = 0
     failures = 0
+    normalized_updated = 0
+    raw_updated = 0
+
+    def flush_updates() -> None:
+        nonlocal normalized_updated, raw_updated
+        if not pending_abstracts:
+            return
+        normalized_delta = update_records(normalized.get("records", []), pending_abstracts, fetched_at)
+        raw_delta = update_records(raw.get("records", []), pending_abstracts, fetched_at)
+        if normalized_delta or raw_delta:
+            normalized["fetched_at"] = fetched_at
+            raw["fetched_at"] = fetched_at
+            write_json(normalized_path, normalized)
+            write_json(raw_path, raw)
+            normalized_updated += normalized_delta
+            raw_updated += raw_delta
+        pending_abstracts.clear()
+
     with ThreadPoolExecutor(max_workers=args.workers) as executor:
         futures = [executor.submit(fetch_abstract, record, args.timeout) for record in candidates]
         for index, future in enumerate(as_completed(futures), start=1):
@@ -74,20 +100,17 @@ def main() -> None:
                 failures += 1
             else:
                 if abstract:
-                    abstract_by_id[record_id] = abstract
+                    pending_abstracts[record_id] = abstract
+                    fetched_abstracts += 1
+            if args.flush_every and index % args.flush_every == 0:
+                flush_updates()
             if index % 100 == 0 or index == len(futures):
                 print(
-                    f"fetched={index}/{len(futures)} abstracts={len(abstract_by_id)} failures={failures}",
+                    f"fetched={index}/{len(futures)} abstracts={fetched_abstracts} failures={failures}",
                     flush=True,
                 )
 
-    fetched_at = now_utc()
-    normalized_updated = update_records(normalized.get("records", []), abstract_by_id, fetched_at)
-    raw_updated = update_records(raw.get("records", []), abstract_by_id, fetched_at)
-    normalized["fetched_at"] = fetched_at
-    raw["fetched_at"] = fetched_at
-    write_json(normalized_path, normalized)
-    write_json(raw_path, raw)
+    flush_updates()
 
     print(
         f"updated normalized={normalized_updated} raw={raw_updated} failures={failures} "
