@@ -1,10 +1,10 @@
 {
   "schema_version": "0.1",
-  "generated_at": "2026-06-17T10:32:23Z",
+  "generated_at": "2026-06-17T10:41:53Z",
   "summary": {
     "available": 0,
     "incomplete": 1,
-    "not_available": 22,
+    "not_available": 24,
     "partial": 1,
     "reachable": 0
   },
@@ -139,6 +139,16 @@
       "evidence": "OpenReview returned zero notes."
     },
     {
+      "id": "uai2026-official-accepted-page",
+      "venue_key": "uai",
+      "year": 2026,
+      "kind": "http",
+      "url": "https://www.auai.org/uai2026/accepted_papers",
+      "available_regex": "accepted papers|<li>|paper-title|list-group-item",
+      "status": "not_available",
+      "evidence": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
       "id": "uai2026-openreview",
       "venue_key": "uai",
       "year": 2026,
@@ -252,6 +262,39 @@
       "available_regex": "accepted|paper",
       "status": "not_available",
       "evidence": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "id": "acmmm2026-openreview",
+      "venue_key": "acmmm",
+      "year": 2026,
+      "kind": "openreview",
+      "venue_ids": [
+        "acmmm.org/ACMMM/2026/Conference",
+        "acmmm.org/ACMMM/2026/Dataset_Track",
+        "acmmm.org/ACMMM/2026/Brave_New_Ideas_Track",
+        "acmmm.org/ACMMM/2026/Open_Source_Software_Track"
+      ],
+      "status": "not_available",
+      "note_count_sample": 0,
+      "venue_counts": {
+        "acmmm.org/ACMMM/2026/Conference": {
+          "count": 0,
+          "url": "https://api2.openreview.net/notes?content.venueid=acmmm.org%2FACMMM%2F2026%2FConference&limit=1"
+        },
+        "acmmm.org/ACMMM/2026/Dataset_Track": {
+          "count": 0,
+          "url": "https://api2.openreview.net/notes?content.venueid=acmmm.org%2FACMMM%2F2026%2FDataset_Track&limit=1"
+        },
+        "acmmm.org/ACMMM/2026/Brave_New_Ideas_Track": {
+          "count": 0,
+          "url": "https://api2.openreview.net/notes?content.venueid=acmmm.org%2FACMMM%2F2026%2FBrave_New_Ideas_Track&limit=1"
+        },
+        "acmmm.org/ACMMM/2026/Open_Source_Software_Track": {
+          "count": 0,
+          "url": "https://api2.openreview.net/notes?content.venueid=acmmm.org%2FACMMM%2F2026%2FOpen_Source_Software_Track&limit=1"
+        }
+      },
+      "evidence": "OpenReview returned zero notes."
     },
     {
       "id": "acmmm2026-crossref-acm",

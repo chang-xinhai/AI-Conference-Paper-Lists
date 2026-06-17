@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1",
-  "generated_at": "2026-06-17T10:32:45Z",
+  "generated_at": "2026-06-17T10:42:46Z",
   "coverage_report": "data/reports/coverage.json",
   "latest_source_audit_report": "data/reports/latest_source_audit.json",
   "validation_audit_report": "data/reports/validation_audit.json",
@@ -146,6 +146,12 @@
           "year": 2026,
           "status": "not_available",
           "evidence": "Crossref exact event records: 0; expected at least 500."
+        },
+        {
+          "id": "acmmm2026-openreview",
+          "year": 2026,
+          "status": "not_available",
+          "evidence": "OpenReview returned zero notes."
         }
       ]
     },
@@ -649,6 +655,12 @@
       "latest_validation_status": "no_baseline",
       "latest_has_source_issue": false,
       "current_year_gaps": [
+        {
+          "id": "uai2026-official-accepted-page",
+          "year": 2026,
+          "status": "not_available",
+          "evidence": "HTTPError: HTTP Error 404: Not Found"
+        },
         {
           "id": "uai2026-openreview",
           "year": 2026,

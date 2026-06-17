@@ -1,14 +1,14 @@
 {
   "schema_version": "0.1",
-  "generated_at": "2026-06-17T10:32:34Z",
+  "generated_at": "2026-06-17T10:42:07Z",
   "latest_source_probe": "data/reports/latest_source_probes.json",
   "source_issues": "config/source_issues.json",
   "summary": {
-    "gap_count": 24,
+    "gap_count": 26,
     "fallback_issue_count": 1,
     "by_status": {
       "incomplete": 1,
-      "not_available": 22,
+      "not_available": 24,
       "partial": 1
     }
   },
@@ -78,6 +78,14 @@
       "next_action": "Monitor the official source; do not add an empty or partial year to the matrix."
     },
     {
+      "id": "uai2026-official-accepted-page",
+      "venue_key": "uai",
+      "year": 2026,
+      "status": "not_available",
+      "evidence": "HTTPError: HTTP Error 404: Not Found",
+      "next_action": "Monitor the official source; do not add an empty or partial year to the matrix."
+    },
+    {
       "id": "uai2026-openreview",
       "venue_key": "uai",
       "year": 2026,
@@ -131,6 +139,14 @@
       "year": 2026,
       "status": "not_available",
       "evidence": "HTTPError: HTTP Error 404: Not Found",
+      "next_action": "Monitor the official source; do not add an empty or partial year to the matrix."
+    },
+    {
+      "id": "acmmm2026-openreview",
+      "venue_key": "acmmm",
+      "year": 2026,
+      "status": "not_available",
+      "evidence": "OpenReview returned zero notes.",
       "next_action": "Monitor the official source; do not add an empty or partial year to the matrix."
     },
     {

@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1",
-  "generated_at": "2026-06-17T10:25:51Z",
+  "generated_at": "2026-06-17T10:42:35Z",
   "validate_against_papercopilot": true,
   "source": "existing_normalized_data",
   "allow_papercopilot_fallback": false,
@@ -383,7 +383,8 @@
       "venue_key": "acml",
       "year": 2020,
       "candidate_sources": [
-        "pmlr"
+        "pmlr",
+        "openreview"
       ],
       "status": "harvested",
       "source": "pmlr",
@@ -402,7 +403,8 @@
       "venue_key": "acml",
       "year": 2021,
       "candidate_sources": [
-        "pmlr"
+        "pmlr",
+        "openreview"
       ],
       "status": "harvested",
       "source": "pmlr",
@@ -421,7 +423,8 @@
       "venue_key": "acml",
       "year": 2022,
       "candidate_sources": [
-        "pmlr"
+        "pmlr",
+        "openreview"
       ],
       "status": "harvested",
       "source": "pmlr",
@@ -440,7 +443,8 @@
       "venue_key": "acml",
       "year": 2023,
       "candidate_sources": [
-        "pmlr"
+        "pmlr",
+        "openreview"
       ],
       "status": "harvested",
       "source": "pmlr",
@@ -459,7 +463,8 @@
       "venue_key": "acml",
       "year": 2024,
       "candidate_sources": [
-        "pmlr"
+        "pmlr",
+        "openreview"
       ],
       "status": "harvested",
       "source": "pmlr",
@@ -478,7 +483,8 @@
       "venue_key": "acml",
       "year": 2025,
       "candidate_sources": [
-        "pmlr"
+        "pmlr",
+        "openreview"
       ],
       "status": "harvested",
       "source": "pmlr",
@@ -498,6 +504,7 @@
       "year": 2020,
       "candidate_sources": [
         "acm",
+        "openreview",
         "dblp"
       ],
       "status": "harvested",
@@ -518,6 +525,7 @@
       "year": 2021,
       "candidate_sources": [
         "acm",
+        "openreview",
         "dblp"
       ],
       "status": "harvested",
@@ -538,6 +546,7 @@
       "year": 2022,
       "candidate_sources": [
         "acm",
+        "openreview",
         "dblp"
       ],
       "status": "harvested",
@@ -558,6 +567,7 @@
       "year": 2023,
       "candidate_sources": [
         "acm",
+        "openreview",
         "dblp"
       ],
       "status": "harvested",
@@ -578,6 +588,7 @@
       "year": 2024,
       "candidate_sources": [
         "acm",
+        "openreview",
         "dblp"
       ],
       "status": "harvested",
@@ -598,6 +609,7 @@
       "year": 2025,
       "candidate_sources": [
         "acm",
+        "openreview",
         "dblp"
       ],
       "status": "harvested",

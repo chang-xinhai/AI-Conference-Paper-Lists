@@ -16,6 +16,7 @@ VENUE_IDS = {
     "ai4x": "AI4X.cc/{year}/Conference",
     "3dv": "3DV/{year}/Conference",
     "acml": "ACML.org/{year}/Conference",
+    "acmmm": "acmmm.org/ACMMM/{year}/Conference",
     "aistats": "aistats.org/AISTATS/{year}/Conference",
     "alt": "algorithmiclearningtheory.org/ALT/{year}/Conference",
     "automl": "automl.cc/AutoML/{year}/Conference",
@@ -36,6 +37,11 @@ SUPPORTED_YEARS = {
 EXTRA_VENUE_IDS = {
     ("acml", 2026): [
         "ACML.org/2026/Journal_Track",
+    ],
+    ("acmmm", 2026): [
+        "acmmm.org/ACMMM/2026/Dataset_Track",
+        "acmmm.org/ACMMM/2026/Brave_New_Ideas_Track",
+        "acmmm.org/ACMMM/2026/Open_Source_Software_Track",
     ],
     ("nips", 2021): [
         "NeurIPS.cc/2021/Track/Datasets_and_Benchmarks/Round1",
