@@ -18,6 +18,8 @@ This repository mirrors the conference coverage of [Paper Copilot paperlists](ht
 config/
   conferences.json          # Paper Copilot-compatible conference/year index.
   sources.json              # Official source routing by conference.
+  baseline_issues.json      # Known Paper Copilot baseline drift annotations.
+  source_issues.json        # Known source limitations and fallback rationale.
 data/
   raw/                      # Source snapshots, grouped by source/conference/year.
   normalized/               # Canonical normalized JSON records.
@@ -26,6 +28,8 @@ scripts/
   build_conference_index.py
   harvest.py
   validate_against_papercopilot.py
+  harvest_matrix.py
+  rebuild_coverage.py
 src/aicpl/
   schema.py
   sources/
@@ -82,10 +86,28 @@ If our official harvest returns substantially fewer records than Paper Copilot f
 
 When Paper Copilot appears to contain stale, truncated, or alternate titles, the strict validation status is preserved and the report may include `known_baseline_issues` from `config/baseline_issues.json`.
 
+When an official source is blocked or materially incomplete and a fallback source is intentionally used, the reason is recorded in `config/source_issues.json` and surfaced in `data/reports/coverage.json`.
+
+## Maintenance
+
+Harvest one venue/year:
+
+```bash
+python scripts/harvest.py --conference cvpr --year 2026
+python scripts/validate_against_papercopilot.py --conference cvpr --year 2026
+python scripts/rebuild_coverage.py
+```
+
+Harvest the configured matrix:
+
+```bash
+python scripts/harvest_matrix.py --validate
+```
+
 ## Downstream Use
 
 This repository is designed to support curated views such as [Awesome-Training-Free-Papers](https://github.com/chang-xinhai/Awesome-Training-Free-Papers).
 
 ## Status
 
-Initial infrastructure is being built. Early commits prioritize reproducible source routing, validation reports, and a small set of reliable official harvesters before expanding to every venue/year.
+The configured 2020-to-current target matrix is harvested into `data/normalized/` and summarized in `data/reports/coverage.json`. Remaining `no_baseline` entries are mainly newer years that Paper Copilot has not published yet.

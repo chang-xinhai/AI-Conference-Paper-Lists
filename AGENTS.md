@@ -25,6 +25,8 @@ Use three layers:
 
 Do not manually edit generated raw snapshots. Fix the harvester instead.
 
+Use `scripts/rebuild_coverage.py` after targeted harvests or validations so `data/reports/coverage.json` reflects the full matrix rather than only the latest subset.
+
 ## Source Priority
 
 Prefer official sources in this order:
@@ -89,3 +91,4 @@ Use Conventional Commits:
 - Does the normalized file parse as JSON?
 - Does the validation report compare against Paper Copilot if available?
 - If Paper Copilot has many more records, is the channel marked `needs_attention`?
+- If a preferred official source is blocked or incomplete, is the fallback rationale recorded in `config/source_issues.json`?

@@ -14,6 +14,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
 from aicpl.harvesters import available_sources, harvest_with_source  # noqa: E402
+from aicpl.issues import issues_for  # noqa: E402
 from aicpl.sources import papercopilot  # noqa: E402
 from aicpl.util import now_utc, read_json, write_json  # noqa: E402
 from aicpl.validation import compare_records  # noqa: E402
@@ -25,11 +26,11 @@ def is_accepted_like(record: dict) -> bool:
 
 
 def known_baseline_issues_for(venue_key: str, year: int) -> list[dict]:
-    path = ROOT / "config" / "baseline_issues.json"
-    if not path.exists():
-        return []
-    issues = read_json(path).get("issues", {})
-    return issues.get(f"{venue_key}{year}", [])
+    return issues_for(ROOT / "config" / "baseline_issues.json", venue_key, year)
+
+
+def source_issues_for(venue_key: str, year: int) -> list[dict]:
+    return issues_for(ROOT / "config" / "source_issues.json", venue_key, year)
 
 
 def main() -> None:
@@ -75,6 +76,9 @@ def main() -> None:
                 "count": 0,
                 "message": "",
             }
+            source_issues = source_issues_for(venue_key, year)
+            if source_issues:
+                result["source_issues"] = source_issues
             if not candidates:
                 result["status"] = "unsupported"
                 result["message"] = "No implemented official harvester for this conference/year."

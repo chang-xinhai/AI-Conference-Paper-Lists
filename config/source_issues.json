@@ -1,0 +1,20 @@
+{
+  "schema_version": "0.1",
+  "issues": {
+    "kdd2026": [
+      {
+        "id": "acm-kdd-2026-crossref-incomplete",
+        "severity": "fallback",
+        "preferred_source": "acm",
+        "fallback_source": "dblp",
+        "checked_at": "2026-06-17",
+        "reason": "ACM DL direct proceedings pages reject automated fetches with HTTP 403, and ACM Crossref event metadata for KDD 2026 currently returns only two exact event proceedings-article records. DBLP exposes 256 DOI-bearing KDD 2026 records, so DBLP is retained as the best complete machine-readable fallback until ACM metadata is complete.",
+        "evidence": [
+          "ACM DL DOI proceedings pages returned HTTP 403 during automated checks.",
+          "Crossref exact event query for \"KDD '26: The 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining\" returned only two relevant proceedings-article records.",
+          "DBLP TOC https://dblp.org/db/conf/kdd/kdd2026-1.xml contains 256 KDD 2026 paper records with ACM DOI links."
+        ]
+      }
+    ]
+  }
+}

@@ -13,6 +13,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
+from aicpl.issues import issues_for  # noqa: E402
 from aicpl.sources import papercopilot  # noqa: E402
 from aicpl.util import read_json, write_json  # noqa: E402
 from aicpl.validation import compare_records  # noqa: E402
@@ -36,11 +37,7 @@ def load_papercopilot_records(venue_key: str, year: int, local_repo: str | None)
 
 
 def known_baseline_issues_for(venue_key: str, year: int) -> list[dict]:
-    path = ROOT / "config" / "baseline_issues.json"
-    if not path.exists():
-        return []
-    issues = read_json(path).get("issues", {})
-    return issues.get(f"{venue_key}{year}", [])
+    return issues_for(ROOT / "config" / "baseline_issues.json", venue_key, year)
 
 
 def main() -> None:
