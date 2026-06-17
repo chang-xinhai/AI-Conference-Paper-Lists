@@ -6,7 +6,7 @@ import bisect
 import html
 import re
 from typing import Any
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse
 
 from ..schema import empty_record, venue_name
 from ..util import fetch_text, now_utc
@@ -25,6 +25,17 @@ def supports(venue_key: str, year: int) -> bool:
 def _clean(value: str) -> str:
     value = html.unescape(re.sub(r"<.*?>", " ", value or ""))
     return " ".join(value.split())
+
+
+def _project_url(value: str, base_url: str) -> str:
+    text = html.unescape(value or "").strip()
+    if not text:
+        return ""
+    url = urljoin(base_url, text)
+    parsed = urlparse(url)
+    if parsed.scheme not in {"http", "https"} or not parsed.netloc:
+        return ""
+    return url
 
 
 def _last_context(contexts: list[tuple[int, str]], position: int) -> str:
@@ -72,6 +83,13 @@ def _harvest_accepted_page(venue_key: str, year: int) -> dict[str, Any]:
             for keyword in re.findall(r'<span class="ij-kw" title="(?P<keyword>[^"]+)">', block)
             if _clean(keyword)
         ]
+        oslink_match = re.search(r'<div class="ij-oslink">.*?<a href="(?P<href>[^"]+)"', block, re.S)
+        if oslink_match:
+            project_url = _project_url(oslink_match.group("href"), url)
+            if project_url:
+                record["project_url"] = project_url
+                if urlparse(project_url).netloc.lower() == "github.com":
+                    record["github_url"] = project_url
         record["paper_url"] = url
         record["source"] = {
             "name": "IJCAI Accepted Papers",
