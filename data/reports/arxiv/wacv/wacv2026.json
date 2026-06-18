@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.1",
+  "venue_key": "wacv",
+  "year": 2026,
+  "source": "arxiv",
+  "source_url": "https://export.arxiv.org/api/query",
+  "generated_at": "2026-06-18T17:26:43Z",
+  "queried": 831,
+  "current_run_queried": 831,
+  "cached_queries": 831,
+  "matched": 502,
+  "normalized_updated": 502,
+  "raw_updated": 502,
+  "failures": 0,
+  "by_status": {
+    "rejected": 329,
+    "matched": 502
+  },
+  "by_reason": {
+    "no_exact_title_match": 327,
+    "exact_title_author_year_match": 502,
+    "author_mismatch": 2
+  }
+}
