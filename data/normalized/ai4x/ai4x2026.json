@@ -3,8 +3,8 @@
   "venue_key": "ai4x",
   "year": 2026,
   "source": "openreview",
-  "source_url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
-  "fetched_at": "2026-06-17T23:52:16Z",
+  "source_url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>; https://export.arxiv.org/api/query?search_query=ti:<paper-title>",
+  "fetched_at": "2026-06-18T15:14:39Z",
   "count": 348,
   "records": [
     {
@@ -302,7 +302,7 @@
     {
       "id": "ai4x2026:a-hybrid-physics-driven-neural-network-force-field-for-liquid-electrolyt:ae7d9a7c36",
       "title": "A Hybrid Physics-Driven Neural Network Force Field for Liquid Electrolytes",
-      "abstract": "",
+      "abstract": "Electrolyte design plays an important role in the development of lithium-ion batteries and sodium-ion batteries. Battery electrolytes feature a large design space composed of different solvents, additives, and salts, which is difficult to explore experimentally. High-fidelity molecular simulation can accurately predict the bulk properties of electrolytes by employing accurate potential energy surfaces, thus guiding the molecule and formula engineering. At present, the overly simplified classic force fields rely heavily on experimental data for fine-tuning, thus its predictive power on microscopic level is under question. In contrast, the newly emerged machine learning interatomic potential (MLIP) can accurately reproduce the ab initio data, demonstrating excellent fitting ability. However, it is still haunted by problems such as low transferrability, insufficient stability in the prediction of bulk properties, and poor training cost scaling. Therefore, it cannot yet be used as a robust and universal tool for the exploration of electrolyte design space. In this work, we introduce a highly scalable and fully bottom-up force field construction strategy called PhyNEO-Electrolyte. It adopts a hybrid physics-driven and data-driven method that relies only on monomer and dimer EDA (energy deomposition analysis) data. With a careful separation of long/short-range and non-bonding/bonding interactions, we rigorously restore the long-range asymptotic behavior, which is critical in the description of electrolyte systems. Through this approach, we significantly improve the data efficiency of MLIP training, allowing us to achieve much larger chemical space coverage using much less data while retaining reliable quantitative prediction power in bulk phase calculations. PhyNEO-electrolyte thus serves as an important tool for future electrolyte optimization.",
       "tldr": "A hybrid physics/ML force field for battery electrolytes trains only on monomer and dimer data, yet generalizes to bulk-phase property prediction with state-of-the-art accuracy and broad chemical space coverage.",
       "authors": [
         "Junmin Chen",
@@ -320,7 +320,7 @@
       "presentation": "AI4X-AC 2026 Poster",
       "paper_url": "https://openreview.net/forum?id=7pgcAXGg8l",
       "pdf_url": "",
-      "arxiv_url": "",
+      "arxiv_url": "https://arxiv.org/abs/2511.13294",
       "project_url": "",
       "github_url": "",
       "doi": "10.1021/acs.jctc.5c02100",
@@ -328,9 +328,9 @@
         "Electrolyte; Atomistic simulations; Force Field"
       ],
       "source": {
-        "name": "OpenReview API + OpenReview profiles",
-        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
-        "fetched_at": "2026-06-17T20:51:04Z",
+        "name": "OpenReview API + OpenReview profiles + arXiv API",
+        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>; https://export.arxiv.org/api/query?search_query=ti:<paper-title>",
+        "fetched_at": "2026-06-18T15:14:39Z",
         "license": "CC BY 4.0"
       }
     },
@@ -376,7 +376,7 @@
     {
       "id": "ai4x2026:molvibench-evaluating-llms-on-molecular-vibe-coding:d3c71e2969",
       "title": "MolViBench: Evaluating LLMs on Molecular Vibe Coding",
-      "abstract": "",
+      "abstract": "Molecular Vibe Coding, a paradigm where chemists interact with LLMs to generate executable programs for molecular tasks, has emerged as a flexible alternative to chemical agents with predefined tools, enabling chemists to express arbitrarily complex, customized workflows. Unlike general coding tasks, molecular coding imposes a distinctive challenge that LLMs should jointly equip programming, molecular understanding, and domain-specific reasoning capabilities. However, existing benchmarks remain disconnected. General code generation benchmarks such as HumanEval and SWE-bench require no chemistry knowledge, while chemistry-focused benchmarks such as S^2-Bench and ChemCoTBench evaluate knowledge recall or property prediction rather than executable code generation. To bridge this gap, we introduce MolViBench, the first benchmark tailored for Molecular Vibe Coding. MolViBench comprises 358 curated tasks across five cognitive levels, ranging from single-API recall to end-to-end virtual screening pipeline design, spanning 12 real-world drug discovery workflows. To rigorously assess generated code, we also propose a multi-layered evaluation framework that combines type-aware output comparison and AST-based API-semantic fallback analysis, which jointly measures executability and chemical correctness. We systematically evaluate 9 frontier coding LLMs and compare three real-world Molecular Vibe Coding paradigms, providing a practical and fine-grained testbed for diagnosing LLMs' coding capabilities in AI-accelerated molecular discovery.",
       "tldr": "",
       "authors": [
         "Jiatong Li",
@@ -394,7 +394,7 @@
       "presentation": "AI4X-AC 2026 Poster",
       "paper_url": "https://openreview.net/forum?id=x2kQPCUmnP",
       "pdf_url": "https://openreview.net/pdf/bc82ad473d0b49f8902801a0d9a66c306663f2c0.pdf",
-      "arxiv_url": "",
+      "arxiv_url": "https://arxiv.org/abs/2605.02351",
       "project_url": "",
       "github_url": "",
       "doi": "",
@@ -404,9 +404,9 @@
         "Vibe Coding"
       ],
       "source": {
-        "name": "OpenReview API + OpenReview profiles",
-        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
-        "fetched_at": "2026-06-17T20:51:04Z",
+        "name": "OpenReview API + OpenReview profiles + arXiv API",
+        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>; https://export.arxiv.org/api/query?search_query=ti:<paper-title>",
+        "fetched_at": "2026-06-18T15:14:39Z",
         "license": "CC BY 4.0"
       }
     },
@@ -620,7 +620,7 @@
     {
       "id": "ai4x2026:syntwins-a-retrosynthesis-guided-framework-for-synthesizable-molecular-a:7d7b6d844c",
       "title": "SynTwins: A Retrosynthesis-Guided Framework for Synthesizable Molecular Analog Generation",
-      "abstract": "",
+      "abstract": "The disconnect between AI-generated molecules with desirable properties and their synthetic feasibility remains a critical bottleneck in computational discovery of drugs and materials. While generative AI has accelerated the proposal of candidate molecules, many of these structures prove challenging or impossible to synthesize using established chemical reactions. Here, we introduce SynTwins, a novel retrosynthesis-guided molecule design framework that finds synthetically accessible molecular analogs by emulating expert chemists' strategies in three steps: retrosynthesis, searching similar building blocks, and virtual synthesis. Using a search algorithm instead of a stochastic data-driven generator, SynTwins outperforms state-of-the-art machine learning models at exploring synthetically accessible analogs while maintaining high structural similarity to original target molecules. Furthermore, when integrated into existing molecular property-optimization frameworks, our hybrid approach produces synthetically feasible analogs with minimal loss in property scores. Our comprehensive benchmarking across diverse molecular datasets demonstrates that SynTwins effectively bridges the gap between computational design and experimental synthesis, providing a practical solution for accelerating the discovery of synthesizable molecules with desired properties for a wide range of applications.",
       "tldr": "A training-free, retrosynthesis-guided framework for generating synthetically accessible molecular analogs that outperforms ML methods and instantly adapts to new chemistry for self-driving lab integration.",
       "authors": [
         "Shuan Chen",
@@ -640,7 +640,7 @@
       "presentation": "AI4X-AC 2026 Oral",
       "paper_url": "https://openreview.net/forum?id=kWZcgn1tmX",
       "pdf_url": "",
-      "arxiv_url": "",
+      "arxiv_url": "https://arxiv.org/abs/2507.02752",
       "project_url": "",
       "github_url": "",
       "doi": "10.1039/D5SC05225D",
@@ -652,9 +652,9 @@
         "molecular optimization"
       ],
       "source": {
-        "name": "OpenReview API + OpenReview profiles",
-        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
-        "fetched_at": "2026-06-17T20:51:04Z",
+        "name": "OpenReview API + OpenReview profiles + arXiv API",
+        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>; https://export.arxiv.org/api/query?search_query=ti:<paper-title>",
+        "fetched_at": "2026-06-18T15:14:39Z",
         "license": "CC BY 4.0"
       }
     },
@@ -1518,7 +1518,7 @@
     {
       "id": "ai4x2026:synthetic-geology-structural-geology-meets-deep-learning:01b7c4cffe",
       "title": "Synthetic Geology: Structural Geology Meets Deep Learning",
-      "abstract": "",
+      "abstract": "Reconstructing the structural geology and mineral composition of the first few kilometers of the Earth's subsurface from sparse or indirect surface observations remains a long-standing challenge with critical applications in mineral exploration, geohazard assessment, and geotechnical engineering. This inherently ill-posed problem is often addressed by classical geophysical inversion methods, which typically yield a single maximum-likelihood model that fails to capture the full range of plausible geology. The adoption of modern deep learning methods has been limited by the lack of large 3D training datasets. We address this gap with \\textit{StructuralGeo}, a geological simulation engine that mimics eons of tectonic, magmatic, and sedimentary processes to generate a virtually limitless supply of realistic synthetic 3D lithological models. Using this dataset, we train both unconditional and conditional generative flow-matching models with a 3D attention U-Net architecture. The resulting foundation model can reconstruct multiple plausible 3D scenarios from surface topography and sparse borehole data, depicting structures such as layers, faults, folds, and dikes. By sampling many reconstructions from the same observations, we introduce a probabilistic framework for estimating the size and extent of subsurface features. While the realism of the output is bounded by the fidelity of the training data to true geology, this combination of simulation and generative AI functions offers a flexible prior for probabilistic modeling, regional fine-tuning, and use as an AI-based regularizer in traditional geophysical inversion workflows.",
       "tldr": "Using a geological simulation engine we generate synthetic data and use them to train a generative flow-matching model. The resulting foundation model can reconstruct multiple plausible 3D scenarios from surface topography and sparse borehole data.",
       "authors": [
         "Simon Ghyselincks",
@@ -1541,7 +1541,7 @@
       "presentation": "AI4X-AC 2026 Oral",
       "paper_url": "https://openreview.net/forum?id=WOU334duCN",
       "pdf_url": "",
-      "arxiv_url": "",
+      "arxiv_url": "https://arxiv.org/abs/2506.11164",
       "project_url": "",
       "github_url": "",
       "doi": "10.1029/2025JH000986",
@@ -1552,9 +1552,9 @@
         "geophysical inversions"
       ],
       "source": {
-        "name": "OpenReview API + OpenReview profiles",
-        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
-        "fetched_at": "2026-06-17T20:51:04Z",
+        "name": "OpenReview API + OpenReview profiles + arXiv API",
+        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>; https://export.arxiv.org/api/query?search_query=ti:<paper-title>",
+        "fetched_at": "2026-06-18T15:14:39Z",
         "license": "CC BY 4.0"
       }
     },
@@ -2248,7 +2248,7 @@
     {
       "id": "ai4x2026:data-driven-uncertainty-aware-forecasting-of-sea-ice-conditions-in-the-g:9ac7e2d1b9",
       "title": "Data-driven uncertainty-aware forecasting of sea ice conditions in the gulf of Ob based on satellite radar imagery",
-      "abstract": "",
+      "abstract": "The increase in Arctic marine activity due to rapid warming and significant sea ice loss necessitates highly reliable, short-term sea ice forecasts to ensure maritime safety and operational efficiency. In this work, we present a novel data-driven approach for sea ice condition forecasting in the Gulf of Ob, leveraging sequences of radar images from Sentinel-1, weather observations, and GLORYS forecasts. Our approach integrates advanced video prediction models, originally developed for vision tasks, with domain-specific data preprocessing and augmentation techniques tailored to the unique challenges of Arctic sea ice dynamics. Central to our methodology is the use of uncertainty quantification to assess the reliability of predictions, ensuring robust decision-making in safety-critical applications. Furthermore, we propose a confidence-based model mixture mechanism that enhances forecast accuracy and model robustness, crucial for reliable operations in volatile Arctic environments. Our results demonstrate substantial improvements over baseline approaches, underscoring the importance of uncertainty quantification and specialized data handling for effective and safe operations and reliable forecasting.",
       "tldr": "Uncertainty awareness allows the deep learning models to produce more reliable forecasts of sea ice based on satellite radar images",
       "authors": [
         "Stefan Maria Ailuro",
@@ -2270,7 +2270,7 @@
       "presentation": "AI4X-AC 2026 Poster",
       "paper_url": "https://openreview.net/forum?id=fwudReos7T",
       "pdf_url": "",
-      "arxiv_url": "",
+      "arxiv_url": "https://arxiv.org/abs/2410.19782",
       "project_url": "",
       "github_url": "",
       "doi": "10.1038/s41598-025-16572-7",
@@ -2281,9 +2281,9 @@
         "uncertainty quantification"
       ],
       "source": {
-        "name": "OpenReview API + OpenReview profiles",
-        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
-        "fetched_at": "2026-06-17T20:51:04Z",
+        "name": "OpenReview API + OpenReview profiles + arXiv API",
+        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>; https://export.arxiv.org/api/query?search_query=ti:<paper-title>",
+        "fetched_at": "2026-06-18T15:14:39Z",
         "license": "CC BY 4.0"
       }
     },
@@ -2405,7 +2405,7 @@
     {
       "id": "ai4x2026:beyond-semantic-similarity-a-two-phase-non-parametric-retrieval-workflow:1abe31396f",
       "title": "Beyond Semantic Similarity: A Two-Phase Non-Parametric Retrieval Workflow for Corporate Credit Underwriting",
-      "abstract": "",
+      "abstract": "Corporate credit underwriting requires analysts to extract actionable evidence from long, heterogeneous financial documents spanning hundreds of pages and multiple languages. Standard Retrieval-Augmented Generation (RAG) pipelines optimize for semantic similarity, which frequently surfaces passages that are topically related but lack decision utility, a problem we term the similarity-utility gap. We propose a two-phase non-parametric retrieval architecture that separates high-recall candidate retrieval from high-precision utility ranking. The first phase combines lexical and dense multilingual retrieval to construct a broad candidate pool. The second phase applies an adaptive retrieval controller that filters candidates using query intent and document structure signals, followed by an LLM-as-a-Judge utility scoring mechanism that ranks passages by analytical usefulness rather than semantic proximity. A context-aware extraction module preserves structural fidelity across narrative text and complex financial tables. The system is deployed entirely on-premise to satisfy enterprise data governance requirements. Evaluated on a multilingual corpus of proprietary financial documents with analyst-curated relevance labels, the system significantly outperforms naive retrieval baselines. In production deployment across more than 800 credit analysts, document review time was reduced from several hours to approximately three minutes, demonstrating the practical value of utility-aware RAG architectures for document-intensive decision-support workflows.",
       "tldr": "We propose a two-phase, utility‑aware retrieval and re-ranking system that improves financial document analysis for corporate credit underwriting by bridging the gap between semantic similarity and actual decision value.",
       "authors": [
         "Linus Ng Junjia",
@@ -2426,7 +2426,7 @@
       "presentation": "AI4X-AC 2026 Oral",
       "paper_url": "https://openreview.net/forum?id=8N9fUs4ORZ",
       "pdf_url": "https://openreview.net/pdf/2ff93d98ff6c6540f3569fe02be23510723b98d2.pdf",
-      "arxiv_url": "",
+      "arxiv_url": "https://arxiv.org/abs/2605.20684",
       "project_url": "",
       "github_url": "",
       "doi": "",
@@ -2439,9 +2439,9 @@
         "large language models (LLMs)"
       ],
       "source": {
-        "name": "OpenReview API + OpenReview profiles",
-        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
-        "fetched_at": "2026-06-17T20:51:04Z",
+        "name": "OpenReview API + OpenReview profiles + arXiv API",
+        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>; https://export.arxiv.org/api/query?search_query=ti:<paper-title>",
+        "fetched_at": "2026-06-18T15:14:39Z",
         "license": "CC BY 4.0"
       }
     },
@@ -2574,7 +2574,7 @@
     {
       "id": "ai4x2026:large-language-model-agents-enable-autonomous-design-and-image-analysis:7caaf2badb",
       "title": "Large Language Model Agents Enable Autonomous Design and Image Analysis of Microwell Microfluidics",
-      "abstract": "",
+      "abstract": "Microwell microfluidics has been utilized for single-cell analysis to reveal heterogeneity in gene expression, signaling pathways, and phenotypic responses for identifying rare cell types, understanding disease progression, and developing more precise therapeutic strategies. However, designing microwell microfluidics is a considerably complex task, requiring knowledge, experience, and CAD software, as well as manual intervention, which often fails initial designs, demanding multiple costly and time-consuming iterations. In this study, we establish an autonomous large language model (LLM)-driven microwell design framework to generate code-based computer-aided design (CAD) scripts, that enables the rapid and reproducible creation of microwells with diverse geometries and imaging-based analysis. We propose a multimodal large language model (MLLM)-logistic regression framework based on integrating high-level semantic descriptions generated by MLLMs with image embeddings for image classification tasks, aiming to identify microwell occupancy and microwell shape. The fused multimodal representation is input to a logistic regression model, which is both interpretable and computationally efficient. We achieved significant improvements, exceeding 0.92 for occupancy classification and 0.99 for shape classification, across all evaluated MLLMs, compared with 0.50 and 0.55, respectively, when relying solely on direct classification. The MLLM-logistic regression framework is a scalable, efficient solution for high-throughput microwell image analysis. Our study demonstrates an autonomous design microwell platform by translating natural language prompts into optimized device geometries, CAD scripts and image analysis, facilitating the development of next-generation digital discovery by integration of literature mining, autonomous design and experimental data analysis.",
       "tldr": "",
       "authors": [
         "Ngoc-Duy Dinh"
@@ -2591,7 +2591,7 @@
       "presentation": "AI4X-AC 2026 Oral",
       "paper_url": "https://openreview.net/forum?id=mBGPzlFuTn",
       "pdf_url": "https://openreview.net/pdf/fbe1ac59d128f4d3a68646760250c273fcbc085a.pdf",
-      "arxiv_url": "",
+      "arxiv_url": "https://arxiv.org/abs/2510.13883",
       "project_url": "",
       "github_url": "",
       "doi": "",
@@ -2603,9 +2603,9 @@
         "Artificial Intelligence"
       ],
       "source": {
-        "name": "OpenReview API + OpenReview profiles",
-        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
-        "fetched_at": "2026-06-17T20:51:04Z",
+        "name": "OpenReview API + OpenReview profiles + arXiv API",
+        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>; https://export.arxiv.org/api/query?search_query=ti:<paper-title>",
+        "fetched_at": "2026-06-18T15:14:39Z",
         "license": "CC BY 4.0"
       }
     },
@@ -2730,7 +2730,7 @@
     {
       "id": "ai4x2026:materealize-a-multi-agent-deliberation-system-for-end-to-end-material-de:1450a11c65",
       "title": "Materealize: a multi-agent deliberation system for end-to-end material design and synthesis",
-      "abstract": "",
+      "abstract": "We propose Materealize, a multi-agent system for end-to-end inorganic materials design and synthesis that orchestrates core domain tools spanning structure generation, property prediction, synthesizability prediction, and synthesis planning within a single unified framework. Through a natural-language interface, Materealize enables non-experts to access computational materials workflows and obtain experimentally actionable outputs for material realization. Materealize provides two complementary modes. In instant mode, the system rapidly composes connected tools to solve diverse inorganic tasks-including property-conditioned synthesizable candidate design with synthesis recipes, diagnosis, and redesign of unsynthesizable structures, and synthesizable data augmentation-within a few minutes. In thinking mode, Materealize applies multi-agent debate to deliver more refined and information-rich synthesis recommendations, including reasoning- and model-driven synthesis routes and mechanistic hypotheses. The mechanistic hypotheses are validated by direct comparison with the literature for known mechanisms and further supported by physics-grounded simulations for novel synthesis pathways. By combining tool-level accuracy with reasoning-level integration, Materealize can bridge the gap between computational discovery and practical experimental realization.",
       "tldr": "Materealize is a multi-agent framework for end-to-end materials discovery. Compared with tool-only workflows, it adds mechanism-level synthesis guidance, reaches 91.4% top-5 precursor prediction accuracy, and expands realizable design space by 8.3%.",
       "authors": [
         "Seongmin Kim",
@@ -2753,7 +2753,7 @@
       "presentation": "AI4X-AC 2026 Oral",
       "paper_url": "https://openreview.net/forum?id=ISXdzKNL8P",
       "pdf_url": "https://openreview.net/pdf/4e24f64812ed1c82c048f34b5fd2983e6d267e6e.pdf",
-      "arxiv_url": "",
+      "arxiv_url": "https://arxiv.org/abs/2601.15743",
       "project_url": "",
       "github_url": "",
       "doi": "",
@@ -2765,9 +2765,9 @@
         "Inorganic Crystals"
       ],
       "source": {
-        "name": "OpenReview API + OpenReview profiles",
-        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
-        "fetched_at": "2026-06-17T20:51:04Z",
+        "name": "OpenReview API + OpenReview profiles + arXiv API",
+        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>; https://export.arxiv.org/api/query?search_query=ti:<paper-title>",
+        "fetched_at": "2026-06-18T15:14:39Z",
         "license": "CC BY 4.0"
       }
     },
@@ -3029,7 +3029,7 @@
     {
       "id": "ai4x2026:hsg-12m-a-large-scale-benchmark-of-spatial-multigraphs-from-the-energy-s:7ea0b43001",
       "title": "HSG-12M: A Large-Scale Benchmark of Spatial Multigraphs from the Energy Spectra of Non-Hermitian Crystals",
-      "abstract": "",
+      "abstract": "AI is transforming scientific research by revealing new ways to understand complex physical systems, but its impact remains constrained by the lack of large, high-quality domain-specific datasets. A rich, largely untapped resource lies in non-Hermitian quantum physics, where the energy spectra of crystals form intricate geometries on the complex plane -- termed as Hamiltonian spectral graphs. Despite their significance as fingerprints for electronic behavior, their systematic study has been intractable due to the reliance on manual extraction. To unlock this potential, we introduce Poly2Graph: a high-performance, open-source pipeline that automates the mapping of 1-D crystal Hamiltonians to spectral graphs. Using this tool, we present HSG-12M: a dataset containing 11.6 million static and 5.1 million dynamic Hamiltonian spectral graphs across 1401 characteristic-polynomial classes, distilled from 177 TB of spectral potential data. Crucially, HSG-12M is the first large-scale dataset of spatial multigraphs -- graphs embedded in a metric space where multiple geometrically distinct trajectories between two nodes are retained as separate edges. This simultaneously addresses a critical gap, as existing graph benchmarks overwhelmingly assume simple, non-spatial edges, discarding vital geometric information. Benchmarks with popular GNNs expose new challenges in learning spatial multi-edges at scale. Beyond its practical utility, we show that spectral graphs serve as universal topological fingerprints of polynomials, vectors, and matrices, forging a new algebra-to-graph link. HSG-12M lays the groundwork for data-driven scientific discovery in condensed matter physics, new opportunities in geometry-aware graph learning and beyond.",
       "tldr": "",
       "authors": [
         "Xianquan Yan",
@@ -3050,7 +3050,7 @@
       "presentation": "AI4X-AC 2026 Oral",
       "paper_url": "https://openreview.net/forum?id=Z6jzmkQ03W",
       "pdf_url": "",
-      "arxiv_url": "",
+      "arxiv_url": "https://arxiv.org/abs/2506.08618",
       "project_url": "",
       "github_url": "",
       "doi": "https://openreview.net/forum?id=YxuKCME576",
@@ -3067,9 +3067,9 @@
         "Toeplitz matrix"
       ],
       "source": {
-        "name": "OpenReview API + OpenReview profiles",
-        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
-        "fetched_at": "2026-06-17T20:51:04Z",
+        "name": "OpenReview API + OpenReview profiles + arXiv API",
+        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>; https://export.arxiv.org/api/query?search_query=ti:<paper-title>",
+        "fetched_at": "2026-06-18T15:14:39Z",
         "license": "CC BY 4.0"
       }
     },
@@ -3843,7 +3843,7 @@
     {
       "id": "ai4x2026:benchmarking-foundation-potentials-against-quantum-chemistry-methods-for:3510620c39",
       "title": "Benchmarking Foundation Potentials against Quantum Chemistry Methods for Predicting Molecular Redox Potentials",
-      "abstract": "",
+      "abstract": "Computational high-throughput virtual screening is essential for identifying redox-active molecules for sustainable applications such as electrochemical carbon capture. A primary challenge in this approach is the high computational cost associated with accurate quantum chemistry calculations. Machine learning foundation potentials (FPs) trained on extensive density functional theory (DFT) calculations offer a computationally efficient alternative. Here, we benchmark the MACE-OMol-0 and UMA FPs against a hierarchy of DFT functionals for predicting experimental molecular redox potentials for both electron transfer (ET) and proton-coupled electron transfer (PCET) reactions. We find that these FPs achieve exceptional accuracy for PCET processes, rivaling their target DFT method. However, the performance is diminished for ET reactions, particularly for multi-electron transfers involving reactive ions that are underrepresented in the OMol25 training data, revealing a key out-of-distribution limitation. To overcome this, we propose an optimal hybrid workflow that uses the FPs for efficient geometry optimization and thermochemical analysis, followed by a crucial single-point DFT energy refinement and an implicit solvation correction. This pragmatic approach provides a robust and scalable strategy for accelerating high-throughput virtual screening in sustainable chemistry.",
       "tldr": "",
       "authors": [
         "Yicheng Chen",
@@ -3861,7 +3861,7 @@
       "presentation": "AI4X-AC 2026 Oral",
       "paper_url": "https://openreview.net/forum?id=189rTnx4Yv",
       "pdf_url": "",
-      "arxiv_url": "",
+      "arxiv_url": "https://arxiv.org/abs/2510.24063",
       "project_url": "",
       "github_url": "",
       "doi": "10.1021/prechem.5c00258",
@@ -3873,9 +3873,9 @@
         "High-Throughput Screening"
       ],
       "source": {
-        "name": "OpenReview API + OpenReview profiles",
-        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
-        "fetched_at": "2026-06-17T20:51:04Z",
+        "name": "OpenReview API + OpenReview profiles + arXiv API",
+        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>; https://export.arxiv.org/api/query?search_query=ti:<paper-title>",
+        "fetched_at": "2026-06-18T15:14:39Z",
         "license": "CC BY 4.0"
       }
     },
@@ -4577,7 +4577,7 @@
     {
       "id": "ai4x2026:exiaa-explainable-injections-for-adversarial-attack:e70f443a0b",
       "title": "Exiaa: Explainable Injections for Adversarial Attack",
-      "abstract": "",
+      "abstract": "Post-hoc explainability methods are a subset of Machine Learning (ML) that aim to provide a reason for why a model behaves in a certain way. In this paper, we show a new black-box model-agnostic adversarial attack for post-hoc explainable Artificial Intelligence (XAI), particularly in the image domain. The goal of the attack is to modify the original explanations while being undetected by the human eye and maintain the same predicted class. In contrast to previous methods, we do not require any access to the model or its weights, but only to the model's computed predictions and explanations. Additionally, the attack is accomplished in a single step while significantly changing the provided explanations, as demonstrated by empirical evaluation. The low requirements of our method expose a critical vulnerability in current explainability methods, raising concerns about their reliability in safety-critical applications. We systematically generate attacks based on the explanations generated by post-hoc explainability methods (saliency maps, integrated gradients, and DeepLIFT SHAP) for pretrained ResNet-18 and ViT-B16 on ImageNet. The results show that our attacks could lead to dramatically different explanations without changing the predictive probabilities. We validate the effectiveness of our attack, compute the induced change based on the explanation with mean absolute difference, and verify the closeness of the original image and the corrupted one with the Structural Similarity Index Measure (SSIM).",
       "tldr": "We introduce a novel non-iterative model agnostic black-box attack to explanations by exploiting an intrinsic flaw of neural networks and post-hoc explainable methods.",
       "authors": [
         "Leonardo Pesce",
@@ -4596,7 +4596,7 @@
       "presentation": "AI4X-AC 2026 Oral",
       "paper_url": "https://openreview.net/forum?id=PYOQRxQRgc",
       "pdf_url": "https://openreview.net/pdf/966d82f82c382dd5dfd1776567f69637a3cf6057.pdf",
-      "arxiv_url": "",
+      "arxiv_url": "https://arxiv.org/abs/2511.10088",
       "project_url": "",
       "github_url": "",
       "doi": "",
@@ -4607,9 +4607,9 @@
         "Adversarial attack"
       ],
       "source": {
-        "name": "OpenReview API + OpenReview profiles",
-        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
-        "fetched_at": "2026-06-17T20:51:04Z",
+        "name": "OpenReview API + OpenReview profiles + arXiv API",
+        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>; https://export.arxiv.org/api/query?search_query=ti:<paper-title>",
+        "fetched_at": "2026-06-18T15:14:39Z",
         "license": "CC BY 4.0"
       }
     },
@@ -5104,7 +5104,7 @@
     {
       "id": "ai4x2026:el-agente-forjador-task-driven-agent-generation-for-quantum-simulation:4c35b89152",
       "title": "El Agente Forjador: Task-Driven Agent Generation for Quantum Simulation",
-      "abstract": "",
+      "abstract": "AI for science promises to accelerate the discovery process. The advent of large language models (LLMs) and agentic workflows enables the expediting of a growing range of scientific tasks. However, most of the current generation of agentic systems depend on static, hand-curated toolsets that hinder adaptation to new domains and evolving libraries. We present El Agente Forjador, a multi-agent framework in which universal coding agents autonomously forge, validate, and reuse computational tools through a four-stage workflow of tool analysis, tool generation, task execution, and iterative solution evaluation. Evaluated across 24 tasks spanning quantum chemistry and quantum dynamics on five coding agent setups, we compare three operating modes: zero-shot generation of tools per task, reuse of a curriculum-built toolset, and direct problem-solving with the coding agents as the baseline. We find that our tool generation and reuse framework consistently improves accuracy over the baseline. We also show that reusing a toolset built by a stronger coding agent can reduce API cost and substantially raises the solution quality for weaker coding agents. Case studies further demonstrate that tools forged for different domains can be combined to solve hybrid tasks. Taken together, these results show that LLM-based agents can use their scientific knowledge and coding capabilities to autonomously build reusable scientific tools, pointing toward a paradigm in which agent capabilities are defined by the tasks they are designed to solve rather than by explicitly engineered implementations.",
       "tldr": "A system that builds AI agents by your tasks",
       "authors": [
         "Zijian Zhang",
@@ -5128,7 +5128,7 @@
       "presentation": "AI4X-AC 2026 Oral",
       "paper_url": "https://openreview.net/forum?id=7aXeu0hHo5",
       "pdf_url": "https://openreview.net/pdf/eb1b1e940852b1f2f95ae562088346baeefa9a40.pdf",
-      "arxiv_url": "",
+      "arxiv_url": "https://arxiv.org/abs/2604.14609",
       "project_url": "",
       "github_url": "",
       "doi": "",
@@ -5140,9 +5140,9 @@
         "tool generation"
       ],
       "source": {
-        "name": "OpenReview API + OpenReview profiles",
-        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
-        "fetched_at": "2026-06-17T20:51:04Z",
+        "name": "OpenReview API + OpenReview profiles + arXiv API",
+        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>; https://export.arxiv.org/api/query?search_query=ti:<paper-title>",
+        "fetched_at": "2026-06-18T15:14:39Z",
         "license": "CC BY 4.0"
       }
     },
@@ -5813,7 +5813,7 @@
     {
       "id": "ai4x2026:bridge-bootstrapping-text-to-control-time-series-generation-via-multi-ag:e0f979451f",
       "title": "BRIDGE: Bootstrapping Text to Control Time-Series Generation via Multi-Agent Iterative Optimization and Diffusion Modeling",
-      "abstract": "",
+      "abstract": "Time-series Generation (TSG) is a prominent research area with broad applications in simulations, data augmentation, and counterfactual analysis. While existing methods have shown promise in unconditional single-domain TSG, real-world applications demand for cross-domain approaches capable of controlled generation tailored to domain-specific constraints and instance-level requirements. In this paper, we argue that text can provide semantic insights, domain information and instance-specific temporal patterns, to guide and improve TSG. We introduce ``Text-Controlled TSG'', a task focused on generating realistic time series by incorporating textual descriptions. To address data scarcity in this setting, we propose a novel LLM-based Multi-Agent framework that synthesizes diverse, realistic text-to-TS datasets. Furthermore, we introduce BRIDGE, a hybrid text-controlled TSG framework that integrates semantic prototypes with text description for supporting domain-level guidance. This approach achieves state-of-the-art generation fidelity on 11 of 12 datasets, and improves controllability by up to 12% on MSE and 6% MAE compared to no text input generation, highlighting its potential for generating tailored time-series data.",
       "tldr": "A multi-agent framework for synthesising timeseries paired with textual descriptions",
       "authors": [
         "Hao Li",
@@ -5837,7 +5837,7 @@
       "presentation": "AI4X-AC 2026 Oral",
       "paper_url": "https://openreview.net/forum?id=Ux0sDwaefV",
       "pdf_url": "",
-      "arxiv_url": "",
+      "arxiv_url": "https://arxiv.org/abs/2503.02445",
       "project_url": "",
       "github_url": "",
       "doi": "https://icml.cc/virtual/2025/poster/43728",
@@ -5847,16 +5847,16 @@
         "Data Synthesis"
       ],
       "source": {
-        "name": "OpenReview API + OpenReview profiles",
-        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
-        "fetched_at": "2026-06-17T20:51:04Z",
+        "name": "OpenReview API + OpenReview profiles + arXiv API",
+        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>; https://export.arxiv.org/api/query?search_query=ti:<paper-title>",
+        "fetched_at": "2026-06-18T15:14:39Z",
         "license": "CC BY 4.0"
       }
     },
     {
       "id": "ai4x2026:mira-medical-time-series-foundation-model-for-real-world-health-data:06a761e29d",
       "title": "MIRA: Medical Time Series Foundation Model for Real-World Health Data",
-      "abstract": "",
+      "abstract": "A unified foundation model for medical time series -- pretrained on open access and ethics board-approved medical corpora -- offers the potential to reduce annotation burdens, minimize model customization, and enable robust transfer across clinical institutions, modalities, and tasks, particularly in data-scarce or privacy-constrained environments. However, existing generalist time series foundation models struggle to handle medical time series data due to their inherent challenges, including irregular intervals, heterogeneous sampling rates, and frequent missing values. To address these challenges, we introduce MIRA, a unified foundation model specifically designed for medical time series forecasting. MIRA incorporates a Continuous-Time Rotary Positional Encoding that enables fine-grained modeling of variable time intervals, a frequency-specific mixture-of-experts layer that routes computation across latent frequency regimes to further promote temporal specialization, and a Continuous Dynamics Extrapolation Block based on Neural ODE that models the continuous trajectory of latent states, enabling accurate forecasting at arbitrary target timestamps. Pretrained on a large-scale and diverse medical corpus comprising over 454 billion time points collect from publicly available datasets, MIRA achieves reductions in forecasting errors by an average of 10% and 7% in out-of-distribution and in-distribution scenarios, respectively, when compared to other zero-shot and fine-tuned baselines. We also introduce a comprehensive benchmark spanning multiple downstream clinical tasks, establishing a foundation for future research in medical time series modeling.",
       "tldr": "Foundational model for medical time series",
       "authors": [
         "Hao Li",
@@ -5883,7 +5883,7 @@
       "presentation": "AI4X-AC 2026 Oral",
       "paper_url": "https://openreview.net/forum?id=Iih0P8d6f1",
       "pdf_url": "",
-      "arxiv_url": "",
+      "arxiv_url": "https://arxiv.org/abs/2506.07584",
       "project_url": "",
       "github_url": "",
       "doi": "https://neurips.cc/virtual/2025/loc/san-diego/poster/119424",
@@ -5893,16 +5893,16 @@
         "Time Series"
       ],
       "source": {
-        "name": "OpenReview API + OpenReview profiles",
-        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
-        "fetched_at": "2026-06-17T20:51:04Z",
+        "name": "OpenReview API + OpenReview profiles + arXiv API",
+        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>; https://export.arxiv.org/api/query?search_query=ti:<paper-title>",
+        "fetched_at": "2026-06-18T15:14:39Z",
         "license": "CC BY 4.0"
       }
     },
     {
       "id": "ai4x2026:egmof-efficient-generation-of-metal-organic-frameworks-using-a-hybrid-di:da79208d88",
       "title": "EGMOF: Efficient Generation of Metal-Organic Frameworks Using a Hybrid Diffusion- Transformer Architecture",
-      "abstract": "",
+      "abstract": "Designing materials with targeted properties remains challenging due to the vastness of chemical space and the scarcity of property-labeled data. While recent advances in generative models offer a promising way for inverse design, most approaches require large datasets and must be retrained for every new target property. Here, we introduce the EGMOF (Efficient Generation of MOFs), a hybrid diffusion-transformer framework that overcomes these limitations through a modular, descriptor-mediated workflow. EGMOF decomposes inverse design into two steps: (1) a one-dimensional diffusion model (Prop2Desc) that maps desired properties to chemically meaningful descriptors followed by (2) a transformer model (Desc2MOF) that generates structures from these descriptors. This modular hybrid design enables minimal retraining and maintains high accuracy even under small-data conditions. On a hydrogen uptake dataset, EGMOF achieved over 94% validity and 91% hit rate, representing significant improvements of up to 39% in validity and 29% in hit rate compared to existing methods, while remaining effective with only 1,000 training samples. Moreover, our model successfully performed conditional generation across 29 diverse property datasets, including CoREMOF, QMOF, and text-mined experimental datasets, whereas previous models have not. This work presents a data-efficient, generalizable approach to the inverse design of diverse MOFs and highlights the potential of modular inverse design workflows for broader materials discovery.",
       "tldr": "EGMOF is a modular diffusion-transformer framework that generates MOF structures from target properties, delivering high accuracy with little data and avoiding retraining for new properties.",
       "authors": [
         "Seunghee Han",
@@ -5924,7 +5924,7 @@
       "presentation": "AI4X-AC 2026 Poster",
       "paper_url": "https://openreview.net/forum?id=h8DgolFnEp",
       "pdf_url": "https://openreview.net/pdf/25463e927a8f11423c0df9ae7382ba19160d183c.pdf",
-      "arxiv_url": "",
+      "arxiv_url": "https://arxiv.org/abs/2511.03122",
       "project_url": "",
       "github_url": "",
       "doi": "",
@@ -5932,9 +5932,9 @@
         "Metal-organic Frameworks;Machine learning;Generative Model;"
       ],
       "source": {
-        "name": "OpenReview API + OpenReview profiles",
-        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
-        "fetched_at": "2026-06-17T20:51:04Z",
+        "name": "OpenReview API + OpenReview profiles + arXiv API",
+        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>; https://export.arxiv.org/api/query?search_query=ti:<paper-title>",
+        "fetched_at": "2026-06-18T15:14:39Z",
         "license": "CC BY 4.0"
       }
     },
@@ -7243,7 +7243,7 @@
     {
       "id": "ai4x2026:platonic-representation-of-foundation-machine-learning-interatomic-poten:f016a2ed12",
       "title": "Platonic representation of foundation machine learning interatomic potentials",
-      "abstract": "",
+      "abstract": "Foundation machine learning interatomic potentials (MLIPs) are trained on overlapping chemical spaces, yet their latent representations remain model-specific. Here, we show that independently developed MLIPs exhibit statistically consistent geometric organisation of atomic environments, which we term the Platonic representation. By projecting embeddings relative to a set of atomic anchors, we unify the latent spaces of seven MLIPs (spanning equivariant, non-equivariant, conservative, and non-conservative architectures) into a common metric space that preserves chemical periodicity and structural invariants. This unified framework enables direct cross-model optimal transport, interpretable embedding arithmetic, and the detection of representational biases. Furthermore, we demonstrate that geometric distortions in this space can indicate physical prediction failures, including symmetry breaking and incorrect phonon dispersions. Our results show that the latent spaces of diverse MLIPs present consistent statistical geometry shaped by shared physical and chemical constraints, suggesting that the Platonic representation offers a practical route toward interoperable, comparable, and interpretable foundation models for materials science.",
       "tldr": "Here, we show that independently developed MLIPs exhibit statistically consistent geometric organisation, which we term the Platonic representation.",
       "authors": [
         "Zhenzhu Li",
@@ -7261,7 +7261,7 @@
       "presentation": "AI4X-AC 2026 Oral",
       "paper_url": "https://openreview.net/forum?id=5Yt1eVV5gg",
       "pdf_url": "https://openreview.net/pdf/76dd7f9bb1c6117b01b58e49760f87609acc509e.pdf",
-      "arxiv_url": "",
+      "arxiv_url": "https://arxiv.org/abs/2512.05349",
       "project_url": "",
       "github_url": "",
       "doi": "",
@@ -7270,9 +7270,9 @@
         "platonic representation"
       ],
       "source": {
-        "name": "OpenReview API + OpenReview profiles",
-        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
-        "fetched_at": "2026-06-17T20:51:04Z",
+        "name": "OpenReview API + OpenReview profiles + arXiv API",
+        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>; https://export.arxiv.org/api/query?search_query=ti:<paper-title>",
+        "fetched_at": "2026-06-18T15:14:39Z",
         "license": "CC BY 4.0"
       }
     },
@@ -7319,7 +7319,7 @@
     {
       "id": "ai4x2026:generalized-convolutional-many-body-distribution-functional-representati:e0f1fac18e",
       "title": "Generalized convolutional many-body distribution functional representations",
-      "abstract": "",
+      "abstract": "Modern machine learning (ML) models of chemical and materials systems with billions of parameters require vast training datasets and considerable computational efforts. Lightweight kernel or decision tree based methods, however, can be rapidly trained, leading to a considerably lower carbon footprint. We introduce generalized convolutional many-body distribution functionals (cMBDF) as highly compute and data efficient atomic representations for accurate kernels that excel in low-data regimes. Generalizing the MBDF framework, cMBDF encodes local chemical environments in a compact fashion using translationally and rotationally invariant functionals of smooth atom centered Gaussian electron density proxy distributions weighted by interaction potentials. The functional values can be efficiently evaluated by expressing them in terms of convolutions which are calculated via fast Fourier transforms and stored on pre-defined grids. In the generalized form each atomic environment is described using a set of functionals uniformly defined by three integers; many-body, derivative, weighting orders. Irrespective of size/composition, cMBDF atomic vectors remain compact and constant in size for a fixed choice of these orders controlling the structural and compositional resolution. While being up to two orders of magnitude more compact than other popular representations, cMBDF is shown to be more accurate for the learning of various quantum properties such as energies, dipole moments, homo-lumo gaps, heat-capacity, polarizability, optimal exact-exchange admixtures and basis-set scaling factors. Applicability for organic and inorganic chemistry is tested as represented by the QM7b, QM9 and VQM24 data sets. Due to its compactness, model training and testing times are reduced from 23 hours to 8 minutes, implying a corresponding reduction in carbon footprint.",
       "tldr": "I will discuss a novel representation of atoms in their environment that can be used as a feature for machine learning",
       "authors": [
         "O. Anatole von Lilienfeld",
@@ -7337,7 +7337,7 @@
       "presentation": "AI4X-AC 2026 Poster",
       "paper_url": "https://openreview.net/forum?id=9TVQjAN8MS",
       "pdf_url": "",
-      "arxiv_url": "",
+      "arxiv_url": "https://arxiv.org/abs/2409.20471",
       "project_url": "",
       "github_url": "",
       "doi": "10.1073/pnas.2415662122",
@@ -7345,9 +7345,9 @@
         "physics aware machine learning; chemical compound space; first principles;"
       ],
       "source": {
-        "name": "OpenReview API + OpenReview profiles",
-        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
-        "fetched_at": "2026-06-17T20:51:04Z",
+        "name": "OpenReview API + OpenReview profiles + arXiv API",
+        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>; https://export.arxiv.org/api/query?search_query=ti:<paper-title>",
+        "fetched_at": "2026-06-18T15:14:39Z",
         "license": "CC BY 4.0"
       }
     },
@@ -7616,7 +7616,7 @@
     {
       "id": "ai4x2026:learning-permutation-invariant-macroscopic-dynamics:a531650631",
       "title": "Learning Permutation-invariant Macroscopic Dynamics",
-      "abstract": "",
+      "abstract": "Accurately modeling the macroscopic dynamics of high-dimensional microscopic systems is of broad interest across the sciences. Many data-driven approaches learn a low-dimensional latent state through an autoencoder trained for pointwise input reconstruction. These methods typically assume a fixed ordering of microscopic degrees of freedom in the input. However, in many settings, such as particle systems, the microscopic state is inherently unordered. This motivates an autoencoder framework that learns permutation-invariant latent representations. To this end, we adopt a permutation-invariant encoder and design the decoder to reconstruct the mass distribution centered at the observed points rather than per-sample reconstruction. We then jointly learn the macroscopic dynamics of the observables together with the latent states. We demonstrate the effectiveness and robustness of the proposed method across a range of microscopic settings, including learning the energy dynamics in interacting particle systems, predicting mixing dynamics in Lennard-Jones fluids, and modeling the stretching dynamics from video data of polymers moving in an elongational force field.",
       "tldr": "",
       "authors": [
         "Zhichao Han",
@@ -7635,7 +7635,7 @@
       "presentation": "AI4X-AC 2026 Oral",
       "paper_url": "https://openreview.net/forum?id=8kzj2c6uU5",
       "pdf_url": "https://openreview.net/pdf/2b970be46436ca316d4fc8d73abce9fb2eca3c79.pdf",
-      "arxiv_url": "",
+      "arxiv_url": "https://arxiv.org/abs/2605.30812",
       "project_url": "",
       "github_url": "",
       "doi": "",
@@ -7645,9 +7645,9 @@
         "macroscopic dynamics"
       ],
       "source": {
-        "name": "OpenReview API + OpenReview profiles",
-        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
-        "fetched_at": "2026-06-17T20:51:04Z",
+        "name": "OpenReview API + OpenReview profiles + arXiv API",
+        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>; https://export.arxiv.org/api/query?search_query=ti:<paper-title>",
+        "fetched_at": "2026-06-18T15:14:39Z",
         "license": "CC BY 4.0"
       }
     },
@@ -7930,7 +7930,7 @@
     {
       "id": "ai4x2026:a-multi-agent-framework-for-physical-laws-discovery:eac6f15f75",
       "title": "A Multi-agent Framework for Physical Laws Discovery",
-      "abstract": "",
+      "abstract": "Discovering explicit physical laws has traditionally depended on human intuition and domain expertise. Recent advances in artificial intelligence, particularly large language models (LLMs), offer a new route to accelerate this process by automating key steps from hypothesis generation to interpretable model construction. Here we develop an LLM-based multi-agent framework for physical-law discovery that integrates literature-guided variable selection, hypothesis formulation, symbolic regression, formula derivation, and mechanistic explanation. We validate the framework on three representative materials problems: the glass-forming ability (GFA) of metallic glasses, the Vickers hardness of compounds, and the Young's modulus of multi-component alloys. Using physically and chemically meaningful descriptors as inputs, the discovered formulas achieve strong agreement with reference data, with correlation coefficients up to 0.94 (GFA), 0.86 (hardness), and 0.94 (Young's modulus), while remaining compact and interpretable. Beyond fitting, the Young's modulus formula generalizes to quaternary and quinary alloys, improving prediction accuracy by up to 78.8% relative to the classical rule of mixtures. By integrating cross-disciplinary knowledge, reflection mechanisms, and expert-like reasoning ability into symbolic regression, our AI-centric framework offers a robust and extensible platform for automated physical laws discovery, demonstrating that AI can increasingly serve as an essential role in modern scientific research by thinking and acting like field experts.",
       "tldr": "",
       "authors": [
         "Bo Hu",
@@ -7951,7 +7951,7 @@
       "presentation": "AI4X-AC 2026 Poster",
       "paper_url": "https://openreview.net/forum?id=gviO3NJU5x",
       "pdf_url": "https://openreview.net/pdf/9e081ba50242a9c1a584bd0103581e2c88e4c4b3.pdf",
-      "arxiv_url": "",
+      "arxiv_url": "https://arxiv.org/abs/2411.16416",
       "project_url": "",
       "github_url": "",
       "doi": "",
@@ -7961,9 +7961,9 @@
         "AI theorist"
       ],
       "source": {
-        "name": "OpenReview API + OpenReview profiles",
-        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
-        "fetched_at": "2026-06-17T20:51:04Z",
+        "name": "OpenReview API + OpenReview profiles + arXiv API",
+        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>; https://export.arxiv.org/api/query?search_query=ti:<paper-title>",
+        "fetched_at": "2026-06-18T15:14:39Z",
         "license": "CC BY 4.0"
       }
     },
@@ -8011,7 +8011,7 @@
     {
       "id": "ai4x2026:better-protein-function-prediction-by-modeling-survivorship-bias:65681ce72a",
       "title": "Better Protein Function Prediction by Modeling Survivorship Bias",
-      "abstract": "",
+      "abstract": "Protein sequence data from nature exhibits survivorship bias: we only observe data from those organisms that survive and reproduce, while non-functional protein mutations are eliminated by natural selection. Thus, predicting whether a protein sequence is functional often requires learning from positive examples alone. While positive-unlabeled (PU) learning frameworks offer a generic solution to this problem, existing PU methods ignore the evolutionary processes that shape sequence observability and cause survivorship bias. Consider a sequence that is one mutation away from a commonly-observed protein variant in a well-surveilled organism. If the sequence were functional, it would likely be observed. If it is not observed, this suggests non-functionality. In contrast, sequences that are unlikely to arise through mutation may be missing simply because they never arose. Thus, these two kinds of missing sequences should be treated differently when training models. In this work, we propose Evo-PU, a PU learning framework that uses a scientific understanding of nucleotide mutation to model survivorship bias for well-surveilled single-organism sequence data. On three prediction tasks using single-organism uniform-coverage surveillance data -- predicting results from held-out influenza and respiratory syncytial virus (RSV) mutagenesis studies, and predicting future SARS-CoV-2 variants -- Evo-PU outperforms standard PU learning, one-class classification (OCC), and protein language models (PLMs). On prediction tasks from multi-organism ProteinGym datasets with more heterogeneous surveillance coverage, we identify opportunities to generalize our approach.",
       "tldr": "",
       "authors": [
         "Zhongmou Chao",
@@ -8032,7 +8032,7 @@
       "presentation": "AI4X-AC 2026 Oral",
       "paper_url": "https://openreview.net/forum?id=AZwytFG2pI",
       "pdf_url": "https://openreview.net/pdf/196f7aa920124c7e3b3777f81501b70968031a47.pdf",
-      "arxiv_url": "",
+      "arxiv_url": "https://arxiv.org/abs/2605.06879",
       "project_url": "",
       "github_url": "",
       "doi": "",
@@ -8043,9 +8043,9 @@
         "Protein evolution"
       ],
       "source": {
-        "name": "OpenReview API + OpenReview profiles",
-        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
-        "fetched_at": "2026-06-17T20:51:04Z",
+        "name": "OpenReview API + OpenReview profiles + arXiv API",
+        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>; https://export.arxiv.org/api/query?search_query=ti:<paper-title>",
+        "fetched_at": "2026-06-18T15:14:39Z",
         "license": "CC BY 4.0"
       }
     },
@@ -8346,7 +8346,7 @@
     {
       "id": "ai4x2026:mist-understanding-the-role-of-mid-stage-scientific-training-in-developi:35f1c610a8",
       "title": "MiST: Understanding the Role of Mid-Stage Scientific Training in Developing Chemical Reasoning Models",
-      "abstract": "",
+      "abstract": "Large Language Models can develop reasoning capabilities through online fine-tuning with rule-based rewards. However, recent studies reveal a critical constraint: reinforcement learning succeeds only when the base model already assigns non-negligible probability to correct answers -- a property we term 'latent solvability'. This work investigates the emergence of chemical reasoning capabilities and what these prerequisites mean for chemistry. We identify two necessary conditions for RL-based chemical reasoning: 1) Symbolic competence, and 2) Latent chemical knowledge. We propose mid-stage scientific training (MiST): a set of mid-stage training techniques to satisfy these, including data-mixing with SMILES/CIF-aware pre-processing, continued pre-training on 2.9B tokens, and supervised fine-tuning on 1B tokens. These steps raise the latent-solvability score on 3B and 7B models by up to 1.8x, and enable RL to lift top-1 accuracy from 10.9 to 63.9% on organic reaction naming, and from 40.6 to 67.4% on inorganic material generation. Similar results are observed for other challenging chemical tasks, while producing interpretable reasoning traces. Our results define clear prerequisites for chemical reasoning training and highlight the broader role of mid-stage training in unlocking reasoning capabilities.",
       "tldr": "",
       "authors": [
         "Andres M Bran",
@@ -8373,7 +8373,7 @@
       "presentation": "AI4X-AC 2026 Oral",
       "paper_url": "https://openreview.net/forum?id=363e8WyvLm",
       "pdf_url": "https://openreview.net/pdf/98e0d0761968aef413be433ed61b95a902c49219.pdf",
-      "arxiv_url": "",
+      "arxiv_url": "https://arxiv.org/abs/2512.21231",
       "project_url": "",
       "github_url": "",
       "doi": "",
@@ -8381,9 +8381,9 @@
         "chemical reasoning model; large language model"
       ],
       "source": {
-        "name": "OpenReview API + OpenReview profiles",
-        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
-        "fetched_at": "2026-06-17T20:51:04Z",
+        "name": "OpenReview API + OpenReview profiles + arXiv API",
+        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>; https://export.arxiv.org/api/query?search_query=ti:<paper-title>",
+        "fetched_at": "2026-06-18T15:14:39Z",
         "license": "CC BY 4.0"
       }
     },
@@ -8434,7 +8434,7 @@
     {
       "id": "ai4x2026:raise-a-self-driving-laboratory-for-interfacial-property-formulation-dis:c6deeac749",
       "title": "RAISE: A self-driving laboratory for interfacial property formulation discovery",
-      "abstract": "",
+      "abstract": "Surface wettability is a critical design parameter for biomedical devices, coatings, and textiles. Contact angle measurements quantify liquid-surface interactions, which depend strongly on liquid formulation. Herein, we present the Robotic Autonomous Imaging Surface Evaluator (RAISE), a closed-loop, self-driving laboratory that is capable of linking liquid formulation optimization with surface wettability assessment. RAISE comprises a full experimental orchestrator with the ability of mixing liquid ingredients to create varying formulation cocktails, transferring droplets of prepared formulations to a high-throughput stage, and using a pick-and-place camera tool for automated droplet image capture. The system also includes an automated image processing pipeline to measure contact angles. This closed loop experiment orchestrator is integrated with a Bayesian Optimization (BO) client, which enables iterative exploration of new formulations based on previous contact angle measurements to meet user-defined objectives. The system operates in a high-throughput manner and can achieve a measurement rate of approximately 1 contact angle measurement per minute. Here we demonstrate RAISE can be used to explore surfactant wettability and how surfactant combinations create tunable formulations that compensate for purity-related variations. Furthermore, multi-objective BO demonstrates how precise and optimal formulations can be reached based on application-specific goals. The optimization is guided by a desirability score, which prioritizes formulations that are within target contact angle ranges, minimize surfactant usage and reduce cost. This work demonstrates the capabilities of RAISE to autonomously link liquid formulations to contact angle measurements in a closed-loop system, using multi-objective BO to efficiently identify optimal formulations aligned with researcher-defined criteria.",
       "tldr": "",
       "authors": [
         "Mohammad Nazeri",
@@ -8460,7 +8460,7 @@
       "presentation": "AI4X-AC 2026 Poster",
       "paper_url": "https://openreview.net/forum?id=4s3IN07QNj",
       "pdf_url": "",
-      "arxiv_url": "",
+      "arxiv_url": "https://arxiv.org/abs/2510.06546",
       "project_url": "",
       "github_url": "",
       "doi": "10.48550/arXiv.2510.06546",
@@ -8472,9 +8472,9 @@
         "RAISE"
       ],
       "source": {
-        "name": "OpenReview API + OpenReview profiles",
-        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
-        "fetched_at": "2026-06-17T20:51:04Z",
+        "name": "OpenReview API + OpenReview profiles + arXiv API",
+        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>; https://export.arxiv.org/api/query?search_query=ti:<paper-title>",
+        "fetched_at": "2026-06-18T15:14:39Z",
         "license": "CC BY 4.0"
       }
     },
@@ -8683,7 +8683,7 @@
     {
       "id": "ai4x2026:atomworld-a-benchmark-for-evaluating-spatial-reasoning-in-large-language:d3e83cd5bb",
       "title": "AtomWorld: A Benchmark for Evaluating Spatial Reasoning in Large Language Models on Crystalline Materials",
-      "abstract": "",
+      "abstract": "Large language models (LLMs) have shown promising potential in scientific research, enabling tasks ranging from knowledge retrieval to property prediction. Existing science benchmarks mainly focus on perceptual or knowledge-based tasks, largely ignoring the modelling tasks, a fundamental starting point for any real scientific research. For materials science, constructing and manipulating atomic structures is one of the most creative and least automated steps. In this work, we introduce AtomWorld, a benchmark designed to evaluate the abilities of LLMs on structure modifications. The benchmark includes ten fundamental actions under four widely used modelling categories, enabling verifiable evaluation metrics. We find that Claude Opus 4.6 generally performs the best. While the success rate decreases markedly with increasing modelling complexity, with particularly low success rates (below 12\\% for rotation) for operations involving complex spatial relations. Our results suggest that contemporary LLMs are better suited as copilots for materials structure modelling rather than fully unsupervised autonomous scientific agents. Beyond evaluation, AtomWorld also serves as a testbed and playground for developing future structure-aware models, including reinforcement learning and agentic approaches.",
       "tldr": "",
       "authors": [
         "Taoyuze Lv",
@@ -8709,7 +8709,7 @@
       "presentation": "AI4X-AC 2026 Poster",
       "paper_url": "https://openreview.net/forum?id=CYHnyB3Si2",
       "pdf_url": "https://openreview.net/pdf/3c65ea3866cb07ef95d281e1a716880964923c76.pdf",
-      "arxiv_url": "",
+      "arxiv_url": "https://arxiv.org/abs/2510.04704",
       "project_url": "",
       "github_url": "",
       "doi": "",
@@ -8726,9 +8726,9 @@
         "Geometric Reasoning"
       ],
       "source": {
-        "name": "OpenReview API + OpenReview profiles",
-        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
-        "fetched_at": "2026-06-17T20:51:04Z",
+        "name": "OpenReview API + OpenReview profiles + arXiv API",
+        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>; https://export.arxiv.org/api/query?search_query=ti:<paper-title>",
+        "fetched_at": "2026-06-18T15:14:39Z",
         "license": "CC BY 4.0"
       }
     },
@@ -8779,7 +8779,7 @@
     {
       "id": "ai4x2026:adsorbflow-energy-conditioned-flow-matching-enables-fast-and-realistic-a:f4319ebbe1",
       "title": "AdsorbFlow: energy-conditioned flow matching enables fast and realistic adsorbate placement",
-      "abstract": "",
+      "abstract": "Identifying low-energy adsorption geometries on catalytic surfaces is a practical bottleneck for computational heterogeneous catalysis: the difficulty lies not only in the cost of density functional theory (DFT) but in proposing initial placements that relax into the correct energy basins. Conditional denoising diffusion has improved success rates, yet requires $\\sim$100 iterative steps per sample. Here we introduce AdsorbFlow, a deterministic generative model that learns an energy-conditioned vector field on the rigid-body configuration space of adsorbate translation and rotation via conditional flow matching. Energy information enters through classifier-free guidance conditioning -- not energy-gradient guidance -- and sampling reduces to integrating an ODE in as few as 5 steps. On OC20-Dense with full DFT single-point verification, AdsorbFlow with an EquiformerV2 backbone achieves 61.4% SR@10 and 34.1% SR@1 -- surpassing AdsorbDiff (31.8% SR@1, 41.0% SR@10) at every evaluation level and AdsorbML (47.7% SR@10) -- while using 20 times fewer generative steps and achieving the lowest anomaly rate among generative methods (6.8%). On 50 out-of-distribution systems, AdsorbFlow retains 58.0% SR@10 with a MLFF-to-DFT gap of only 4~percentage points. These results establish that deterministic transport is both faster and more accurate than stochastic denoising for adsorbate placement.",
       "tldr": "AdsorbFlow is an energy-conditioned rigid-body flow-matching model for adsorbate placement. Under OC20-Dense, it reaches 45.5% DFT success at N=1 and 61.4% at N=10 with 5-step sampling.",
       "authors": [
         "Jiangjie Qiu",
@@ -8801,7 +8801,7 @@
       "presentation": "AI4X-AC 2026 Oral",
       "paper_url": "https://openreview.net/forum?id=BE8qgeWmhg",
       "pdf_url": "https://openreview.net/pdf/4543b20a7fd20e04c3a10ebbe922950e168a1a83.pdf",
-      "arxiv_url": "",
+      "arxiv_url": "https://arxiv.org/abs/2602.19289",
       "project_url": "",
       "github_url": "",
       "doi": "",
@@ -8813,9 +8813,9 @@
         "catalysis"
       ],
       "source": {
-        "name": "OpenReview API + OpenReview profiles",
-        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
-        "fetched_at": "2026-06-17T20:51:04Z",
+        "name": "OpenReview API + OpenReview profiles + arXiv API",
+        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>; https://export.arxiv.org/api/query?search_query=ti:<paper-title>",
+        "fetched_at": "2026-06-18T15:14:39Z",
         "license": "CC BY 4.0"
       }
     },
@@ -9168,7 +9168,7 @@
     {
       "id": "ai4x2026:lemat-genbench-a-unified-evaluation-framework-for-crystal-generative-mod:4d0374bbe0",
       "title": "LeMat-GenBench: A Unified Evaluation Framework for Crystal Generative Models",
-      "abstract": "",
+      "abstract": "Generative machine learning (ML) models hold great promise for accelerating materials discovery through the inverse design of inorganic crystals, enabling an unprecedented exploration of chemical space. Yet, the lack of standardized evaluation frameworks makes it challenging to evaluate, compare, and further develop these ML models meaningfully. In this work, we introduce LeMat-GenBench, a unified benchmark for generative models of crystalline materials, supported by a set of evaluation metrics designed to better inform model development and downstream applications. We release both an open-source evaluation suite and a public leaderboard on Hugging Face, and benchmark 12 recent generative models. Results reveal that an increase in stability leads to a decrease in novelty and diversity on average, with no model excelling across all dimensions. Altogether, LeMat-GenBench establishes a reproducible and extensible foundation for fair model comparison and aims to guide the development of more reliable, discovery-oriented generative models for crystalline materials.",
       "tldr": "LeMat-GenBench is a benchmarking framework that standardizes the evaluation of generative models for inorganic crystal structures, providing a reproducible and extensible foundation for fair model comparison.",
       "authors": [
         "Siddharth Betala",
@@ -9201,7 +9201,7 @@
       "presentation": "AI4X-AC 2026 Oral",
       "paper_url": "https://openreview.net/forum?id=my0e7dPuDE",
       "pdf_url": "https://openreview.net/pdf/280aee3c939a92163ddc6155c3c35b821537a7b8.pdf",
-      "arxiv_url": "",
+      "arxiv_url": "https://arxiv.org/abs/2512.04562",
       "project_url": "",
       "github_url": "",
       "doi": "",
@@ -9214,9 +9214,9 @@
         "Materials Design"
       ],
       "source": {
-        "name": "OpenReview API + OpenReview profiles",
-        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
-        "fetched_at": "2026-06-17T20:51:04Z",
+        "name": "OpenReview API + OpenReview profiles + arXiv API",
+        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>; https://export.arxiv.org/api/query?search_query=ti:<paper-title>",
+        "fetched_at": "2026-06-18T15:14:39Z",
         "license": "CC BY 4.0"
       }
     },
@@ -9463,7 +9463,7 @@
     {
       "id": "ai4x2026:multitaskdeltanet-change-detection-based-image-segmentation-for-operando:e68aee951f",
       "title": "MultiTaskDeltaNet: Change Detection-based Image Segmentation for operando ETEM with Application to Carbon Gasification Kinetics",
-      "abstract": "",
+      "abstract": "Transforming in-situ transmission electron microscopy (TEM) imaging into a tool for spatially-resolved operando characterization of solid-state reactions requires automated, high-precision semantic segmentation of dynamically evolving features. However, traditional deep learning methods for semantic segmentation often encounter limitations due to the scarcity of labeled data, visually ambiguous features of interest, and small-object scenarios. To tackle these challenges, we introduce MultiTaskDeltaNet (MTDN), a novel deep learning architecture that creatively reconceptualizes the segmentation task as a change detection problem. By implementing a unique Siamese network with a U-Net backbone and using paired images to capture feature changes, MTDN effectively utilizes minimal data to produce high-quality segmentations. Furthermore, MTDN utilizes a multi-task learning strategy to leverage correlations between physical features of interest. In an evaluation using data from in-situ environmental TEM (ETEM) videos of filamentous carbon gasification, MTDN demonstrated a significant advantage over conventional segmentation models, particularly in accurately delineating fine structural features. Notably, MTDN achieved a 10.22% performance improvement over conventional segmentation models in predicting small and visually ambiguous physical features. This work bridges several key gaps between deep learning and practical TEM image analysis, advancing automated characterization of nanomaterials in complex experimental settings.",
       "tldr": "MultiTaskDeltaNet (MTDN) reframes semantic segmentation as change detection, enabling data-efficient, automated operando ETEM analysis for spatially-resolved carbon gasification kinetics with superior performance on small, ambiguous features.",
       "authors": [
         "Yushuo Niu",
@@ -9483,7 +9483,7 @@
       "presentation": "AI4X-AC 2026 Oral",
       "paper_url": "https://openreview.net/forum?id=LMY7TQ7Jhy",
       "pdf_url": "",
-      "arxiv_url": "",
+      "arxiv_url": "https://arxiv.org/abs/2507.16803",
       "project_url": "",
       "github_url": "",
       "doi": "10.1039/D5DD00333D",
@@ -9491,9 +9491,9 @@
         "computer vision; transmission electron microscopy; nanomaterials characterization; image segmentation; small data"
       ],
       "source": {
-        "name": "OpenReview API + OpenReview profiles",
-        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
-        "fetched_at": "2026-06-17T20:51:04Z",
+        "name": "OpenReview API + OpenReview profiles + arXiv API",
+        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>; https://export.arxiv.org/api/query?search_query=ti:<paper-title>",
+        "fetched_at": "2026-06-18T15:14:39Z",
         "license": "CC BY 4.0"
       }
     },
@@ -9786,7 +9786,7 @@
     {
       "id": "ai4x2026:autonomous-nanoparticle-synthesis-by-design:22f0a5fcde",
       "title": "Autonomous nanoparticle synthesis by design",
-      "abstract": "",
+      "abstract": "Controlled synthesis of materials with specified atomic structures underpins technological advances yet remains reliant on iterative, trial-and-error approaches. Nanoparticles (NPs), whose atomic arrangement dictates their emergent properties, are particularly challenging to synthesise due to numerous tunable parameters. Here, we introduce an autonomous approach explicitly targeting synthesis of atomic-scale structures. Our method autonomously designs synthesis protocols by matching real time experimental total scattering (TS) and pair distribution function (PDF) data to simulated target patterns, without requiring prior synthesis knowledge. We demonstrate this capability at a synchrotron, successfully synthesising two structurally distinct gold NPs: 5 nm decahedral and 10 nm face-centred cubic structures. Ultimately, specifying a simulated target scattering pattern, thus representing a bespoke atomic structure, and obtaining both the synthesised material and its reproducible synthesis protocol on demand may revolutionise materials design. Thus, ScatterLab provides a generalisable blueprint for autonomous, atomic structure-targeted synthesis across diverse systems and applications.",
       "tldr": "",
       "authors": [
         "Andy Sode Anker",
@@ -9815,7 +9815,7 @@
       "presentation": "AI4X-AC 2026 Oral",
       "paper_url": "https://openreview.net/forum?id=KoUjA29US1",
       "pdf_url": "",
-      "arxiv_url": "",
+      "arxiv_url": "https://arxiv.org/abs/2505.13571",
       "project_url": "",
       "github_url": "",
       "doi": "10.1021/acsnano.5c15488",
@@ -9828,16 +9828,16 @@
         "synchrotron"
       ],
       "source": {
-        "name": "OpenReview API + OpenReview profiles",
-        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
-        "fetched_at": "2026-06-17T20:51:04Z",
+        "name": "OpenReview API + OpenReview profiles + arXiv API",
+        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>; https://export.arxiv.org/api/query?search_query=ti:<paper-title>",
+        "fetched_at": "2026-06-18T15:14:39Z",
         "license": "CC BY 4.0"
       }
     },
     {
       "id": "ai4x2026:global-plane-waves-from-local-gaussians-periodic-charge-densities-in-a-b:7f2bf3ced2",
       "title": "Global Plane Waves From Local Gaussians: Periodic Charge Densities in a Blink",
-      "abstract": "",
+      "abstract": "We introduce ELECTRAFI, a fast, end-to-end differentiable model for predicting periodic charge densities in crystalline materials. ELECTRAFI constructs anisotropic Gaussians in real space and exploits their closed-form Fourier transforms to analytically evaluate plane-wave coefficients via the Poisson summation formula. This formulation delegates non-local and periodic behavior to analytic transforms, enabling reconstruction of the full periodic charge density with a single inverse FFT. By avoiding explicit real-space grid probing, periodic image summation, and spherical harmonic expansions, ELECTRAFI matches or exceeds state-of-the-art accuracy across periodic benchmarks while being up to $633 \\times$ faster than the strongest competing method, reconstructing crystal charge densities in a fraction of a second. When used to initialize DFT calculations, ELECTRAFI reduces total DFT compute cost by up to ~20%, whereas slower charge density models negate savings due to high inference times. Our results show that accuracy and inference cost jointly determine end-to-end DFT speedups, and motivate our focus on efficiency.",
       "tldr": "ultra-fast charge density prediction in periodic systems",
       "authors": [
         "Jonas Elsborg",
@@ -9859,7 +9859,7 @@
       "presentation": "AI4X-AC 2026 Oral",
       "paper_url": "https://openreview.net/forum?id=SlKqLAVsuI",
       "pdf_url": "https://openreview.net/pdf/3d7772fc10ca4e1b0e2a5cf884a3ca92b603ee5e.pdf",
-      "arxiv_url": "",
+      "arxiv_url": "https://arxiv.org/abs/2601.19966",
       "project_url": "",
       "github_url": "",
       "doi": "",
@@ -9872,9 +9872,9 @@
         "dft"
       ],
       "source": {
-        "name": "OpenReview API + OpenReview profiles",
-        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
-        "fetched_at": "2026-06-17T20:51:04Z",
+        "name": "OpenReview API + OpenReview profiles + arXiv API",
+        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>; https://export.arxiv.org/api/query?search_query=ti:<paper-title>",
+        "fetched_at": "2026-06-18T15:14:39Z",
         "license": "CC BY 4.0"
       }
     },
@@ -9958,7 +9958,7 @@
     {
       "id": "ai4x2026:a-comparative-study-of-molecular-dynamics-approaches-for-simulating-ioni:faae2ac1bd",
       "title": "A Comparative Study of Molecular Dynamics Approaches for Simulating Ionic Conductivity in Solid Lithium Electrolytes.",
-      "abstract": "",
+      "abstract": "Accurate prediction of ionic conductivity is critical for the design of high-performance solid-state electrolytes in next-generation batteries. We benchmark molecular dynamics (MD) approaches for computing ionic conductivity in 21 lithium solid electrolytes for which experimental ionic conductivity has been previously reported in the literature. In particular, we compare simulations driven by density functional theory (DFT) and by universal machine-learning interatomic potentials (uMLIPs), namely a MACE foundation model. We find comparable performance between DFT and MACE, despite MACE on one GPU more than 350 times faster than DFT on a 64-CPU node. The framework developed here is designed to enable systematic comparisons with additional uMLIPs and fine-tuned models in future work.",
       "tldr": "",
       "authors": [
         "Dounia Shaaban Kabakibo",
@@ -9981,7 +9981,7 @@
       "presentation": "AI4X-AC 2026 Poster",
       "paper_url": "https://openreview.net/forum?id=RV0tA6FZP7",
       "pdf_url": "https://openreview.net/pdf/3b3ca1a4da16829a6dd0c361a4af8ba954aecb15.pdf",
-      "arxiv_url": "",
+      "arxiv_url": "https://arxiv.org/abs/2603.28012",
       "project_url": "",
       "github_url": "",
       "doi": "",
@@ -9996,9 +9996,9 @@
         "inorganics."
       ],
       "source": {
-        "name": "OpenReview API + OpenReview profiles",
-        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
-        "fetched_at": "2026-06-17T20:51:04Z",
+        "name": "OpenReview API + OpenReview profiles + arXiv API",
+        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>; https://export.arxiv.org/api/query?search_query=ti:<paper-title>",
+        "fetched_at": "2026-06-18T15:14:39Z",
         "license": "CC BY 4.0"
       }
     },
@@ -10044,7 +10044,7 @@
     {
       "id": "ai4x2026:moose-chem2-exploring-llm-limits-in-fine-grained-scientific-hypothesis-d:9d1f62ecd3",
       "title": "MOOSE-Chem2: Exploring LLM Limits in Fine-Grained Scientific Hypothesis Discovery via Hierarchical Search",
-      "abstract": "",
+      "abstract": "Large language models (LLMs) have shown promise in automating scientific hypothesis generation, yet existing approaches primarily yield coarse-grained hypotheses lacking critical methodological and experimental details. We introduce and formally define the new task of fine-grained scientific hypothesis discovery, which entails generating detailed, experimentally actionable hypotheses from coarse initial research directions. We frame this as a combinatorial optimization problem and investigate the upper limits of LLMs' capacity to solve it when maximally leveraged. Specifically, we explore four foundational questions: (1) how to best harness an LLM's internal heuristics to formulate the fine-grained hypothesis it itself would judge as the most promising among all the possible hypotheses it might generate, based on its own internal scoring-thus defining a latent reward landscape over the hypothesis space; (2) whether such LLM-judged better hypotheses exhibit stronger alignment with ground-truth hypotheses; (3) whether shaping the reward landscape using an ensemble of diverse LLMs of similar capacity yields better outcomes than defining it with repeated instances of the strongest LLM among them; and (4) whether an ensemble of identical LLMs provides a more reliable reward landscape than a single LLM. To address these questions, we propose a hierarchical search method that incrementally proposes and integrates details into the hypothesis, progressing from general concepts to specific experimental configurations. We show that this hierarchical process smooths the reward landscape and enables more effective optimization. Empirical evaluations on a new benchmark of expert-annotated fine-grained hypotheses from recent literature show that our method consistently outperforms strong baselines.",
       "tldr": "",
       "authors": [
         "Zonglin Yang",
@@ -10070,7 +10070,7 @@
       "presentation": "AI4X-AC 2026 Oral",
       "paper_url": "https://openreview.net/forum?id=3nDQdtNpXp",
       "pdf_url": "",
-      "arxiv_url": "",
+      "arxiv_url": "https://arxiv.org/abs/2505.19209",
       "project_url": "",
       "github_url": "",
       "doi": "https://neurips.cc/virtual/2025/loc/san-diego/125828",
@@ -10078,9 +10078,9 @@
         "LLMs for scientific discovery"
       ],
       "source": {
-        "name": "OpenReview API + OpenReview profiles",
-        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
-        "fetched_at": "2026-06-17T20:51:04Z",
+        "name": "OpenReview API + OpenReview profiles + arXiv API",
+        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>; https://export.arxiv.org/api/query?search_query=ti:<paper-title>",
+        "fetched_at": "2026-06-18T15:14:39Z",
         "license": "CC BY 4.0"
       }
     },
@@ -10664,7 +10664,7 @@
     {
       "id": "ai4x2026:spectral-analysis-of-the-weighted-frobenius-objective:6b3bab116b",
       "title": "Spectral Analysis of the Weighted Frobenius Objective",
-      "abstract": "",
+      "abstract": "We analyze a weighted Frobenius loss for approximating symmetric positive definite matrices in the context of preconditioning iterative solvers. Unlike the standard Frobenius norm, the weighted loss penalizes error components associated with small eigenvalues of the system matrix more strongly. Our analysis reveals that each eigenmode is scaled by the corresponding square of its eigenvalue, and that, under a fixed error budget, the loss is minimized only when the error is confined to the direction of the largest eigenvalue. This provides a rigorous explanation of why minimizing the weighted loss naturally suppresses low-frequency components, which can be a desirable strategy for the conjugate gradient method. The analysis is independent of the specific approximation scheme or sparsity pattern, and applies equally to incomplete factorizations, algebraic updates, and learning-based constructions. Numerical experiments confirm the predictions of the theory, including an illustration where sparse factors are trained by a direct gradient updates to IC(0) factor entries, i.e., no trained neural network model is used.",
       "tldr": "",
       "authors": [
         "Vladislav Trifonov",
@@ -10683,7 +10683,7 @@
       "presentation": "AI4X-AC 2026 Poster",
       "paper_url": "https://openreview.net/forum?id=VgZ4xutLEt",
       "pdf_url": "",
-      "arxiv_url": "",
+      "arxiv_url": "https://arxiv.org/abs/2509.16783",
       "project_url": "",
       "github_url": "",
       "doi": "10.1109/DCNA67486.2025.11199951",
@@ -10694,9 +10694,9 @@
         "Spectral Properties"
       ],
       "source": {
-        "name": "OpenReview API + OpenReview profiles",
-        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
-        "fetched_at": "2026-06-17T20:51:04Z",
+        "name": "OpenReview API + OpenReview profiles + arXiv API",
+        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>; https://export.arxiv.org/api/query?search_query=ti:<paper-title>",
+        "fetched_at": "2026-06-18T15:14:39Z",
         "license": "CC BY 4.0"
       }
     },
@@ -10746,7 +10746,7 @@
     {
       "id": "ai4x2026:discovery-of-sustainable-refrigerants-through-physics-informed-rl-fine-t:c0f006388f",
       "title": "Discovery of Sustainable Refrigerants through Physics-Informed RL Fine-Tuning of Sequence Models",
-      "abstract": "",
+      "abstract": "Most refrigerants currently used in air-conditioning systems, such as hydrofluorocarbons, are potent greenhouse gases and are being phased down. Large-scale molecular screening has been applied to the search for alternatives, but in practice only about 300 refrigerants are known, and only a few additional candidates have been suggested without experimental validation. This scarcity of reliable data limits the effectiveness of purely data-driven methods. We present Refgen, a generative pipeline that integrates machine learning with physics-grounded inductive biases. Alongside fine-tuning for valid molecular generation, Refgen incorporates predictive models for critical properties, equations of state, thermochemical polynomials, and full vapor compression cycle simulations. These models enable reinforcement learning fine-tuning under thermodynamic constraints, enforcing consistency and guiding discovery toward molecules that balance efficiency, safety, and environmental impact. By embedding physics into the learning process, Refgen leverages scarce data effectively and enables de novo refrigerant discovery beyond the known set of compounds.",
       "tldr": "",
       "authors": [
         "Adrien Goldszal",
@@ -10766,7 +10766,7 @@
       "presentation": "AI4X-AC 2026 Oral",
       "paper_url": "https://openreview.net/forum?id=0kyF6VHtzp",
       "pdf_url": "https://openreview.net/pdf/55164504e89e0f338c2c37454075af998f727332.pdf",
-      "arxiv_url": "",
+      "arxiv_url": "https://arxiv.org/abs/2509.19588",
       "project_url": "",
       "github_url": "",
       "doi": "",
@@ -10778,9 +10778,9 @@
         "Large-Language-Models"
       ],
       "source": {
-        "name": "OpenReview API + OpenReview profiles",
-        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
-        "fetched_at": "2026-06-17T20:51:04Z",
+        "name": "OpenReview API + OpenReview profiles + arXiv API",
+        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>; https://export.arxiv.org/api/query?search_query=ti:<paper-title>",
+        "fetched_at": "2026-06-18T15:14:39Z",
         "license": "CC BY 4.0"
       }
     },
@@ -11408,7 +11408,7 @@
     {
       "id": "ai4x2026:importance-of-electronic-entropy-for-machine-learning-interatomic-potent:b34fe41171",
       "title": "Importance of Electronic Entropy for Machine Learning Interatomic Potentials",
-      "abstract": "",
+      "abstract": "Machine learning interatomic potentials (MLIPs) enable large-scale atomistic simulations but remain challenged in describing mixed-valence materials where charge ordering strongly influences thermodynamic stability. Here we investigate the role of electronic entropy in MLIP structural optimization of the battery cathode material \\ce{NaFePO4}. We show that conventional MLIPs fail to reproduce the correct stability of intermediate \\ce{Na} concentrations because structural optimization leads to incorrect \\ce{Fe^{2+}}/\\ce{Fe^{3+}} charge assignments, resulting in erroneous energy ordering and convex-hull predictions. Analysis of magnetic moments during structural optimization reveals that MLIPs are unable to capture electronic entropy associated with charge ordering. To address this limitation, we introduce an approach that embeds charge-state information directly into the MLIP representation by distinguishing between \\ce{Fe^{2+}} and \\ce{Fe^{3+}} environments during training. Retraining CHGNet, cPaiNN, and MACE with this representation enables accurate structural optimization, correct identification of charge ordering, and improved agreement with density functional theory convex hulls. Our results demonstrate that incorporating electronic entropy into MLIP representations is essential for modeling charge-disordered materials and provide a practical framework for extending MLIP simulations to mixed-valence transition-metal systems.",
       "tldr": "We investigate the impact of electronic entropy (defined here as the spatial distribution of Fe2+/Fe3+ redox pairs) on MLIP performance using olivine-type NaFePO4 as a model system.",
       "authors": [
         "Martin Hoffmann Petersen",
@@ -11429,7 +11429,7 @@
       "presentation": "AI4X-AC 2026 Oral",
       "paper_url": "https://openreview.net/forum?id=0DqWkDsL9o",
       "pdf_url": "https://openreview.net/pdf/193be9dcf10256564be54e47b192edd63cf3d183.pdf",
-      "arxiv_url": "",
+      "arxiv_url": "https://arxiv.org/abs/2603.26471",
       "project_url": "",
       "github_url": "",
       "doi": "",
@@ -11440,9 +11440,9 @@
         "atomic charge site disorder"
       ],
       "source": {
-        "name": "OpenReview API + OpenReview profiles",
-        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
-        "fetched_at": "2026-06-17T20:51:04Z",
+        "name": "OpenReview API + OpenReview profiles + arXiv API",
+        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>; https://export.arxiv.org/api/query?search_query=ti:<paper-title>",
+        "fetched_at": "2026-06-18T15:14:39Z",
         "license": "CC BY 4.0"
       }
     },
@@ -12688,7 +12688,7 @@
     {
       "id": "ai4x2026:towards-critical-branching-mechanism-in-recurrent-neural-networks:7dbe858986",
       "title": "Towards Critical Branching Mechanism in Recurrent Neural Networks",
-      "abstract": "",
+      "abstract": "Criticality has been proposed as a key organizing principle in biological neural systems, yet its origin and relevance in artificial neural networks remain unclear. We analyze hidden-state dynamics in trained long short-term memory (LSTM) networks and show that small networks near their optimal training epochs (steps) exhibit scale-free avalanche statistics and branching parameters close to unity, indicative of near-critical dynamics, while larger models remain subcritical. To explain the coexistence of subcritical branching with robust $1/f^β$ noise, we introduce a mixture branching process framework that links heterogeneous branching dynamics to long-range temporal correlations. These results identify critical-like behavior in LSTMs as an emergent, capacity-dependent dynamical regime.",
       "tldr": "This abstract proposes a framework to investigate the critical branching mechanism in LSTMs in analogy to neuronal avalanches in biological brain systems.",
       "authors": [
         "Feixiang Ren",
@@ -12706,7 +12706,7 @@
       "presentation": "AI4X-AC 2026 Oral",
       "paper_url": "https://openreview.net/forum?id=ywmENyEGXM",
       "pdf_url": "https://openreview.net/pdf/6fd8967c9b721cc8fd643f7689935ba563d5a6de.pdf",
-      "arxiv_url": "",
+      "arxiv_url": "https://arxiv.org/abs/2606.10384",
       "project_url": "",
       "github_url": "",
       "doi": "",
@@ -12717,9 +12717,9 @@
         "critical transitions"
       ],
       "source": {
-        "name": "OpenReview API + OpenReview profiles",
-        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
-        "fetched_at": "2026-06-17T20:51:04Z",
+        "name": "OpenReview API + OpenReview profiles + arXiv API",
+        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>; https://export.arxiv.org/api/query?search_query=ti:<paper-title>",
+        "fetched_at": "2026-06-18T15:14:39Z",
         "license": "CC BY 4.0"
       }
     },
@@ -13187,7 +13187,7 @@
     {
       "id": "ai4x2026:alloym-a-large-language-model-for-alloy-phase-diagram-prediction:5c8890b482",
       "title": "aLLoyM: A Large Language Model for Alloy Phase Diagram Prediction",
-      "abstract": "",
+      "abstract": "Large Language Models (LLMs) are general-purpose tools with wide-ranging applications, including in materials science. In this work, we introduce aLLoyM, a fine-tuned LLM specifically trained on alloy compositions, temperatures, and their corresponding phase information. To develop aLLoyM, we curated question-and-answer (Q&A) pairs for binary and ternary phase diagrams using the open-source Computational Phase Diagram Database (CPDDB) and assessments based on CALPHAD (CALculation of PHAse Diagrams). We fine-tuned Mistral, an open-source pre-trained LLM, for two distinct Q&A formats: multiple-choice and short-answer. Benchmark evaluations demonstrate that fine-tuning substantially enhances performance on multiple-choice phase diagram questions. Moreover, the short-answer model of aLLoyM exhibits the ability to generate novel phase diagrams from its components alone, underscoring its potential to accelerate the discovery of previously unexplored materials systems. To promote further research and adoption, we have publicly released the short-answer fine-tuned version of aLLoyM, along with the complete benchmarking Q&A dataset, on Hugging Face.",
       "tldr": "",
       "authors": [
         "Yuna Oikawa",
@@ -13209,7 +13209,7 @@
       "presentation": "AI4X-AC 2026 Poster",
       "paper_url": "https://openreview.net/forum?id=3aq5iiSCXc",
       "pdf_url": "https://openreview.net/pdf/e338b3932ff99fb45f382c52ebfeefe1e2b5127a.pdf",
-      "arxiv_url": "",
+      "arxiv_url": "https://arxiv.org/abs/2507.22558",
       "project_url": "",
       "github_url": "",
       "doi": "",
@@ -13220,9 +13220,9 @@
         "benchmark"
       ],
       "source": {
-        "name": "OpenReview API + OpenReview profiles",
-        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
-        "fetched_at": "2026-06-17T20:51:04Z",
+        "name": "OpenReview API + OpenReview profiles + arXiv API",
+        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>; https://export.arxiv.org/api/query?search_query=ti:<paper-title>",
+        "fetched_at": "2026-06-18T15:14:39Z",
         "license": "CC BY 4.0"
       }
     },
@@ -13469,7 +13469,7 @@
     {
       "id": "ai4x2026:machine-learning-for-in-situ-composition-mapping-in-a-self-driving-magne:9be7dad602",
       "title": "Machine learning for in-situ composition mapping in a self-driving magnetron sputtering system",
-      "abstract": "",
+      "abstract": "Self-driving labs (SDLs), employing automation and machine learning (ML) to accelerate experimental procedures, have enormous potential in the discovery of new materials. However, in thin film science, SDLs are mainly restricted to solution-based synthetic methods which are easier to automate but cannot access the broad chemical space of inorganic materials. This work presents an SDL based on magnetron co-sputtering. We are using combinatorial frameworks, obtaining accurate composition maps on multi-element, compositionally graded thin films. This normally requires time-consuming ex-situ analysis prone to systematic errors. We present a rapid and calibration-free in-situ, ML driven approach to produce composition maps for arbitrary source combinations and sputtering conditions. We develop a method to predict the composition distribution in a multi-element combinatorial thin film, using in-situ measurements from quartz-crystal microbalance sensors placed in a sputter chamber. For a given source, the sensor readings are learned as a function of the sputtering pressure and magnetron power, through active learning using Gaussian processes (GPs). The final GPs are combined with a geometric model of the deposition flux distribution in the chamber, which allows interpolation of the deposition rates from each source, at any position across the sample. We investigate several acquisition functions for the ML procedure. A fully Bayesian GP - BALM (Bayesian active learning MacKay) - achieved the best performance, learning the deposition rates for a single source in 10 experiments. Prediction accuracy for co-sputtering composition distributions was verified experimentally. Our framework dramatically increases throughput by avoiding the need for extensive characterisation or calibration, thus demonstrating the potential of ML-guided SDLs to accelerate materials exploration.",
       "tldr": "This work advances an SDL based on magnetron co-sputtering. We present a fast, calibration-free, in-situ ML approach to predict the deposition rate using quartz-crystal microbalance sensors.",
       "authors": [
         "Sanna Jarl",
@@ -13490,7 +13490,7 @@
       "presentation": "AI4X-AC 2026 Oral",
       "paper_url": "https://openreview.net/forum?id=ttXdworce2",
       "pdf_url": "",
-      "arxiv_url": "",
+      "arxiv_url": "https://arxiv.org/abs/2506.05999",
       "project_url": "",
       "github_url": "",
       "doi": "10.1016/j.matdes.2025.115087",
@@ -13503,9 +13503,9 @@
         "Combinatorial thin films"
       ],
       "source": {
-        "name": "OpenReview API + OpenReview profiles",
-        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
-        "fetched_at": "2026-06-17T20:51:04Z",
+        "name": "OpenReview API + OpenReview profiles + arXiv API",
+        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>; https://export.arxiv.org/api/query?search_query=ti:<paper-title>",
+        "fetched_at": "2026-06-18T15:14:39Z",
         "license": "CC BY 4.0"
       }
     },
@@ -13594,7 +13594,7 @@
     {
       "id": "ai4x2026:scalable-learning-of-macroscopic-stochastic-dynamics:0feb2b9a70",
       "title": "Scalable learning of macroscopic stochastic dynamics",
-      "abstract": "",
+      "abstract": "Macroscopic dynamical descriptions of complex physical systems are crucial for understanding and controlling material behavior. With the growing availability of data and compute, machine learning has become a promising alternative to first-principles methods to build accurate macroscopic models from microscopic trajectory simulations. However, for spatially extended systems, direct simulations of sufficiently large microscopic systems that inform macroscopic behavior is prohibitive. In this work, we propose a framework that learns the macroscopic dynamics of large stochastic microscopic systems using only small-system simulations. Our framework employs a partial evolution scheme to generate training data pairs by evolving large-system snapshots within local patches. We subsequently identify the closure variables associated with the macroscopic observables and learn the macroscopic dynamics using a custom loss. Furthermore, we introduce a hierarchical upsampling scheme that enables efficient generation of large-system snapshots from small-system trajectory distributions. We empirically demonstrate the accuracy and robustness of our framework through a variety of stochastic spatially extended systems, including those described by stochastic partial differential equations, idealised lattice spin systems, and a more realistic NbMoTa alloy system.",
       "tldr": "",
       "authors": [
         "Mengyi Chen",
@@ -13615,7 +13615,7 @@
       "presentation": "AI4X-AC 2026 Oral",
       "paper_url": "https://openreview.net/forum?id=Kn7noYh2Gr",
       "pdf_url": "https://openreview.net/pdf/bef0f14def1a328088cda6261cd2df919a32f9c7.pdf",
-      "arxiv_url": "",
+      "arxiv_url": "https://arxiv.org/abs/2511.12842",
       "project_url": "",
       "github_url": "",
       "doi": "",
@@ -13625,16 +13625,16 @@
         "Dynamical system"
       ],
       "source": {
-        "name": "OpenReview API + OpenReview profiles",
-        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
-        "fetched_at": "2026-06-17T20:51:04Z",
+        "name": "OpenReview API + OpenReview profiles + arXiv API",
+        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>; https://export.arxiv.org/api/query?search_query=ti:<paper-title>",
+        "fetched_at": "2026-06-18T15:14:39Z",
         "license": "CC BY 4.0"
       }
     },
     {
       "id": "ai4x2026:identifiable-learning-of-dissipative-dynamics:9b56a252a5",
       "title": "Identifiable learning of dissipative dynamics",
-      "abstract": "",
+      "abstract": "Complex dissipative systems appear across science and engineering, from polymers and active matter to learning algorithms. These systems operate far from equilibrium, where energy dissipation and time irreversibility govern their behavior but are difficult to quantify from data. Here, we introduce a universal and identifiable neural framework that learns dissipative stochastic dynamics directly from trajectories while ensuring interpretability, expressiveness, and uniqueness. Our method identifies a unique energy landscape, separates reversible from irreversible motion, and allows direct computation of the entropy production, providing a principled measure of irreversibility and deviations from equilibrium. Applications to polymer stretching in elongational flow and to stochastic gradient Langevin dynamics reveal new insights, including super-linear scaling of barrier heights and sub-linear scaling of entropy production rates with the strain rate, and the suppression of irreversibility with increasing batch size. Our methodology thus establishes a general, data-driven framework for discovering and interpreting non-equilibrium dynamics.",
       "tldr": "",
       "authors": [
         "Aiqing Zhu",
@@ -13654,7 +13654,7 @@
       "presentation": "AI4X-AC 2026 Poster",
       "paper_url": "https://openreview.net/forum?id=gypRmz3X1q",
       "pdf_url": "https://openreview.net/pdf/6ba224e4baac7584000d3d758146e8037df10cc7.pdf",
-      "arxiv_url": "",
+      "arxiv_url": "https://arxiv.org/abs/2510.24160",
       "project_url": "",
       "github_url": "",
       "doi": "",
@@ -13664,9 +13664,9 @@
         "dynamics"
       ],
       "source": {
-        "name": "OpenReview API + OpenReview profiles",
-        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
-        "fetched_at": "2026-06-17T20:51:04Z",
+        "name": "OpenReview API + OpenReview profiles + arXiv API",
+        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>; https://export.arxiv.org/api/query?search_query=ti:<paper-title>",
+        "fetched_at": "2026-06-18T15:14:39Z",
         "license": "CC BY 4.0"
       }
     },
@@ -14290,7 +14290,7 @@
     {
       "id": "ai4x2026:local-global-associative-frames-for-symmetry-preserving-crystal-structur:9def8c6efb",
       "title": "Local-Global Associative Frames for Symmetry-Preserving Crystal Structure Modeling",
-      "abstract": "",
+      "abstract": "Crystal structures are defined by the periodic arrangement of atoms in 3D space, inherently making them equivariant to SO(3) group. A fundamental requirement for crystal property prediction is that the model's output should remain invariant to arbitrary rotational transformations of the input structure. One promising strategy to achieve this invariance is to align the given crystal structure into a canonical orientation with appropriately computed rotations, or called frames. However, existing work either only considers a global frame or solely relies on more advanced local frames based on atoms' local structure. A global frame is too coarse to capture the local structure heterogeneity of the crystal, while local frames may inadvertently disrupt crystal symmetry, limiting their expressivity. In this work, we revisit the frame design problem for crystalline materials and propose a novel approach to construct expressive Symmetry-Preserving Frames, dubbed as SPFrame, for modeling crystal structures. Specifically, this local-global associative frame constructs invariant local frames rather than equivariant ones, thereby preserving the symmetry of the crystal. In parallel, it integrates global structural information to construct an equivariant global frame to enforce SO(3) invariance. Extensive experimental results demonstrate that SPFrame consistently outperforms traditional frame construction techniques and existing crystal property prediction baselines across multiple benchmark tasks.",
       "tldr": "",
       "authors": [
         "Haowei Hua",
@@ -14308,7 +14308,7 @@
       "presentation": "AI4X-AC 2026 Oral",
       "paper_url": "https://openreview.net/forum?id=4V10BQdknT",
       "pdf_url": "",
-      "arxiv_url": "",
+      "arxiv_url": "https://arxiv.org/abs/2505.15315",
       "project_url": "",
       "github_url": "",
       "doi": "https://neurips.cc/virtual/2025/poster/118593",
@@ -14318,9 +14318,9 @@
         "SO(3) invariance"
       ],
       "source": {
-        "name": "OpenReview API + OpenReview profiles",
-        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
-        "fetched_at": "2026-06-17T20:51:04Z",
+        "name": "OpenReview API + OpenReview profiles + arXiv API",
+        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>; https://export.arxiv.org/api/query?search_query=ti:<paper-title>",
+        "fetched_at": "2026-06-18T15:14:39Z",
         "license": "CC BY 4.0"
       }
     },
@@ -14454,7 +14454,7 @@
     {
       "id": "ai4x2026:graph-learning-metallic-glass-discovery-from-wikipedia:e91ba0fc31",
       "title": "Graph learning metallic glass discovery  from Wikipedia",
-      "abstract": "",
+      "abstract": "Synthesizing new materials efficiently is highly demanded in various research fields. However, this process is usually slow and expensive, especially for metallic glasses, whose formation strongly depends on the optimal combinations of multiple elements to resist crystallization. This constraint renders only several thousands of candidates explored in the vast material space since 1960. Recently, data-driven approaches armed by advanced machine learning techniques provided alternative routes for intelligent materials design. Due to data scarcity and immature material encoding, the conventional tabular data is usually mined by statistical learning algorithms, giving limited model predictability and generalizability. Here, we propose sophisticated data learning from material network representations. The node elements are encoded from the Wikipedia by a language model. Graph neural networks with versatile architectures are designed to serve as recommendation systems to explore hidden relationships among materials. By employing Wikipedia embeddings from different languages, we assess the capability of natural languages in materials design. Our study proposes a new paradigm to harvesting new amorphous materials and beyond with artificial intelligence.",
       "tldr": "A research article published in \"AI for Science\" to study how to design metallic materials by graph neural network from material networks encoded by a language model from Wikipedia",
       "authors": [
         "Yuan-Chao Hu"
@@ -14471,7 +14471,7 @@
       "presentation": "AI4X-AC 2026 Oral",
       "paper_url": "https://openreview.net/forum?id=N7rEY7r91E",
       "pdf_url": "",
-      "arxiv_url": "",
+      "arxiv_url": "https://arxiv.org/abs/2507.19536",
       "project_url": "",
       "github_url": "",
       "doi": "10.1088/3050-287X/ae1b20",
@@ -14482,9 +14482,9 @@
         "Recommendation System"
       ],
       "source": {
-        "name": "OpenReview API + OpenReview profiles",
-        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
-        "fetched_at": "2026-06-17T20:51:04Z",
+        "name": "OpenReview API + OpenReview profiles + arXiv API",
+        "url": "https://api2.openreview.net/notes?content.venueid=AI4X.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>; https://export.arxiv.org/api/query?search_query=ti:<paper-title>",
+        "fetched_at": "2026-06-18T15:14:39Z",
         "license": "CC BY 4.0"
       }
     }

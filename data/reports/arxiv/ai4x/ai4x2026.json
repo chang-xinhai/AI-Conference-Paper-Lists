@@ -1,0 +1,22 @@
+{
+  "schema_version": "0.1",
+  "venue_key": "ai4x",
+  "year": 2026,
+  "source": "arxiv",
+  "source_url": "https://export.arxiv.org/api/query",
+  "generated_at": "2026-06-18T15:14:39Z",
+  "queried": 348,
+  "cached_queries": 348,
+  "matched": 40,
+  "normalized_updated": 40,
+  "raw_updated": 40,
+  "failures": 0,
+  "by_status": {
+    "rejected": 308,
+    "matched": 40
+  },
+  "by_reason": {
+    "no_exact_title_match": 308,
+    "exact_title_author_year_match": 40
+  }
+}
