@@ -1,0 +1,22 @@
+{
+  "schema_version": "0.1",
+  "venue_key": "rss",
+  "year": 2026,
+  "source": "arxiv",
+  "source_url": "https://export.arxiv.org/api/query",
+  "generated_at": "2026-06-18T16:02:47Z",
+  "queried": 210,
+  "cached_queries": 210,
+  "matched": 154,
+  "normalized_updated": 154,
+  "raw_updated": 154,
+  "failures": 0,
+  "by_status": {
+    "matched": 154,
+    "rejected": 56
+  },
+  "by_reason": {
+    "exact_title_author_year_match": 154,
+    "no_exact_title_match": 56
+  }
+}
