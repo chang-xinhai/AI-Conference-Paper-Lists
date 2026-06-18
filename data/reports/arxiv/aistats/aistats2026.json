@@ -1,0 +1,25 @@
+{
+  "schema_version": "0.1",
+  "venue_key": "aistats",
+  "year": 2026,
+  "source": "arxiv",
+  "source_url": "https://export.arxiv.org/api/query",
+  "generated_at": "2026-06-18T17:23:58Z",
+  "queried": 587,
+  "current_run_queried": 0,
+  "cached_queries": 587,
+  "matched": 427,
+  "normalized_updated": 0,
+  "raw_updated": 0,
+  "failures": 0,
+  "by_status": {
+    "matched": 427,
+    "rejected": 158,
+    "ambiguous": 2
+  },
+  "by_reason": {
+    "exact_title_author_year_match": 427,
+    "no_exact_title_match": 158,
+    "multiple_exact_title_matches": 2
+  }
+}
