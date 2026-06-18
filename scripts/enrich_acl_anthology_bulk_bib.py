@@ -255,7 +255,7 @@ def main() -> None:
             updated = _update_record(record, metadata, fetched_at) or updated
         if updated:
             matched += 1
-        if matched % 1000 == 0:
+        if matched and matched % 1000 == 0:
             print(f"scanned_entries={index} updated_keys={matched}/{len(targets)}", flush=True)
 
     written = 0
