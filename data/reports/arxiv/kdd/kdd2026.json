@@ -1,0 +1,22 @@
+{
+  "schema_version": "0.1",
+  "venue_key": "kdd",
+  "year": 2026,
+  "source": "arxiv",
+  "source_url": "https://export.arxiv.org/api/query",
+  "generated_at": "2026-06-18T16:19:42Z",
+  "queried": 256,
+  "cached_queries": 256,
+  "matched": 160,
+  "normalized_updated": 160,
+  "raw_updated": 160,
+  "failures": 0,
+  "by_status": {
+    "rejected": 96,
+    "matched": 160
+  },
+  "by_reason": {
+    "no_exact_title_match": 96,
+    "exact_title_author_year_match": 160
+  }
+}
