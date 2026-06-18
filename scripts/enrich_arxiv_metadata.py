@@ -268,6 +268,11 @@ def main() -> None:
     parser.add_argument("--timeout", type=int, default=30)
     parser.add_argument("--delay", type=float, default=3.0)
     parser.add_argument("--force", action="store_true", help="Re-query records already present in the cache.")
+    parser.add_argument(
+        "--retry-errors",
+        action="store_true",
+        help="Re-query cached records whose previous status was error.",
+    )
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
 
@@ -299,7 +304,9 @@ def main() -> None:
     fetched_at = now_utc()
     for index, record in enumerate(candidates, start=1):
         record_id = str(record.get("id"))
-        if not args.force and record_id in cached:
+        cached_record = cached.get(record_id)
+        should_retry_error = args.retry_errors and cached_record and cached_record.get("status") == "error"
+        if not args.force and record_id in cached and not should_retry_error:
             continue
         url = query_url(str(record.get("title") or ""), args.max_results)
         query_record: dict[str, Any] = {
@@ -362,7 +369,8 @@ def main() -> None:
         "source": "arxiv",
         "source_url": ARXIV_API_URL,
         "generated_at": fetched_at,
-        "queried": queried,
+        "queried": len(cached),
+        "current_run_queried": queried,
         "cached_queries": len(cached),
         "matched": len(matches),
         "normalized_updated": normalized_updated,
