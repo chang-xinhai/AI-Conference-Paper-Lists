@@ -4,9 +4,9 @@
   "venue_key": "iclr",
   "year": 2024,
   "source_url": "https://api2.openreview.net/notes?content.venueid=ICLR.cc/2024/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
-  "fetched_at": "2026-06-18T03:40:52Z",
-  "count": 633,
-  "profile_count": 3248,
+  "fetched_at": "2026-06-18T03:46:12Z",
+  "count": 693,
+  "profile_count": 3511,
   "records": [
     {
       "paper_id": "iclr2024:tabr-tabular-deep-learning-meets-nearest-neighbors:2feb70c187",
@@ -75,6 +75,24 @@
         "Shanghai Jiao Tong University"
       ],
       "first_institute": "Shanghai Jiao Tong University"
+    },
+    {
+      "paper_id": "iclr2024:forward-learning-with-top-down-feedback-empirical-and-analytical-charact:2a6aa5ee71",
+      "title": "Forward Learning with Top-Down Feedback: Empirical and Analytical Characterization",
+      "paper_url": "https://openreview.net/forum?id=My7lkRNnL9",
+      "authorids": [
+        "~Ravi_Francesco_Srinivasan1",
+        "~Francesca_Mignacco1",
+        "~Martino_Sorbaro1",
+        "~Maria_Refinetti1",
+        "~Avi_Cooper1",
+        "~Gabriel_Kreiman1",
+        "~Giorgia_Dellaferrera1"
+      ],
+      "affiliations": [
+        "Fujitsu Research and Development Center Co. Ltm."
+      ],
+      "first_institute": "Fujitsu Research and Development Center Co. Ltm."
     },
     {
       "paper_id": "iclr2024:what-makes-good-data-for-alignment-a-comprehensive-study-of-automatic-da:3ebeb1d4bf",
@@ -412,6 +430,21 @@
       "first_institute": "University of Alberta"
     },
     {
+      "paper_id": "iclr2024:a-good-learner-can-teach-better-teacher-student-collaborative-knowledge:a2fb8c4bd5",
+      "title": "A Good Learner can Teach Better: Teacher-Student Collaborative Knowledge Distillation",
+      "paper_url": "https://openreview.net/forum?id=Ixi4j6LtdX",
+      "authorids": [
+        "~Ayan_Sengupta1",
+        "shantanu20118@iiitd.ac.in",
+        "~Md_Shad_Akhtar1",
+        "~Tanmoy_Chakraborty2"
+      ],
+      "affiliations": [
+        "Indian Institute of Technology, Delhi"
+      ],
+      "first_institute": "Indian Institute of Technology, Delhi"
+    },
+    {
       "paper_id": "iclr2024:diagnosing-transformers-illuminating-feature-spaces-for-clinical-decisio:dec88af88a",
       "title": "Diagnosing Transformers: Illuminating Feature Spaces for Clinical Decision-Making",
       "paper_url": "https://openreview.net/forum?id=k581sTMyPt",
@@ -594,6 +627,21 @@
         "Carnegie Mellon University"
       ],
       "first_institute": "Carnegie Mellon University"
+    },
+    {
+      "paper_id": "iclr2024:pinnacle-pinn-adaptive-collocation-and-experimental-points-selection:795d625bf9",
+      "title": "PINNACLE: PINN Adaptive ColLocation and Experimental points selection",
+      "paper_url": "https://openreview.net/forum?id=GzNaCp6Vcg",
+      "authorids": [
+        "~Gregory_Kang_Ruey_Lau1",
+        "~Apivich_Hemachandra1",
+        "~See-Kiong_Ng1",
+        "~Bryan_Kian_Hsiang_Low1"
+      ],
+      "affiliations": [
+        "National University of Singapore"
+      ],
+      "first_institute": "National University of Singapore"
     },
     {
       "paper_id": "iclr2024:extending-power-of-nature-from-binary-to-real-valued-graph-learning-in-r:99bd95d66f",
@@ -998,6 +1046,21 @@
       "first_institute": "Google DeepMind"
     },
     {
+      "paper_id": "iclr2024:abstractors-and-relational-cross-attention-an-inductive-bias-for-explici:b4f83d3e3b",
+      "title": "Abstractors and relational cross-attention: An inductive bias for explicit relational reasoning in Transformers",
+      "paper_url": "https://openreview.net/forum?id=XNa6r6ZjoB",
+      "authorids": [
+        "~Awni_Altabaa1",
+        "~Taylor_Whittington_Webb1",
+        "~Jonathan_D._Cohen1",
+        "~John_Lafferty2"
+      ],
+      "affiliations": [
+        "Yale University"
+      ],
+      "first_institute": "Yale University"
+    },
+    {
       "paper_id": "iclr2024:the-trickle-down-impact-of-reward-inconsistency-on-rlhf:c6f1820905",
       "title": "The Trickle-down Impact of Reward Inconsistency on RLHF",
       "paper_url": "https://openreview.net/forum?id=MeHmwCDifc",
@@ -1153,9 +1216,10 @@
         "~David_Janz1"
       ],
       "affiliations": [
+        "Valence Labs powered by recursion",
         "Cornell University"
       ],
-      "first_institute": "Cornell University"
+      "first_institute": "Valence Labs powered by recursion"
     },
     {
       "paper_id": "iclr2024:confronting-reward-model-overoptimization-with-constrained-rlhf:730bb12e82",
@@ -1525,6 +1589,21 @@
       "first_institute": "Brown University"
     },
     {
+      "paper_id": "iclr2024:a-variational-perspective-on-solving-inverse-problems-with-diffusion-mod:6c0d9cc15e",
+      "title": "A Variational Perspective on Solving Inverse Problems with Diffusion Models",
+      "paper_url": "https://openreview.net/forum?id=1YO4EE3SPB",
+      "authorids": [
+        "~Morteza_Mardani1",
+        "~Jiaming_Song1",
+        "~Jan_Kautz1",
+        "~Arash_Vahdat3"
+      ],
+      "affiliations": [
+        "NVIDIA"
+      ],
+      "first_institute": "NVIDIA"
+    },
+    {
       "paper_id": "iclr2024:confidential-dpproof-confidential-proof-of-differentially-private-traini:37e6022b60",
       "title": "Confidential-DPproof: Confidential Proof of Differentially Private Training",
       "paper_url": "https://openreview.net/forum?id=PQY2v6VtGe",
@@ -1539,9 +1618,10 @@
         "~Adrian_Weller1"
       ],
       "affiliations": [
+        "INRIA",
         "Alan Turing Institute"
       ],
-      "first_institute": "Alan Turing Institute"
+      "first_institute": "INRIA"
     },
     {
       "paper_id": "iclr2024:offline-rl-with-observation-histories-analyzing-and-improving-sample-com:d862059564",
@@ -1694,6 +1774,22 @@
       "first_institute": "Princeton University"
     },
     {
+      "paper_id": "iclr2024:social-reward-evaluating-and-enhancing-generative-ai-through-million-use:e30c37e3ad",
+      "title": "Social Reward: Evaluating and Enhancing Generative AI through Million-User Feedback from an Online Creative Community",
+      "paper_url": "https://openreview.net/forum?id=tjn2YZSHUv",
+      "authorids": [
+        "~Arman_Isajanyan1",
+        "~Artur_Shatveryan1",
+        "~David_Kocharian1",
+        "~Zhangyang_Wang1",
+        "~Humphrey_Shi1"
+      ],
+      "affiliations": [
+        "Picsart"
+      ],
+      "first_institute": "Picsart"
+    },
+    {
       "paper_id": "iclr2024:automatikz-text-guided-synthesis-of-scientific-vector-graphics-with-tikz:626373b958",
       "title": "AutomaTikZ: Text-Guided Synthesis of Scientific Vector Graphics with TikZ",
       "paper_url": "https://openreview.net/forum?id=v3K5TVP8kZ",
@@ -1720,6 +1816,31 @@
         "Carnegie Mellon University"
       ],
       "first_institute": "Carnegie Mellon University"
+    },
+    {
+      "paper_id": "iclr2024:a-simple-interpretable-transformer-for-fine-grained-image-classification:e7cc843b52",
+      "title": "A Simple Interpretable Transformer for Fine-Grained Image Classification and Analysis",
+      "paper_url": "https://openreview.net/forum?id=bkdWThqE6q",
+      "authorids": [
+        "~DIPANJYOTI_PAUL2",
+        "~Arpita_Chowdhury1",
+        "~Xinqi_Xiong1",
+        "~Feng-Ju_Chang4",
+        "~David_Edward_Carlyn1",
+        "~Samuel_Stevens1",
+        "~Kaiya_L_Provost1",
+        "~Anuj_Karpatne1",
+        "~Bryan_Carstens1",
+        "~Daniel_Rubenstein1",
+        "~Charles_Stewart1",
+        "~Tanya_Berger-Wolf2",
+        "~Yu_Su2",
+        "~Wei-Lun_Chao1"
+      ],
+      "affiliations": [
+        "Virginia Polytechnic Institute and State University"
+      ],
+      "first_institute": "Virginia Polytechnic Institute and State University"
     },
     {
       "paper_id": "iclr2024:role-of-locality-and-weight-sharing-in-image-based-tasks-a-sample-comple:4d7eab73f2",
@@ -1866,6 +1987,22 @@
         "New York University"
       ],
       "first_institute": "University of Illinois, Urbana Champaign"
+    },
+    {
+      "paper_id": "iclr2024:learning-from-label-proportions-bootstrapping-supervised-learners-via-be:b06ccab800",
+      "title": "Learning from Label Proportions: Bootstrapping Supervised Learners via Belief Propagation",
+      "paper_url": "https://openreview.net/forum?id=KQe9tHd0k8",
+      "authorids": [
+        "~Shreyas_Havaldar1",
+        "~Navodita_Sharma1",
+        "~Shubhi_Sareen1",
+        "~Karthikeyan_Shanmugam1",
+        "~Aravindan_Raghuveer1"
+      ],
+      "affiliations": [
+        "Google"
+      ],
+      "first_institute": "Google"
     },
     {
       "paper_id": "iclr2024:retrieval-guided-reinforcement-learning-for-boolean-circuit-minimization:5ac826eb4f",
@@ -2113,6 +2250,20 @@
       "first_institute": "Sharif University of Technology"
     },
     {
+      "paper_id": "iclr2024:achieving-fairness-in-multi-agent-mdp-using-reinforcement-learning:5b9144a152",
+      "title": "Achieving Fairness in Multi-Agent MDP Using Reinforcement Learning",
+      "paper_url": "https://openreview.net/forum?id=yoVq2BGQdP",
+      "authorids": [
+        "~Peizhong_Ju1",
+        "~Arnob_Ghosh3",
+        "~Ness_Shroff1"
+      ],
+      "affiliations": [
+        "New Jersey Institute of Technology"
+      ],
+      "first_institute": "New Jersey Institute of Technology"
+    },
+    {
       "paper_id": "iclr2024:rebar-retrieval-based-reconstruction-for-time-series-contrastive-learnin:acc298ddf3",
       "title": "REBAR: Retrieval-Based Reconstruction for Time-series Contrastive Learning",
       "paper_url": "https://openreview.net/forum?id=3zQo5oUvia",
@@ -2127,6 +2278,23 @@
         "Alector"
       ],
       "first_institute": "Alector"
+    },
+    {
+      "paper_id": "iclr2024:scaling-convex-neural-networks-with-burer-monteiro-factorization:a719438f9c",
+      "title": "Scaling Convex Neural Networks with Burer-Monteiro Factorization",
+      "paper_url": "https://openreview.net/forum?id=ikmuHqugN7",
+      "authorids": [
+        "~Arda_Sahiner1",
+        "~Tolga_Ergen1",
+        "~Batu_Ozturkler1",
+        "~John_M._Pauly1",
+        "~Morteza_Mardani1",
+        "~Mert_Pilanci3"
+      ],
+      "affiliations": [
+        "Stanford University"
+      ],
+      "first_institute": "Stanford University"
     },
     {
       "paper_id": "iclr2024:catastrophic-jailbreak-of-open-source-llms-via-exploiting-generation:e93b1be5e6",
@@ -2260,6 +2428,24 @@
         "School of Computer Science, Carnegie Mellon University"
       ],
       "first_institute": "School of Computer Science, Carnegie Mellon University"
+    },
+    {
+      "paper_id": "iclr2024:crossq-batch-normalization-in-deep-reinforcement-learning-for-greater-sa:b30242c0fa",
+      "title": "CrossQ: Batch Normalization in Deep Reinforcement Learning for Greater Sample Efficiency and Simplicity",
+      "paper_url": "https://openreview.net/forum?id=PczQtTsTIX",
+      "authorids": [
+        "~Aditya_Bhatt1",
+        "~Daniel_Palenicek1",
+        "~Boris_Belousov1",
+        "~Max_Argus2",
+        "~Artemij_Amiranashvili1",
+        "~Thomas_Brox1",
+        "~Jan_Peters3"
+      ],
+      "affiliations": [
+        "Amazon"
+      ],
+      "first_institute": "Amazon"
     },
     {
       "paper_id": "iclr2024:hybrid-llm-cost-efficient-and-quality-aware-query-routing:e0dc0d3cca",
@@ -2578,6 +2764,22 @@
       "first_institute": "The Chinese University of Hong Kong"
     },
     {
+      "paper_id": "iclr2024:grounded-object-centric-learning:ef432333bc",
+      "title": "Grounded Object-Centric Learning",
+      "paper_url": "https://openreview.net/forum?id=pBxeZ6pVUD",
+      "authorids": [
+        "~Avinash_Kori1",
+        "~Francesco_Locatello1",
+        "~Fabio_De_Sousa_Ribeiro1",
+        "~Francesca_Toni1",
+        "~Ben_Glocker1"
+      ],
+      "affiliations": [
+        "Imperial College London"
+      ],
+      "first_institute": "Imperial College London"
+    },
+    {
       "paper_id": "iclr2024:dynamic-neural-response-tuning:b658166276",
       "title": "Dynamic Neural Response Tuning",
       "paper_url": "https://openreview.net/forum?id=HiTg16qhxp",
@@ -2705,6 +2907,22 @@
       "first_institute": "Google"
     },
     {
+      "paper_id": "iclr2024:collie-systematic-construction-of-constrained-text-generation-tasks:917d5aec6e",
+      "title": "COLLIE: Systematic Construction of Constrained Text Generation Tasks",
+      "paper_url": "https://openreview.net/forum?id=kxgSlyirUZ",
+      "authorids": [
+        "~Shunyu_Yao1",
+        "~Howard_Chen1",
+        "~Austin_W._Hanjie1",
+        "~Runzhe_Yang1",
+        "~Karthik_R_Narasimhan1"
+      ],
+      "affiliations": [
+        "Princeton University"
+      ],
+      "first_institute": "Princeton University"
+    },
+    {
       "paper_id": "iclr2024:vanishing-gradients-in-reinforcement-finetuning-of-language-models:0e308e7a3d",
       "title": "Vanishing Gradients in Reinforcement Finetuning of Language Models",
       "paper_url": "https://openreview.net/forum?id=IcVNBR7qZi",
@@ -2722,6 +2940,41 @@
         "Apple"
       ],
       "first_institute": "Apple"
+    },
+    {
+      "paper_id": "iclr2024:hyper-evidential-deep-learning-to-quantify-composite-classification-unce:d7062549af",
+      "title": "Hyper Evidential Deep Learning to Quantify Composite Classification Uncertainty",
+      "paper_url": "https://openreview.net/forum?id=A7t7z6g6tM",
+      "authorids": [
+        "~Changbin_Li1",
+        "~Kangshuo_Li1",
+        "~Yuzhe_Ou1",
+        "~Lance_M._Kaplan1",
+        "~Audun_Jøsang1",
+        "~Jin-Hee_Cho1",
+        "~DONG_HYUN_JEONG1",
+        "~Feng_Chen7"
+      ],
+      "affiliations": [
+        "University of Oslo"
+      ],
+      "first_institute": "University of Oslo"
+    },
+    {
+      "paper_id": "iclr2024:concept-bottleneck-generative-models:f730299765",
+      "title": "Concept Bottleneck Generative Models",
+      "paper_url": "https://openreview.net/forum?id=L9U5MJJleF",
+      "authorids": [
+        "~Aya_Abdelsalam_Ismail1",
+        "~Julius_Adebayo1",
+        "~Hector_Corrada_Bravo1",
+        "~Stephen_Ra1",
+        "~Kyunghyun_Cho1"
+      ],
+      "affiliations": [
+        "Guide Labs"
+      ],
+      "first_institute": "Guide Labs"
     },
     {
       "paper_id": "iclr2024:muffin-curating-multi-faceted-instructions-for-improving-instruction-fol:06736442db",
@@ -2808,6 +3061,22 @@
       "first_institute": "University of Illinois at Chicago"
     },
     {
+      "paper_id": "iclr2024:deep-confident-steps-to-new-pockets-strategies-for-docking-generalizatio:136bdf03cd",
+      "title": "Deep Confident Steps to New Pockets: Strategies for Docking Generalization",
+      "paper_url": "https://openreview.net/forum?id=UfBIxpTK10",
+      "authorids": [
+        "~Gabriele_Corso1",
+        "~Arthur_Deng1",
+        "~Nicholas_Polizzi1",
+        "~Regina_Barzilay1",
+        "~Tommi_S._Jaakkola1"
+      ],
+      "affiliations": [
+        "Stanford University"
+      ],
+      "first_institute": "Stanford University"
+    },
+    {
       "paper_id": "iclr2024:language-model-beats-diffusion-tokenizer-is-key-to-visual-generation:f468a5fc6a",
       "title": "Language Model Beats Diffusion - Tokenizer is key to visual generation",
       "paper_url": "https://openreview.net/forum?id=gzqrANCF4g",
@@ -2866,6 +3135,23 @@
         "Accenture"
       ],
       "first_institute": "Accenture"
+    },
+    {
+      "paper_id": "iclr2024:waxing-and-waning-a-generic-similarity-based-framework-for-efficient-sel:15d6640905",
+      "title": "Waxing-and-Waning: a Generic Similarity-based Framework for Efficient Self-Supervised Learning",
+      "paper_url": "https://openreview.net/forum?id=TilcG5C8bN",
+      "authorids": [
+        "~Sheng_Li16",
+        "~Chao_Wu4",
+        "~Ao_Li7",
+        "~Yanzhi_Wang3",
+        "~Xulong_Tang1",
+        "~Geng_Yuan1"
+      ],
+      "affiliations": [
+        "University of Arizona"
+      ],
+      "first_institute": "University of Arizona"
     },
     {
       "paper_id": "iclr2024:protein-discovery-with-discrete-walk-jump-sampling:37f97ec803",
@@ -3272,6 +3558,20 @@
       "first_institute": "Carnegie Mellon University"
     },
     {
+      "paper_id": "iclr2024:rephrase-augment-reason-visual-grounding-of-questions-for-vision-languag:c7bacb5342",
+      "title": "Rephrase, Augment, Reason: Visual Grounding of Questions for Vision-Language Models",
+      "paper_url": "https://openreview.net/forum?id=L4nOxziGf9",
+      "authorids": [
+        "~Archiki_Prasad1",
+        "~Elias_Stengel-Eskin1",
+        "~Mohit_Bansal2"
+      ],
+      "affiliations": [
+        "University of North Carolina, Chapel Hill"
+      ],
+      "first_institute": "University of North Carolina, Chapel Hill"
+    },
+    {
       "paper_id": "iclr2024:adaptive-federated-learning-with-auto-tuned-clients:8fb0e5382c",
       "title": "Adaptive Federated Learning with Auto-Tuned Clients",
       "paper_url": "https://openreview.net/forum?id=g0mlwqs8pi",
@@ -3404,6 +3704,22 @@
       "first_institute": "MIT"
     },
     {
+      "paper_id": "iclr2024:efficient-dynamics-modeling-in-interactive-environments-with-koopman-the:cd7f21d9db",
+      "title": "Efficient Dynamics Modeling in Interactive Environments with Koopman Theory",
+      "paper_url": "https://openreview.net/forum?id=fkrYDQaHOJ",
+      "authorids": [
+        "~Arnab_Kumar_Mondal1",
+        "~Siba_Smarak_Panigrahi1",
+        "~Sai_Rajeswar2",
+        "~Kaleem_Siddiqi1",
+        "~Siamak_Ravanbakhsh1"
+      ],
+      "affiliations": [
+        "Apple"
+      ],
+      "first_institute": "Apple"
+    },
+    {
       "paper_id": "iclr2024:learning-interpretable-control-inputs-and-dynamics-underlying-animal-loc:6500a499c0",
       "title": "Learning interpretable control inputs and dynamics underlying animal locomotion",
       "paper_url": "https://openreview.net/forum?id=MFCjgEOLJT",
@@ -3501,6 +3817,40 @@
       "first_institute": "Laval university"
     },
     {
+      "paper_id": "iclr2024:a-robust-differential-neural-ode-optimizer:4ba3173a6e",
+      "title": "A ROBUST DIFFERENTIAL NEURAL ODE OPTIMIZER",
+      "paper_url": "https://openreview.net/forum?id=zbOSJ3CATY",
+      "authorids": [
+        "~Panagiotis_Theodoropoulos1",
+        "~Guan-Horng_Liu1",
+        "~Tianrong_Chen1",
+        "~Augustinos_D_Saravanos1",
+        "~Evangelos_Theodorou1"
+      ],
+      "affiliations": [
+        "Georgia Institute of Technology"
+      ],
+      "first_institute": "Georgia Institute of Technology"
+    },
+    {
+      "paper_id": "iclr2024:robustness-of-ai-image-detectors-fundamental-limits-and-practical-attack:d39ba18c0f",
+      "title": "Robustness of AI-Image Detectors: Fundamental Limits and Practical Attacks",
+      "paper_url": "https://openreview.net/forum?id=dLoAdIKENc",
+      "authorids": [
+        "~Mehrdad_Saberi1",
+        "~Vinu_Sankar_Sadasivan1",
+        "~Keivan_Rezaei1",
+        "~Aounon_Kumar1",
+        "~Atoosa_Chegini1",
+        "~Wenxiao_Wang1",
+        "~Soheil_Feizi2"
+      ],
+      "affiliations": [
+        "School of Engineering and Applied Sciences, Harvard University"
+      ],
+      "first_institute": "School of Engineering and Applied Sciences, Harvard University"
+    },
+    {
       "paper_id": "iclr2024:constrained-decoding-for-cross-lingual-label-projection:e0e3e68273",
       "title": "Constrained Decoding for Cross-lingual Label Projection",
       "paper_url": "https://openreview.net/forum?id=DayPQKXaQk",
@@ -3531,6 +3881,23 @@
         "University of Washington"
       ],
       "first_institute": "Paul G. Allen School of Computer Science & Engineering, University of Washington"
+    },
+    {
+      "paper_id": "iclr2024:synaptic-weight-distributions-depend-on-the-geometry-of-plasticity:7b3d046184",
+      "title": "Synaptic Weight Distributions Depend on the Geometry of Plasticity",
+      "paper_url": "https://openreview.net/forum?id=x5txICnnjC",
+      "authorids": [
+        "~Roman_Pogodin1",
+        "~Jonathan_Cornford1",
+        "~Arna_Ghosh1",
+        "~Gauthier_Gidel1",
+        "~Guillaume_Lajoie1",
+        "~Blake_Aaron_Richards1"
+      ],
+      "affiliations": [
+        "McGill University"
+      ],
+      "first_institute": "McGill University"
     },
     {
       "paper_id": "iclr2024:understanding-reconstruction-attacks-with-the-neural-tangent-kernel-and:0e887d372e",
@@ -3932,6 +4299,23 @@
       "first_institute": "Michigan State University"
     },
     {
+      "paper_id": "iclr2024:privately-aligning-language-models-with-reinforcement-learning:a46f23e62f",
+      "title": "Privately Aligning Language Models with Reinforcement Learning",
+      "paper_url": "https://openreview.net/forum?id=3d0OmYTNui",
+      "authorids": [
+        "~Fan_Wu6",
+        "~Huseyin_A_Inan1",
+        "~Arturs_Backurs1",
+        "~Varun_Chandrasekaran1",
+        "~Janardhan_Kulkarni2",
+        "~Robert_Sim1"
+      ],
+      "affiliations": [
+        "Microsoft"
+      ],
+      "first_institute": "Microsoft"
+    },
+    {
       "paper_id": "iclr2024:functional-interpolation-for-relative-positions-improves-long-context-tr:d06013ccde",
       "title": "Functional Interpolation for Relative Positions improves Long Context Transformers",
       "paper_url": "https://openreview.net/forum?id=rR03qFesqk",
@@ -3951,6 +4335,23 @@
         "Google Research"
       ],
       "first_institute": "Google Research"
+    },
+    {
+      "paper_id": "iclr2024:featup-a-model-agnostic-framework-for-features-at-any-resolution:6ba89540ee",
+      "title": "FeatUp: A Model-Agnostic Framework for Features at Any Resolution",
+      "paper_url": "https://openreview.net/forum?id=GkJiNn2QDF",
+      "authorids": [
+        "~Stephanie_Fu1",
+        "~Mark_Hamilton1",
+        "~Laura_E._Brandt1",
+        "~Axel_Feldmann1",
+        "~Zhoutong_Zhang1",
+        "~William_T._Freeman1"
+      ],
+      "affiliations": [
+        "Computer Science and Artificial Intelligence Laboratory, Electrical Engineering & Computer Science"
+      ],
+      "first_institute": "Computer Science and Artificial Intelligence Laboratory, Electrical Engineering & Computer Science"
     },
     {
       "paper_id": "iclr2024:toward-optimal-policy-population-growth-in-two-player-zero-sum-games:5a9b30ba5a",
@@ -4076,6 +4477,23 @@
         "University of Illinois, Urbana Champaign"
       ],
       "first_institute": "University of Illinois, Urbana Champaign"
+    },
+    {
+      "paper_id": "iclr2024:conditional-variational-diffusion-models:319f0f373f",
+      "title": "Conditional Variational Diffusion Models",
+      "paper_url": "https://openreview.net/forum?id=YOKnEkIuoi",
+      "authorids": [
+        "~Gabriel_Della_Maggiora1",
+        "~Luis_Alberto_Croquevielle1",
+        "~Nikita_Deshpande1",
+        "~Harry_Horsley1",
+        "~Thomas_Heinis1",
+        "~Artur_Yakimovich1"
+      ],
+      "affiliations": [
+        "Helmholtz-Zentrum Dresden-Rossendorf"
+      ],
+      "first_institute": "Helmholtz-Zentrum Dresden-Rossendorf"
     },
     {
       "paper_id": "iclr2024:subtractive-mixture-models-via-squaring-representation-and-learning:39a21bbb98",
@@ -4263,6 +4681,22 @@
         "University of Maryland, College Park"
       ],
       "first_institute": "University of Maryland, College Park"
+    },
+    {
+      "paper_id": "iclr2024:beno-boundary-embedded-neural-operators-for-elliptic-pdes:7bb02590dd",
+      "title": "BENO: Boundary-embedded Neural Operators for Elliptic PDEs",
+      "paper_url": "https://openreview.net/forum?id=ZZTkLDRmkg",
+      "authorids": [
+        "~Haixin_Wang3",
+        "~Jiaxin_LI11",
+        "~Anubhav_Dwivedi1",
+        "~Kentaro_Hara2",
+        "~Tailin_Wu1"
+      ],
+      "affiliations": [
+        "Stanford University"
+      ],
+      "first_institute": "Stanford University"
     },
     {
       "paper_id": "iclr2024:training-socially-aligned-language-models-on-simulated-social-interactio:57a4d7913e",
@@ -4652,6 +5086,19 @@
       "first_institute": "Apple"
     },
     {
+      "paper_id": "iclr2024:improving-equilibrium-propagation-without-weight-symmetry-through-jacobi:2497db67c9",
+      "title": "Improving equilibrium propagation without weight symmetry through Jacobian homeostasis",
+      "paper_url": "https://openreview.net/forum?id=kUveo5k1GF",
+      "authorids": [
+        "~Axel_Laborieux1",
+        "~Friedemann_Zenke1"
+      ],
+      "affiliations": [
+        "Huawei Technologies Ltd."
+      ],
+      "first_institute": "Huawei Technologies Ltd."
+    },
+    {
       "paper_id": "iclr2024:structural-inference-with-dynamics-encoding-and-partial-correlation-coef:6771de5f4e",
       "title": "Structural Inference with Dynamics Encoding and Partial Correlation Coefficients",
       "paper_url": "https://openreview.net/forum?id=TKnzPdyeJu",
@@ -4663,6 +5110,21 @@
         "University of Luxembourg"
       ],
       "first_institute": "University of Luxembourg"
+    },
+    {
+      "paper_id": "iclr2024:prediction-without-preclusion-recourse-verification-with-reachable-sets:4be2beac62",
+      "title": "Prediction without Preclusion: Recourse Verification with Reachable Sets",
+      "paper_url": "https://openreview.net/forum?id=SCQfYpdoGE",
+      "authorids": [
+        "~Avni_Kothari1",
+        "~Bogdan_Kulynych1",
+        "~Tsui-Wei_Weng1",
+        "~Berk_Ustun1"
+      ],
+      "affiliations": [
+        "University of California, San Francisco"
+      ],
+      "first_institute": "University of California, San Francisco"
     },
     {
       "paper_id": "iclr2024:kalman-filter-for-online-classification-of-non-stationary-data:b83c0aaaa3",
@@ -4748,6 +5210,26 @@
         "Mathematical Institute, University of Oxford"
       ],
       "first_institute": "Mathematical Institute, University of Oxford"
+    },
+    {
+      "paper_id": "iclr2024:dp-sgd-without-clipping-the-lipschitz-neural-network-way:1d7d6739d9",
+      "title": "DP-SGD Without Clipping: The Lipschitz Neural Network Way",
+      "paper_url": "https://openreview.net/forum?id=BEyEziZ4R6",
+      "authorids": [
+        "~Louis_Béthune1",
+        "~Thomas_Massena1",
+        "~Thibaut_Boissin1",
+        "~Aurélien_Bellet1",
+        "~Franck_Mamalet2",
+        "~Yannick_Prudent1",
+        "~Corentin_Friedrich1",
+        "~Mathieu_Serrurier1",
+        "~David_Vigouroux1"
+      ],
+      "affiliations": [
+        "INRIA"
+      ],
+      "first_institute": "INRIA"
     },
     {
       "paper_id": "iclr2024:provable-and-practical-efficient-exploration-in-reinforcement-learning-v:7cc75088ab",
@@ -4969,6 +5451,37 @@
         "Flatiron Institute"
       ],
       "first_institute": "Flatiron Institute"
+    },
+    {
+      "paper_id": "iclr2024:an-interpretable-error-correction-method-for-enhancing-code-to-code-tran:ac1c0a24f0",
+      "title": "An interpretable error correction method for enhancing code-to-code translation",
+      "paper_url": "https://openreview.net/forum?id=fVxIEHGnVT",
+      "authorids": [
+        "~Min_Xue1",
+        "~Artur_Andrzejak1",
+        "~Marla_Leuther1"
+      ],
+      "affiliations": [
+        "Heidelberg University"
+      ],
+      "first_institute": "Heidelberg University"
+    },
+    {
+      "paper_id": "iclr2024:effective-pruning-of-web-scale-datasets-based-on-complexity-of-concept-c:643a56abe1",
+      "title": "Effective pruning of web-scale datasets based on complexity of concept clusters",
+      "paper_url": "https://openreview.net/forum?id=CtOA9aN8fr",
+      "authorids": [
+        "~Amro_Kamal_Mohamed_Abbas1",
+        "~Evgenia_Rusak1",
+        "~Kushal_Tirumala1",
+        "~Wieland_Brendel1",
+        "~Kamalika_Chaudhuri1",
+        "~Ari_S._Morcos1"
+      ],
+      "affiliations": [
+        "Meta AI (FAIR)"
+      ],
+      "first_institute": "Meta AI (FAIR)"
     },
     {
       "paper_id": "iclr2024:attexplore-attribution-for-explanation-with-model-parameters-exploration:c302fee8f4",
@@ -5949,6 +6462,24 @@
       "first_institute": "Korea Advanced Institute of Science and Technology"
     },
     {
+      "paper_id": "iclr2024:coco-periph-bridging-the-gap-between-human-and-machine-perception-in-the:d5086aa319",
+      "title": "COCO-Periph: Bridging the Gap Between Human and Machine Perception in the Periphery",
+      "paper_url": "https://openreview.net/forum?id=MiRPBbQNHv",
+      "authorids": [
+        "~Anne_Harrington1",
+        "~Vasha_DuTell2",
+        "~Mark_Hamilton1",
+        "~Ayush_Tewari2",
+        "~Simon_Stent1",
+        "~William_T._Freeman1",
+        "~Ruth_Rosenholtz1"
+      ],
+      "affiliations": [
+        "Liquid AI"
+      ],
+      "first_institute": "Liquid AI"
+    },
+    {
       "paper_id": "iclr2024:silo-language-models-isolating-legal-risk-in-a-nonparametric-datastore:5731433904",
       "title": "SILO Language Models: Isolating Legal Risk In a Nonparametric Datastore",
       "paper_url": "https://openreview.net/forum?id=ruk0nyQPec",
@@ -6219,6 +6750,22 @@
       "first_institute": "Massachusetts Institute of Technology"
     },
     {
+      "paper_id": "iclr2024:robustifying-state-space-models-for-long-sequences-via-approximate-diago:3b310e35f2",
+      "title": "Robustifying State-space Models for Long Sequences via Approximate Diagonalization",
+      "paper_url": "https://openreview.net/forum?id=DjeQ39QoLQ",
+      "authorids": [
+        "~Annan_Yu1",
+        "~Arnur_Nigmetov1",
+        "~Dmitriy_Morozov1",
+        "~Michael_W._Mahoney1",
+        "~N._Benjamin_Erichson1"
+      ],
+      "affiliations": [
+        "Cornell University"
+      ],
+      "first_institute": "Cornell University"
+    },
+    {
       "paper_id": "iclr2024:joma-demystifying-multilayer-transformers-via-joint-dynamics-of-mlp-and:c6536bc96b",
       "title": "JoMA: Demystifying Multilayer Transformers via Joint Dynamics of MLP and Attention",
       "paper_url": "https://openreview.net/forum?id=LbJqRGNYCf",
@@ -6285,6 +6832,27 @@
         "University of Massachusetts Amherst"
       ],
       "first_institute": "University of Massachusetts Amherst"
+    },
+    {
+      "paper_id": "iclr2024:deepzero-scaling-up-zeroth-order-optimization-for-deep-model-training:dc0a852f99",
+      "title": "DeepZero: Scaling Up Zeroth-Order Optimization for Deep Model Training",
+      "paper_url": "https://openreview.net/forum?id=qBWhjsNPEY",
+      "authorids": [
+        "~Aochuan_Chen1",
+        "~Yimeng_Zhang2",
+        "~Jinghan_Jia1",
+        "~James_Diffenderfer1",
+        "~Konstantinos_Parasyris2",
+        "~Jiancheng_Liu2",
+        "~Yihua_Zhang1",
+        "~Zheng_Zhang2",
+        "~Bhavya_Kailkhura1",
+        "~Sijia_Liu1"
+      ],
+      "affiliations": [
+        "The Hong Kong University of Science and Technology (Guangzhou)"
+      ],
+      "first_institute": "The Hong Kong University of Science and Technology (Guangzhou)"
     },
     {
       "paper_id": "iclr2024:clip-the-bias-how-useful-is-balancing-data-in-multimodal-learning:b93f87ae7a",
@@ -6398,6 +6966,20 @@
       "first_institute": "University of Massachusetts Amherst"
     },
     {
+      "paper_id": "iclr2024:det-cgd-compressed-gradient-descent-with-matrix-stepsizes-for-non-convex:0a667f7a6a",
+      "title": "Det-CGD: Compressed Gradient Descent with Matrix Stepsizes for Non-Convex Optimization",
+      "paper_url": "https://openreview.net/forum?id=ZEZ0CPmoSI",
+      "authorids": [
+        "~Hanmin_Li1",
+        "~Avetik_Karagulyan1",
+        "~Peter_Richtárik1"
+      ],
+      "affiliations": [
+        "Centrale Supélec"
+      ],
+      "first_institute": "Centrale Supélec"
+    },
+    {
       "paper_id": "iclr2024:deep-neural-networks-tend-to-extrapolate-predictably:6338c9cbaa",
       "title": "Deep Neural Networks Tend To Extrapolate Predictably",
       "paper_url": "https://openreview.net/forum?id=ljwoQ3cvQh",
@@ -6428,6 +7010,21 @@
         "FAIR"
       ],
       "first_institute": "University of California, Berkeley"
+    },
+    {
+      "paper_id": "iclr2024:neurosymbolic-grounding-for-compositional-world-models:0c29e6c2b8",
+      "title": "Neurosymbolic Grounding for Compositional World Models",
+      "paper_url": "https://openreview.net/forum?id=4KZpDGD4Nh",
+      "authorids": [
+        "~Atharva_Sehgal1",
+        "~Arya_Grayeli1",
+        "~Jennifer_J._Sun1",
+        "~Swarat_Chaudhuri1"
+      ],
+      "affiliations": [
+        "Sapien"
+      ],
+      "first_institute": "Sapien"
     },
     {
       "paper_id": "iclr2024:adaptive-sharpness-aware-pruning-for-robust-sparse-networks:98891137b0",
@@ -6480,6 +7077,19 @@
         "Physical Intelligence"
       ],
       "first_institute": "School of Computer Science, Carnegie Mellon University"
+    },
+    {
+      "paper_id": "iclr2024:implicit-bias-of-sgd-in-l-2-regularized-linear-dnns-one-way-jumps-from-h:e02f34282c",
+      "title": "Implicit bias of SGD in $L_2$-regularized linear DNNs: One-way jumps from high to low rank",
+      "paper_url": "https://openreview.net/forum?id=P1aobHnjjj",
+      "authorids": [
+        "~Zihan_Wang20",
+        "~Arthur_Jacot1"
+      ],
+      "affiliations": [
+        "NYU, New York University"
+      ],
+      "first_institute": "NYU, New York University"
     },
     {
       "paper_id": "iclr2024:cellplm-pre-training-of-cell-language-model-beyond-single-cells:9b9c3054cd",
@@ -6596,6 +7206,23 @@
       "first_institute": "School of Computer Science, Carnegie Mellon University"
     },
     {
+      "paper_id": "iclr2024:look-remember-and-reason-grounded-reasoning-in-videos-with-language-mode:276d4cd572",
+      "title": "Look, Remember and Reason: Grounded Reasoning in Videos with Language Models",
+      "paper_url": "https://openreview.net/forum?id=jhPvuc7kxB",
+      "authorids": [
+        "~Apratim_Bhattacharyya1",
+        "~Sunny_Panchal1",
+        "~Reza_Pourreza1",
+        "~Mingu_Lee1",
+        "~Pulkit_Madan1",
+        "~Roland_Memisevic1"
+      ],
+      "affiliations": [
+        "Qualcomm Technologies, Inc."
+      ],
+      "first_institute": "Qualcomm Technologies, Inc."
+    },
+    {
       "paper_id": "iclr2024:equiformerv2-improved-equivariant-transformer-for-scaling-to-higher-degr:66712a1f74",
       "title": "EquiformerV2: Improved Equivariant Transformer for Scaling to Higher-Degree Representations",
       "paper_url": "https://openreview.net/forum?id=mCOBKZmrzD",
@@ -6709,6 +7336,20 @@
       "first_institute": "New York University"
     },
     {
+      "paper_id": "iclr2024:interpreting-robustness-proofs-of-deep-neural-networks:6cea994c9b",
+      "title": "Interpreting Robustness Proofs of Deep Neural Networks",
+      "paper_url": "https://openreview.net/forum?id=Ev10F9TWML",
+      "authorids": [
+        "~Debangshu_Banerjee2",
+        "~Avaljot_Singh1",
+        "~Gagandeep_Singh1"
+      ],
+      "affiliations": [
+        "Department of Computer Science"
+      ],
+      "first_institute": "Department of Computer Science"
+    },
+    {
       "paper_id": "iclr2024:a-linear-algebraic-framework-for-counterfactual-generation:f799927c5d",
       "title": "A Linear Algebraic Framework for Counterfactual Generation",
       "paper_url": "https://openreview.net/forum?id=PoDkdFQIu3",
@@ -6808,6 +7449,22 @@
       "first_institute": "UiPath"
     },
     {
+      "paper_id": "iclr2024:scalable-neural-network-kernels:b8990ed143",
+      "title": "Scalable Neural Network Kernels",
+      "paper_url": "https://openreview.net/forum?id=4iPw1klFWa",
+      "authorids": [
+        "~Arijit_Sehanobish1",
+        "~Krzysztof_Marcin_Choromanski1",
+        "~YUNFAN_ZHAO1",
+        "~Kumar_Avinava_Dubey1",
+        "~Valerii_Likhosherstov2"
+      ],
+      "affiliations": [
+        "Kensho Technologies"
+      ],
+      "first_institute": "Kensho Technologies"
+    },
+    {
       "paper_id": "iclr2024:alpha-tc-vae-on-the-relationship-between-disentanglement-and-diversity:8131ec020c",
       "title": "$\\alpha$TC-VAE: On the relationship between Disentanglement and Diversity",
       "paper_url": "https://openreview.net/forum?id=ptXo0epLQo",
@@ -6899,6 +7556,22 @@
         "California Institute of Technology"
       ],
       "first_institute": "California Institute of Technology"
+    },
+    {
+      "paper_id": "iclr2024:mamba-an-effective-world-model-approach-for-meta-reinforcement-learning:5da12b0e76",
+      "title": "MAMBA: an Effective World Model Approach for Meta-Reinforcement Learning",
+      "paper_url": "https://openreview.net/forum?id=1RE0H6mU7M",
+      "authorids": [
+        "~Zohar_Rimon1",
+        "~Tom_Jurgenson1",
+        "~Orr_Krupnik1",
+        "~Gilad_Adler1",
+        "~Aviv_Tamar2"
+      ],
+      "affiliations": [
+        "Technion, Technion"
+      ],
+      "first_institute": "Technion, Technion"
     },
     {
       "paper_id": "iclr2024:lemur-harmonizing-natural-language-and-code-for-language-agents:47f02b3ed4",
@@ -7167,6 +7840,20 @@
       "first_institute": "Cohere"
     },
     {
+      "paper_id": "iclr2024:entity-centric-reinforcement-learning-for-object-manipulation-from-pixel:d3659bc672",
+      "title": "Entity-Centric Reinforcement Learning for Object Manipulation from Pixels",
+      "paper_url": "https://openreview.net/forum?id=uDxeSZ1wdI",
+      "authorids": [
+        "~Dan_Haramati1",
+        "~Tal_Daniel2",
+        "~Aviv_Tamar2"
+      ],
+      "affiliations": [
+        "Technion, Technion"
+      ],
+      "first_institute": "Technion, Technion"
+    },
+    {
       "paper_id": "iclr2024:can-llms-express-their-uncertainty-an-empirical-evaluation-of-confidence:a7a04c6078",
       "title": "Can LLMs Express Their Uncertainty? An Empirical Evaluation of Confidence Elicitation in LLMs",
       "paper_url": "https://openreview.net/forum?id=gjeQKFxFpZ",
@@ -7221,6 +7908,24 @@
       "first_institute": "Zhejiang University"
     },
     {
+      "paper_id": "iclr2024:fedinverse-evaluating-privacy-leakage-in-federated-learning:b4cbee8193",
+      "title": "FedInverse: Evaluating Privacy Leakage in Federated Learning",
+      "paper_url": "https://openreview.net/forum?id=nTNgkEIfeb",
+      "authorids": [
+        "~Di_Wu39",
+        "~Jun_Bai3",
+        "~Yiliao_Song2",
+        "~Junjun_Chen1",
+        "~Wei_Zhou15",
+        "~Yong_Xiang3",
+        "~Atul_Sajjanhar1"
+      ],
+      "affiliations": [
+        "Deakin University"
+      ],
+      "first_institute": "Deakin University"
+    },
+    {
       "paper_id": "iclr2024:privacy-preserving-in-context-learning-with-differentially-private-few-s:233d3a1c7b",
       "title": "Privacy-Preserving In-Context Learning with Differentially Private Few-Shot Generation",
       "paper_url": "https://openreview.net/forum?id=oZtt0pRnOl",
@@ -7255,6 +7960,21 @@
         "Utrecht University"
       ],
       "first_institute": "Utrecht University"
+    },
+    {
+      "paper_id": "iclr2024:successor-heads-recurring-interpretable-attention-heads-in-the-wild:4067823392",
+      "title": "Successor Heads: Recurring, Interpretable Attention Heads In The Wild",
+      "paper_url": "https://openreview.net/forum?id=kvcbV8KQsi",
+      "authorids": [
+        "~Rhys_Gould1",
+        "~Euan_Ong1",
+        "~George_Ogden1",
+        "~Arthur_Conmy1"
+      ],
+      "affiliations": [
+        "Google DeepMind"
+      ],
+      "first_institute": "Google DeepMind"
     },
     {
       "paper_id": "iclr2024:information-bottleneck-analysis-of-deep-neural-networks-via-lossy-compre:06b0a8f230",
@@ -7564,6 +8284,50 @@
       "first_institute": "Carnegie Mellon University"
     },
     {
+      "paper_id": "iclr2024:mathcoder-seamless-code-integration-in-llms-for-enhanced-mathematical-re:18149ce4d1",
+      "title": "MathCoder: Seamless Code Integration in LLMs for Enhanced Mathematical Reasoning",
+      "paper_url": "https://openreview.net/forum?id=z8TW0ttBPp",
+      "authorids": [
+        "~Ke_Wang18",
+        "~Houxing_Ren1",
+        "~Aojun_Zhou2",
+        "~Zimu_Lu1",
+        "~Sichun_Luo1",
+        "~Weikang_Shi1",
+        "~Renrui_Zhang1",
+        "~Linqi_Song1",
+        "~Mingjie_Zhan1",
+        "~Hongsheng_Li3"
+      ],
+      "affiliations": [
+        "The Chinese University of Hong Kong"
+      ],
+      "first_institute": "The Chinese University of Hong Kong"
+    },
+    {
+      "paper_id": "iclr2024:solving-challenging-math-word-problems-using-gpt-4-code-interpreter-with:6730f5ff3d",
+      "title": "Solving Challenging Math Word Problems Using GPT-4 Code Interpreter with Code-based Self-Verification",
+      "paper_url": "https://openreview.net/forum?id=c8McWs4Av0",
+      "authorids": [
+        "~Aojun_Zhou2",
+        "~Ke_Wang18",
+        "~Zimu_Lu1",
+        "~Weikang_Shi1",
+        "~Sichun_Luo1",
+        "~Zipeng_Qin2",
+        "~Shaoqing_Lu1",
+        "~Anya_Jia1",
+        "~Linqi_Song1",
+        "~Mingjie_Zhan1",
+        "~Hongsheng_Li3"
+      ],
+      "affiliations": [
+        "The Chinese University of Hong Kong",
+        "Tufts University"
+      ],
+      "first_institute": "The Chinese University of Hong Kong"
+    },
+    {
       "paper_id": "iclr2024:pseudo-generalized-dynamic-view-synthesis-from-a-video:07468bd0f0",
       "title": "Pseudo-Generalized Dynamic View Synthesis from a Video",
       "paper_url": "https://openreview.net/forum?id=QuVlUn4T2G",
@@ -7646,6 +8410,22 @@
         "KAUST"
       ],
       "first_institute": "KAUST"
+    },
+    {
+      "paper_id": "iclr2024:efficiently-computing-similarities-to-private-datasets:ab06541d3c",
+      "title": "Efficiently Computing Similarities to Private Datasets",
+      "paper_url": "https://openreview.net/forum?id=HMe5CJv9dQ",
+      "authorids": [
+        "~Arturs_Backurs1",
+        "~Zinan_Lin1",
+        "~Sepideh_Mahabadi1",
+        "~Sandeep_Silwal1",
+        "~Jakub_Tarnawski1"
+      ],
+      "affiliations": [
+        "Microsoft"
+      ],
+      "first_institute": "Microsoft"
     },
     {
       "paper_id": "iclr2024:rayleigh-quotient-graph-neural-networks-for-graph-level-anomaly-detectio:17decb1c7b",
@@ -8092,6 +8872,21 @@
       "first_institute": "Apple"
     },
     {
+      "paper_id": "iclr2024:mastering-memory-tasks-with-world-models:d0a0eeb12e",
+      "title": "Mastering Memory Tasks with World Models",
+      "paper_url": "https://openreview.net/forum?id=1vDArHJ68h",
+      "authorids": [
+        "~Mohammad_Reza_Samsami1",
+        "~Artem_Zholus1",
+        "~Janarthanan_Rajendran1",
+        "~Sarath_Chandar1"
+      ],
+      "affiliations": [
+        "École Polytechnique de Montréal, Université de Montréal"
+      ],
+      "first_institute": "École Polytechnique de Montréal, Université de Montréal"
+    },
+    {
       "paper_id": "iclr2024:parameter-efficient-multi-task-model-fusion-with-partial-linearization:afd589b35d",
       "title": "Parameter-Efficient Multi-Task Model Fusion with Partial Linearization",
       "paper_url": "https://openreview.net/forum?id=iynRvVVAmH",
@@ -8272,6 +9067,20 @@
         "OpenAI"
       ],
       "first_institute": "OpenAI"
+    },
+    {
+      "paper_id": "iclr2024:network-memory-footprint-compression-through-jointly-learnable-codebooks:efa24fd20f",
+      "title": "Network Memory Footprint Compression Through Jointly Learnable Codebooks and Mappings",
+      "paper_url": "https://openreview.net/forum?id=1RrOtCmuKr",
+      "authorids": [
+        "~Edouard_YVINEC1",
+        "~Arnaud_Dapogny1",
+        "~Kevin_Bailly3"
+      ],
+      "affiliations": [
+        "Apple"
+      ],
+      "first_institute": "Apple"
     },
     {
       "paper_id": "iclr2024:scaling-laws-of-rope-based-extrapolation:ef35e36386",
@@ -8512,6 +9321,22 @@
       "first_institute": "Oslo University Hospital, Oslo, Norway"
     },
     {
+      "paper_id": "iclr2024:retro-fallback-retrosynthetic-planning-in-an-uncertain-world:3b323ff97a",
+      "title": "Retro-fallback: retrosynthetic planning in an uncertain world",
+      "paper_url": "https://openreview.net/forum?id=dl0u4ODCuW",
+      "authorids": [
+        "~Austin_Tripp1",
+        "~Krzysztof_Maziarz1",
+        "~Sarah_Lewis1",
+        "~Marwin_Segler2",
+        "~José_Miguel_Hernández-Lobato1"
+      ],
+      "affiliations": [
+        "Valence Labs powered by recursion"
+      ],
+      "first_institute": "Valence Labs powered by recursion"
+    },
+    {
       "paper_id": "iclr2024:optimal-transport-based-adversarial-patch-to-leverage-large-scale-attack:0b01f452bf",
       "title": "Optimal transport based adversarial patch to leverage large scale attack transferability",
       "paper_url": "https://openreview.net/forum?id=nZP10evtkV",
@@ -8574,6 +9399,22 @@
       "first_institute": "Tel Aviv University"
     },
     {
+      "paper_id": "iclr2024:multi-resolution-hubert-multi-resolution-speech-self-supervised-learning:366f174715",
+      "title": "Multi-resolution HuBERT: Multi-resolution Speech Self-Supervised Learning with Masked Unit Prediction",
+      "paper_url": "https://openreview.net/forum?id=kUuKFW7DIF",
+      "authorids": [
+        "~Jiatong_Shi1",
+        "~Hirofumi_Inaguma1",
+        "~Xutai_Ma1",
+        "~Ilia_Kulikov1",
+        "~Anna_Sun1"
+      ],
+      "affiliations": [
+        "Facebook"
+      ],
+      "first_institute": "Facebook"
+    },
+    {
       "paper_id": "iclr2024:metatool-benchmark-for-large-language-models-deciding-whether-to-use-too:0424ebebab",
       "title": "MetaTool Benchmark for Large Language Models: Deciding Whether to Use Tools and Which to Use",
       "paper_url": "https://openreview.net/forum?id=R0c2qtalgG",
@@ -8594,6 +9435,25 @@
         "Duke University"
       ],
       "first_institute": "Duke University"
+    },
+    {
+      "paper_id": "iclr2024:llama-adapter-efficient-fine-tuning-of-large-language-models-with-zero-i:4535dc1bdb",
+      "title": "LLaMA-Adapter: Efficient Fine-tuning of Large Language Models with Zero-initialized Attention",
+      "paper_url": "https://openreview.net/forum?id=d4UiXAHN2W",
+      "authorids": [
+        "~Renrui_Zhang1",
+        "~Jiaming_Han1",
+        "~Chris_Liu1",
+        "~Aojun_Zhou2",
+        "~Pan_Lu2",
+        "~Yu_Qiao1",
+        "~Hongsheng_Li3",
+        "~Peng_Gao3"
+      ],
+      "affiliations": [
+        "The Chinese University of Hong Kong"
+      ],
+      "first_institute": "The Chinese University of Hong Kong"
     },
     {
       "paper_id": "iclr2024:think-on-graph-deep-and-responsible-reasoning-of-large-language-model-on:770211a966",
@@ -8920,6 +9780,20 @@
         "Stanford University"
       ],
       "first_institute": "Stanford University"
+    },
+    {
+      "paper_id": "iclr2024:local-graph-clustering-with-noisy-labels:4628252f5d",
+      "title": "Local Graph Clustering with Noisy Labels",
+      "paper_url": "https://openreview.net/forum?id=89A5c6enfc",
+      "authorids": [
+        "~Artur_Back_de_Luca1",
+        "~Kimon_Fountoulakis1",
+        "~Shenghao_Yang1"
+      ],
+      "affiliations": [
+        "University of Waterloo"
+      ],
+      "first_institute": "University of Waterloo"
     },
     {
       "paper_id": "iclr2024:cameras-as-rays-pose-estimation-via-ray-diffusion:94a2780207",
@@ -9291,6 +10165,37 @@
       "first_institute": "Google DeepMind"
     },
     {
+      "paper_id": "iclr2024:retrobridge-modeling-retrosynthesis-with-markov-bridges:9aca760252",
+      "title": "RetroBridge: Modeling Retrosynthesis with Markov Bridges",
+      "paper_url": "https://openreview.net/forum?id=770DetV8He",
+      "authorids": [
+        "~Ilia_Igashov1",
+        "~Arne_Schneuing1",
+        "~Marwin_Segler2",
+        "~Michael_M._Bronstein1",
+        "~Bruno_Correia1"
+      ],
+      "affiliations": [
+        "Microsoft"
+      ],
+      "first_institute": "Microsoft"
+    },
+    {
+      "paper_id": "iclr2024:interventional-fairness-on-partially-known-causal-graphs-a-constrained-o:3035b8dcb8",
+      "title": "Interventional Fairness on Partially Known Causal Graphs: A Constrained Optimization Approach",
+      "paper_url": "https://openreview.net/forum?id=SKulT2VX9p",
+      "authorids": [
+        "~Aoqi_Zuo1",
+        "~Yiqing_Li1",
+        "~Susan_Wei1",
+        "~Mingming_Gong1"
+      ],
+      "affiliations": [
+        "University of Melbourne"
+      ],
+      "first_institute": "University of Melbourne"
+    },
+    {
       "paper_id": "iclr2024:single-motion-diffusion:c55cc522b4",
       "title": "Single Motion Diffusion",
       "paper_url": "https://openreview.net/forum?id=DrhZneqz4n",
@@ -9358,6 +10263,20 @@
         "Hong Kong University of Science and Technology"
       ],
       "first_institute": "The Hong Kong University of Science and Technology"
+    },
+    {
+      "paper_id": "iclr2024:matrix-manifold-neural-networks:f9525d42d1",
+      "title": "Matrix Manifold Neural Networks++",
+      "paper_url": "https://openreview.net/forum?id=30aSE3FB3L",
+      "authorids": [
+        "~Xuan_Son_Nguyen2",
+        "~Shuo_Yang17",
+        "~Aymeric_Histace1"
+      ],
+      "affiliations": [
+        "ETIS"
+      ],
+      "first_institute": "ETIS"
     },
     {
       "paper_id": "iclr2024:llm-assisted-code-cleaning-for-training-accurate-code-generators:c90d04b2a6",
@@ -9949,6 +10868,22 @@
       "first_institute": "Tsinghua University, Tsinghua University"
     },
     {
+      "paper_id": "iclr2024:lipvoicer-generating-speech-from-silent-videos-guided-by-lip-reading:e502f899f1",
+      "title": "LipVoicer: Generating Speech from Silent Videos Guided by Lip Reading",
+      "paper_url": "https://openreview.net/forum?id=ZZCPSC5OgD",
+      "authorids": [
+        "~Yochai_Yemini1",
+        "~Aviv_Shamsian1",
+        "~Lior_Bracha1",
+        "~Sharon_Gannot1",
+        "~Ethan_Fetaya1"
+      ],
+      "affiliations": [
+        "aiOla"
+      ],
+      "first_institute": "aiOla"
+    },
+    {
       "paper_id": "iclr2024:grounding-multimodal-large-language-models-to-the-world:adf5c29d75",
       "title": "Grounding Multimodal Large Language Models to the World",
       "paper_url": "https://openreview.net/forum?id=lLmqxkfSIw",
@@ -10484,7 +11419,8 @@
         "~Yuxuan_Liang1"
       ],
       "affiliations": [
-        "Nanyang Technological University"
+        "Nanyang Technological University",
+        "The Chinese University of Hong Kong"
       ],
       "first_institute": "Nanyang Technological University"
     },
@@ -10742,6 +11678,21 @@
       "first_institute": "Google DeepMind"
     },
     {
+      "paper_id": "iclr2024:reverse-forward-curriculum-learning-for-extreme-sample-and-demo-efficien:7f361ccb2c",
+      "title": "Reverse Forward Curriculum Learning for Extreme Sample and Demo Efficiency",
+      "paper_url": "https://openreview.net/forum?id=w4rODxXsmM",
+      "authorids": [
+        "~Stone_Tao1",
+        "~Arth_Shukla1",
+        "~Tse-kai_Chan1",
+        "~Hao_Su1"
+      ],
+      "affiliations": [
+        "University of California, San Diego"
+      ],
+      "first_institute": "University of California, San Diego"
+    },
+    {
       "paper_id": "iclr2024:contextref-evaluating-referenceless-metrics-for-image-description-genera:46f1e3ca7b",
       "title": "ContextRef: Evaluating Referenceless Metrics for Image Description Generation",
       "paper_url": "https://openreview.net/forum?id=j0ZvKSNZiP",
@@ -10910,6 +11861,22 @@
       "first_institute": "University of Tuebingen"
     },
     {
+      "paper_id": "iclr2024:robust-adversarial-reinforcement-learning-via-bounded-rationality-curric:526bd35502",
+      "title": "Robust Adversarial Reinforcement Learning via Bounded Rationality Curricula",
+      "paper_url": "https://openreview.net/forum?id=pFOoOdaiue",
+      "authorids": [
+        "~Aryaman_Reddi1",
+        "~Maximilian_Tölle1",
+        "~Jan_Peters3",
+        "~Georgia_Chalvatzaki1",
+        "~Carlo_D'Eramo2"
+      ],
+      "affiliations": [
+        "Technische Universität Darmstadt"
+      ],
+      "first_institute": "Technische Universität Darmstadt"
+    },
+    {
       "paper_id": "iclr2024:guaranteed-approximation-bounds-for-mixed-precision-neural-operators:ef88d36d23",
       "title": "Guaranteed Approximation Bounds for Mixed-Precision Neural Operators",
       "paper_url": "https://openreview.net/forum?id=QJGj07PD9C",
@@ -10977,6 +11944,21 @@
         "Stanford University"
       ],
       "first_institute": "University of Bologna"
+    },
+    {
+      "paper_id": "iclr2024:langevin-monte-carlo-for-strongly-log-concave-distributions-randomized-m:d3d159b2db",
+      "title": "Langevin Monte Carlo for strongly log-concave distributions: Randomized midpoint revisited",
+      "paper_url": "https://openreview.net/forum?id=hOxgrGM63n",
+      "authorids": [
+        "~Lu_Yu7",
+        "~Avetik_Karagulyan1",
+        "~Arnak_S._Dalalyan2"
+      ],
+      "affiliations": [
+        "Centrale Supélec",
+        "Ecole Nationale de la Statistique et de l'Administration Economique"
+      ],
+      "first_institute": "Centrale Supélec"
     }
   ]
 }
