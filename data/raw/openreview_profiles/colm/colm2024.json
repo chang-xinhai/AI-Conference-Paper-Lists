@@ -1,0 +1,5194 @@
+{
+  "schema_version": "0.1",
+  "source": "openreview_profiles",
+  "venue_key": "colm",
+  "year": 2024,
+  "source_url": "https://api2.openreview.net/notes?content.venueid=colmweb.org/COLM/2024/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
+  "fetched_at": "2026-06-18T00:19:43Z",
+  "count": 298,
+  "profile_count": 1605,
+  "records": [
+    {
+      "paper_id": "colm2024:khayyam-challenge-persianmmlu-is-your-llm-truly-wise-to-the-persian-lang:dee0e7a5b7",
+      "title": "Khayyam Challenge (PersianMMLU): Is Your LLM Truly Wise to The Persian Language?",
+      "paper_url": "https://openreview.net/forum?id=yIEyHP7AvH",
+      "authorids": [
+        "~Omid_Ghahroodi1",
+        "~Marzia_Nouri1",
+        "~Mohammad_Vali_Sanian1",
+        "~Alireza_Sahebi1",
+        "~Doratossadat_Dastgheib1",
+        "~Ehsaneddin_Asgari1",
+        "~Mahdieh_Soleymani_Baghshah1",
+        "~Mohammad_Hossein_Rohban1"
+      ],
+      "affiliations": [
+        "Sharif University of Technology"
+      ],
+      "first_institute": "Sharif University of Technology"
+    },
+    {
+      "paper_id": "colm2024:tpd-enhancing-student-language-model-reasoning-via-principle-discovery-a:60cc130c36",
+      "title": "TPD: Enhancing Student Language Model Reasoning via Principle Discovery and Guidance",
+      "paper_url": "https://openreview.net/forum?id=sJvhwDtFhQ",
+      "authorids": [
+        "~Haorui_Wang1",
+        "~Rongzhi_Zhang2",
+        "~Yinghao_Li3",
+        "~Lingkai_Kong1",
+        "~Yuchen_Zhuang1",
+        "~Xiusi_Chen1",
+        "~Chao_Zhang15"
+      ],
+      "affiliations": [
+        "Georgia Institute of Technology"
+      ],
+      "first_institute": "Georgia Institute of Technology"
+    },
+    {
+      "paper_id": "colm2024:coca-regaining-safety-awareness-of-multimodal-large-language-models-with:95dc69d0ee",
+      "title": "CoCA: Regaining Safety-awareness of Multimodal Large Language Models with Constitutional Calibration",
+      "paper_url": "https://openreview.net/forum?id=FgHpT6u7pk",
+      "authorids": [
+        "~Jiahui_Gao2",
+        "~Renjie_Pi1",
+        "~Tianyang_Han1",
+        "~Han_Wu5",
+        "~Lanqing_HONG1",
+        "~Lingpeng_Kong1",
+        "~Xin_Jiang1",
+        "~Zhenguo_Li1"
+      ],
+      "affiliations": [
+        "Huawei Technologies Ltd.",
+        "Department of Computer Science, The University of Hong Kong"
+      ],
+      "first_institute": "Huawei Technologies Ltd."
+    },
+    {
+      "paper_id": "colm2024:multi-fact-assessing-factuality-of-multilingual-llms-using-factscore:1f71542f2f",
+      "title": "Multi-FAct: Assessing Factuality of Multilingual LLMs using FActScore",
+      "paper_url": "https://openreview.net/forum?id=lkrH6ovzsj",
+      "authorids": [
+        "~Sheikh_Shafayat1",
+        "~Eunsu_Kim1",
+        "~Juhyun_Oh2",
+        "~Alice_Oh1"
+      ],
+      "affiliations": [
+        "Korea Advanced Institute of Science and Technology"
+      ],
+      "first_institute": "Korea Advanced Institute of Science and Technology"
+    },
+    {
+      "paper_id": "colm2024:a-dynamic-llm-powered-agent-network-for-task-oriented-agent-collaboratio:3b226780ae",
+      "title": "A Dynamic LLM-Powered Agent Network for Task-Oriented Agent Collaboration",
+      "paper_url": "https://openreview.net/forum?id=XII0Wp1XA9",
+      "authorids": [
+        "~Zijun_Liu2",
+        "~Yanzhe_Zhang1",
+        "~Peng_Li2",
+        "~Yang_Liu19",
+        "~Diyi_Yang2"
+      ],
+      "affiliations": [
+        "Stanford University"
+      ],
+      "first_institute": "Stanford University"
+    },
+    {
+      "paper_id": "colm2024:acorn-aspect-wise-commonsense-reasoning-explanation-evaluation:225978f4bd",
+      "title": "ACORN: Aspect-wise Commonsense Reasoning Explanation Evaluation",
+      "paper_url": "https://openreview.net/forum?id=2oHnsM9M9D",
+      "authorids": [
+        "~Ana_Brassard1",
+        "~Benjamin_Heinzerling1",
+        "~Keito_Kudo1",
+        "~Keisuke_Sakaguchi2",
+        "~Kentaro_Inui1"
+      ],
+      "affiliations": [
+        "Tohoku University"
+      ],
+      "first_institute": "Tohoku University"
+    },
+    {
+      "paper_id": "colm2024:chain-of-symbol-prompting-for-spatial-reasoning-in-large-language-models:b6327ae388",
+      "title": "Chain-of-Symbol Prompting For Spatial Reasoning in Large Language Models",
+      "paper_url": "https://openreview.net/forum?id=Hvq9RtSoHG",
+      "authorids": [
+        "~Hanxu_Hu1",
+        "~Hongyuan_Lu2",
+        "~Huajian_Zhang1",
+        "~Yunze_Song1",
+        "~Wai_Lam1",
+        "~Yue_Zhang7"
+      ],
+      "affiliations": [
+        "University of Zurich",
+        "The Chinese University of Hong Kong",
+        "University of Edinburgh, University of Edinburgh"
+      ],
+      "first_institute": "University of Zurich"
+    },
+    {
+      "paper_id": "colm2024:llm-discussion-enhancing-the-creativity-of-large-language-models-via-dis:1e335bd175",
+      "title": "LLM Discussion: Enhancing the Creativity of Large Language Models via Discussion Framework and Role-Play",
+      "paper_url": "https://openreview.net/forum?id=ybaK4asBT2",
+      "authorids": [
+        "~Li-Chun_Lu1",
+        "~Shou-Jen_Chen1",
+        "~Tsung-Min_Pai1",
+        "~Chan-Hung_Yu2",
+        "~Hung-yi_Lee1",
+        "~Shao-Hua_Sun1"
+      ],
+      "affiliations": [
+        "National Taiwan University"
+      ],
+      "first_institute": "National Taiwan University"
+    },
+    {
+      "paper_id": "colm2024:mapping-the-increasing-use-of-llms-in-scientific-papers:6375439657",
+      "title": "Mapping the Increasing Use of LLMs in Scientific Papers",
+      "paper_url": "https://openreview.net/forum?id=YX7QnhxESU",
+      "authorids": [
+        "~Weixin_Liang1",
+        "~Yaohui_Zhang2",
+        "~Zhengxuan_Wu1",
+        "~Haley_Lepp1",
+        "~Wenlong_Ji1",
+        "~Xuandong_Zhao1",
+        "~Hancheng_Cao1",
+        "~Sheng_Liu2",
+        "~Siyu_He3",
+        "~Zhi_Huang2",
+        "~Diyi_Yang2",
+        "~Christopher_Potts1",
+        "~Christopher_D_Manning1",
+        "~James_Y._Zou1"
+      ],
+      "affiliations": [
+        "Stanford University",
+        "Computer Science Department, Stanford University"
+      ],
+      "first_institute": "Stanford University"
+    },
+    {
+      "paper_id": "colm2024:the-geometry-of-truth-emergent-linear-structure-in-large-language-model:079aa4cf5d",
+      "title": "The Geometry of Truth: Emergent Linear Structure in Large Language Model Representations of True/False Datasets",
+      "paper_url": "https://openreview.net/forum?id=aajyHYjjsk",
+      "authorids": [
+        "~Samuel_Marks1",
+        "~Max_Tegmark1"
+      ],
+      "affiliations": [
+        "Massachusetts Institute of Technology"
+      ],
+      "first_institute": "Massachusetts Institute of Technology"
+    },
+    {
+      "paper_id": "colm2024:paireval-open-domain-dialogue-evaluation-metric-with-pairwise-comparison:90c99055c4",
+      "title": "PairEval: Open-domain Dialogue Evaluation Metric with Pairwise Comparisons",
+      "paper_url": "https://openreview.net/forum?id=y6aGT625Lk",
+      "authorids": [
+        "~ChaeHun_Park1",
+        "~Minseok_Choi2",
+        "~Dohyun_Lee1",
+        "~Jaegul_Choo1"
+      ],
+      "affiliations": [
+        "Korea Advanced Institute of Science & Technology"
+      ],
+      "first_institute": "Korea Advanced Institute of Science & Technology"
+    },
+    {
+      "paper_id": "colm2024:scenicnl-generating-probabilistic-scenario-programs-from-natural-languag:184437a058",
+      "title": "ScenicNL: Generating Probabilistic Scenario Programs from Natural Language",
+      "paper_url": "https://openreview.net/forum?id=MNLAbfZwh2",
+      "authorids": [
+        "~Karim_Elmaaroufi1",
+        "~Devan_Shanker1",
+        "~Ana_Cismaru1",
+        "~Marcell_Vazquez-Chanlatte1",
+        "~Alberto_Sangiovanni-Vincentelli1",
+        "~Matei_Zaharia1",
+        "~Sanjit_A._Seshia1"
+      ],
+      "affiliations": [
+        "University of California Berkeley"
+      ],
+      "first_institute": "University of California Berkeley"
+    },
+    {
+      "paper_id": "colm2024:ambigdocs-reasoning-across-documents-on-different-entities-under-the-sam:94cca6f427",
+      "title": "AmbigDocs: Reasoning across Documents on Different Entities under the Same Name",
+      "paper_url": "https://openreview.net/forum?id=mkYCfO822n",
+      "authorids": [
+        "~Yoonsang_Lee1",
+        "~Xi_Ye2",
+        "~Eunsol_Choi1"
+      ],
+      "affiliations": [
+        "New York University"
+      ],
+      "first_institute": "New York University"
+    },
+    {
+      "paper_id": "colm2024:rejection-improves-reliability-training-llms-to-refuse-unknown-questions:1ef027503e",
+      "title": "Rejection Improves Reliability: Training LLMs to Refuse Unknown Questions Using RL from Knowledge Feedback",
+      "paper_url": "https://openreview.net/forum?id=lJMioZBoR8",
+      "authorids": [
+        "~Hongshen_Xu1",
+        "~Zichen_Zhu2",
+        "~Situo_Zhang1",
+        "~Da_Ma2",
+        "~Shuai_Fan1",
+        "~Lu_Chen3",
+        "~Kai_Yu3"
+      ],
+      "affiliations": [
+        "Shanghai Jiaotong University"
+      ],
+      "first_institute": "Shanghai Jiaotong University"
+    },
+    {
+      "paper_id": "colm2024:phonate-impact-of-type-written-phonological-features-of-african-american:468666c970",
+      "title": "PhonATe: Impact of Type-Written Phonological Features of African American Language on Generative Language Modeling Tasks",
+      "paper_url": "https://openreview.net/forum?id=rXEwxmnGQs",
+      "authorids": [
+        "~Nicholas_Deas1",
+        "~Jessica_A_Grieser1",
+        "~Xinmeng_Hou1",
+        "~Shana_Kleiner1",
+        "~Tajh_Martin1",
+        "~Sreya_Nandanampati1",
+        "~Desmond_U._Patton1",
+        "~Kathleen_McKeown1"
+      ],
+      "affiliations": [
+        "University of Michigan - Ann Arbor",
+        "Columbia University"
+      ],
+      "first_institute": "University of Michigan - Ann Arbor"
+    },
+    {
+      "paper_id": "colm2024:unimem-towards-a-unified-view-of-long-context-large-language-models:3ddb1f0c57",
+      "title": "UniMem: Towards a Unified View of Long-Context Large Language Models",
+      "paper_url": "https://openreview.net/forum?id=gQAEGSGVnN",
+      "authorids": [
+        "~Junjie_Fang1",
+        "~Likai_Tang1",
+        "~Hongzhe_Bi2",
+        "~Yujia_Qin1",
+        "~Si_Sun1",
+        "~Zhenyu_Li5",
+        "~Haolun_Li2",
+        "~Yongjian_Li2",
+        "~Xin_Cong1",
+        "~Yankai_Lin1",
+        "~Yukun_Yan2",
+        "~Xiaodong_Shi2",
+        "~Sen_Song1",
+        "~Zhiyuan_Liu1",
+        "~Maosong_Sun1"
+      ],
+      "affiliations": [
+        "Tsinghua University",
+        "Tsinghua University, Tsinghua University"
+      ],
+      "first_institute": "Tsinghua University"
+    },
+    {
+      "paper_id": "colm2024:latent-causal-probing-a-formal-perspective-on-probing-with-causal-models:ed1e169fd9",
+      "title": "Latent Causal Probing: A Formal Perspective on Probing with Causal Models of Data",
+      "paper_url": "https://openreview.net/forum?id=98ekcwQqb7",
+      "authorids": [
+        "~Charles_Jin1"
+      ],
+      "affiliations": [
+        "Massachusetts Institute of Technology"
+      ],
+      "first_institute": "Massachusetts Institute of Technology"
+    },
+    {
+      "paper_id": "colm2024:unified-view-of-grokking-double-descent-and-emergent-abilities-a-compreh:4b7212fa21",
+      "title": "Unified View of Grokking, Double Descent and Emergent Abilities: A Comprehensive Study on Algorithm Task",
+      "paper_url": "https://openreview.net/forum?id=cG1EbmWiSs",
+      "authorids": [
+        "~Yufei_Huang3",
+        "~Shengding_Hu2",
+        "~Xu_Han2",
+        "~Zhiyuan_Liu1",
+        "~Maosong_Sun1"
+      ],
+      "affiliations": [
+        "Tsinghua University"
+      ],
+      "first_institute": "Tsinghua University"
+    },
+    {
+      "paper_id": "colm2024:automatic-pseudo-harmful-prompt-generation-for-evaluating-false-refusals:29ffabd14a",
+      "title": "Automatic Pseudo-Harmful Prompt Generation for Evaluating False Refusals in Large Language Models",
+      "paper_url": "https://openreview.net/forum?id=ljFgX6A8NL",
+      "authorids": [
+        "~Bang_An1",
+        "~Sicheng_Zhu1",
+        "~Ruiyi_Zhang3",
+        "~Michael-Andrei_Panaitescu-Liess1",
+        "~Yuancheng_Xu1",
+        "~Furong_Huang1"
+      ],
+      "affiliations": [
+        "University of Maryland, College Park"
+      ],
+      "first_institute": "University of Maryland, College Park"
+    },
+    {
+      "paper_id": "colm2024:clin-a-continually-learning-language-agent-for-rapid-task-adaptation-and:e09766915b",
+      "title": "CLIN: A Continually Learning Language Agent for Rapid Task Adaptation and Generalization",
+      "paper_url": "https://openreview.net/forum?id=xS6zx1aBI9",
+      "authorids": [
+        "~Bodhisattwa_Prasad_Majumder1",
+        "~Bhavana_Dalvi_Mishra2",
+        "~Peter_Jansen1",
+        "~Oyvind_Tafjord2",
+        "~Niket_Tandon2",
+        "~Li_Zhang22",
+        "~Chris_Callison-Burch1",
+        "~Peter_Clark1"
+      ],
+      "affiliations": [
+        "Allen Institute for Artificial Intelligence"
+      ],
+      "first_institute": "Allen Institute for Artificial Intelligence"
+    },
+    {
+      "paper_id": "colm2024:targen-targeted-data-generation-with-large-language-models:e738df59bd",
+      "title": "TarGEN: Targeted Data Generation with Large Language Models",
+      "paper_url": "https://openreview.net/forum?id=gpgMRWgv9Q",
+      "authorids": [
+        "~Himanshu_Gupta5",
+        "~Kevin_Scaria1",
+        "~Ujjwala_Anantheswaran1",
+        "~Shreyas_Verma1",
+        "~Mihir_Parmar1",
+        "~Saurabh_Arjun_Sawant1",
+        "~Chitta_Baral1",
+        "~Swaroop_Mishra1"
+      ],
+      "affiliations": [
+        "Arizona State University"
+      ],
+      "first_institute": "Arizona State University"
+    },
+    {
+      "paper_id": "colm2024:autogen-enabling-next-gen-llm-applications-via-multi-agent-conversations:a1606c3075",
+      "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversations",
+      "paper_url": "https://openreview.net/forum?id=BAakY1hNKS",
+      "authorids": [
+        "~Qingyun_Wu2",
+        "~Gagan_Bansal1",
+        "~Jieyu_Zhang1",
+        "~Yiran_Wu2",
+        "~Beibin_Li1",
+        "~Erkang_Zhu1",
+        "~Li_Jiang7",
+        "~Xiaoyun_Zhang2",
+        "~Shaokun_Zhang2",
+        "~Jiale_Liu2",
+        "~Ahmed_Hassan_Awadallah1",
+        "~Ryen_W_White1",
+        "~Doug_Burger2",
+        "~Chi_Wang3"
+      ],
+      "affiliations": [
+        "Microsoft Research",
+        "Google DeepMind"
+      ],
+      "first_institute": "Microsoft Research"
+    },
+    {
+      "paper_id": "colm2024:3m-diffusion-latent-multi-modal-diffusion-for-language-guided-molecular:30f8a38a92",
+      "title": "3M-Diffusion: Latent Multi-Modal Diffusion for Language-Guided Molecular Structure Generation",
+      "paper_url": "https://openreview.net/forum?id=DomBynQsqt",
+      "authorids": [
+        "~Huaisheng_Zhu1",
+        "~Teng_Xiao2",
+        "~Vasant_G_Honavar1"
+      ],
+      "affiliations": [
+        "Pennsylvania State University"
+      ],
+      "first_institute": "Pennsylvania State University"
+    },
+    {
+      "paper_id": "colm2024:faithful-and-unfaithful-error-recovery-in-chain-of-thought:b4918eb214",
+      "title": "Faithful and Unfaithful Error Recovery in Chain of Thought",
+      "paper_url": "https://openreview.net/forum?id=IPZ28ZqD4I",
+      "authorids": [
+        "~Evelyn_Yee1",
+        "~Alice_Li3",
+        "~Chenyu_Tang1",
+        "~Yeon_Ho_Jung1",
+        "~Ramamohan_Paturi1",
+        "~Leon_Bergen1"
+      ],
+      "affiliations": [
+        "University of California, San Diego"
+      ],
+      "first_institute": "University of California, San Diego"
+    },
+    {
+      "paper_id": "colm2024:chatgpt-based-data-augmentation-for-improved-parameter-efficient-debiasi:5645a5c524",
+      "title": "ChatGPT Based Data Augmentation for Improved Parameter-Efficient Debiasing of LLMs",
+      "paper_url": "https://openreview.net/forum?id=q5Ft9ZJtHm",
+      "authorids": [
+        "~Pengrui_Han1",
+        "~Rafal_Dariusz_Kocielnik1",
+        "~Adhithya_Prakash_Saravanan1",
+        "~Roy_Luoyao_Jiang1",
+        "~Or_Sharir1",
+        "~Anima_Anandkumar1"
+      ],
+      "affiliations": [
+        "University of Oxford"
+      ],
+      "first_institute": "University of Oxford"
+    },
+    {
+      "paper_id": "colm2024:bumblebee-dynamic-kv-cache-streaming-submodular-summarization-for-infini:aa57cc6a21",
+      "title": "BumbleBee: Dynamic KV-Cache Streaming Submodular Summarization for Infinite-Context Transformers",
+      "paper_url": "https://openreview.net/forum?id=8w0RApM5yG",
+      "authorids": [
+        "~Lilly_Kumari1",
+        "~Shengjie_Wang1",
+        "~Tianyi_Zhou1",
+        "~Nikhil_Sarda1",
+        "~Anthony_Rowe1",
+        "~Jeff_Bilmes1"
+      ],
+      "affiliations": [
+        "Carnegie Mellon University"
+      ],
+      "first_institute": "Carnegie Mellon University"
+    },
+    {
+      "paper_id": "colm2024:transformer-circuit-evaluation-metrics-are-not-robust:a272e985fa",
+      "title": "Transformer Circuit Evaluation Metrics Are Not Robust",
+      "paper_url": "https://openreview.net/forum?id=zSf8PJyQb2",
+      "authorids": [
+        "~Joseph_Miller3",
+        "~Bilal_Chughtai1",
+        "~William_Saunders1"
+      ],
+      "affiliations": [
+        "University of Cambridge"
+      ],
+      "first_institute": "University of Cambridge"
+    },
+    {
+      "paper_id": "colm2024:do-membership-inference-attacks-work-on-large-language-models:f627b23364",
+      "title": "Do Membership Inference Attacks Work on Large Language Models?",
+      "paper_url": "https://openreview.net/forum?id=av0D19pSkU",
+      "authorids": [
+        "~Michael_Duan1",
+        "~Anshuman_Suri1",
+        "~Niloofar_Mireshghallah1",
+        "~Sewon_Min1",
+        "~Weijia_Shi1",
+        "~Luke_Zettlemoyer1",
+        "~Yulia_Tsvetkov1",
+        "~Yejin_Choi1",
+        "~David_Evans1",
+        "~Hannaneh_Hajishirzi1"
+      ],
+      "affiliations": [
+        "Northeastern University",
+        "University of Washington"
+      ],
+      "first_institute": "Northeastern University"
+    },
+    {
+      "paper_id": "colm2024:revenge-of-the-fallen-recurrent-models-match-transformers-at-predicting:c623ed877b",
+      "title": "Revenge of the Fallen? Recurrent Models Match Transformers at Predicting Human Language Comprehension Metrics",
+      "paper_url": "https://openreview.net/forum?id=amhPBLFYWv",
+      "authorids": [
+        "~James_Michaelov1",
+        "~Catherine_Arnett1",
+        "~Ben_Bergen1"
+      ],
+      "affiliations": [
+        "PleIAs",
+        "University of California, San Diego"
+      ],
+      "first_institute": "PleIAs"
+    },
+    {
+      "paper_id": "colm2024:starling-7b-improving-helpfulness-and-harmlessness-with-rlaif:6c18123b3a",
+      "title": "Starling-7B: Improving Helpfulness and Harmlessness with RLAIF",
+      "paper_url": "https://openreview.net/forum?id=GqDntYTTbk",
+      "authorids": [
+        "~Banghua_Zhu1",
+        "~Evan_Frick1",
+        "~Tianhao_Wu1",
+        "~Hanlin_Zhu2",
+        "~Karthik_Ganesan1",
+        "~Wei-Lin_Chiang1",
+        "~Jian_Zhang1",
+        "~Jiantao_Jiao1"
+      ],
+      "affiliations": [
+        "University of California Berkeley"
+      ],
+      "first_institute": "University of California Berkeley"
+    },
+    {
+      "paper_id": "colm2024:enhancing-language-models-with-idiomatic-reasoning:cf23145ba3",
+      "title": "Enhancing Language Models with Idiomatic Reasoning",
+      "paper_url": "https://openreview.net/forum?id=2wtj0up8rv",
+      "authorids": [
+        "~Jianing_Zhou1",
+        "~Ziheng_Zeng1",
+        "~Hongyu_Gong1",
+        "~Suma_Bhat1"
+      ],
+      "affiliations": [
+        "FAIR at Meta"
+      ],
+      "first_institute": "FAIR at Meta"
+    },
+    {
+      "paper_id": "colm2024:autodan-interpretable-gradient-based-adversarial-attacks-on-large-langua:04e2bfdbec",
+      "title": "AutoDAN: Interpretable Gradient-Based Adversarial Attacks on Large Language Models",
+      "paper_url": "https://openreview.net/forum?id=INivcBeIDK",
+      "authorids": [
+        "~Sicheng_Zhu1",
+        "~Ruiyi_Zhang3",
+        "~Bang_An1",
+        "~Gang_Wu4",
+        "~Joe_Barrow2",
+        "~Zichao_Wang1",
+        "~Furong_Huang1",
+        "~Ani_Nenkova1",
+        "~Tong_Sun1"
+      ],
+      "affiliations": [
+        "University of Maryland, College Park"
+      ],
+      "first_institute": "University of Maryland, College Park"
+    },
+    {
+      "paper_id": "colm2024:from-strategic-narratives-to-code-like-cognitive-models-an-llm-based-app:8d2f204b4f",
+      "title": "From Strategic Narratives to Code-Like Cognitive Models: An LLM-Based Approach in A Sorting Task",
+      "paper_url": "https://openreview.net/forum?id=1Tny4KgGO2",
+      "authorids": [
+        "~Hanbo_Xie1",
+        "~Hua-Dong_Xiong1",
+        "~Robert_Wilson2"
+      ],
+      "affiliations": [
+        "Georgia Institute of Technology"
+      ],
+      "first_institute": "Georgia Institute of Technology"
+    },
+    {
+      "paper_id": "colm2024:iteratively-prompting-multimodal-llms-to-reproduce-natural-and-ai-genera:166f17be34",
+      "title": "Iteratively Prompting Multimodal LLMs to Reproduce Natural and AI-Generated Images",
+      "paper_url": "https://openreview.net/forum?id=SwUsFTtM9h",
+      "authorids": [
+        "~Ali_Naseh1",
+        "~Katherine_Thai1",
+        "~Mohit_Iyyer1",
+        "~Amir_Houmansadr1"
+      ],
+      "affiliations": [
+        "University of Massachusetts at Amherst"
+      ],
+      "first_institute": "University of Massachusetts at Amherst"
+    },
+    {
+      "paper_id": "colm2024:counting-like-transformers-compiling-temporal-counting-logic-into-softma:2fcd7bfeaf",
+      "title": "Counting Like Transformers: Compiling Temporal Counting Logic Into Softmax Transformers",
+      "paper_url": "https://openreview.net/forum?id=FmhPg4UJ9K",
+      "authorids": [
+        "~Andy_Yang1",
+        "~David_Chiang1"
+      ],
+      "affiliations": [
+        "University of Notre Dame"
+      ],
+      "first_institute": "University of Notre Dame"
+    },
+    {
+      "paper_id": "colm2024:task-success-is-not-enough-investigating-the-use-of-video-language-model:7ecd00b587",
+      "title": "Task Success is not Enough: Investigating the Use of Video-Language Models as Behavior Critics for Catching Undesirable Agent Behaviors",
+      "paper_url": "https://openreview.net/forum?id=otKo4zFKmH",
+      "authorids": [
+        "~Lin_Guan1",
+        "~Yifan_Zhou4",
+        "~Denis_Liu1",
+        "~Yantian_Zha1",
+        "~Heni_Ben_Amor4",
+        "~Subbarao_Kambhampati1"
+      ],
+      "affiliations": [
+        "Stanford University"
+      ],
+      "first_institute": "Stanford University"
+    },
+    {
+      "paper_id": "colm2024:prompt-prompted-adaptive-structured-pruning-for-efficient-llm-generation:e88c9a7ace",
+      "title": "Prompt-prompted Adaptive Structured Pruning for Efficient LLM Generation",
+      "paper_url": "https://openreview.net/forum?id=4aqq9xTtih",
+      "authorids": [
+        "~Harry_Dong1",
+        "~Beidi_Chen1",
+        "~Yuejie_Chi1"
+      ],
+      "affiliations": [
+        "CMU, Carnegie Mellon University"
+      ],
+      "first_institute": "CMU, Carnegie Mellon University"
+    },
+    {
+      "paper_id": "colm2024:pack-of-llms-model-fusion-at-test-time-via-perplexity-optimization:b54e840db8",
+      "title": "Pack of LLMs: Model Fusion at Test-Time via Perplexity Optimization",
+      "paper_url": "https://openreview.net/forum?id=5Nsl0nlStc",
+      "authorids": [
+        "~Costas_Mavromatis1",
+        "~Petros_Karypis1",
+        "~George_Karypis1"
+      ],
+      "affiliations": [
+        "Amazon"
+      ],
+      "first_institute": "Amazon"
+    },
+    {
+      "paper_id": "colm2024:self-taught-optimizer-stop-recursively-self-improving-code-generation:458a8567a0",
+      "title": "Self-Taught Optimizer (STOP): Recursively Self-Improving Code Generation",
+      "paper_url": "https://openreview.net/forum?id=46Zgqo4QIU",
+      "authorids": [
+        "~Eric_Zelikman1",
+        "~Eliana_Lorch1",
+        "~Lester_Mackey1",
+        "~Adam_Tauman_Kalai1"
+      ],
+      "affiliations": [
+        "Stanford University",
+        "University of Oxford"
+      ],
+      "first_institute": "Stanford University"
+    },
+    {
+      "paper_id": "colm2024:training-language-models-on-the-knowledge-graph-insights-on-hallucinatio:7cfc83e555",
+      "title": "Training Language Models on the Knowledge Graph: Insights on Hallucinations and Their Detectability",
+      "paper_url": "https://openreview.net/forum?id=Zt1dwG8xrK",
+      "authorids": [
+        "~Jiri_Hron1",
+        "~Laura_A_Culp1",
+        "~Gamaleldin_Fathy_Elsayed1",
+        "~Rosanne_Liu1",
+        "~Jasper_Snoek1",
+        "~Simon_Kornblith1",
+        "~Alex_Rizkowsky1",
+        "~Isabelle_Simpson1",
+        "~Jascha_Sohl-Dickstein2",
+        "~Noah_Fiedel1",
+        "~Aaron_T_Parisi1",
+        "~Alexander_A_Alemi1",
+        "~Azade_Nova1",
+        "~Ben_Adlam1",
+        "~Bernd_Bohnet1",
+        "~Gaurav_Mishra1",
+        "~Hanie_Sedghi1",
+        "~Izzeddin_Gur1",
+        "~Jaehoon_Lee2",
+        "~John_D_Co-Reyes1",
+        "~Kathleen_Kenealy1",
+        "~Kelvin_Xu2",
+        "~Kevin_Swersky1",
+        "~Igor_Mordatch4",
+        "~Lechao_Xiao2",
+        "~Maxwell_Bileschi1",
+        "~Peter_J_Liu1",
+        "~Roman_Novak2",
+        "~Sharad_Vikram1",
+        "~Tris_Warkentin1",
+        "~Jeffrey_Pennington1"
+      ],
+      "affiliations": [
+        "United States Air Force Academy",
+        "Google",
+        "Google Deepmind"
+      ],
+      "first_institute": "United States Air Force Academy"
+    },
+    {
+      "paper_id": "colm2024:does-collaborative-humanlm-dialogue-generation-help-information-extracti:4a805ffbdb",
+      "title": "Does Collaborative Human–LM Dialogue Generation Help Information Extraction from Human–Human Dialogues?",
+      "paper_url": "https://openreview.net/forum?id=uILyEJGKWw",
+      "authorids": [
+        "~Bo-Ru_Lu1",
+        "~Nikita_Haduong1",
+        "~Chia-Hsuan_Lee1",
+        "~Zeqiu_Wu1",
+        "~Hao_Cheng4",
+        "~Paul_Koester1",
+        "~Jean_Utke1",
+        "~Tao_Yu5",
+        "~Noah_A._Smith2",
+        "~Mari_Ostendorf1"
+      ],
+      "affiliations": [
+        "Amazon"
+      ],
+      "first_institute": "Amazon"
+    },
+    {
+      "paper_id": "colm2024:how-well-do-llms-identify-cultural-unity-in-diversity:93bf9735d7",
+      "title": "How Well Do LLMs Identify Cultural Unity in Diversity?",
+      "paper_url": "https://openreview.net/forum?id=wps3p2cqrA",
+      "authorids": [
+        "~Jialin_Li4",
+        "~Junli_Wang1",
+        "~Junjie_Hu2",
+        "~Ming_Jiang6"
+      ],
+      "affiliations": [
+        "Tongji University",
+        "University of Wisconsin, Madison"
+      ],
+      "first_institute": "Tongji University"
+    },
+    {
+      "paper_id": "colm2024:forklift-an-extensible-neural-lifter:eee0aeeb2c",
+      "title": "Forklift: An Extensible Neural Lifter",
+      "paper_url": "https://openreview.net/forum?id=LWfDcI6txJ",
+      "authorids": [
+        "~Jordi_Armengol-Estapé1",
+        "~Rodrigo_C._O._Rocha1",
+        "~Jackson_Woodruff1",
+        "~Pasquale_Minervini4",
+        "~Michael_O'Boyle1"
+      ],
+      "affiliations": [
+        "University of Edinburgh, University of Edinburgh"
+      ],
+      "first_institute": "University of Edinburgh, University of Edinburgh"
+    },
+    {
+      "paper_id": "colm2024:benchmarks-as-microscopes-a-call-for-model-metrology:8d8a05f493",
+      "title": "Benchmarks as Microscopes: A Call for Model Metrology",
+      "paper_url": "https://openreview.net/forum?id=bttKwCZDkm",
+      "authorids": [
+        "~Michael_Saxon1",
+        "~Ari_Holtzman1",
+        "~Peter_West1",
+        "~William_Yang_Wang2",
+        "~Naomi_Saphra1"
+      ],
+      "affiliations": [
+        "University of Chicago"
+      ],
+      "first_institute": "University of Chicago"
+    },
+    {
+      "paper_id": "colm2024:implicit-geometry-of-next-token-prediction-from-language-sparsity-patter:908132295e",
+      "title": "Implicit Geometry of Next-token Prediction: From Language Sparsity Patterns to Model Representations",
+      "paper_url": "https://openreview.net/forum?id=qyilOnIRHI",
+      "authorids": [
+        "~Yize_Zhao2",
+        "~Tina_Behnia1",
+        "~Vala_Vakilian2",
+        "~Christos_Thrampoulidis1"
+      ],
+      "affiliations": [
+        "University of British Columbia"
+      ],
+      "first_institute": "University of British Columbia"
+    },
+    {
+      "paper_id": "colm2024:autonomous-evaluation-and-refinement-of-digital-agents:e82b5fac36",
+      "title": "Autonomous Evaluation and Refinement of Digital Agents",
+      "paper_url": "https://openreview.net/forum?id=NPAQ6FKSmK",
+      "authorids": [
+        "~Jiayi_Pan1",
+        "~Yichi_Zhang1",
+        "~Nicholas_Tomlin1",
+        "~Yifei_Zhou1",
+        "~Sergey_Levine1",
+        "~Alane_Suhr1"
+      ],
+      "affiliations": [
+        "University of California, Berkeley"
+      ],
+      "first_institute": "University of California, Berkeley"
+    },
+    {
+      "paper_id": "colm2024:cookbook-a-framework-for-improving-llm-generative-abilities-via-programm:2ed0b19118",
+      "title": "Cookbook: A framework for improving LLM generative abilities via programmatic data generating templates",
+      "paper_url": "https://openreview.net/forum?id=ZDdLamBX4P",
+      "authorids": [
+        "~Avanika_Narayan1",
+        "~Mayee_F_Chen1",
+        "~Kush_Bhatia3",
+        "~Christopher_Re1"
+      ],
+      "affiliations": [
+        "Google DeepMind"
+      ],
+      "first_institute": "Google DeepMind"
+    },
+    {
+      "paper_id": "colm2024:evaluating-the-adversarial-robustness-of-retrieval-based-in-context-lear:ae2b030b20",
+      "title": "Evaluating the Adversarial Robustness of Retrieval-Based In-Context Learning for Large Language Models",
+      "paper_url": "https://openreview.net/forum?id=Ecgev5ZZpq",
+      "authorids": [
+        "~Simon_Chi_Lok_Yu1",
+        "~Jie_He3",
+        "~Pasquale_Minervini4",
+        "~Jeff_Z._Pan1"
+      ],
+      "affiliations": [
+        "University of Edinburgh, University of Edinburgh"
+      ],
+      "first_institute": "University of Edinburgh, University of Edinburgh"
+    },
+    {
+      "paper_id": "colm2024:how-multilingual-are-large-language-models-fine-tuned-for-translation:b94badf0c0",
+      "title": "How Multilingual are Large Language Models Fine-tuned for Translation?",
+      "paper_url": "https://openreview.net/forum?id=bnscREWUuc",
+      "authorids": [
+        "~Aquia_Richburg1",
+        "~Marine_Carpuat1"
+      ],
+      "affiliations": [
+        "University of Maryland, College Park"
+      ],
+      "first_institute": "University of Maryland, College Park"
+    },
+    {
+      "paper_id": "colm2024:polyglotoxicityprompts-multilingual-evaluation-of-neural-toxic-degenerat:31bab1268c",
+      "title": "PolygloToxicityPrompts: Multilingual Evaluation of Neural Toxic Degeneration in Large Language Models",
+      "paper_url": "https://openreview.net/forum?id=ootI3ZO6TJ",
+      "authorids": [
+        "~Devansh_Jain1",
+        "~Priyanshu_Kumar1",
+        "~Samuel_Gehman1",
+        "~Xuhui_Zhou1",
+        "~Thomas_Hartvigsen1",
+        "~Maarten_Sap1"
+      ],
+      "affiliations": [
+        "Not Diamond"
+      ],
+      "first_institute": "Not Diamond"
+    },
+    {
+      "paper_id": "colm2024:trust-no-bot-discovering-personal-disclosures-in-human-llm-conversations:5c061c665c",
+      "title": "Trust No Bot: Discovering Personal  Disclosures in Human-LLM Conversations in the Wild",
+      "paper_url": "https://openreview.net/forum?id=tIpWtMYkzU",
+      "authorids": [
+        "~Niloofar_Mireshghallah1",
+        "~Maria_Antoniak1",
+        "~Yash_More1",
+        "~Yejin_Choi1",
+        "~Golnoosh_Farnadi1"
+      ],
+      "affiliations": [
+        "McGill University"
+      ],
+      "first_institute": "McGill University"
+    },
+    {
+      "paper_id": "colm2024:raven-in-context-learning-with-retrieval-augmented-encoder-decoder-langu:f8873c0b84",
+      "title": "RAVEN: In-Context Learning with Retrieval-Augmented Encoder-Decoder Language Models",
+      "paper_url": "https://openreview.net/forum?id=GMalvQu0XL",
+      "authorids": [
+        "~Jie_Huang3",
+        "~Wei_Ping1",
+        "~Peng_Xu7",
+        "~Mohammad_Shoeybi1",
+        "~Kevin_Chang1",
+        "~Bryan_Catanzaro1"
+      ],
+      "affiliations": [
+        "NVIDIA"
+      ],
+      "first_institute": "NVIDIA"
+    },
+    {
+      "paper_id": "colm2024:genil-a-multilingual-dataset-on-generalizing-language:f2090dfee9",
+      "title": "GeniL: A Multilingual Dataset on Generalizing Language",
+      "paper_url": "https://openreview.net/forum?id=kLH4ccaL21",
+      "authorids": [
+        "~Aida_Mostafazadeh_Davani1",
+        "~Sagar_Gubbi_Venkatesh1",
+        "~Sunipa_Dev1",
+        "~Shachi_Dave1",
+        "~Vinodkumar_Prabhakaran2"
+      ],
+      "affiliations": [
+        "Research, Google"
+      ],
+      "first_institute": "Research, Google"
+    },
+    {
+      "paper_id": "colm2024:towards-measuring-the-representation-of-subjective-global-opinions-in-la:be7f19dacc",
+      "title": "Towards Measuring the Representation of Subjective Global Opinions in Language Models",
+      "paper_url": "https://openreview.net/forum?id=zl16jLb91v",
+      "authorids": [
+        "~Esin_DURMUS2",
+        "~Karina_Nguyen2",
+        "~Thomas_Liao1",
+        "~Nicholas_Schiefer1",
+        "~Amanda_Askell2",
+        "~Anton_Bakhtin1",
+        "~Carol_Chen2",
+        "~Zac_Hatfield-Dodds1",
+        "~Danny_Hernandez1",
+        "~Nicholas_Joseph1",
+        "~Liane_Lovitt1",
+        "~Sam_McCandlish1",
+        "~Orowa_Sikder1",
+        "~Alex_Tamkin1",
+        "~Janel_Thamkul1",
+        "~Jared_Kaplan2",
+        "~Jack_Clark1",
+        "~Deep_Ganguli2"
+      ],
+      "affiliations": [
+        "Facebook"
+      ],
+      "first_institute": "Facebook"
+    },
+    {
+      "paper_id": "colm2024:data-checklist-on-unit-testing-datasets-with-usable-information:375ac8aaa9",
+      "title": "Data Checklist: On Unit-Testing Datasets with Usable Information",
+      "paper_url": "https://openreview.net/forum?id=XGJBEeziEb",
+      "authorids": [
+        "~Heidi_Chenyu_Zhang1",
+        "~Shabnam_Behzad1",
+        "~Kawin_Ethayarajh1",
+        "~Dan_Jurafsky1"
+      ],
+      "affiliations": [
+        "Stanford University"
+      ],
+      "first_institute": "Stanford University"
+    },
+    {
+      "paper_id": "colm2024:best-practices-and-lessons-learned-on-synthetic-data:9ae7a5be29",
+      "title": "Best Practices and Lessons Learned on Synthetic Data",
+      "paper_url": "https://openreview.net/forum?id=OJaWBhh61C",
+      "authorids": [
+        "~Ruibo_Liu1",
+        "~Jerry_Wei1",
+        "~Fangyu_Liu1",
+        "~Chenglei_Si1",
+        "~Yanzhe_Zhang1",
+        "~Jinmeng_Rao1",
+        "~Steven_Zheng1",
+        "~Daiyi_Peng1",
+        "~Diyi_Yang2",
+        "~Denny_Zhou1",
+        "~Andrew_M._Dai1"
+      ],
+      "affiliations": [
+        "Stanford University",
+        "Google"
+      ],
+      "first_institute": "Stanford University"
+    },
+    {
+      "paper_id": "colm2024:lorahub-efficient-cross-task-generalization-via-dynamic-lora-composition:85b33a2280",
+      "title": "LoraHub: Efficient Cross-Task Generalization via Dynamic LoRA Composition",
+      "paper_url": "https://openreview.net/forum?id=TrloAXEJ2B",
+      "authorids": [
+        "~Chengsong_Huang1",
+        "~Qian_Liu2",
+        "~Bill_Yuchen_Lin1",
+        "~Tianyu_Pang1",
+        "~Chao_Du1",
+        "~Min_Lin1"
+      ],
+      "affiliations": [
+        "xAI",
+        "Sea AI Lab"
+      ],
+      "first_institute": "xAI"
+    },
+    {
+      "paper_id": "colm2024:calm-a-multi-task-benchmark-for-comprehensive-assessment-of-language-mod:5c40ead043",
+      "title": "CALM : A Multi-task Benchmark for Comprehensive Assessment of Language Model Bias",
+      "paper_url": "https://openreview.net/forum?id=RLFca3arx7",
+      "authorids": [
+        "~Vipul_Gupta3",
+        "~Pranav_Narayanan_Venkit1",
+        "~Hugo_Laurençon1",
+        "~Shomir_Wilson1",
+        "~Rebecca_J._Passonneau1"
+      ],
+      "affiliations": [
+        "Ecole Normale Superieure"
+      ],
+      "first_institute": "Ecole Normale Superieure"
+    },
+    {
+      "paper_id": "colm2024:zephyr-direct-distillation-of-lm-alignment:c5a2f81033",
+      "title": "Zephyr: Direct Distillation of LM Alignment",
+      "paper_url": "https://openreview.net/forum?id=aKkAwZB6JV",
+      "authorids": [
+        "~Lewis_Tunstall1",
+        "~Edward_Emanuel_Beeching2",
+        "~Nathan_Lambert1",
+        "~Nazneen_Rajani1",
+        "~Kashif_Rasul1",
+        "~Younes_Belkada1",
+        "~Shengyi_Huang1",
+        "~Leandro_Von_Werra1",
+        "~Clémentine_Fourrier1",
+        "~Nathan_Habib1",
+        "~Nathan_Sarrazin1",
+        "~Omar_Sanseviero1",
+        "~Alexander_M_Rush1",
+        "~Thomas_Wolf1"
+      ],
+      "affiliations": [
+        "Cornell University"
+      ],
+      "first_institute": "Cornell University"
+    },
+    {
+      "paper_id": "colm2024:large-language-model-routing-with-benchmark-datasets:b79d3a6d4e",
+      "title": "Large Language Model Routing with Benchmark Datasets",
+      "paper_url": "https://openreview.net/forum?id=Zb0ajZ7vAt",
+      "authorids": [
+        "~Tal_Shnitzer1",
+        "~Anthony_Ou1",
+        "~Mírian_Silva1",
+        "~Kate_Soule1",
+        "~Yuekai_Sun1",
+        "~Justin_Solomon1",
+        "~Neil_Thompson1",
+        "~Mikhail_Yurochkin1"
+      ],
+      "affiliations": [
+        "Massachusetts Institute of Technology",
+        "IBM Research"
+      ],
+      "first_institute": "Massachusetts Institute of Technology"
+    },
+    {
+      "paper_id": "colm2024:predicting-emergent-capabilities-by-finetuning:1bb6ef7850",
+      "title": "Predicting Emergent Capabilities by Finetuning",
+      "paper_url": "https://openreview.net/forum?id=vL8BIGuFTF",
+      "authorids": [
+        "~Charlie_Victor_Snell1",
+        "~Eric_Wallace1",
+        "~Dan_Klein1",
+        "~Sergey_Levine1"
+      ],
+      "affiliations": [
+        "University of California, Berkeley"
+      ],
+      "first_institute": "University of California, Berkeley"
+    },
+    {
+      "paper_id": "colm2024:an-in-context-learning-agent-for-formal-theorem-proving:e82ba7f285",
+      "title": "An In-Context Learning Agent for Formal Theorem-Proving",
+      "paper_url": "https://openreview.net/forum?id=V7HRrxXUhN",
+      "authorids": [
+        "~Amitayush_Thakur1",
+        "~George_Tsoukalas1",
+        "~Yeming_Wen1",
+        "~Jimmy_Xin1",
+        "~Swarat_Chaudhuri1"
+      ],
+      "affiliations": [
+        "University of Texas at Austin"
+      ],
+      "first_institute": "University of Texas at Austin"
+    },
+    {
+      "paper_id": "colm2024:evaluating-cultural-adaptability-of-a-large-language-model-via-simulatio:b2e6b20f97",
+      "title": "Evaluating Cultural Adaptability of a Large Language Model via Simulation of Synthetic Personas",
+      "paper_url": "https://openreview.net/forum?id=S4ZOkV1AHl",
+      "authorids": [
+        "~Louis_Kwok2",
+        "~Michal_Bravansky1",
+        "~Lewis_Griffin1"
+      ],
+      "affiliations": [
+        "University College London, University of London"
+      ],
+      "first_institute": "University College London, University of London"
+    },
+    {
+      "paper_id": "colm2024:distflashattn-distributed-memory-efficient-attention-for-long-context-ll:57c8c0ce5b",
+      "title": "DISTFLASHATTN: Distributed Memory-efficient Attention for Long-context LLMs Training",
+      "paper_url": "https://openreview.net/forum?id=pUEDkZyPDl",
+      "authorids": [
+        "~Dacheng_Li1",
+        "~Rulin_Shao1",
+        "~Anze_Xie1",
+        "~Eric_Xing1",
+        "~Xuezhe_Ma1",
+        "~Ion_Stoica1",
+        "~Joseph_E._Gonzalez1",
+        "~Hao_Zhang2"
+      ],
+      "affiliations": [
+        "Mohamed bin Zayed Univeristy of AI",
+        "University of California, Berkeley"
+      ],
+      "first_institute": "Mohamed bin Zayed Univeristy of AI"
+    },
+    {
+      "paper_id": "colm2024:from-words-to-numbers-your-large-language-model-is-secretly-a-capable-re:f6991de231",
+      "title": "From Words to Numbers: Your Large Language Model Is Secretly A Capable Regressor When Given In-Context Examples",
+      "paper_url": "https://openreview.net/forum?id=LzpaUxcNFK",
+      "authorids": [
+        "~Robert_Vacareanu1",
+        "~Vlad_Andrei_Negru1",
+        "~Vasile_Suciu1",
+        "~Mihai_Surdeanu1"
+      ],
+      "affiliations": [
+        "University of Arizona"
+      ],
+      "first_institute": "University of Arizona"
+    },
+    {
+      "paper_id": "colm2024:mamba-linear-time-sequence-modeling-with-selective-state-spaces:d524b46d0e",
+      "title": "Mamba: Linear-Time Sequence Modeling with Selective State Spaces",
+      "paper_url": "https://openreview.net/forum?id=tEYskw1VY2",
+      "authorids": [
+        "~Albert_Gu1",
+        "~Tri_Dao1"
+      ],
+      "affiliations": [
+        "Carnegie Mellon University"
+      ],
+      "first_institute": "Carnegie Mellon University"
+    },
+    {
+      "paper_id": "colm2024:risks-from-language-models-for-automated-mental-healthcare-ethics-and-st:ec2ce508c9",
+      "title": "Risks from Language Models for Automated Mental Healthcare: Ethics and Structure for Implementation",
+      "paper_url": "https://openreview.net/forum?id=1pgfvZj0Rx",
+      "authorids": [
+        "~Declan_Grabb1",
+        "~Max_Lamparth1",
+        "~Nina_Vasan1"
+      ],
+      "affiliations": [
+        "Stanford University",
+        "Stanford University School of Medicine"
+      ],
+      "first_institute": "Stanford University"
+    },
+    {
+      "paper_id": "colm2024:efficient-hybrid-long-sequence-modeling-with-state-space-augmented-trans:c6dc372c5a",
+      "title": "Efficient Hybrid Long Sequence Modeling with State Space Augmented Transformers",
+      "paper_url": "https://openreview.net/forum?id=uUIFTjBREk",
+      "authorids": [
+        "~Simiao_Zuo1",
+        "~Xiaodong_Liu1",
+        "~Jian_Jiao2",
+        "~Denis_X_Charles1",
+        "~Eren_Manavoglu1",
+        "~Tuo_Zhao2",
+        "~Jianfeng_Gao1"
+      ],
+      "affiliations": [
+        "Microsoft Research",
+        "Pennsylvania State University"
+      ],
+      "first_institute": "Microsoft Research"
+    },
+    {
+      "paper_id": "colm2024:from-r-to-q-your-language-model-is-secretly-a-q-function:f6b387ce6a",
+      "title": "From $r$ to $Q^*$: Your Language Model is Secretly a Q-Function",
+      "paper_url": "https://openreview.net/forum?id=kEVcNxtqXk",
+      "authorids": [
+        "~Rafael_Rafailov1",
+        "~Joey_Hejna1",
+        "~Ryan_Park1",
+        "~Chelsea_Finn1"
+      ],
+      "affiliations": [
+        "Physical Intelligence"
+      ],
+      "first_institute": "Physical Intelligence"
+    },
+    {
+      "paper_id": "colm2024:llm-reasoners-new-evaluation-library-and-analysis-of-step-by-step-reason:836c0a6016",
+      "title": "LLM Reasoners: New Evaluation, Library, and Analysis of Step-by-Step Reasoning with Large Language Models",
+      "paper_url": "https://openreview.net/forum?id=b0y6fbSUG0",
+      "authorids": [
+        "~Shibo_Hao1",
+        "~Yi_Gu4",
+        "~Haotian_Luo2",
+        "~Tianyang_Liu2",
+        "~Xiyan_Shao1",
+        "~Xinyuan_Wang3",
+        "~Shuhua_Xie1",
+        "~Haodi_Ma1",
+        "~Adithya_Samavedhi2",
+        "~Qiyue_Gao1",
+        "~Zhen_Wang6",
+        "~Zhiting_Hu3"
+      ],
+      "affiliations": [
+        "The Trade Desk"
+      ],
+      "first_institute": "The Trade Desk"
+    },
+    {
+      "paper_id": "colm2024:llm2vec-large-language-models-are-secretly-powerful-text-encoders:dd9ff69b0c",
+      "title": "LLM2Vec: Large Language Models Are Secretly Powerful Text Encoders",
+      "paper_url": "https://openreview.net/forum?id=IW1PR7vEBf",
+      "authorids": [
+        "~Parishad_BehnamGhader1",
+        "~Vaibhav_Adlakha1",
+        "~Marius_Mosbach1",
+        "~Dzmitry_Bahdanau1",
+        "~Nicolas_Chapados1",
+        "~Siva_Reddy1"
+      ],
+      "affiliations": [
+        "ServiceNow Research"
+      ],
+      "first_institute": "ServiceNow Research"
+    },
+    {
+      "paper_id": "colm2024:bring-your-own-data-self-sensitivity-evaluation-for-large-language-model:1407add8d1",
+      "title": "Bring Your Own Data! Self-Sensitivity Evaluation for Large Language Models",
+      "paper_url": "https://openreview.net/forum?id=k2xZYPZo34",
+      "authorids": [
+        "~Neel_Jain1",
+        "~Khalid_Saifullah1",
+        "~Yuxin_Wen2",
+        "~John_Kirchenbauer1",
+        "~Manli_Shu1",
+        "~Aniruddha_Saha1",
+        "~Micah_Goldblum1",
+        "~Jonas_Geiping1",
+        "~Tom_Goldstein1"
+      ],
+      "affiliations": [
+        "University of Maryland, College Park"
+      ],
+      "first_institute": "University of Maryland, College Park"
+    },
+    {
+      "paper_id": "colm2024:web-retrieval-agents-for-evidence-based-misinformation-detection:b6f20b2f6c",
+      "title": "Web Retrieval Agents for Evidence-Based Misinformation Detection",
+      "paper_url": "https://openreview.net/forum?id=pKMxO0wBYZ",
+      "authorids": [
+        "~Jacob-Junqi_Tian1",
+        "~Hao_Yu15",
+        "~Yury_Orlovskiy1",
+        "~Tyler_Vergho1",
+        "~Mauricio_Rivera1",
+        "~Mayank_Goel3",
+        "~Zachary_Yang1",
+        "~Jean-François_Godbout1",
+        "~Reihaneh_Rabbany1",
+        "~Kellin_Pelrine1"
+      ],
+      "affiliations": [
+        "Vector Institute",
+        "Université de Montréal"
+      ],
+      "first_institute": "Vector Institute"
+    },
+    {
+      "paper_id": "colm2024:crystal-illuminating-llm-abilities-on-language-and-code:1a25d01eea",
+      "title": "Crystal: Illuminating LLM Abilities on Language and Code",
+      "paper_url": "https://openreview.net/forum?id=kWnlCVcp6o",
+      "authorids": [
+        "~Tianhua_Tao1",
+        "~Junbo_Li3",
+        "~Bowen_Tan2",
+        "~Hongyi_Wang1",
+        "~William_Marshall2",
+        "~Bhargav_M_Kanakiya1",
+        "~Joel_Hestness2",
+        "~Natalia_Vassilieva1",
+        "~Zhiqiang_Shen1",
+        "~Eric_Xing1",
+        "~Zhengzhong_Liu1"
+      ],
+      "affiliations": [
+        "Carnegie Mellon University",
+        "Cerebras Systems, Inc",
+        "Mohamed bin Zayed Univeristy of AI"
+      ],
+      "first_institute": "Carnegie Mellon University"
+    },
+    {
+      "paper_id": "colm2024:ruler-whats-the-real-context-size-of-your-long-context-language-models:7b26dc5831",
+      "title": "RULER: What’s the Real Context Size of Your Long-Context Language Models?",
+      "paper_url": "https://openreview.net/forum?id=kIoBbc76Sy",
+      "authorids": [
+        "~Cheng-Ping_Hsieh1",
+        "~Simeng_Sun2",
+        "~Samuel_Kriman1",
+        "~Shantanu_Acharya1",
+        "~Dima_Rekesh1",
+        "~Fei_Jia1",
+        "~Boris_Ginsburg1"
+      ],
+      "affiliations": [
+        "NVIDIA"
+      ],
+      "first_institute": "NVIDIA"
+    },
+    {
+      "paper_id": "colm2024:raft-adapting-language-model-to-domain-specific-rag:60e0267468",
+      "title": "RAFT: Adapting Language Model to Domain Specific RAG",
+      "paper_url": "https://openreview.net/forum?id=rzQGHXNReU",
+      "authorids": [
+        "~Tianjun_Zhang1",
+        "~Shishir_G_Patil1",
+        "~Naman_Jain2",
+        "~Sheng_Shen2",
+        "~Matei_Zaharia1",
+        "~Ion_Stoica1",
+        "~Joseph_E._Gonzalez1"
+      ],
+      "affiliations": [
+        "University of California, Berkeley"
+      ],
+      "first_institute": "University of California, Berkeley"
+    },
+    {
+      "paper_id": "colm2024:fables-evaluating-faithfulness-and-content-selection-in-book-length-summ:4bbc90f70e",
+      "title": "FABLES: Evaluating faithfulness and content selection in book-length summarization",
+      "paper_url": "https://openreview.net/forum?id=YfHxQSoaWU",
+      "authorids": [
+        "~Yekyung_Kim1",
+        "~Yapei_Chang1",
+        "~Marzena_Karpinska1",
+        "~Aparna_Garimella1",
+        "~Varun_Manjunatha1",
+        "~Kyle_Lo1",
+        "~Tanya_Goyal1",
+        "~Mohit_Iyyer1"
+      ],
+      "affiliations": [
+        "Adobe Research"
+      ],
+      "first_institute": "Adobe Research"
+    },
+    {
+      "paper_id": "colm2024:does-your-data-spark-joy-performance-gains-from-domain-upsampling-at-the:08d3b598c7",
+      "title": "Does your data spark joy? Performance gains from domain upsampling at the end of training",
+      "paper_url": "https://openreview.net/forum?id=vwIIAot0ff",
+      "authorids": [
+        "~Cody_Blakeney1",
+        "~Mansheej_Paul1",
+        "~Brett_W._Larsen1",
+        "~Sean_Owen1",
+        "~Jonathan_Frankle1"
+      ],
+      "affiliations": [
+        "Databricks Mosaic Research"
+      ],
+      "first_institute": "Databricks Mosaic Research"
+    },
+    {
+      "paper_id": "colm2024:o3d-offline-data-driven-discovery-and-distillation-for-sequential-decisi:ffcd6217ec",
+      "title": "O3D: Offline Data-driven Discovery and Distillation for Sequential Decision-Making with Large Language Models",
+      "paper_url": "https://openreview.net/forum?id=bkY8zEDdH9",
+      "authorids": [
+        "~Yuchen_Xiao1",
+        "~Yanchao_Sun1",
+        "~Mengda_Xu1",
+        "~Udari_Madhushani_Sehwag1",
+        "~Jared_Vann1",
+        "~Deepeka_Garg1",
+        "~Sumitra_Ganesh1"
+      ],
+      "affiliations": [
+        "Aston University"
+      ],
+      "first_institute": "Aston University"
+    },
+    {
+      "paper_id": "colm2024:fuse-ing-language-models-zero-shot-adapter-discovery-for-prompt-optimiza:6e3a3aef2c",
+      "title": "FUSE-ing Language Models: Zero-Shot Adapter Discovery for Prompt Optimization Across Tokenizers",
+      "paper_url": "https://openreview.net/forum?id=xWYRL1eR74",
+      "authorids": [
+        "~Joshua_Nathaniel_Williams1",
+        "~J_Zico_Kolter1"
+      ],
+      "affiliations": [
+        "Carnegie Mellon University"
+      ],
+      "first_institute": "Carnegie Mellon University"
+    },
+    {
+      "paper_id": "colm2024:v-star-training-verifiers-for-self-taught-reasoners:56536cb1ce",
+      "title": "V-STaR: Training Verifiers for Self-Taught Reasoners",
+      "paper_url": "https://openreview.net/forum?id=stmqBSW2dV",
+      "authorids": [
+        "~Arian_Hosseini1",
+        "~Xingdi_Yuan2",
+        "~Nikolay_Malkin1",
+        "~Aaron_Courville3",
+        "~Alessandro_Sordoni2",
+        "~Rishabh_Agarwal2"
+      ],
+      "affiliations": [
+        "University of Montreal",
+        "Microsoft"
+      ],
+      "first_institute": "University of Montreal"
+    },
+    {
+      "paper_id": "colm2024:forcing-diffuse-distributions-out-of-language-models:6e39a33f36",
+      "title": "Forcing Diffuse Distributions out of Language Models",
+      "paper_url": "https://openreview.net/forum?id=9JY1QLVFPZ",
+      "authorids": [
+        "~Yiming_Zhang5",
+        "~Avi_Schwarzschild1",
+        "~Nicholas_Carlini1",
+        "~J_Zico_Kolter1",
+        "~Daphne_Ippolito1"
+      ],
+      "affiliations": [
+        "Carnegie Mellon University"
+      ],
+      "first_institute": "Carnegie Mellon University"
+    },
+    {
+      "paper_id": "colm2024:can-language-models-solve-olympiad-programming:dc035b99ec",
+      "title": "Can Language Models Solve Olympiad Programming?",
+      "paper_url": "https://openreview.net/forum?id=kGa4fMtP9l",
+      "authorids": [
+        "~Ben_Shi1",
+        "~Michael_Tang3",
+        "~Karthik_R_Narasimhan1",
+        "~Shunyu_Yao1"
+      ],
+      "affiliations": [
+        "Princeton University"
+      ],
+      "first_institute": "Princeton University"
+    },
+    {
+      "paper_id": "colm2024:college-concept-embedding-generation-for-large-language-models:b6e741081c",
+      "title": "CoLLEGe: Concept Embedding Generation for Large Language Models",
+      "paper_url": "https://openreview.net/forum?id=Fkr1yVUb9G",
+      "authorids": [
+        "~Ryan_Teehan1",
+        "~Brenden_M._Lake1",
+        "~Mengye_Ren1"
+      ],
+      "affiliations": [
+        "Facebook"
+      ],
+      "first_institute": "Facebook"
+    },
+    {
+      "paper_id": "colm2024:effective-prompt-extraction-from-language-models:e7f9ab5d92",
+      "title": "Effective Prompt Extraction from Language Models",
+      "paper_url": "https://openreview.net/forum?id=0o95CVdNuz",
+      "authorids": [
+        "~Yiming_Zhang5",
+        "~Nicholas_Carlini1",
+        "~Daphne_Ippolito1"
+      ],
+      "affiliations": [
+        "Carnegie Mellon University"
+      ],
+      "first_institute": "Carnegie Mellon University"
+    },
+    {
+      "paper_id": "colm2024:what-makes-a-good-metric-evaluating-automatic-metrics-for-text-to-image:d3e9c6bca5",
+      "title": "What makes a good metric? Evaluating automatic metrics for text-to-image consistency",
+      "paper_url": "https://openreview.net/forum?id=LFfktMPAci",
+      "authorids": [
+        "~Candace_Ross1",
+        "~Melissa_Hall1",
+        "~Adriana_Romero-Soriano1",
+        "~Adina_Williams1"
+      ],
+      "affiliations": [
+        "Mila",
+        "FAIR (Meta Platforms Inc.)"
+      ],
+      "first_institute": "Mila"
+    },
+    {
+      "paper_id": "colm2024:an-incomplete-loop-instruction-inference-instruction-following-and-in-co:1afe98316a",
+      "title": "An Incomplete Loop: Instruction Inference, Instruction Following, and In-Context Learning in Language Models",
+      "paper_url": "https://openreview.net/forum?id=nUNbjMDBWC",
+      "authorids": [
+        "~Emmy_Liu1",
+        "~Graham_Neubig1",
+        "~Jacob_Andreas1"
+      ],
+      "affiliations": [
+        "School of Computer Science, Carnegie Mellon University",
+        "Carnegie Mellon University"
+      ],
+      "first_institute": "School of Computer Science, Carnegie Mellon University"
+    },
+    {
+      "paper_id": "colm2024:orag-ontology-guided-retrieval-augmented-generation-for-theme-specific-e:a8b6eef1a3",
+      "title": "ORAG: Ontology-Guided Retrieval-Augmented Generation for Theme-Specific Entity Typing",
+      "paper_url": "https://openreview.net/forum?id=cKBmZ2PZ6c",
+      "authorids": [
+        "~Jinfeng_Xiao1",
+        "~Linyi_Ding1",
+        "~James_Barry2",
+        "~Mohab_Elkaref1",
+        "~Geeth_De_Mel1",
+        "~Jiawei_Han1"
+      ],
+      "affiliations": [
+        "International Business Machines"
+      ],
+      "first_institute": "International Business Machines"
+    },
+    {
+      "paper_id": "colm2024:see-what-llms-cannot-answer-a-self-challenge-framework-for-uncovering-ll:850db38d00",
+      "title": "See What LLMs Cannot Answer: A Self-Challenge Framework for Uncovering LLM Weaknesses",
+      "paper_url": "https://openreview.net/forum?id=18iNTRPx8c",
+      "authorids": [
+        "~Yulong_Chen2",
+        "~Yang_Liu50",
+        "~Jianhao_Yan1",
+        "~Xuefeng_Bai1",
+        "~Ming_Zhong2",
+        "~Yinghao_Yang2",
+        "~Ziyi_Yang1",
+        "~Chenguang_Zhu1",
+        "~Yue_Zhang7"
+      ],
+      "affiliations": [
+        "Open Review"
+      ],
+      "first_institute": "Open Review"
+    },
+    {
+      "paper_id": "colm2024:how-susceptible-are-llms-to-influence-in-prompts:299619c56b",
+      "title": "How Susceptible are LLMs to Influence in Prompts?",
+      "paper_url": "https://openreview.net/forum?id=y7JnjDcIQa",
+      "authorids": [
+        "~Sotiris_Anagnostidis1",
+        "~Jannis_Bulian1"
+      ],
+      "affiliations": [
+        "Google DeepMind"
+      ],
+      "first_institute": "Google DeepMind"
+    },
+    {
+      "paper_id": "colm2024:logits-of-api-protected-llms-leak-proprietary-information:6c62186002",
+      "title": "Logits of API-Protected LLMs Leak Proprietary Information",
+      "paper_url": "https://openreview.net/forum?id=oRcYFm8vyB",
+      "authorids": [
+        "~Matthew_Finlayson1",
+        "~Xiang_Ren1",
+        "~Swabha_Swayamdipta1"
+      ],
+      "affiliations": [
+        "University of Southern California"
+      ],
+      "first_institute": "University of Southern California"
+    },
+    {
+      "paper_id": "colm2024:mind-the-privacy-unit-user-level-differential-privacy-for-language-model:d7b8bacff4",
+      "title": "Mind the Privacy Unit! User-Level Differential Privacy for Language Model Fine-Tuning",
+      "paper_url": "https://openreview.net/forum?id=Jd0bCD12DS",
+      "authorids": [
+        "~Lynn_Chua1",
+        "~Badih_Ghazi1",
+        "~Yangsibo_Huang2",
+        "~Pritish_Kamath2",
+        "~Ravi_Kumar1",
+        "~Daogao_Liu1",
+        "~Pasin_Manurangsi2",
+        "~Amer_Sinha1",
+        "~Chiyuan_Zhang1"
+      ],
+      "affiliations": [
+        "Research, Google"
+      ],
+      "first_institute": "Research, Google"
+    },
+    {
+      "paper_id": "colm2024:nemo-aligner-scalable-toolkit-for-efficient-model-alignment:c3c4506820",
+      "title": "NeMo-Aligner: Scalable Toolkit for Efficient Model Alignment",
+      "paper_url": "https://openreview.net/forum?id=yK2eGE8QVW",
+      "authorids": [
+        "~Gerald_Shen1",
+        "~Zhilin_Wang2",
+        "~Olivier_Delalleau1",
+        "~Jiaqi_Zeng1",
+        "~Yi_Dong4",
+        "~Daniel_Egert1",
+        "~Shengyang_Sun4",
+        "~Jimmy_J._Zhang1",
+        "~Sahil_Jain2",
+        "~Ali_Taghibakhshi1",
+        "~Markel_Sanz_Ausin1",
+        "~Ashwath_Aithal1",
+        "~Oleksii_Kuchaiev1"
+      ],
+      "affiliations": [
+        "NVIDIA"
+      ],
+      "first_institute": "NVIDIA"
+    },
+    {
+      "paper_id": "colm2024:inspecting-and-editing-knowledge-representations-in-language-models:bc54e0fdee",
+      "title": "Inspecting and Editing Knowledge Representations in Language Models",
+      "paper_url": "https://openreview.net/forum?id=ADtL6fgNRv",
+      "authorids": [
+        "~Evan_Hernandez1",
+        "~Belinda_Z._Li1",
+        "~Jacob_Andreas1"
+      ],
+      "affiliations": [
+        "Massachusetts Institute of Technology"
+      ],
+      "first_institute": "Massachusetts Institute of Technology"
+    },
+    {
+      "paper_id": "colm2024:unveiling-llms-the-evolution-of-latent-representations-in-a-dynamic-know:0936196f0e",
+      "title": "Unveiling LLMs: The Evolution of Latent Representations in a Dynamic Knowledge Graph",
+      "paper_url": "https://openreview.net/forum?id=dWYRjT501w",
+      "authorids": [
+        "~Marco_Bronzini1",
+        "~Carlo_Nicolini1",
+        "~Bruno_Lepri1",
+        "~Jacopo_Staiano2",
+        "~Andrea_Passerini2"
+      ],
+      "affiliations": [
+        "University of Trento"
+      ],
+      "first_institute": "University of Trento"
+    },
+    {
+      "paper_id": "colm2024:optimising-calls-to-large-language-models-with-uncertainty-based-two-tie:54674ad410",
+      "title": "Optimising Calls to Large Language Models with Uncertainty-Based Two-Tier Selection",
+      "paper_url": "https://openreview.net/forum?id=T9cOYH0wGF",
+      "authorids": [
+        "~Guillem_Ramírez1",
+        "~Alexandra_Birch1",
+        "~Ivan_Titov1"
+      ],
+      "affiliations": [
+        "University of Edinburgh"
+      ],
+      "first_institute": "University of Edinburgh"
+    },
+    {
+      "paper_id": "colm2024:source-aware-training-enables-knowledge-attribution-in-language-models:e52f074ef7",
+      "title": "Source-Aware Training Enables Knowledge Attribution in Language Models",
+      "paper_url": "https://openreview.net/forum?id=UPyWLwciYz",
+      "authorids": [
+        "~Muhammad_Khalifa2",
+        "~David_Wadden1",
+        "~Emma_Strubell1",
+        "~Honglak_Lee2",
+        "~Lu_Wang9",
+        "~Iz_Beltagy1",
+        "~Hao_Peng4"
+      ],
+      "affiliations": [
+        "Google"
+      ],
+      "first_institute": "Google"
+    },
+    {
+      "paper_id": "colm2024:locating-and-editing-factual-associations-in-mamba:d3c3f2dd9d",
+      "title": "Locating and Editing Factual Associations in Mamba",
+      "paper_url": "https://openreview.net/forum?id=yoVRyrEgix",
+      "authorids": [
+        "~Arnab_Sen_Sharma1",
+        "~David_Atkinson2",
+        "~David_Bau1"
+      ],
+      "affiliations": [
+        "Northeastern University"
+      ],
+      "first_institute": "Northeastern University"
+    },
+    {
+      "paper_id": "colm2024:auxiliary-task-demands-mask-the-capabilities-of-smaller-language-models:5c848d1d6b",
+      "title": "Auxiliary task demands mask the capabilities of smaller language models",
+      "paper_url": "https://openreview.net/forum?id=U5BUzSn4tD",
+      "authorids": [
+        "~Jennifer_Hu1",
+        "~Michael_Frank1"
+      ],
+      "affiliations": [
+        "Harvard University"
+      ],
+      "first_institute": "Harvard University"
+    },
+    {
+      "paper_id": "colm2024:yes-no-maybe-revisiting-language-models-response-stability-under-paraphr:49bbc35557",
+      "title": "Yes, no, maybe? Revisiting language models' response stability under paraphrasing for the assessment of political leaning",
+      "paper_url": "https://openreview.net/forum?id=7xUtka9ck9",
+      "authorids": [
+        "~Patrick_Haller1",
+        "~Jannis_Vamvas1",
+        "~Lena_Ann_Jäger1"
+      ],
+      "affiliations": [
+        "University of Zurich"
+      ],
+      "first_institute": "University of Zurich"
+    },
+    {
+      "paper_id": "colm2024:jailbreakv-a-benchmark-for-assessing-the-robustness-of-multimodal-large:a558446ad0",
+      "title": "JailBreakV: A Benchmark for Assessing the Robustness of MultiModal Large Language Models against Jailbreak Attacks",
+      "paper_url": "https://openreview.net/forum?id=GC4mXVfquq",
+      "authorids": [
+        "~Weidi_Luo1",
+        "~Siyuan_Ma4",
+        "~Xiaogeng_Liu1",
+        "~Xiaoyu_Guo3",
+        "~Chaowei_Xiao2"
+      ],
+      "affiliations": [
+        "University of Wisconsin - Madison"
+      ],
+      "first_institute": "University of Wisconsin - Madison"
+    },
+    {
+      "paper_id": "colm2024:best-of-venom-attacking-rlhf-by-injecting-poisoned-preference-data:1f681dedad",
+      "title": "Best-of-Venom: Attacking RLHF by Injecting Poisoned Preference Data",
+      "paper_url": "https://openreview.net/forum?id=v74mJURD1L",
+      "authorids": [
+        "~Tim_Baumgärtner1",
+        "~Yang_Gao6",
+        "~Dana_Alon1",
+        "~Donald_Metzler1"
+      ],
+      "affiliations": [
+        "Research, Google"
+      ],
+      "first_institute": "Research, Google"
+    },
+    {
+      "paper_id": "colm2024:d2po-discriminator-guided-dpo-with-response-evaluation-models:eeddd9fd85",
+      "title": "D2PO: Discriminator-Guided DPO with Response Evaluation Models",
+      "paper_url": "https://openreview.net/forum?id=EIjJ6ykPnh",
+      "authorids": [
+        "~Prasann_Singhal1",
+        "~Nathan_Lambert1",
+        "~Scott_Niekum1",
+        "~Tanya_Goyal1",
+        "~Greg_Durrett1"
+      ],
+      "affiliations": [
+        "University of Texas at Austin"
+      ],
+      "first_institute": "University of Texas at Austin"
+    },
+    {
+      "paper_id": "colm2024:a-long-way-to-go-investigating-length-correlations-in-rlhf:a2bedc29dc",
+      "title": "A Long Way to Go: Investigating Length Correlations in RLHF",
+      "paper_url": "https://openreview.net/forum?id=G8LaO1P0xv",
+      "authorids": [
+        "~Prasann_Singhal1",
+        "~Tanya_Goyal1",
+        "~Jiacheng_Xu2",
+        "~Greg_Durrett1"
+      ],
+      "affiliations": [
+        "University of Texas at Austin"
+      ],
+      "first_institute": "University of Texas at Austin"
+    },
+    {
+      "paper_id": "colm2024:trans-tokenization-and-cross-lingual-vocabulary-transfers-language-adapt:089b9d867d",
+      "title": "Trans-Tokenization and Cross-lingual Vocabulary Transfers: Language Adaptation of LLMs for Low-Resource NLP",
+      "paper_url": "https://openreview.net/forum?id=sBxvoDhvao",
+      "authorids": [
+        "~François_Remy1",
+        "~Pieter_Delobelle1",
+        "~Hayastan_Avetisyan1",
+        "~Alfiya_Khabibullina1",
+        "~Miryam_de_Lhoneux1",
+        "~Thomas_Demeester1"
+      ],
+      "affiliations": [
+        "Becode"
+      ],
+      "first_institute": "Becode"
+    },
+    {
+      "paper_id": "colm2024:skvq-sliding-window-key-and-value-cache-quantization-for-large-language:28db0bb38e",
+      "title": "SKVQ: Sliding-window Key and Value Cache Quantization for Large Language Models",
+      "paper_url": "https://openreview.net/forum?id=nI6JyFSnyV",
+      "authorids": [
+        "~Haojie_Duanmu1",
+        "~Zhihang_Yuan1",
+        "~Xiuhong_Li1",
+        "~Jiangfei_Duan1",
+        "~Xingcheng_ZHANG2",
+        "~Dahua_Lin1"
+      ],
+      "affiliations": [
+        "The Chinese University of Hong Kong"
+      ],
+      "first_institute": "The Chinese University of Hong Kong"
+    },
+    {
+      "paper_id": "colm2024:personalized-collaborative-fine-tuning-for-on-device-large-language-mode:8dfddf7329",
+      "title": "Personalized Collaborative Fine-Tuning for On-Device Large Language Models",
+      "paper_url": "https://openreview.net/forum?id=bwo3GVsgOv",
+      "authorids": [
+        "~Nicolas_Wagner2",
+        "~Dongyang_Fan2",
+        "~Martin_Jaggi1"
+      ],
+      "affiliations": [
+        "EPFL - EPF Lausanne"
+      ],
+      "first_institute": "EPFL - EPF Lausanne"
+    },
+    {
+      "paper_id": "colm2024:generating-synthetic-datasets-for-few-shot-prompt-tuning:c829d8b776",
+      "title": "Generating Synthetic Datasets for Few-shot Prompt Tuning",
+      "paper_url": "https://openreview.net/forum?id=Vd0KvChLXr",
+      "authorids": [
+        "~Xu_Guo2",
+        "~Zilin_Du1",
+        "~Boyang_Li1",
+        "~Chunyan_Miao1"
+      ],
+      "affiliations": [
+        "Nanyang Technological University"
+      ],
+      "first_institute": "Nanyang Technological University"
+    },
+    {
+      "paper_id": "colm2024:mbbq-a-dataset-for-cross-lingual-comparison-of-stereotypes-in-generative:1878fb5297",
+      "title": "MBBQ: A Dataset for Cross-Lingual Comparison of Stereotypes in Generative LLMs",
+      "paper_url": "https://openreview.net/forum?id=X9yV4lFHt4",
+      "authorids": [
+        "~Vera_Neplenbroek1",
+        "~Arianna_Bisazza1",
+        "~Raquel_Fernández1"
+      ],
+      "affiliations": [
+        "University of Groningen"
+      ],
+      "first_institute": "University of Groningen"
+    },
+    {
+      "paper_id": "colm2024:lampo-large-language-models-as-preference-machines-for-few-shot-ordinal:1a54b29838",
+      "title": "LAMPO: Large Language Models as Preference Machines for Few-shot Ordinal Classification",
+      "paper_url": "https://openreview.net/forum?id=ig6NI9oPhD",
+      "authorids": [
+        "~Zhen_Qin5",
+        "~Junru_Wu2",
+        "~Jiaming_Shen1",
+        "~Tianqi_Liu1",
+        "~Xuanhui_Wang1"
+      ],
+      "affiliations": [
+        "Google Research"
+      ],
+      "first_institute": "Google Research"
+    },
+    {
+      "paper_id": "colm2024:large-language-models-are-capable-of-offering-cognitive-reappraisal-if-g:e2cb9c5f3d",
+      "title": "Large Language Models are Capable of Offering Cognitive Reappraisal, if Guided",
+      "paper_url": "https://openreview.net/forum?id=yK8MT91dQY",
+      "authorids": [
+        "~Hongli_Zhan1",
+        "~Allen_Zheng1",
+        "~Yoon_Kyung_Lee1",
+        "~Jina_Suh1",
+        "~Junyi_Jessy_Li2",
+        "~Desmond_Ong1"
+      ],
+      "affiliations": [
+        "University of Texas at Austin"
+      ],
+      "first_institute": "University of Texas at Austin"
+    },
+    {
+      "paper_id": "colm2024:compression-represents-intelligence-linearly:953fc6e9e3",
+      "title": "Compression Represents Intelligence Linearly",
+      "paper_url": "https://openreview.net/forum?id=SHMj84U5SH",
+      "authorids": [
+        "~Yuzhen_Huang2",
+        "~Jinghan_Zhang1",
+        "~Zifei_Shan1",
+        "~Junxian_He1"
+      ],
+      "affiliations": [
+        "Hong Kong University of Science and Technology"
+      ],
+      "first_institute": "Hong Kong University of Science and Technology"
+    },
+    {
+      "paper_id": "colm2024:destein-navigating-detoxification-of-language-models-via-universal-steer:1994399384",
+      "title": "DeStein: Navigating Detoxification of Language Models via Universal Steering Pairs and Head-wise Activation Fusion",
+      "paper_url": "https://openreview.net/forum?id=jq2kNXigPP",
+      "authorids": [
+        "~Yu_Li32",
+        "~Han_Jiang2",
+        "~Chuanyang_Gong1",
+        "~Zhihua_Wei1"
+      ],
+      "affiliations": [
+        "Tongji University"
+      ],
+      "first_institute": "Tongji University"
+    },
+    {
+      "paper_id": "colm2024:resolving-knowledge-conflicts-in-large-language-models:33ae32ef59",
+      "title": "Resolving Knowledge Conflicts in Large Language Models",
+      "paper_url": "https://openreview.net/forum?id=ptvV5HGTNN",
+      "authorids": [
+        "~Yike_Wang1",
+        "~Shangbin_Feng1",
+        "~Heng_Wang10",
+        "~Weijia_Shi1",
+        "~Vidhisha_Balachandran1",
+        "~Tianxing_He1",
+        "~Yulia_Tsvetkov1"
+      ],
+      "affiliations": [
+        "Xi'an Jiaotong University"
+      ],
+      "first_institute": "Xi'an Jiaotong University"
+    },
+    {
+      "paper_id": "colm2024:speer-sentence-level-planning-of-long-clinical-summaries-via-embedded-en:7193a78886",
+      "title": "SPEER: Sentence-Level Planning of Long Clinical Summaries via Embedded Entity Retrieval",
+      "paper_url": "https://openreview.net/forum?id=0oiG1KigYN",
+      "authorids": [
+        "~Griffin_Thomas_Adams1",
+        "~Jason_Zucker1",
+        "~Noémie_Elhadad1"
+      ],
+      "affiliations": [
+        "Columbia University"
+      ],
+      "first_institute": "Columbia University"
+    },
+    {
+      "paper_id": "colm2024:ca-lora-adapting-existing-lora-for-compressed-llms-to-enable-efficient-m:762bf26a53",
+      "title": "CA-LoRA: Adapting Existing LoRA for Compressed LLMs to Enable Efficient Multi-Tasking on Personal Devices",
+      "paper_url": "https://openreview.net/forum?id=kpf7UbnSAm",
+      "authorids": [
+        "~Weilin_Zhao1",
+        "~Yuxiang_Huang3",
+        "~Xu_Han2",
+        "~Zhiyuan_Liu1",
+        "~Zhengyan_Zhang1",
+        "~Kuai_Li1",
+        "~Chen_Chen48",
+        "~TAO_YANG11",
+        "~Maosong_Sun1"
+      ],
+      "affiliations": [
+        "Tencent",
+        "Tsinghua University"
+      ],
+      "first_institute": "Tencent"
+    },
+    {
+      "paper_id": "colm2024:llm-economicus-mapping-the-behavioral-biases-of-llms-via-utility-theory:96d3e7f180",
+      "title": "LLM economicus? Mapping the Behavioral Biases of LLMs via Utility Theory",
+      "paper_url": "https://openreview.net/forum?id=Rx3wC8sCTJ",
+      "authorids": [
+        "~Jillian_Ross1",
+        "~Yoon_Kim1",
+        "~Andrew_Lo1"
+      ],
+      "affiliations": [
+        "Massachusetts Institute of Technology"
+      ],
+      "first_institute": "Massachusetts Institute of Technology"
+    },
+    {
+      "paper_id": "colm2024:continual-pre-training-for-cross-lingual-llm-adaptation-enhancing-japane:8afd937f74",
+      "title": "Continual Pre-Training for Cross-Lingual LLM Adaptation: Enhancing Japanese Language Capabilities",
+      "paper_url": "https://openreview.net/forum?id=TQdd1VhWbe",
+      "authorids": [
+        "~Kazuki_Fujii1",
+        "~Taishi_Nakamura1",
+        "~Mengsay_Loem1",
+        "~Hiroki_Iida1",
+        "~Masanari_Ohi1",
+        "~Kakeru_Hattori1",
+        "~Hirai_Shota1",
+        "~Sakae_Mizuki1",
+        "~Rio_Yokota1",
+        "~Naoaki_Okazaki2"
+      ],
+      "affiliations": [
+        "Tokyo Institute of Technology, Tokyo Institute of Technology"
+      ],
+      "first_institute": "Tokyo Institute of Technology, Tokyo Institute of Technology"
+    },
+    {
+      "paper_id": "colm2024:workbench-a-benchmark-dataset-for-agents-in-a-realistic-workplace-settin:8795b5aae3",
+      "title": "WorkBench: a Benchmark Dataset for Agents in a Realistic Workplace Setting",
+      "paper_url": "https://openreview.net/forum?id=4HNAwZFDcH",
+      "authorids": [
+        "~Olly_Styles1",
+        "~Sam_Miller1",
+        "~Patricio_Cerda-Mardini1",
+        "~Tanaya_Guha1",
+        "~Victor_Sanchez1",
+        "~Bertie_Vidgen1"
+      ],
+      "affiliations": [
+        "MLCommons"
+      ],
+      "first_institute": "MLCommons"
+    },
+    {
+      "paper_id": "colm2024:structlm-towards-building-generalist-models-for-structured-knowledge-gro:fbe2971977",
+      "title": "StructLM: Towards Building Generalist Models for Structured Knowledge Grounding",
+      "paper_url": "https://openreview.net/forum?id=EKBPn7no4y",
+      "authorids": [
+        "~Alex_Zhuang1",
+        "~Ge_Zhang5",
+        "~Tianyu_Zheng1",
+        "~Xinrun_Du1",
+        "~Junjie_Wang2",
+        "~Weiming_Ren1",
+        "~Wenhao_Huang1",
+        "~Jie_Fu2",
+        "~Xiang_Yue1",
+        "~Wenhu_Chen3"
+      ],
+      "affiliations": [
+        ", University of Waterloo"
+      ],
+      "first_institute": ", University of Waterloo"
+    },
+    {
+      "paper_id": "colm2024:investigating-instruction-tuning-large-language-models-on-graphs:f87acb10ff",
+      "title": "Investigating Instruction Tuning Large Language Models on Graphs",
+      "paper_url": "https://openreview.net/forum?id=xdg4CS5mkl",
+      "authorids": [
+        "~Kerui_Zhu1",
+        "~Bo-Wei_Huang1",
+        "~Bowen_Jin1",
+        "~Yizhu_Jiao1",
+        "~Ming_Zhong2",
+        "~Kevin_Chang1",
+        "~Shou-De_Lin1",
+        "~Jiawei_Han1"
+      ],
+      "affiliations": [
+        "Department of computer science and informational engineering, National Taiwan University",
+        "University of Illinois at Urbana-Champaign"
+      ],
+      "first_institute": "Department of computer science and informational engineering, National Taiwan University"
+    },
+    {
+      "paper_id": "colm2024:milebench-benchmarking-mllms-in-long-context:8e2c1699ad",
+      "title": "MileBench: Benchmarking MLLMs in Long Context",
+      "paper_url": "https://openreview.net/forum?id=Uhwze2LEwq",
+      "authorids": [
+        "~Song_Dingjie1",
+        "~Shunian_Chen1",
+        "~Guiming_Hardy_Chen1",
+        "~Fei_Yu3",
+        "~Xiang_Wan1",
+        "~Benyou_Wang2"
+      ],
+      "affiliations": [
+        "The Chinese University of Hong Kong, Shenzhen"
+      ],
+      "first_institute": "The Chinese University of Hong Kong, Shenzhen"
+    },
+    {
+      "paper_id": "colm2024:unforgettable-generalization-in-language-models:40d2e00527",
+      "title": "Unforgettable Generalization in Language Models",
+      "paper_url": "https://openreview.net/forum?id=Ukf4301hXm",
+      "authorids": [
+        "~Eric_Zhang2",
+        "~Leshem_Choshen1",
+        "~Jacob_Andreas1"
+      ],
+      "affiliations": [
+        "Massachusetts Institute of Technology"
+      ],
+      "first_institute": "Massachusetts Institute of Technology"
+    },
+    {
+      "paper_id": "colm2024:automata-based-constraints-for-language-model-decoding:94eab6d455",
+      "title": "Automata-based constraints for language model decoding",
+      "paper_url": "https://openreview.net/forum?id=BDBdblmyzY",
+      "authorids": [
+        "~Terry_Koo2",
+        "~Frederick_Liu1",
+        "~Luheng_He1"
+      ],
+      "affiliations": [
+        "Google"
+      ],
+      "first_institute": "Google"
+    },
+    {
+      "paper_id": "colm2024:crowd-calibrator-can-annotator-disagreement-inform-calibration-in-subjec:f1cb743f22",
+      "title": "Crowd-Calibrator: Can Annotator Disagreement Inform Calibration in Subjective Tasks?",
+      "paper_url": "https://openreview.net/forum?id=VWWzO3ewMS",
+      "authorids": [
+        "~Urja_Khurana1",
+        "~Eric_Nalisnick1",
+        "~Antske_Fokkens1",
+        "~Swabha_Swayamdipta1"
+      ],
+      "affiliations": [
+        "VU University Amsterdam"
+      ],
+      "first_institute": "VU University Amsterdam"
+    },
+    {
+      "paper_id": "colm2024:the-n-implementation-details-of-rlhf-with-ppo-a-case-study-on-tl-dr-summ:dd35d6a7c2",
+      "title": "The N+ Implementation Details of RLHF with PPO: A Case Study on TL;DR Summarization",
+      "paper_url": "https://openreview.net/forum?id=kHO2ZTa8e3",
+      "authorids": [
+        "~Shengyi_Huang1",
+        "~Michael_Noukhovitch1",
+        "~Arian_Hosseini1",
+        "~Kashif_Rasul1",
+        "~Weixun_Wang1",
+        "~Lewis_Tunstall1"
+      ],
+      "affiliations": [
+        "University of Montreal"
+      ],
+      "first_institute": "University of Montreal"
+    },
+    {
+      "paper_id": "colm2024:step-stacked-llm-policies-for-web-actions:dce53a47df",
+      "title": "SteP: Stacked LLM Policies for Web Actions",
+      "paper_url": "https://openreview.net/forum?id=5fg0VtRxgi",
+      "authorids": [
+        "~Paloma_Sodhi1",
+        "~S.R.K_Branavan1",
+        "~Yoav_Artzi1",
+        "~Ryan_McDonald2"
+      ],
+      "affiliations": [
+        "ASAPP"
+      ],
+      "first_institute": "ASAPP"
+    },
+    {
+      "paper_id": "colm2024:instruction-tuning-aligns-llms-to-the-human-brain:603253b945",
+      "title": "Instruction-tuning Aligns LLMs to the Human Brain",
+      "paper_url": "https://openreview.net/forum?id=nXNN0x4wbl",
+      "authorids": [
+        "~Khai_Loong_Aw1",
+        "~Syrielle_Montariol1",
+        "~Badr_AlKhamissi1",
+        "~Martin_Schrimpf1",
+        "~Antoine_Bosselut1"
+      ],
+      "affiliations": [
+        "EPFL"
+      ],
+      "first_institute": "EPFL"
+    },
+    {
+      "paper_id": "colm2024:lory-fully-differentiable-mixture-of-experts-for-autoregressive-language:cb022867e0",
+      "title": "Lory: Fully Differentiable Mixture-of-Experts for Autoregressive Language Model Pre-training",
+      "paper_url": "https://openreview.net/forum?id=LKEJPySnlt",
+      "authorids": [
+        "~Zexuan_Zhong1",
+        "~Mengzhou_Xia1",
+        "~Danqi_Chen1",
+        "~Mike_Lewis1"
+      ],
+      "affiliations": [
+        "Princeton University"
+      ],
+      "first_institute": "Princeton University"
+    },
+    {
+      "paper_id": "colm2024:fine-grained-hallucination-detection-and-editing-for-language-models:c259076f59",
+      "title": "Fine-grained Hallucination Detection and Editing for Language Models",
+      "paper_url": "https://openreview.net/forum?id=dJMTn3QOWO",
+      "authorids": [
+        "~Abhika_Mishra1",
+        "~Akari_Asai2",
+        "~Vidhisha_Balachandran1",
+        "~Yizhong_Wang2",
+        "~Graham_Neubig1",
+        "~Yulia_Tsvetkov1",
+        "~Hannaneh_Hajishirzi1"
+      ],
+      "affiliations": [
+        "University of Washington",
+        "Paul G. Allen School of Computer Science & Engineering, University of Washington",
+        "Carnegie Mellon University"
+      ],
+      "first_institute": "University of Washington"
+    },
+    {
+      "paper_id": "colm2024:poly-visual-expert-vision-language-models:0254ff2b8c",
+      "title": "Poly-Visual-Expert Vision-Language Models",
+      "paper_url": "https://openreview.net/forum?id=7QaEO9WYMa",
+      "authorids": [
+        "~Xiaoran_Fan3",
+        "~Tao_Ji1",
+        "~江常皓1",
+        "~Shuo_Li12",
+        "~Senjie_Jin1",
+        "~Sirui_Song2",
+        "~Junke_Wang1",
+        "~Boyang_Hong1",
+        "~Lu_Chen15",
+        "~Guodong_Zheng1",
+        "~Ming_Zhang15",
+        "~Huangcaishuang1",
+        "~Rui_Zheng1",
+        "~Zhiheng_Xi1",
+        "~Yuhao_Zhou3",
+        "~Shihan_Dou1",
+        "~Junjie_Ye4",
+        "~Hang_Yan2",
+        "~Tao_Gui1",
+        "~Qi_Zhang8",
+        "~Xipeng_Qiu1",
+        "~Xuanjing_Huang1",
+        "~Zuxuan_Wu1",
+        "~Yu-Gang_Jiang1"
+      ],
+      "affiliations": [
+        "Fudan University"
+      ],
+      "first_institute": "Fudan University"
+    },
+    {
+      "paper_id": "colm2024:is-chatgpt-a-good-sentiment-analyzer:fbb50f25fb",
+      "title": "Is ChatGPT a Good Sentiment Analyzer?",
+      "paper_url": "https://openreview.net/forum?id=mUlLf50Y6H",
+      "authorids": [
+        "~Zengzhi_Wang1",
+        "~Qiming_Xie1",
+        "~Yi_Feng8",
+        "~Zixiang_Ding1",
+        "~Zinong_Yang1",
+        "~Rui_Xia1"
+      ],
+      "affiliations": [
+        "Nanjing University of Science and Technology"
+      ],
+      "first_institute": "Nanjing University of Science and Technology"
+    },
+    {
+      "paper_id": "colm2024:suspicion-agent-playing-imperfect-information-games-with-theory-of-mind:9f589317c5",
+      "title": "Suspicion Agent: Playing Imperfect Information Games with Theory of Mind Aware GPT-4",
+      "paper_url": "https://openreview.net/forum?id=F2yGbwXJAi",
+      "authorids": [
+        "~Jiaxian_Guo2",
+        "~Bo_Yang16",
+        "~Paul_Yoo1",
+        "~Bill_Yuchen_Lin1",
+        "~Yusuke_Iwasawa1",
+        "~Yutaka_Matsuo1"
+      ],
+      "affiliations": [
+        "NEC Cooperation",
+        "xAI"
+      ],
+      "first_institute": "NEC Cooperation"
+    },
+    {
+      "paper_id": "colm2024:stream-of-search-sos-learning-to-search-in-language:c5baca9ff8",
+      "title": "Stream of Search (SoS): Learning to Search in Language",
+      "paper_url": "https://openreview.net/forum?id=2cop2jmQVL",
+      "authorids": [
+        "~Kanishk_Gandhi1",
+        "~Denise_H_J_Lee1",
+        "~Gabriel_Grand1",
+        "~Muxin_Liu1",
+        "~Winson_Cheng1",
+        "~Archit_Sharma1",
+        "~Noah_Goodman1"
+      ],
+      "affiliations": [
+        "Google"
+      ],
+      "first_institute": "Google"
+    },
+    {
+      "paper_id": "colm2024:does-in-context-learning-really-learn-rethinking-how-large-language-mode:791e28a5e5",
+      "title": "Does In-Context Learning Really Learn? Rethinking How Large Language Models Respond and Solve Tasks via In-Context Learning",
+      "paper_url": "https://openreview.net/forum?id=i2oJjC0ESQ",
+      "authorids": [
+        "~Quanyu_Long1",
+        "~Yin_Wu1",
+        "~Wenya_Wang1",
+        "~Sinno_Jialin_Pan1"
+      ],
+      "affiliations": [
+        "Nanyang Technological University",
+        "The Chinese University of Hong Kong"
+      ],
+      "first_institute": "Nanyang Technological University"
+    },
+    {
+      "paper_id": "colm2024:nonparametric-variational-regularisation-of-pretrained-transformers:ed243ea720",
+      "title": "Nonparametric Variational Regularisation of Pretrained Transformers",
+      "paper_url": "https://openreview.net/forum?id=Zu8OWNUC0u",
+      "authorids": [
+        "~Fabio_James_Fehr1",
+        "~James_Henderson1"
+      ],
+      "affiliations": [
+        "EPFL - EPF Lausanne"
+      ],
+      "first_institute": "EPFL - EPF Lausanne"
+    },
+    {
+      "paper_id": "colm2024:rq-rag-learning-to-refine-queries-for-retrieval-augmented-generation:83d3651679",
+      "title": "RQ-RAG: Learning to Refine Queries for Retrieval Augmented Generation",
+      "paper_url": "https://openreview.net/forum?id=tzE7VqsaJ4",
+      "authorids": [
+        "~Chi-Min_Chan1",
+        "~Chunpu_Xu2",
+        "~Ruibin_Yuan1",
+        "~Hongyin_Luo1",
+        "~Wei_Xue5",
+        "~Yike_Guo1",
+        "~Jie_Fu2"
+      ],
+      "affiliations": [
+        "Hong Kong University of Science and Technology"
+      ],
+      "first_institute": "Hong Kong University of Science and Technology"
+    },
+    {
+      "paper_id": "colm2024:llm-datasets-an-open-framework-for-pretraining-datasets-of-large-languag:75c785e553",
+      "title": "LLM-Datasets: An Open Framework for Pretraining Datasets of Large Language Models",
+      "paper_url": "https://openreview.net/forum?id=5RdIMlGLXL",
+      "authorids": [
+        "~Malte_Ostendorff1",
+        "~Pedro_Ortiz_Suarez1",
+        "~Lucas_Fonseca_Lage1",
+        "~Georg_Rehm1"
+      ],
+      "affiliations": [
+        "Humboldt-Universität zu Berlin"
+      ],
+      "first_institute": "Humboldt-Universität zu Berlin"
+    },
+    {
+      "paper_id": "colm2024:length-controlled-alpacaeval-a-simple-debiasing-of-automatic-evaluators:c09f84d124",
+      "title": "Length-Controlled AlpacaEval: A Simple Debiasing of Automatic Evaluators",
+      "paper_url": "https://openreview.net/forum?id=CybBmzWBX0",
+      "authorids": [
+        "~Yann_Dubois1",
+        "~Percy_Liang1",
+        "~Tatsunori_Hashimoto1"
+      ],
+      "affiliations": [
+        "OpenAI",
+        "Stanford University"
+      ],
+      "first_institute": "OpenAI"
+    },
+    {
+      "paper_id": "colm2024:minicpm-unveiling-the-potential-of-small-language-models-with-scalable-t:90e4e6f31f",
+      "title": "MiniCPM: Unveiling the Potential of Small Language Models with Scalable Training Strategies",
+      "paper_url": "https://openreview.net/forum?id=3X2L2TFr0f",
+      "authorids": [
+        "~Shengding_Hu2",
+        "~Yuge_Tu3",
+        "~Xu_Han2",
+        "~Ganqu_Cui1",
+        "~Chaoqun_He1",
+        "~Weilin_Zhao1",
+        "~Xiang_Long2",
+        "~Zhi_Zheng4",
+        "~Yewei_Fang1",
+        "~Yuxiang_Huang3",
+        "~Xinrong_Zhang1",
+        "~Zhen_Leng_Thai1",
+        "~Chongyi_Wang1",
+        "~Yuan_Yao12",
+        "~Chenyang_Zhao6",
+        "~Jie_Zhou10",
+        "~Jie_Cai2",
+        "~Zhongwu_Zhai1",
+        "~Ning_Ding5",
+        "~Chao_Jia2",
+        "~Guoyang_Zeng1",
+        "~dahai_li1",
+        "~Zhiyuan_Liu1",
+        "~Maosong_Sun1"
+      ],
+      "affiliations": [
+        "ModelBest",
+        "UCLA Computer Science Department, University of California, Los Angeles",
+        "modelbest",
+        "Tsinghua University"
+      ],
+      "first_institute": "ModelBest"
+    },
+    {
+      "paper_id": "colm2024:exovip-step-by-step-verification-and-exploration-with-exoskeleton-module:7873f41332",
+      "title": "ExoViP: Step-by-step Verification and Exploration with Exoskeleton Modules for Compositional Visual Reasoning",
+      "paper_url": "https://openreview.net/forum?id=6U1FEKP7Ar",
+      "authorids": [
+        "~Yuxuan_Wang4",
+        "~Alan_Yuille1",
+        "~Zhuowan_Li1",
+        "~Zilong_Zheng1"
+      ],
+      "affiliations": [
+        "Johns Hopkins University"
+      ],
+      "first_institute": "Johns Hopkins University"
+    },
+    {
+      "paper_id": "colm2024:why-do-small-language-models-underperform-studying-language-model-satura:2c2791d3eb",
+      "title": "Why do small language models underperform? Studying Language Model Saturation via the Softmax Bottleneck",
+      "paper_url": "https://openreview.net/forum?id=MoitXWlXcS",
+      "authorids": [
+        "~Nathan_Godey1",
+        "~Éric_Villemonte_de_la_Clergerie1",
+        "~Benoît_Sagot1"
+      ],
+      "affiliations": [
+        "Inria"
+      ],
+      "first_institute": "Inria"
+    },
+    {
+      "paper_id": "colm2024:timo-towards-better-temporal-reasoning-for-language-models:a9ea805e34",
+      "title": "Timo: Towards Better Temporal Reasoning for Language Models",
+      "paper_url": "https://openreview.net/forum?id=3TzGD95Jw1",
+      "authorids": [
+        "~Zhaochen_Su1",
+        "~Jun_Zhang39",
+        "~Tong_Zhu2",
+        "~Xiaoye_Qu1",
+        "~Juntao_Li2",
+        "~Min_zhang14",
+        "~Yu_Cheng1"
+      ],
+      "affiliations": [
+        "Soochow University",
+        "Soochow University, China"
+      ],
+      "first_institute": "Soochow University"
+    },
+    {
+      "paper_id": "colm2024:llm-as-a-mastermind-a-survey-of-strategic-reasoning-with-large-language:c3e69cc53f",
+      "title": "LLM as a Mastermind: A Survey of Strategic Reasoning with Large Language Models",
+      "paper_url": "https://openreview.net/forum?id=iMqJsQ4evS",
+      "authorids": [
+        "~Yadong_Zhang1",
+        "~Shaoguang_Mao1",
+        "~Tao_Ge1",
+        "~Xun_Wang5",
+        "~Yan_Xia7",
+        "~Wenshan_Wu1",
+        "~Ting_Song2",
+        "~Man_Lan1",
+        "~Furu_Wei1"
+      ],
+      "affiliations": [
+        "Microsoft Research"
+      ],
+      "first_institute": "Microsoft Research"
+    },
+    {
+      "paper_id": "colm2024:keep-the-cost-down-a-review-on-methods-to-optimize-llms-kv-cache-consump:cad7a55304",
+      "title": "Keep the Cost Down: A Review on Methods to Optimize LLM’s KV-Cache Consumption",
+      "paper_url": "https://openreview.net/forum?id=8tKjqqMM5z",
+      "authorids": [
+        "~Shi_Luohe1",
+        "~Hongyi_Zhang5",
+        "~Yao_Yao8",
+        "~Zuchao_Li1",
+        "~hai_zhao1"
+      ],
+      "affiliations": [
+        "Wuhan University",
+        "Shanghai Jiao Tong University"
+      ],
+      "first_institute": "Wuhan University"
+    },
+    {
+      "paper_id": "colm2024:hgrn2-gated-linear-rnns-with-state-expansion:5f7aac4325",
+      "title": "HGRN2: Gated Linear RNNs with State Expansion",
+      "paper_url": "https://openreview.net/forum?id=y6SqbJfCSk",
+      "authorids": [
+        "~Zhen_Qin6",
+        "~Songlin_Yang1",
+        "~Weixuan_Sun1",
+        "~Xuyang_Shen1",
+        "~Dong_Li11",
+        "~Weigao_Sun1",
+        "~Yiran_Zhong1"
+      ],
+      "affiliations": [
+        "Minimax"
+      ],
+      "first_institute": "Minimax"
+    },
+    {
+      "paper_id": "colm2024:react-meets-actre-autonomous-annotation-of-agent-trajectories-for-contra:36e2d0f2aa",
+      "title": "ReAct Meets ActRe: Autonomous Annotation of Agent Trajectories for Contrastive Self-Training",
+      "paper_url": "https://openreview.net/forum?id=0VLBwQGWpA",
+      "authorids": [
+        "~Zonghan_Yang1",
+        "~Peng_Li2",
+        "~Ming_Yan2",
+        "~Ji_Zhang3",
+        "~Fei_Huang1",
+        "~Yang_Liu19"
+      ],
+      "affiliations": [
+        "Alibaba Group US"
+      ],
+      "first_institute": "Alibaba Group US"
+    },
+    {
+      "paper_id": "colm2024:adamole-fine-tuning-large-language-models-with-adaptive-mixture-of-low-r:dd97a244fc",
+      "title": "AdaMoLE: Fine-Tuning Large Language Models with Adaptive Mixture of Low-Rank Adaptation Experts",
+      "paper_url": "https://openreview.net/forum?id=ndY9qFf9Sa",
+      "authorids": [
+        "~Zefang_Liu1",
+        "~Jiahua_Luo1"
+      ],
+      "affiliations": [
+        "University of Macau"
+      ],
+      "first_institute": "University of Macau"
+    },
+    {
+      "paper_id": "colm2024:nofuneval-funny-how-code-lms-falter-on-requirements-beyond-functional-co:6a882d5e39",
+      "title": "NoFunEval: Funny How Code LMs Falter on Requirements Beyond Functional Correctness",
+      "paper_url": "https://openreview.net/forum?id=h5umhm6mzj",
+      "authorids": [
+        "~Manav_Singhal1",
+        "~Tushar_Aggarwal1",
+        "~Abhijeet_Awasthi1",
+        "~Nagarajan_Natarajan1",
+        "~Aditya_Kanade2"
+      ],
+      "affiliations": [
+        "Microsoft"
+      ],
+      "first_institute": "Microsoft"
+    },
+    {
+      "paper_id": "colm2024:can-mllms-perform-text-to-image-in-context-learning:1b4845ae6f",
+      "title": "Can MLLMs Perform Text-to-Image In-Context Learning?",
+      "paper_url": "https://openreview.net/forum?id=jt0R50d5nk",
+      "authorids": [
+        "~Yuchen_Zeng1",
+        "~Wonjun_Kang1",
+        "~Yicong_Chen1",
+        "~Hyung_Il_Koo1",
+        "~Kangwook_Lee1"
+      ],
+      "affiliations": [
+        "University of Wisconsin - Madison"
+      ],
+      "first_institute": "University of Wisconsin - Madison"
+    },
+    {
+      "paper_id": "colm2024:pairwise-proximal-policy-optimization-language-model-alignment-with-comp:44baf7f26f",
+      "title": "Pairwise Proximal Policy Optimization: Language Model Alignment with Comparative RL",
+      "paper_url": "https://openreview.net/forum?id=7iaAlIlV2H",
+      "authorids": [
+        "~Tianhao_Wu1",
+        "~Banghua_Zhu1",
+        "~Ruoyu_Zhang1",
+        "~Zhaojin_Wen1",
+        "~Kannan_Ramchandran1",
+        "~Jiantao_Jiao1"
+      ],
+      "affiliations": [
+        "University of California Berkeley"
+      ],
+      "first_institute": "University of California Berkeley"
+    },
+    {
+      "paper_id": "colm2024:top-leaderboard-ranking-top-coding-proficiency-always-evoeval-evolving-c:4d69ae773b",
+      "title": "Top Leaderboard Ranking = Top Coding Proficiency, Always? EvoEval: Evolving Coding Benchmarks via LLM",
+      "paper_url": "https://openreview.net/forum?id=zZa7Ke7WAJ",
+      "authorids": [
+        "~Chunqiu_Steven_Xia1",
+        "~Yinlin_Deng1",
+        "~LINGMING_ZHANG2"
+      ],
+      "affiliations": [
+        "University of Illinois at Urbana-Champaign",
+        "University of Illinois Urbana-Champaign"
+      ],
+      "first_institute": "University of Illinois at Urbana-Champaign"
+    },
+    {
+      "paper_id": "colm2024:beyond-relevance-evaluate-and-improve-retrievers-on-perspective-awarenes:b972653bc6",
+      "title": "Beyond Relevance: Evaluate and Improve Retrievers on Perspective Awareness",
+      "paper_url": "https://openreview.net/forum?id=7VPKtz8CHN",
+      "authorids": [
+        "~Xinran_Zhao1",
+        "~Tong_Chen3",
+        "~Sihao_Chen1",
+        "~Hongming_Zhang2",
+        "~Tongshuang_Wu1"
+      ],
+      "affiliations": [
+        "CMU, Carnegie Mellon University",
+        "Tencent AI Lab Seattle",
+        "School of Computer Science, Carnegie Mellon University"
+      ],
+      "first_institute": "CMU, Carnegie Mellon University"
+    },
+    {
+      "paper_id": "colm2024:adaptive-quantization-error-reconstruction-for-llms-with-mixed-precision:888ad4b5c0",
+      "title": "Adaptive Quantization Error Reconstruction for LLMs with Mixed Precision",
+      "paper_url": "https://openreview.net/forum?id=T5pGDydMkS",
+      "authorids": [
+        "~Lin_Ou1",
+        "~Jinpeng_Xia1",
+        "~Yuewei_Zhang1",
+        "~Chuzhan_Hao1",
+        "~Hao_Henry_Wang1"
+      ],
+      "affiliations": [
+        "Alibaba Group"
+      ],
+      "first_institute": "Alibaba Group"
+    },
+    {
+      "paper_id": "colm2024:illusionvqa-a-challenging-optical-illusion-dataset-for-vision-language-m:12f0fddaf8",
+      "title": "IllusionVQA: A Challenging Optical Illusion Dataset for Vision Language Models",
+      "paper_url": "https://openreview.net/forum?id=7ysaJGs7zY",
+      "authorids": [
+        "~Haz_Sameen_Shahgir1",
+        "~Khondker_Salman_Sayeed1",
+        "~Abhik_Bhattacharjee1",
+        "~Wasi_Uddin_Ahmad1",
+        "~Yue_Dong2",
+        "~Rifat_Shahriyar1"
+      ],
+      "affiliations": [
+        "Bangladesh University of Engineering and Technology"
+      ],
+      "first_institute": "Bangladesh University of Engineering and Technology"
+    },
+    {
+      "paper_id": "colm2024:helping-or-herding-reward-model-ensembles-mitigate-but-do-not-eliminate:95394bd105",
+      "title": "Helping or Herding? Reward Model Ensembles Mitigate but do not Eliminate Reward Hacking",
+      "paper_url": "https://openreview.net/forum?id=5u1GpUkKtG",
+      "authorids": [
+        "~Jacob_Eisenstein1",
+        "~Chirag_Nagpal1",
+        "~Alekh_Agarwal2",
+        "~Ahmad_Beirami1",
+        "~Alexander_D'Amour1",
+        "~Krishnamurthy_Dj_Dvijotham1",
+        "~Adam_Fisch2",
+        "~Katherine_A_Heller1",
+        "~Stephen_Robert_Pfohl1",
+        "~Deepak_Ramachandran2",
+        "~Peter_Shaw1",
+        "~Jonathan_Berant1"
+      ],
+      "affiliations": [
+        "Google",
+        "Google DeepMind"
+      ],
+      "first_institute": "Google"
+    },
+    {
+      "paper_id": "colm2024:styletalker-finetuning-audio-language-model-and-style-based-text-to-spee:ab9bc76131",
+      "title": "StyleTalker: Finetuning Audio Language Model and Style-Based Text-to-Speech Model for Fast Spoken Dialogue Generation",
+      "paper_url": "https://openreview.net/forum?id=Szp33itD10",
+      "authorids": [
+        "~Yinghao_Aaron_Li1",
+        "~Xilin_Jiang1",
+        "~Jordan_Darefsky1",
+        "~Ge_Zhu1",
+        "~Nima_Mesgarani1"
+      ],
+      "affiliations": [
+        "Adobe Research"
+      ],
+      "first_institute": "Adobe Research"
+    },
+    {
+      "paper_id": "colm2024:hummer-towards-limited-competitive-preference-dataset:f1ea615de2",
+      "title": "Hummer: Towards Limited Competitive Preference Dataset",
+      "paper_url": "https://openreview.net/forum?id=aKwQPRjdGa",
+      "authorids": [
+        "~Yusen_Wu2",
+        "~Li_Jiang4",
+        "~Junwu_Xiong1",
+        "~Jingqing_Ruan1",
+        "~Yichuan_Ding1",
+        "~Qingpei_Guo1",
+        "~zujie_wen1",
+        "~JUN_ZHOU6",
+        "~Xiaotie_Deng1"
+      ],
+      "affiliations": [
+        "McGill University",
+        "antgroup",
+        "Meituan",
+        "Ant Group"
+      ],
+      "first_institute": "McGill University"
+    },
+    {
+      "paper_id": "colm2024:do-large-language-models-have-compositional-ability-an-investigation-int:07e3a74b5f",
+      "title": "Do Large Language Models Have Compositional Ability? An Investigation into Limitations and Scalability",
+      "paper_url": "https://openreview.net/forum?id=iI1CzEhEMU",
+      "authorids": [
+        "~Zhuoyan_Xu1",
+        "~Zhenmei_Shi1",
+        "~Yingyu_Liang1"
+      ],
+      "affiliations": [
+        "University of Wisconsin - Madison",
+        "Google"
+      ],
+      "first_institute": "University of Wisconsin - Madison"
+    },
+    {
+      "paper_id": "colm2024:mambabyte-token-free-selective-state-space-model:fd76cf71e3",
+      "title": "MambaByte: Token-free Selective State Space Model",
+      "paper_url": "https://openreview.net/forum?id=X1xNsuKssb",
+      "authorids": [
+        "~Junxiong_Wang1",
+        "~Tushaar_Gangavarapu1",
+        "~Jing_Nathan_Yan1",
+        "~Alexander_M_Rush1"
+      ],
+      "affiliations": [
+        "Cornell University"
+      ],
+      "first_institute": "Cornell University"
+    },
+    {
+      "paper_id": "colm2024:decoupling-noise-and-toxic-parameters-for-language-model-detoxification:7e8e9cf41d",
+      "title": "Decoupling Noise and Toxic Parameters for Language Model Detoxification by Task Vector Merging",
+      "paper_url": "https://openreview.net/forum?id=TBNYjdOazs",
+      "authorids": [
+        "~Yongmin_Kim2",
+        "~Takeshi_Kojima1",
+        "~Yusuke_Iwasawa1",
+        "~Yutaka_Matsuo1"
+      ],
+      "affiliations": [
+        "The University of Tokyo"
+      ],
+      "first_institute": "The University of Tokyo"
+    },
+    {
+      "paper_id": "colm2024:are-language-models-robust-coreference-resolvers:6ff0e2eeb7",
+      "title": "Are Language Models Robust Coreference Resolvers?",
+      "paper_url": "https://openreview.net/forum?id=MmBQSNHKUl",
+      "authorids": [
+        "~Nghia_T._Le2",
+        "~Alan_Ritter1"
+      ],
+      "affiliations": [
+        "Georgia Institute of Technology"
+      ],
+      "first_institute": "Georgia Institute of Technology"
+    },
+    {
+      "paper_id": "colm2024:certifying-llm-safety-against-adversarial-prompting:337f3433b2",
+      "title": "Certifying LLM Safety against Adversarial Prompting",
+      "paper_url": "https://openreview.net/forum?id=9Ik05cycLq",
+      "authorids": [
+        "~Aounon_Kumar1",
+        "~Chirag_Agarwal1",
+        "~Suraj_Srinivas1",
+        "~Aaron_Jiaxun_Li1",
+        "~Soheil_Feizi2",
+        "~Himabindu_Lakkaraju1"
+      ],
+      "affiliations": [
+        "Harvard University"
+      ],
+      "first_institute": "Harvard University"
+    },
+    {
+      "paper_id": "colm2024:is-model-collapse-inevitable-breaking-the-curse-of-recursion-by-accumula:7abe3ba0ff",
+      "title": "Is Model Collapse Inevitable? Breaking the Curse of Recursion by Accumulating Real and Synthetic Data",
+      "paper_url": "https://openreview.net/forum?id=5B2K4LRgmz",
+      "authorids": [
+        "~Matthias_Gerstgrasser1",
+        "~Rylan_Schaeffer2",
+        "~Apratim_Dey1",
+        "~Rafael_Rafailov1",
+        "~Tomasz_Korbak1",
+        "~Henry_Sleight1",
+        "~Rajashree_Agrawal1",
+        "~John_Hughes4",
+        "~Dhruv_Bhandarkar_Pai1",
+        "~Andrey_Gromov1",
+        "~Dan_Roberts1",
+        "~Diyi_Yang2",
+        "~David_L._Donoho1",
+        "~Sanmi_Koyejo1"
+      ],
+      "affiliations": [
+        "Stanford University",
+        "Facebook"
+      ],
+      "first_institute": "Stanford University"
+    },
+    {
+      "paper_id": "colm2024:a-reparameterized-discrete-diffusion-model-for-text-generation:8e53beaea1",
+      "title": "A Reparameterized Discrete Diffusion Model for Text Generation",
+      "paper_url": "https://openreview.net/forum?id=PEQFHRUFca",
+      "authorids": [
+        "~Lin_Zheng1",
+        "~Jianbo_Yuan1",
+        "~Lei_Yu4",
+        "~Lingpeng_Kong1"
+      ],
+      "affiliations": [
+        "The University of Hong Kong",
+        "Amazon",
+        "DeepMind",
+        "Department of Computer Science, The University of Hong Kong"
+      ],
+      "first_institute": "The University of Hong Kong"
+    },
+    {
+      "paper_id": "colm2024:catcode-a-comprehensive-evaluation-framework-for-llms-on-the-mixture-of:7eda397e20",
+      "title": "CatCode: A Comprehensive Evaluation Framework for LLMs On the Mixture of Code and Text",
+      "paper_url": "https://openreview.net/forum?id=didvEO1can",
+      "authorids": [
+        "~Zhenru_Lin1",
+        "~Yiqun_Yao1",
+        "~Yang_Yuan4"
+      ],
+      "affiliations": [
+        "Tsinghua University"
+      ],
+      "first_institute": "Tsinghua University"
+    },
+    {
+      "paper_id": "colm2024:characterizing-multimodal-long-form-summarization-a-case-study-on-financ:322cf111e7",
+      "title": "Characterizing Multimodal Long-form Summarization: A Case Study on Financial Reports",
+      "paper_url": "https://openreview.net/forum?id=hDoN0CAy5e",
+      "authorids": [
+        "~Tianyu_Cao2",
+        "~Natraj_Raman3",
+        "~Danial_Dervovic1",
+        "~Chenhao_Tan1"
+      ],
+      "affiliations": [
+        "J.P. Morgan Chase",
+        "University of Chicago"
+      ],
+      "first_institute": "J.P. Morgan Chase"
+    },
+    {
+      "paper_id": "colm2024:measuring-and-controlling-instruction-in-stability-in-language-model-dia:c21e127e9f",
+      "title": "Measuring and Controlling Instruction (In)Stability in Language Model Dialogs",
+      "paper_url": "https://openreview.net/forum?id=60a1SAtH4e",
+      "authorids": [
+        "~Kenneth_Li1",
+        "~Tianle_Liu1",
+        "~Naomi_Bashkansky1",
+        "~David_Bau1",
+        "~Fernanda_Viégas1",
+        "~Hanspeter_Pfister1",
+        "~Martin_Wattenberg1"
+      ],
+      "affiliations": [
+        "Northeastern University"
+      ],
+      "first_institute": "Northeastern University"
+    },
+    {
+      "paper_id": "colm2024:llm4causal-democratized-causal-tools-for-everyone-via-large-language-mod:3da3ab60a6",
+      "title": "LLM4Causal: Democratized Causal Tools for Everyone via Large Language Model",
+      "paper_url": "https://openreview.net/forum?id=H1Edd5d2JP",
+      "authorids": [
+        "~Haitao_Jiang1",
+        "~Lin_Ge1",
+        "~Yuhe_Gao1",
+        "~Jianian_Wang1",
+        "~Rui_Song2"
+      ],
+      "affiliations": [
+        "North Carolina State University"
+      ],
+      "first_institute": "North Carolina State University"
+    },
+    {
+      "paper_id": "colm2024:lets-think-dot-by-dot-hidden-computation-in-transformer-language-models:92e400911e",
+      "title": "Let’s Think Dot by Dot: Hidden computation in transformer language models",
+      "paper_url": "https://openreview.net/forum?id=NikbrdtYvG",
+      "authorids": [
+        "~Jacob_Pfau1",
+        "~William_Merrill1",
+        "~Samuel_R._Bowman1"
+      ],
+      "affiliations": [
+        "New York University"
+      ],
+      "first_institute": "New York University"
+    },
+    {
+      "paper_id": "colm2024:amplegcg-learning-a-universal-and-transferable-generative-model-of-adver:8523e66e69",
+      "title": "AmpleGCG: Learning a Universal and Transferable Generative Model of Adversarial Suffixes for Jailbreaking Both Open and Closed LLMs",
+      "paper_url": "https://openreview.net/forum?id=UfqzXg95I5",
+      "authorids": [
+        "~Zeyi_Liao1",
+        "~Huan_Sun1"
+      ],
+      "affiliations": [
+        "The Ohio State University, Columbus"
+      ],
+      "first_institute": "The Ohio State University, Columbus"
+    },
+    {
+      "paper_id": "colm2024:hydra-sequentially-dependent-draft-heads-for-medusa-decoding:020d6aa1fb",
+      "title": "Hydra: Sequentially-Dependent Draft Heads for Medusa Decoding",
+      "paper_url": "https://openreview.net/forum?id=FbhjirzvJG",
+      "authorids": [
+        "~Zachary_Ankner1",
+        "~Rishab_Parthasarathy1",
+        "~Aniruddha_Nrusimha1",
+        "~Christopher_Rinard1",
+        "~Jonathan_Ragan-Kelley1",
+        "~William_Brandon1"
+      ],
+      "affiliations": [
+        "MIT"
+      ],
+      "first_institute": "MIT"
+    },
+    {
+      "paper_id": "colm2024:instruction-mining-instruction-data-selection-for-tuning-large-language:5d6be73f7e",
+      "title": "Instruction Mining: Instruction Data Selection for Tuning Large Language Models",
+      "paper_url": "https://openreview.net/forum?id=wF6k0aWjAu",
+      "authorids": [
+        "~Yihan_Cao1",
+        "~Yanbin_Kang1",
+        "~Chi_Wang3",
+        "~Lichao_Sun1"
+      ],
+      "affiliations": [
+        "Google DeepMind"
+      ],
+      "first_institute": "Google DeepMind"
+    },
+    {
+      "paper_id": "colm2024:long-form-answers-to-visual-questions-from-blind-and-low-vision-people:e1de63b485",
+      "title": "Long-Form Answers to Visual Questions from Blind and Low Vision People",
+      "paper_url": "https://openreview.net/forum?id=z7FvXbyyrM",
+      "authorids": [
+        "~Mina_Huh1",
+        "~Fangyuan_Xu1",
+        "~Yi-Hao_Peng1",
+        "~Chongyan_Chen1",
+        "~Hansika_Murugu1",
+        "~Danna_Gurari2",
+        "~Eunsol_Choi1",
+        "~Amy_Pavel1"
+      ],
+      "affiliations": [
+        "University of Texas at Austin",
+        "New York University",
+        "Google"
+      ],
+      "first_institute": "University of Texas at Austin"
+    },
+    {
+      "paper_id": "colm2024:synergpt-in-context-learning-for-personalized-drug-synergy-prediction-an:75cedb0c6e",
+      "title": "SynerGPT: In-Context Learning for Personalized Drug Synergy Prediction and Drug Design",
+      "paper_url": "https://openreview.net/forum?id=Aaz6R4Tlwv",
+      "authorids": [
+        "~Carl_Edwards1",
+        "~Aakanksha_Naik1",
+        "~Tushar_Khot1",
+        "~Martin_D._Burke1",
+        "~Heng_Ji3",
+        "~Tom_Hope2"
+      ],
+      "affiliations": [
+        "Allen Institute for Artificial Intelligence"
+      ],
+      "first_institute": "Allen Institute for Artificial Intelligence"
+    },
+    {
+      "paper_id": "colm2024:culture-gen-revealing-global-cultural-perception-in-language-models-thro:48ce1a29f5",
+      "title": "CULTURE-GEN: Revealing Global Cultural Perception in Language Models through Natural Language Prompting",
+      "paper_url": "https://openreview.net/forum?id=DbsLm2KAqP",
+      "authorids": [
+        "~Huihan_Li1",
+        "~Liwei_Jiang2",
+        "~Nouha_Dziri2",
+        "~Xiang_Ren1",
+        "~Yejin_Choi1"
+      ],
+      "affiliations": [
+        "University of Southern California"
+      ],
+      "first_institute": "University of Southern California"
+    },
+    {
+      "paper_id": "colm2024:a-survey-on-deep-learning-for-theorem-proving:7d510dc7dd",
+      "title": "A Survey on Deep Learning for Theorem Proving",
+      "paper_url": "https://openreview.net/forum?id=zlw6AHwukB",
+      "authorids": [
+        "~Zhaoyu_Li3",
+        "~Jialiang_Sun2",
+        "~Logan_Murphy1",
+        "~Qidong_Su1",
+        "~Zenan_Li3",
+        "~Xian_Zhang4",
+        "~Kaiyu_Yang1",
+        "~Xujie_Si1"
+      ],
+      "affiliations": [
+        "Department of Computer Science, University of Toronto",
+        "University of Toronto",
+        "Meta"
+      ],
+      "first_institute": "Department of Computer Science, University of Toronto"
+    },
+    {
+      "paper_id": "colm2024:gpqa-a-graduate-level-google-proof-q-a-benchmark:5830893174",
+      "title": "GPQA: A Graduate-Level Google-Proof Q&A Benchmark",
+      "paper_url": "https://openreview.net/forum?id=Ti67584b98",
+      "authorids": [
+        "~David_Rein1",
+        "~Betty_Li_Hou1",
+        "~Asa_Cooper_Stickland1",
+        "~Jackson_Petty1",
+        "~Richard_Yuanzhe_Pang1",
+        "~Julien_Dirani1",
+        "~Julian_Michael1",
+        "~Samuel_R._Bowman1"
+      ],
+      "affiliations": [
+        "New York University"
+      ],
+      "first_institute": "New York University"
+    },
+    {
+      "paper_id": "colm2024:from-narratives-to-numbers-valid-inference-using-language-model-predicti:8d367b99ca",
+      "title": "From Narratives to Numbers: Valid Inference Using Language Model Predictions from Verbal Autopsies",
+      "paper_url": "https://openreview.net/forum?id=QbCHlIqbDJ",
+      "authorids": [
+        "~Shuxian_Fan1",
+        "~Adam_Visokay1",
+        "~Kentaro_Hoffman1",
+        "~Stephen_Salerno1",
+        "~Li_Liu18",
+        "~Jeffrey_T._Leek1",
+        "~Tyler_McCormick1"
+      ],
+      "affiliations": [
+        "University of Washington"
+      ],
+      "first_institute": "University of Washington"
+    },
+    {
+      "paper_id": "colm2024:understanding-retrieval-augmentation-for-long-form-question-answering:a52bda94a6",
+      "title": "Understanding Retrieval Augmentation for Long-Form Question Answering",
+      "paper_url": "https://openreview.net/forum?id=j3AAkO5xgr",
+      "authorids": [
+        "~Hung-Ting_Chen1",
+        "~Fangyuan_Xu1",
+        "~Shane_Arora1",
+        "~Eunsol_Choi1"
+      ],
+      "affiliations": [
+        "University of Texas at Austin",
+        "New York University"
+      ],
+      "first_institute": "University of Texas at Austin"
+    },
+    {
+      "paper_id": "colm2024:building-a-large-japanese-web-corpus-for-large-language-models:2052117d8f",
+      "title": "Building a Large Japanese Web Corpus for Large Language Models",
+      "paper_url": "https://openreview.net/forum?id=N5EYQSwW26",
+      "authorids": [
+        "~Naoaki_Okazaki2",
+        "~Kakeru_Hattori1",
+        "~Hirai_Shota1",
+        "~Hiroki_Iida1",
+        "~Masanari_Ohi1",
+        "~Kazuki_Fujii1",
+        "~Taishi_Nakamura1",
+        "~Mengsay_Loem1",
+        "~Rio_Yokota1",
+        "~Sakae_Mizuki1"
+      ],
+      "affiliations": [
+        "Tokyo Institute of Technology, Tokyo Institute of Technology"
+      ],
+      "first_institute": "Tokyo Institute of Technology, Tokyo Institute of Technology"
+    },
+    {
+      "paper_id": "colm2024:handling-open-vocabulary-constructs-in-formalizing-specifications-retrie:e363f05e5f",
+      "title": "Handling Open-Vocabulary Constructs in Formalizing Specifications: Retrieval Augmented Parsing with Expert Knowledge",
+      "paper_url": "https://openreview.net/forum?id=BgvgMxY8s5",
+      "authorids": [
+        "~Mohammad_Saqib_Hasan1",
+        "~Sayontan_Ghosh1",
+        "~Dhruv_Verma3",
+        "~Geoff_Kuenning1",
+        "~Erez_Zadok2",
+        "~Scott_Smolka1",
+        "~Niranjan_Balasubramanian2"
+      ],
+      "affiliations": [
+        ", State University of New York at Stony Brook",
+        "Harvey Mudd College",
+        "SUNY at Stony Brook",
+        "State University of New York, Stony Brook"
+      ],
+      "first_institute": ", State University of New York at Stony Brook"
+    },
+    {
+      "paper_id": "colm2024:do-language-models-plan-ahead-for-future-tokens:d893bc80a0",
+      "title": "Do Language Models Plan Ahead for Future Tokens?",
+      "paper_url": "https://openreview.net/forum?id=BaOAvPUyBO",
+      "authorids": [
+        "~Wilson_Wu1",
+        "~John_Xavier_Morris1",
+        "~Lionel_Levine1"
+      ],
+      "affiliations": [
+        "Cornell University"
+      ],
+      "first_institute": "Cornell University"
+    },
+    {
+      "paper_id": "colm2024:early-weight-averaging-meets-high-learning-rates-for-llm-pre-training:42b78b5dd5",
+      "title": "Early Weight Averaging meets High Learning Rates for LLM Pre-training",
+      "paper_url": "https://openreview.net/forum?id=IA8CWtNkUr",
+      "authorids": [
+        "~Sunny_Sanyal1",
+        "~Atula_Tejaswi_Neerkaje1",
+        "~Jean_Kaddour1",
+        "~Abhishek_Kumar1",
+        "~sujay_sanghavi1"
+      ],
+      "affiliations": [
+        "Google DeepMind"
+      ],
+      "first_institute": "Google DeepMind"
+    },
+    {
+      "paper_id": "colm2024:information-guided-regularization-for-fine-tuning-language-models:758bd58807",
+      "title": "Information Guided Regularization for Fine-tuning Language Models",
+      "paper_url": "https://openreview.net/forum?id=MkppMETE49",
+      "authorids": [
+        "~Mandar_Sharma1",
+        "~Nikhil_Muralidhar1",
+        "~Shengzhe_Xu1",
+        "~Raquib_Bin_Yousuf1",
+        "~Naren_Ramakrishnan1"
+      ],
+      "affiliations": [
+        "Google",
+        "Stevens Institute of Technology"
+      ],
+      "first_institute": "Google"
+    },
+    {
+      "paper_id": "colm2024:prompt-public-large-language-models-to-synthesize-data-for-private-on-de:5a7f8b8dd3",
+      "title": "Prompt Public Large Language Models to Synthesize Data for Private On-device Applications",
+      "paper_url": "https://openreview.net/forum?id=1eg6UnpYu7",
+      "authorids": [
+        "~Shanshan_Wu1",
+        "~Zheng_Xu2",
+        "~Yanxiang_Zhang1",
+        "~Yuanbo_Zhang2",
+        "~Daniel_Ramage1"
+      ],
+      "affiliations": [
+        "Research, Google"
+      ],
+      "first_institute": "Research, Google"
+    },
+    {
+      "paper_id": "colm2024:probelm-plausibility-ranking-evaluation-for-language-models:52b50bc4d0",
+      "title": "PRobELM: Plausibility Ranking Evaluation for Language Models",
+      "paper_url": "https://openreview.net/forum?id=k8KS9Ps71d",
+      "authorids": [
+        "~Moy_Yuan1",
+        "~Eric_Chamoun1",
+        "~Rami_Aly1",
+        "~Chenxi_Whitehouse1",
+        "~Andreas_Vlachos1"
+      ],
+      "affiliations": [
+        "University of Cambridge"
+      ],
+      "first_institute": "University of Cambridge"
+    },
+    {
+      "paper_id": "colm2024:beyond-a-better-planning-with-transformers-via-search-dynamics-bootstrap:b6f72f8546",
+      "title": "Beyond A*: Better Planning with Transformers via Search Dynamics Bootstrapping",
+      "paper_url": "https://openreview.net/forum?id=SGoVIC0u0f",
+      "authorids": [
+        "~Lucas_Lehnert1",
+        "~Sainbayar_Sukhbaatar1",
+        "~DiJia_Su1",
+        "~Qinqing_Zheng1",
+        "~Paul_McVay2",
+        "~Michael_Rabbat1",
+        "~Yuandong_Tian1"
+      ],
+      "affiliations": [
+        "University of Saskatchewan"
+      ],
+      "first_institute": "University of Saskatchewan"
+    },
+    {
+      "paper_id": "colm2024:lmd3-language-model-data-density-dependence:3584260c38",
+      "title": "LMD3: Language Model Data Density Dependence",
+      "paper_url": "https://openreview.net/forum?id=eGCw1UVOhk",
+      "authorids": [
+        "~John_Kirchenbauer1",
+        "~Garrett_Honke1",
+        "~Gowthami_Somepalli1",
+        "~Jonas_Geiping1",
+        "~Katherine_Lee1",
+        "~Daphne_Ippolito1",
+        "~Tom_Goldstein1",
+        "~David_Andre2"
+      ],
+      "affiliations": [
+        "Carnegie Mellon University",
+        "Google"
+      ],
+      "first_institute": "Carnegie Mellon University"
+    },
+    {
+      "paper_id": "colm2024:envgen-generating-and-adapting-environments-via-llms-for-training-embodi:1b4451c9de",
+      "title": "EnvGen: Generating and Adapting Environments via LLMs for Training Embodied Agents",
+      "paper_url": "https://openreview.net/forum?id=F9tqgOPXH5",
+      "authorids": [
+        "~Abhay_Zala1",
+        "~Jaemin_Cho1",
+        "~Han_Lin1",
+        "~Jaehong_Yoon1",
+        "~Mohit_Bansal2"
+      ],
+      "affiliations": [
+        "Department of Computer Science, University of North Carolina at Chapel Hill"
+      ],
+      "first_institute": "Department of Computer Science, University of North Carolina at Chapel Hill"
+    },
+    {
+      "paper_id": "colm2024:model-autophagy-analysis-to-explicate-self-consumption-within-human-ai-i:e57677ca34",
+      "title": "Model Autophagy Analysis to Explicate Self-consumption within Human-AI Interactions",
+      "paper_url": "https://openreview.net/forum?id=FX4fUThO9H",
+      "authorids": [
+        "~Shu_Yang10",
+        "~Muhammad_Asif_Ali1",
+        "~Lu_Yu1",
+        "~Lijie_Hu1",
+        "~Di_Wang1"
+      ],
+      "affiliations": [
+        "Ant Group",
+        "KAUST"
+      ],
+      "first_institute": "Ant Group"
+    },
+    {
+      "paper_id": "colm2024:diagrammergpt-generating-open-domain-open-platform-diagrams-via-llm-plan:c6169a6bdd",
+      "title": "DiagrammerGPT: Generating Open-Domain, Open-Platform Diagrams via LLM Planning",
+      "paper_url": "https://openreview.net/forum?id=NV8yRJRET1",
+      "authorids": [
+        "~Abhay_Zala1",
+        "~Han_Lin1",
+        "~Jaemin_Cho1",
+        "~Mohit_Bansal2"
+      ],
+      "affiliations": [
+        "Department of Computer Science, University of North Carolina at Chapel Hill"
+      ],
+      "first_institute": "Department of Computer Science, University of North Carolina at Chapel Hill"
+    },
+    {
+      "paper_id": "colm2024:videodirectorgpt-consistent-multi-scene-video-generation-via-llm-guided:d2dde71f19",
+      "title": "VideoDirectorGPT: Consistent Multi-Scene Video Generation via LLM-Guided Planning",
+      "paper_url": "https://openreview.net/forum?id=sKNIjS2brr",
+      "authorids": [
+        "~Han_Lin1",
+        "~Abhay_Zala1",
+        "~Jaemin_Cho1",
+        "~Mohit_Bansal2"
+      ],
+      "affiliations": [
+        "Department of Computer Science, University of North Carolina at Chapel Hill"
+      ],
+      "first_institute": "Department of Computer Science, University of North Carolina at Chapel Hill"
+    },
+    {
+      "paper_id": "colm2024:towards-verifiable-text-generation-with-symbolic-references:4a244a35cb",
+      "title": "Towards Verifiable Text Generation with Symbolic References",
+      "paper_url": "https://openreview.net/forum?id=fib9qidCpY",
+      "authorids": [
+        "~Lucas_Torroba_Hennigen1",
+        "~Zejiang_Shen1",
+        "~Aniruddha_Nrusimha1",
+        "~Bernhard_Gapp1",
+        "~David_Sontag1",
+        "~Yoon_Kim1"
+      ],
+      "affiliations": [
+        "MIT"
+      ],
+      "first_institute": "MIT"
+    },
+    {
+      "paper_id": "colm2024:fakes-of-varying-shades-how-warning-affects-human-perception-and-engagem:5e835e8f19",
+      "title": "Fakes of Varying Shades: How Warning Affects Human Perception and Engagement Regarding LLM Hallucinations",
+      "paper_url": "https://openreview.net/forum?id=c30qeMg8dv",
+      "authorids": [
+        "~Mahjabin_Nahar1",
+        "~Haeseung_Seo2",
+        "~Eun-Ju_Lee1",
+        "~Aiping_Xiong1",
+        "~Dongwon_Lee1"
+      ],
+      "affiliations": [
+        "Seoul National University",
+        "The Pennsylvania State University"
+      ],
+      "first_institute": "Seoul National University"
+    },
+    {
+      "paper_id": "colm2024:does-roberta-perform-better-than-bert-in-continual-learning-an-attention:860baae94d",
+      "title": "Does RoBERTa Perform Better than BERT in Continual Learning: An Attention Sink Perspective",
+      "paper_url": "https://openreview.net/forum?id=VHhwhmtx3b",
+      "authorids": [
+        "~Xueying_Bai1",
+        "~Yifan_Sun1",
+        "~Niranjan_Balasubramanian2"
+      ],
+      "affiliations": [
+        "State University of New York, Stony Brook"
+      ],
+      "first_institute": "State University of New York, Stony Brook"
+    },
+    {
+      "paper_id": "colm2024:stronger-random-baselines-for-in-context-learning:82b091deab",
+      "title": "Stronger Random Baselines for In-Context Learning",
+      "paper_url": "https://openreview.net/forum?id=TRxQMpLUfD",
+      "authorids": [
+        "~Gregory_Yauney1",
+        "~David_Mimno1"
+      ],
+      "affiliations": [
+        "Cornell University"
+      ],
+      "first_institute": "Cornell University"
+    },
+    {
+      "paper_id": "colm2024:branch-train-mix-mixing-expert-llms-into-a-mixture-of-experts-llm:d1693e5f2d",
+      "title": "Branch-Train-MiX: Mixing Expert LLMs into a Mixture-of-Experts LLM",
+      "paper_url": "https://openreview.net/forum?id=nqLAuMOF6n",
+      "authorids": [
+        "~Sainbayar_Sukhbaatar1",
+        "~Olga_Golovneva1",
+        "~Vasu_Sharma1",
+        "~Hu_Xu1",
+        "~Xi_Victoria_Lin1",
+        "~Baptiste_Roziere1",
+        "~Jacob_Kahn1",
+        "~Shang-Wen_Li1",
+        "~Wen-tau_Yih1",
+        "~Jason_E_Weston1",
+        "~Xian_Li1"
+      ],
+      "affiliations": [
+        "Facebook",
+        "Mistral AI"
+      ],
+      "first_institute": "Facebook"
+    },
+    {
+      "paper_id": "colm2024:tofu-a-task-of-fictitious-unlearning-for-llms:c694dff9a4",
+      "title": "TOFU: A Task of Fictitious Unlearning for LLMs",
+      "paper_url": "https://openreview.net/forum?id=B41hNBoWLo",
+      "authorids": [
+        "~Pratyush_Maini1",
+        "~Zhili_Feng1",
+        "~Avi_Schwarzschild1",
+        "~Zachary_Chase_Lipton1",
+        "~J_Zico_Kolter1"
+      ],
+      "affiliations": [
+        "Carnegie Mellon University"
+      ],
+      "first_institute": "Carnegie Mellon University"
+    },
+    {
+      "paper_id": "colm2024:what-is-in-your-safe-data-identifying-benign-data-that-breaks-safety:ffd7cf2bcc",
+      "title": "What is in Your Safe Data? Identifying Benign Data that Breaks Safety",
+      "paper_url": "https://openreview.net/forum?id=Hi8jKh4HE9",
+      "authorids": [
+        "~Luxi_He1",
+        "~Mengzhou_Xia1",
+        "~Peter_Henderson1"
+      ],
+      "affiliations": [
+        "Department of Computer Science, Princeton University"
+      ],
+      "first_institute": "Department of Computer Science, Princeton University"
+    },
+    {
+      "paper_id": "colm2024:eagle-and-finch-rwkv-with-matrix-valued-states-and-dynamic-recurrence:e82f452a7f",
+      "title": "Eagle and Finch: RWKV with Matrix-Valued States and Dynamic Recurrence",
+      "paper_url": "https://openreview.net/forum?id=soz1SEiPeq",
+      "authorids": [
+        "~Bo_Peng21",
+        "~Daniel_Goldstein2",
+        "~Quentin_Gregory_Anthony1",
+        "~Alon_Albalak1",
+        "~Eric_Alcaide2",
+        "~Stella_Biderman1",
+        "~Eugene_Cheah1",
+        "~Teddy_Ferdinan1",
+        "~Kranthi_Kiran_GV1",
+        "~Haowen_Hou1",
+        "~Satyapriya_Krishna2",
+        "~Ronald_McClelland_Jr.1",
+        "~Niklas_Muennighoff1",
+        "~Fares_Obeid1",
+        "~Atsushi_Saito1",
+        "~Guangyu_Song1",
+        "~Haoqin_Tu1",
+        "~Ruichong_Zhang1",
+        "~Bingchen_Zhao1",
+        "~Qihang_Zhao2",
+        "~Jian_Zhu2",
+        "~Rui-Jie_Zhu2"
+      ],
+      "affiliations": [
+        "SynthLabs",
+        "University of Electro-Communications"
+      ],
+      "first_institute": "SynthLabs"
+    },
+    {
+      "paper_id": "colm2024:uncovering-intermediate-variables-in-transformers-using-circuit-probing:e6e52b7f42",
+      "title": "Uncovering Intermediate Variables in Transformers using Circuit Probing",
+      "paper_url": "https://openreview.net/forum?id=gUNeyiLNxr",
+      "authorids": [
+        "~Michael_A._Lepori1",
+        "~Thomas_Serre1",
+        "~Ellie_Pavlick1"
+      ],
+      "affiliations": [
+        "Brown University"
+      ],
+      "first_institute": "Brown University"
+    },
+    {
+      "paper_id": "colm2024:cohesive-conversations-enhancing-authenticity-in-multi-agent-simulated-d:85760d16a7",
+      "title": "Cohesive Conversations: Enhancing Authenticity in Multi-Agent Simulated Dialogues",
+      "paper_url": "https://openreview.net/forum?id=3ypWPhMGhV",
+      "authorids": [
+        "~KuanChao_Chu1",
+        "~Yi-Pei_Chen1",
+        "~Hideki_Nakayama1"
+      ],
+      "affiliations": [
+        "The University of Tokyo"
+      ],
+      "first_institute": "The University of Tokyo"
+    },
+    {
+      "paper_id": "colm2024:the-curious-case-of-nonverbal-abstract-reasoning-with-multi-modal-large:41fb7450ba",
+      "title": "The Curious Case of Nonverbal Abstract Reasoning with Multi-Modal Large Language Models",
+      "paper_url": "https://openreview.net/forum?id=eDWcNqiQWW",
+      "authorids": [
+        "~Kian_Ahrabian1",
+        "~Zhivar_Sourati1",
+        "~Kexuan_Sun1",
+        "~Jiarui_Zhang2",
+        "~Yifan_Jiang4",
+        "~Fred_Morstatter1",
+        "~Jay_Pujara1"
+      ],
+      "affiliations": [
+        "University of Southern California"
+      ],
+      "first_institute": "University of Southern California"
+    },
+    {
+      "paper_id": "colm2024:negative-preference-optimization-from-catastrophic-collapse-to-effective:3834e3d11b",
+      "title": "Negative Preference Optimization: From Catastrophic Collapse to Effective Unlearning",
+      "paper_url": "https://openreview.net/forum?id=MXLBXjQkmb",
+      "authorids": [
+        "~Ruiqi_Zhang2",
+        "~Licong_Lin2",
+        "~Yu_Bai1",
+        "~Song_Mei1"
+      ],
+      "affiliations": [
+        "University of California, Berkeley"
+      ],
+      "first_institute": "University of California, Berkeley"
+    },
+    {
+      "paper_id": "colm2024:large-language-model-is-not-a-multilingual-compositional-relation-reason:7637edf50a",
+      "title": "Large Language Model is not a (Multilingual) Compositional Relation Reasoner",
+      "paper_url": "https://openreview.net/forum?id=wLQ3I0F1oj",
+      "authorids": [
+        "~Jinman_Zhao2",
+        "~Xueyan_Zhang1"
+      ],
+      "affiliations": [
+        "Department of Computer Science, University of Toronto"
+      ],
+      "first_institute": "Department of Computer Science, University of Toronto"
+    },
+    {
+      "paper_id": "colm2024:helmsman-of-the-masses-evaluate-the-opinion-leadership-of-large-language:5ed6895196",
+      "title": "Helmsman of the Masses? Evaluate the Opinion Leadership of Large Language Models in the Werewolf Game",
+      "paper_url": "https://openreview.net/forum?id=xMt9kCv5YR",
+      "authorids": [
+        "~Silin_Du1",
+        "~Xiaowei_Zhang8"
+      ],
+      "affiliations": [
+        "Tsinghua University, Tsinghua University"
+      ],
+      "first_institute": "Tsinghua University, Tsinghua University"
+    },
+    {
+      "paper_id": "colm2024:factual-and-tailored-recommendation-endorsements-using-language-models-a:4e5141e04a",
+      "title": "Factual and Tailored Recommendation Endorsements using Language Models and Reinforcement Learning",
+      "paper_url": "https://openreview.net/forum?id=xI8C7sfN1H",
+      "authorids": [
+        "~Jihwan_Jeong1",
+        "~Yinlam_Chow1",
+        "~Guy_Tennenholtz4",
+        "~ChihWei_Hsu2",
+        "~Mohammad_Ghavamzadeh2",
+        "~Craig_Boutilier2"
+      ],
+      "affiliations": [
+        "Google Research",
+        "Google"
+      ],
+      "first_institute": "Google Research"
+    },
+    {
+      "paper_id": "colm2024:deductive-beam-search-decoding-deducible-rationale-for-chain-of-thought:dc8f15dda1",
+      "title": "Deductive Beam Search: Decoding Deducible Rationale for Chain-of-Thought Reasoning",
+      "paper_url": "https://openreview.net/forum?id=S1XnUsqwr7",
+      "authorids": [
+        "~Tinghui_Zhu1",
+        "~Kai_Zhang10",
+        "~Jian_Xie3",
+        "~Yu_Su2"
+      ],
+      "affiliations": [
+        "Microsoft",
+        "Fudan University"
+      ],
+      "first_institute": "Microsoft"
+    },
+    {
+      "paper_id": "colm2024:emergent-world-models-and-latent-variable-estimation-in-chess-playing-la:f0e0b53c65",
+      "title": "Emergent World Models and Latent Variable Estimation in Chess-Playing Language Models",
+      "paper_url": "https://openreview.net/forum?id=PPTrmvEnpW",
+      "authorids": [
+        "~Adam_Karvonen1"
+      ],
+      "affiliations": [
+        "Galois"
+      ],
+      "first_institute": "Galois"
+    },
+    {
+      "paper_id": "colm2024:using-natural-language-explanations-to-rescale-human-judgments:f946d748fe",
+      "title": "Using Natural Language Explanations to Rescale Human Judgments",
+      "paper_url": "https://openreview.net/forum?id=Qmq4zqdnWh",
+      "authorids": [
+        "~Manya_Wadhwa1",
+        "~Jifan_Chen1",
+        "~Junyi_Jessy_Li2",
+        "~Greg_Durrett1"
+      ],
+      "affiliations": [
+        "University of Texas at Austin"
+      ],
+      "first_institute": "University of Texas at Austin"
+    },
+    {
+      "paper_id": "colm2024:stop-reasoning-when-multimodal-llm-with-chain-of-thought-reasoning-meets:1d2149a752",
+      "title": "Stop Reasoning! When Multimodal LLM with Chain-of-Thought Reasoning Meets Adversarial Image",
+      "paper_url": "https://openreview.net/forum?id=oqYiYG8PtY",
+      "authorids": [
+        "~Zefeng_Wang1",
+        "~Zhen_Han3",
+        "~Shuo_Chen12",
+        "~Fan_Xue1",
+        "~Zifeng_Ding1",
+        "~Xun_Xiao1",
+        "~Volker_Tresp1",
+        "~Philip_Torr1",
+        "~Jindong_Gu1"
+      ],
+      "affiliations": [
+        "Technische Universität München"
+      ],
+      "first_institute": "Technische Universität München"
+    },
+    {
+      "paper_id": "colm2024:chinese-tiny-llm-pretraining-a-chinese-centered-large-language-model:ef718c2179",
+      "title": "Chinese Tiny LLM: Pretraining a Chinese-Centered Large Language Model",
+      "paper_url": "https://openreview.net/forum?id=RCdoMrg4I0",
+      "authorids": [
+        "~Xeron_Du1",
+        "~Zhouliang_Yu1",
+        "~Songyang_Gao1",
+        "~Ding_Pan1",
+        "~Cheng_Yuyang1",
+        "~Ziyang_Ma3",
+        "~Ruibin_Yuan1",
+        "~Xingwei_Qu1",
+        "~Jiaheng_Liu1",
+        "~Tianyu_Zheng1",
+        "~Xinchen_Luo1",
+        "~Guorui_Zhou1",
+        "~Wenhu_Chen3",
+        "~Ge_Zhang5"
+      ],
+      "affiliations": [
+        "Peking University"
+      ],
+      "first_institute": "Peking University"
+    },
+    {
+      "paper_id": "colm2024:scalable-model-editing-via-customized-expert-networks:502deb43d1",
+      "title": "Scalable Model Editing via Customized Expert Networks",
+      "paper_url": "https://openreview.net/forum?id=dJfBejh478",
+      "authorids": [
+        "~Zihan_Yao2",
+        "~Yu_He11",
+        "~Tianyu_Qi1",
+        "~Ming_Li38"
+      ],
+      "affiliations": [
+        "Tomorrow Advancing Life"
+      ],
+      "first_institute": "Tomorrow Advancing Life"
+    },
+    {
+      "paper_id": "colm2024:lalaeval-a-holistic-human-evaluation-framework-for-domain-specific-large:8e6c1a944b",
+      "title": "LalaEval: A Holistic Human Evaluation Framework for Domain-Specific Large Language Models",
+      "paper_url": "https://openreview.net/forum?id=tRxIB7y3wF",
+      "authorids": [
+        "~Chongyan_Sun1",
+        "~Ken_Lin2",
+        "~Shiwei_Wang5",
+        "~Hulong_Wu1",
+        "~Chengfei_Fu1",
+        "~Zhen_Wang34"
+      ],
+      "affiliations": [
+        "The Chinese University of Hong Kong",
+        "Huolala"
+      ],
+      "first_institute": "The Chinese University of Hong Kong"
+    },
+    {
+      "paper_id": "colm2024:exploiting-the-potential-of-seq2seq-models-as-robust-few-shot-learners:3ad910b6e0",
+      "title": "Exploiting the Potential of Seq2Seq Models as Robust Few-Shot Learners",
+      "paper_url": "https://openreview.net/forum?id=5Evv4tIjUI",
+      "authorids": [
+        "~Jihyeon_Lee1",
+        "~Dain_Kim1",
+        "~Doohae_Jung1",
+        "~Boseop_Kim1",
+        "~Kyoung-Woon_On1"
+      ],
+      "affiliations": [
+        "kakaocorp"
+      ],
+      "first_institute": "kakaocorp"
+    },
+    {
+      "paper_id": "colm2024:tower-an-open-multilingual-large-language-model-for-translation-related:26db64695a",
+      "title": "Tower: An Open Multilingual Large Language Model for Translation-Related Tasks",
+      "paper_url": "https://openreview.net/forum?id=EHPns3hVkj",
+      "authorids": [
+        "~Duarte_Miguel_Alves1",
+        "~José_Pombal1",
+        "~Nuno_M_Guerreiro1",
+        "~Pedro_Henrique_Martins1",
+        "~João_Alves2",
+        "~Amin_Farajian1",
+        "~Ben_Peters1",
+        "~Ricardo_Rei1",
+        "~Patrick_Fernandes1",
+        "~Sweta_Agrawal1",
+        "~Pierre_Colombo2",
+        "~José_G._C._de_Souza1",
+        "~Andre_Martins1"
+      ],
+      "affiliations": [
+        "Unbabel",
+        "Instituto Superior Técnico"
+      ],
+      "first_institute": "Unbabel"
+    },
+    {
+      "paper_id": "colm2024:redesigning-information-markets-in-the-era-of-language-models:62f750fdad",
+      "title": "Redesigning Information Markets in the Era of Language Models",
+      "paper_url": "https://openreview.net/forum?id=Zq9Dfj4nBo",
+      "authorids": [
+        "~Martin_Weiss4",
+        "~Nasim_Rahaman1",
+        "~Manuel_Wuthrich1",
+        "~Yoshua_Bengio1",
+        "~Li_Erran_Li1",
+        "~Bernhard_Schölkopf1",
+        "~Christopher_Pal1"
+      ],
+      "affiliations": [
+        "Polytechnique Montreal"
+      ],
+      "first_institute": "Polytechnique Montreal"
+    },
+    {
+      "paper_id": "colm2024:llasmol-advancing-large-language-models-for-chemistry-with-a-large-scale:97c8b65857",
+      "title": "LlaSMol: Advancing Large Language Models for Chemistry with a Large-Scale, Comprehensive, High-Quality Instruction Tuning Dataset",
+      "paper_url": "https://openreview.net/forum?id=lY6XTF9tPv",
+      "authorids": [
+        "~Botao_Yu1",
+        "~Frazier_N._Baker1",
+        "~Ziqi_Chen1",
+        "~Xia_Ning1",
+        "~Huan_Sun1"
+      ],
+      "affiliations": [
+        "The Ohio State University",
+        "The Ohio State University, Columbus"
+      ],
+      "first_institute": "The Ohio State University"
+    },
+    {
+      "paper_id": "colm2024:corex-pushing-the-boundaries-of-complex-reasoning-through-multi-model-co:2971782809",
+      "title": "Corex: Pushing the Boundaries of Complex Reasoning through Multi-Model Collaboration",
+      "paper_url": "https://openreview.net/forum?id=7BCmIWVT0V",
+      "authorids": [
+        "~Qiushi_Sun1",
+        "~Zhangyue_Yin1",
+        "~Xiang_Li24",
+        "~Zhiyong_Wu3",
+        "~Xipeng_Qiu1",
+        "~Lingpeng_Kong1"
+      ],
+      "affiliations": [
+        "Department of Computer Science, The University of Hong Kong"
+      ],
+      "first_institute": "Department of Computer Science, The University of Hong Kong"
+    },
+    {
+      "paper_id": "colm2024:elephants-never-forget-memorization-and-learning-of-tabular-data-in-larg:0c237b0a21",
+      "title": "Elephants Never Forget: Memorization and Learning of Tabular Data in Large Language Models",
+      "paper_url": "https://openreview.net/forum?id=HLoWN6m4fS",
+      "authorids": [
+        "~Sebastian_Bordt1",
+        "~Harsha_Nori1",
+        "~Vanessa_Cristiny_Rodrigues_Vasconcelos1",
+        "~Besmira_Nushi1",
+        "~Rich_Caruana1"
+      ],
+      "affiliations": [
+        "Microsoft"
+      ],
+      "first_institute": "Microsoft"
+    },
+    {
+      "paper_id": "colm2024:guiding-language-model-reasoning-with-planning-tokens:f7954ff4a8",
+      "title": "Guiding Language Model Reasoning with Planning Tokens",
+      "paper_url": "https://openreview.net/forum?id=wi9IffRhVM",
+      "authorids": [
+        "~Xinyi_Wang2",
+        "~Lucas_Caccia1",
+        "~Oleksiy_Ostapenko1",
+        "~Xingdi_Yuan2",
+        "~William_Yang_Wang2",
+        "~Alessandro_Sordoni2"
+      ],
+      "affiliations": [
+        "Microsoft"
+      ],
+      "first_institute": "Microsoft"
+    },
+    {
+      "paper_id": "colm2024:stateflow-enhancing-llm-task-solving-through-state-driven-workflows:f558a361d9",
+      "title": "StateFlow: Enhancing LLM Task-Solving through State-Driven Workflows",
+      "paper_url": "https://openreview.net/forum?id=3nTbuygoop",
+      "authorids": [
+        "~Yiran_Wu2",
+        "~Tianwei_Yue1",
+        "~Shaokun_Zhang2",
+        "~Chi_Wang3",
+        "~Qingyun_Wu2"
+      ],
+      "affiliations": [
+        "Google DeepMind"
+      ],
+      "first_institute": "Google DeepMind"
+    },
+    {
+      "paper_id": "colm2024:aligning-with-human-judgement-the-role-of-pairwise-preference-in-large-l:1557a86e0e",
+      "title": "Aligning with Human Judgement: The Role of Pairwise Preference in Large Language Model Evaluators",
+      "paper_url": "https://openreview.net/forum?id=9gdZI7c6yr",
+      "authorids": [
+        "~Yinhong_Liu1",
+        "~Han_Zhou4",
+        "~Zhijiang_Guo2",
+        "~Ehsan_Shareghi1",
+        "~Ivan_Vulić1",
+        "~Anna_Korhonen1",
+        "~Nigel_Collier1"
+      ],
+      "affiliations": [
+        "University of Cambridge"
+      ],
+      "first_institute": "University of Cambridge"
+    },
+    {
+      "paper_id": "colm2024:huatuogpt-ii-one-stage-training-for-medical-adaption-of-llms:c95a2f3eb4",
+      "title": "HuatuoGPT-II, One-stage Training for Medical Adaption of LLMs",
+      "paper_url": "https://openreview.net/forum?id=eJ3cHNu7ss",
+      "authorids": [
+        "~Junying_Chen2",
+        "~Xidong_Wang4",
+        "~Ke_Ji1",
+        "~Anningzhe_Gao1",
+        "~Feng_Jiang4",
+        "~Shunian_Chen1",
+        "~Hongbo_Zhang5",
+        "~Song_Dingjie1",
+        "~Wenya_Xie1",
+        "~Chuyi_Kong1",
+        "~Jianquan_Li1",
+        "~Xiang_Wan1",
+        "~Haizhou_Li3",
+        "~Benyou_Wang2"
+      ],
+      "affiliations": [
+        "ShenZhen research institute of big data",
+        "The Chinese University of Hong Kong, Shenzhen"
+      ],
+      "first_institute": "ShenZhen research institute of big data"
+    },
+    {
+      "paper_id": "colm2024:self-guide-better-task-specific-instruction-following-via-self-synthetic:ad3aab4fba",
+      "title": "Self-Guide: Better Task-Specific Instruction Following via Self-Synthetic Finetuning",
+      "paper_url": "https://openreview.net/forum?id=Dt6qXZsgaU",
+      "authorids": [
+        "~Chenyang_Zhao6",
+        "~Xueying_Jia1",
+        "~Vijay_Viswanathan1",
+        "~Graham_Neubig1",
+        "~Tongshuang_Wu1"
+      ],
+      "affiliations": [
+        "UCLA Computer Science Department, University of California, Los Angeles",
+        "Carnegie Mellon University",
+        "School of Computer Science, Carnegie Mellon University"
+      ],
+      "first_institute": "UCLA Computer Science Department, University of California, Los Angeles"
+    },
+    {
+      "paper_id": "colm2024:enhancing-adversarial-robustness-of-llms-with-analytic-hierarchy-process:af479ffdcb",
+      "title": "Enhancing Adversarial Robustness of LLMs with Analytic Hierarchy Process",
+      "paper_url": "https://openreview.net/forum?id=DMUGTMWrKZ",
+      "authorids": [
+        "~Jiahao_Zhao1",
+        "~Minzheng_Wang2",
+        "~Nan_Xu1",
+        "~Yin_Luo1",
+        "~Wenji_Mao1"
+      ],
+      "affiliations": [
+        "Institute of automation, Chinese academy of science, Chinese Academy of Sciences"
+      ],
+      "first_institute": "Institute of automation, Chinese academy of science, Chinese Academy of Sciences"
+    },
+    {
+      "paper_id": "colm2024:empowering-large-language-model-agents-through-action-learning:7d9dd16762",
+      "title": "Empowering Large Language Model Agents through Action Learning",
+      "paper_url": "https://openreview.net/forum?id=KqK5XcgEhR",
+      "authorids": [
+        "~Haiteng_Zhao1",
+        "~Chang_Ma2",
+        "~Guoyin_Wang1",
+        "~Jing_Su2",
+        "~Lingpeng_Kong1",
+        "~Jingjing_Xu1",
+        "~Zhi-Hong_Deng1",
+        "~Hongxia_Yang2"
+      ],
+      "affiliations": [
+        "University of Hong Kong",
+        "Department of Computer Science, The University of Hong Kong"
+      ],
+      "first_institute": "University of Hong Kong"
+    },
+    {
+      "paper_id": "colm2024:multi-hop-question-answering-under-temporal-knowledge-editing:f1844aa80f",
+      "title": "Multi-hop Question Answering under Temporal Knowledge Editing",
+      "paper_url": "https://openreview.net/forum?id=Nd950RAcCW",
+      "authorids": [
+        "~Keyuan_Cheng2",
+        "~Gang_Lin2",
+        "~Haoyang_Fei1",
+        "~Yuxuan_Zhai1",
+        "~Lu_Yu1",
+        "~Muhammad_Asif_Ali1",
+        "~Lijie_Hu1",
+        "~Di_Wang1"
+      ],
+      "affiliations": [
+        "South China University of Technology",
+        "Ant Group",
+        "KAUST"
+      ],
+      "first_institute": "South China University of Technology"
+    },
+    {
+      "paper_id": "colm2024:measuring-taiwanese-mandarin-language-understanding:18e0f79624",
+      "title": "Measuring Taiwanese Mandarin Language Understanding",
+      "paper_url": "https://openreview.net/forum?id=7jSMMvXLri",
+      "authorids": [
+        "~Po-Heng_Chen2",
+        "~Sijia_Cheng1",
+        "~Wei-Lin_Chen1",
+        "~Yen-Ting_Lin2",
+        "~Yun-Nung_Chen1"
+      ],
+      "affiliations": [
+        "National Taiwan University",
+        "University of Virginia, Charlottesville"
+      ],
+      "first_institute": "National Taiwan University"
+    },
+    {
+      "paper_id": "colm2024:with-greater-text-comes-greater-necessity-inference-time-training-helps:75e275544e",
+      "title": "With Greater Text Comes Greater Necessity: Inference-Time Training Helps Long Text Generation",
+      "paper_url": "https://openreview.net/forum?id=dj9x6JuiD5",
+      "authorids": [
+        "~Yan_Wang17",
+        "~Dongyang_Ma4",
+        "~Deng_Cai1"
+      ],
+      "affiliations": [
+        "Tencent",
+        "ByteDance Seed"
+      ],
+      "first_institute": "Tencent"
+    },
+    {
+      "paper_id": "colm2024:studying-large-language-model-behaviors-under-context-memory-conflicts-w:3938841362",
+      "title": "Studying Large Language Model Behaviors Under Context-Memory Conflicts With Real Documents",
+      "paper_url": "https://openreview.net/forum?id=xm8zYRfrqE",
+      "authorids": [
+        "~Evgenii_Kortukov1",
+        "~Alexander_Rubinstein1",
+        "~Elisa_Nguyen1",
+        "~Seong_Joon_Oh1"
+      ],
+      "affiliations": [
+        "Eberhard-Karls-Universität Tübingen"
+      ],
+      "first_institute": "Eberhard-Karls-Universität Tübingen"
+    },
+    {
+      "paper_id": "colm2024:hdt-hierarchical-document-transformer:6e1a9f6b24",
+      "title": "HDT: Hierarchical Document Transformer",
+      "paper_url": "https://openreview.net/forum?id=dkpeWQRmlc",
+      "authorids": [
+        "~Haoyu_He4",
+        "~Markus_Flicke1",
+        "~Jan_Buchmann1",
+        "~Iryna_Gurevych1",
+        "~Andreas_Geiger3"
+      ],
+      "affiliations": [
+        "University of Tuebingen"
+      ],
+      "first_institute": "University of Tuebingen"
+    },
+    {
+      "paper_id": "colm2024:ai-generated-text-boundary-detection-with-roft:ea15aaa0c4",
+      "title": "AI-generated text boundary detection with RoFT",
+      "paper_url": "https://openreview.net/forum?id=kzzwTrt04Z",
+      "authorids": [
+        "~Laida_Kushnareva1",
+        "~Tatiana_Gaintseva2",
+        "~Dmitry_Abulkhanov1",
+        "~Kristian_Kuznetsov1",
+        "~German_Magai1",
+        "~Eduard_Tulchinskii1",
+        "~Serguei_Barannikov1",
+        "~Sergey_Nikolenko1",
+        "~Irina_Piontkovskaya2"
+      ],
+      "affiliations": [
+        "Noeon Research",
+        "Applied AI Institute"
+      ],
+      "first_institute": "Noeon Research"
+    },
+    {
+      "paper_id": "colm2024:scattered-mixture-of-experts-implementation:dfbdde300c",
+      "title": "Scattered Mixture-of-Experts Implementation",
+      "paper_url": "https://openreview.net/forum?id=YDZ7GeFLxq",
+      "authorids": [
+        "~Shawn_Tan1",
+        "~Yikang_Shen1",
+        "~Rameswar_Panda1",
+        "~Aaron_Courville3"
+      ],
+      "affiliations": [
+        "University of Montreal"
+      ],
+      "first_institute": "University of Montreal"
+    },
+    {
+      "paper_id": "colm2024:have-faith-in-faithfulness-going-beyond-circuit-overlap-when-finding-mod:8c49f0a968",
+      "title": "Have Faith in Faithfulness: Going Beyond Circuit Overlap When Finding Model Mechanisms",
+      "paper_url": "https://openreview.net/forum?id=TZ0CCGDcuT",
+      "authorids": [
+        "~Michael_Hanna1",
+        "~Sandro_Pezzelle1",
+        "~Yonatan_Belinkov1"
+      ],
+      "affiliations": [
+        "University of Amsterdam"
+      ],
+      "first_institute": "University of Amsterdam"
+    },
+    {
+      "paper_id": "colm2024:exploring-the-mystery-of-influential-data-for-mathematical-reasoning:37a5307a9f",
+      "title": "Exploring the Mystery of Influential Data for Mathematical Reasoning",
+      "paper_url": "https://openreview.net/forum?id=taThoOlDNQ",
+      "authorids": [
+        "~Xinzhe_Ni1",
+        "~Yeyun_Gong2",
+        "~Zhibin_Gou1",
+        "~yelong_shen1",
+        "~Yujiu_Yang2",
+        "~Nan_Duan1",
+        "~Weizhu_Chen1"
+      ],
+      "affiliations": [
+        "StepFun"
+      ],
+      "first_institute": "StepFun"
+    },
+    {
+      "paper_id": "colm2024:does-incomplete-syntax-influence-korean-language-model-focusing-on-word:c39744a680",
+      "title": "Does Incomplete Syntax Influence Korean Language Model? Focusing on Word Order and Case Markers",
+      "paper_url": "https://openreview.net/forum?id=yfyHxvVzZT",
+      "authorids": [
+        "~Jong_Myoung_Kim1",
+        "~Young-Jun_Lee1",
+        "~Yong-Jin_Han1",
+        "~Ho-Jin_Choi1",
+        "~Sangkeun_Jung1"
+      ],
+      "affiliations": [
+        "Korea Advanced Institute of Science & Technology"
+      ],
+      "first_institute": "Korea Advanced Institute of Science & Technology"
+    },
+    {
+      "paper_id": "colm2024:dated-data-tracing-knowledge-cutoffs-in-large-language-models:eb922829c0",
+      "title": "Dated Data: Tracing Knowledge Cutoffs in Large Language Models",
+      "paper_url": "https://openreview.net/forum?id=wS7PxDjy6m",
+      "authorids": [
+        "~Jeffrey_Cheng2",
+        "~Marc_Marone1",
+        "~Orion_Weller1",
+        "~Dawn_Lawrie1",
+        "~Daniel_Khashabi2",
+        "~Benjamin_Van_Durme2"
+      ],
+      "affiliations": [
+        "Johns Hopkins University"
+      ],
+      "first_institute": "Johns Hopkins University"
+    },
+    {
+      "paper_id": "colm2024:instructav-instruction-fine-tuning-large-language-models-for-authorship:85b48b2798",
+      "title": "InstructAV: Instruction Fine-tuning Large Language Models for Authorship Verification",
+      "paper_url": "https://openreview.net/forum?id=0UK8c2kg7c",
+      "authorids": [
+        "~Yujia_Hu1",
+        "~Zhiqiang_Hu3",
+        "~Chun_Wei_Seah2",
+        "~Roy_Ka-Wei_Lee1"
+      ],
+      "affiliations": [
+        "DSO"
+      ],
+      "first_institute": "DSO"
+    },
+    {
+      "paper_id": "colm2024:chops-chat-with-customer-profile-systems-for-customer-service-with-llms:36d09eace5",
+      "title": "CHOPS: CHat with custOmer Profile Systems for Customer Service with LLMs",
+      "paper_url": "https://openreview.net/forum?id=9Wmdk94oKF",
+      "authorids": [
+        "~Jingzhe_Shi1",
+        "~Jialuo_Li1",
+        "~Qinwei_Ma1",
+        "~Zaiwen_Yang1",
+        "~Huan_Ma2",
+        "~Lei_Li29"
+      ],
+      "affiliations": [
+        "Tsinghua University, Tsinghua University"
+      ],
+      "first_institute": "Tsinghua University, Tsinghua University"
+    },
+    {
+      "paper_id": "colm2024:tmmlu-an-improved-traditional-chinese-evaluation-suite-for-foundation-mo:06a2fa3d61",
+      "title": "TMMLU+: An Improved Traditional Chinese Evaluation Suite for Foundation Models",
+      "paper_url": "https://openreview.net/forum?id=95TayIeqJ4",
+      "authorids": [
+        "~Zhi_Rui_Tam1",
+        "~Ya_Ting_Pai1",
+        "~Yen-Wei_Lee1",
+        "~Hong-Han_Shuai1",
+        "~Jun-Da_Chen1",
+        "~Wei_Min_Chu2",
+        "~Sega_Cheng1"
+      ],
+      "affiliations": [
+        "National Yang Ming Chiao Tung University"
+      ],
+      "first_institute": "National Yang Ming Chiao Tung University"
+    },
+    {
+      "paper_id": "colm2024:agent-docedit-language-instructed-llm-agent-for-content-rich-document-ed:6d34d36fff",
+      "title": "Agent-DocEdit: Language-Instructed LLM Agent for Content-Rich Document Editing",
+      "paper_url": "https://openreview.net/forum?id=1ba209BACA",
+      "authorids": [
+        "~Te-Lin_Wu1",
+        "~Rajiv_Jain1",
+        "~Yufan_Zhou1",
+        "~Puneet_Mathur2",
+        "~Vlad_I_Morariu1"
+      ],
+      "affiliations": [
+        "Character.AI",
+        "Adobe Systems",
+        "Adobe"
+      ],
+      "first_institute": "Character.AI"
+    },
+    {
+      "paper_id": "colm2024:triforce-lossless-acceleration-of-long-sequence-generation-with-hierarch:096002346e",
+      "title": "TriForce: Lossless Acceleration of Long Sequence Generation with Hierarchical Speculative Decoding",
+      "paper_url": "https://openreview.net/forum?id=HVK6nl3i97",
+      "authorids": [
+        "~Hanshi_Sun1",
+        "~Zhuoming_Chen1",
+        "~Xinyu_Yang4",
+        "~Yuandong_Tian1",
+        "~Beidi_Chen1"
+      ],
+      "affiliations": [
+        "CMU, Carnegie Mellon University"
+      ],
+      "first_institute": "CMU, Carnegie Mellon University"
+    },
+    {
+      "paper_id": "colm2024:reasoning-about-concepts-with-llms-inconsistencies-abound:801a159593",
+      "title": "Reasoning about concepts with LLMs: Inconsistencies abound",
+      "paper_url": "https://openreview.net/forum?id=oSG6qGkt1I",
+      "authorids": [
+        "~Rosario_Uceda_Sosa1",
+        "~Karthikeyan_Natesan_Ramamurthy1",
+        "~Maria_Chang1",
+        "~Moninder_Singh1"
+      ],
+      "affiliations": [
+        "International Business Machines"
+      ],
+      "first_institute": "International Business Machines"
+    },
+    {
+      "paper_id": "colm2024:star-gate-teaching-language-models-to-ask-clarifying-questions:a673decae3",
+      "title": "STaR-GATE: Teaching Language Models to Ask Clarifying Questions",
+      "paper_url": "https://openreview.net/forum?id=CrzAj0kZjR",
+      "authorids": [
+        "~Chinmaya_Andukuri1",
+        "~Jan-Philipp_Fränken1",
+        "~Tobias_Gerstenberg1",
+        "~Noah_Goodman1"
+      ],
+      "affiliations": [
+        "Computer Science Department, Stanford University"
+      ],
+      "first_institute": "Computer Science Department, Stanford University"
+    },
+    {
+      "paper_id": "colm2024:list-items-one-by-one-a-new-data-source-and-learning-paradigm-for-multim:d763c900d1",
+      "title": "List Items One by One: A New Data Source and Learning Paradigm for Multimodal LLMs",
+      "paper_url": "https://openreview.net/forum?id=UfWwBaLuXV",
+      "authorids": [
+        "~An_Yan1",
+        "~Zhengyuan_Yang1",
+        "~Junda_Wu1",
+        "~Wanrong_Zhu1",
+        "~Jianwei_Yang1",
+        "~Linjie_Li1",
+        "~Kevin_Lin3",
+        "~Jianfeng_Wang4",
+        "~Julian_McAuley1",
+        "~Jianfeng_Gao1",
+        "~Lijuan_Wang1"
+      ],
+      "affiliations": [
+        "SalesForce"
+      ],
+      "first_institute": "SalesForce"
+    },
+    {
+      "paper_id": "colm2024:your-context-is-not-an-array-unveiling-random-access-limitations-in-tran:3f251a092a",
+      "title": "Your Context Is Not an Array: Unveiling Random Access Limitations in Transformers",
+      "paper_url": "https://openreview.net/forum?id=MLD1cwfjUb",
+      "authorids": [
+        "~MohammadReza_Ebrahimi1",
+        "~Sunny_Panchal1",
+        "~Roland_Memisevic1"
+      ],
+      "affiliations": [
+        "Qualcomm Inc, QualComm"
+      ],
+      "first_institute": "Qualcomm Inc, QualComm"
+    },
+    {
+      "paper_id": "colm2024:cats-context-aware-thresholding-for-sparsity-in-large-language-models:45beac4733",
+      "title": "CATS: Context-Aware Thresholding for Sparsity in Large Language Models",
+      "paper_url": "https://openreview.net/forum?id=v3w2a7EInO",
+      "authorids": [
+        "~Donghyun_Lee2",
+        "~Jaeyong_Lee1",
+        "~Genghan_Zhang1",
+        "~Mo_Tiwari1",
+        "~Azalia_Mirhoseini1"
+      ],
+      "affiliations": [
+        "University College London, University of London",
+        "NVIDIA"
+      ],
+      "first_institute": "University College London, University of London"
+    },
+    {
+      "paper_id": "colm2024:prompt-exploration-with-prompt-regression:0941f07aed",
+      "title": "Prompt Exploration with Prompt Regression",
+      "paper_url": "https://openreview.net/forum?id=YwrNePfb3E",
+      "authorids": [
+        "~Michael_Feffer1",
+        "~Ronald_Xu1",
+        "~Yuekai_Sun1",
+        "~Mikhail_Yurochkin1"
+      ],
+      "affiliations": [
+        "Spotify",
+        "IBM Research"
+      ],
+      "first_institute": "Spotify"
+    },
+    {
+      "paper_id": "colm2024:information-theoretic-distillation-for-reference-less-summarization:abf62db3bd",
+      "title": "Information-Theoretic Distillation for Reference-less Summarization",
+      "paper_url": "https://openreview.net/forum?id=JXcXnJJSuL",
+      "authorids": [
+        "~Jaehun_Jung1",
+        "~Ximing_Lu1",
+        "~Liwei_Jiang2",
+        "~Faeze_Brahman1",
+        "~Peter_West1",
+        "~Pang_Wei_Koh1",
+        "~Yejin_Choi1"
+      ],
+      "affiliations": [
+        "Allen Institute for Artificial Intelligence"
+      ],
+      "first_institute": "Allen Institute for Artificial Intelligence"
+    },
+    {
+      "paper_id": "colm2024:impact-of-preference-noise-on-the-alignment-performance-of-generative-la:9b57792955",
+      "title": "Impact of Preference Noise on the Alignment Performance of Generative Language Models",
+      "paper_url": "https://openreview.net/forum?id=nMAaCsCTCI",
+      "authorids": [
+        "~Yang_Gao6",
+        "~Dana_Alon1",
+        "~Donald_Metzler1"
+      ],
+      "affiliations": [
+        "Research, Google"
+      ],
+      "first_institute": "Research, Google"
+    },
+    {
+      "paper_id": "colm2024:paperclip-associating-astronomical-observations-and-natural-language-wit:3a3f6b6cfa",
+      "title": "PAPERCLIP: Associating Astronomical Observations and Natural Language with Multi-Modal Models",
+      "paper_url": "https://openreview.net/forum?id=8TdcXwfNRB",
+      "authorids": [
+        "~Siddharth_Mishra-Sharma1",
+        "~YIDING_SONG1",
+        "~Jesse_Thaler1"
+      ],
+      "affiliations": [
+        "Massachusetts Institute of Technology"
+      ],
+      "first_institute": "Massachusetts Institute of Technology"
+    },
+    {
+      "paper_id": "colm2024:on-limitations-of-the-transformer-architecture:7a409e8026",
+      "title": "On Limitations of the Transformer Architecture",
+      "paper_url": "https://openreview.net/forum?id=KidynPuLNW",
+      "authorids": [
+        "~Binghui_Peng1",
+        "~Srini_Narayanan1",
+        "~Christos_Papadimitriou2"
+      ],
+      "affiliations": [
+        "University of California, Berkeley"
+      ],
+      "first_institute": "University of California, Berkeley"
+    },
+    {
+      "paper_id": "colm2024:lite-modeling-environmental-ecosystems-with-multimodal-large-language-mo:19a13780a5",
+      "title": "LITE: Modeling Environmental Ecosystems with Multimodal Large Language Models",
+      "paper_url": "https://openreview.net/forum?id=DRffhKBVlE",
+      "authorids": [
+        "~Haoran_Li16",
+        "~Junqi_Liu2",
+        "~Zexian_Wang1",
+        "~Shiyuan_Luo1",
+        "~Xiaowei_Jia1",
+        "~Huaxiu_Yao1"
+      ],
+      "affiliations": [
+        "Carnegie Mellon University",
+        "Department of Computer Science, University of North Carolina at Chapel Hill"
+      ],
+      "first_institute": "Carnegie Mellon University"
+    },
+    {
+      "paper_id": "colm2024:should-we-attend-more-or-less-modulating-attention-for-fairness:cf9b54a458",
+      "title": "Should We Attend More or Less? Modulating Attention for Fairness",
+      "paper_url": "https://openreview.net/forum?id=CI7D2kiih1",
+      "authorids": [
+        "~Abdelrahman_Zayed1",
+        "~Goncalo_Mordido1",
+        "~Samira_Shabanian1",
+        "~Sarath_Chandar1"
+      ],
+      "affiliations": [
+        "Montreal Institute for Learning Algorithms, University of Montreal, Université de Montréal"
+      ],
+      "first_institute": "Montreal Institute for Learning Algorithms, University of Montreal, Université de Montréal"
+    },
+    {
+      "paper_id": "colm2024:the-larger-the-better-improved-llm-code-generation-via-budget-reallocati:183f2fd8b1",
+      "title": "The Larger the Better? Improved LLM Code-Generation via Budget Reallocation",
+      "paper_url": "https://openreview.net/forum?id=QJvfpWSpWm",
+      "authorids": [
+        "~Michael_Hassid1",
+        "~Tal_Remez2",
+        "~Jonas_Gehring1",
+        "~Roy_Schwartz1",
+        "~Yossi_Adi1"
+      ],
+      "affiliations": [
+        "Swiss Federal Institute of Technology"
+      ],
+      "first_institute": "Swiss Federal Institute of Technology"
+    },
+    {
+      "paper_id": "colm2024:beyond-accuracy-evaluating-the-reasoning-behavior-of-large-language-mode:bf6c22b5b7",
+      "title": "Beyond Accuracy: Evaluating the Reasoning Behavior of Large Language Models - A Survey",
+      "paper_url": "https://openreview.net/forum?id=Lmjgl2n11u",
+      "authorids": [
+        "~Philipp_Mondorf1",
+        "~Barbara_Plank2"
+      ],
+      "affiliations": [
+        "Ludwig-Maximilians-Universität München"
+      ],
+      "first_institute": "Ludwig-Maximilians-Universität München"
+    },
+    {
+      "paper_id": "colm2024:tabular-transfer-learning-via-prompting-llms:067c6a22a5",
+      "title": "Tabular Transfer Learning via Prompting LLMs",
+      "paper_url": "https://openreview.net/forum?id=bo4pauxnIR",
+      "authorids": [
+        "~Jaehyun_Nam2",
+        "~Woomin_Song1",
+        "~Seong_Hyeon_Park2",
+        "~Jihoon_Tack1",
+        "~Sukmin_Yun1",
+        "~Jaehyung_Kim1",
+        "~Kyu_Hwan_Oh1",
+        "~Jinwoo_Shin1"
+      ],
+      "affiliations": [
+        "Korea Advanced Institute of Science & Technology",
+        "Yonsei University"
+      ],
+      "first_institute": "Korea Advanced Institute of Science & Technology"
+    },
+    {
+      "paper_id": "colm2024:look-at-the-text-instruction-tuned-language-models-are-more-robust-multi:1e489b574f",
+      "title": "Look at the Text: Instruction-Tuned Language Models are More Robust Multiple Choice Selectors than You Think",
+      "paper_url": "https://openreview.net/forum?id=qHdSA85GyZ",
+      "authorids": [
+        "~Xinpeng_Wang3",
+        "~Chengzhi_Hu1",
+        "~Bolei_Ma1",
+        "~Paul_Rottger1",
+        "~Barbara_Plank2"
+      ],
+      "affiliations": [
+        "Ludwig-Maximilians-Universität München"
+      ],
+      "first_institute": "Ludwig-Maximilians-Universität München"
+    },
+    {
+      "paper_id": "colm2024:efficient-parallelization-layouts-for-large-scale-distributed-model-trai:37a3c84a5f",
+      "title": "Efficient Parallelization Layouts for Large-Scale Distributed Model Training",
+      "paper_url": "https://openreview.net/forum?id=UyNIH6CWHH",
+      "authorids": [
+        "~Johannes_Hagemann1",
+        "~Samuel_Weinbach1",
+        "~Konstantin_Dobler1",
+        "~Maximilian_Schall1",
+        "~Gerard_de_Melo3"
+      ],
+      "affiliations": [
+        "Hasso Plattner Institute"
+      ],
+      "first_institute": "Hasso Plattner Institute"
+    },
+    {
+      "paper_id": "colm2024:learning-from-correctness-without-prompting-makes-llm-efficient-reasoner:651ce6a06c",
+      "title": "Learning From Correctness Without Prompting Makes LLM Efficient Reasoner",
+      "paper_url": "https://openreview.net/forum?id=dcbNzhVVQj",
+      "authorids": [
+        "~Yuxuan_YAO1",
+        "~Han_Wu5",
+        "~Zhijiang_Guo2",
+        "~Zhou_Biyan1",
+        "~Jiahui_Gao2",
+        "~Sichun_Luo1",
+        "~Hanxu_Hou1",
+        "~Xiaojin_Fu1",
+        "~Linqi_Song1"
+      ],
+      "affiliations": [
+        "Huawei Technologies Ltd.",
+        "Dongguan University of Technology"
+      ],
+      "first_institute": "Huawei Technologies Ltd."
+    },
+    {
+      "paper_id": "colm2024:bot-or-human-detecting-chatgpt-imposters-with-a-single-question:c004de2890",
+      "title": "Bot or Human? Detecting ChatGPT Imposters with A Single Question",
+      "paper_url": "https://openreview.net/forum?id=3HTVP34WWE",
+      "authorids": [
+        "~Hong_Wang1",
+        "~Xuan_Luo2",
+        "~Weizhi_Wang1",
+        "~Melody_Yu1",
+        "~Xifeng_Yan1"
+      ],
+      "affiliations": [
+        "Amazon"
+      ],
+      "first_institute": "Amazon"
+    },
+    {
+      "paper_id": "colm2024:eliciting-latent-knowledge-from-quirky-language-models:80c86fd710",
+      "title": "Eliciting Latent Knowledge from \"Quirky\" Language Models",
+      "paper_url": "https://openreview.net/forum?id=nGCMLATBit",
+      "authorids": [
+        "~Alex_Troy_Mallen1",
+        "~Madeline_Brumley1",
+        "~Julia_Kharchenko1",
+        "~Nora_Belrose1"
+      ],
+      "affiliations": [
+        "Redwood Research"
+      ],
+      "first_institute": "Redwood Research"
+    },
+    {
+      "paper_id": "colm2024:can-it-edit-evaluating-the-ability-of-large-language-models-to-follow-co:881844091f",
+      "title": "Can It Edit? Evaluating the Ability of Large Language Models to Follow Code Editing Instructions",
+      "paper_url": "https://openreview.net/forum?id=D06yk3DBas",
+      "authorids": [
+        "~Federico_Cassano1",
+        "~Luisa_Li1",
+        "~Akul_Sethi1",
+        "~Noah_Shinn1",
+        "~Abby_Brennan-Jones1",
+        "~Jacob_Ginesin1",
+        "~Edward_Berman1",
+        "~George_Chakhnashvili1",
+        "~Anton_Lozhkov1",
+        "~Carolyn_Jane_Anderson1",
+        "~Arjun_Guha3"
+      ],
+      "affiliations": [
+        "Northeastern University",
+        "Wellesley College"
+      ],
+      "first_institute": "Northeastern University"
+    },
+    {
+      "paper_id": "colm2024:what-are-tools-anyway-a-survey-from-the-language-model-perspective:b3fecd0d5b",
+      "title": "What Are Tools Anyway? A Survey from the Language Model Perspective",
+      "paper_url": "https://openreview.net/forum?id=Xh1B90iBSR",
+      "authorids": [
+        "~Zhiruo_Wang1",
+        "~Zhoujun_Cheng1",
+        "~Hao_Zhu1",
+        "~Daniel_Fried1",
+        "~Graham_Neubig1"
+      ],
+      "affiliations": [
+        "Meta AI",
+        "Carnegie Mellon University"
+      ],
+      "first_institute": "Meta AI"
+    },
+    {
+      "paper_id": "colm2024:large-language-models-as-biomedical-hypothesis-generators-a-comprehensiv:aeed823a87",
+      "title": "Large Language Models as Biomedical Hypothesis Generators: A Comprehensive Evaluation",
+      "paper_url": "https://openreview.net/forum?id=q36rpGlG9X",
+      "authorids": [
+        "~Biqing_Qi1",
+        "~Kaiyan_Zhang1",
+        "~Kai_Tian3",
+        "~Haoxiang_Li3",
+        "~Zhang-Ren_Chen1",
+        "~Sihang_Zeng1",
+        "~Ermo_Hua1",
+        "~Hu_Jinfang1",
+        "~Bowen_Zhou8"
+      ],
+      "affiliations": [
+        "Shanghai Artificial Intelligence Laboratory",
+        "Tsinghua University"
+      ],
+      "first_institute": "Shanghai Artificial Intelligence Laboratory"
+    },
+    {
+      "paper_id": "colm2024:openagents-an-open-platform-for-language-agents-in-the-wild:c33a1d6e67",
+      "title": "OpenAgents: An Open Platform for Language Agents in the Wild",
+      "paper_url": "https://openreview.net/forum?id=sKATR2O1Y0",
+      "authorids": [
+        "~Tianbao_Xie1",
+        "~Fan_Zhou6",
+        "~Zhoujun_Cheng1",
+        "~Peng_Shi2",
+        "~Luoxuan_Weng1",
+        "~Yitao_Liu2",
+        "~Toh_Jing_Hua1",
+        "~Junning_Zhao1",
+        "~Qian_Liu2",
+        "~Che_Liu7",
+        "~Zeyu_Liu1",
+        "~Yiheng_Xu1",
+        "~Hongjin_SU1",
+        "~Dongchan_Shin1",
+        "~Caiming_Xiong1",
+        "~Tao_Yu5"
+      ],
+      "affiliations": [
+        "Salesforce Research"
+      ],
+      "first_institute": "Salesforce Research"
+    },
+    {
+      "paper_id": "colm2024:how-easily-do-irrelevant-inputs-skew-the-responses-of-large-language-mod:d716f7a573",
+      "title": "How Easily do Irrelevant Inputs Skew the Responses of Large Language Models?",
+      "paper_url": "https://openreview.net/forum?id=S7NVVfuRv8",
+      "authorids": [
+        "~Siye_Wu1",
+        "~Jian_Xie3",
+        "~Jiangjie_Chen1",
+        "~Tinghui_Zhu1",
+        "~Kai_Zhang10",
+        "~Yanghua_Xiao1"
+      ],
+      "affiliations": [
+        "Fudan University",
+        "ByteDance Seed",
+        "Microsoft"
+      ],
+      "first_institute": "Fudan University"
+    },
+    {
+      "paper_id": "colm2024:how-far-are-we-from-intelligent-visual-deductive-reasoning:5e6c47af63",
+      "title": "How Far Are We from Intelligent Visual Deductive Reasoning?",
+      "paper_url": "https://openreview.net/forum?id=pYEnhZ6NAv",
+      "authorids": [
+        "~Yizhe_Zhang2",
+        "~Richard_He_Bai1",
+        "~Ruixiang_ZHANG1",
+        "~Jiatao_Gu1",
+        "~Shuangfei_Zhai3",
+        "~Joshua_M._Susskind1",
+        "~Navdeep_Jaitly1"
+      ],
+      "affiliations": [
+        "Apple"
+      ],
+      "first_institute": "Apple"
+    },
+    {
+      "paper_id": "colm2024:visualwebbench-how-far-have-multimodal-llms-evolved-in-web-page-understa:e5d0f4080b",
+      "title": "VisualWebBench: How Far Have Multimodal LLMs Evolved in Web Page Understanding and Grounding?",
+      "paper_url": "https://openreview.net/forum?id=egVSgtJJAx",
+      "authorids": [
+        "~Junpeng_Liu2",
+        "~Yifan_Song2",
+        "~Bill_Yuchen_Lin1",
+        "~Wai_Lam1",
+        "~Graham_Neubig1",
+        "~Yuanzhi_Li1",
+        "~Xiang_Yue1"
+      ],
+      "affiliations": [
+        "xAI",
+        "Carnegie Mellon University"
+      ],
+      "first_institute": "xAI"
+    },
+    {
+      "paper_id": "colm2024:quiet-star-language-models-can-teach-themselves-to-think-before-speaking:36d07dcbdc",
+      "title": "Quiet-STaR: Language Models Can Teach Themselves to Think Before Speaking",
+      "paper_url": "https://openreview.net/forum?id=oRXPiSOGH9",
+      "authorids": [
+        "~Eric_Zelikman1",
+        "~Georges_Raif_Harik1",
+        "~Yijia_Shao1",
+        "~Varuna_Jayasiri1",
+        "~Nick_Haber1",
+        "~Noah_Goodman1"
+      ],
+      "affiliations": [
+        "Stanford University",
+        "University of Michigan - Ann Arbor"
+      ],
+      "first_institute": "Stanford University"
+    },
+    {
+      "paper_id": "colm2024:learning-to-plan-for-language-modeling-from-unlabeled-data:272fca5a34",
+      "title": "Learning to Plan for Language Modeling from Unlabeled Data",
+      "paper_url": "https://openreview.net/forum?id=nT6fQIidrQ",
+      "authorids": [
+        "~Nathan_Cornille1",
+        "~Marie-Francine_Moens1",
+        "~Florian_Mai1"
+      ],
+      "affiliations": [
+        "Rheinische Friedrich-Wilhelms Universität Bonn"
+      ],
+      "first_institute": "Rheinische Friedrich-Wilhelms Universität Bonn"
+    },
+    {
+      "paper_id": "colm2024:how-bad-is-training-on-synthetic-data-a-statistical-analysis-of-language:a470857f5a",
+      "title": "How bad is training on synthetic data? A statistical analysis of language model collapse",
+      "paper_url": "https://openreview.net/forum?id=t3z6UlV09o",
+      "authorids": [
+        "~Mohamed_El_Amine_Seddik1",
+        "~Suei-Wen_Chen1",
+        "~Soufiane_Hayou1",
+        "~Pierre_Youssef1",
+        "~Merouane_Abdelkader_DEBBAH1"
+      ],
+      "affiliations": [
+        "Technology Innovation Institute",
+        "Khalifa University of Science, Technology and Research"
+      ],
+      "first_institute": "Technology Innovation Institute"
+    },
+    {
+      "paper_id": "colm2024:commonsense-t2i-challenge-can-text-to-image-generation-models-understand:9a233935d6",
+      "title": "Commonsense-T2I Challenge: Can Text-to-Image Generation Models Understand Commonsense?",
+      "paper_url": "https://openreview.net/forum?id=MI52iXSSNy",
+      "authorids": [
+        "~Xingyu_Fu1",
+        "~Muyu_He1",
+        "~Yujie_Lu1",
+        "~William_Yang_Wang2",
+        "~Dan_Roth3"
+      ],
+      "affiliations": [
+        "Oracle"
+      ],
+      "first_institute": "Oracle"
+    },
+    {
+      "paper_id": "colm2024:mango-a-benchmark-for-evaluating-mapping-and-navigation-abilities-of-lar:2fc56c6cfc",
+      "title": "MANGO: A Benchmark for Evaluating Mapping and Navigation Abilities of Large Language Models",
+      "paper_url": "https://openreview.net/forum?id=6vEfyp0o68",
+      "authorids": [
+        "~Peng_Ding2",
+        "~Jiading_Fang1",
+        "~Peng_Li13",
+        "~Kangrui_Wang2",
+        "~Xiaochen_Zhou1",
+        "~Mo_Yu1",
+        "~Jing_Li21",
+        "~Hongyuan_Mei1",
+        "~Matthew_Walter1"
+      ],
+      "affiliations": [
+        "Google DeepMind"
+      ],
+      "first_institute": "Google DeepMind"
+    },
+    {
+      "paper_id": "colm2024:language-models-as-critical-thinking-tools-a-case-study-of-philosophers:6824c0162e",
+      "title": "Language Models as Critical Thinking Tools: A Case Study of Philosophers",
+      "paper_url": "https://openreview.net/forum?id=ZZzXpyv65G",
+      "authorids": [
+        "~Andre_Ye1",
+        "~Jared_Moore1",
+        "~Rose_Novick1",
+        "~Amy_X_Zhang1"
+      ],
+      "affiliations": [
+        "University of Washington",
+        "Department of Computer Science"
+      ],
+      "first_institute": "University of Washington"
+    },
+    {
+      "paper_id": "colm2024:evaluating-language-models-for-efficient-code-generation:59cbdb9713",
+      "title": "Evaluating Language Models for Efficient Code Generation",
+      "paper_url": "https://openreview.net/forum?id=IBCBMeAhmC",
+      "authorids": [
+        "~Jiawei_Liu11",
+        "~Songrun_Xie1",
+        "~Junhao_Wang7",
+        "~Yuxiang_Wei2",
+        "~Yifeng_Ding2",
+        "~LINGMING_ZHANG2"
+      ],
+      "affiliations": [
+        "Amazon",
+        "Tongji University",
+        "University of Illinois Urbana-Champaign"
+      ],
+      "first_institute": "Amazon"
+    },
+    {
+      "paper_id": "colm2024:a-language-agent-for-autonomous-driving:274f36fbf9",
+      "title": "A Language Agent for Autonomous Driving",
+      "paper_url": "https://openreview.net/forum?id=UPE6WYE8vg",
+      "authorids": [
+        "~Jiageng_Mao1",
+        "~Junjie_Ye3",
+        "~Yuxi_Qian2",
+        "~Marco_Pavone1",
+        "~Yue_Wang2"
+      ],
+      "affiliations": [
+        "University of Southern California"
+      ],
+      "first_institute": "University of Southern California"
+    },
+    {
+      "paper_id": "colm2024:description-based-text-similarity:1239a85e46",
+      "title": "Description-Based Text Similarity",
+      "paper_url": "https://openreview.net/forum?id=W8Rv1jVycX",
+      "authorids": [
+        "~Shauli_Ravfogel1",
+        "~Valentina_Pyatkin1",
+        "~Amir_David_Nissan_Cohen1",
+        "~Avshalom_Manevich1",
+        "~Yoav_Goldberg1"
+      ],
+      "affiliations": [
+        "Bar Ilan University",
+        "Bar-Ilan University"
+      ],
+      "first_institute": "Bar Ilan University"
+    },
+    {
+      "paper_id": "colm2024:multihop-rag-benchmarking-retrieval-augmented-generation-for-multi-hop-q:b3e5d0781d",
+      "title": "MultiHop-RAG: Benchmarking Retrieval-Augmented Generation for Multi-Hop Queries",
+      "paper_url": "https://openreview.net/forum?id=t4eB3zYWBK",
+      "authorids": [
+        "~Yixuan_Tang2",
+        "~Yi_Yang7"
+      ],
+      "affiliations": [
+        "Hong Kong University of Science and Technology"
+      ],
+      "first_institute": "Hong Kong University of Science and Technology"
+    },
+    {
+      "paper_id": "colm2024:on-robustness-accuracy-characterization-of-language-models-using-synthet:ffa3f34b83",
+      "title": "On Robustness-Accuracy Characterization of Language Models using Synthetic Datasets",
+      "paper_url": "https://openreview.net/forum?id=C0j44uRPcl",
+      "authorids": [
+        "~Ching-Yun_Ko1",
+        "~Pin-Yu_Chen1",
+        "~Payel_Das1",
+        "~Yung-Sung_Chuang1",
+        "~Luca_Daniel1"
+      ],
+      "affiliations": [
+        "International Business Machines"
+      ],
+      "first_institute": "International Business Machines"
+    },
+    {
+      "paper_id": "colm2024:llm360-towards-fully-transparent-open-source-llms:a99704e12a",
+      "title": "LLM360: Towards Fully Transparent Open-Source LLMs",
+      "paper_url": "https://openreview.net/forum?id=QdWhj0QZFw",
+      "authorids": [
+        "~Zhengzhong_Liu1",
+        "~Aurick_Qiao1",
+        "~Willie_Neiswanger2",
+        "~Hongyi_Wang1",
+        "~Bowen_Tan2",
+        "~Tianhua_Tao1",
+        "~Junbo_Li3",
+        "~Yuqi_Wang8",
+        "~Suqi_Sun1",
+        "~Omkar_Pangarkar1",
+        "~Richard_Fan1",
+        "~Yi_Gu4",
+        "~Victor_Miller1",
+        "~Yonghao_Zhuang1",
+        "~Guowei_He1",
+        "~Haonan_Li2",
+        "~Fajri_Koto1",
+        "~Liping_Tang2",
+        "~Nikhil_Ranjan2",
+        "~Zhiqiang_Shen1",
+        "~Roberto_Iriondo1",
+        "~Cun_Mu1",
+        "~Zhiting_Hu3",
+        "~Mark_Schulze2",
+        "~Preslav_Nakov2",
+        "~Timothy_Baldwin1",
+        "~Eric_Xing1"
+      ],
+      "affiliations": [
+        "Snowflake",
+        "Carnegie Mellon University",
+        "Mohamed bin Zayed Univeristy of AI"
+      ],
+      "first_institute": "Snowflake"
+    },
+    {
+      "paper_id": "colm2024:tuning-language-models-by-proxy:07bcdff9d3",
+      "title": "Tuning Language Models by Proxy",
+      "paper_url": "https://openreview.net/forum?id=dribhnhm1i",
+      "authorids": [
+        "~Alisa_Liu1",
+        "~Xiaochuang_Han1",
+        "~Yizhong_Wang2",
+        "~Yulia_Tsvetkov1",
+        "~Yejin_Choi1",
+        "~Noah_A._Smith2"
+      ],
+      "affiliations": [
+        "NVIDIA"
+      ],
+      "first_institute": "NVIDIA"
+    },
+    {
+      "paper_id": "colm2024:agentkit-structured-llm-reasoning-with-dynamic-graphs:8e8f739b22",
+      "title": "AgentKit: Structured LLM Reasoning with Dynamic Graphs",
+      "paper_url": "https://openreview.net/forum?id=PKfAq8N4fK",
+      "authorids": [
+        "~Yue_Wu17",
+        "~Yewen_Fan1",
+        "~So_Yeon_Min2",
+        "~Shrimai_Prabhumoye1",
+        "~Stephen_Marcus_McAleer1",
+        "~Ruslan_Salakhutdinov1",
+        "~Yonatan_Bisk1",
+        "~Yuanzhi_Li1",
+        "~Tom_Mitchell2"
+      ],
+      "affiliations": [
+        "Carnegie Mellon University",
+        "CMU, Carnegie Mellon University",
+        "Boston University, Boston University",
+        "School of Computer Science, Carnegie Mellon University"
+      ],
+      "first_institute": "Carnegie Mellon University"
+    },
+    {
+      "paper_id": "colm2024:ctikg-llm-powered-knowledge-graph-construction-from-cyber-threat-intelli:e7ba46b60b",
+      "title": "CTIKG: LLM-Powered Knowledge Graph Construction from Cyber Threat Intelligence",
+      "paper_url": "https://openreview.net/forum?id=DOMP5AgwQz",
+      "authorids": [
+        "~Liangyi_Huang1",
+        "~Xusheng_Xiao2"
+      ],
+      "affiliations": [
+        "Arizona State University"
+      ],
+      "first_institute": "Arizona State University"
+    },
+    {
+      "paper_id": "colm2024:merge-conflicts-exploring-the-impacts-of-external-knowledge-distractors:bd8c7aea88",
+      "title": "\"Merge Conflicts!'\" Exploring the Impacts of External Knowledge Distractors to Parametric Knowledge Graphs",
+      "paper_url": "https://openreview.net/forum?id=Pvn1dKreZW",
+      "authorids": [
+        "~Cheng_Qian4",
+        "~Xinran_Zhao1",
+        "~Tongshuang_Wu1"
+      ],
+      "affiliations": [
+        "CMU, Carnegie Mellon University",
+        "School of Computer Science, Carnegie Mellon University"
+      ],
+      "first_institute": "CMU, Carnegie Mellon University"
+    },
+    {
+      "paper_id": "colm2024:linearizing-large-language-models:d5a04ba555",
+      "title": "Linearizing Large Language Models",
+      "paper_url": "https://openreview.net/forum?id=soGxskHGox",
+      "authorids": [
+        "~Jean_Mercat1",
+        "~Igor_Vasiljevic1",
+        "~Sedrick_Scott_Keh1",
+        "~Kushal_Arora1",
+        "~Achal_Dave1",
+        "~Adrien_Gaidon1",
+        "~Thomas_Kollar1"
+      ],
+      "affiliations": [
+        "Anthropic",
+        "Calibrate Ventures"
+      ],
+      "first_institute": "Anthropic"
+    },
+    {
+      "paper_id": "colm2024:don-t-throw-away-your-value-model-generating-more-preferable-text-with-v:0a71cd099c",
+      "title": "Don't throw away your value model! Generating more preferable text with Value-Guided Monte-Carlo Tree Search decoding",
+      "paper_url": "https://openreview.net/forum?id=kh9Zt2Ldmn",
+      "authorids": [
+        "~Jiacheng_Liu2",
+        "~Andrew_Cohen4",
+        "~Ramakanth_Pasunuru2",
+        "~Yejin_Choi1",
+        "~Hannaneh_Hajishirzi1",
+        "~Asli_Celikyilmaz1"
+      ],
+      "affiliations": [
+        "Meta Platforms",
+        "University of Washington",
+        "FAIR"
+      ],
+      "first_institute": "Meta Platforms"
+    },
+    {
+      "paper_id": "colm2024:infini-gram-scaling-unbounded-n-gram-language-models-to-a-trillion-token:1c2c850740",
+      "title": "Infini-gram: Scaling Unbounded n-gram Language Models to a Trillion Tokens",
+      "paper_url": "https://openreview.net/forum?id=u2vAyMeLMm",
+      "authorids": [
+        "~Jiacheng_Liu2",
+        "~Sewon_Min1",
+        "~Luke_Zettlemoyer1",
+        "~Yejin_Choi1",
+        "~Hannaneh_Hajishirzi1"
+      ],
+      "affiliations": [
+        "University of Washington"
+      ],
+      "first_institute": "University of Washington"
+    },
+    {
+      "paper_id": "colm2024:prollm-protein-chain-of-thoughts-enhanced-llm-for-protein-protein-intera:a09115b908",
+      "title": "ProLLM: Protein Chain-of-Thoughts Enhanced LLM for Protein-Protein Interaction Prediction",
+      "paper_url": "https://openreview.net/forum?id=2nTzomzjjb",
+      "authorids": [
+        "~Mingyu_Jin1",
+        "~Haochen_Xue1",
+        "~Zhenting_Wang1",
+        "~Boming_Kang1",
+        "~Ruosong_Ye1",
+        "~Kaixiong_Zhou1",
+        "~Mengnan_Du1",
+        "~Yongfeng_Zhang1"
+      ],
+      "affiliations": [
+        "Beijing Medical University"
+      ],
+      "first_institute": "Beijing Medical University"
+    },
+    {
+      "paper_id": "colm2024:ferret-v2-an-improved-baseline-for-referring-and-grounding-with-large-la:feabc4a3f0",
+      "title": "Ferret-v2: An Improved Baseline for Referring and Grounding with Large Language Models",
+      "paper_url": "https://openreview.net/forum?id=EEPBOB2Xww",
+      "authorids": [
+        "~Haotian_Zhang3",
+        "~Haoxuan_You1",
+        "~Philipp_Dufter1",
+        "~Bowen_Zhang2",
+        "~Chen_Chen41",
+        "~Hong-You_Chen1",
+        "~Tsu-Jui_Fu2",
+        "~William_Yang_Wang2",
+        "~Shih-Fu_Chang3",
+        "~Zhe_Gan1",
+        "~Yinfei_Yang1"
+      ],
+      "affiliations": [
+        "Apple"
+      ],
+      "first_institute": "Apple"
+    },
+    {
+      "paper_id": "colm2024:reverse-training-to-nurse-the-reversal-curse:fea95342ef",
+      "title": "Reverse Training to Nurse the Reversal Curse",
+      "paper_url": "https://openreview.net/forum?id=HDkNbfLQgu",
+      "authorids": [
+        "~Olga_Golovneva1",
+        "~Zeyuan_Allen-Zhu1",
+        "~Jason_E_Weston1",
+        "~Sainbayar_Sukhbaatar1"
+      ],
+      "affiliations": [
+        "Facebook"
+      ],
+      "first_institute": "Facebook"
+    },
+    {
+      "paper_id": "colm2024:isobench-benchmarking-multimodal-foundation-models-on-isomorphic-represe:a5645165ce",
+      "title": "IsoBench: Benchmarking Multimodal Foundation Models on Isomorphic Representations",
+      "paper_url": "https://openreview.net/forum?id=KZd1EErRJ1",
+      "authorids": [
+        "~Deqing_Fu1",
+        "~Ruohao_Guo2",
+        "~Ghazal_Khalighinejad1",
+        "~Ollie_Liu1",
+        "~Bhuwan_Dhingra1",
+        "~Dani_Yogatama2",
+        "~Robin_Jia1",
+        "~Willie_Neiswanger2"
+      ],
+      "affiliations": [
+        "Apple"
+      ],
+      "first_institute": "Apple"
+    },
+    {
+      "paper_id": "colm2024:on-fairness-of-low-rank-adaptation-of-large-models:d8ecdce73f",
+      "title": "On Fairness of Low-Rank Adaptation of Large Models",
+      "paper_url": "https://openreview.net/forum?id=K1M3gLW0MX",
+      "authorids": [
+        "~Zhoujie_Ding1",
+        "~Ken_Liu1",
+        "~Pura_Peetathawatchai1",
+        "~Berivan_Isik1",
+        "~Sanmi_Koyejo1"
+      ],
+      "affiliations": [
+        "Google"
+      ],
+      "first_institute": "Google"
+    },
+    {
+      "paper_id": "colm2024:will-the-real-linda-please-stand-up-to-large-language-models-examining-t:2603399d41",
+      "title": "Will the Real Linda Please Stand up...to Large Language Models? Examining the Representativeness Heuristic in LLMs",
+      "paper_url": "https://openreview.net/forum?id=3GhOWfSLrD",
+      "authorids": [
+        "~Pengda_Wang1",
+        "~Zilin_Xiao1",
+        "~Hanjie_Chen1",
+        "~Frederick_L._Oswald1"
+      ],
+      "affiliations": [
+        "Rice University"
+      ],
+      "first_institute": "Rice University"
+    },
+    {
+      "paper_id": "colm2024:evaluating-llms-at-detecting-errors-in-llm-responses:12e788273f",
+      "title": "Evaluating LLMs at Detecting Errors in LLM Responses",
+      "paper_url": "https://openreview.net/forum?id=dnwRScljXr",
+      "authorids": [
+        "~Ryo_Kamoi1",
+        "~Sarkar_Snigdha_Sarathi_Das1",
+        "~Renze_Lou1",
+        "~Jihyun_Janice_Ahn1",
+        "~Yilun_Zhao1",
+        "~Xiaoxin_Lu1",
+        "~Nan_Zhang9",
+        "~Yusen_Zhang1",
+        "~Haoran_Ranran_Zhang1",
+        "~Sujeeth_Reddy_Vummanthala1",
+        "~Salika_Dave1",
+        "~Shaobo_Qin1",
+        "~Arman_Cohan1",
+        "~Wenpeng_Yin1",
+        "~Rui_Zhang7"
+      ],
+      "affiliations": [
+        "Yale University"
+      ],
+      "first_institute": "Yale University"
+    },
+    {
+      "paper_id": "colm2024:massive-activations-in-large-language-models:8a24af3051",
+      "title": "Massive Activations in Large Language Models",
+      "paper_url": "https://openreview.net/forum?id=F7aAhfitX6",
+      "authorids": [
+        "~Mingjie_Sun1",
+        "~Xinlei_Chen1",
+        "~J_Zico_Kolter1",
+        "~Zhuang_Liu1"
+      ],
+      "affiliations": [
+        "Carnegie Mellon University"
+      ],
+      "first_institute": "Carnegie Mellon University"
+    }
+  ]
+}
