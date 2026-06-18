@@ -59,13 +59,15 @@ Each normalized record should include:
 - title
 - abstract when available
 - authors
-- affiliations and first institution when available
+- affiliations and first institution are optional; keep already collected values, but do not require collecting them for missing records
 - venue key, venue name, year
 - status, track, presentation when available
-- paper, PDF, DOI, arXiv, project, and GitHub links when available
+- paper URL, PDF URL, DOI, and arXiv abs URL when available
+- project and GitHub links are best-effort only; many papers do not have them, and missing values should not block completion
 - source name, source URL, fetched timestamp
 
-Use empty strings or empty arrays for unavailable fields. Do not guess missing affiliations or links.
+Use empty strings, empty arrays, or `null` for unavailable fields, following the existing normalized schema. Do not guess missing affiliations, first institutions, or links.
+`arxiv_url` should point to the arXiv abstract page (`https://arxiv.org/abs/<id>`). Do not add a separate arXiv PDF field as a completion requirement.
 
 ## Commit Workflow
 
@@ -101,19 +103,21 @@ python scripts/build_source_gap_report.py
 Separate the work into two layers:
 
 1. **Core paper-list harvesting**: official title/authors/paper URL/PDF/count coverage for every configured conference/year.
-2. **Metadata enrichment**: abstracts, TLDRs, DOI, affiliations, first institution, project/GitHub/arXiv links.
+2. **Metadata enrichment**: abstracts, TLDRs, DOI, arXiv abs links, and best-effort project/GitHub links.
 
-Core paper-list harvesting is the first priority. Per-paper metadata enrichment is valuable for downstream training-free filtering, but it should not block finishing official list coverage.
+Core paper-list harvesting is the first priority. Per-paper metadata enrichment is valuable for downstream training-free filtering, but it should not block finishing official list coverage. Affiliations and first institution are not required at this time; keep values already harvested, but leave missing values empty/null rather than spending dedicated collection time on them.
 
 Do not use web search to find papers one by one. Use web browsing only to inspect a few representative official pages and confirm page/API structure. Then implement or update local harvesters/enrichment scripts under `src/aicpl/sources/` or `scripts/`, and run them in batches.
 
 For large per-paper enrichment jobs:
 
 - Prefer bulk APIs, official JSON/XML, Crossref/OpenReview/PMLR metadata, or event pages when available.
+- arXiv enrichment is a current goal: use bulk APIs or batched title-based lookup, write `arxiv_url` only for high-confidence unambiguous matches, and leave ambiguous or missing matches empty/null.
 - If detail-page requests are required, use batching, retries, and resumability. Avoid one huge run that writes only after thousands of pages.
 - On a fast server, prefer async HTTP or high-throughput chunked workers with connection reuse and a persistent cache of fetched pages.
 - Track failures separately and retry only failed/missing records.
 - Commit by meaningful source/year groups, not after every tiny sample.
+- Do not run dedicated affiliation/first-institution enrichment jobs unless this requirement is explicitly re-enabled.
 
 Validation should be proportional:
 
