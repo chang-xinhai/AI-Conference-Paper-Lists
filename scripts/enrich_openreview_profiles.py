@@ -77,6 +77,132 @@ def _fetch_notes(
     return notes, source_urls
 
 
+def _note_authorids_cache_path(raw_dir: Path, venue_key: str, year: int) -> Path:
+    return raw_dir / "openreview_profile_authorids" / venue_key / f"{venue_key}{year}.json"
+
+
+def _paper_authorids_from_notes(
+    records: list[dict[str, Any]],
+    notes: list[dict[str, Any]],
+) -> dict[str, list[str]]:
+    note_authorids_by_key: dict[str, list[str]] = {}
+    note_authorids_by_title: dict[str, list[str]] = {}
+    for note in notes:
+        authorids = _note_authorids(note)
+        if not authorids:
+            continue
+        content = note.get("content", {})
+        title = normalize_title(str(openreview._value(content.get("title"), "")))  # noqa: SLF001
+        if key := _note_key(note):
+            note_authorids_by_key[key] = authorids
+        if title:
+            note_authorids_by_title[title] = authorids
+
+    paper_authorids: dict[str, list[str]] = {}
+    for record in records:
+        authorids = note_authorids_by_key.get(_paper_key(record))
+        if not authorids:
+            title_key = normalize_title(str(record.get("title") or ""))
+            authorids = note_authorids_by_title.get(title_key, [])
+        if authorids:
+            paper_authorids[str(record.get("id") or "")] = authorids
+    return paper_authorids
+
+
+def _load_note_authorids_cache(path: Path) -> tuple[dict[str, list[str]], list[str]] | None:
+    if not path.exists():
+        return None
+    payload = read_json(path)
+    records = payload.get("records", []) if isinstance(payload, dict) else []
+    paper_authorids = {
+        str(record.get("paper_id") or ""): [
+            str(author_id).strip()
+            for author_id in record.get("authorids", [])
+            if str(author_id).strip()
+        ]
+        for record in records
+        if record.get("paper_id")
+    }
+    if not paper_authorids:
+        return None
+    source_urls = [
+        part.strip()
+        for part in str(payload.get("source_url") or "").split(";")
+        if part.strip()
+    ]
+    return paper_authorids, source_urls
+
+
+def _write_note_authorids_cache(
+    path: Path,
+    *,
+    venue_key: str,
+    year: int,
+    source_urls: list[str],
+    paper_authorids: dict[str, list[str]],
+    records: list[dict[str, Any]],
+    fetched_at: str,
+) -> None:
+    records_by_id = {
+        str(record.get("id") or ""): record
+        for record in records
+    }
+    rows = []
+    for paper_id, authorids in sorted(paper_authorids.items()):
+        record = records_by_id.get(paper_id, {})
+        rows.append(
+            {
+                "paper_id": paper_id,
+                "title": record.get("title", ""),
+                "paper_url": record.get("paper_url", ""),
+                "authorids": authorids,
+            }
+        )
+    write_json(
+        path,
+        {
+            "schema_version": "0.1",
+            "source": "openreview_note_authorids",
+            "venue_key": venue_key,
+            "year": year,
+            "source_url": "; ".join(source_urls),
+            "fetched_at": fetched_at,
+            "count": len(rows),
+            "records": rows,
+        },
+    )
+
+
+def _load_or_fetch_paper_authorids(
+    venue_key: str,
+    year: int,
+    *,
+    records: list[dict[str, Any]],
+    raw_dir: Path,
+    limit: int,
+    refresh_note_cache: bool,
+    dry_run: bool,
+) -> tuple[dict[str, list[str]], list[str]]:
+    cache_path = _note_authorids_cache_path(raw_dir, venue_key, year)
+    cached = None if refresh_note_cache else _load_note_authorids_cache(cache_path)
+    if cached is not None:
+        return cached
+
+    notes, source_urls = _fetch_notes(venue_key, year, limit=limit)
+    paper_authorids = _paper_authorids_from_notes(records, notes)
+    if not dry_run:
+        _write_note_authorids_cache(
+            cache_path,
+            venue_key=venue_key,
+            year=year,
+            source_urls=source_urls,
+            paper_authorids=paper_authorids,
+            records=records,
+            fetched_at=now_utc(),
+        )
+    return paper_authorids, source_urls
+
+
 def _institution_name(entry: dict[str, Any]) -> str:
     institution = entry.get("institution")
     if not isinstance(institution, dict):
@@ -300,6 +426,7 @@ def enrich_one(
     profile_retries: int,
     checkpoint_every: int,
     cache_only: bool,
+    refresh_note_cache: bool,
     dry_run: bool,
 ) -> tuple[int, int, int]:
     normalized_path = normalized_dir / venue_key / f"{venue_key}{year}.json"
@@ -310,32 +437,21 @@ def enrich_one(
     normalized = read_json(normalized_path)
     if normalized.get("source") != "openreview":
         raise ValueError(f"{venue_key}{year} is source={normalized.get('source')}, not openreview")
-
-    notes, note_source_urls = _fetch_notes(venue_key, year, limit=limit)
-    note_authorids_by_key: dict[str, list[str]] = {}
-    note_authorids_by_title: dict[str, list[str]] = {}
-    for note in notes:
-        authorids = _note_authorids(note)
-        if not authorids:
-            continue
-        content = note.get("content", {})
-        title = normalize_title(str(openreview._value(content.get("title"), "")))  # noqa: SLF001
-        if key := _note_key(note):
-            note_authorids_by_key[key] = authorids
-        if title:
-            note_authorids_by_title[title] = authorids
-
     records = normalized.get("records", [])
-    all_paper_authorids: dict[str, list[str]] = {}
+
+    all_paper_authorids, note_source_urls = _load_or_fetch_paper_authorids(
+        venue_key,
+        year,
+        records=records,
+        raw_dir=raw_dir,
+        limit=limit,
+        refresh_note_cache=refresh_note_cache,
+        dry_run=dry_run,
+    )
     unique_authorids: set[str] = set()
     for record in records:
-        authorids = note_authorids_by_key.get(_paper_key(record))
-        if not authorids:
-            title_key = normalize_title(str(record.get("title") or ""))
-            authorids = note_authorids_by_title.get(title_key, [])
+        authorids = all_paper_authorids.get(str(record.get("id") or ""), [])
         if authorids:
-            record_id = str(record.get("id") or "")
-            all_paper_authorids[record_id] = authorids
             if not record.get("affiliations"):
                 unique_authorids.update(authorids)
 
@@ -470,6 +586,11 @@ def main() -> None:
         action="store_true",
         help="Apply cached profile institutions without fetching new profiles.",
     )
+    parser.add_argument(
+        "--refresh-note-cache",
+        action="store_true",
+        help="Refetch OpenReview notes and rebuild the per-paper authorid snapshot.",
+    )
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
 
@@ -502,6 +623,7 @@ def main() -> None:
             profile_retries=max(0, args.profile_retries),
             checkpoint_every=max(0, args.checkpoint_every),
             cache_only=args.cache_only,
+            refresh_note_cache=args.refresh_note_cache,
             dry_run=args.dry_run,
         )
         total_updated += updated
