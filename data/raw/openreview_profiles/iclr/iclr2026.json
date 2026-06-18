@@ -4,9 +4,9 @@
   "venue_key": "iclr",
   "year": 2026,
   "source_url": "https://api2.openreview.net/notes?content.venueid=ICLR.cc/2026/Conference; https://api2.openreview.net/profiles?id=<openreview-profile-id>",
-  "fetched_at": "2026-06-18T12:42:30Z",
-  "count": 3722,
-  "profile_count": 19375,
+  "fetched_at": "2026-06-18T12:50:50Z",
+  "count": 3800,
+  "profile_count": 19704,
   "records": [
     {
       "paper_id": "iclr2026:task-tokens-a-flexible-approach-to-adapting-behavior-foundation-models:45745a04cb",
@@ -283,7 +283,8 @@
         "~Haihong_E1"
       ],
       "affiliations": [
-        "Beijing University of Posts and Telecommunications"
+        "Beijing University of Posts and Telecommunications",
+        "Beijing University of Post and Telecommunication"
       ],
       "first_institute": "Beijing University of Posts and Telecommunications"
     },
@@ -301,6 +302,29 @@
         "Queen Mary, University of London"
       ],
       "first_institute": "Queen Mary, University of London"
+    },
+    {
+      "paper_id": "iclr2026:not-search-but-scan-benchmarking-mllms-on-scan-oriented-academic-paper-r:26a4941180",
+      "title": "Not Search, But Scan: Benchmarking MLLMs on Scan-Oriented Academic Paper Reasoning",
+      "paper_url": "https://openreview.net/forum?id=GDA1yB6yDP",
+      "authorids": [
+        "~Rongjin_Li1",
+        "~Zichen_Tang1",
+        "~Xianghe_Wang2",
+        "~Xinyi_Hu5",
+        "~Zhengyu_Wang6",
+        "~Zhengyu_Lu2",
+        "~Yiling_Huang1",
+        "~Jiayuan_Chen4",
+        "~Weisheng_Tan1",
+        "~Jiacheng_Liu15",
+        "~Zhongjun_Yang1",
+        "~Haihong_E1"
+      ],
+      "affiliations": [
+        "Beijing University of Post and Telecommunication"
+      ],
+      "first_institute": "Beijing University of Post and Telecommunication"
     },
     {
       "paper_id": "iclr2026:frugalrag-less-is-more-in-rl-finetuning-for-multi-hop-question-answering:9f91b62792",
@@ -1167,6 +1191,39 @@
       "first_institute": "Tohoku University"
     },
     {
+      "paper_id": "iclr2026:enhancing-visual-token-representations-for-video-large-language-models-v:6ad19d6fea",
+      "title": "Enhancing Visual Token Representations for Video Large Language Models via Training-free Spatial-Temporal Pooling and Gridding",
+      "paper_url": "https://openreview.net/forum?id=MZi9SYPVz5",
+      "authorids": [
+        "~Bingjun_Luo2",
+        "~Tony_Wang4",
+        "~Hanqi_Chen1",
+        "~Xinpeng_Ding1"
+      ],
+      "affiliations": [
+        "Shenzhen University"
+      ],
+      "first_institute": "Shenzhen University"
+    },
+    {
+      "paper_id": "iclr2026:proxyattn-guided-sparse-attention-via-representative-heads:06621c1696",
+      "title": "ProxyAttn: Guided Sparse Attention via Representative Heads",
+      "paper_url": "https://openreview.net/forum?id=m3HXHQYmZu",
+      "authorids": [
+        "~Yixuan_Wang6",
+        "~Huang_He1",
+        "~Siqi_Bao2",
+        "~Hua_Wu4",
+        "~Haifeng_Wang3",
+        "~Qingfu_Zhu1",
+        "~Wanxiang_Che1"
+      ],
+      "affiliations": [
+        "Baidu"
+      ],
+      "first_institute": "Baidu"
+    },
+    {
       "paper_id": "iclr2026:trac-tensor-train-based-across-layer-compression-for-parameter-efficient:95ba026a2a",
       "title": "TRAC: Tensor-Train based Across-layer Compression for Parameter-Efficient Fine-Tuning",
       "paper_url": "https://openreview.net/forum?id=tz5yPWZp9W",
@@ -1216,6 +1273,20 @@
         "Johns Hopkins University"
       ],
       "first_institute": "Johns Hopkins University"
+    },
+    {
+      "paper_id": "iclr2026:contextif-enhancing-instruction-following-through-context-reward:53d7a37a81",
+      "title": "ContextIF: Enhancing Instruction-Following through Context Reward",
+      "paper_url": "https://openreview.net/forum?id=IuscGSmfEf",
+      "authorids": [
+        "~Yule_Zhong1",
+        "~Jiacheng_Yao1",
+        "~Guoxiu_He1"
+      ],
+      "affiliations": [
+        "East China Normal University"
+      ],
+      "first_institute": "East China Normal University"
     },
     {
       "paper_id": "iclr2026:use-the-online-network-if-you-can-towards-fast-and-stable-reinforcement:e2e109c598",
@@ -3338,6 +3409,20 @@
       "first_institute": "Baylor University"
     },
     {
+      "paper_id": "iclr2026:align-to-misalign-automatic-llm-jailbreak-with-meta-optimized-llm-judges:2118f27478",
+      "title": "Align to Misalign: Automatic LLM Jailbreak with Meta-Optimized LLM Judges",
+      "paper_url": "https://openreview.net/forum?id=gGjwMNAYAr",
+      "authorids": [
+        "~Hamin_Koo1",
+        "~Minseon_Kim1",
+        "~Jaehyung_Kim1"
+      ],
+      "affiliations": [
+        "Yonsei University"
+      ],
+      "first_institute": "Yonsei University"
+    },
+    {
       "paper_id": "iclr2026:negative-pre-activations-differentiate-syntax:67a0249cd9",
       "title": "Negative Pre-activations Differentiate Syntax",
       "paper_url": "https://openreview.net/forum?id=RzcCrU0tXP",
@@ -3744,6 +3829,29 @@
       "first_institute": "Inistro Inc."
     },
     {
+      "paper_id": "iclr2026:hierarchical-semantic-acoustic-modeling-via-semi-discrete-residual-repre:1deff51822",
+      "title": "Hierarchical Semantic-Acoustic Modeling via Semi-Discrete Residual Representations for Expressive End-to-End Speech Synthesis",
+      "paper_url": "https://openreview.net/forum?id=h5KLpGoqzC",
+      "authorids": [
+        "~Yixuan_Zhou1",
+        "~Guoyang_Zeng1",
+        "~Xin_Liu19",
+        "~Xiang_Li25",
+        "~Renjie_Yu1",
+        "~Ziyang_Wang23",
+        "~Runchuan_Ye1",
+        "~Weiyue_Sun1",
+        "~Jiancheng_Gui1",
+        "~Kehan_Li5",
+        "~Zhiyong_Wu2",
+        "~Zhiyuan_Liu1"
+      ],
+      "affiliations": [
+        "ModelBest"
+      ],
+      "first_institute": "ModelBest"
+    },
+    {
       "paper_id": "iclr2026:generative-value-conflicts-reveal-llm-priorities:230aa748b1",
       "title": "Generative Value Conflicts Reveal LLM Priorities",
       "paper_url": "https://openreview.net/forum?id=RXCRKAcv3B",
@@ -3927,6 +4035,21 @@
       "first_institute": "Shanghai Academy of Artificial Intelligence for Science"
     },
     {
+      "paper_id": "iclr2026:wsvd-weighted-low-rank-approximation-for-fast-and-efficient-execution-of:55fa86b8dd",
+      "title": "WSVD: Weighted Low-Rank Approximation for Fast and Efficient Execution of Low-Precision Vision-Language Models",
+      "paper_url": "https://openreview.net/forum?id=zrmQ4koOw9",
+      "authorids": [
+        "~Haiyu_Wang1",
+        "~Yutong_Wang4",
+        "~Jack_Jiang1",
+        "~Sai_Qian_Zhang1"
+      ],
+      "affiliations": [
+        "New York University"
+      ],
+      "first_institute": "New York University"
+    },
+    {
       "paper_id": "iclr2026:vgr-visual-grounded-reasoning:ecbcd66003",
       "title": "VGR: Visual Grounded Reasoning",
       "paper_url": "https://openreview.net/forum?id=kDhAiaGzrn",
@@ -3982,7 +4105,8 @@
         "~Guoxian_Yu2"
       ],
       "affiliations": [
-        "George Mason University"
+        "George Mason University",
+        "Shandong University"
       ],
       "first_institute": "George Mason University"
     },
@@ -4754,6 +4878,20 @@
       "first_institute": "Virginia Polytechnic Institute and State University"
     },
     {
+      "paper_id": "iclr2026:trajectory-generation-with-conservative-value-guidance-for-offline-reinf:4f1ddbb7c8",
+      "title": "Trajectory Generation with Conservative Value Guidance for Offline Reinforcement Learning",
+      "paper_url": "https://openreview.net/forum?id=eTThjhjzwZ",
+      "authorids": [
+        "~Tieru_Wang2",
+        "~Kunbao_Wu1",
+        "~Guoshun_Nan1"
+      ],
+      "affiliations": [
+        "Beijing University of Posts and Telecommunications"
+      ],
+      "first_institute": "Beijing University of Posts and Telecommunications"
+    },
+    {
       "paper_id": "iclr2026:how-dark-patterns-manipulate-web-agents:61900e00a9",
       "title": "How Dark Patterns Manipulate Web Agents",
       "paper_url": "https://openreview.net/forum?id=G7Dan0L7ho",
@@ -4799,6 +4937,20 @@
         "Duke University"
       ],
       "first_institute": "Duke University"
+    },
+    {
+      "paper_id": "iclr2026:offline-reinforcement-learning-with-adaptive-feature-fusion:5881a57c94",
+      "title": "Offline Reinforcement Learning with Adaptive Feature Fusion",
+      "paper_url": "https://openreview.net/forum?id=uD9UT0gHLH",
+      "authorids": [
+        "~Tieru_Wang2",
+        "~Kunbao_Wu1",
+        "~Guoshun_Nan1"
+      ],
+      "affiliations": [
+        "Beijing University of Posts and Telecommunications"
+      ],
+      "first_institute": "Beijing University of Posts and Telecommunications"
     },
     {
       "paper_id": "iclr2026:continuous-chain-of-thought-enables-parallel-exploration-and-reasoning:7558836133",
@@ -5630,6 +5782,22 @@
         "Salesforce AI"
       ],
       "first_institute": "Salesforce Research"
+    },
+    {
+      "paper_id": "iclr2026:when-thinking-backfires-mechanistic-insights-into-reason-induced-misalig:1bfdd514dc",
+      "title": "When Thinking Backfires: Mechanistic Insights into Reason-induced Misalignment",
+      "paper_url": "https://openreview.net/forum?id=GpL66XgjjF",
+      "authorids": [
+        "~Hanqi_Yan2",
+        "~Hainiu_Xu1",
+        "~Siya_Qi1",
+        "~Shu_Yang10",
+        "~Yulan_He1"
+      ],
+      "affiliations": [
+        "King's College London, University of London"
+      ],
+      "first_institute": "King's College London, University of London"
     },
     {
       "paper_id": "iclr2026:gaussian-certified-unlearning-in-high-dimensions-a-hypothesis-testing-ap:3199485180",
@@ -6600,6 +6768,22 @@
       "first_institute": "Georgia Institute of Technology"
     },
     {
+      "paper_id": "iclr2026:fame-formal-abstract-minimal-explanation-for-neural-networks:4691a11b8e",
+      "title": "FAME: Formal Abstract Minimal Explanation for Neural Networks",
+      "paper_url": "https://openreview.net/forum?id=VJkNqJJAhV",
+      "authorids": [
+        "~Ryma_Boumazouza1",
+        "~Raya_Elsaleh1",
+        "~Melanie_Ducoffe1",
+        "~Shahaf_Bassan1",
+        "~Guy_Katz1"
+      ],
+      "affiliations": [
+        "Hebrew University of Jerusalem"
+      ],
+      "first_institute": "Hebrew University of Jerusalem"
+    },
+    {
       "paper_id": "iclr2026:swerank-software-issue-localization-with-code-ranking:6c4db2fa6f",
       "title": "SWERank: Software Issue Localization with Code Ranking",
       "paper_url": "https://openreview.net/forum?id=OnkRqbNhe3",
@@ -6655,6 +6839,21 @@
         "Amazon"
       ],
       "first_institute": "Amazon"
+    },
+    {
+      "paper_id": "iclr2026:warp-weight-teleportation-for-attack-resilient-unlearning-protocols:7969a15546",
+      "title": "WARP: Weight Teleportation for Attack-Resilient Unlearning Protocols",
+      "paper_url": "https://openreview.net/forum?id=404TzkOCUD",
+      "authorids": [
+        "~Mohammad_mahdi_Maheri1",
+        "~Xavier_Cadet1",
+        "~Peter_Chin1",
+        "~Hamed_Haddadi1"
+      ],
+      "affiliations": [
+        "Brave Software"
+      ],
+      "first_institute": "Brave Software"
     },
     {
       "paper_id": "iclr2026:stem-scaling-transformers-with-embedding-modules:0698f8c0d8",
@@ -8803,7 +9002,8 @@
         "~Haifeng_Xu1"
       ],
       "affiliations": [
-        "Independent Researcher"
+        "Independent Researcher",
+        "University of Chicago"
       ],
       "first_institute": "Independent Researcher"
     },
@@ -11832,6 +12032,25 @@
       "first_institute": "Universitat Pompeu Fabra"
     },
     {
+      "paper_id": "iclr2026:learning-efficient-and-interpretable-multi-agent-communication:e719431f3e",
+      "title": "Learning Efficient and Interpretable Multi-Agent Communication",
+      "paper_url": "https://openreview.net/forum?id=a3CUE06G5Y",
+      "authorids": [
+        "~Wei_Du2",
+        "~Benyu_Wu1",
+        "~YUQING_SUN1",
+        "~Wei_Guo23",
+        "~Yuntao_Du2",
+        "~Zhongmin_Yan2",
+        "~Guoxian_Yu2",
+        "~Lizhen_Cui1"
+      ],
+      "affiliations": [
+        "Shandong University"
+      ],
+      "first_institute": "Shandong University"
+    },
+    {
       "paper_id": "iclr2026:composite-optimization-with-error-feedback-the-dual-averaging-approach:7d6100667e",
       "title": "Composite Optimization with Error Feedback: the Dual Averaging Approach",
       "paper_url": "https://openreview.net/forum?id=PSmakC4sw5",
@@ -12402,6 +12621,24 @@
       "first_institute": "Princeton University"
     },
     {
+      "paper_id": "iclr2026:provably-explaining-neural-additive-models:0ba5b86e0f",
+      "title": "Provably Explaining Neural Additive Models",
+      "paper_url": "https://openreview.net/forum?id=040ClRXMf3",
+      "authorids": [
+        "~Shahaf_Bassan1",
+        "~Yizhak_Yisrael_Elboher1",
+        "~Tobias_Ladner1",
+        "~Volkan_Şahin1",
+        "~Jan_Kretinsky1",
+        "~Matthias_Althoff1",
+        "~Guy_Katz1"
+      ],
+      "affiliations": [
+        "Hebrew University of Jerusalem"
+      ],
+      "first_institute": "Hebrew University of Jerusalem"
+    },
+    {
       "paper_id": "iclr2026:ads-that-stick-near-optimal-ad-optimization-through-psychological-behavi:7db035bfd9",
       "title": "Ads that Stick: Near-Optimal Ad Optimization through Psychological Behavior Models",
       "paper_url": "https://openreview.net/forum?id=A8wfXZkoMs",
@@ -12415,6 +12652,21 @@
         "Indian Institute of Science, Indian institute of science, Bangalore"
       ],
       "first_institute": "Indian Institute of Science, Indian institute of science, Bangalore"
+    },
+    {
+      "paper_id": "iclr2026:task-vectors-learned-not-extracted-performance-gains-and-mechanistic-ins:8aa66d2402",
+      "title": "Task Vectors, Learned Not Extracted: Performance Gains and Mechanistic Insights",
+      "paper_url": "https://openreview.net/forum?id=RGEbVZgf4E",
+      "authorids": [
+        "~Haolin_Yang8",
+        "~Hakaze_Cho1",
+        "~Kaize_Ding1",
+        "~Naoya_Inoue1"
+      ],
+      "affiliations": [
+        "Tohoku University"
+      ],
+      "first_institute": "Tohoku University"
     },
     {
       "paper_id": "iclr2026:verifier-free-test-time-sampling-for-vision-language-action-models:9d2568a1f8",
@@ -13365,6 +13617,22 @@
       "first_institute": "Swiss Federal Institute of Technology Lausanne"
     },
     {
+      "paper_id": "iclr2026:theoretical-analysis-of-contrastive-learning-under-imbalanced-data-from:722ff07559",
+      "title": "Theoretical Analysis of Contrastive Learning under Imbalanced Data: From Training Dynamics to a Pruning Solution",
+      "paper_url": "https://openreview.net/forum?id=DUXG9E8dEO",
+      "authorids": [
+        "~Haixu_Liao1",
+        "~Yating_Zhou2",
+        "~Songyang_Zhang2",
+        "~Meng_Wang4",
+        "~Shuai_Zhang6"
+      ],
+      "affiliations": [
+        "New Jersey Institute of Technology"
+      ],
+      "first_institute": "New Jersey Institute of Technology"
+    },
+    {
       "paper_id": "iclr2026:boosting-multi-domain-reasoning-of-llms-via-curvature-guided-policy-opti:c9130d6ddc",
       "title": "Boosting Multi-Domain Reasoning of LLMs via Curvature-Guided Policy Optimization",
       "paper_url": "https://openreview.net/forum?id=R2EZtdHWJT",
@@ -13598,9 +13866,32 @@
         "~Yun_Yang1"
       ],
       "affiliations": [
-        "Alibaba Group"
+        "Alibaba Group",
+        "Huazhong University of Science and Technology"
       ],
       "first_institute": "Alibaba Group"
+    },
+    {
+      "paper_id": "iclr2026:dreamon-diffusion-language-models-for-code-infilling-beyond-fixed-size-c:1cf386e032",
+      "title": "DreamOn: Diffusion Language Models For Code Infilling Beyond Fixed-size Canvas",
+      "paper_url": "https://openreview.net/forum?id=EQTPmqukiU",
+      "authorids": [
+        "~Zirui_Wu1",
+        "~Lin_Zheng1",
+        "~Zhihui_Xie2",
+        "~Jiacheng_Ye2",
+        "~Jiahui_Gao2",
+        "~Shansan_Gong1",
+        "~Yansong_Feng1",
+        "~Zhenguo_Li1",
+        "~Wei_Bi1",
+        "~Guorui_Zhou1",
+        "~Lingpeng_Kong1"
+      ],
+      "affiliations": [
+        "Kuaishou- 快手科技"
+      ],
+      "first_institute": "Kuaishou- 快手科技"
     },
     {
       "paper_id": "iclr2026:liteguard-efficient-task-agnostic-model-fingerprinting-with-enhanced-gen:37f0b34f7a",
@@ -16608,6 +16899,24 @@
       "first_institute": "Northeastern University"
     },
     {
+      "paper_id": "iclr2026:focus-efficient-keyframe-selection-for-long-video-understanding:5e07406f64",
+      "title": "FOCUS: Efficient Keyframe Selection for Long Video Understanding",
+      "paper_url": "https://openreview.net/forum?id=1OQKqLFcbB",
+      "authorids": [
+        "~Zirui_Zhu2",
+        "~Hailun_Xu1",
+        "~Yang_Luo4",
+        "~Yong_Liu13",
+        "~Kanchan_Sarkar1",
+        "~Zhenheng_Yang3",
+        "~Yang_You1"
+      ],
+      "affiliations": [
+        "TikTok Inc."
+      ],
+      "first_institute": "TikTok Inc."
+    },
+    {
       "paper_id": "iclr2026:mone-replacing-redundant-experts-with-lightweight-novices-for-structured:d82ff70d59",
       "title": "MoNE: Replacing Redundant Experts with Lightweight Novices for Structured Pruning of MoE",
       "paper_url": "https://openreview.net/forum?id=881uEwToKQ",
@@ -17036,6 +17345,29 @@
         "ELLIS Institute Finland"
       ],
       "first_institute": "The University of Warwick"
+    },
+    {
+      "paper_id": "iclr2026:pisces-cryptography-based-private-retrieval-augmented-generation-with-du:2e74fe43e2",
+      "title": "Pisces: Cryptography-based Private Retrieval-Augmented Generation with Dual-Path Retrieval",
+      "paper_url": "https://openreview.net/forum?id=Re3A6vzCTC",
+      "authorids": [
+        "~Xiaojian_Liang1",
+        "~Lushan_Song1",
+        "~Shishuai_Du1",
+        "~Weicheng_Zhu3",
+        "~Tan_Li_Hui_Faith1",
+        "~Jun_Jie_Sim1",
+        "~Haibing_Jin1",
+        "~Zhenghao_Wu5",
+        "~Yingting_Liu1",
+        "~Xin_Zhang38",
+        "~Jiang-Ming_Yang1",
+        "~Pu_Duan1"
+      ],
+      "affiliations": [
+        "Ant International"
+      ],
+      "first_institute": "Ant International"
     },
     {
       "paper_id": "iclr2026:neural-symbolic-approaches-for-interpretable-actor-critic-reinforcement:8da9677087",
@@ -19252,6 +19584,33 @@
       "first_institute": "RIKEN"
     },
     {
+      "paper_id": "iclr2026:topological-causal-effects:3aaa503c6b",
+      "title": "Topological Causal Effects",
+      "paper_url": "https://openreview.net/forum?id=dYaos1ITw4",
+      "authorids": [
+        "~Kwangho_Kim1",
+        "~Hajin_Lee1"
+      ],
+      "affiliations": [
+        "Korea University"
+      ],
+      "first_institute": "Korea University"
+    },
+    {
+      "paper_id": "iclr2026:unifying-formal-explanations-a-complexity-theoretic-perspective:cc86ce3a69",
+      "title": "Unifying Formal Explanations: A Complexity-Theoretic Perspective",
+      "paper_url": "https://openreview.net/forum?id=kbps463Pdf",
+      "authorids": [
+        "~Shahaf_Bassan1",
+        "~Xuanxiang_Huang2",
+        "~Guy_Katz1"
+      ],
+      "affiliations": [
+        "Hebrew University of Jerusalem"
+      ],
+      "first_institute": "Hebrew University of Jerusalem"
+    },
+    {
       "paper_id": "iclr2026:sonic-spectral-oriented-neural-invariant-convolutions:3654dbeaeb",
       "title": "SONIC: Spectral Oriented Neural Invariant Convolutions",
       "paper_url": "https://openreview.net/forum?id=qDGiMrUVmc",
@@ -21315,6 +21674,19 @@
       "first_institute": "Microsoft Research Asia"
     },
     {
+      "paper_id": "iclr2026:why-low-precision-transformer-training-fails-an-analysis-on-flash-attent:267e4a7e09",
+      "title": "Why Low-Precision Transformer Training Fails: An Analysis on Flash Attention",
+      "paper_url": "https://openreview.net/forum?id=0jHyEKHDyx",
+      "authorids": [
+        "~Haiquan_Qiu1",
+        "~Quanming_Yao3"
+      ],
+      "affiliations": [
+        "Tsinghua University, Tsinghua University"
+      ],
+      "first_institute": "Tsinghua University, Tsinghua University"
+    },
+    {
       "paper_id": "iclr2026:knowproxy-adapting-large-language-models-by-knowledge-guided-proxy:1ea99c7802",
       "title": "KnowProxy: Adapting Large Language Models by Knowledge-guided Proxy",
       "paper_url": "https://openreview.net/forum?id=14f18NoEqO",
@@ -22064,7 +22436,8 @@
         "~Rui_Yan2"
       ],
       "affiliations": [
-        "Renmin University of China"
+        "Renmin University of China",
+        "Meituan"
       ],
       "first_institute": "Renmin University of China"
     },
@@ -22496,6 +22869,24 @@
       "first_institute": "Microsoft Research"
     },
     {
+      "paper_id": "iclr2026:the-state-of-reinforcement-finetuning-for-transformer-based-agents:98aa0a27f9",
+      "title": "The State of Reinforcement Finetuning for Transformer-based Agents",
+      "paper_url": "https://openreview.net/forum?id=Cbg9MR6dR7",
+      "authorids": [
+        "~Shengchao_Hu1",
+        "~Peng_Wang44",
+        "~Guozheng_Ma2",
+        "~Shi_Fu1",
+        "~Li_Shen1",
+        "~Ya_Zhang1",
+        "~Dacheng_Tao1"
+      ],
+      "affiliations": [
+        "Nanyang Technological University"
+      ],
+      "first_institute": "Nanyang Technological University"
+    },
+    {
       "paper_id": "iclr2026:online-black-box-prompt-optimization-with-regret-guarantees-under-noisy:c1e2bda529",
       "title": "Online Black-Box Prompt Optimization with Regret Guarantees under Noisy Feedback",
       "paper_url": "https://openreview.net/forum?id=7MzaG8dHRv",
@@ -22634,6 +23025,24 @@
         "Johns Hopkins University"
       ],
       "first_institute": "Johns Hopkins University"
+    },
+    {
+      "paper_id": "iclr2026:sae-as-a-crystal-ball-interpretable-features-predict-cross-domain-transf:468862424a",
+      "title": "SAE as a Crystal Ball: Interpretable Features Predict Cross-domain Transferability of LLMs without Training",
+      "paper_url": "https://openreview.net/forum?id=KQYnfeBNjl",
+      "authorids": [
+        "~Qi_Zhang28",
+        "~Yifei_Wang1",
+        "~Xiaohan_Wang12",
+        "~Jiajun_Chai1",
+        "~Guojun_Yin1",
+        "~Wei_Lin7",
+        "~Yisen_Wang1"
+      ],
+      "affiliations": [
+        "Meituan"
+      ],
+      "first_institute": "Meituan"
     },
     {
       "paper_id": "iclr2026:ic-custom-diverse-image-customization-via-in-context-learning:761c258de3",
@@ -23525,6 +23934,23 @@
         "Sea AI Lab"
       ],
       "first_institute": "University of Oxford"
+    },
+    {
+      "paper_id": "iclr2026:deepprim-a-physics-driven-3d-short-term-weather-forecaster-via-primitive:7e8f91b1e2",
+      "title": "DeepPrim: a Physics-Driven 3D Short-term Weather Forecaster via Primitive Equation Learning",
+      "paper_url": "https://openreview.net/forum?id=EyyWd0hH0q",
+      "authorids": [
+        "~Jiawei_Chen11",
+        "~Weiqi_Chen1",
+        "~Rong_Hu4",
+        "~Peiyuan_Liu1",
+        "~Haifan_Zhang1",
+        "~Liang_Sun2"
+      ],
+      "affiliations": [
+        "Alibaba Group"
+      ],
+      "first_institute": "Alibaba Group"
     },
     {
       "paper_id": "iclr2026:when-to-use-graphs-in-rag-a-comprehensive-analysis-for-graph-retrieval-a:5859153781",
@@ -26895,6 +27321,20 @@
       "first_institute": "Aithyra"
     },
     {
+      "paper_id": "iclr2026:formal-mechanistic-interpretability-automated-circuit-discovery-with-pro:552f73599f",
+      "title": "Formal Mechanistic Interpretability: Automated Circuit Discovery with Provable Guarantees",
+      "paper_url": "https://openreview.net/forum?id=Timsb74vIY",
+      "authorids": [
+        "~Itamar_Hadad1",
+        "~Guy_Katz1",
+        "~Shahaf_Bassan1"
+      ],
+      "affiliations": [
+        "Hebrew University of Jerusalem"
+      ],
+      "first_institute": "Hebrew University of Jerusalem"
+    },
+    {
       "paper_id": "iclr2026:gradient-based-program-synthesis-with-neurally-interpreted-languages:80ed397477",
       "title": "Gradient-Based Program Synthesis with Neurally Interpreted Languages",
       "paper_url": "https://openreview.net/forum?id=NAORIWBaoO",
@@ -27106,6 +27546,7 @@
       ],
       "affiliations": [
         "University of Amsterdam",
+        "Meituan",
         "Tsinghua University"
       ],
       "first_institute": "University of Amsterdam"
@@ -27344,6 +27785,20 @@
         "University of Cyprus"
       ],
       "first_institute": "University of Cyprus"
+    },
+    {
+      "paper_id": "iclr2026:localizing-task-recognition-and-task-learning-in-in-context-learning-via:d6c2e46285",
+      "title": "Localizing Task Recognition and Task Learning in In-Context Learning via Attention Head Analysis",
+      "paper_url": "https://openreview.net/forum?id=gdvOF1OMa7",
+      "authorids": [
+        "~Haolin_Yang8",
+        "~Hakaze_Cho1",
+        "~Naoya_Inoue1"
+      ],
+      "affiliations": [
+        "Tohoku University"
+      ],
+      "first_institute": "Tohoku University"
     },
     {
       "paper_id": "iclr2026:embridge-enhancing-gesture-generalization-from-emg-signals-through-cross:f2d76f63cf",
@@ -28556,6 +29011,19 @@
         "Massachusetts Institute of Technology"
       ],
       "first_institute": "Massachusetts Institute of Technology"
+    },
+    {
+      "paper_id": "iclr2026:gen2seg-generative-models-enable-generalizable-instance-segmentation:e296af1d04",
+      "title": "gen2seg: Generative Models Enable Generalizable Instance Segmentation",
+      "paper_url": "https://openreview.net/forum?id=cSpjHOf04S",
+      "authorids": [
+        "~Om_Khangaonkar1",
+        "~Hamed_Pirsiavash1"
+      ],
+      "affiliations": [
+        "University of California, Davis"
+      ],
+      "first_institute": "University of California, Davis"
     },
     {
       "paper_id": "iclr2026:fspo-few-shot-optimization-of-synthetic-preferences-effectively-personal:5e67aafa89",
@@ -30018,6 +30486,23 @@
       "first_institute": "University of California, Santa Cruz"
     },
     {
+      "paper_id": "iclr2026:adaptive-hopfield-network-rethinking-similarities-in-associative-memory:d498d4aa71",
+      "title": "Adaptive Hopfield Network: Rethinking Similarities in Associative Memory",
+      "paper_url": "https://openreview.net/forum?id=HKSp4U69dy",
+      "authorids": [
+        "~Shurong_Wang1",
+        "~Yuqi_Pan2",
+        "~Zhuoyang_Shen1",
+        "~Meng_Zhang16",
+        "~Hongwei_Wang6",
+        "~Guoqi_Li1"
+      ],
+      "affiliations": [
+        "Institute of automation, Chinese academy of science, Chinese Academy of Sciences"
+      ],
+      "first_institute": "Institute of automation, Chinese academy of science, Chinese Academy of Sciences"
+    },
+    {
       "paper_id": "iclr2026:cogniload-a-synthetic-natural-language-reasoning-benchmark-with-tunable:d807968cfc",
       "title": "CogniLoad: A Synthetic Natural Language Reasoning Benchmark With Tunable Length, Intrinsic Difficulty, and Distractor Density",
       "paper_url": "https://openreview.net/forum?id=0Sex2H5Jnn",
@@ -30454,6 +30939,19 @@
         "University of Illinois at Urbana-Champaign"
       ],
       "first_institute": "University of Illinois at Urbana-Champaign"
+    },
+    {
+      "paper_id": "iclr2026:beyond-sequential-reranking-reranker-guided-search-improves-reasoning-in:eef72a5793",
+      "title": "Beyond Sequential Reranking: Reranker-Guided Search Improves Reasoning Intensive Retrieval",
+      "paper_url": "https://openreview.net/forum?id=Fjw3OqdjTj",
+      "authorids": [
+        "~Haike_Xu1",
+        "~Tong_Chen3"
+      ],
+      "affiliations": [
+        "Massachusetts Institute of Technology"
+      ],
+      "first_institute": "Massachusetts Institute of Technology"
     },
     {
       "paper_id": "iclr2026:identifiability-challenges-in-sparse-linear-ordinary-differential-equati:faf41fce8c",
@@ -32986,6 +33484,21 @@
       "first_institute": "University of Chicago"
     },
     {
+      "paper_id": "iclr2026:lmask-learn-to-solve-constrained-routing-problems-with-lazy-masking:d5417ce7cc",
+      "title": "LMask: Learn to Solve Constrained Routing Problems with Lazy Masking",
+      "paper_url": "https://openreview.net/forum?id=zsNUc2iMzp",
+      "authorids": [
+        "~Tianyou_Li1",
+        "~Haijun_Zou1",
+        "~JIAYUAN_WU1",
+        "~Zaiwen_Wen1"
+      ],
+      "affiliations": [
+        "University of the Chinese Academy of Sciences"
+      ],
+      "first_institute": "University of the Chinese Academy of Sciences"
+    },
+    {
       "paper_id": "iclr2026:minimax-rates-for-learning-pairwise-interactions-in-attention-style-mode:a9d330cf60",
       "title": "Minimax Rates for Learning Pairwise Interactions in Attention-Style Models",
       "paper_url": "https://openreview.net/forum?id=7Gfheg6seM",
@@ -33645,9 +34158,10 @@
         "~Haohuan_Fu1"
       ],
       "affiliations": [
+        "Sun Yat-Sen University",
         "The Hong Kong University of Science and Technology (Guangzhou)"
       ],
-      "first_institute": "The Hong Kong University of Science and Technology (Guangzhou)"
+      "first_institute": "Sun Yat-Sen University"
     },
     {
       "paper_id": "iclr2026:beyond-text-only-towards-multimodal-table-retrieval-in-open-world:4797a93c38",
@@ -33680,6 +34194,28 @@
         "Toyota Research Institute (Large Behavior Models)"
       ],
       "first_institute": "Toyota Research Institute (Large Behavior Models)"
+    },
+    {
+      "paper_id": "iclr2026:omninav-a-unified-framework-for-prospective-exploration-and-visual-langu:fbbb4bd786",
+      "title": "OmniNav: A Unified Framework for Prospective Exploration and Visual-Language Navigation",
+      "paper_url": "https://openreview.net/forum?id=zGtTQTD1zu",
+      "authorids": [
+        "~Xinda_Xue1",
+        "~Junjun_Hu1",
+        "~Minghua_Luo1",
+        "~Xie_Shichao1",
+        "~Jintao_Chen8",
+        "~Zixun_Xie1",
+        "~Quan_Kuichen1",
+        "~GuoWei1",
+        "~Zedong_Chu1",
+        "~Mu_Xu1",
+        "~Zhengzhou_Zhu1"
+      ],
+      "affiliations": [
+        "Alibaba Group"
+      ],
+      "first_institute": "Alibaba Group"
     },
     {
       "paper_id": "iclr2026:purrception-variational-flow-matching-for-vector-quantized-image-generat:db459e0b38",
@@ -33797,6 +34333,25 @@
         "NEC"
       ],
       "first_institute": "NEC"
+    },
+    {
+      "paper_id": "iclr2026:mnemodyn-learning-resting-state-dynamics-from-40-k-fmri-sequences:e196b683aa",
+      "title": "MnemoDyn: Learning Resting State Dynamics from  $40$K FMRI sequences",
+      "paper_url": "https://openreview.net/forum?id=zexMILcQOV",
+      "authorids": [
+        "~Sourav_Pal1",
+        "~Viet_Luong1",
+        "~Hoseok_Lee1",
+        "~Tingting_Dan1",
+        "~Guorong_Wu1",
+        "~Richard_Davidson1",
+        "~Won_Hwa_Kim4",
+        "~Vikas_Singh1"
+      ],
+      "affiliations": [
+        "University of North Carolina, Chapel Hill"
+      ],
+      "first_institute": "University of North Carolina, Chapel Hill"
     },
     {
       "paper_id": "iclr2026:mvr-multi-view-video-reward-shaping-for-reinforcement-learning:debd8d9c3f",
@@ -35261,6 +35816,23 @@
       "first_institute": "University of Sydney"
     },
     {
+      "paper_id": "iclr2026:quantifying-cross-attention-interaction-in-transformers-for-interpreting:f6ecf0e4ec",
+      "title": "Quantifying Cross-Attention Interaction in Transformers for Interpreting TCR-pMHC Binding",
+      "paper_url": "https://openreview.net/forum?id=S3kSOFhs5m",
+      "authorids": [
+        "~Jiarui_Li8",
+        "~Zixiang_Yin1",
+        "~Haley_Smith1",
+        "~Zhengming_Ding5",
+        "~Samuel_J_Landry1",
+        "~Ramgopal_R._Mettu1"
+      ],
+      "affiliations": [
+        "Tulane University"
+      ],
+      "first_institute": "Tulane University"
+    },
+    {
       "paper_id": "iclr2026:liveweb-ie-a-benchmark-for-online-web-information-extraction:6a19bc9e95",
       "title": "LiveWeb-IE: A Benchmark For Online Web Information Extraction",
       "paper_url": "https://openreview.net/forum?id=bIODmQ1TNd",
@@ -35780,6 +36352,25 @@
       "first_institute": "Amazon"
     },
     {
+      "paper_id": "iclr2026:object-fidelity-diffusion-for-remote-sensing-image-generation:70d43a38a3",
+      "title": "Object Fidelity Diffusion for Remote Sensing Image Generation",
+      "paper_url": "https://openreview.net/forum?id=ngfIm9aPsH",
+      "authorids": [
+        "~Ziqi_Ye2",
+        "~Shuran_Ma1",
+        "~Jie_Yang44",
+        "~Xiaoyi_Yang2",
+        "~Yi_Yang75",
+        "~Ziyang_Gong2",
+        "~Xue_Yang2",
+        "~Haipeng_Wang6"
+      ],
+      "affiliations": [
+        "Fudan University"
+      ],
+      "first_institute": "Fudan University"
+    },
+    {
       "paper_id": "iclr2026:dualmap-enabling-both-cache-affinity-and-load-balancing-for-distributed:b0cc8d24c1",
       "title": "DualMap: Enabling Both Cache Affinity and Load Balancing for Distributed LLM Serving",
       "paper_url": "https://openreview.net/forum?id=zCadrJ32Xn",
@@ -35941,6 +36532,20 @@
       "first_institute": "Microsoft"
     },
     {
+      "paper_id": "iclr2026:a-brain-inspired-gating-mechanism-unlocks-robust-computation-in-spiking:43fac8f47a",
+      "title": "A Brain-Inspired Gating Mechanism Unlocks Robust Computation in Spiking Neural Networks",
+      "paper_url": "https://openreview.net/forum?id=5h741EyfQM",
+      "authorids": [
+        "~Qianyi_Bai1",
+        "~Haiteng_Wang3",
+        "~Qiang_Yu2"
+      ],
+      "affiliations": [
+        "Tianjin University"
+      ],
+      "first_institute": "Tianjin University"
+    },
+    {
       "paper_id": "iclr2026:browsenet-graph-based-associative-memory-for-contextual-information-retr:235eca5ff6",
       "title": "BrowseNet: Graph-Based Associative Memory for Contextual Information Retrieval",
       "paper_url": "https://openreview.net/forum?id=2q5CugVPoK",
@@ -36038,6 +36643,23 @@
         "Korea Advanced Institute of Science and Technology"
       ],
       "first_institute": "Korea Advanced Institute of Science & Technology"
+    },
+    {
+      "paper_id": "iclr2026:long-document-qa-with-chain-of-structured-thought-and-fine-tuned-slms:3b13def7e2",
+      "title": "Long-Document QA with Chain-of-Structured-Thought and Fine-Tuned SLMs",
+      "paper_url": "https://openreview.net/forum?id=faECRsdRav",
+      "authorids": [
+        "~Zhuowen_Liang1",
+        "~Xiaotian_Lin2",
+        "~Zhengxuan_Zhang2",
+        "~Yuyu_Luo1",
+        "~Haixun_Wang2",
+        "~Nan_Tang3"
+      ],
+      "affiliations": [
+        "AI"
+      ],
+      "first_institute": "AI"
     },
     {
       "paper_id": "iclr2026:bridging-input-feature-spaces-towards-graph-foundation-models:8e208fa10d",
@@ -36436,6 +37058,19 @@
         "Department of Computer Science, ETHZ - ETH Zurich"
       ],
       "first_institute": "ETH Zurich"
+    },
+    {
+      "paper_id": "iclr2026:unified-and-efficient-multi-view-clustering-from-probabilistic-perspecti:53bf4cb612",
+      "title": "Unified and Efficient Multi-view Clustering from Probabilistic Perspective",
+      "paper_url": "https://openreview.net/forum?id=KAGR7Mqu4h",
+      "authorids": [
+        "~Yalan_Qin1",
+        "~Guorui_Feng1"
+      ],
+      "affiliations": [
+        "Shanghai University"
+      ],
+      "first_institute": "Shanghai University"
     },
     {
       "paper_id": "iclr2026:progressive-gaussian-transformer-with-anisotropy-aware-sampling-for-open:ed0e183aed",
@@ -37395,6 +38030,23 @@
       "first_institute": "University of Science and Technology of China"
     },
     {
+      "paper_id": "iclr2026:bwcache-accelerating-video-diffusion-transformers-through-block-wise-cac:c7cb87a16f",
+      "title": "BWCache: Accelerating Video Diffusion Transformers through Block-Wise Caching",
+      "paper_url": "https://openreview.net/forum?id=5bJZtzTFYy",
+      "authorids": [
+        "~Hanshuai_Cui1",
+        "~Zhiqing_Tang1",
+        "~Zhifei_Xu2",
+        "~Zhi_Yao1",
+        "~Wenyi_Zeng1",
+        "~Weijia_Jia2"
+      ],
+      "affiliations": [
+        "Beijing Normal University"
+      ],
+      "first_institute": "Beijing Normal University"
+    },
+    {
       "paper_id": "iclr2026:td-jepa-latent-predictive-representations-for-zero-shot-reinforcement-le:ffab45b7a4",
       "title": "TD-JEPA: Latent-predictive Representations for Zero-Shot Reinforcement Learning",
       "paper_url": "https://openreview.net/forum?id=SzXDuBN8M1",
@@ -37790,6 +38442,26 @@
         "The Chinese University of Hong Kong, Shenzhen"
       ],
       "first_institute": "The Chinese University of Hong Kong, Shenzhen"
+    },
+    {
+      "paper_id": "iclr2026:towards-safe-and-optimal-online-bidding-a-modular-look-ahead-lyapunov-fr:bacd88051c",
+      "title": "Towards Safe and Optimal Online Bidding: A Modular Look-ahead Lyapunov Framework",
+      "paper_url": "https://openreview.net/forum?id=AtbRCnvcrZ",
+      "authorids": [
+        "~Hengquan_Guo1",
+        "~Haobo_Zhang4",
+        "~Junwei_Pan1",
+        "~Shudong_Huang2",
+        "~Nianhua_Xie1",
+        "~Lei_Xiao5",
+        "~Haijie_Gu2",
+        "~Jie_Jiang3",
+        "~Xin_Liu14"
+      ],
+      "affiliations": [
+        "Tencent"
+      ],
+      "first_institute": "Tencent"
     },
     {
       "paper_id": "iclr2026:universal-multi-domain-translation-via-diffusion-routers:4edcd882b6",
@@ -38336,6 +39008,26 @@
         "University of California, San Diego"
       ],
       "first_institute": "University of California, San Diego"
+    },
+    {
+      "paper_id": "iclr2026:midas-multi-image-dispersion-and-semantic-reconstruction-for-jailbreakin:7c47860f6c",
+      "title": "MIDAS: Multi-Image Dispersion and Semantic Reconstruction for Jailbreaking MLLMs",
+      "paper_url": "https://openreview.net/forum?id=tXsE2wKPvx",
+      "authorids": [
+        "~Yilian_Liu1",
+        "~Xiaojun_Jia1",
+        "~Guoshun_Nan1",
+        "~Jiuyang_Lyu1",
+        "~Zhican_Chen1",
+        "~Tao_Guan4",
+        "~Shuyuan_Luo1",
+        "~Zhongyi_Zhai2",
+        "~Yang_Liu36"
+      ],
+      "affiliations": [
+        "Beijing University of Posts and Telecommunications"
+      ],
+      "first_institute": "Beijing University of Posts and Telecommunications"
     },
     {
       "paper_id": "iclr2026:metavla-unified-meta-co-training-for-efficient-embodied-adaptation:74c3af33ae",
@@ -42643,6 +43335,26 @@
       "first_institute": "Huazhong University of Science and Technology"
     },
     {
+      "paper_id": "iclr2026:scaling-linear-attention-capacity-with-sparse-state-expansion:f2b5b56a98",
+      "title": "Scaling Linear Attention Capacity with Sparse State Expansion",
+      "paper_url": "https://openreview.net/forum?id=R6DrJ4tnGV",
+      "authorids": [
+        "~Yuqi_Pan2",
+        "~Yongqi_An1",
+        "~Zheng_Li48",
+        "~Yuhong_Chou1",
+        "~Rui-Jie_Zhu2",
+        "~Xiaohui_Wang4",
+        "~Mingxuan_Wang1",
+        "~Jinqiao_Wang1",
+        "~Guoqi_Li1"
+      ],
+      "affiliations": [
+        "Institute of automation, Chinese academy of science, Chinese Academy of Sciences"
+      ],
+      "first_institute": "Institute of automation, Chinese academy of science, Chinese Academy of Sciences"
+    },
+    {
       "paper_id": "iclr2026:scot-teaching-3d-llms-to-think-spatially-with-million-scale-cot-annotati:bced9e8d93",
       "title": "SCoT: Teaching 3D-LLMs to Think Spatially with Million-scale CoT Annotations",
       "paper_url": "https://openreview.net/forum?id=5Tph6wFMOm",
@@ -42843,6 +43555,25 @@
       "first_institute": "NVIDIA"
     },
     {
+      "paper_id": "iclr2026:rlap-clip-continual-multimodal-learning-with-prototype-adaptation-and-di:86784574e8",
+      "title": "RLAP-CLIP: Continual Multimodal Learning with Prototype Adaptation and Difficulty-Aware Routing",
+      "paper_url": "https://openreview.net/forum?id=rMHZfCznhZ",
+      "authorids": [
+        "~Ruikun_Luo1",
+        "~Jiarui_Wang14",
+        "~Yuan_Gao53",
+        "~Jing_Yang21",
+        "~Jieming_Yang2",
+        "~Song_Wu5",
+        "~Hai_Jin1",
+        "~Xiaoyu_Xia1"
+      ],
+      "affiliations": [
+        "Huazhong University of Science and Technology"
+      ],
+      "first_institute": "Huazhong University of Science and Technology"
+    },
+    {
       "paper_id": "iclr2026:forget-forgetting-continual-learning-in-a-world-of-abundant-memory:d619670bc5",
       "title": "Forget Forgetting: Continual Learning in a World of Abundant Memory",
       "paper_url": "https://openreview.net/forum?id=fvL8IIEPxG",
@@ -43025,6 +43756,24 @@
         "University of California, Berkeley"
       ],
       "first_institute": "University of California, Berkeley"
+    },
+    {
+      "paper_id": "iclr2026:specs-decoupling-multimodal-learning-via-self-distilled-preference-based:ad261c8fc9",
+      "title": "SPECS: Decoupling Multimodal Learning via  Self-distilled Preference-based Cold Start",
+      "paper_url": "https://openreview.net/forum?id=oNmMv7Lcj5",
+      "authorids": [
+        "~Kun_Chen9",
+        "~Peng_Shi7",
+        "~Haibo_Qiu1",
+        "~Zhixiong_Zeng1",
+        "~Siqi_Yang1",
+        "~Wenji_Mao1",
+        "~Lin_Ma2"
+      ],
+      "affiliations": [
+        "Meituan"
+      ],
+      "first_institute": "Meituan"
     },
     {
       "paper_id": "iclr2026:video-unlearning-via-low-rank-refusal-vector:e136ae7386",
@@ -43623,6 +44372,23 @@
       "first_institute": "University of Science and Technology of China"
     },
     {
+      "paper_id": "iclr2026:plug-and-play-fidelity-optimization-for-diffusion-transformer-accelerati:d50e4aaae2",
+      "title": "Plug-and-Play Fidelity Optimization for Diffusion Transformer Acceleration via Cumulative Error Minimization",
+      "paper_url": "https://openreview.net/forum?id=pt4iKnAm0M",
+      "authorids": [
+        "~Tong_Shao2",
+        "~Yusen_Fu1",
+        "~Guoying_Sun1",
+        "~Jingde_Kong1",
+        "~Zhuotao_Tian1",
+        "~Jingyong_Su3"
+      ],
+      "affiliations": [
+        "Harbin Institute of Technology"
+      ],
+      "first_institute": "Harbin Institute of Technology"
+    },
+    {
       "paper_id": "iclr2026:guardalign-test-time-safety-alignment-in-multimodal-large-language-model:0c3f17592d",
       "title": "GuardAlign: Test-time Safety Alignment in Multimodal Large Language Models",
       "paper_url": "https://openreview.net/forum?id=YcoS3uq5kt",
@@ -43802,6 +44568,19 @@
         "Fudan University"
       ],
       "first_institute": "Fudan University"
+    },
+    {
+      "paper_id": "iclr2026:hyperspherical-latents-improve-continuous-token-autoregressive-generatio:de8e2c400a",
+      "title": "Hyperspherical Latents Improve Continuous-Token Autoregressive Generation",
+      "paper_url": "https://openreview.net/forum?id=H13wHRiL3i",
+      "authorids": [
+        "~Guolin_Ke3",
+        "~HUI_XUE4"
+      ],
+      "affiliations": [
+        "DP Technology"
+      ],
+      "first_institute": "DP Technology"
     },
     {
       "paper_id": "iclr2026:measuring-and-mitigating-rapport-bias-of-large-language-models-under-mul:c3c320a0ce",
@@ -44758,6 +45537,23 @@
         "Google Research/DeepMind"
       ],
       "first_institute": "Google Research/DeepMind"
+    },
+    {
+      "paper_id": "iclr2026:prosafeprune-projected-safety-pruning-for-mitigating-over-refusal-in-llm:c10d153f7e",
+      "title": "ProSafePrune: Projected Safety Pruning for Mitigating Over-Refusal in LLMs",
+      "paper_url": "https://openreview.net/forum?id=QkHKaPfRAB",
+      "authorids": [
+        "~Zijun_Chen2",
+        "~Wenbo_Hu1",
+        "~Ya_Li2",
+        "~Lei_Miao2",
+        "~Guoping_Hu1",
+        "~Richang_Hong1"
+      ],
+      "affiliations": [
+        "IFLYTEK CO.LTD."
+      ],
+      "first_institute": "IFLYTEK CO.LTD."
     },
     {
       "paper_id": "iclr2026:reducing-belief-deviation-in-reinforcement-learning-for-active-reasoning:154604a8ce",
@@ -46345,6 +47141,24 @@
       "first_institute": "Beijing Institute of Technology"
     },
     {
+      "paper_id": "iclr2026:frabench-and-ufeval-unified-fine-grained-evaluation-with-task-and-aspect:51f0dbb1cc",
+      "title": "FRABench and UFEval: Unified Fine-grained Evaluation with Task and Aspect Generalization",
+      "paper_url": "https://openreview.net/forum?id=7WdY3Cojy9",
+      "authorids": [
+        "~Shibo_Hong1",
+        "~Jiahao_Ying1",
+        "~Haiyuan_Liang1",
+        "~Mengdi_Zhang2",
+        "~Jun_Kuang2",
+        "~Jiazheng_Zhang1",
+        "~Yixin_Cao2"
+      ],
+      "affiliations": [
+        "Fudan University"
+      ],
+      "first_institute": "Fudan University"
+    },
+    {
       "paper_id": "iclr2026:reinforcement-unlearning-via-group-relative-policy-optimization:631f726ebb",
       "title": "Reinforcement Unlearning via Group Relative Policy Optimization",
       "paper_url": "https://openreview.net/forum?id=BjWwqPE7mk",
@@ -46593,6 +47407,25 @@
         "National University of Singapore"
       ],
       "first_institute": "National University of Singapore"
+    },
+    {
+      "paper_id": "iclr2026:peak-return-greedy-slicing-subtrajectory-selection-for-transformer-based:706886f967",
+      "title": "Peak-Return Greedy Slicing: Subtrajectory Selection for Transformer-based Offline RL",
+      "paper_url": "https://openreview.net/forum?id=7vpehpWnnY",
+      "authorids": [
+        "~Zhiwei_Xu3",
+        "~Miduo_Cui1",
+        "~Dapeng_Li2",
+        "~Zhihao_Liu3",
+        "~Haifeng_Zhang3",
+        "~Hangyu_Mao2",
+        "~Guoliang_Fan3",
+        "~Bin_Zhang12"
+      ],
+      "affiliations": [
+        "Institute of automation, Chinese academy of science, Chinese Academy of Sciences"
+      ],
+      "first_institute": "Institute of automation, Chinese academy of science, Chinese Academy of Sciences"
     },
     {
       "paper_id": "iclr2026:spell-self-play-reinforcement-learning-for-evolving-long-context-languag:97d9b5a7dc",
@@ -47663,6 +48496,21 @@
       "first_institute": "Xidian University"
     },
     {
+      "paper_id": "iclr2026:fine-grained-privacy-extraction-from-retrieval-augmented-generation-syst:4e91e93966",
+      "title": "Fine-Grained Privacy Extraction from Retrieval-Augmented Generation Systems by Exploiting Knowledge Asymmetry",
+      "paper_url": "https://openreview.net/forum?id=B6ILMPPKnK",
+      "authorids": [
+        "~Yufei_Chen9",
+        "~Yao_Wang13",
+        "~Haibin_Zhang3",
+        "~Tao_Gu3"
+      ],
+      "affiliations": [
+        "Xidian University"
+      ],
+      "first_institute": "Xidian University"
+    },
+    {
       "paper_id": "iclr2026:retrospective-sparse-attention-for-efficient-long-context-generation:7b26534e14",
       "title": "Retrospective Sparse Attention for Efficient Long-Context Generation",
       "paper_url": "https://openreview.net/forum?id=Ql0G1Zsobn",
@@ -47867,6 +48715,27 @@
         "Huawei Technologies Ltd."
       ],
       "first_institute": "Huawei Technologies Ltd."
+    },
+    {
+      "paper_id": "iclr2026:omniactor-a-generalist-gui-and-embodied-agent-for-2d-3d-worlds:fd89b2f990",
+      "title": "OmniActor: A Generalist GUI and Embodied Agent for 2D&3D Worlds",
+      "paper_url": "https://openreview.net/forum?id=oJAIjUDxkZ",
+      "authorids": [
+        "~Longrong_Yang2",
+        "~Zhixiong_Zeng1",
+        "~Yufeng_Zhong3",
+        "~Huang_Jing1",
+        "~Liming_Zheng1",
+        "~Lei_Chen21",
+        "~Haibo_Qiu1",
+        "~Zequn_Qin1",
+        "~Lin_Ma2",
+        "~Xi_Li2"
+      ],
+      "affiliations": [
+        "Meituan"
+      ],
+      "first_institute": "Meituan"
     },
     {
       "paper_id": "iclr2026:sat3dgen-comprehensive-street-level-3d-scene-generation-from-single-sate:d63accb175",
@@ -48170,6 +49039,24 @@
         "Huawei Technologies Ltd."
       ],
       "first_institute": "Huawei Technologies Ltd."
+    },
+    {
+      "paper_id": "iclr2026:beyond-visual-reconstruction-quality-object-perception-aware-3d-gaussian:0c57c75280",
+      "title": "Beyond Visual Reconstruction Quality: Object Perception-aware 3D Gaussian Splatting for Autonomous Driving",
+      "paper_url": "https://openreview.net/forum?id=PmQlMTBmpa",
+      "authorids": [
+        "~Renzhi_Wang1",
+        "~Yuxiang_Fu5",
+        "~Wuqi_Wang1",
+        "~Haigen_Min1",
+        "~Wei_Feng1",
+        "~Lei_Ma1",
+        "~Qing_Guo3"
+      ],
+      "affiliations": [
+        "Chang'an University"
+      ],
+      "first_institute": "Chang'an University"
     },
     {
       "paper_id": "iclr2026:improving-human-ai-coordination-through-online-adversarial-training-and:56195b437c",
@@ -49269,6 +50156,20 @@
       "first_institute": "Scale AI"
     },
     {
+      "paper_id": "iclr2026:from-pixels-to-semantics-unified-facial-action-representation-learning-f:ea39d569de",
+      "title": "From Pixels to Semantics: Unified Facial Action Representation Learning for Micro-Expression Analysis",
+      "paper_url": "https://openreview.net/forum?id=yJFVKlratr",
+      "authorids": [
+        "~Yicheng_Deng1",
+        "~Hideaki_Hayashi1",
+        "~Hajime_Nagahara1"
+      ],
+      "affiliations": [
+        "Osaka University"
+      ],
+      "first_institute": "Osaka University"
+    },
+    {
       "paper_id": "iclr2026:attrictrl-a-generalizable-framework-for-controlling-semantic-attribute-i:ef0b4b6290",
       "title": "AttriCtrl: A Generalizable Framework for Controlling Semantic Attribute Intensity in Diffusion Models",
       "paper_url": "https://openreview.net/forum?id=oyDe8cNXt6",
@@ -50135,6 +51036,26 @@
       "first_institute": "ByteDance Inc."
     },
     {
+      "paper_id": "iclr2026:auhead-realistic-emotional-talking-head-generation-via-action-units-cont:0ad92dc6da",
+      "title": "AUHead: Realistic Emotional Talking Head Generation via Action Units Control",
+      "paper_url": "https://openreview.net/forum?id=dmzlAUkulz",
+      "authorids": [
+        "~Jiayi_Lyu1",
+        "~Leigang_Qu1",
+        "~Wenjing_Zhang4",
+        "~Hanyu_Jiang1",
+        "~Kai_Liu8",
+        "~Zhenglin_Zhou1",
+        "~Xiaobo_Xia1",
+        "~Jian_Xue2",
+        "~Tat-Seng_Chua2"
+      ],
+      "affiliations": [
+        "University of the Chinese Academy of Sciences"
+      ],
+      "first_institute": "University of the Chinese Academy of Sciences"
+    },
+    {
       "paper_id": "iclr2026:collaborative-gym-a-framework-for-enabling-and-evaluating-human-agent-co:744d054c0e",
       "title": "Collaborative Gym: A Framework for Enabling and Evaluating Human-Agent Collaboration",
       "paper_url": "https://openreview.net/forum?id=GDYueXtKXT",
@@ -50172,7 +51093,8 @@
       "affiliations": [
         "Peking University",
         "University of Amsterdam",
-        "Tsinghua University"
+        "Tsinghua University",
+        "Meituan"
       ],
       "first_institute": "Peking University"
     },
@@ -50819,6 +51741,24 @@
         "National Taiwan University"
       ],
       "first_institute": "National Taiwan University"
+    },
+    {
+      "paper_id": "iclr2026:rest-reshaping-token-level-policy-gradients-for-tool-use-large-language:cbd1ef0701",
+      "title": "ResT: Reshaping Token-Level Policy Gradients for Tool-Use Large Language Models",
+      "paper_url": "https://openreview.net/forum?id=gNZlaKRWki",
+      "authorids": [
+        "~Zihan_Lin5",
+        "~Xiaohan_Wang12",
+        "~Jie_Cao2",
+        "~Jiajun_Chai1",
+        "~Guojun_Yin1",
+        "~Wei_Lin7",
+        "~Ran_He1"
+      ],
+      "affiliations": [
+        "Meituan"
+      ],
+      "first_institute": "Meituan"
     },
     {
       "paper_id": "iclr2026:a-statistical-learning-perspective-on-semi-dual-adversarial-neural-optim:ff061d46c6",
@@ -51654,6 +52594,43 @@
       "first_institute": "Hanyang University"
     },
     {
+      "paper_id": "iclr2026:computerrl-scaling-end-to-end-online-reinforcement-learning-for-computer:57b8452f40",
+      "title": "ComputerRL: Scaling End-to-End Online Reinforcement Learning for Computer Use Agents",
+      "paper_url": "https://openreview.net/forum?id=oEVfNf0w4B",
+      "authorids": [
+        "~Hanyu_Lai2",
+        "~Xiao_Liu15",
+        "~Yanxiao_Zhao2",
+        "~Han_Xu11",
+        "~Hanchen_Zhang1",
+        "~Bohao_Jing1",
+        "~Yanyu_Ren1",
+        "~Shuntian_Yao1",
+        "~Yuxiao_Dong1",
+        "~Jie_Tang1"
+      ],
+      "affiliations": [
+        "Tsinghua University"
+      ],
+      "first_institute": "Tsinghua University"
+    },
+    {
+      "paper_id": "iclr2026:curvature-guided-task-synergy-for-skeleton-based-temporal-action-segment:29d98380d2",
+      "title": "Curvature-Guided Task Synergy for Skeleton based Temporal Action Segmentation",
+      "paper_url": "https://openreview.net/forum?id=Vgh30npuN3",
+      "authorids": [
+        "~Guozhang_Li1",
+        "~Xinran_Duan1",
+        "~Mei_Wang2",
+        "~Lizhi_Wang3",
+        "~Hua_Huang1"
+      ],
+      "affiliations": [
+        "Beijing Normal University"
+      ],
+      "first_institute": "Beijing Normal University"
+    },
+    {
       "paper_id": "iclr2026:multi-redunet-interpretable-class-wise-decomposition-of-redunet:08c8f7da8f",
       "title": "Multi-ReduNet: Interpretable Class-Wise Decomposition of ReduNet",
       "paper_url": "https://openreview.net/forum?id=wLcTAJ7DF9",
@@ -51745,6 +52722,23 @@
         "Shanghai Artificial Intelligence Laboratory"
       ],
       "first_institute": "Renmin University of China"
+    },
+    {
+      "paper_id": "iclr2026:one2scene-geometric-consistent-explorable-3d-scene-generation-from-a-sin:dbdff0fe65",
+      "title": "One2Scene: Geometric Consistent Explorable 3D Scene Generation from a Single Image",
+      "paper_url": "https://openreview.net/forum?id=iEelSbUsSy",
+      "authorids": [
+        "~Pengfei_Wang10",
+        "~Liyi_Chen2",
+        "~Zhiyuan_Ma3",
+        "~Yanjun_Guo1",
+        "~Guowen_Zhang1",
+        "~Lei_Zhang2"
+      ],
+      "affiliations": [
+        "Hong Kong Polytechnic University"
+      ],
+      "first_institute": "Hong Kong Polytechnic University"
     },
     {
       "paper_id": "iclr2026:learning-more-with-less-a-dynamic-dual-level-down-sampling-framework-for:e58a25c579",
@@ -53021,6 +54015,23 @@
       "first_institute": "AI Center, FPT Software"
     },
     {
+      "paper_id": "iclr2026:one-step-flow-for-image-super-resolution-with-tunable-fidelity-realism-t:c028cdf114",
+      "title": "One-Step Flow for Image Super-Resolution with Tunable Fidelity-Realism Trade-offs",
+      "paper_url": "https://openreview.net/forum?id=5iaeagjfjK",
+      "authorids": [
+        "~Yuanzhi_Zhu2",
+        "~Ruiqing_Wang3",
+        "~Shilin_Lu1",
+        "~Hanshu_Yan1",
+        "~Junnan_Li2",
+        "~Kai_Zhang8"
+      ],
+      "affiliations": [
+        "Salesforce Research"
+      ],
+      "first_institute": "Salesforce Research"
+    },
+    {
       "paper_id": "iclr2026:tree-sliced-sobolev-ipm:4681c29541",
       "title": "Tree-sliced Sobolev IPM",
       "paper_url": "https://openreview.net/forum?id=HHNQSXaLkF",
@@ -53744,6 +54755,25 @@
       "first_institute": "Tsinghua University"
     },
     {
+      "paper_id": "iclr2026:information-gain-based-policy-optimization-a-simple-and-effective-approa:79ee6812da",
+      "title": "Information Gain-based Policy Optimization: A Simple and Effective Approach for Multi-Turn Search Agents",
+      "paper_url": "https://openreview.net/forum?id=qkWP6phrvZ",
+      "authorids": [
+        "~Guoqing_Wang3",
+        "~Sunhao_Dai1",
+        "~Guangze_Ye1",
+        "~Zeyu_Gan1",
+        "~Wei_Yao2",
+        "~Yong_Deng2",
+        "~Xiaofeng_Wu7",
+        "~Zhenzhe_Ying3"
+      ],
+      "affiliations": [
+        "East China Normal University"
+      ],
+      "first_institute": "East China Normal University"
+    },
+    {
       "paper_id": "iclr2026:mrmr-a-realistic-and-expert-level-multidisciplinary-benchmark-for-reason:cb301fe631",
       "title": "MRMR: A Realistic and Expert-Level Multidisciplinary Benchmark for Reasoning-Intensive Multimodal Retrieval",
       "paper_url": "https://openreview.net/forum?id=XZNXSM4rHG",
@@ -53880,6 +54910,26 @@
         "Shanghai Jiao Tong University"
       ],
       "first_institute": "Shanghai Jiao Tong University"
+    },
+    {
+      "paper_id": "iclr2026:smixer-rethinking-efficient-training-and-event-driven-snns:577b92bb44",
+      "title": "SMixer: Rethinking Efficient-Training and Event-Driven SNNs",
+      "paper_url": "https://openreview.net/forum?id=78glEsQB0v",
+      "authorids": [
+        "~Yijie_Lu1",
+        "~Xinhao_Luo1",
+        "~Yixing_Zhang3",
+        "~Zhiyan_Wang1",
+        "~Wentao_Li13",
+        "~YanhanWang1",
+        "~Zhi_Liu12",
+        "~Zhaokun_Zhou1",
+        "~Guoqi_Li1"
+      ],
+      "affiliations": [
+        "Institute of automation, Chinese academy of science, Chinese Academy of Sciences"
+      ],
+      "first_institute": "Institute of automation, Chinese academy of science, Chinese Academy of Sciences"
     },
     {
       "paper_id": "iclr2026:online-time-series-prediction-using-feature-adjustment:f59d5211d4",
@@ -55192,9 +56242,10 @@
         "~Naoya_Inoue1"
       ],
       "affiliations": [
+        "Tohoku University",
         "University of Tokyo"
       ],
-      "first_institute": "University of Tokyo"
+      "first_institute": "Tohoku University"
     },
     {
       "paper_id": "iclr2026:sam-3-segment-anything-with-concepts:325b551ed3",
@@ -56297,6 +57348,19 @@
       "first_institute": "Amazon"
     },
     {
+      "paper_id": "iclr2026:risk-sensitive-agent-compositions:a97bcb35ad",
+      "title": "Risk-Sensitive Agent Compositions",
+      "paper_url": "https://openreview.net/forum?id=iHQIacMKka",
+      "authorids": [
+        "~Guruprerana_Shabadi1",
+        "~Rajeev_Alur1"
+      ],
+      "affiliations": [
+        "University of Pennsylvania, University of Pennsylvania"
+      ],
+      "first_institute": "University of Pennsylvania, University of Pennsylvania"
+    },
+    {
       "paper_id": "iclr2026:virtual-community-an-open-world-for-humans-robots-and-society:fd00a284df",
       "title": "Virtual Community: An Open World for Humans, Robots, and Society",
       "paper_url": "https://openreview.net/forum?id=Qo0OZZoTLh",
@@ -56722,6 +57786,32 @@
       "first_institute": "HKBU"
     },
     {
+      "paper_id": "iclr2026:uniugg-unified-3d-understanding-and-generation-via-geometric-semantic-en:895b6679d6",
+      "title": "UniUGG: Unified 3D Understanding and Generation via Geometric-Semantic Encoding",
+      "paper_url": "https://openreview.net/forum?id=XbMp83tvK7",
+      "authorids": [
+        "~Yueming_Xu1",
+        "~Jiahui_Zhang8",
+        "~Ze_Huang3",
+        "~Yurui_Chen1",
+        "~Yanpeng_Zhou1",
+        "~Zhenyu_Chen1",
+        "~Yu-Jie_Yuan1",
+        "~Pengxiang_Xia2",
+        "~Guowei_Huang1",
+        "~Xinyue_Cai1",
+        "~Zhongang_Qi1",
+        "~Xingyue_Quan1",
+        "~Jianye_HAO1",
+        "~Hang_Xu1",
+        "~Li_Zhang5"
+      ],
+      "affiliations": [
+        "Huawei Technologies Ltd."
+      ],
+      "first_institute": "Huawei Technologies Ltd."
+    },
+    {
       "paper_id": "iclr2026:wavepolyp-video-polyp-segmentation-via-hierarchical-wavelet-based-featur:c53931d0ac",
       "title": "WavePolyp: Video Polyp Segmentation via Hierarchical Wavelet-Based Feature Aggregation and Inter-Frame Divergence Perception",
       "paper_url": "https://openreview.net/forum?id=Sm3Y0TMnDv",
@@ -57132,6 +58222,40 @@
       "first_institute": "Shanghai Artificial Intelligence Laboratory"
     },
     {
+      "paper_id": "iclr2026:simuli-real-time-lidar-and-camera-simulation-with-unscented-transforms:6a85453bdc",
+      "title": "SimULi: Real-Time LiDAR and Camera Simulation with Unscented Transforms",
+      "paper_url": "https://openreview.net/forum?id=osxP6FafPZ",
+      "authorids": [
+        "~Haithem_Turki1",
+        "~Qi_Wu23",
+        "~Xin_Kang3",
+        "~Janick_Martinez_Esturo1",
+        "~Shengyu_Huang1",
+        "~Ruilong_Li1",
+        "~Zan_Gojcic1",
+        "~Riccardo_de_Lutio1"
+      ],
+      "affiliations": [
+        "NVIDIA"
+      ],
+      "first_institute": "NVIDIA"
+    },
+    {
+      "paper_id": "iclr2026:paroquant-pairwise-rotation-quantization-for-efficient-reasoning-llm-inf:6d826c8520",
+      "title": "ParoQuant: Pairwise Rotation Quantization for Efficient Reasoning LLM Inference",
+      "paper_url": "https://openreview.net/forum?id=1USeVjsKau",
+      "authorids": [
+        "~Yesheng_Liang1",
+        "~Haisheng_Chen1",
+        "~Song_Han5",
+        "~Zhijian_Liu1"
+      ],
+      "affiliations": [
+        "University of California, San Diego"
+      ],
+      "first_institute": "University of California, San Diego"
+    },
+    {
       "paper_id": "iclr2026:owl-geometry-aware-spatial-reasoning-for-audio-large-language-models:3a498d0510",
       "title": "OWL : Geometry-Aware Spatial Reasoning for Audio Large Language Models",
       "paper_url": "https://openreview.net/forum?id=zPv46YKv3w",
@@ -57318,6 +58442,26 @@
         "NVIDIA"
       ],
       "first_institute": "NVIDIA"
+    },
+    {
+      "paper_id": "iclr2026:pretraining-with-re-parametrized-self-attention-unlocking-generalization:287cb0f559",
+      "title": "Pretraining with Re-parametrized Self-Attention: Unlocking Generalizationin  SNN-Based Neural Decoding Across Time, Brains, and Tasks",
+      "paper_url": "https://openreview.net/forum?id=ZsvGCzpaVD",
+      "authorids": [
+        "~Yuqi_Yang9",
+        "~Tengjun_Liu2",
+        "~Haiyan_Zhang2",
+        "~Wang_Ruixue2",
+        "~Xuchao_Chen1",
+        "~Mingkang_Li3",
+        "~Yansong_Chua1",
+        "~Nenggan_Zheng1",
+        "~Shaomin_Zhang1"
+      ],
+      "affiliations": [
+        "Zhejiang University"
+      ],
+      "first_institute": "Zhejiang University"
     },
     {
       "paper_id": "iclr2026:reconviagen-towards-accurate-multi-view-3d-object-reconstruction-via-gen:d6cb1604a5",
@@ -58634,6 +59778,22 @@
       "first_institute": "Wuhan University"
     },
     {
+      "paper_id": "iclr2026:repurposing-foundation-model-for-generalizable-medical-time-series-class:7bdea2717d",
+      "title": "Repurposing Foundation Model for Generalizable Medical Time Series Classification",
+      "paper_url": "https://openreview.net/forum?id=wNEzRYiyZM",
+      "authorids": [
+        "~Nan_Huang2",
+        "~Haishuai_Wang2",
+        "~Zihuai_He1",
+        "~Marinka_Zitnik1",
+        "~Xiang_Zhang10"
+      ],
+      "affiliations": [
+        "Zhejiang University"
+      ],
+      "first_institute": "Zhejiang University"
+    },
+    {
       "paper_id": "iclr2026:when-agents-misremember-collectively-exploring-the-mandela-effect-in-llm:98dbbfc66b",
       "title": "When Agents “Misremember” Collectively: Exploring the Mandela Effect in LLM-based Multi-Agent Systems",
       "paper_url": "https://openreview.net/forum?id=yIoMqDes7O",
@@ -59563,7 +60723,8 @@
         "~Xinbo_Gao3"
       ],
       "affiliations": [
-        "Xidian University"
+        "Xidian University",
+        "Beijing Normal University"
       ],
       "first_institute": "Xidian University"
     },
@@ -60378,9 +61539,10 @@
         "~Dacheng_Tao1"
       ],
       "affiliations": [
+        "Nanyang Technological University",
         "Alibaba Group US"
       ],
-      "first_institute": "Alibaba Group US"
+      "first_institute": "Nanyang Technological University"
     },
     {
       "paper_id": "iclr2026:scalecap-scalable-image-captioning-via-dual-modality-debiasing:7fdd549277",
@@ -61181,6 +62343,20 @@
         "Northwest Polytechnical University Xi'an"
       ],
       "first_institute": "Nanyang Technological University"
+    },
+    {
+      "paper_id": "iclr2026:bandits-with-single-peaked-preferences-and-limited-resources:69fc161d51",
+      "title": "Bandits with Single-Peaked Preferences and Limited Resources",
+      "paper_url": "https://openreview.net/forum?id=0SNfofDIRF",
+      "authorids": [
+        "~Omer_Ben-Porat1",
+        "~Gur_Keinan1",
+        "~Rotem_Torkan1"
+      ],
+      "affiliations": [
+        "Technion - Israel Institute of Technology, Technion"
+      ],
+      "first_institute": "Technion - Israel Institute of Technology, Technion"
     },
     {
       "paper_id": "iclr2026:knowledge-externalization-reversible-unlearning-and-modular-retrieval-in:cc64ed8014",
@@ -62114,6 +63290,28 @@
       "first_institute": "Megvii Technology Inc."
     },
     {
+      "paper_id": "iclr2026:explore-on-graph-incentivizing-autonomous-exploration-of-large-language:3e77148198",
+      "title": "Explore-on-Graph: Incentivizing Autonomous Exploration of Large Language Models on Knowledge Graphs with Path-refined Reward Modeling",
+      "paper_url": "https://openreview.net/forum?id=NfuBj8jleE",
+      "authorids": [
+        "~Shiqi_Yan1",
+        "~Yubo_Chen2",
+        "~Ruiqi_Zhou1",
+        "~Zhengxi_Yao1",
+        "~Shuai_Chen5",
+        "~Tianyi_Zhang5",
+        "~Shijie_Zhang3",
+        "~Wei-Qiang_Zhang1",
+        "~Yongfeng_Huang1",
+        "~Haixin_Duan2",
+        "~Yunqi_Zhang2"
+      ],
+      "affiliations": [
+        "Quancheng Lab"
+      ],
+      "first_institute": "Quancheng Lab"
+    },
+    {
       "paper_id": "iclr2026:seeing-through-deception-uncovering-misleading-creator-intent-in-multimo:18502d176b",
       "title": "Seeing Through Deception: Uncovering Misleading Creator Intent in Multimodal News with Vision-Language Models",
       "paper_url": "https://openreview.net/forum?id=02NbD16OnA",
@@ -62164,6 +63362,21 @@
         "CISPA, saarland university, saarland informatics campus"
       ],
       "first_institute": "CISPA, saarland university, saarland informatics campus"
+    },
+    {
+      "paper_id": "iclr2026:autoregressive-image-generation-with-randomized-parallel-decoding:89e494bd6e",
+      "title": "Autoregressive Image Generation with Randomized Parallel Decoding",
+      "paper_url": "https://openreview.net/forum?id=rJdGst0W8s",
+      "authorids": [
+        "~Haopeng_Li2",
+        "~Jinyue_Yang2",
+        "~Guoqi_Li1",
+        "~Huan_Wang3"
+      ],
+      "affiliations": [
+        "Institute of automation, Chinese academy of science, Chinese Academy of Sciences"
+      ],
+      "first_institute": "Institute of automation, Chinese academy of science, Chinese Academy of Sciences"
     },
     {
       "paper_id": "iclr2026:the-geometry-of-llm-quantization-gptq-as-babai-s-nearest-plane-algorithm:dce47468fa",
@@ -62548,9 +63761,35 @@
         "~Dongbin_Zhao1"
       ],
       "affiliations": [
+        "Meituan",
         "Institute of automation, Chinese academy of science, Chinese Academy of Sciences"
       ],
-      "first_institute": "Institute of automation, Chinese academy of science, Chinese Academy of Sciences"
+      "first_institute": "Meituan"
+    },
+    {
+      "paper_id": "iclr2026:tianquan-s2s-a-subseasonal-to-seasonal-global-weather-model-via-incorpor:f5d8712cba",
+      "title": "TianQuan-S2S: A Subseasonal-to-Seasonal Global Weather Model via Incorporate Climatology State",
+      "paper_url": "https://openreview.net/forum?id=7Dvmq7MhwU",
+      "authorids": [
+        "~Guowen_Li1",
+        "~Xintong_Liu5",
+        "~Yang_Liu21",
+        "~Mengxuan_Chen1",
+        "~Shilei_Cao4",
+        "~Xuehe_Wang1",
+        "~Juepeng_Zheng1",
+        "~Jinxiao_Zhang1",
+        "~Haoyuan_Liang1",
+        "~Lixian_Zhang1",
+        "~Jiuke_Wang1",
+        "~Meng_Jin1",
+        "~Hong_Cheng1",
+        "~Haohuan_Fu1"
+      ],
+      "affiliations": [
+        "Sun Yat-Sen University"
+      ],
+      "first_institute": "Sun Yat-Sen University"
     },
     {
       "paper_id": "iclr2026:withanyone-toward-controllable-and-id-consistent-image-generation:9310aef715",
@@ -62831,6 +64070,21 @@
       "first_institute": "Hong Kong University of Science and Technology"
     },
     {
+      "paper_id": "iclr2026:rd-hrl-generating-reliable-sub-goals-for-long-horizon-sparse-reward-task:994206b482",
+      "title": "RD-HRL: Generating Reliable Sub-Goals for Long-Horizon Sparse-Reward Tasks",
+      "paper_url": "https://openreview.net/forum?id=5E5sd3TWGD",
+      "authorids": [
+        "~Yixiang_Shan1",
+        "~Haipeng_Liu3",
+        "~Ting_Long1",
+        "~Yi_Chang4"
+      ],
+      "affiliations": [
+        "Jilin University"
+      ],
+      "first_institute": "Jilin University"
+    },
+    {
       "paper_id": "iclr2026:gepo-group-expectation-policy-optimization-for-stable-heterogeneous-rein:eb0fa2f7d2",
       "title": "GEPO: Group Expectation Policy Optimization for Stable Heterogeneous Reinforcement Learning",
       "paper_url": "https://openreview.net/forum?id=movNwgQtDt",
@@ -62907,6 +64161,23 @@
         "Xi'an Jiaotong University"
       ],
       "first_institute": "Xi'an Jiaotong University"
+    },
+    {
+      "paper_id": "iclr2026:visiontrim-unified-vision-token-compression-for-training-free-mllm-accel:26523d60fc",
+      "title": "VisionTrim: Unified Vision Token Compression for Training-Free MLLM Acceleration",
+      "paper_url": "https://openreview.net/forum?id=57IXIg6nZ0",
+      "authorids": [
+        "~Hanxun_Yu1",
+        "~Wentong_Li2",
+        "~Xuan_Qu1",
+        "~Song_Wang11",
+        "~Junbo_Chen1",
+        "~Jianke_Zhu1"
+      ],
+      "affiliations": [
+        "Tencent Hunyuan LLM"
+      ],
+      "first_institute": "Tencent Hunyuan LLM"
     },
     {
       "paper_id": "iclr2026:crocodilight-repurposing-cross-view-completion-encoders-for-relighting:f60c84b0f1",
@@ -63388,9 +64659,10 @@
         "~Xuanchi_Ren1"
       ],
       "affiliations": [
+        "NVIDIA",
         "University of Toronto"
       ],
-      "first_institute": "University of Toronto"
+      "first_institute": "NVIDIA"
     },
     {
       "paper_id": "iclr2026:mhla-restoring-expressivity-of-linear-attention-via-token-level-multi-he:380cdb29fe",
@@ -63858,6 +65130,21 @@
         "University of California Berkeley"
       ],
       "first_institute": "University of California Berkeley"
+    },
+    {
+      "paper_id": "iclr2026:t-tamer-provably-taming-trade-offs-in-ml-serving:a49c368a73",
+      "title": "T-TAMER: Provably Taming Trade-offs in ML Serving",
+      "paper_url": "https://openreview.net/forum?id=JFY9MZtWTu",
+      "authorids": [
+        "~Yuanyuan_Chloe_Yang1",
+        "~Ruimin_Zhang1",
+        "~Jamie_Heather_Morgenstern1",
+        "~Haifeng_Xu1"
+      ],
+      "affiliations": [
+        "University of Chicago"
+      ],
+      "first_institute": "University of Chicago"
     },
     {
       "paper_id": "iclr2026:aligning-visual-foundation-encoders-to-tokenizers-for-diffusion-models:1da93b6817",
@@ -64612,7 +65899,8 @@
         "~Philip_S._Yu1"
       ],
       "affiliations": [
-        "University of Maryland, College Park"
+        "University of Maryland, College Park",
+        "Huazhong University of Science and Technology"
       ],
       "first_institute": "University of Maryland, College Park"
     },
@@ -65115,6 +66403,20 @@
       "first_institute": "Houmo"
     },
     {
+      "paper_id": "iclr2026:explainable-k-means-neural-networks-for-multi-view-clustering:46e1bf25f1",
+      "title": "Explainable $ K $-means Neural Networks for Multi-view Clustering",
+      "paper_url": "https://openreview.net/forum?id=ljM1HTSH9c",
+      "authorids": [
+        "~Yalan_Qin1",
+        "~Xinpeng_Zhang2",
+        "~Guorui_Feng1"
+      ],
+      "affiliations": [
+        "Shanghai University"
+      ],
+      "first_institute": "Shanghai University"
+    },
+    {
       "paper_id": "iclr2026:nc-bench-and-ncfold-a-benchmark-and-closed-loop-framework-for-rna-non-ca:eab45b873f",
       "title": "NC-Bench and NCfold: A Benchmark and Closed-Loop Framework for RNA Non-Canonical Base-Pair Prediction",
       "paper_url": "https://openreview.net/forum?id=G9UhQEZHjY",
@@ -65587,6 +66889,25 @@
         "Technische Universität Hamburg"
       ],
       "first_institute": "Technische Universität Hamburg"
+    },
+    {
+      "paper_id": "iclr2026:on-the-design-of-one-step-diffusion-via-shortcutting-flow-paths:3243f134f9",
+      "title": "On the Design of One-step Diffusion via Shortcutting Flow Paths",
+      "paper_url": "https://openreview.net/forum?id=k6q8rRYVQR",
+      "authorids": [
+        "~Haitao_Lin2",
+        "~Peiyan_Hu1",
+        "~Minsi_Ren1",
+        "~Zhifeng_Gao1",
+        "~Zhi-Ming_Ma1",
+        "~Guolin_Ke3",
+        "~Tailin_Wu1",
+        "~Stan_Z._Li2"
+      ],
+      "affiliations": [
+        "DP Technology"
+      ],
+      "first_institute": "DP Technology"
     },
     {
       "paper_id": "iclr2026:ode-gs-latent-odes-for-dynamic-scene-extrapolation-with-3d-gaussian-spla:09db0af8a2",
@@ -66322,6 +67643,25 @@
       "first_institute": "University of Southern California"
     },
     {
+      "paper_id": "iclr2026:block-wise-adaptive-caching-for-accelerating-diffusion-policy:56a18aa140",
+      "title": "Block-wise Adaptive Caching for Accelerating Diffusion Policy",
+      "paper_url": "https://openreview.net/forum?id=c6ZWfQLOWD",
+      "authorids": [
+        "~Kangye_Ji1",
+        "~Yuan_Meng2",
+        "~Hanyun_Cui1",
+        "~Ye_Li2",
+        "~Jianbo_Zhou1",
+        "~Shengjia_Hua1",
+        "~Lei_Chen34",
+        "~Zhi_Wang5"
+      ],
+      "affiliations": [
+        "South China University of Technology"
+      ],
+      "first_institute": "South China University of Technology"
+    },
+    {
       "paper_id": "iclr2026:long-tailed-test-time-adaptation-for-vision-language-models:7692d48b36",
       "title": "Long-tailed Test-Time Adaptation for Vision-Language Models",
       "paper_url": "https://openreview.net/forum?id=jLO4pSi5Pt",
@@ -66448,6 +67788,22 @@
         "Nanyang Technological University"
       ],
       "first_institute": "Nanyang Technological University"
+    },
+    {
+      "paper_id": "iclr2026:spurious-correlation-aware-embedding-regularization-for-worst-group-robu:0050213355",
+      "title": "Spurious Correlation-Aware Embedding Regularization for Worst-Group Robustness",
+      "paper_url": "https://openreview.net/forum?id=Grb5AOs7WC",
+      "authorids": [
+        "~Subeen_Park1",
+        "~JOOWANG_KIM1",
+        "~Hakyung_Lee1",
+        "~Sunjae_yoo1",
+        "~Kyungwoo_Song1"
+      ],
+      "affiliations": [
+        "Yonsei University"
+      ],
+      "first_institute": "Yonsei University"
     },
     {
       "paper_id": "iclr2026:matting-anything-2-towards-video-matting-for-anything:2229521667",
