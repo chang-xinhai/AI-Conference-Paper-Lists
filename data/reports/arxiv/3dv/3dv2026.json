@@ -1,0 +1,22 @@
+{
+  "schema_version": "0.1",
+  "venue_key": "3dv",
+  "year": 2026,
+  "source": "arxiv",
+  "source_url": "https://export.arxiv.org/api/query",
+  "generated_at": "2026-06-18T15:00:05Z",
+  "queried": 177,
+  "cached_queries": 177,
+  "matched": 139,
+  "normalized_updated": 139,
+  "raw_updated": 139,
+  "failures": 0,
+  "by_status": {
+    "rejected": 38,
+    "matched": 139
+  },
+  "by_reason": {
+    "no_exact_title_match": 38,
+    "exact_title_author_year_match": 139
+  }
+}
